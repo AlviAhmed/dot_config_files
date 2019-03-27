@@ -1,0 +1,50 @@
+mkdir Labs_pir
+mkdir new_meg
+shell unzip  ELE 639 - BME 639.zip
+search late
+search ncmpp
+search ncm
+search mpc
+search mpd
+search Cava
+search .cava
+search cava
+open_with 
+open_with vim
+open_with mpc
+mkdir Lab2
+rename Lab2
+shell
+search config
+search status
+search i3
+search .i3
+search shows
+search mid
+search vid
+search git
+search .bashrc
+search plugin
+search plug
+search trash
+search .mp4
+open_with thunar
+delete personal_pics
+search pic
+search Dis
+delete
+
+i
+search .vim
+search .nvim
+search nvmi
+g
+open_with 1
+search CNC
+search nerd
+rename mainr.hex
+search 
+search nvim
+search neo
+search vim
+search .config
