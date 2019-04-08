@@ -1,0 +1,1 @@
+/home/al/.config/i3

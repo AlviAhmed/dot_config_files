@@ -1,0 +1,1 @@
+/home/al/.emacs.d
