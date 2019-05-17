@@ -24,6 +24,14 @@
 ;;Disabling the scroll bar
 (toggle-scroll-bar -1)
 
+;;Dired ranger config
+(use-package dired-ranger
+  :ensure t
+  :bind (:map dired-mode-map
+              ("y" . dired-ranger-copy)
+              ("X" . dired-ranger-move)
+              ("p" . dired-ranger-paste)))
+
 ;;Dash board
 (use-package dashboard
   :ensure t
@@ -64,6 +72,13 @@
 (setq do-create-new-buffer 'always)
 (setq ido-everywhere t)
 (ido-mode 1)
+
+;;Ido Vertical Mode
+(require 'ido-vertical-mode)
+(ido-mode 1)
+(ido-vertical-mode 1)
+(setq ido-vertical-define-keys 'C-n-and-C-p-only)
+
 
 ;;Setting up Smex, auto completion for M-x
 (use-package smex
@@ -110,7 +125,13 @@
 ;;Enabling line show mode
 (global-hl-line-mode t)
 
-;;Beacon, cursor signal when switching windows
+;Switching Windows
+(global-set-key (kbd "M-k") 'windmove-up)
+(global-set-key (kbd "M-j") 'windmove-down)
+(global-set-key (kbd "M-l") 'windmove-right)
+(global-set-key (kbd "M-h") 'windmove-left)
+
+;;beacon, cursor signal when switching windows
 (use-package beacon :ensure t :init (beacon-mode 1))
 
 ;; Fixing the scroll
