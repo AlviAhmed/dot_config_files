@@ -164,7 +164,7 @@ bar {
 	position top
 	colors {
 		
-        background #000000
+        background #090f68
 #        statusline #00A5FF #that neon blue
   	}
 	font pango:DejaVu Sans Bold 10
@@ -181,7 +181,8 @@ bar {
 } 
 
 #custom key Bindings 
-bindsym $mod+t exec thunar
+bindsym $mod+t exec thunar 
+bindsym $mod+m exec emacs
 bindsym $mod+p exec xfce4-power-manager-settings 
 bindsym $mod+n exec ~/comtools/./netres.sh
 bindsym $mod+i exec ~/waterfox/./waterfox    
@@ -221,7 +222,8 @@ bindsym XF86AudioPrev exec playerctl previous
 #exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/firefox'
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id feh --bg-scale /home/al/Pictures/Wallpapers  
-exec --no-startup-id xfce4-power-manager-settings
+exec --no-startup-id xfce4-power-manager-settings 
 bindsym $mod+o  exec --no-startup-id "i3lock -i ~/Desktop/i3lock_pic/123.png -p win|default && systemctl suspend"
 
+ 
 

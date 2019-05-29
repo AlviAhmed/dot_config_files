@@ -104,13 +104,28 @@ alias l='ls -CF'
 alias r='ranger'
 alias sr='sudo ranger'
 alias nr='sudo service network-manager restart'  
+alias ns='sudo service network-manager stop'  
 alias v='vim' 
 alias sv='sudo vim'
 
+#Extreme Dim For Both Monitors
+alias evdim='xrandr --output VGA1 --brightness $1'
+alias eldim='xrandr --output LVDS1 --brightness $1'
+
+
+
+#Opening correct version of emacs
+alias em='emacs-26.1 -nw'
+alias emc='emacsclient'
 
 #Multiple monitor commands (user defined not default)
+
+alias lvds='xrandr --output VGA1 --off --output LVDS1 --auto --rotate normal --pos 0x0'
+alias lvds1='xrandr --output DP1 --off --output LVDS1 --auto --rotate normal --pos 0x0'
+
+alias dp1='xrandr --output LVDS1 --off --output DP1 --auto --rotate normal --pos 0x0' 
 alias vga='xrandr --output LVDS1 --off --output VGA1 --auto --rotate normal --pos 0x0' 
-alias lvds='xrandr --output VGA1 --off --output LVDS1 --auto --rotate normal --pos 0x0'     
+
 alias dualr='xrandr --output LVDS1 --auto --rotate normal --pos 0x0 --output VGA1 --auto  --rotate normal --right-of LVDS1' 
 alias blank='xrandr --output LVDS1 --off --output VGA1 --off' 
 alias project='xrandr --output LVDS1 --auto --output VGA1 --mode 1600x768'
@@ -154,3 +169,5 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+# Virtual Environment Wrapper
+alias workoncv-3.4.6="source /home/al/opencv-3.4.6/OpenCV-3.4.6-py3/bin/activate"

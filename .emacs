@@ -15,12 +15,18 @@
 			    (?\[ . ?\])
 			    (?\" . ?\")
 			    (?\' . ?\')
-			    (?\< . ?\>)
-			    (?\\ . ?\\)
+			   ;; (?\< . ?\>)
+			   ;; (?\\ . ?\\)
 			    ))
 (electric-pair-mode 1)
 
-
+(evil-mode 1)
+;;(setq evil-want-C-i-jump nil)
+;; Setting ctrl-u for scroll, needs to be before require evil
+(define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-normal-state-map (kbd "C-d") 'evil-scroll-down)
+;; making evil mode default
+(require 'evil)
 ;;Disabling the scroll bar
 (toggle-scroll-bar -1)
 
@@ -107,7 +113,7 @@
 (setq-default display-line-numbers 'relative)
 
 ;;Enabling tab indents I think
-;;(setq-default tab-always-indent 'complete)
+(setq-default tab-always-indent 'complete)
 
 ;;Pop-up menu for kill ring
 (require 'popup)
@@ -121,28 +127,29 @@
 ;; iBuffer for C-x C-b
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
-
 ;;Enabling line show mode
 (global-hl-line-mode t)
 
-;Switching Windows
+;;Switching Windows
 (global-set-key (kbd "M-k") 'windmove-up)
 (global-set-key (kbd "M-j") 'windmove-down)
 (global-set-key (kbd "M-l") 'windmove-right)
 (global-set-key (kbd "M-h") 'windmove-left)
+(global-set-key (kbd "M-<up>") 'windmove-up)
+(global-set-key (kbd "M-<down>") 'windmove-down)
+(global-set-key (kbd "M-<right>") 'windmove-right)
+(global-set-key (kbd "M-<left>") 'windmove-left)
+;;Resizing windows
+(global-set-key (kbd "M-H") 'shrink-window-horizontally)
+(global-set-key (kbd "M-L") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-J") 'shrink-window)
+(global-set-key (kbd "M-K") 'enlarge-window)
 
 ;;beacon, cursor signal when switching windows
 (use-package beacon :ensure t :init (beacon-mode 1))
 
 ;; Fixing the scroll
 (setq scroll-conservatively 100)
-
-;; Setting ctrl-u for scroll, needs to be before require evil
-(setq evil-want-C-u-scroll t)
-(setq evil-want-C-d-scroll t)
-;; making evil mode default
-(require 'evil)
-(evil-mode 1)
 
 ;;setting default auto complete mode
 (ac-config-default)
@@ -199,7 +206,7 @@
  '(custom-enabled-themes (quote (spacemacs-dark)))
  '(custom-safe-themes
    (quote
-    ("274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "cd736a63aa586be066d5a1f0e51179239fe70e16a9f18991f6f5d99732cabb32" "f0dc4ddca147f3c7b1c7397141b888562a48d9888f1595d69572db73be99a024" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
+    ("151bde695af0b0e69c3846500f58d9a0ca8cb2d447da68d7fbf4154dcf818ebc" "6b289bab28a7e511f9c54496be647dc60f5bd8f9917c9495978762b99d8c96a0" "8aca557e9a17174d8f847fb02870cb2bb67f3b6e808e46c0e54a44e3e18e1020" "1c082c9b84449e54af757bcae23617d11f563fc9f33a832a8a2813c4d7dfb652" "6b2636879127bf6124ce541b1b2824800afc49c6ccd65439d6eb987dbf200c36" "49ec957b508c7d64708b40b0273697a84d3fee4f15dd9fc4a9588016adee3dad" "6d589ac0e52375d311afaa745205abb6ccb3b21f6ba037104d71111e7e76a3fc" "100e7c5956d7bb3fd0eebff57fde6de8f3b9fafa056a2519f169f85199cc1c96" "fe666e5ac37c2dfcf80074e88b9252c71a22b6f5d2f566df9a7aa4f9bea55ef8" "274fa62b00d732d093fc3f120aca1b31a6bb484492f31081c1814a858e25c72e" "cd736a63aa586be066d5a1f0e51179239fe70e16a9f18991f6f5d99732cabb32" "f0dc4ddca147f3c7b1c7397141b888562a48d9888f1595d69572db73be99a024" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" default)))
  '(fci-rule-color "#9e9e9e")
  '(hl-todo-keyword-faces
    (quote

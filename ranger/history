@@ -1,50 +1,50 @@
-search mid
-search vid
-search git
-search .bashrc
-search plugin
-search plug
-search trash
-search .mp4
-delete personal_pics
-search pic
-search Dis
-i
-search .vim
-search .nvim
-search nvmi
-g
-open_with 1
-search CNC
-search nerd
-rename mainr.hex
-search neo
-search .config
-search nvim
-bulkrename
-search zshrc
-search cat
-search q
-search R
-search README
+search 14
+search e,acs
+search xsessio
 search emacs
-search mail
-rename .emacs_old.d
-search .emacs
-open_with thunar
-search cmak
-search .vimrc
-search vim
-delete
+search xse
+search Batman
+search Frost
+search trash
+search local
+search Trash
+search L3
+search l3
+search .bash
 search zsh
-search xfce4
-search ter
-search Emacs_as
-
+open_with emacs
+open_with emacsclient
 search bash
-mkdir aecom
-mkdir suez-data
+search q
+search op
+search opencv_contri
+search contrib
+search c++
+search Docu
+search cmake
+search open
+search
+search resu
+search mk
+mkdir MATLAB
+search mat
+mkdir R2018b
+search loca
+search MAT
+search sr
+search usr
+rename Year4.5Sem1
+search ranger
 search 
-search bode
-search bod
-search freq
+search .emacs
+open_with subl
+search slip
+open_with emacs -nw
+open_with
+search .zip
+rename ele725_lab1_updated.m
+rename ele725_lab1.m_
+rename ele725_lab1.m
+search ltx
+delete
+mkdir lab1_pir_report
