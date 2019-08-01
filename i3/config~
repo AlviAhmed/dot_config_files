@@ -98,7 +98,11 @@ bindsym $mod+a focus parent
 #assign power-manager to specific workspace 
 
 assign [class="^Xfce4-power-manager-settings"] 10
+assign [class="^Waterfox"] 2
+assign [class="^emacs"] 1
 
+# Can switch between current and last workspace with same number
+workspace_auto_back_and_forth yes
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
@@ -158,12 +162,28 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
+#Syntax:
+#
+#mode dock|hide|invisible
+#hidden_state hide|show
+#modifier <Modifier>|none
+#
+#Example:
+#
+#bar {
+#    mode dock|hide|invisible
+#    hidden_state hide|show
+#    modifier Mod1
+#}
 bar {    
-	mode dock
-	hidden_state show 
+	mode invisible
+	hidden_state show
 	position top
+	modifier Mod1
 	colors {
-        background #000000
+		
+        background #090f68
 #        statusline #00A5FF #that neon blue
   	}
 	font pango:DejaVu Sans Bold 10
@@ -177,14 +197,16 @@ bar {
 	#(◕‿◕)
 	#binding_mode_indicator yes 
 	
-} 
+}
 
 #custom key Bindings 
-bindsym $mod+t exec thunar
+bindsym $mod+t exec thunar 
+bindsym $mod+m exec emacs
 bindsym $mod+p exec xfce4-power-manager-settings 
-bindsym $mod+n exec ~/comtools/./netres.sh
-bindsym $mod+i exec ~/waterfox/./waterfox    
+bindsym $mod+n exec ~/Documents/bash_scripts ./netres.sh
+bindsym $mod+i exec ~/waterfox/./waterfox
 bindsym $mod+Shift+i exec chromium-browser
+bindsym $mod+Shift+t bar mode toggle
 bindsym $mod+Shift+a exec xfce4-appfinder 
 bindsym $mod+x	     exec xfce4-screenshooter  
 
@@ -221,6 +243,9 @@ bindsym XF86AudioPrev exec playerctl previous
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id feh --bg-scale /home/al/Pictures/Wallpapers  
 exec --no-startup-id xfce4-power-manager-settings
+exec --no-startup-id emacs
+#exec --no-startup-id emacs 
 bindsym $mod+o  exec --no-startup-id "i3lock -i ~/Desktop/i3lock_pic/123.png -p win|default && systemctl suspend"
 
+ 
 

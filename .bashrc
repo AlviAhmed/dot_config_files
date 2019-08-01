@@ -126,7 +126,8 @@ alias lvds1='xrandr --output DP1 --off --output LVDS1 --auto --rotate normal --p
 alias dp1='xrandr --output LVDS1 --off --output DP1 --auto --rotate normal --pos 0x0' 
 alias vga='xrandr --output LVDS1 --off --output VGA1 --auto --rotate normal --pos 0x0' 
 
-alias dualr='xrandr --output LVDS1 --auto --rotate normal --pos 0x0 --output VGA1 --auto  --rotate normal --right-of LVDS1' 
+alias dualr='xrandr --output LVDS1 --auto --rotate normal --pos 0x0 --output VGA1 --auto  --rotate normal --right-of LVDS1'
+
 alias blank='xrandr --output LVDS1 --off --output VGA1 --off' 
 alias project='xrandr --output LVDS1 --auto --output VGA1 --mode 1600x768'
 
@@ -134,7 +135,7 @@ alias project='xrandr --output LVDS1 --auto --output VGA1 --mode 1600x768'
 
 export NNN_FALLBACK_OPENER=xdg-open 
 export NNN_DE_FILE_MANAGER=thunar
-
+export XDG_CURRENT_DESKTOP=KDE
 #cpu commmands 
 alias cpuinfo='sudo cpufreq-info'
 alias perform='sudo bash comtools/performance.sh' 
@@ -171,3 +172,19 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 # Virtual Environment Wrapper
 alias workoncv-3.4.6="source /home/al/opencv-3.4.6/OpenCV-3.4.6-py3/bin/activate"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/al/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/al/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/al/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/al/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

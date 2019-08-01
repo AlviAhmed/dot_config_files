@@ -1,6 +1,6 @@
 syntax on   
 syntax enable
-colorscheme dracula
+colorscheme synthwave
 
 filetype plugin indent on 
 

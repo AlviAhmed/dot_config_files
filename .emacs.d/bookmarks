@@ -1,0 +1,185 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("dot_config_files"
+ (filename . "~/Documents/Git_Projects/dot_config_files/")
+ (front-context-string . ".bashrc\n  -rw-rw")
+ (rear-context-string . "57 May 29 07:44 ")
+ (position . 228))
+(".conky"
+ (filename . "~/.conky/")
+ (front-context-string . "black_diamond\n  ")
+ (rear-context-string . "96 Jul 30 09:33 ")
+ (position . 204))
+("python_practice"
+ (filename . "~/Documents/python_practice/")
+ (front-context-string . "float_python.py\n")
+ (rear-context-string . "82 Jul 22 18:48 ")
+ (position . 216))
+("i3"
+ (filename . "~/.config/i3/")
+ (front-context-string . "config\n  -rw-rw-")
+ (rear-context-string . "30 Jul  7 03:12 ")
+ (position . 201))
+("work_table_light"
+ (filename . "~/Documents/Git_Projects/work_table_light/")
+ (front-context-string . ".git\n  -rw-rw-r-")
+ (rear-context-string . "96 Jul 15 05:12 ")
+ (position . 228))
+("wave_generator_report"
+ (filename . "~/Documents/wave_generator_report/")
+ (front-context-string . "report_pics\n  -r")
+ (rear-context-string . "96 Jul  6 00:01 ")
+ (position . 226))
+("alarm_script"
+ (filename . "~/Documents/bash_scripts/alarm_script/")
+ (front-context-string . ".\n  drwxrwxr-x 3")
+ (rear-context-string . "96 Jun 26 20:43 ")
+ (position . 140))
+("Waveform_Generator"
+ (filename . "~/Documents/Git_Projects/Waveform_Generator/")
+ (front-context-string . "dcconvertercircu")
+ (rear-context-string . "09 Mar 16 15:12 ")
+ (position . 233))
+("CHST 506 "
+ (filename . "~/Documents/Year4.5Sem1/CHST 506 /")
+ (front-context-string)
+ (rear-context-string . "Jun 25 13:33 ..\n")
+ (position . 176))
+("Videos"
+ (filename . "~/Videos/")
+ (front-context-string . "AVR_USART__Seria")
+ (rear-context-string . "47 Apr  2 06:18 ")
+ (position . 220))
+("Pictures"
+ (filename . "~/Pictures/")
+ (front-context-string . "slideshow_trial\n")
+ (rear-context-string . "96 Jun 23 12:40 ")
+ (position . 628))
+("~"
+ (filename . "~/")
+ (front-context-string . "  drwx------   3")
+ (rear-context-string . "123535Z-001.zip\n")
+ (position . 370))
+("downloaded_webpages"
+ (filename . "~/downloaded_webpages/")
+ (front-context-string . "index.html.1\n  -")
+ (rear-context-string . "70 May 29 12:28 ")
+ (position . 218))
+("latex_lab2_ele639"
+ (filename . "~/Documents/Year4Sem2/ELE 639 - BME 639/Labs_al/Lab2/latex_lab2/")
+ (front-context-string . "lab2.tex\n  -rw-r")
+ (rear-context-string . "80 Mar 26 20:00 ")
+ (position . 590))
+("books"
+ (filename . "~/Documents/books/")
+ (front-context-string . "anode.pdf\n  -rwx")
+ (rear-context-string . "86 Jun 12  2017 ")
+ (position . 470))
+("CENG 112"
+ (filename . "~/Documents/Year4.5Sem1/CENG 112/")
+ (front-context-string . "DroneAreaA.jpg\n ")
+ (rear-context-string . "14 May 17 12:27 ")
+ (position . 226))
+("avr_usart"
+ (filename . "~/Documents/Projects/avr_usart/")
+ (front-context-string . "main.elf\n  -rw-r")
+ (rear-context-string . "80 May 23 21:12 ")
+ (position . 217))
+("ELE 725"
+ (filename . "~/Documents/Year4.5Sem1/ELE 725/")
+ (front-context-string . "Lab 0\n  drwxrwxr")
+ (rear-context-string . "96 May 14 13:51 ")
+ (position . 326))
+("Year4.5Sem1"
+ (filename . "~/Documents/Year4.5Sem1/")
+ (front-context-string . "COE 768.zip\n  dr")
+ (rear-context-string . "77 May 13 12:51 ")
+ (position . 281))
+("ranger-u"
+ (filename . "~/Documents/Year4Sem2/usbfiles/")
+ (front-context-string . "ELE635-PDFS/\n  d")
+ (rear-context-string . " 4k 04-13 13:07 ")
+ (position . 134))
+("electronic documents"
+ (filename . "~/Documents/electronic documents/")
+ (front-context-string . "2N3904.pdf\n  -rw")
+ (rear-context-string . "79 Mar 12 17:40 ")
+ (position . 290))
+("c++_practice"
+ (filename . "~/Documents/c++_practice/")
+ (front-context-string . "example_prog.cpp")
+ (rear-context-string . "76 Apr 11 20:43 ")
+ (position . 318))
+("Music"
+ (filename . "~/Music/")
+ (front-context-string . "2013 - Out of Bo")
+ (rear-context-string . "96 Apr  9 14:34 ")
+ (position . 212))
+("ELE 639 - BME 639"
+ (filename . "~/Documents/Year4Sem2/ELE 639 - BME 639/")
+ (front-context-string . "clickerreg.png\n ")
+ (rear-context-string . "74 Jan  8 14:23 ")
+ (position . 240))
+("ELE 637"
+ (filename . "~/Documents/Year4Sem2/ELE 637/")
+ (front-context-string . "Course Outline\n ")
+ (rear-context-string . "96 Jan 11 11:34 ")
+ (position . 215))
+("ELE 635"
+ (filename . "~/Documents/Year4Sem2/ELE 635/")
+ (front-context-string . "Assignments\n  dr")
+ (rear-context-string . "96 Mar 21 14:03 ")
+ (position . 230))
+("ELE 632 - BME 632"
+ (filename . "~/Documents/Year4Sem2/ELE 632 - BME 632/")
+ (front-context-string . "Course Outline\n ")
+ (rear-context-string . "96 Jan 14 15:15 ")
+ (position . 240))
+("CEN 800"
+ (filename . "~/Documents/Year4Sem2/CEN 800/")
+ (front-context-string . "CEN800 - Drive\n ")
+ (rear-context-string . "96 Jan 11 11:58 ")
+ (position . 215))
+("ranger-k"
+ (filename . "~/Documents/resumes/new_current/Al/cover_letter/")
+ (front-context-string . "cohesity\n  drwxr")
+ (rear-context-string . "0K Apr  7 14:38 ")
+ (position . 87))
+("new_current"
+ (filename . "~/Documents/resumes/new_current/")
+ (front-context-string . "Al\n  drwxrwxr-x ")
+ (rear-context-string . "96 Apr  1 22:41 ")
+ (position . 217))
+("resumes"
+ (filename . "~/Documents/resumes/")
+ (front-context-string . "al_resume.docx\n ")
+ (rear-context-string . "50 Jun 24  2018 ")
+ (position . 209))
+("Downloads"
+ (filename . "~/Downloads/")
+ (front-context-string . "AVR_USART__Seria")
+ (rear-context-string . "47 Apr  2 06:18 ")
+ (position . 219))
+("Documents"
+ (filename . "~/Documents/")
+ (front-context-string . "alvi.ahmed@ryers")
+ (rear-context-string . "96 Jul 18  2018 ")
+ (position . 216))
+("Git_Projects"
+ (filename . "~/Documents/Git_Projects/")
+ (front-context-string . "avr_cnc\n  drwxrw")
+ (rear-context-string . "96 Mar 26 18:45 ")
+ (position . 213))
+("Projects"
+ (filename . "~/Documents/Projects/")
+ (front-context-string . "avr_cnc\n  drwxrw")
+ (rear-context-string . "96 Apr  1 13:04 ")
+ (position . 210))
+("Year4Sem2"
+ (filename . "~/Documents/Year4Sem2/")
+ (front-context-string . "CEN 800\n  -rw-rw")
+ (rear-context-string . "96 Jan 27 10:30 ")
+ (position . 227))
+)

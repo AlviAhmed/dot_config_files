@@ -1,50 +1,50 @@
-search 14
-search e,acs
-search xsessio
-search emacs
-search xse
-search Batman
-search Frost
-search trash
-search local
-search Trash
-search L3
-search l3
-search .bash
-search zsh
-open_with emacs
-open_with emacsclient
-search bash
-search q
-search op
-search opencv_contri
-search contrib
-search c++
-search Docu
-search cmake
-search open
-search
-search resu
-search mk
-mkdir MATLAB
-search mat
-mkdir R2018b
-search loca
-search MAT
-search sr
-search usr
-rename Year4.5Sem1
-search ranger
-search 
+search emacs.d
 search .emacs
-open_with subl
-search slip
-open_with emacs -nw
-open_with
-search .zip
-rename ele725_lab1_updated.m
-rename ele725_lab1.m_
-rename ele725_lab1.m
-search ltx
-delete
-mkdir lab1_pir_report
+mkdir histograms
+search gif
+search tor
+search lecture 9
+search bash
+search 401
+searckk
+rename Lab 5 (Coding Assignment)
+search Steam
+search pic
+open_with 
+search midterm
+search fundement
+search fund
+search text
+search question
+search candy
+mkdir icons
+search icons
+rename Icons
+shell unzip candy-icons.tar.xz 
+thunar
+mkdir memes_red
+search Pic
+mkdir sweet_themes_zip
+shell thunar
+search usr
+search share
+search theme
+search Swee
+search m
+search album
+search 
+surf
+shell surf
+open_with 4
+shell 
+search gen
+search Docu
+search docu
+search python
+search .html
+open_with firefox
+search books
+search doc
+search concky
+search conky
+shell unzip conky2_by_dinozaur1982_d58gktj.zip 
