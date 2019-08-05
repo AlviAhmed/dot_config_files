@@ -112,7 +112,12 @@ alias sv='sudo vim'
 alias evdim='xrandr --output VGA1 --brightness $1'
 alias eldim='xrandr --output LVDS1 --brightness $1'
 
+#Alarm bash script
+alias studytimer='cd ~/Documents/bash_scripts/alarm_script && bash alarm_timer.sh'
 
+#Going to favourite music directories
+alias slipknot='cd ~/Music/Slipknot'
+alias dancedead='cd ~/Music/Dance\ with\ the\ Dead'
 
 #Opening correct version of emacs
 alias em='emacs-26.1 -nw'
