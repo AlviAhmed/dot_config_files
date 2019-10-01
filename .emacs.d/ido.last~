@@ -1,0 +1,306 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/al/Documents/ELE 725/" . "Lab 1/")
+ ("/home/al/Documents/Year4Sem1/ELE 504/" . "lab_MP/")
+ ("/home/al/Documents/Year4Sem1/" . "ELE 504/")
+ ("/home/al/.emacs.d/" . "snippets/")
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 2/" . "lab2_tex/")
+ ("/home/al/Documents/wave_generator_report/" . "report_pics/")
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/" . "lab2_tex/")
+ ("/home/al/downloaded_webpages/" . "gnu_emacs_manual/")
+ ("/home/al/FrostWire/" . "Torrent Data/")
+ ("/home/al/Documents/resumes/new_current/Al/" . "cover_letter/")
+ ("/home/al/L3webcam_hackathon/Hackathon2019_Demo/" . "src/")
+ ("/home/al/Documents/Git_Projects/" . "RC_tiny85/")
+ ("/usr/share/" . "xsessions/")
+ ("/usr/" . "share/")
+ ("/home/al/Documents/Projects/" . "blink_test_tiny85/")
+ ("/home/al/Documents/ELE 404/7th Edition/" . "Example Solutions/")
+ ("/home/al/Documents/ELE 404/" . "7th Edition/")
+ ("/home/al/Documents/" . "ELE 725/")
+ ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/gay_activities/" . "homework2/")
+ ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/" . "gay_activities/")
+ ("/home/al/Documents/resumes/new_current/" . "Al/")
+ ("/home/" . "al/")
+ ("/" . "usr/")
+ ("/home/al/Documents/resumes/new_current/Al/cover_letter/" . "aecom/")
+ ("/home/al/.config/" . "i3/")
+ ("/home/al/" . ".emacs.d/")
+ ("/home/al/Documents/Year4Sem2/ELE 632 - BME 632/Labs_curr/" . "lab4/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/proof/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/"
+ "/home/al/Documents/ELE 725/Lab 4/lab4_tex/"
+ "/home/al/Documents/wave_generator_report/"
+ "/home/al/Documents/ELE 725/Lab 1/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/lab1_tex/"
+ "/home/al/Documents/ELE 725/Lab 3/lab3_tex/"
+ "/home/al/Documents/ELE 725/Lab 1/lab1_tex/"
+ "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/"
+ "/home/al/"
+ "/home/al/Documents/Git_Projects/RC_tiny85/"
+ "/home/al/Documents/Git_Projects/work_table_light/work_table_light/"
+ "/home/al/Documents/Projects/blink_test_tiny85/"
+ "/home/al/Documents/resumes/new_current/Al/cover_letter/celestica/"
+ "/home/al/Documents/resumes/new_current/Al/L3wescam/"
+ "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/"
+ "/home/al/Documents/Year5Sem1/ELE724/"
+ "/home/al/Documents/Git_Projects/work_table_light/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20190725.1049/snippets/latex-mode/"
+ "/home/al/.emacs.d/"
+ "/home/al/Documents/Git_Projects/work_table_light/stepper_code/"
+ "/home/al/.config/i3/"
+ "/home/al/Documents/electronic documents/"
+ "/home/al/Documents/birth/"
+ "/home/al/.conky/conky_rings/Conky/"
+ "/home/al/.conky/"
+ "/home/al/Documents/Year4.5Sem1/CHST 506 /chst506_essay/"
+ "/home/al/Documents/python_practice/"
+ "/home/al/Documents/Year4.5Sem1/CHST 506 /notes/"
+ "/home/al/Documents/Git_Projects/Simple_Security_System/"
+ "/home/al/Documents/Projects/rgb_sign_tiny85/"
+ "/home/al/Documents/Projects/pwm_test_tiny84/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/c-lang-common/"
+ "/home/al/Documents/bash_scripts/alarm_script/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/latex-mode/"
+ "/home/al/Documents/Year4Sem1/ELE 504/lab_MP/"
+ "/home/al/Documents/Year4Sem2/ELE 637/"
+ "/home/al/Documents/books/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 5 (Coding Assignment)/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 5 (Coding Assignment)/lab5_tex/"
+ "/home/al/.emacs.d/elpa/yasnippet-20181015.1212/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/emacs-lisp-mode/"
+ "/home/al/.emacs.d/snippets/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_pir/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 2/lab2_tex/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/"
+ "/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/"
+ "/home/al/openspades/openspades.mk/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "lab1_ele725.log"
+ ".emacs"
+ "Makefile"
+ "ele724_labreport_template.tex"
+ "bookmarks"
+ "main_total2.c"
+ ".bashrc"
+ ".i3status.conf"
+ "main_butcol.c"
+ "main_but.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/" (23954 56141 490892 569000) "./" "coe718_lab2.aux" "coelab2_cover_page.pdf" "coe718_lab2.tex~" "coe718_lab2.log" "lab2_ryematerials/" "coe718_lab2.pdf" "../" "coe718_lab2.tex" "Standard_Cover_Page_Assignments.pdf" "submission_materials/" "Lab2.pdf")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/proof/" (23950 36000 0 0) "./" "barrel_shifter_proof.png" "ITE_proof.txt" "../" "Barrel_shifter_proof.txt" "ITE_proof.png")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/" (23954 26748 850250 567000) "Blinky.uvgui.ELCBME" "proof/" "lab2.map" "adc.o" "Font_16x24_h.h" "system_lpc17xx.o" "startup_lpc17xx.lst" "blinky.crf" "Blinky.map" "lab2_uvopt.bak" "Blinky_uvopt.bak" "led.crf" "bitband.c" "lab2_uvproj.bak" "glcd_spi_lpc1700.d" "lab2.uvopt" "bitband.h" "ADC.h" "Blinky.build_log.htm" "irq.crf" "Blinky_LPC1700.dep" "kbd.crf" "system_lpc17xx.crf" "ADC.c" "lab2_LPC1700.dep" "lab2.htm" "lab2.lnp" "bitband.o" "Blinky.uvgui_ELCBME.bak" "Font_6x8_h.h" "kbd.d" "startup_lpc17xx.o" "Blinky.c" "system_lpc17xx.d" "lab2.sct" "system_LPC17xx.c" "irq.d" "lab2.uvgui.ELCBME" "led.d" "startup_lpc17xx.d" "glcd_spi_lpc1700.crf" "bitband.crf" "Blinky.c~" "led.o" "blinky.d" "KBD.c" "adc.crf" "LED.h" "glcd_spi_lpc1700.o" "Blinky.lnp" "irq.o" "startup_LPC17xx.s" "GLCD_SPI_LPC1700.c" "kbd.o" "IRQ.c" "Blinky.axf" "Blinky.uvopt" "lab2.uvgui_ELCBME.bak" "adc.d" "LED.c" "bitband.d" "lab2.uvproj" "Blinky.sct" "lab2.build_log.htm" "Blinky_uvproj.bak" "GLCD.h" "lab2.axf" "Blinky.htm" "blinky.o" "KBD.h" "../" "./")
+
+ ("/home/al/Documents/ELE 725/Lab 4/lab4_tex/" (23882 19197 932702 0) "lab4_ele725.pdf" "lab4_ele725.tex" "./" "results_pics/" "lab4_ele725.aux" "../" "lab4 parts.docx" "lab4_ele725.log" "lab4_ele725.tex~")
+
+ ("/home/al/Documents/wave_generator_report/" (23951 60466 841467 75000) "wave_generator_report.toc" "wave_generator_report.tex" "./" "hackaday_inverting_integrator.txt" "wave_generator_report.org" ".#hackaday_inverting_integrator.txt" "auto/" "wave_generator_report.pdf" "../" "output.html" "wave_generator_report.aux" "wave_generator_report.log" "hackaday_inverting_integrator.txt~" "#hackaday_inverting_integrator.txt#" "wave_generator_report.tex~" "wave_generator_report.out" "report_pics/")
+
+ ("/home/al/Documents/ELE 725/Lab 1/" (23882 19227 643651 0) "DownSample.m" "mu_temp.wav" "ele725_lab1updated.m" "./" "rebuild_hello_N(2).wav" "ele725_lab1.m" "ele725_lab1_Dom.m" "Table of Contents.html" "cover/" "octave-workspace" "rebuild_hello_N(8).wav" "hello_N(2).wav" "ELE725 Lab 1.pdf" "lab1_tex/" "sampling_func.m" "../" "ELE725_lab1.wav" "hello_mu_N(8).wav" "hello_quant_N(4).wav" "hello_mu_N(4).wav" "html/" "hello_quant_N(8).wav" "hello_N(4).wav" "rebuild_hello_N(4).wav" "hello_N(8).wav" "pir_lab1/" "hello_quant_N(2).wav" "hello_mu_N(2).wav")
+
+ ("/home/al/Documents/ELE 725/" (23882 19207 808715 0) "Lecture 8 Questions.pdf" "Lecture 1 Introduction to multimedia systems and processing.pdf" "Tests/" "Latex_IEEE/" "Formula Sheet/" "Lesson 2 Lossless Image Compression systems.pdf" "Lecture 3 Questions and Solutions.pdf" "Lecture 7 Questions and Solutions DCT.pdf" "Lecture 10 Video Coding and Motion Estimation.pdf" "Lecture 4 Questions and Solutions.pdf" "Lecture 6 Questions and Solutions.pdf" "Lecture 7 Transform Coding and Discrete Cosine Transform.pdf" "2_IMG-20190704-WA0002.jpg" "Course Outline/" "Lab 0/" "Lab Manual/" "Problem Set/" "Lecture 4 Lossless Predictive Coding.pdf" "Lab 4/" "practice/" "12 Basics of Audio Coding.pdf" "Lecture 1 Questions and Solutions.pdf" "Lab 2/" "new_zip/" "Lecture 6 Delta Modulation.pdf" "Lectures/" "Lab 1/" "3_IMG-20190704-WA0003.jpg" "Lab 3/" "ELE725-S2019-CourseOutline.pdf" "Lecture 10 Questions.pdf" "Textbook/" "Lecture 3 Lossless compression - Huffman Coding.pdf" "ELE 725 Lecture 8 - JPEG Standard.pdf" "Quantization and Coding.pdf" "midterm_solution/" "Lecture 2 Questions and Solutions.pdf" "4_IMG-20190704-WA0000.jpg" "Lecture 7 Questions and Solutions Transforms.pdf" "1_IMG-20190704-WA0001.jpg" "0_IMG-20190704-WA0004.jpg" "new_lectures/" "Lecture 13 Introduction to Multimedia Synchronization.pdf" "Lab 5 (Coding Assignment)/" "ELE 725 Lecture 9 - Video Coding Introduction.pdf" "Lecture 5 Lossy Compression Systems - Quantization Theory.pdf" "../" "./")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/lab1_tex/" (23949 59122 939908 923000) "./" "ele792_rename.tex" "ele792_rename.pdf" "../" "ele792_rename.aux" "ele792_rename.log" "ele792_rename.tex~")
+
+ ("/home/al/Documents/ELE 725/Lab 3/lab3_tex/" (23882 19270 739848 0) "./" "lab3_ele725.log" "lab3_ele725.aux" "results_pics/" "lab3_ele725.pdf" "lab3 parts.docx" "../" "lab3_ele725.tex" "lab3_ele725.tex~")
+
+ ("/home/al/Documents/" (23941 8299 777875 880000) "doom/" "Year5Sem1/" "birth/" "c++_practice/" "ELE 725/" "latex_practice/" "os/" "Visual Studio 2010/" "rtl8812AU_8821AU_linux/" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "python_practice/" "oldgame/" "books/" "crackstation_wordlist.txt.gz" "ryerson wifi certificate/" "radio/" "Projects/" "bash/" "code_comp/" "wave_generator_report/" "osap/" "AVRStudio 5.1/" "electronic documents/" "Elements of Electromagnetics 6th.pdf" "c_practice/" "rstudio-1.1.456-amd64/" "elisp_practice/" "latex_template/" "bash_scripts/" "titles/" "downloaded_webpages/" "Backups/" "ELE754/" "Dis/" "Git_Projects/" "alvi.ahmed@ryerson.ca.ical/" "resumes/" "ELE 404/" "../" "./")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/" (23928 34519 775598 953000) "ELE792_labs/" "./" "ELE792_mega/" "../" "ELE792_school/")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_school/" (23947 54408 448577 602000) "./" "exams/" "Chapter 6 Sections.html" "ELE792 - Digital Signal Processing - F2019 - 9112019 - 131 AM.zip" "Table of Contents.html" "Chapter 2 Sections.html" "sinetablegen.m" "Chapter 7 Sections.html" "ELE792_F2018_HandwrittenNotes.pdf" "ELE792 F2019 Course Outline.pdf" "Chapter 3 Sections.html" "../" "Chapter 8 Sections.html" "Chapter 1 Sections.html" "Chapter 4 Sections.html" "Chapter 11 Sections.html" "HW - Lecture 0.html" "[Alan_V._Oppenheim,_Ronald_W._Schafer]_Discrete-Ti(z-lib.org).pdf" "Chapter 5 Sections.html" "Creating Projects in CCS.pdf" "discrete-time-signal-processing-by-alan-v-oppenheim.pdf")
+
+ ("/home/al/" (23947 27062 4861 764000) ".openshot_qt/" "Untitled Project.osp" "Pictures/" ".fonts/" ".cache/" ".linuxmint/" "wine-4.0.1/" "Music/" "Desktop/" ".macromedia/" ".java/" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "todo.tex~" "emacs-26.1.tar.gz" "schedfall2019.png" ".conky/" "Release.key" ".thumbnails/" "dissenter-browser-v0.66.99-amd64.deb.md5" ".swp" ".vim/" "wrestling_workout.org~" "themes_like.org~" "eagle_libraries_storage/" "EAGLE/" "trail.org~" ".i3status.conf" ".config/" "frostwire-6.8.1.all.deb" "schedfall2019.png.png" ".mplayer/" ".gconf/" "Screenshot_2019-09-10_06-07-17.png" ".wine/" "Videos/" ".sane/" ".surf/" ".bashrc" ".xsession-errors" "waterfox/" ".gtkrc-xfce" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "L3resumenotes.org~" ".lesshsQ" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".profile" ".Private/" "Downloads/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" "enbridge/" ".lesshst" "test.txt~" "vmware/" "Screenshot_2019-09-10_13-14-34.png" "todo.org" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.mkv" "mozilla.pdf" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" ".ICEauthority" "eagle-9.4.2/" ".FBReader/" ".vmware/" "canadameme.png" ".pki/" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "curtain_spec.txt~" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.m4a" "wine-4.0.1.tar.xz" ".psensor/" "dissenter-browser-v0.66.99-amd64.deb" "Public/" "hello~" ".viminfo" ".waterfox/" ".bashrc~" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".gtkrc-2.0" ".emacs" ".gphoto/" ".i3status.conf~" ".emacs~" ".vimrc" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "workout_home.jpg" ".mozilla/" "temp.cpp~" "Documents/" ".conkyrc" "tor-browser_en-US/" ".sudo_as_admin_successful" "emacs-26.1/" ".frostwire5/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/" (23942 35118 90492 441000) "Using GEL Sliders.pdf" "./" "Lab1 Presentation Slides F2018.pdf" "../" "Review of DSP, notation, time and frequncey domain.pdf" "ELE792_Fall2018_Lab01_Instructions.pdf" "Creating Projects in CCS.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/" (23947 52806 319213 584000) "./" "ele724_labreport_template.lof" "ele724_labreport_template.lot" "ele724_labreport_template.tex" "ele724_labreport_template.tex~" "../" "ele724_labreport_template.pdf" "ele724_labreport_template.log" "ele724_labreport_template.aux" "ele724_labreport_template.toc")
+
+ ("/home/al/Documents/resumes/new_current/Al/" (23935 43133 671231 448000) "synopsys2.pdf" "resume_Alvi.pdf" "./" "cover_letter/" "resume_edited.pdf" "resume.log" "L3wescam/" "resume_edited3.pdf" "pref.txt" "GEOTAB/" "resume.tex~" "../" "resume.tex" "resume.aux" "resume_edited2.pdf" "#resume.tex#" "resume.out")
+
+ ("/home/al/.emacs.d/" (23946 3963 485168 714000) "./" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "auto-save-list/" "nov-places" "../" "snippets/" "thumbs/" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "elpa/" "dmenu-items" "places")
+
+ ("/home/al/Documents/Projects/blink_test_tiny85/" (23939 1919 834635 401000) "./" "main.elf" "Makefile" "../" "main.hex" "Makefile~" "main.c" "main.c~")
+
+ ("/home/al/Documents/Git_Projects/RC_tiny85/" (23942 6679 460971 252000) "main_rx.c~" "main_tx2.c" "./" "main.elf" "Makefile" "README.md" "RC_tiny85.s#2" "main_tx.c" "main_tx_usart.c" ".git/" "README" "main_tx_usart.c~" "main_tx2.c~" "../" "RC_tiny85.sch" "main.hex" "RC_tiny85.s#1" "RC_tiny85.s#3" "main_rx.c")
+
+ ("/home/al/Documents/Git_Projects/work_table_light/work_table_light/" (23910 6669 872062 916000) "work_table_light.s#6" "work_table_light.s#2" "./" "work_table_light_schematic.png" "work_table_light.sch" "eagle.epf" "work_table_light.s#4" "feh_004955_000001_work_table_light_schematic.png" "work_table_light.s#7" "../" "work_table_light.s#8" "work_table_light.s#3" "work_table_light.s#1" "work_table_light.s#9" "work_table.s#1" "work_table_light.s#5")
+
+ ("/home/al/Documents/resumes/new_current/Al/cover_letter/geotab/" (23935 64852 893436 441000) "./" "../")
+
+ ("/home/al/Documents/birth/" (23933 19843 975566 942000) ".#letter_guarantor.tex" "Amit Ahmed.pdf" "./" "alvi_resume_cover.pdf" "letter_guratntor.org" "Shahinur.pdf" "alvi_resume_cover_laura(1).pdf" "alvi_resumecover_tim.pdf" "letter_guratntor.tex~" "letter_guarantor.pdf" "letter_guarantor.tex" "../" "letter_guarantor.tex~" "mozilla.pdf" "#letter_guarantor.tex#" "let.pdf" "filename_11485702903720677242842175071920171569-3089080934363891959.pdf" "amitahmednewclaimforms.pdf" "letter_guarantor.log" "To whom it may concern.docx" "Moushumi.pdf" "letter_guarantor.aux" "mozilla2.pdf")
+
+ ("/home/al/Documents/Git_Projects/work_table_light/" (23933 31643 336694 264000) "./" "main_but_leds.c" "main.elf" ".main_analog.c.swp" "main_total.c" "Makefile" "main_twopot.c" "main_color.c" "work_table_light/" "#main_but.c#" "README.md" "main_analog.c" "stepper_code/" "main_butcol.c" ".git/" "README" "../" "main.hex" "main_but.c" "main_total2.c" "main_whitelight.c" "main_total2.c~" ".main_tot.c.swp")
+
+ ("/home/al/Documents/resumes/new_current/Al/cover_letter/celestica/" (23935 49124 336210 750000) "./" "Celestica.tex~" "Celestica.log" "Celestica.pdf" "Celestica.tex" "../" "Celestica.out" "Celestica.aux")
+
+ ("/home/al/Documents/resumes/new_current/Al/cover_letter/" (23865 35666 61655 0) "./" "celestica/" "suez/" "aecom/" "fujifilm/" "l3wescam/" "Momentaj/" "../" "suez-data/" "intel/" "template/" "cohesity/")
+
+ ("/home/al/Documents/resumes/new_current/Al/L3wescam/" (23935 43092 686445 811000) "./" "L3_resume.pdf" "L3_resume.aux" "cover_letter/" "L3_resume.out" "../" "L3_resume.tex~" "L3_resume.log" "L3_resume.tex")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/" (23935 42274 265777 666000) "./" "ele734_labreport_template.tex~" "ele734_labreport_template.pdf" "ele734_labreport_template.tex" "../" "ele734_labreport_template.toc" "ele734_labreport_template.aux" "Lab Manual.pdf" "ele734_labreport_template.log")
+
+ ("/home/al/.config/i3/" (23930 13324 923599 22000) "./" "config~" "../" "config")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/" (23928 36133 808736 465000) "./" "ELE724_mega/" "ELE724_school/" "../" "ELE724_labs/" "contract.png")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/" (23928 34565 4533 554000) "lab1/" "./" "../")
+
+ ("/home/al/Documents/Year5Sem1/" (23927 47199 426260 389000) "./" "COE718/" "ELE724/" "ELE700/" "ELE734/" "../" "ELE792/")
+
+ ("/home/al/Documents/ELE 725/Lab 1/lab1_tex/" (23882 19228 580974 0) "./" "lab1_ele725.aux" "lab1_ele725.tex~" "results_pics/" "lab1_ele725.pdf" "../" "lab1_ele725.tex" "bare_jrnl_compsoc.tex" "lab1_ele725.log")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/" (23925 61473 999381 459000) "./" "../" "ELE734_mega/")
+
+ ("/home/al/Documents/Year5Sem1/COE718/" (23926 26997 823145 0) "Lab1.pdf" "./" "Lab3b.pdf" "coe718_mega/" "../" "Lab3a.pdf" "Lab2.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_school/" (23925 63316 500250 892000) "./" "Module_2_single_stage_amplifiers.pdf" "ELE724_course_outline_F2019.pdf" "Table of Contents.html" "ele724_lab_manual.pdf" "OVI_VerilogA.pdf" "../" "Module_1_fundamentals_of_MOSFETs.pdf" "NDA_MOSIS_Cmos13.pdf" "Module_1_fundamentals_of_MOSFETs_annotated.pdf" "VerilogA.pdf" "Module_2_single_stage_amplifiers_annotated.pdf" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 992019 - 239 AM.zip")
+
+ ("/home/al/Documents/Year5Sem1/ELE754/" (23925 61267 647331 670000) "./" "ELE 754.zip" "../")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/" (23925 61338 232711 949000) "./" "BME 700 - COE 700 - ELE 700.zip" "BME 700 - COE 700 - ELE 700/" "../")
+
+ ("/home/al/Documents/Git_Projects/work_table_light/stepper_code/" (23921 29453 56072 131000) "./" "main.elf" "Makefile" "main_stepper.c" "main_joystick.c" "../" "main.hex" "Makefile~" "main_stepper.c~" "main_joystick.c~")
+
+ ("/home/al/Documents/bash_scripts/" (23910 6655 663773 84000) "reptex.sh" "powersave.sh" "./" "alarm_script/" "reptex.sh~" "varscript.sh" "../" "cmdarg.sh" ".powersave.sh.swp" "netres.sh" "performance.sh" "varscript2.sh" "test.txt")
+
+ ("/home/al/Documents/Projects/rgb_sign_tiny85/" (23910 6674 652160 413000) "main2.c" "./" "main.elf" "Makefile" "README.md" "main1.c" ".git/" "../" "main.hex")
+
+ ("/home/al/Documents/python_practice/" (23910 8078 329980 158000) "./" "string_python.py" "myfirstcode.py" "#generating_random_data.py#" "neural_net.py" "generating_random_data.py~" "numpy_trial.py" "perceptron.py~" "math_2_python.py~" "math_2_python.py" "../" "string_python.py~" "float_python.py" "numpy_trial.py~" "perceptron.py" "generating_random_data.py" "neural_net.py~")
+
+ ("/home/al/Documents/electronic documents/" (23910 13730 522287 81000) "fusebitsclockcrystal.pdf" "433mhzreciever.png" "TEK_USB_plot__xid-5436316_2.pdf" "2N5459__xid-5512380_2.pdf" "power supply + run time + cell chem.pdf" "UjOyx.jpg" "LM741_pinout_diagram.pdf" "Table46.pdf" "induction_targets.pdf" "Untitled document - Google Docs.pdf_2" "res37__xid-5512393_2.pdf" "Untitled document - Google Docs.pdf" "1N4734__xid-5512379_2.pdf" "1N4734A.pdf" "J111__xid-5512385_2.pdf" "l297_datasheet.pdf" "fuse_bits_pg1.png" "INR18650-30Q.pdf" "adc_note.org" "Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Datasheet.pdf" "Make AVR Programming Learning to Write Software for Hardware By Elliot Williams/" "index.html" "Untitled document - Google Docs.pdf_3" "L298_H_Bridge.pdf" "Beekmans,_Gerard_-_Linux_from_Scratch.pdf" "Atmel-8014-Using-Timer-Capture-to-Measure-PWM-Duty-Cycle_ApplicationNote_AVR135.pdf" "ca-bundle.crt" "433mhz_rf-tx&rx.pdf" "Build the Ultimate Custom PC.pdf" "Pot__xid-5512392_2.pdf" "resistors__xid-5512394_2.pdf" "UC38438Ndatasheet.pdf" "Untitled document - Google Docs.pdf_0" "LM317-03.png" "Relaxation-oscillator-circuit-with-a-transistor.png" "4A-Converter-in-Equilibrium-2_(7).png" "433mhztransmitter.png" "Introduction To 80x86 Assembly Language And Computer Architecture (2001).pdf" "FQP30N06L.pdf" "Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf" "fusebitclockcrystal.png" "Minimizing_Distortion_and_Noise_in_PWM_signal.pdf" "index.png" "nte459-1__xid-5512391_2.pdf" "Untitled document - Google Docs.pdf_4" "03288.png" "LM318__xid-5512386_2.pdf" "2N7000.pdf" "Dietz,_Paul_-_Pragmatic_Introduction_to_the_Art_of_Electronic_Engineering_v1.0.pdf" "attiny84.pdf" "ELE504_Lab 1.pdf" "2N3904.pdf" "attiny84_pinout.png" "hsvtorgb.png" "LM741_pinout_diagram.jpg" "LM741__xid-5512388_2.pdf" "Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" "attiny85_pinout.png" "inductionheating power sources.pdf" "101 Spy Gadgets For The Evil Genius.pdf" "hsvrgb.pdf" "Electrical Engineering Handbook - Richard Dorf.pdf" "induction heating.pdf" "Untitled document - Google Docs.pdf_5" "Lessons in Electronic Circuits I - DC.pdf" "MJE2955T__xid-5512389_2.pdf" "Kit_Sale_Sign_F2018.pdf" "WS2812B.pdf" "userguide.html" "rgbtohsv.png" "MJE3055T__xid-5512390_2.pdf" "LM555__xid-5512387_2.pdf" "Hacker's Handbook.pdf" "1000uf-50V__xid-5512381_2.pdf" "Professional Assembly Language (2005).pdf" "lm317b.jpg" "Lessons in Electronic Circuits II - AC.pdf" "Fundamentals of Electric Circuits (2017_01_17 11_32_47 UTC).pdf" "AVX_SR_series__xid-5512382_2.pdf" "../" "./")
+
+ ("/home/al/Documents/Git_Projects/" (23889 25329 927264 606000) "./" "eagle-libraries/" "pic_arena.mp4" "Mytest/" "dot_config_files/" "RC_tiny85/" "work_table_light/" "avr_cnc/" "Waveform_Generator/" "Timer_Clock/" "Mini_Gattling_Gun_Model/" "test_arena.mp4" "../" "L3_Hackathon_Image_Recognition/" "Simple_Security_System/" "rgb_sign/" "Desiging-an-Audio-Amplifier/" "test_vid.mp4")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20190725.1049/snippets/latex-mode/" (23888 44959 14714 472000) "subf" "cite" "gls" "moderncv-cventry" "left-right" "bigcap" "glspl" "question" "prod" "newcommand" "subfigure" "subsec" "labelcref" "moderncv-cvlistdoubleitem" "figure" "article" "columns" "bigcup" "alertblock" "moderncv" "usepackage" "moderncv-cvlanguage" "alg" "caption" "moderncv-cvlistitem" "german-quotes" "sum" "movie" "documentclass" "moderncv-cvline" "python" "frac" "enumerate" "capgls" "description" "german-quotes-single" "equation" "moderncv-cvcomputer" "begin" "textbf" "acronym" "itemize" "includegraphics" "if" "align" "section" "code" "note" "int" "label" "item" "newglossaryentry" "emph" "listing" "block" "binom" "frame" "../" "./")
+
+ ("/home/al/Pictures/slideshow_trial/" (23865 61174 635139 0) "frame06.png" "frame10.png" "./" "frame04.png" "frame15.png" "frame26.png" "frame31.png" "frame00.png" "frame03.png" "frame18.png" "frame21.png" "frame12.png" "frame16.png" "ezgif-1-4228af50b11f-gif-png.zip" "frame13.png" "frame11.png" "frame19.png" "frame23.png" "frame27.png" "frame08.png" "frame09.png" "../" "frame20.png" "frame07.png" "frame01.png" "frame17.png" "frame22.png" "frame14.png" "frame28.png" "frame25.png" "frame02.png" "frame05.png" "frame29.png" "frame30.png" "frame24.png")
+
+ ("/home/" (23884 37578 184431 150000) "./" ".ecryptfs/" "timeshift/" "lost+found/" "../" "al/")
+
+ ("/home/al/Documents/resumes/new_current/Al/cover_letter/aecom/" (23882 21282 705989 0) "./" "AECOM.aux" "AECOM.out" "AECOM.tex~" "../" "AECOM.tex" "AECOM.log" "AECOM.pdf")
+
+ ("/home/al/.emacs.d/snippets/" (23885 17056 736229 600000) "./" "../")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/emacs-lisp-mode/" (23885 17045 15938 316000) "copy-file" "file.read-lines" "bounds-of-thing-at-point" "defcustom" "search-forward-regexp" "insert-file-contents" "search-backward-regexp" "find-replace" "get" "add-hook" "backward-char" "mapc" "string-match" "header" "replace-regexp-in-string" "error" "custom-autoload" "not" "memq" "traverse_dir" "forward-char" "match-end" "vector" "message" "expand-file-name" "skip-chars-forward" "line-end-position" "fboundp" "kill-buffer" "string-to-number" "ert-deftest" "nth" "beginning-of-line" "word_regexp" "file-name-sans-extension" "region-beginning" "save-excursion" "delete-char" "word-or-region" "directory-files" "cond" "use-package" "defalias" "make-directory" "thing-at-point" "global-set-key" "point-min" "search-backward" "and" "file.process" "delete-region" "line-beginning-position" "x-file.read-lines" "re-search-backward" "or" "rename-file" "substring" "region-active-p" "file-name-directory" "when" "set-buffer" "forward-line" "put" "skip-chars-backward" "define-key" "widget-get" "minor_mode" "defvar" "x-file.process" "match-string" "string=" "defun" "current-buffer" "number-to-string" "buffer-substring-no-properties" "split-string" "buffer-file-name" "buffer-substring" "x-traverse_dir" "file-name-nondirectory" "re-search-forward" "x-find-replace" "point-max" "set-mark" "kbd" "replace-regexp" "yes-or-no-p" "search-forward" "dired.process_marked" "should" "setq" "buffer-modified-p" "grabstring" "match-beginning" "format" ".read_me" "use-package-binding" "region-end" "copy-directory" "delete-directory" "with-current-buffer" "goto-char" "interactive" "make-local-variable" "end-of-line" "assq" "aset" "x-word-or-region" "save-buffer" "condition-case" "lambda" "delete-file" "file-relative-name" "let" "x-grabstring" "const" "set-file-modes" "aref" "file-name-extension" "insert" "autoload" "grabthing" "find-file" "x-grabthing" "looking-at" "x-dired.process_marked" "point" "../" "./")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-20181015.1212/" (23885 17029 455551 914000) "./" "yasnippet.elc" "yasnippet-pkg.elc" "yasnippet-pkg.el" "yasnippet.el" "yasnippet-autoloads.el~" "../" "yasnippet-autoloads.el")
+
+ ("/home/al/Documents/books/" (23884 42432 577367 917000) "chem study k.pdf" "Lab01_D2L.pdf" "./" "Deep Learning with Python - A Hands-on Introduction - 1E (2017) (Pdf) Gooner/" "emacs_intro_to_programming.pdf" "anode.pdf" "Solutions - Advanced Engineering Mathematic - Zill, Dennis G_ - 5th Edition (2017_01_28 04_34_06 UTC).pdf" "cathodes.pdf" "vi-intro.pdf" "HW&QUIZ3.pdf" "169f722b30e33b76f632592a052608c9487ed9d8325293e8f09596611d9a5e0b.pdf" "Advanced Engineering Mathematic - Zill, Dennis G_ - 5th Edition (2017_01_16 08_43_38 UTC).pdf" "test and clean.pdf" "Librecad- by Jasleen_Kaur.pdf" "safety.pdf" "../" "Curd,_A_Presocratics_Reader.pdf" "Lean Python - Learn Just Enough Python to Build Useful Tools/" "Laplace transforms table.pdf" "[Dods,_Marcus;_Merton,_Thomas;_Saint_Bishop_of_Hip(z-lib.org).epub" "CPHL 187 Course Outline - Draft S17.pdf" "ltxprimer-1.0.pdf" "coil.pdf" "ed4f3c0179d03aa31683facd169f01e9cd6fd944cd9c18a642bc3edc8b7d1100.pdf" "chlor-cell.pdf" "Zill - Advanced Engineering Mathematics 5th Edition.pdf" "sayings-of-the-desert-fathers.pdf" "[Robert_J._Chassell]_An_introduction_to_programmin(z-lib.org).pdf" "Burkov, Andriy - The hundred-page machine learning book-Andriy Burkov (2019) (1).pdf")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/latex-mode/" (23885 17044 391922 813000) "sub section" "somepackages" "subf" "cite" "Omega" "gls" "moderncv-cventry" "bigcap" "underline" "glspl" "question" "prod" "newcommand" "subfigure" "sub section~" "subsubsection" "moderncv-cvlistdoubleitem" "figure" "subscript" "spacingproperties" "article" "columns" "bigcup" "alertblock" "moderncv" "usepackage" "moderncv-cvlanguage" "alg" "caption" "moderncv-cvlistitem" "sum" "movie" "documentclass" "moderncv-cvline" "python" "frac" "enumerate" "capgls" "description" "textit" "moderncv-cvcomputer" "begin" "textbf" "acronym" "itemize" "includegraphics" "if" "section" "code" "note" "int" "label" "math-dollar" "subsubsection~" "item" "newglossaryentry" "emph" "listing" "block" "section~" "binom" "mb" "frame" "../" "./")
+
+ ("/home/al/Documents/bash_scripts/alarm_script/" (23884 42426 273209 187000) "./" "alarm_timer.sh~" "image_break.jpg" "../" "alarm_timer.sh" "Siren_Noise-KevanGC-1337458893.mp3")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20190316.1019/snippets/c-lang-common/" (23885 17043 879910 93000) "./" "typedef" "delay" "math" "for" "main" "inc" "once" "../" "while" "ifdef" "inc.1" "function_doxygen_doc" "avr_template" "fopen")
+
+ ("/home/al/Documents/Projects/pwm_test_tiny84/" (23884 42672 844039 109000) "./" "main.elf" "Makefile" "#main.c#" "../" "main.hex" "main.c" "main.c~")
+
+ ("/home/al/.conky/" (23888 57262 150938 45000) "./" "Gotham/" "tria/" "fonts/" "black_diamond/" "Conky Seamod/" "Conky MIUI/" "TeejeeTech/" "Green Apple Desktop/" "conky_rings/" "../" "coky_rings/" ".themepacks" "dino/" "conky-startup.sh" "conky-startup.sh~" "BlackPearlConky/")
+
+ ("/home/al/.conky/conky_rings/Conky/" (23888 48597 131523 627000) "mem" "./" "startconky.sh" "viewnotes.sh" "rings~" "screenshot.png" "mem~" "notes" "rings" "viewnotes.sh~" "cpu~" "README" "notes~" "../" "wallpaper.jpg" "wallpaper_stars.jpg" "clock_rings.lua~" "wallpaper_tardis.jpg" "cpu" "clock_rings.lua")
+
+ ("/home/al/Documents/Git_Projects/Simple_Security_System/" (23884 42587 586058 807000) "./" "README.md" ".git/" "../")
+
+ ("/home/al/Documents/Year4.5Sem1/CHST 506 /chst506_essay/" (23864 28486 801953 933000) "test.bib" "chst_506_thesis.blg" "../" "chst_506_notes.org" "test.bib~" "books/" "chst_506_thesis.bcf" "chst_506_thesis.tex~" "./" "chst_506_thesis.log" "chst_506_thesis.bbl" "chst_506_thesis.pdf" "chst_506_notes.org~" "chst_506_thesis.run.xml" "chst_506_thesis.aux" "resources/" ".#chst_506_notes.org" "chst_506_thesis.tex")
+
+ ("/home/al/anaconda3/" (23862 23494 616312 439000) "ssl/" "man/" "conda-meta/" "include/" "../" "LICENSE.txt" "bin/" "qml/" "lib/" "x86_64-conda_cos6-linux-gnu/" "./" "translations/" "phrasebooks/" "condabin/" "plugins/" "mkspecs/" "compiler_compat/" "var/" "doc/" "sbin/" "resources/" "envs/" "share/" "etc/" "shell/" "libexec/" "pkgs/")
+
+ ("/home/al/Downloads/" (23862 27055 507270 698000) "Köhler, E.C. 2010 Theories of State Formation.pdf" "DesireCourse.Com-Udemy - Artificial Intelligence Reinforcement Learning in Python.torrent" "Making-of-PCBs-at-home-DIY-using-inexpenive-materials - 10Convert.com.mp4.mp4" "Writing_Centre_Thesis_Statements_Avoid_Plagiarism.pdf" "candy-icons/" "How-to-Install-a-Hidden-Kill-Switch-in-your-Car-or-Truck-Cheap-Anti-Theft-System - 10Convert.com.mp4.mp4" "davordiet.png" "The Thesis Statement.pdf" "Why-Christians-Worship-Jesus-Sam-and-Dave-LIVE-800pm-ET - 10Convert.com.mp4.mp4" "Python-3.7.4.tar(1).xz" "PhotoFunia-1563176428.jpg" "Create-a-Simple-Neural-Network-in-Python-from-Scratch - 10Convert.com.mp4.mp4" "Anaconda3-2019.03-Linux-x86_64.sh" "Python-3.7.4.tar.xz" "../" "./")
+
+ ("/home/al/Documents/Year4.5Sem1/CHST 506 /notes/" (23857 21831 804755 76000) "../" "note_July16.org" "./" "note_July16.org~" "note_July18.org" "note_July18.org~")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_tex/" (23844 57984 736390 425000) "lab4_ele725.tex~" "../" "lab4_ele725.pdf" "lab4 parts.docx" "./" "lab4_ele725.aux" "results_pics/" "lab4_ele725.tex" "lab4_ele725.log")
+
+ ("/home/al/Documents/Year4Sem1/ELE 504/lab_MP/" (23685 32328 299504 575000) "mp1blockschematic.png" "mp-2-waveform.jpeg" "../" "ELE504_Major_Project.pdf" "./" "Screenshot_2018-10-25_04-44-05.png" "ELE504 - Major Project .pdf" "mp2-waveform-tri.jpeg" "mp-2lower.png" "Screenshot_2018-10-25_05-46-17.png" "mp1waveform.jpeg")
+
+ ("/home/al/Documents/Year4Sem1/ELE 504/" (23700 61999 354915 64000) "lab4/" "lab2/" "simulation files/" "Midterm Exam F2018 - Solutions.pdf" "lab5_sumy/" "Lecture Week #5.pdf" "../" "Tests/" "lab5/" "Lecture-Week #13a.pdf" "Lecture Week #3.pdf" "Lecture-Week #13b.pdf" "lab3/" "lab1/" "Lecture-Week #11.pdf" "Lecture Week #2.pdf" "./" "Lecture Week #4.pdf" "Lecture-Week #9 .pdf" "Textbook/" "Course Outline/" "lab_MP/" "Additional Problems/" "Lecture Week #1.pdf" "ELE-504-Fall-2017-Final.pdf" "Lecture-Week #12 .pdf" "lab_stuff_curr/" "Lab Manual/" "Lecture-Week #7a - 8.pdf" "homework.txt" "Lecture Week #6 .pdf" "Lectures/" "Lecture Week #10 .pdf")
+
+ ("/home/al/Documents/Year4Sem1/" (23580 22081 988901 655000) "year4sem1zip/" "book-solution-linear-systems-and-signals-b-p-lathi-homework-1-9-with-solutions-given-by-the-professor.pdf" "../" "MTH 514/" "ELE 532 - BME 532/" "COE 538 - BME 538/" "./" "ELE 531/" "ELE 504/")
+
+ ("/home/al/Documents/Year4Sem2/ELE 637/" (23739 46019 704628 858000) "../" "Tests/" "Formula Sheet/" "Recommended Problems/" "Labs_pir/" "./" "Textbook/" "Course Outline/" "ELE637_Chapter5_Apr_2_W2019.pdf" "nohup.out" "Labs_curr/" "Lab Manual/" "ELE637_Chapter5_Mar_26_W2019.pdf" "Labs/" "Lectures/")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/" (23842 275 121595 666000) "0_IMG-20190704-WA0004.jpg" "Lab 4/" "ELE 725 Lecture 8 - JPEG Standard.pdf" "Lecture 1 Questions and Solutions.pdf" "Lecture 6 Questions and Solutions.pdf" "Tests/" "Formula Sheet/" "Lecture 13 Introduction to Multimedia Synchronization.pdf" "Lecture 5 Lossy Compression Systems - Quantization Theory.pdf" "Lecture 7 Questions and Solutions DCT.pdf" "ELE725-S2019-CourseOutline.pdf" "Lab 5 (Coding Assignment)/" "2_IMG-20190704-WA0002.jpg" "Lesson 2 Lossless Image Compression systems.pdf" "Lecture 3 Questions and Solutions.pdf" "Lecture 3 Lossless compression - Huffman Coding.pdf" "Lecture 6 Delta Modulation.pdf" "new_lectures/" "Lecture 2 Questions and Solutions.pdf" "new_zip/" "Lecture 4 Lossless Predictive Coding.pdf" "4_IMG-20190704-WA0000.jpg" "Lab 3/" "Textbook/" "Lecture 10 Questions.pdf" "Course Outline/" "midterm_solution/" "Lecture 8 Questions.pdf" "Latex_IEEE/" "Lecture 7 Questions and Solutions Transforms.pdf" "Lab 1/" "Lecture 4 Questions and Solutions.pdf" "Lab 0/" "Lecture 10 Video Coding and Motion Estimation.pdf" "Problem Set/" "Lab Manual/" "practice/" "Lecture 7 Transform Coding and Discrete Cosine Transform.pdf" "Quantization and Coding.pdf" "Lab 2/" "3_IMG-20190704-WA0003.jpg" "12 Basics of Audio Coding.pdf" "1_IMG-20190704-WA0001.jpg" "ELE 725 Lecture 9 - Video Coding Introduction.pdf" "Lectures/" "Lecture 1 Introduction to multimedia systems and processing.pdf" "../" "./")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 5 (Coding Assignment)/lab5_tex/" (23842 44012 988407 946000) "lab5_ele725.pdf" "../" "lab5_ele725.tex~" "lab5_ele725.aux" "lab5_ele725.log" "./" "lab5_ele725.tex" "results_pics/")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 5 (Coding Assignment)/" (23842 62979 941873 170000) "lena.jpg" "../" "lab5_tex/" "./" "assignment.m" "ELE725 Term Assignment.pdf")
+
+ ("/home/al/.config/" (23841 14257 885294 154000) "chromium/" "xfce4/" "startupconfig" "variety/" "compiz-1/" "VirtualBox/" "powermanagementprofilesrc" "plasma-localerc" "cef_user_data/" "powerdevilrc" "spectaclerc" "QtProject.conf" "baloofilerc" "evolution/" "krunnerrc" "plasma-org.kde.plasma.desktop-appletsrc" "mpv/" "ksmserverrc" "pulse/" "calibre/" "libreoffice/" "ktimezonedrc" "htop/" "nitrogen/" "catfish/" "kdebugrc" "xplayer/" "kmenueditrc" "gtkrc-2.0" "trashrc" "transmission/" "dolphinrc" "PINCE/" "xviewer/" "uzbl/" "user-dirs.dirs" "kingsoft/" "plasmawindowed-appletsrc" "phoenix/" "kaccessrc" "tomboy/" "mimeapps.list" "systemsettingsrc" "kdenliverc" "autostart/" "i3/" "pix/" "live-latex-preview/" "Signal/" "upstart/" "ananke/" "startupconfigkeys" "kwinrulesrc" "startupconfigfiles" "RStudio/" "Autodesk/" "gweled.conf" "nautilus/" "vlc/" "khotkeysrc" "mc/" "Kingsoft/" "caja/" "Trolltech.conf" "Thunar/" "enchant/" "Code/" "ranger/" "kded_device_automounterrc" "plasmashellrc" "nvim/" "menus/" "cava/" "user-dirs.locale" "kwinrc" "session/" "supertuxkart/" "xed/" "gtk-3.0/" "kdeconnect/" "unity3d/" "autostart-scripts/" "gweled.saved-game" "hexchat/" "kglobalshortcutsrc" "gtk-2.0/" "plasmawindowedrc" "kde.org/" "LibreCAD/" "netsurf/" "discord/" "sublime-text-3/" "terminology/" "pavucontrol.ini" "kactivitymanagerdrc" "whatsapp-desktop/" "yelp/" "gtkrc" "gnome-session/" "octave/" "ibus/" "zathura/" "kcminputrc" "dconf/" "higan/" "kdeglobals" "../" "./")
+
+ ("/home/al/2hu12 - Undefined Fantastic Object/" (23776 57398 436492 767000) "scoreth12.dat" "custom.exe" "th12 (thpatch-en).exe" "../" "replay/" "THSpatial.ttf" "log.txt" "thcrap/" "thbgm.dat" "th12 custom (thpatch-en).exe" "./" "snapshot/" "th12.cfg" "th12.exe" "th12.dat")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/" (23841 19926 786016 231000) "pic_default.zip" "lena.jpg" "../" "pic/" "lab4_ele725.pdf" "html/" "rest.gif" "lab4_cover.pdf" "crop_script.bash" "./" "lab4_tex/" "lab4_part2.m" "lab4_ele725.m" "restGS.gif" "keypad.gif" "lab4_ele725.m~" "lab4_part2/" "ELE725 Lab 4.pdf" "extra.m" "lab4_pir/" "ELE725 Lab 4 report.pdf")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_pir/" (23841 19934 42166 660000) "distanceFunc.m" "../" "lab4.m" "./" "computeMotionVec.m" "#computeMotionVec.m#" "#lab4.m#")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/dom_updated/" (23839 49773 948403 524000) "lab3_ele725.m" "lena.jpg" "../" "html/" "rest.gif" "./" "restGS.gif" "keypad.gif")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 2/" (23809 37270 372974 212000) "lena.jpg" "../" "lab2_ele725.m" "html/" "lab2_pir/" "./" "lab2_tex/" "#lab2_ele725.m#" "ELE725 Lab 2.pdf")
+
+ ("/home/al/Documents/wave_generator_report/report_pics/" (23840 7451 345132 353000) "../" "./" "notes/")
+
+ ("/home/al/Documents/Git_Projects/Waveform_Generator/" (23840 7462 29400 304000) "../" "wave_generator0_schem_range1.png" "rudimentarywavegenerator360hz.png" "invertingbistablewaveform.png" "rudimentarywavegenerator.png" "rudimentarywavegeneratorwaveform.png" "dcconverterwaveform.png" "README.md" "./" "wave_generator0_waveform.png" "invertingbistableexample.png" "rudimentarywavegenerator1800hz.png" "dcconvertercircuit.png" "wave_generator0_schem_range2.png" ".git/" "wave_generator0_schem.png")
+
+ ("/home/al/openspades/openspades.mk/" (23837 25184 740010 331000) "OpenSpades.rc" "Sources/" "OpenSpades.h" "../" "CPackSourceConfig.cmake" "CMakeFiles/" "bin/" "lib/" "./" "CPackConfig.cmake" "CMakeCache.txt" "cmake_install.cmake" "Makefile" "Resources/")
+
+ ("/home/al/Documents/OpenSpades 0.1.3/openspades-0.1.3/" (23837 25098 62234 81000) "snap/" ".editorconfig" "Sources/" "OpenSpades.h" "crowdin.yml" ".gitignore" "../" "CMakeLists.txt" "crowdin-download.sh" "OpenSpades.rc.in" "cmake/" "README.md" ".travis.yml" "./" "update-pot.sh" "LICENSE" "AUTHORS" "XSpades/" "TROUBLESHOOTING.md" "OpenSpades.h.in" "OpenSpades.xcodeproj/" "openspades.mk/" ".clang-format" "Resources/")
+
+ ("/home/al/Documents/OpenSpades 0.1.3/" (23837 24349 934847 527000) "openspades-0.1.3.zip" "../" "./" "openspades-0.1.3/")
+
+ ("/home/al/Documents/Year4.5Sem1/" (23836 15158 700222 788000) "ELE 725.zip" "ELE 745/" "../" "COE 768.zip" "CENG 112/" "ELE 725/" "./" "ELE 745.zip" "CHST 506 /" "COE 768/")
+
+ ("/home/al/Documents/Year4.5Sem1/CENG 112/" (23836 17351 377145 278000) "PB/" "Literary Essays.pptx" "../" "essay_planning.org~" "essay_planning.pdf" "essay_planning.tex" "essay_planning.out" "MsMarvel/" "Land Of Shadows/" "./" "Literary Essays.pdf" "essay_planning.tex~" "essay_planning.aux" "essay_planning.toc" "actual_essay.org" "essay_planning.log" "essay topics spring 2019.docx" "All Systems Red/" "actual_essay.org~" "essay_planning.org" "Misery/")
+
+ ("/home/al/Documents/Git_Projects/Waveform_Generator/wave_generator_report/" (23834 13211 917105 673000) "wave_generator_report.aux" "report_pics/" "wave_generator_report.tex" "../" "#wave_generator_report.org#" "wave_generator_report.log" "wave_generator_report.toc" "wave_generator_report.tex~" "./" "wave_generator_report.org" "wave_generator_report.pdf" "wave_generator_report.out" "wave_generator_report.org~")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_tex/results_pics/" (23834 27142 725554 69000) "trim_script.bash" "keypad_frames_trimmed.jpg" "keypad_frames.jpg" "../" "crop_script.bash~" "part2_pic/" "./" "trim_script.bash~")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_tex/results_pics/part2_pic/hist_combinations/" (23833 26877 450601 198000) "ch4.jpg" "../" "ch9.png" "ch3.jpg" "ch8.png" "./" "ch10.png" "ch5.jpg" "ch2.jpg" "ch6.jpg" "ch1.jpg" "ch7.png")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 4/lab4_tex/results_pics/part2_pic/" (23833 26103 729235 83000) "def_pic/" "../" "hist_comp/" "./")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/" (23833 328 296150 844000) "lab3_ele725.m" "lena.jpg" "dom_updated/" "../" "lab3_tex/" "keypad.avi" "ELE725 Lab 3.pdf" "rest.gif" "./" "lab3_ele725_dom.m" "restGS.gif" "ELE 725 Lecture 9 - Video Coding Introduction.pdf" "8x8_quantization_table.txt")
+
+ ("/home/al/Documents/Projects/blink_test_atmega328p/" (23830 22046 406786 496000) "../" "main.hex" "./" "main.c" "main.elf" "Makefile")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/lab3_tex/" (23826 63078 392513 383000) "../" "lab3_ele725.aux" "lab3_ele725.tex" "./" "lab3_ele725.tex~" "results_pics/" "lab3 parts.docx" "lab3_ele725.log" "lab3_ele725.pdf")
+
+ ("/home/al/Pictures/background_pics/" (23829 6406 477286 866000) "1535822323848.jpg" "1550773351710.jpg" "1548804122852.jpg" "1550794733053.jpg" "1548888390729.jpg" "1547804233569.jpg" "1550566142033.png" "1535228952098.jpg" "1535802263811.jpg" "1534819065261.jpg" "1530876879855.jpg" "1535672327142.jpg" "1550776499886.jpg" "1533010180102.jpg" "1550672002730.jpg" "defiance.png" "1535784133672.jpg" "painting.jpg" "1535801764065.jpg" "1548641295286.png" "1535787480165.jpg" "1548678763831.png" "1547804337805.jpg" "1535801714840.jpg" "1550671826754.jpg" "1535802222629.jpg" "1533019491555.jpg" "1547804168864.jpg" "sci-fi-space-spaceship-stars-meteoric-painting-artwork.jpg" "1535802176848.jpg" "../" "./")
+
+ ("/home/al/alarm_script/" (23828 4399 268182 184000) "alarm_timer.sh" ".#alarm_timer.sh" "../" "./" "Siren_Noise-KevanGC-1337458893.mp3" "alarm_timer.sh~")
+
+ ("/media/al/Seagate Backup Plus Drive/Shows and Movies and Rand. Vids/Hetalia Axis Powers/" (23663 10119 206394 400000) "Hetalia Axis Powers (Dub) Episode 050 - Watch Hetalia Axis Powers (Dub) Episode 050 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 050 - Watch Hetalia Axis Powers (Dub) Episode 050 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 049 - Watch Hetalia Axis Powers (Dub) Episode 049 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 049 - Watch Hetalia Axis Powers (Dub) Episode 049 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 048 - Watch Hetalia Axis Powers (Dub) Episode 048 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 047 - Watch Hetalia Axis Powers (Dub) Episode 047 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 047 - Watch Hetalia Axis Powers (Dub) Episode 047 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 046 - Watch Hetalia Axis Powers (Dub) Episode 046 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 046 - Watch Hetalia Axis Powers (Dub) Episode 046 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 045 - Watch Hetalia Axis Powers (Dub) Episode 045 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 044 - Watch Hetalia Axis Powers (Dub) Episode 044 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 044 - Watch Hetalia Axis Powers (Dub) Episode 044 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 043 - Watch Hetalia Axis Powers (Dub) Episode 043 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 043 - Watch Hetalia Axis Powers (Dub) Episode 043 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 042 - Watch Hetalia Axis Powers (Dub) Episode 042 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 041 - Watch Hetalia Axis Powers (Dub) Episode 041 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 041 - Watch Hetalia Axis Powers (Dub) Episode 041 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 040 - Watch Hetalia Axis Powers (Dub) Episode 040 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 040 - Watch Hetalia Axis Powers (Dub) Episode 040 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 039 - Watch Hetalia Axis Powers (Dub) Episode 039 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 038 - Watch Hetalia Axis Powers (Dub) Episode 038 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 038 - Watch Hetalia Axis Powers (Dub) Episode 038 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 037 - Watch Hetalia Axis Powers (Dub) Episode 037 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 037 - Watch Hetalia Axis Powers (Dub) Episode 037 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 048 - Watch Hetalia Axis Powers (Dub) Episode 048 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 045 - Watch Hetalia Axis Powers (Dub) Episode 045 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 042 - Watch Hetalia Axis Powers (Dub) Episode 042 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 039 - Watch Hetalia Axis Powers (Dub) Episode 039 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 036 - Watch Hetalia Axis Powers (Dub) Episode 036 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 033 - Watch Hetalia Axis Powers (Dub) Episode 033 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 030 - Watch Hetalia Axis Powers (Dub) Episode 030 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 027 - Watch Hetalia Axis Powers (Dub) Episode 027 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 024 - Watch Hetalia Axis Powers (Dub) Episode 024 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 021 - Watch Hetalia Axis Powers (Dub) Episode 021 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 018 - Watch Hetalia Axis Powers (Dub) Episode 018 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 036 - Watch Hetalia Axis Powers (Dub) Episode 036 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 035 - Watch Hetalia Axis Powers (Dub) Episode 035 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 035 - Watch Hetalia Axis Powers (Dub) Episode 035 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 034 - Watch Hetalia Axis Powers (Dub) Episode 034 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 034 - Watch Hetalia Axis Powers (Dub) Episode 034 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 033 - Watch Hetalia Axis Powers (Dub) Episode 033 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 032 - Watch Hetalia Axis Powers (Dub) Episode 032 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 032 - Watch Hetalia Axis Powers (Dub) Episode 032 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 031 - Watch Hetalia Axis Powers (Dub) Episode 031 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 031 - Watch Hetalia Axis Powers (Dub) Episode 031 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 030 - Watch Hetalia Axis Powers (Dub) Episode 030 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 029 - Watch Hetalia Axis Powers (Dub) Episode 029 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 029 - Watch Hetalia Axis Powers (Dub) Episode 029 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 028 - Watch Hetalia Axis Powers (Dub) Episode 028 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 028 - Watch Hetalia Axis Powers (Dub) Episode 028 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 027 - Watch Hetalia Axis Powers (Dub) Episode 027 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 026 - Watch Hetalia Axis Powers (Dub) Episode 026 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 026 - Watch Hetalia Axis Powers (Dub) Episode 026 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 025 - Watch Hetalia Axis Powers (Dub) Episode 025 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 025 - Watch Hetalia Axis Powers (Dub) Episode 025 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 024 - Watch Hetalia Axis Powers (Dub) Episode 024 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 023 - Watch Hetalia Axis Powers (Dub) Episode 023 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 023 - Watch Hetalia Axis Powers (Dub) Episode 023 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 022 - Watch Hetalia Axis Powers (Dub) Episode 022 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 022 - Watch Hetalia Axis Powers (Dub) Episode 022 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 021 - Watch Hetalia Axis Powers (Dub) Episode 021 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 020 - Watch Hetalia Axis Powers (Dub) Episode 020 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 020 - Watch Hetalia Axis Powers (Dub) Episode 020 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 019 - Watch Hetalia Axis Powers (Dub) Episode 019 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 019 - Watch Hetalia Axis Powers (Dub) Episode 019 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 018 - Watch Hetalia Axis Powers (Dub) Episode 018 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 017 - Watch Hetalia Axis Powers (Dub) Episode 017 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 017 - Watch Hetalia Axis Powers (Dub) Episode 017 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 016 - Watch Hetalia Axis Powers (Dub) Episode 016 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 016 - Watch Hetalia Axis Powers (Dub) Episode 016 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 003 - Watch Hetalia Axis Powers (Dub) Episode 003 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 002 - Watch Hetalia Axis Powers (Dub) Episode 002 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 002 - Watch Hetalia Axis Powers (Dub) Episode 002 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 001 - Watch Hetalia Axis Powers (Dub) Episode 001 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 001 - Watch Hetalia Axis Powers (Dub) Episode 001 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 015 - Watch Hetalia Axis Powers (Dub) Episode 015 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 014 - Watch Hetalia Axis Powers (Dub) Episode 014 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 014 - Watch Hetalia Axis Powers (Dub) Episode 014 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 013 - Watch Hetalia Axis Powers (Dub) Episode 013 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 013 - Watch Hetalia Axis Powers (Dub) Episode 013 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 012 - Watch Hetalia Axis Powers (Dub) Episode 012 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 011 - Watch Hetalia Axis Powers (Dub) Episode 011 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 011 - Watch Hetalia Axis Powers (Dub) Episode 011 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 010 - Watch Hetalia Axis Powers (Dub) Episode 010 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 010 - Watch Hetalia Axis Powers (Dub) Episode 010 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 012 - Watch Hetalia Axis Powers (Dub) Episode 012 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 009 - Watch Hetalia Axis Powers (Dub) Episode 009 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 006 - Watch Hetalia Axis Powers (Dub) Episode 006 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 003 - Watch Hetalia Axis Powers (Dub) Episode 003 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 009 - Watch Hetalia Axis Powers (Dub) Episode 009 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 008 - Watch Hetalia Axis Powers (Dub) Episode 008 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 008 - Watch Hetalia Axis Powers (Dub) Episode 008 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 007 - Watch Hetalia Axis Powers (Dub) Episode 007 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 007 - Watch Hetalia Axis Powers (Dub) Episode 007 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 006 - Watch Hetalia Axis Powers (Dub) Episode 006 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 005 - Watch Hetalia Axis Powers (Dub) Episode 005 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 005 - Watch Hetalia Axis Powers (Dub) Episode 005 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 004 - Watch Hetalia Axis Powers (Dub) Episode 004 online in high quality[via torchbrowser.com].mp4" "Hetalia Axis Powers (Dub) Episode 004 - Watch Hetalia Axis Powers (Dub) Episode 004 online in high quality[via torchbrowser.aac" "Hetalia Axis Powers (Dub) Episode 015 - Watch Hetalia Axis Powers (Dub) Episode 015 online in high quality[via torchbrowser.com].mp4" "../" "./")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 1/lab1_tex/" (23825 12091 231169 676000) "bare_jrnl_compsoc.tex" "lab1_ele725.log" "../" "./" "lab1_ele725.tex" "results_pics/" "lab1_ele725.aux" "lab1_ele725.pdf" "lab1_ele725.tex~")
+
+ ("/media/al/Seagate Backup Plus Drive/Shows and Movies and Rand. Vids/Another/" (23663 9397 461292 100000) "[CBM]_Another_-_s2_-_Flash_Animation_[720p]_[012551F0].mkv" "[CBM]_Another_-_12_-_Stand_By_Oneself_[720p]_[46D91E07].mkv" "[CBM]_Another_-_11_-_Makeup_[720p]_[FA6C246A].mkv" "[CBM]_Another_-_10_-_Glass_Eye_[720p]_[938CDAB9].mkv" "[CBM]_Another_-_09_-_Body_Paint_[720p]_[F807C7B9].mkv" "[CBM]_Another_-_08_-_Hair_Stand_[720p]_[1312D980].mkv" "[CBM]_Another_-_07_-_Sphere_Joint_[720p]_[C5623BC6].mkv" "[CBM]_Another_-_06_-_Face_to_Face_[720p]_[255CEF5F].mkv" "[CBM]_Another_-_05_-_Build_Limbs_[720p]_[69F02E77].mkv" "[CBM]_Another_-_04_-_Put_Flesh_[720p]_[339B8625].mkv" "[CBM]_Another_-_03_-_Bone_Work_[720p]_[3B7F036F].mkv" "[CBM]_Another_-_02_-_Blueprint_[720p]_[578A07B1].mkv" "[CBM]_Another_-_01_-_Rough_Sketch_[720p]_[35ED63AE].mkv" "../" "./")
+
+ ("/home/al/Videos/" (23825 30841 490808 994000) "Wrap_Your_Brain_around__Patch__and__Diff__on_Linux.mp4" "Managing_Packages_with_XBPS_and_Void_Linux.mp4" "Emacs_as_a_C_C___Editor_IDE__Part_I___auto_complete__yasnippet__and_auto_complete_c_headers.mp4" "../" "Emacs_Tutorial.mp4" "hack/" "Vacuum Tube to Transistor to Integrated Circuit [Documentary]-ZBZnSteT72A.webm" "How_to_Program_a_GUI_Application__with_Python_Tkinter__.mp4" "microwave_transtest.mp4" "AVR_USART__Serial_Communication__Explained.mp4" "Code_It_Yourself__3D_Graphics_Engine_Part__1___Triangles___Projection.mp4" "./" "Writing_NES_Games__With_Assembly__.mp4" "TempleOS_Hymn_Risen__Remix____Dave_Eddy.mp4" "How_to_write_IEEE_bibliography__References__in_Latex.mp4" "Emacs_Tutorial_14___EXWM_aka_managing_X_windows_with_emacs_.mp4" "Learning_AVR_C_Episode_10__Serial_Communication__TX_.mp4" "Cracking_WPA_WPA2_with_Kali_Linux__verbal_step_by_step_guide_.mp4" "The-Complete-MATLAB-Course-Beginner-to-Advanced - 10Convert.com.mp4.mp4" "How_to_write_IEEE_Research_Paper_in_Latex___in_very_easy_way.mp4" "Hack_Hotel__Airplane___Coffee_Shop_Hotspots_for_Free_Wi_Fi_with_MAC_Spoofing.mp4" "RF Links Tutorial - Cheap and Easy Wireless Arduino!-3Rs3SJBsiYE.mkv" "Linux Tip _ How To Use SSH Remote Login-lLyjnuWVqMk.f136.mp4" "Making a Resume with some LaTeX Magic (Part 2)-o5-BZ7JmYWk.mkv" "Making a Resume with some LaTeX Magic (Part 1)-VjsX4tznW40.mkv" "Mastering the Vim Language-wlR5gYd6um0.webm")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/lab3_tex/results_pics/lab_pics/part2_5/" (23825 7485 24135 0) "lab3_ele725_11.png" "../" "lab3_ele725_10.png" "lab3_ele725_12.png" "./")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/dom_updated/html/" (23825 7485 24135 275000) "part2_4/" "../" "part2_5/" "lab3_ele725.tex" "./" "part1_5/" "part1_4/" "part1_6/" "part1_3/" "part1_2/")
+
+ ("/home/al/Pictures/" (23760 24255 395481 423000) "6C4CC842.jpg" "../" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "Wallpapers/" "background_pics/" "./" "camera/" "memes/" "1c15n5tkabbj6.jpg" "5FD60851.jpg")
+
+ ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/lab3_tex/results_pics/" (23822 20933 921691 43000) "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -1,0 +1,128 @@
+sudo apt-get install libjpeg-dev libxinerama-dev libxft-dev
+clear
+   sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev \     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \     libopusfile-dev cmake imagemagick
+   sudo apt-get install pkg-config libglew-dev libcurl4-openssl-dev libsdl2-dev \     libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev \     libopusfile-dev cmake imagemagick
+sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libsdl2-dev
+sudo apt-get install  libsdl2-image-dev libalut-dev xdg-utils libfreetype6-dev libopus-dev 
+sudo apt-get install libopusfile-dev cmake imagemagick
+git clone https://github.com/yvt/openspades.git && cd openspades
+git clone https://github.com/yvt/openspades.git && cd openspades
+mkdir openspades.mk
+cd openspades.mk
+cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo && make
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+wget -k -np https://advice.writing.utoronto.ca/types-of-writing/annotated-bibliography/
+biber chst_506
+biber chst_506
+ls
+biber chst_506
+biber chst_506
+bash cmake-3.14.5-Linux-x86_64.sh
+bash cmake-3.14.5-Linux-x86_64.sh
+./start-tor-browser.desktop 
+exec start-tor-browser.desktop 
+avrdude -c avrispmkII -p attiny84 -U lfuse:w:0xe2:m
+git add -A
+git commit -m "readme updated"
+git push origin master
+make flash
+make flash
+make flash
+make flash
+make flash
+avrdude -c avrispmkII -p attiny84 -U lfuse:w:0xe2:m
+make flash
+make flash
+make flash
+git add -A
+git commit -, 
+git commit -m "added more files containing improvements"
+git push origin master
+conda activate
+python3 
+git add -A
+git commit -m "tried to get buttons to work"
+git push origin master
+git add -A
+git commit -m "Fixed flickering issues for the most part"
+git push origin master
+gcc struct_prac.c
+gcc test.c 
+./test.c
+gcc --version
+gcc test.c -o test
+./test
+./test
+gcc test.c -o test
+./test
+make
+make flash
+make flash
+i3status -c
+i3status -c config
+i3status -c configfile
+man i3status
+i3 -h
+clear
+i3status -h
+i3status --help
+i3status -v
+cd /etc/
+ls
+ls | grep i3
+vim i3status.conf
+git add -A
+git commit -m "updated schematic"
+git push origin master
+git pull
+git push origin master
+git push origin master
+git pull work_table_light/
+git pull https://github.com/AlviAhmed/work_table_light.git
+git add -A
+git commit -m "updated schematic"
+git push origin master
+ls
+ls -a
+git add -A
+git commit -m "added i3status, update i3"
+git push origin master
+make flash
+make flash
+make flash
+:w
+avrdude -c avrmkII -p attiny85 -U lfuse:w:0xe2:m
+avrdude -c avrispmkII -p attiny85 -U lfuse:w:0xe2:m
+avrdude -c avrispmkII -p attiny85 -U hfuse:w:0xdf:m
+avrdude -c avrispmkII -p attiny85 -U efuse:w:0xff:m
+git add -A
+git commit -m "Starting the stepper motor code"
+git push origin master
+cd ..
+ls
+git add -A
+git commit -m "update"
+git push origin master
+git add -A
+git commit -m "update"
+git push origin master
+man htlatex
+sudo apt-get install htlatex
+man pandoc
+sudo apt-get install pandoc
+man pandoc
+git add -A
+git commit -m
+git commit -m "slightly optimized"
+git push origin master
+avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -U efuse:w:0xff:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -v
+avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -v
+avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -U efuse:w:0xff:m
+avrdude -c avrispmkII -p attiny85 -b 32400 -v

@@ -2,16 +2,46 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("dot_config_files"
- (filename . "~/Documents/Git_Projects/dot_config_files/")
- (front-context-string . ".bashrc\n  -rw-rw")
- (rear-context-string . "57 May 29 07:44 ")
- (position . 228))
-(".conky"
- (filename . "~/.conky/")
- (front-context-string . "black_diamond\n  ")
- (rear-context-string . "96 Jul 30 09:33 ")
- (position . 204))
+(("RC_tiny85"
+ (filename . "~/Documents/Git_Projects/RC_tiny85/")
+ (front-context-string . ".git\n  -rwxrwxrw")
+ (rear-context-string . "96 Sep 18 22:55 ")
+ (position . 224))
+("ELE792"
+ (filename . "~/Documents/Year5Sem1/ELE792/")
+ (front-context-string . "ELE792_labs\n  dr")
+ (rear-context-string . "96 Sep 11 01:32 ")
+ (position . 211))
+("ELE734"
+ (filename . "~/Documents/Year5Sem1/ELE734/")
+ (front-context-string . "CMOS VLSI Design")
+ (rear-context-string . "96 Sep  9 02:24 ")
+ (position . 222))
+("ELE724"
+ (filename . "~/Documents/Year5Sem1/ELE724/")
+ (front-context-string . "contract.png\n  d")
+ (rear-context-string . "84 Sep 11 01:59 ")
+ (position . 222))
+("ELE700"
+ (filename . "~/Documents/Year5Sem1/ELE700/")
+ (front-context-string . "ELE700_labs\n  dr")
+ (rear-context-string . "96 Sep 10 10:50 ")
+ (position . 211))
+("COE718"
+ (filename . "~/Documents/Year5Sem1/COE718/")
+ (front-context-string . "coe718_mega\n  dr")
+ (rear-context-string . "96 Sep  9 02:13 ")
+ (position . 262))
+("ELE724_school"
+ (filename . "~/Documents/Year5Sem1/ELE724/ELE724_school/")
+ (front-context-string . "ELE724_course_ou")
+ (rear-context-string . "82 Sep  3 15:06 ")
+ (position . 360))
+("Year5Sem1"
+ (filename . "~/Documents/Year5Sem1/")
+ (front-context-string . "ELE724\n  drwxrwx")
+ (rear-context-string . "96 Sep  9 02:24 ")
+ (position . 306))
 ("python_practice"
  (filename . "~/Documents/python_practice/")
  (front-context-string . "float_python.py\n")
@@ -42,11 +72,6 @@
  (front-context-string . "dcconvertercircu")
  (rear-context-string . "09 Mar 16 15:12 ")
  (position . 233))
-("CHST 506 "
- (filename . "~/Documents/Year4.5Sem1/CHST 506 /")
- (front-context-string)
- (rear-context-string . "Jun 25 13:33 ..\n")
- (position . 176))
 ("Videos"
  (filename . "~/Videos/")
  (front-context-string . "AVR_USART__Seria")
@@ -77,11 +102,6 @@
  (front-context-string . "anode.pdf\n  -rwx")
  (rear-context-string . "86 Jun 12  2017 ")
  (position . 470))
-("CENG 112"
- (filename . "~/Documents/Year4.5Sem1/CENG 112/")
- (front-context-string . "DroneAreaA.jpg\n ")
- (rear-context-string . "14 May 17 12:27 ")
- (position . 226))
 ("avr_usart"
  (filename . "~/Documents/Projects/avr_usart/")
  (front-context-string . "main.elf\n  -rw-r")
@@ -92,11 +112,6 @@
  (front-context-string . "Lab 0\n  drwxrwxr")
  (rear-context-string . "96 May 14 13:51 ")
  (position . 326))
-("Year4.5Sem1"
- (filename . "~/Documents/Year4.5Sem1/")
- (front-context-string . "COE 768.zip\n  dr")
- (rear-context-string . "77 May 13 12:51 ")
- (position . 281))
 ("ranger-u"
  (filename . "~/Documents/Year4Sem2/usbfiles/")
  (front-context-string . "ELE635-PDFS/\n  d")
@@ -117,41 +132,11 @@
  (front-context-string . "2013 - Out of Bo")
  (rear-context-string . "96 Apr  9 14:34 ")
  (position . 212))
-("ELE 639 - BME 639"
- (filename . "~/Documents/Year4Sem2/ELE 639 - BME 639/")
- (front-context-string . "clickerreg.png\n ")
- (rear-context-string . "74 Jan  8 14:23 ")
- (position . 240))
-("ELE 637"
- (filename . "~/Documents/Year4Sem2/ELE 637/")
- (front-context-string . "Course Outline\n ")
- (rear-context-string . "96 Jan 11 11:34 ")
- (position . 215))
-("ELE 635"
- (filename . "~/Documents/Year4Sem2/ELE 635/")
- (front-context-string . "Assignments\n  dr")
- (rear-context-string . "96 Mar 21 14:03 ")
- (position . 230))
-("ELE 632 - BME 632"
- (filename . "~/Documents/Year4Sem2/ELE 632 - BME 632/")
- (front-context-string . "Course Outline\n ")
- (rear-context-string . "96 Jan 14 15:15 ")
- (position . 240))
-("CEN 800"
- (filename . "~/Documents/Year4Sem2/CEN 800/")
- (front-context-string . "CEN800 - Drive\n ")
- (rear-context-string . "96 Jan 11 11:58 ")
- (position . 215))
 ("ranger-k"
  (filename . "~/Documents/resumes/new_current/Al/cover_letter/")
  (front-context-string . "cohesity\n  drwxr")
  (rear-context-string . "0K Apr  7 14:38 ")
  (position . 87))
-("new_current"
- (filename . "~/Documents/resumes/new_current/")
- (front-context-string . "Al\n  drwxrwxr-x ")
- (rear-context-string . "96 Apr  1 22:41 ")
- (position . 217))
 ("resumes"
  (filename . "~/Documents/resumes/")
  (front-context-string . "al_resume.docx\n ")
@@ -177,9 +162,4 @@
  (front-context-string . "avr_cnc\n  drwxrw")
  (rear-context-string . "96 Apr  1 13:04 ")
  (position . 210))
-("Year4Sem2"
- (filename . "~/Documents/Year4Sem2/")
- (front-context-string . "CEN 800\n  -rw-rw")
- (rear-context-string . "96 Jan 27 10:30 ")
- (position . 227))
 )
