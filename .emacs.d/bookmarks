@@ -2,7 +2,37 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("RC_tiny85"
+(("Conky"
+ (filename . "~/.conky/conky_rings/Conky/")
+ (front-context-string . "mem\n  -rwxrwxr-x")
+ (rear-context-string . "65 Aug 11 21:16 ")
+ (position . 766))
+("Torrent Data"
+ (filename . "~/FrostWire/Torrent Data/")
+ (front-context-string . "The Conjuring (2")
+ (rear-context-string . "96 Oct  5 19:07 ")
+ (position . 303))
+("usb"
+ (filename . "/../media/al/usb/")
+ (front-context-string . "792_pir\n  -rwxr-")
+ (rear-context-string . "92 Oct  2 09:24 ")
+ (position . 228))
+("xsessions"
+ (filename . "/usr/share/xsessions/")
+ (front-context-string . "i3.desktop\n  -rw")
+ (rear-context-string . "97 Sep 24  2017 ")
+ (position . 311))
+("islam_research"
+ (filename . "~/Documents/islam_research/")
+ (front-context-string . "P drwxr-xr-x  2 ")
+ (rear-context-string . "Oct 12 23:34 ..\n")
+ (position . 175))
+("ELE 504"
+ (filename . "~/Documents/ELE 504/")
+ (front-context-string . "Additional Probl")
+ (rear-context-string . "96 Aug  6 23:57 ")
+ (position . 217))
+("RC_tiny85"
  (filename . "~/Documents/Git_Projects/RC_tiny85/")
  (front-context-string . ".git\n  -rwxrwxrw")
  (rear-context-string . "96 Sep 18 22:55 ")
