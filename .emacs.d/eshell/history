@@ -1,25 +1,3 @@
-git add -A
-git commit -m "update"
-git push origin master
-git add -A
-git commit -m "update"
-git push origin master
-man htlatex
-sudo apt-get install htlatex
-man pandoc
-sudo apt-get install pandoc
-man pandoc
-git add -A
-git commit -m
-git commit -m "slightly optimized"
-git push origin master
-avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
-avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
-avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
-avrdude -c avrispmkII -p attiny85 -b 32400 -U efuse:w:0xff:m
-avrdude -c avrispmkII -p attiny85 -b 32400 -v
-avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
-avrdude -c avrispmkII -p attiny85 -b 32400 -v
 avrdude -c avrispmkII -p attiny85 -b 32400 -U lfuse:w:0xe2:m
 avrdude -c avrispmkII -p attiny85 -b 32400 -U hfuse:w:0xdf:m
 avrdude -c avrispmkII -p attiny85 -b 32400 -U efuse:w:0xff:m
@@ -126,3 +104,25 @@ man pdftoppm
 pdftoppm -png ele724_cover2.pdf ele724_cover
 pdftoppm -png coelab4_cover_page.pdf coelab4_coverpage
 pdftoppm ele734_cover3.pdf ele734_cover4
+pdftoppm -png ele734_cover3.pdf ele734_cover3
+git add -A
+git add -A
+git commit -m "updated emacs"
+git push origin master
++ sudo -E sh -c 'apt-key adv --keyserver keyserver.ubuntu.com --recv-keys D2486D2DD83DB69272AFE98867170598AF249743'
+./configure
+ls
+cmake
+man cmake
+cmake
+man cmake
+cmake --build 
+ls
+cd cmake
+ls
+cd ..
+clear
+ls
+cmake .
+ls
+pdftoppm -png media_cover.pdf media_cover

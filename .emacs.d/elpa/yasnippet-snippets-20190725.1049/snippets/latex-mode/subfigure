@@ -2,12 +2,9 @@
 # name: subfigure
 # key: subfig
 # --
-\begin{figure}[ht]
-  \centering
-  \subfigure[$1]
-  {\label{fig:${2:label}} 
-    \includegraphics[width=.${3:5}\textwidth]{${4:path}}}
-
-  \caption{${5:caption}}
-\label{fig:${6:label}}
-\end{figure}
+  \begin{subfigure}[t]{0.${1:}\linewidth}
+    \includegraphics[width=0.${2:}\linewidth, height = ${3:}]{${4:path}}
+    \caption{${5:}}
+  \end{subfigure}
+  
+$0 
