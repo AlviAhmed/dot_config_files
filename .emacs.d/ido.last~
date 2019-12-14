@@ -2,9 +2,25 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/" . "media_center/")
+ ("/home/al/Documents/COE318/" . "coe318_labs/")
+ ("/opt/lampp/htdocs/" . "first/")
+ ("/opt/lampp/" . "htdocs/")
+ ("/opt/" . "lampp/")
+ ("/home/al/opt/" . "xPacks/")
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/" . "lecture_10/")
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/" . "lab4/")
+ ("/home/al/Documents/Year5Sem1/ELE724/" . "ELE724_labs/")
+ ("/ssh:a266ahme@pascal.ee.ryerson.ca:ele792/" . "project/")
+ ("/home/al/Documents/Year5Sem1/COE718/" . "COE718_labs/")
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/report/" . "media_project_images_report/")
+ ("/ssh:a266ahme@pascal.ee.ryerson.ca:coe718/media_project/" . "USBAudio/")
+ ("/ssh:a266ahme@pascal.ee.ryerson.ca:coe718/" . "media_project/")
+ ("/ssh:a266ahme@pascal.ee.ryerson.ca:" . "ele724/")
+ ("/home/al/Documents/Year5Sem1/ELE700/" . "datasheets_guides/")
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/" . "report/")
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/" . "interim/")
  ("/home/al/Documents/Year5Sem1/ELE734/" . "ELE734_labs/")
- ("/home/al/Documents/Year5Sem1/" . "ELE734/")
+ ("/home/al/Documents/Year5Sem1/" . "COE718/")
  ("/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/" . "dom_lib/")
  ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/" . "lab1_tex/")
  ("/home/al/Documents/ELE 725/Lab 1/" . "cover/")
@@ -16,7 +32,7 @@
  ("/home/al/Documents/ELE 725/" . "Lab 1/")
  ("/home/al/Documents/Year4Sem1/ELE 504/" . "lab_MP/")
  ("/home/al/Documents/Year4Sem1/" . "ELE 504/")
- ("/home/al/.emacs.d/" . "snippets/")
+ ("/home/al/.emacs.d/" . "thumbs/")
  ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 2/" . "lab2_tex/")
  ("/home/al/Documents/wave_generator_report/" . "report_pics/")
  ("/home/al/Documents/Year4.5Sem1/ELE 725/Lab 3/" . "lab2_tex/")
@@ -30,103 +46,267 @@
  ("/home/al/Documents/Projects/" . "blink_test_tiny85/")
  ("/home/al/Documents/ELE 404/7th Edition/" . "Example Solutions/")
  ("/home/al/Documents/ELE 404/" . "7th Edition/")
- ("/home/al/Documents/" . "ELE 725/")
+ ("/home/al/Documents/" . "COE318/")
  ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/gay_activities/" . "homework2/")
  ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/" . "gay_activities/")
  ("/home/al/Documents/resumes/new_current/" . "Al/")
  ("/home/" . "al/")
- ("/" . "media/")
+ ("/" . "home/")
  ("/home/al/Documents/resumes/new_current/Al/cover_letter/" . "aecom/")
  ("/home/al/.config/" . "i3/")
- ("/home/al/" . ".emacs.d/")
+ ("/home/al/" . "Documents/")
  ("/home/al/Documents/Year4Sem2/ELE 632 - BME 632/Labs_curr/" . "lab4/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/media_center/"
+ "/home/al/.emacs.d/"
  "/home/al/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab3/"
- "/home/al/.emacs.d/elpa/yasnippet-snippets-20190725.1049/snippets/latex-mode/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3b/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/"
- "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a/"
- "/home/al/Documents/Year5Sem1/ELE700/projects/RTOS demo/"
+ "/home/al/Documents/COE318/coe318_labs/lab4/BankAccounts/src/coe318/lab4/"
+ "/home/al/Documents/c++_practice/bank_account/"
+ "/home/al/Documents/c++_practice/"
  "/home/al/todo/"
+ "/home/al/Documents/java_practice/"
+ "/home/al/.emacs.d/elpa/ggtags-20190320.2208/"
+ "/home/al/Documents/code_comp/fizzbuzz/"
+ "/opt/lampp/htdocs/first/"
+ "/opt/"
+ "/home/al/opt/"
+ "/home/al/Documents/html_practice/"
+ "/home/al/Documents/Year5Sem1/ELE792/final_study/"
+ "/home/al/Documents/Year5Sem1/ELE792/final_study/lecture_1/"
+ "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab4/"
+ "/home/al/Documents/Year5Sem1/ELE724/"
+ "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab3/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/ele792/project/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:ele792/project/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/report/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/media_center/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/project_files/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/"
  "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/"
- "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/"
- "/home/al/.conky/conky_rings/Conky/"
- "/home/al/.conky/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/hamza/Lab4/Part_1_Analysis/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/hamza/Lab4/Part_1_Demo/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/lab4/lab4a/"
- "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab2/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab2/"
+ "/home/al/Documents/Year5Sem1/ELE724/ELE724_school/lectures_downloaded/"
+ "/home/al/Documents/Year5Sem1/ELE700/report/"
+ "/home/al/Documents/Year5Sem1/ELE700/"
+ "/home/al/Desktop/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/project_pir/final lab/"
+ "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:coe718/media_project/USBAudio/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/coe718/media_project/Game_2/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:"
+ "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab4/report/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/interim/"
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:coe718/media_project/Game/"
+ "/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Base Stepper With Serial.X/"
+ "/home/al/Documents/Year5Sem1/ELE700/datasheets_guides/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a/"
+ "/home/al/Documents/Year5Sem1/ELE700/projects/LED flasher.X/hpl/"
+ "/home/al/Documents/Year5Sem1/ELE700/projects/LED flashers.X/hal/include/"
+ "/home/al/Documents/Year5Sem1/ELE700/projects/LED flashers.X/"
+ "/home/al/Documents/Year5Sem1/ELE700/projects/LED flasher.X/"
  "/home/al/Downloads/"
- "/home/al/Documents/Year5Sem1/ELE734/"
- "/home/al/Documents/Year5Sem1/ELE734/CMOS VLSI Design, A Circuits and Systems Perspective/"
- "/home/al/Documents/Year5Sem1/COE718/lab3b_2/"
- "/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/dom_lib/"
- "/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/lab3b_2_inprog_preemptive/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/"
- "/home/al/Documents/arm_trials/"
- "/media/"
- "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/lab1_tex/"
  "/home/al/Documents/Year5Sem1/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a/lab3a_part2_new/"
- "/../media/"
- "/usr/share/xsessions/"
- "/home/al/evilwm-1.1.1/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a_2_rename/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/ps_forms/"
- "/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/converted_pdf_pic/"
- "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab1/"
- "/home/al/Documents/Year5Sem1/hamza_dom_test/"
- "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab1/report_pics/"
- "/home/al/Documents/Git_Projects/dot_config_files/"
- "/home/al/Documents/wave_generator_report/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/proof/"
- "/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/"
- "/home/al/Documents/ELE 725/Lab 4/lab4_tex/"
- "/home/al/Documents/ELE 725/Lab 1/"
- "/home/al/Documents/ELE 725/Lab 3/lab3_tex/"
- "/home/al/Documents/ELE 725/Lab 1/lab1_tex/"
+ "/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab3/"
+ "/home/al/Documents/Year5Sem1/ELE882/"
+ "/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- ".emacs"
- "ele734_lab3.org"
- "Media-Center.pdf"
- "media_project_report.org"
+ "init.el"
+ "elisp_practice.el"
+ "Account.cpp"
  "todo.org"
- "media_part1_report.tex"
- "coe718_lab3b.tex"
- "coe718_lab2.tex"
- "ele792_lab2.tex"
- "coe718_lab3.tex"
+ "helloworld.java"
+ "style.css"
+ "first_website.php"
+ "hello_world.php"
+ "first_website.html"
+ "calculator.cpp"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/media_center/" (24000 26979 244681 534000) "./" "media_project_report.lof" "media_cover.png" "media_project_report.pdf" "rainbow-lorikeet.jpg" "media_cover.pdf" "Media-Center.pdf" "media_project_report.org~" "../" "media_project_report.tex" "media_project_report.org" "pics_use/" "media_project_report.tex~")
+ ("/home/al/.emacs.d/" (24052 14602 617006 6000) "init.el" ".cache/" "./" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "auto-save-list/" "nov-places" "../" ".emacs.desktop" "init.el~" "snippets/" "abbrev_defs" "thumbs/" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "tramp" "elpa/" "dmenu-items" "%backup%~" "places")
 
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/" (24000 23536 404772 337000) "coelab4_coverpage.png" "priority_goal.png" "./" "coelab4_cover_page.pdf" "#coe718_lab4.tex#" "coe718_lab4.tex~" ".#coe718_lab4.tex" "rms_goal.png" "coe718_lab4.pdf" "rep_pic/" "../" "coe718_lab4.tex" "coe718_lab4.log" "Lab4.pdf" "coe718_lab4.aux" "pir/")
+ ("/home/al/Documents/c++_practice/bank_account/" (24051 22425 856566 538000) "./" "Main_bankaccount.cpp" "Main_bankaccount.cpp~" "../")
 
- ("/home/al/" (24000 24521 801381 343000) ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" ".fonts/" ".cache/" ".linuxmint/" "lab1_material2.zip" "wine-4.0.1/" "todo/" "Music/" "Desktop/" ".ssh/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" ".p2/" "evilwm-1.1.1.tar.gz" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "emacs-26.1.tar.gz" "schedfall2019.png" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Release.key" ".thumbnails/" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "wrestling_workout.org~" "Vmware/" "themes_like.org~" "graph_extracted_schematic.png" "eagle_libraries_storage/" "EAGLE/" "index.html" "trail.org~" ".i3status.conf" ".config/" "frostwire-6.8.1.all.deb" "gcc.gnu.org/" "evilwm-1.1.1/" "schedfall2019.png.png" ".rpmdb/" ".mplayer/" ".gconf/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" ".wine/" "opt/" ".mplab_ide/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" ".sane/" ".surf/" ".bashrc" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "waterfox/" ".gtkrc-xfce" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "L3resumenotes.org~" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".profile" ".Private/" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" ".lesshst" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lab3b_2.zip" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.mkv" "mozilla.pdf" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" ".ICEauthority" "eagle-9.4.2/" ".FBReader/" ".vmware/" ".pki/" "sunnah.com/" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" ".npm/" "eclipse/" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.m4a" "MPLABXProjects/" "wine-4.0.1.tar.xz" ".psensor/" "extracted_schem.ps" "dissenter-browser-v0.66.99-amd64.deb" "drawing.svg" "Public/" "final_exam_sched.png" "hello~" ".viminfo" ".waterfox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" ".eclipse/" ".oracle_jre_usage/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" ".emacs" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" "opencv-3.4.6.zip" ".emacs~" ".kde/" "priority_inv.pdf" ".aspell.en.prepl" ".vimrc" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "workout_home.jpg" ".mozilla/" "temp.cpp~" "Documents/" ".conkyrc" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" "emacs-26.1/" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" ".frostwire5/" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
+ ("/home/al/Documents/COE318/coe318_labs/lab4/BankAccounts/src/coe318/lab4/" (24051 23979 833158 546000) "./" "MainBank.java" "Bank.java" "MainBank.class" "Account.java" "../" "Bank.class" "MainAccount.class" "MainAccount.java" "Account.class")
+
+ ("/home/al/" (24052 16960 132501 241000) ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" "interprocess/" ".fonts/" ".cache/" ".linuxmint/" "java/" "lab1_material2.zip" "help/" "wine-4.0.1/" "todo/" "toolbox/" "Music/" "elisp_practice.lisp~" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" "Desktop/" ".ssh/" ".matlab/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" "elisp_practice.el" "feh_005979_000002_20191107_144533_HDR.jpg" ".p2/" "evilwm-1.1.1.tar.gz" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "polyspace/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "emacs-26.1.tar.gz" "schedfall2019.png" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Release.key" ".thumbnails/" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "www.gatevidyalay.com/" "wrestling_workout.org~" "Vmware/" "themes_like.org~" "graph_extracted_schematic.png" "eagle_libraries_storage/" "EAGLE/" "index.html" "trail.org~" ".i3status.conf" ".config/" "frostwire-6.8.1.all.deb" "gcc.gnu.org/" "schedfall2019.png.png" ".rpmdb/" ".mplayer/" ".gconf/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" "index.html.1" ".wine/" "opt/" ".mplab_ide/" ".netbeans/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" "sys/" ".sane/" ".surf/" ".bashrc" "minicom.log" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "llvm-project/" "waterfox/" ".gtkrc-xfce" "etc/" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "L3resumenotes.org~" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".authinfo" ".profile" ".Private/" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" ".lesshst" "NetBeansProjects/" "matlab2019b_zip/" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lab3b_2.zip" "xampp-linux-x64-7.1.33-1-installer.run" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.mkv" "mozilla.pdf" "feh_005979_000001_20191107_144533_HDR.jpg" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" ".ICEauthority" "eagle-9.4.2/" ".FBReader/" ".vmware/" ".pki/" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" ".npm/" "eclipse/" "ELECTRO SWING TEKNO - Mixtape by Naztek-s2brLMyh8Eg.m4a" "MPLABXProjects/" "wine-4.0.1.tar.xz" ".psensor/" "extracted_schem.ps" "dissenter-browser-v0.66.99-amd64.deb" "drawing.svg" "Public/" "final_exam_sched.png" "ui/" "hello~" ".viminfo" ".waterfox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" ".eclipse/" ".oracle_jre_usage/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" ".m2/" "opencv-3.4.6.zip" ".kde/" "priority_inv.pdf" "extern/" ".aspell.en.prepl" ".vimrc" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "workout_home.jpg" ".mozilla/" "examples/" "temp.cpp~" "Documents/" ".conkyrc" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" "emacs-26.1/" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" ".frostwire5/" "elisp_practice.el~" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
+
+ ("/home/al/Pictures/background_pics/" (24052 16626 25731 775000) "1572829751576.jpg" "1548804122852.jpg" "1535802176848.jpg" "deus_ex.jpeg" "1533019491555.jpg" "1530876879855.jpg" "1535802263811.jpg" "1550777378062.jpg" "1550794733053.jpg" "1546283268090.jpg" "1572794327347.jpg" "1571024329605.jpg" "neon_inscription_wall_134368_1600x900.jpg" "1533010180102.jpg" "1531701649389.jpg" "1550671826754.jpg" "1550776499886.jpg" "1550566142033.png" "1515163741250.png" "1547804233569.jpg" "1550773351710.jpg" "1534819065261.jpg" "neon_wolf.jpg" "1548641295286.png" "painting.jpg" "hello.jpg" "1572311510385.png" "1546308427634.jpg" "1532253937120.jpg" "1535787480165.jpg" "wallpaper.jpg" "1531701633662.png" "1548028831961.png" "sci-fi-space-spaceship-stars-meteoric-painting-artwork.jpg" "1515163854134.jpg" "1515128022039.jpg" "1535784133672.jpg" "1535672327142.jpg" "1547939968670.png" "1548888390729.jpg" "1548678763831.png" "1572045868680.jpg" "1547804168864.jpg" "1535802222629.jpg" "defiance.png" "1535801764065.jpg" "1571023540731.jpg" "1550672002730.jpg" "1547804337805.jpg" "1535228952098.jpg" "1535801714840.jpg" "1535822323848.jpg" "../" "./")
+
+ ("/home/al/Documents/COE318/coe318_labs/" (23258 38701 775017 0) "lab5.zip" "lab1/" "./" "lab4.zip" "lab7.zip" "lab7/" "lab2/" "lab1.zip" "lab4/" "lab3/" "lab6.zip" "../" "lab7.pdf" "lab5/" "lab6/")
+
+ ("/home/al/Documents/COE318/" (24051 12509 811748 225000) "lecture material/" "./" "exams_quizzes/" "Quiz 2/" "books/" "coe318_labs/" "../" "practice codes and labs/" "codeprojects/")
+
+ ("/home/al/Documents/COE318/labs/" (23258 38701 775017 0) "lab5.zip" "lab1/" "./" "lab4.zip" "lab7.zip" "lab7/" "lab2/" "lab1.zip" "lab4/" "lab3/" "lab6.zip" "../" "lab7.pdf" "lab5/" "lab6/")
+
+ ("/home/al/Documents/c++_practice/" (24050 41728 255314 621000) "exam.out" "typecast.cpp" "decimal_points.cpp" "functions.cpp~" "inputoutput.cpp" "Resistor.cpp~" "example_prog.cpp" "helloworld.cpp~" "ifelse.cpp~" "a.out" "struct_practice.cpp~" "6C4CC842.jpg" "inputoutput.cpp~" "decimal_points.cpp~" "helloworld.cpp" "DisplayImage.cpp" "linked_list.cpp" "farentocel.cpp" "oop_c++_prac.cpp" "predence_boolean.cpp" "linked_list.cpp~" "predence_boolean.cpp~" "faren" "typecast.cpp~" "calculator.cpp" "TAGS" "farentocel.cpp~" "oop_prac" "numbers_chapter1.cpp" "oop_c++_prac.cpp~" "numbers_chapter1.cpp~" "helloworld" "calculator.cpp~" "example_prog" "Resistor" "functions.cpp" "ifelse.cpp" "BROWSE" "struct_practice.cpp" "Resistor.cpp" "example_prog.cpp~" "bank_account/" "../" "./")
+
+ ("/home/al/Music/" (24033 49343 318281 614000) "slipknot albums/" "slipknot/" "phone/" "../" "./")
+
+ ("/home/al/Documents/" (24045 49783 369230 438000) "COE 538 - BME 538/" "doom/" "gazebo.sh" "Year5Sem1/" "birth/" "java_practice/" "intq3.png" "c++_practice/" "ELE 725/" "latex_practice/" "os/" "intq2.png" "COE318/" "Visual Studio 2010/" "rtl8812AU_8821AU_linux/" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "python_practice/" "oldgame/" "as-installer-7.0.2389-full.exe" "books/" "crackstation_wordlist.txt.gz" "islam_research/" "ryerson wifi certificate/" "radio/" "Projects/" "bash/" "code_comp/" "MATLAB/" "Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack" "wave_generator_report/" "vera_crypt/" "osap/" "intq1.png" "AVRStudio 5.1/" "electronic documents/" "Elements of Electromagnetics 6th.pdf" "c_practice/" "rstudio-1.1.456-amd64/" "elisp_practice/" "html_practice/" "latex_template/" "bash_scripts/" "titles/" "downloaded_webpages/" "ele_725.zip" "LCD_Blinky_updated.zip" "arm_trials/" "Backups/" "ELE754/" "FDM_research/" "Dis/" "Git_Projects/" "alvi.ahmed@ryerson.ca.ical/" "rye_eng_comp_backup/" "resumes/" "ELE 504/" "ELE 404/" "bills/" "../" "./")
+
+ ("/home/al/Downloads/" (24048 3024 322151 529000) "ele724_EE8502_Practice_Problems_Modules_8_9.pdf" "medical.pdf" "usbdmain.c~" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 1242019 - 1043 AM.zip" "WhatsApp Image 2019-12-09 at 9.04.43 PM.jpeg" "COE538 - Fall 2010 Midterm.pdf" "veracrypt-1.24-Hotfix1-setup-gui-x86" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 1242019 - 1050 AM.zip" "Multitasking-RTX.pdf" "smelly 718 final notes.zip" "SpectralAnalysisDiscussion(2)__xid-2932919_2.m" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 134 PM.zip" "Alvi Midterm.pdf" "ELE792 Fall 2018 Final Exam Solutions.pdf" "Apache-NetBeans-11.2-bin-linux-x64.sh" "WhatsApp Image 2019-12-09 at 9.04.43 PM (1).jpeg" "coe718-samplefinal.pdf" "ELE792_F2018_FinalExam.pdf" "formula-sheet.pdf" "4288dec5.pdf" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 729 PM.zip" "jdk-13.0.1_linux-x64_bin.deb" "veracrypt-1.24-Hotfix1-setup-console-x64" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 210 PM.zip" "medical_note.pdf" "ELE792_F2019_MidtermExam - Solutions.pdf" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 1242019 - 1052 AM.zip" "FT-Embedded.pdf" "xampp-linux-x64-7.1.33-1-installer.run" "4104dec5.pdf" "ele724_EE8502_Practice_Problems_Modules_5_6_7.pdf" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 728 PM.zip" "ele724_final_2018.pdf" "EE8506ELE734 - Low Pwr Dgtl Integrated Circts - F2019 - 12102019 - 418 PM.zip" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 1242019 - 1053 AM.zip" "veracrypt-1.24-Hotfix1-setup-gui-x64" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 216 PM.zip" "EE8506ELE734 - Low Pwr Dgtl Integrated Circts - F2019 - 12102019 - 339 PM.zip" "RT-Scheduling.pdf" "Embedded-SoPC.pdf" "Tutorials 2018" "ELE724_EE8502_Practice_Problems_Modules_1_2_3.pdf" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 113 PM.zip" "medical_note (1).pdf" "Module_5_bandgap_voltage_references.pdf" "Exam(2).zip" "veracrypt-1.24-Hotfix1-setup-console-x86" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 214 PM.zip" "Discord/" "4294dec5.pdf" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 111 PM.zip" "Midterm 2019 Solution.pdf" "HS-Codesign-Overview.pdf" "ELE792 - Digital Signal Processing - F2019 - 1232019 - 213 PM.zip" "../" "./")
+
+ ("/home/al/todo/" (24049 50521 291320 381000) "./" "todo.org~" "../" "todo.org")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/" (24048 3009 577893 579000) "Tests/" "downloaded_ele734_final_lectures/" "./" "Westeweb.pdf" "ELE734_labs/" "downloaded_ele734/" "ELE734_EE8506 Course Outline Fall 2019.docx" "downloaded_ele734_final/" "ele734_labreport_template.tex" "../" "Textbook/" "CMOS VLSI Design, A Circuits and Systems Perspective/" "andy_lectures/" "ELE734_mega/" "Midterm 2019 Solution.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/downloaded_ele734_final/" (24048 711 599960 928000) "Final 2017 P2.jpg" "Final 2017 P10.jpg" "Final 2017 P3.jpg" "./" "Final 2017 P12.jpg" "Table of Contents.html" "Final 2017 P7.jpg" "Final 2017 P1.jpg" "Final 2017 P9.jpg" "Final 2017 P5.jpg" "../" "Final 2017 P11.jpg" "Final 2017 P6.jpg" "EE8506ELE734 - Low Pwr Dgtl Integrated Circts - F2019 - 12102019 - 339 PM.zip" "Final 2017 P8.jpg" "Final 2017 P4.jpg" "Final 2017 P13.jpg")
+
+ ("/home/al/Desktop/" (24047 56729 226411 729000) "Critical Mass.desktop" "Football-o-saurus.desktop" "1573085896397.gif" "eq.png" "graph1.png" "Screenshot_2019-10-14_08-26-10.png" "alingned_120_max.png" "Python-3.7.4.tar.xz" "IMG-20191027-WA0000.jpg" "Bitvise SSH Client.desktop" "1573072700195.jpg" "End Of Atlantis.desktop" "Firefight.desktop" "AVR Studio 5.1.desktop" "Slay.desktop" "Screenshot_2019-11-09_23-54-26.png" "quantum.png" "ATSAME70-XPLD.jpg" "Screenshot_2019-11-12_11-16-08.png" "ca-bundle.crt" "preprocessed_surf.png" "Mother Of All Battles.desktop" "transpose_graphs.png" "waterfox" "Screenshot_2019-11-03_03-22-29.png" "Screenshot_2019-11-09_23-55-15.png" "VMware Workstation Pro.desktop" "VMware Workstation Pro.lnk" "weighted.png" "correlation_graph_wandwo_preproc.png" "hardwarespecs.png" "easy_stepper.png" "atmelstudio.png" "Sean O'Connor's Windows Games/" "gunna_fail.png" "atsamed21.jpeg" "mplab.png" "TMC5160.png" "interm_req.png" "The General.desktop" "Cadence_IC_06.17.700_Virtuoso_Rahim-soft.com/" "asdaf.png" "nopreprocess_surf.png" "pres.png" "1573033862574.jpg" "ratevsdead.png" "Conquest.desktop" "Screenshot_2019-11-19_14-34-44.png" "Python-3.7.4.tar.xz.asc" "arduinodue.jpeg" "medical_verified.png" "medical_info_form.png" "keiluvision.png" ".bash_history" "../" "./")
+
+ ("/home/al/Documents/java_practice/" (24045 28763 718845 240000) "./" "helloworld.java~" "../" "helloworld.java")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_school/downloaded/" (24046 26769 124047 678000) "5RT-Scheduling.pdf" "./" "1Intro-EmbeddedSystems.pdf" "Multitasking-RTX.pdf" "3ARM7-M3-Programming.pdf" "2_5ARM-Week-3_Additional_Lecture.pdf" "4Multitasking-RTX.pdf" "../" "FT-Embedded.pdf" "2Embedded-CPUs-ARM7-M3.pdf" "RT-Scheduling.pdf" "Embedded-SoPC.pdf" "HS-Codesign-Overview.pdf")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_school/whatsapp/smelly 718 final notes/" (24046 26850 717705 180000) "fwd.zip" "./" "../" "fwddec2/")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_school/" (23980 37535 838798 364000) "./" "downloaded/" "../")
+
+ ("/home/al/.emacs.d/elpa/ggtags-20190320.2208/" (24044 39379 91718 125000) "./" "ggtags-autoloads.el" "../" "ggtags.el" "ggtags-pkg.el" "ggtags.elc")
+
+ ("/home/al/Documents/code_comp/fizzbuzz/" (23910 7077 248603 412000) "./" "fizzbuzz-02.ans" "fizzbuzz-01.in" "fizzbuzz-02.in" "main" "fizzbuzz-03.in" "../" "fizzbuzz.zip" "fizzbuzz.png" "main.c" "fizzbuzz-01.ans" "fizzbuzz-03.ans")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/" (24044 25988 953994 2000) "lecture_4/" "lecture_1/" "./" "lecture_8/" "lecture_10/" "Alvi Midterm.pdf" "ELE792 Fall 2018 Final Exam Solutions.pdf" "eq1.png" "ELE792_F2018_FinalExam.pdf" "lecture_3/" "tutorial/" "lecture_5/" "ELE792_F2019_MidtermExam - Solutions.pdf" "../" "lecture_6/" "lecture_2/" "lecture_7/")
+
+ ("/home/al/Documents/c++_practice/count_trial/" (24044 25658 887451 731000) "./" "counter.cpp" "../")
+
+ ("/opt/lampp/htdocs/first/" (24044 20938 660802 851000) "./" "first_website.php" "sql_work.php~" "style.css~" "sql_connection_info.php~" "style.css" "sql_connection_info.php" "first_website.php~" "#sql_work.php#" "../" "sql_create_trial.php")
+
+ ("/home/al/Documents/html_practice/" (24041 62581 974303 959000) "./" "../")
+
+ ("/opt/lampp/htdocs/" (24041 58417 601513 601000) "./" "dashboard/" "bitnami.css" "first/" "favicon.ico" "webalizer/" "index.php" "img/" "testing/" "../" "applications.html" "testing123/")
+
+ ("/opt/lampp/" (24041 58704 843390 307000) "temp/" "README.md" "properties.ini" "./" "htdocs/" "lib/" "licenses/" "proftpd/" "docs/" "var/" "README-wsrep" "manager-linux-x64.run" "RELEASENOTES" "sbin/" "libexec/" "xampp" "manual/" "icons/" "modules/" "lampp" "uninstall" "THIRDPARTY" "build/" "img/" "bin/" "man/" "include/" "pear/" "phpmyadmin/" "../" "ctlscript.sh" "apache2/" "php/" "logs/" "uninstall.dat" "info/" "share/" "cgi-bin/" "etc/" "mysql/" "error/")
+
+ ("/opt/" (24041 34110 380779 428000) "./" "lampp/" "brother/" "microchip/" "../" "teamviewer/" "wine-stable/")
+
+ ("/home/al/opt/xPacks/" (23982 43052 758581 353000) "./" "@xpack-dev-tools/" "../")
+
+ ("/home/al/opt/" (23982 43052 758581 353000) "./" "xPacks/" "../")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/tutorial/" (24038 51568 862784 813000) "./" "Tutorials/" "../" "Tutorials 2018")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_school/lectures_downloaded/" (24039 61570 469925 119000) "lecture_4/" "lecture_1/" "./" "lecture_8/" "ELE724_course_outline_F2019.pdf" "modules/" "Table of Contents.html" "ele724_lab_manual.pdf" "lecture_3/" "lecture_5/" "OVI_VerilogA.pdf" "../" "lecture_6/" "EE8502ELE724 - CMOS Mixed-Mode Circuits and S - F2019 - 1042019 - 105 PM.zip" "ele724_final_2018.pdf" "NDA_MOSIS_Cmos13.pdf" "mod1_2_3/" "ELE724_EE8502_Practice_Problems_Modules_1_2_3.pdf" "VerilogA.pdf" "1_2_3/" "lecture_2/" "ELE724_EE8502_Practice_Problems_Modules_1_2_3_solution.pdf" "lecture_7/" "lecture_9/")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_school/lectures_downloaded/modules/" (24039 55164 596533 780000) "./" "mod567/" "../" "mod123/")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/lecture_6/" (24038 42433 685056 930000) "ELE792 - Digital Signal Processing - F2019 - 1172019 - 1047 AM.zip" "./" "Review of ADC and DACs.pdf" "Table of Contents.html" "Midterm Review Solutions.pdf" "Midterm Review.pdf" "Delta Sigma Modulation Part 2.pdf" "../" "Delta Sigma Modulation Part 1.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/lecture_1/" (24038 45844 283216 696000) "./" "Table of Contents.html" "ELE792_F2018_HandwrittenNotes.pdf" "../" "Review of DSP, notation, time and frequncey domain.pdf" "HW - Lecture 0.html")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/" (23975 32811 367867 462000) "./" "coe718_lab2.aux" "coelab2_cover_page.pdf" "coe718_lab2.tex~" "coe718_lab2.log" "lab2_ryematerials/" "coe718_lab2.pdf" "../" "cover.pdf" "coe718_lab2.tex" "Standard_Cover_Page_Assignments.pdf" "submission_materials/" "Lab2.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab4/" (24038 42097 62690 580000) "./" "ele724_lab4_report.pdf" "ele724_lab4_report.tex" "ele724_lab4_report.org~" "lab4_pics/" "help_pics/" "ele724_cover.png" "ele724_lab4_report_donotuse.org" "ele724_lab4_report.aux" "vco_multi_curve_cap_tuning.png" "../" "ele724_cover.pdf" "ele724_lab4_report.out" "ele724_lab4_report.lof" "vco_multi_curve_cap.png" "ele724_lab4_report.log" "ele724_lab4_report.toc" "ele724_lab4_report.tex~")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/final_study/lecture_10/" (24038 42509 730509 339000) "./" "Table of Contents.html" "../" "FIR Filters and Implementations.pdf" "FIR Filters Implementations.pdf" "IIR Filters and Implementation.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab4/lab4_pics/open_loop/" (24037 13366 0 0) "alaggingb_para.png" "./" "aleadingb_para.png" "open_loop.png" "../")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab4/report/" (24038 40764 829241 877000) "./" "lab_ele734.org~" "lab_ele734.lof" "lab_ele734.pdf" "lab_ele734.toc" "lab_ele734.aux" "lab_ele734.log" "pics/" "../" "lab_ele734.tex" "ele734cov4-1.png" "lab_ele734.org" "ele734_cover4.pdf" "lab_ele734.tex~" "lab_ele734.out")
+
+ ("/home/al/Documents/wave_generator_report/" (23966 29494 620034 345000) "wave_generator_report.toc" "wave_generator_report.tex" "./" "hackaday_inverting_integrator.org~" "wave_generator_report.org" "hackaday_inverting_integrator.org" "auto/" "wave_generator_report.pdf" "../" "output.html" "wave_generator_report.aux" "wave_generator_report.log" "hackaday_inverting_integrator.txt~" "wave_generator_report.tex~" "wave_generator_report.out" "report_pics/")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/project_files/" (24037 58272 716272 386000) "./" "lowpassfilter.mat" "enf_nov_28.m" "ground truth.wav" "ENFproject_nov_28.m" "preprocessed_surf.png" "#enf_nov_28.m#" "test_frequ.m" "../" "ground truth 2.wav" "recording 2.wav" "nopreprocess_surf.png" "recording.wav" "stft.m" "media_project_images/")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab4/lab4_pics/" (24037 14466 0 0) "./" "open_loop/" "closed_loop/" "tspc_dff/" "PFD/" "voltage_controlled_ring_oscillator/" "vco_multi_curve_cap_tuning.png" "../" "charge_pump/" "AND/" "vco_multi_curve_cap.png" "dff_mosfet.png" "voltage_controlled_ring_oscillator_tb/")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/" (24037 57997 974627 939000) "./" "stft_surf_2.m" "Project Description, Information, Assessment and H/" "Table of Contents.html" "ground truth.wav" "20191122_162650_HDR.jpg" "ENF_project_submission/" "ENF_project_submission.zip" "20191115_085836_HDR.jpg" "20191115_085844_HDR.jpg" "report/" "test_frequ.m" "../" "ground truth 2.wav" "recording 2.wav" "ENF processing.pptx" "20191122_162652_HDR.jpg" "20191122_162712_HDR.jpg" "stft_surf.m" "project_pir/" "stft_weight_max_updated_nov_25_2019.m" "project_files/" "recording.wav" "Project F2017 Media Authentication with ENF.pdf" "20191115_085848_HDR.jpg" "Seeing ENF Reference Paper.pdf" "20191115_085833_HDR.jpg")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/report/" (24037 57284 639902 197000) "eq.png" "./" "ele792_report.org~" "ele792_report.pdf" "ele792_report.tex~" "ele792_report.toc" "ele792_report.aux" "ele792_report.tex" "ele792_report.lof" "ele792_report.out" "../" "media_project_images_report/" "ele792lab4_cover_page.pdf" "ele792_report.log" "ele792_lab4_cover.png" "ele792_report_null.org")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/report/media_project_images_report/" (24037 51010 87077 315000) "Pre_120Hz_surf_audio2.png" "FFT_with_hammond.jpeg" "180Hz_surf_audio1.png" "./" "weighted_240Hz_audio1.png" "60Hz_surf_audio1.png" "Pre_weighted_60_audio2.png" "Pre_weighted_120_audio2.png" "cor_240Hz_audio1.png" "Pre_weighted_180_audio1.png" "weighted_120Hz_audio1.png" "Pre_60Hz_surf_audio1.png" "240Hz_surf_audio1.png" "pre_cor_120Hz_audio2.png" "cor_60Hz_audio1.png" "Pre_weighted_180_audio2.png" "Pre_120Hz_surf_audio1.png" "120Hz_surf_audio1.png" "../" "pre_cor_60Hz_audio2.png" "cor_120Hz_audio1.png" "max_energy_aligned.png" "Pre_60Hz_surf_audio2.png" "Pre_180Hz_surf_audio2.png" "Pre_weighted_60_audio1.png" "Pre_180Hz_surf_audio1.png" "weighted_60_audio1.png" "cor_180Hz_audio1.png" "Pre_weighted_120_audio1.png" "weighted_180Hz_audio1.png" "FFT_without_hammond.jpeg" "pre_cor_180Hz_audio2.png")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/project_files/media_project_images/" (24037 37576 202828 475000) "max_120Hz_audio1.fig" "180Hz_surf_audio1.png" "weighted_240Hz_audio1.fig" "./" "240Hz_surf_audio1.fig" "clock_diagram.jpg" "60Hz_surf_audio1.png" "max_60Hz_audio2.fig" "Pre_180Hz_surf_audio1.fig" "240Hz_surf_audio1.png" "cor_60Hz_audio1.fig" "Pre_180Hz_surf_audio2.fig" "weighted_180Hz_audio1.fig" "180Hz_surf_audio1.fig" "weighted_120Hz_audio2.fig" "cor_180Hz_audio2.fig" "cor_60Hz_audio2.fig" "120Hz_surf_audio2.fig" "180Hz_surf_audio2.fig" "Pre_60Hz_surf_audio1.fig" "max_60Hz_audio1.fig" "60Hz_surf_audio2.fig" "weighted_180Hz_audio2.fig" "120Hz_surf_audio1.png" "../" "240Hz_surf_audio2.fig" "Pre_60Hz_surf_audio2.fig" "60Hz_surf_audio1.fig" "weighted_240Hz_audio2.fig" "weighted_60Hz_audio2.fig" "weighted_120Hz_audio1.fig" "Pre_120Hz_surf_audio2.fig" "120Hz_surf_audio1.fig" "Pre_120Hz_surf_audio1.fig")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/" (24033 41135 502471 97000) "ELE700_labs/" "eclipse-installer/" "important_power_io_4.png" "./" "important_power_io_3.png" "important_power_io_5.png" "datasheets_guides/" "ele700_report.lof" "important_power_io_2.png" "eclipse-inst-linux64.tar.gz" "arm/" "important_power_io.png" "ELE700_mega/" "report/" "OReilly_Programming_Embedded_Systems_Second_edition_ebook.pdf" "sam71explained/" "../" "ELE700_school/" "projects/" "ltximg/" "ele700_report.tex~" "Atmel.SAME70_DFP.2.4.166.atpack" "Occupational_Health_Safety_Quiz_2019.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/report/" (24033 51469 192986 766000) "block_velocity_profile.png" "./" "ele700_report.odt" "ele700_report.org~" "ele700_report.lof" "ATSAME70-XPLD.jpg" "ele700_report.org" "../" "atmelstudio.png" "atsamed21.jpeg" "mplab.png" "ele700_report.pdf" "ele700_report.tex~" "ele700_report.tex" "arduinodue.jpeg" "keiluvision.png")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/" (24024 223 310296 232000) "midterm_study/" "20191107_144521_HDR.jpg" "ELE792_labs/" "./" "20191107_144530_HDR.jpg" "ELE792_F2018_Midterm_Solutions.pdf" "ELE792_mega/" "../" "ele792_school_stuff/" "ELE792_F2018_Midterm.pdf" "20191107_144525_HDR.jpg" "20191107_144523_HDR.jpg" "Chassaing,_Reay_-_Digital_Signal_Processing_and_Applications_with_the_TMS320C6713_and_TMS320C6416_DSK.pdf" "20191107_144533_HDR.jpg")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/" (24016 26626 870140 177000) "lab1/" "./" "lab2/" "project/" "lab3/" "../")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/project_pir/final lab/" (24032 32088 519666 889000) "./" "ENFproject.m" "ground truth.wav" "enf.m" "../" "ground truth 2.wav" "recording 2.wav" "lpf.m" "slprj/" "recording.wav")
+
+ ("/home/al/Documents/ELE 725/Lab 4/" (23882 19197 170927 0) "lab4_ele725.pdf" "ELE725 Lab 4 report.pdf" "pic/" "./" "restGS.gif" "pic_default.zip" "lab4_ele725.m~" "lab4_cover.pdf" "lena.jpg" "../" "lab4_pir/" "crop_script.bash" "html/" "extra.m" "lab4_tex/" "keypad.gif" "lab4_part2/" "rest.gif" "lab4_part2.m" "ELE725 Lab 4.pdf" "lab4_ele725.m")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/" (23963 26785 629684 279000) "./" "lab1_ele734.tex~" "lab1_ele734.lof" "lab1_materials/" "lab1_ele734.log" "lab1_ele734.tex" "ele734_cover1.pdf" "../" "lab1_ele734.aux" "lab1_ele734.pdf" "report_pics/" "lab1_ele734.toc")
+
+ ("/home/al/Documents/Year5Sem1/" (24029 26690 212321 213000) "./" "flow_chart.tex~" "COE718/" "backup/" "ELE724/" "RUAV/" "ELE700/" "flow_chart.pdf" "ELE734/" "../" "hamza_dom_test/" "flow_chart.aux" "ELE792/" "hamza_dom_test.zip" "flow_chart.log" "flow_chart.tex" "ELE882/")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/media_center/" (24029 18721 35239 237000) "./" "media_project_report.toc" "media_project_report.lof" "vpulse.pdf" "media_project_code.pdf" "media_cover.png" "media_project_report.pdf" "rainbow-lorikeet.jpg" "media_cover.pdf" "vpulse.ps" "Media-Center.pdf" "media_project_report.org~" "../" "vpulse.df.pdf" "media_project_report.tex" "media_project_report.out" "unit_circle.png" "media_project_report.org" "pics_use/" "media_project_report.log" "pir/" "media_project_report.aux" "media_project_report.tex~")
+
+ ("/home/al/www.gatevidyalay.com/" (24030 12991 370889 500000) "./" "delay-in-ripple-carry-adder/" "robots.txt" "../")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/" (24029 472 394334 750000) "ele792_lab2.log" "./" "ele792lab2_cover_page.pdf" "ele792_lab2.aux" "q3p/" "downloaded/" "792lab2_cover-1.png" "q2p/" "q4p/" "../" "ele792_lab2.tex" "drawn_diag.png" "Lab2 FIR Filtering F2018.pdf" "q1p/" "ele792_lab2.pdf" "ele792_lab2.tex~")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/" (24028 7899 610944 393000) "lab1/" "./" "ele724_labreport_template.lof" "lab2/" "ele724_labreport_template.lot" "ele724_lab_manual.pdf" "lab4/" "lab3/" "ele724_labreport_template.tex" "ele724_labreport_template.tex~" "../" "ele724_labreport_template.pdf" "ele724_labreport_template.log" "ele724_labreport_template.aux" "ele724_labreport_template.toc")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab3/" (24027 33077 633739 521000) "ele734_lab3.tex" "./" "nor_tb.pdf" "ele734_lab3.tex~" "ele734_lab3.lof" "ele734_lab3.org" "pics/" "../" "ele734_lab3.org~" "ele734_lab3.pdf" "ele734_cover3.pdf" "#ele734_lab3.tex#" "nor_tb" "ele734_cover3.png")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab4/" (24023 5151 998472 341000) "./" "What-is-Full-Adder.jpg" "schematic_refere.png" "../" "Gate Sizes.docx" "ELE734_labmanual.pdf" "Hint for Pre-Lab4.docx")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/interim/" (24025 40622 836614 94000) "interim.lof" "interim.out" "./" "interim.tex~" "interim.tex" "interim_cover.pdf" "Media-Center.pdf" "interim.toc" "interim_cover.png" "../" "interim.aux" "interm_req.png" "interim.org" "interim.pdf" "interim.log" "interim.org~")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/" (24014 46156 415584 269000) "lab1/" "lab3a_2_rename/" "./" "Lab3b.pdf" "interim/" "lab2/" "../" "lab3b/" "Lab4/" "lab3a/" "media_center/" "Lab3a.pdf" "proj_sum/")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/" (24021 57133 253816 724000) "lab1/" "./" "ele734_labreport_template.tex~" "lab2/" "lab4/" "lab3/" ".~lock.Gate Sizes.docx#" "ele734_labreport_template.pdf" "ele734_labreport_template.tex" "../" "ele734_labreport_template.toc" "ELE734_labmanual.pdf" "ele734_labreport_template.aux" "ele734_labreport_template.log")
+
+ ("/home/al/Documents/books/" (23884 42432 577367 917000) "chem study k.pdf" "Lab01_D2L.pdf" "./" "Deep Learning with Python - A Hands-on Introduction - 1E (2017) (Pdf) Gooner/" "emacs_intro_to_programming.pdf" "anode.pdf" "Solutions - Advanced Engineering Mathematic - Zill, Dennis G_ - 5th Edition (2017_01_28 04_34_06 UTC).pdf" "cathodes.pdf" "vi-intro.pdf" "HW&QUIZ3.pdf" "169f722b30e33b76f632592a052608c9487ed9d8325293e8f09596611d9a5e0b.pdf" "Advanced Engineering Mathematic - Zill, Dennis G_ - 5th Edition (2017_01_16 08_43_38 UTC).pdf" "test and clean.pdf" "Librecad- by Jasleen_Kaur.pdf" "safety.pdf" "../" "Curd,_A_Presocratics_Reader.pdf" "Lean Python - Learn Just Enough Python to Build Useful Tools/" "Laplace transforms table.pdf" "[Dods,_Marcus;_Merton,_Thomas;_Saint_Bishop_of_Hip(z-lib.org).epub" "CPHL 187 Course Outline - Draft S17.pdf" "ltxprimer-1.0.pdf" "coil.pdf" "ed4f3c0179d03aa31683facd169f01e9cd6fd944cd9c18a642bc3edc8b7d1100.pdf" "chlor-cell.pdf" "Zill - Advanced Engineering Mathematics 5th Edition.pdf" "sayings-of-the-desert-fathers.pdf" "[Robert_J._Chassell]_An_introduction_to_programmin(z-lib.org).pdf" "Burkov, Andriy - The hundred-page machine learning book-Andriy Burkov (2019) (1).pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Base Stepper With Serial.X/" (24021 53916 948161 986000) "atmel_start.h" "./" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "hal/" "hpl/" "driver_init.c~" "CMSIS/" "atmel_start_config.atstart" "documentation/" "dist/" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "config/" "led_flasher_main.c~" "debug/" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Base Stepper With Serial.X/examples/" (24021 47402 815682 354000) "./" "driver_examples.h" "../" "driver_examples.c")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/" (24020 62868 789780 392000) "./" "../" "actual_cnc_stuff/" "demos_trials/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Base_Stepper.X/" (24020 63141 288099 571000) "atmel_start.h" "./" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "hal/" "hpl/" "CMSIS/" "atmel_start_config.atstart" "documentation/" "dist/" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "config/" "led_flasher_main.c~" "debug/" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/" (24019 30011 56983 888000) "./" "ELE724_labmanual.pdf" "ELE724_mega/" "ELE724_school/" "../" "ELE724_labs/" "contract.png" "test.txt")
+
+ ("/home/" (23884 37578 184431 150000) "./" ".ecryptfs/" "timeshift/" "lost+found/" "../" "al/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/LED flasher.X/" (24018 20570 258970 221000) "atmel_start.h" "./" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "hal/" "iar-project-connection.ipcf" "hpl/" "CMSIS/" "atmel_start_config.atstart" "documentation/" "dist/" "armcc/" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "config/" "led_flasher_main.c~" "debug/" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/LED flashers.X/" (24018 23254 609601 594000) "atmel_start.h" "./" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "hal/" "hpl/" "driver_init.c~" "CMSIS/" "atmel_start_config.atstart" "documentation/" "dist/" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "config/" "led_flasher_main.c~" "debug/" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/LED flashers.X/hal/include/" (24018 22042 27921 6000) "hal_init.h" "./" "hpl_core.h" "hpl_missing_features.h" "hal_gpio.h" "hpl_dma.h" "hpl_gpio.h" "../" "hpl_irq.h" "hpl_ext_irq.h" "hal_delay.h" "hal_sleep.h" "hpl_sleep.h" "hal_io.h" "hpl_reset.h" "hal_atomic.h" "hpl_delay.h" "hpl_init.h")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/LED flasher.X/hpl/" (24018 18760 564001 846000) "./" "xdmac/" "../" "pmc/" "core/" "pio/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/datasheets_guides/" (24014 54400 332921 188000) "Atmel-44050-Cortex-M7-Microcontroller-SAM-E70-XPLD-Xplained_User-guide.pdf" "./" "Installing-and-Licensing-MPLAB-XC-C-Compilers DS50002059.pdf" "micro_step_reso_truth_table.png" "mplabxideuserguide.pdf" "../" "A3967-Datasheet.pdf" "useful_ref_step_tim.png" "SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/project/Project Description, Information, Assessment and H/" (24004 18908 183930 443000) "./" "../" "ENF processing.pptx")
+
+ ("/usr/share/xsessions/" (24016 14853 420880 451000) "./" "xfce.desktop" "i3.desktop" "i3-with-shmlog.desktop" "evilwm.desktop" "../" "awesome.desktop")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab3/" (24007 32028 895209 881000) "./" "ele724_lab3.org~" "ele724_lab3.aux" "ele724_cover3.png" "ele724_lab3.org" "ele724_lab3.pdf" "pics/" "ele724_lab3.tex~" "../" "ele724_lab3.log" "ele724_lab3.toc" "ele724_cover3.pdf" "ele724_lab3.lof" "ele724_lab3.tex" "ele724_lab3.out")
+
+ ("/home/al/Documents/Year5Sem1/ELE792/ele792_school_stuff/" (24005 17345 29423 676000) "DFT Calcuations, Resolution.pdf" "./" "Table of Contents.html" "Introduction to DFT Algorithm.pdf" "csfiles/" "../" "lecture_6/" "Sinusoidal Spectral Analysis.html" "DFTResolution.pdf")
+
+ ("/home/al/Documents/Year5Sem1/ELE882/" (24001 53919 463699 978000) "./" "ele882lab2.pdf" "blackhole.png" "ele882lab2.lof" "ele882lab2.org~" "../" "ele882lab2.tex~" "ele882lab2.org" "ELE 882 - Lab#2 Report.docx.pdf" "ele882lab2.tex")
+
+ ("/home/al/Documents/Year5Sem1/COE718/" (23983 20812 875734 601000) "./" "downloaded_midterm_solu/" "coe718_done_alvi/" "coe718_mega/" "COE718_school/" "../" "lab3b_2.zip" "COE718_labs/" "NXP LPC17XX User Manual.pdf")
+
+ ("/home/al/.emacs.d/thumbs/" (23885 17056 740229 700000) "./" "../")
+
+ ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/" (24001 35485 851102 629000) "coelab4_coverpage.png" "priority_goal.png" "./" "coelab4_cover_page.pdf" "coe718_lab4.tex~" "rms_goal.png" "coe718_lab4.pdf" "rep_pic/" "../" "coe718_lab4.tex" "coe718_lab4.log" "Lab4.pdf" "coe718_lab4.aux" "pir/")
+
+ ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab3/pics/phasefreq/" (24000 46876 106439 168000) "./" "phase_resp.png" "dff_phasefreq_response_trans.grf" "../" "phase_circuit.png")
+
+ ("/home/al/Documents/Git_Projects/dot_config_files/" (24000 29427 648862 517000) "./" ".emacs.d/" ".conky/" "i3/" ".i3status.conf" "README.md" ".bashrc" ".git/" "../" "ranger/" ".zshrc" ".emacs" ".vimrc" ".conkyrc" "nvim/")
+
+ ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/tril/" (24000 27053 242185 653000) "./" "to.tex" "../" "to.pdf" "to.org")
 
  ("/home/al/.emacs.d/elpa/yasnippet-snippets-20190725.1049/snippets/latex-mode/" (23999 52890 207678 565000) "subf" "cite" "gls" "moderncv-cventry" "left-right" "bigcap" "glspl" "subfigure~" "question" "prod" "newcommand" "subfigure" "labelcref" "subsection~" "moderncv-cvlistdoubleitem" "figure" "article" "columns" "bigcup" "alertblock" "moderncv" "usepackage" "moderncv-cvlanguage" "alg" "caption" "moderncv-cvlistitem" "german-quotes" "sum" "movie" "documentclass" "figure~" "moderncv-cvline" "python" "frac" "enumerate" "capgls" "description" "german-quotes-single" "equation" "moderncv-cvcomputer" "begin" "textbf" "subsection" "acronym" "itemize" "includegraphics" "if" "align" "section" "code" "note" "int" "label" "item" "newglossaryentry" "itemize~" "emph" "listing" "block" "section~" "binom" "frame" "../" "./")
 
  ("/home/al/.adobe/" (23896 48275 66306 386000) "./" "../" "Flash_Player/")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/" (23995 25520 714739 633000) "lab1/" "lab3a_2_rename/" "./" "Lab3b.pdf" "lab2/" "../" "lab3b/" "Lab4/" "lab3a/" "media_center/" "Lab3a.pdf")
-
- ("/home/al/Downloads/" (23999 28390 968701 703000) "lory.bmp" "hank.bmp" "ADP Hello Example(MPLAB).atzip" "grug.bmp" "LED switcher.atzip" "../" "./")
-
- ("/home/al/todo/" (23999 27426 341941 643000) "./" "todo.org~" "../" "todo.org")
 
  ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/media_center/pics_use/" (23999 28397 392826 640000) "lory.jpg" "./" "lory.bmp" "hank.png" "hank.bmp" "../" "grug.png" "grug.bmp")
 
@@ -134,17 +314,7 @@
 
  ("/home/al/Documents/Year5Sem1/ELE700/projects/RTOS demo/" (23999 24151 253156 195000) "rtos_start.h" "atmel_start.h" "./" "hri/" "rtos_demo_main.c" "AtmelStart.env_conf" "rtos_start.c" "atmel_start_pins.h" "RTOS demo.atzip" "driver_init.h" "hal/" "hpl/" "CMSIS/" "atmel_start_config.atstart" "documentation/" "armcc/" "same70b/" "../" "driver_init.c" "config/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "thirdparty/" "examples/")
 
- ("/home/al/Documents/Year5Sem1/ELE700/projects/" (23999 24111 564447 237000) "./" "ADP Hello Example.atzip" "../" "RTOS demo/")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/" (23999 14957 965221 28000) "lab1/" "./" "ele734_labreport_template.tex~" "lab2/" "lab3/" "ele734_labreport_template.pdf" "ele734_labreport_template.tex" "../" "ele734_labreport_template.toc" "ELE734_labmanual.pdf" "ele734_labreport_template.aux" "ele734_labreport_template.log")
-
- ("/home/al/Documents/Year5Sem1/ELE700/" (23999 22533 222937 570000) "ELE700_labs/" "eclipse-installer/" "./" "eclipse-inst-linux64.tar.gz" "arm/" "ELE700_mega/" "OReilly_Programming_Embedded_Systems_Second_edition_ebook.pdf" "sam71explained/" "../" "ELE700_school/" "projects/" "Atmel.SAME70_DFP.2.4.166.atpack")
-
  ("/home/al/.conky/conky_rings/Conky/" (23998 54896 104693 761000) "mem" "./" "startconky.sh" "viewnotes.sh" "rings~" "screenshot.png" "mem~" "notes" "rings" "viewnotes.sh~" "cpu~" "README" "notes~" "../" "wallpaper.jpg" "wallpaper_stars.jpg" "clock_rings.lua~" "wallpaper_tardis.jpg" "cpu" "clock_rings.lua")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab3/" (23998 50322 592650 568000) "pic/" "ele734_lab3.tex" "./" "ele734_lab3.tex~" "ele734_lab3.lof" "ele734_lab3.org" "../" "ele734_lab3.org~" "ele734_lab3.pdf" "ele734_cover3.pdf" "#ele734_lab3.tex#" "ele734_cover3.png")
-
- ("/home/al/Documents/Git_Projects/dot_config_files/" (23998 42991 335711 0) "./" ".emacs.d/" ".conky/" "i3/" ".i3status.conf" "README.md" ".bashrc" ".git/" "../" "ranger/" ".zshrc" ".emacs" ".vimrc" ".conkyrc" "nvim/")
 
  ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a/" (23998 42049 937106 318000) "lab3a_reportmaterials/" "coe718_lab3.tex" "./" "coe718_lab3.pdf" "coe718_lab3.log" "coe718_lab3.tex~" "coelab3_cover_page.pdf" "rep_pic/" "lab3/" "../" "Lab3a.pdf" "cover_pic_lab3-1.png" "coe718_lab3.aux")
 
@@ -157,160 +327,6 @@
  ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/hamza/Lab4/Part_1_Demo/" (23993 49028 0 0) "part_1.c" "part_1.o" "./" "system_lpc17xx.o" "startup_lpc17xx.lst" "led.crf" "part_1.d" "RTX_Conf_CM.c" "part_1_uvproj.bak" "part_1.map" "system_lpc17xx.crf" "rtx_conf_cm.o" "part_1.uvproj" "part_1.uvgui.ELCBME" "startup_lpc17xx.o" "system_lpc17xx.d" "system_LPC17xx.c" "led.d" "startup_lpc17xx.d" "rtx_conf_cm.d" "led.o" "../" "part_1.build_log.htm" "cmsis_os.h" "LED.h" "rtx_conf_cm.crf" "RTX_CM_lib.h" "part_1.htm" "startup_LPC17xx.s" "RTX_CM3.lib" "part_1_LPC1700.dep" "part_1.lnp" "LED.c" "part_1.uvopt" "part_1_uvopt.bak" "part_1.crf" "part_1.axf" "LPC17xx.h" "part_1.sct" "part_1.uvgui_ELCBME.bak")
 
  ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/" (23993 56252 536860 762000) "./" "lab4/" "../")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/Lab4/pir/lab4/lab4a/" (23993 54951 0 0) "./" "RTX_Conf_CM.c" "virtual_demo.c" "system_LPC17xx.c" "../" "cmsis_os.h" "LED.h" "RTX_CM_lib.h" "RTX_CM3.lib" "LED.c" "LPC17xx.h")
-
- ("/home/al/.emacs.d/" (23992 63884 788356 154000) "./" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "auto-save-list/" "nov-places" "../" "snippets/" "thumbs/" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "elpa/" "dmenu-items" "places")
-
- ("/home/al/Documents/Year5Sem1/ELE792/" (23992 64717 850297 273000) "midterm_study/" "ELE792_labs/" "./" "ELE792_F2018_Midterm_Solutions.pdf" "ELE792_mega/" "../" "ele792_school_stuff/" "ELE792_F2018_Midterm.pdf" "ee8502_midterm_2018.pdf" "Chassaing,_Reay_-_Digital_Signal_Processing_and_Applications_with_the_TMS320C6713_and_TMS320C6416_DSK.pdf")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab2/pic/" (23992 3353 110236 317000) "./" "dc_sch.png" "ac_schem.png" "tran.png" "dc_wav.png" "tran_cir.png" "../" "ac.png" "ele724_images.zip")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/" (23992 2967 522938 801000) "lab1/" "./" "ele724_labreport_template.lof" "lab2/" "ele724_labreport_template.lot" "ele724_lab_manual.pdf" "ele724_labreport_template.tex" "ele724_labreport_template.tex~" "../" "ele724_labreport_template.pdf" "ele724_labreport_template.log" "ele724_labreport_template.aux" "ele724_labreport_template.toc")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab2/" (23991 21876 877508 141000) "pic/" "./" "prelab_pir/" "Screenshot_2019-10-20_07-14-50.png" "lab2_ele734.tex" "lab2_ele734.toc" "lab2_ele734.tex~" "ele734_cover2.pdf" "ele734_cover1.pdf" "../" "lab2_ele734.pdf" "lab2_pir/" "lab2_ele734.aux" "lab2_ele734.log" "lab2_ele734.lof")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab2/pic/schematics/" (23991 6012 0 0) "./" "inverter_extracted.png" "layout_cmos_inverter.png" "../" "inverter_CMOS.png")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/lab1_tex/" (23989 23804 261811 976000) "ques3_2khz_mod30_mes400.jpg" "prv_ele792_rename.log" "./" "lab2_quad.jpg" "car100freq.jpg" "ele792_rename.tex" "q4p/" "ele792_rename.pdf" "lab3_1000hz_mod10_mes100.jpg" "../" "car2000freq.jpg" "ele792_rename.aux" "ele792_rename.log" "ele792_rename.tex~")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/" (23989 23212 828571 258000) "ele792_lab2.log" "./" "ele792lab2_cover_page.pdf" "ele792_lab2.aux" "q3p/" "downloaded/" "792lab2_cover-1.png" "q2p/" "q4p/" "../" "ele792_lab2.tex" "drawn_diag.png" "Lab2 FIR Filtering F2018.pdf" "q1p/" "ele792_lab2.pdf" "ele792_lab2.tex~")
-
- ("/home/al/Documents/Year5Sem1/ELE734/CMOS VLSI Design, A Circuits and Systems Perspective/" (23925 61477 595452 0) "./" "CMOS VLSI Design, A Circuits and Systems Perspective (4th Edition), Neil Weste, David Harris.pdf" "Solution Manual/" "../")
-
- ("/home/al/Documents/Year5Sem1/ELE724/" (23986 63290 993407 197000) "./" "ele724_lab_manual.pdf" "ELE724_mega/" "ELE724_school/" "../" "ELE724_labs/" "contract.png")
-
- ("/home/al/Documents/Year5Sem1/ELE734/" (23985 28103 647142 927000) "Tests/" "./" "Westeweb.pdf" "ELE734_labs/" "downloaded_ele734/" "ELE734_EE8506 Course Outline Fall 2019.docx" "ele734_labreport_template.tex" "../" "Textbook/" "CMOS VLSI Design, A Circuits and Systems Perspective/" "andy_lectures/" "ELE734_mega/")
-
- ("/home/al/Documents/arm_trials/" (23987 29018 773523 230000) "helloworld.c" "./" "atmel_start/" "../" "helloworld-x86_64")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_school/" (23964 50642 189863 416000) "./" "ele724_lab_manual.pdf" "../" "lectures/" "lectures_downloaded/")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3b/" (23983 2288 971118 311000) "./" "Lab3b.pdf" "coe718_lab3b.aux" "part2/" "coe718_lab3b.tex~" "coe718_lab3b.pdf" "../" "lab3b_reportmaterials/" "coe718_lab3b.log" "coe718_lab3b.tex" "part1/" "coelab3b_cover_page.pdf" "coelab3b_cover-1.png")
-
- ("/home/al/.config/i3/" (23982 52947 87844 480000) "./" "config~" "../" "config")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3b/part1/" (23982 59907 299604 413000) "./" "RTX_Conf_CM.c" "demo_analysis_lab3_1.pdf" "../" "event_viewer/" "performance/" "demo_analysis_lab3_1.c" "watch/" "rtx_c_conf.png")
-
- ("/home/al/Documents/Year5Sem1/" (23982 36063 247630 396000) "./" "COE718/" "ELE724/" "ELE700/" "ELE734/" "../" "hamza_dom_test/" "ELE792/" "hamza_dom_test.zip")
-
- ("/home/al/Documents/Projects/" (23910 6900 972909 373000) "txSerial.atsln" "rxSerial.c" "rxSerial.atsuo" "blink_test_tiny85/" "rxSerial/" "./" "rgb_sign_tiny85/" "txSerial/" "vape_prog/" "stepper_test/" "rgb_addressable/" "CNC design files/" "blink_test_atmega328/" "RC_tiny85_extras/" "pwm_test/" "proj_dat/" "avr_cnc/" "avr_blinking_test/" "rxSerial.atsln" "avr_usart/" ".git/" "wave_generator_report/" "Shift-Register-Sign/" "arduino_blink/" "Mini_Gattling_Gun_Model/" "blink_test/" "../" "blink_test_tiny84/" "step_prog/" "RX.zip" "txSerial.atsuo" "rgb_sign/" "pwm_test_tiny85/" "blink_test_atmega328p/" "pwm_test_tiny84/" "TX.zip" "rgb-sign-pics/")
-
- ("/home/al/Documents/Year5Sem1/COE718/" (23982 9931 87163 763000) "./" "downloaded_midterm_solu/" "coe718_done_alvi/" "lab3b_2/" "coe718_mega/" "coe718_inprog_alvi/" "COE718_school/" "../" "lab3b_2.zip" "COE718_labs/" "NXP LPC17XX User Manual.pdf")
-
- ("/home/al/Documents/Year5Sem1/COE718/lab3b_2/" (23982 9992 800830 312000) "adc.o" "lab3b-threads.uvgui.ELCBME" "Font_16x24_h.h" "system_lpc17xx.o" "startup_lpc17xx.lst" "lab3b-threads_uvproj.bak" "lab3b-threads.build_log.htm" "lab3b-threads.htm" "led.crf" "lab3b-threads.uvopt" "RTX_Conf_CM.c" "system_LPC17xx.h" "glcd_spi_lpc1700.d" "lab3b-threads.sct" "lab3b-threads.lnp" "ADC.h" "irq.crf" "demo.crf" "kbd.crf" "lab3b-threads_LPC1700.dep" "system_lpc17xx.crf" "ADC.c" "rtx_conf_cm.o" "Font_6x8_h.h" "kbd.d" "lab3b-threads.uvproj" "startup_lpc17xx.o" "system_lpc17xx.d" "lab3b-threads.uvgui_ELCBME.bak" "system_LPC17xx.c" "irq.d" "led.d" "startup_lpc17xx.d" "glcd_spi_lpc1700.crf" "lab3b-threads.map" "rtx_conf_cm.d" "led.o" "KBD.c" "adc.crf" "cmsis_os.h" "LED.h" "glcd_spi_lpc1700.o" "rtx_conf_cm.crf" "RTX_CM_lib.h" "Demo.c~" "irq.o" "startup_LPC17xx.s" "RTX_CM3.lib" "GLCD_SPI_LPC1700.c" "kbd.o" "lab3b-threads_uvopt.bak" "IRQ.c" "demo.o" "adc.d" "LED.c" "Demo.c" "GLCD.h" "lab3b-threads.axf" "demo.d" "LPC17xx.h" "KBD.h" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/lab3b_2_inprog_preemptive/" (23981 62012 191880 288000) "adc.o" "lab3b-threads.uvgui.ELCBME" "Font_16x24_h.h" "system_lpc17xx.o" "startup_lpc17xx.lst" "lab3b-threads_uvproj.bak" "lab3b-threads.build_log.htm" "lab3b-threads.htm" "led.crf" "lab3b-threads.uvopt" "RTX_Conf_CM.c" "system_LPC17xx.h" "glcd_spi_lpc1700.d" "lab3b-threads.sct" "lab3b-threads.lnp" "ADC.h" "irq.crf" "demo.crf" "kbd.crf" "lab3b-threads_LPC1700.dep" "system_lpc17xx.crf" "ADC.c" "rtx_conf_cm.o" "Font_6x8_h.h" "kbd.d" "lab3b-threads.uvproj" "startup_lpc17xx.o" "system_lpc17xx.d" "lab3b-threads.uvgui_ELCBME.bak" "system_LPC17xx.c" "irq.d" "led.d" "startup_lpc17xx.d" "glcd_spi_lpc1700.crf" "lab3b-threads.map" "rtx_conf_cm.d" "led.o" "KBD.c" "adc.crf" "cmsis_os.h" "LED.h" "glcd_spi_lpc1700.o" "rtx_conf_cm.crf" "RTX_CM_lib.h" "Demo.c~" "irq.o" "startup_LPC17xx.s" "RTX_CM3.lib" "GLCD_SPI_LPC1700.c" "kbd.o" "lab3b-threads_uvopt.bak" "IRQ.c" "demo.o" "adc.d" "LED.c" "Demo.c" "GLCD.h" "lab3b-threads.axf" "demo.d" "LPC17xx.h" "KBD.h" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/dom_lib/" (23981 57965 823417 430000) "./" "Demo2.c" "../" "Demo.c")
-
- ("/home/al/Documents/Year5Sem1/COE718/coe718_inprog_alvi/" (23981 57964 479388 732000) "lab3b_2_inprog_preemptive/" "dom_lib/" "./" "lab3b-threads-fromwindows_default/" "../" "lab3b/" "lab3b_2_inprog/")
-
- ("/home/al/Documents/Year5Sem1/COE718/downloaded_midterm_solu/karol_midterm/COE 718/Tests/Midterm/" (23980 44825 502770 270000) "./" "COE718 - Fall 2015 Midterm.pdf" "COE718 - Sample Midterm.pdf" "COE718 - Sample Midterm 2.pdf" "../" "COE718 - Fall 2014 Midterm.pdf" "COE718 - Fall 2015 Sample Midterm.pdf")
-
- ("/home/al/Documents/Year5Sem1/COE718/downloaded_midterm_solu/Midterm/" (23980 40935 0 0) "./" "IMG_2414.JPG" "IMG_2417.JPG" "../" "IMG_2415.JPG" "IMG_2416.JPG" "Photo 2019-05-01 03.19.04 PM.png")
-
- ("/home/al/Documents/" (23977 60734 584117 309000) "doom/" "Year5Sem1/" "birth/" "c++_practice/" "ELE 725/" "latex_practice/" "os/" "Visual Studio 2010/" "rtl8812AU_8821AU_linux/" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "python_practice/" "oldgame/" "as-installer-7.0.2389-full.exe" "books/" "crackstation_wordlist.txt.gz" "islam_research/" "ryerson wifi certificate/" "radio/" "Projects/" "bash/" "code_comp/" "Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack" "wave_generator_report/" "osap/" "AVRStudio 5.1/" "electronic documents/" "Elements of Electromagnetics 6th.pdf" "c_practice/" "rstudio-1.1.456-amd64/" "elisp_practice/" "latex_template/" "bash_scripts/" "titles/" "downloaded_webpages/" "arm_trials/" "Backups/" "ELE754/" "Dis/" "Git_Projects/" "alvi.ahmed@ryerson.ca.ical/" "resumes/" "ELE 504/" "ELE 404/" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/" (23977 50071 778476 926000) "lab1/" "./" "lab2/" "lab3/" "../")
-
- ("/media/" (23884 38224 501492 524000) "./" "al/" "../")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab1/" (23947 54079 209835 534000) "Using GEL Sliders.pdf" "./" "Lab1 Presentation Slides F2018.pdf" "lab1_tex/" "../" "Review of DSP, notation, time and frequncey domain.pdf" "ELE792_Fall2018_Lab01_Instructions.pdf" "Creating Projects in CCS.pdf")
-
- ("/home/al/Documents/ELE 725/Lab 1/cover/" (23882 19231 82713 0) "./" "../" "Standard_Cover_Page_Assignments filled 725.pdf")
-
- ("/home/al/Documents/resumes/new_current/Al/L3wescam/cover_letter/" (23882 21286 21019 0) "L3_Wescam_cover.tex~" "./" "L3_Wescam_cover.out" "L3_Wescam_cover.pdf" "L3_Wescam_cover.log" "../" "L3_Wescam_cover.tex" "L3_Wescam_cover.aux")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/q3p/" (23977 10375 520863 413000) "./" "not_slid_5/" "../")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/q3p/not_slid_5/" (23977 10323 935923 806000) "dec_freq.jpg" "./" "../" "same_freq.jpg" "no_freq.jpg")
-
- ("/home/al/Documents/electronic documents/" (23976 52988 74395 957000) "fusebitsclockcrystal.pdf" "433mhzreciever.png" "TEK_USB_plot__xid-5436316_2.pdf" "Atmel-44050-Cortex-M7-Microcontroller-SAM-E70-XPLD-Xplained_User-guide.pdf" "2N5459__xid-5512380_2.pdf" "power supply + run time + cell chem.pdf" "UjOyx.jpg" "LM741_pinout_diagram.pdf" "Table46.pdf" "induction_targets.pdf" "Untitled document - Google Docs.pdf_2" "res37__xid-5512393_2.pdf" "Untitled document - Google Docs.pdf" "1N4734__xid-5512379_2.pdf" "1N4734A.pdf" "J111__xid-5512385_2.pdf" "l297_datasheet.pdf" "fuse_bits_pg1.png" "INR18650-30Q.pdf" "adc_note.org" "Atmel-8155-8-bit-Microcontroller-AVR-ATmega32A_Datasheet.pdf" "Make AVR Programming Learning to Write Software for Hardware By Elliot Williams/" "index.html" "Untitled document - Google Docs.pdf_3" "L298_H_Bridge.pdf" "Beekmans,_Gerard_-_Linux_from_Scratch.pdf" "Atmel-8014-Using-Timer-Capture-to-Measure-PWM-Duty-Cycle_ApplicationNote_AVR135.pdf" "ca-bundle.crt" "433mhz_rf-tx&rx.pdf" "Build the Ultimate Custom PC.pdf" "Pot__xid-5512392_2.pdf" "resistors__xid-5512394_2.pdf" "UC38438Ndatasheet.pdf" "Untitled document - Google Docs.pdf_0" "LM317-03.png" "Relaxation-oscillator-circuit-with-a-transistor.png" "4A-Converter-in-Equilibrium-2_(7).png" "433mhztransmitter.png" "Introduction To 80x86 Assembly Language And Computer Architecture (2001).pdf" "FQP30N06L.pdf" "Atmel-42735-8-bit-AVR-Microcontroller-ATmega328-328P_datasheet.pdf" "fusebitclockcrystal.png" "Minimizing_Distortion_and_Noise_in_PWM_signal.pdf" "index.png" "nte459-1__xid-5512391_2.pdf" "Untitled document - Google Docs.pdf_4" "03288.png" "LM318__xid-5512386_2.pdf" "2N7000.pdf" "Dietz,_Paul_-_Pragmatic_Introduction_to_the_Art_of_Electronic_Engineering_v1.0.pdf" "attiny84.pdf" "ELE504_Lab 1.pdf" "2N3904.pdf" "attiny84_pinout.png" "hsvtorgb.png" "LM741_pinout_diagram.jpg" "LM741__xid-5512388_2.pdf" "Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" "attiny85_pinout.png" "inductionheating power sources.pdf" "101 Spy Gadgets For The Evil Genius.pdf" "hsvrgb.pdf" "Electrical Engineering Handbook - Richard Dorf.pdf" "induction heating.pdf" "Untitled document - Google Docs.pdf_5" "Lessons in Electronic Circuits I - DC.pdf" "MJE2955T__xid-5512389_2.pdf" "Kit_Sale_Sign_F2018.pdf" "WS2812B.pdf" "band/" "userguide.html" "rgbtohsv.png" "MJE3055T__xid-5512390_2.pdf" "LM555__xid-5512387_2.pdf" "Hacker's Handbook.pdf" "1000uf-50V__xid-5512381_2.pdf" "Professional Assembly Language (2005).pdf" "lm317b.jpg" "Lessons in Electronic Circuits II - AC.pdf" "Fundamentals of Electric Circuits (2017_01_17 11_32_47 UTC).pdf" "AVX_SR_series__xid-5512382_2.pdf" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/q1p/" (23976 52970 933878 745000) "./" "Low pass filter photos-20191017T171413Z-001.zip" "high/" "../" "low/")
-
- ("/home/al/Documents/Year5Sem1/ELE700/sam71explained/" (23976 10931 752424 762000) "Atmel-44050-Cortex-M7-Microcontroller-SAM-E70-XPLD-Xplained_User-guide.pdf" "./" "../" "SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf" "SAME70-XPLD Design Files.zip")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/" (23975 32811 367867 462000) "./" "coe718_lab2.aux" "coelab2_cover_page.pdf" "coe718_lab2.tex~" "coe718_lab2.log" "lab2_ryematerials/" "coe718_lab2.pdf" "../" "cover.pdf" "coe718_lab2.tex" "Standard_Cover_Page_Assignments.pdf" "submission_materials/" "Lab2.pdf")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a/lab3a_part2_new/" (23974 25471 41017 4000) "./" "lab3a_part2.3.png" "lab3a_screenshot_part2.2.png" "event_viewer_lab3apart2.png" "demo2_analysis.pdf" "../" " lab3a_eventviewer_part2.1.png")
-
- ("/../media/" (23884 38224 501492 524000) "./" "al/" "../")
-
- ("/../" (22893 26108 0 0) "run/" "initrd.img" "./" "lib64/" "srv/" "proc/" "lib/" "var/" "root/" "boot/" "opt/" "sys/" "lost+found/" "sbin/" "vmlinuz" "cdrom/" "bin/" "usr/" "media/" "../" "initrd.img.old" "tmp/" "home/" "etc/" "mnt/" "dev/")
-
- ("/usr/share/xsessions/" (23972 36086 890302 763000) "./" "xfce.desktop" "i3.desktop" "i3-with-shmlog.desktop" "evilwm.desktop" "../")
-
- ("/usr/share/" (23957 6981 90098 786000) "gdcm-2.8/" "qt5/" "grub-gfxpayload-lists/" "GConf/" "applications/" "upstart/" "emoticons/" "themes/" "mintsources/" "yum-cli/" "tabset/" "pulseaudio/" "dnsmasq-base/" "fish/" "avahi/" "gdebi/" "xplayer/" "config.kcfg/" "metainfo/" "application-registry/" "glib-2.0/" "base-passwd/" "gst-plugins-bad/" "iso-codes/" "timeshift/" "cmake-3.10/" "webkitgtk-3.0/" "inkscape/" "onboard/" "calendar/" "i18n/" "simple-scan/" "locale/" "systemd/" "locale-langpack/" "gnome-bluetooth/" "python-wheels/" "gnome-settings-daemon/" "gettext-0.19.8/" "pnm2ppa/" "guile/" "backgrounds/" "build-essential/" "javascript/" "djvu/" "hal/" "pam-configs/" "gstreamer-1.0/" "consoletrans/" "strigi/" "fwupd/" "ubuntu-drivers-common/" "gufw/" "mono/" "pandoc/" "gnome/" "myspell/" "git-core/" ".mono/" "wayland/" "liblangtag/" "libexttextcat/" "debconf/" "gst-plugins-base/" "mlt/" "gimp/" "sgml-data/" "ubuntu-advantage-tools/" "sounds/" "movit/" "ubuntu-system-adjustments/" "awk/" "xfce4/" "rsyslog/" "orca/" "ccsm/" "help-langpack/" "librarian/" "initramfs-tools/" "linux-sound-base/" "secureboot/" "python-babel-localedata/" "pkg-config-dpkghook" "system-config-printer/" "gdal/" "readline/" "librevenge/" "kstyle/" "bug/" "tcltk/" "dpkg/" "sensible-utils/" "keyutils/" "php7.2-json/" "flatpak/" "unity-control-center/" "samba/" "virtualbox/" "accounts/" "pyshared/" "p11-kit/" "keyrings/" "macchanger/" "mugshot/" "light-locker-settings/" "adduser/" "xml/" "ufw/" "cups/" "menu/" "ppd/" "xgreeters/" "xviewer/" "cli-common/" "glvnd/" "dotnet/" "python3/" "texmf/" "apturl/" "caribou/" "base-files/" "file-roller/" "mplayer/" "poppler/" "libgnomekbd/" "pam/" "gir-1.0/" "gtk-doc/" "metacity/" "gtksourceview-3.0/" "pkgconfig/" "gettext/" "mimelnk/" "bash-completion/" "libvisual-plugins-0.4/" "lintian/" "mint-mirrors/" "wallpapers/" "mate-panel/" "liblouis/" "libtimezonemap/" "binfmts/" "rhythmbox/" "gtk-engines/" "console-setup/" "GeoIP/" "defaults/" "kxmlgui5/" "pix/" "seahorse/" "kconf_update/" "mono-2.0/" "file/" "yudit/" "dns/" "gtk-3.0/" "doc/" "gnupg/" "mime-info/" "libreoffice/" "mint-upgrade-info/" "gnome-background-properties/" "brltty/" "zoneinfo/" "php7.2-readline/" "yelp-xsl/" "php7.2-common/" "mousetweaks/" "debhelper/" "localechooser/" "mintstick/" "icons/" "xed/" "compiz/" "help/" "hfsprogs/" "colord/" "mobile-broadband-provider-info/" "sgml-base/" "software-center/" "PackageKit/" "cryptsetup/" "pixmaps/" "color/" "gnome-control-center/" "gnome-system-tools/" "snmp/" "publicsuffix/" "directfb-1.7.7/" "zenity/" "transmission/" "dbus-1/" "libaudio2/" "kservices5/" "unity/" "libwacom/" "ECM/" "dictionaries-common/" "libdrm/" "purpose/" "foo2qpdl/" "evolution-data-server/" "apport/" "openal/" "indicator-application/" "alsa/" "gconf/" "accountsservice/" "aclocal/" "libparse-debianchangelog-perl/" "indicators/" "vlc/" "ffmpeg/" "hwdata/" "python/" "cinnamon/" "yelp/" "plymouth/" "ca-certificates-java/" "bison/" "luajit-2.1.0-beta3/" "gdb/" "ldm/" "slick-greeter/" "ntp/" "mythes/" "hplip/" "aptitude/" "docutils/" "fonts/" "ImageMagick-6/" "terminfo/" "xfwm4/" "kpackage/" "knotifications5/" "locales/" "ssl-cert/" "cmake/" "solid/" "tex-common/" "acpi-support/" "hunspell/" "menulibre/" "fonts-droid-fallback/" "X11/" "gitweb/" "kdenlive/" "fonts-sil-padauk/" "lightdm/" "speech-dispatcher/" "tomboy/" "kf5/" "polkit-1/" "FBReader/" "vala/" "perl-openssl-defaults/" "appdata/" "man-db/" "icu/" "libgphoto2/" "iptables/" "emacs/" "pavucontrol/" "liblouisutdml/" "grub/" "dict/" "man/" "system-tools-backends-2.0/" "color-schemes/" "qtchooser/" "vim/" "misc/" "intltool-debian/" "gutenprint/" "emacs25/" "cinnamon-background-properties/" "foo2zjs/" "omf/" "consolefonts/" "gcc-8/" "thumbnailers/" "kdevappwizard/" "fontconfig/" "language-tools/" "m2300w/" "linuxmint/" "session-migration/" "openshot-qt/" "enchant/" "usb_modeswitch/" "apps/" "QtCurve/" "nano/" "nemo/" "xsane/" "proj/" "ppp/" "qt4/" "openvpn/" "libgweather/" "mint-artwork/" "app-install/" "alsa-base/" "catfish/" "os-prober/" "synaptic/" "xreader/" "kde4/" "wayland-protocols/" "java/" "perl/" "texlive/" "m17n/" "chromium-browser/" "sane/" "libc-bin/" "im-config/" "media-player-info/" "ecryptfs-utils/" "python-apt/" "xdg-desktop-portal/" "aspell/" "info/" "mdm/" "maven-repo/" "ca-certificates/" "pkg-config-crosswrapper" "debianutils/" "xsessions/" "iso-flag-png/" "command-not-found/" "feh/" "drirc.d/" "mate-background-properties/" "common-licenses/" "doc-base/" "compizconfig/" "zlibrary/" "mime/" "gvfs/" "netplan/" "python-urlgrabber/" "desktop-directories/" "hyphen/" "distro-info/" "gdm/" "mysql-common/" "groff/" "xml-core/" "perl5/" "sphinx/" "casper/" "gnome-shell/" "libsensors4/" "php7.2-opcache/" "kservicetypes5/" "okular/" "sgml/" "Thunar/" "ghostscript/" "libthai/" "zsh/" "../" "./")
-
- ("/usr/" (22893 26107 0 0) "./" "lib64/" "lib/" "sbin/" "libexec/" "local/" "bin/" "include/" "../" "share/" "src/" "games/")
-
- ("/home/al/Documents/wave_generator_report/" (23966 29494 620034 345000) "wave_generator_report.toc" "wave_generator_report.tex" "./" "hackaday_inverting_integrator.org~" "wave_generator_report.org" "hackaday_inverting_integrator.org" "auto/" "wave_generator_report.pdf" "../" "output.html" "wave_generator_report.aux" "wave_generator_report.log" "hackaday_inverting_integrator.txt~" "wave_generator_report.tex~" "wave_generator_report.out" "report_pics/")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab3a_2_rename/" (23964 11483 730677 769000) "RTX_Preemp.uvopt" "./" "system_lpc17xx.o" "startup_lpc17xx.lst" "RTX_Preemp_uvproj.bak" "RTX_Preemp.axf" "RTX_Conf_CM.c" "system_LPC17xx.h" "demo2.d" "RTX_Preemp.map" "#Demo2.c#" "RTX_Preemp.lnp" "RTX_Preemp.build_log.htm" "system_lpc17xx.crf" "RTX_Preemp_uvopt.bak" "RTX_Preemp_LPC1700.dep" "rtx_conf_cm.o" "demo2.o" "startup_lpc17xx.o" "system_lpc17xx.d" "Demo2.c" "demo2.crf" "system_LPC17xx.c" "startup_lpc17xx.d" "RTX_Preemp.uvproj" "rtx_conf_cm.d" "../" "cmsis_os.h" "rtx_conf_cm.crf" "RTX_CM_lib.h" "RTX_Preemp.uvgui.ELCBME" "RTX_Preemp.htm" "startup_LPC17xx.s" "RTX_CM3.lib" "RTX_Preemp.uvgui_ELCBME.bak" "LPC17xx.h" "RTX_Preemp.sct")
-
- ("/home/al/evilwm-1.1.1/" (23972 24385 80529 326000) "evilwm.desktop" "list.h" "new.c" "doc/" "./" "misc.o" "evilwm" "Makefile" "new.o" ".gitignore" "xconfig.c" "events.o" "log.h" "ewmh.c" "evilwm.h" "README" "screen.o" "keymap.h" "screen.c" "../" "ChangeLog" "client.c" "TODO" "ewmh.o" "misc.c" "main.o" "INSTALL" "list.c" "main.c" "list.o" "events.c" "xconfig.h" "xconfig.o" "evilwm.1" "client.o")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/" (23963 26706 844200 54000) "./" "nmos_layoutview_trim.png" "pmos_schematic_trimmed.png" "test_bench.png" "pmos_schematic.png" "pmos_dc_threshold.png" "converted_pdfs/" "waveform_parametric_transcience.png" "graph_extracted_schem_trimmed.png" "graph_extracted_schematic.png" "waveform_parametric_dc_analysis.png" "waveform_subthreshold_dc_analysis.png" "NMOS_scheme.png" "nmos_layoutview.png" "ps_forms/" "pmos_dc_bodyeffect.png" "NMOS_schem_trimmed.png" "../" "pmos_ivcharac.png" "threshold_bodyeffect.png" "pmos_dc_parametric.png" "converted_pdf_pic/" "extracted_schem.pdf" "extracted_schem.ps" "nmos_extracted.png" "nmos_extracted_trim.png" "trim_pics/" "test_bench_trim.png")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/" (23963 26785 629684 279000) "./" "lab1_ele734.tex~" "lab1_ele734.lof" "lab1_materials/" "lab1_ele734.log" "lab1_ele734.tex" "ele734_cover1.pdf" "../" "lab1_ele734.aux" "lab1_ele734.pdf" "report_pics/" "lab1_ele734.toc")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/ps_forms/" (23958 28614 755048 133000) "./" "pmos_dc_bodyeffect.ps" "pmos_dc_threshold.ps" "graph_extracted_schematic.png" "pmos_schematic.ps" "lab1_threshold_bodyeffect.ps" "lab1_waveform_parametric_dc_analysis.ps" "pmos_dc_parametric.ps" "nmos_layoutview.ps" "../" "lab1_extracted_schematic.ps" "extracted_schem.ps" "NMOS_schem.ps" "nmos_extracted.ps" "lab1_waveform_parametric_transcience.ps" "lab1_waveform_subthreshold_dc_analysis.ps" "pmos_ivcharac.ps")
-
- ("/home/al/Documents/Year5Sem1/ELE734/ELE734_labs/lab1/report_pics/converted_pdf_pic/" (23958 28727 518933 110000) "./" "NMOS_schem.png" "pmos_schematic.png" "pmos_dc_threshold.png" "extracted_schematic.png" "waveform_parametric_transcience.png" "waveform_parametric_dc_analysis.png" "waveform_subthreshold_dc_analysis.png" "NMOS_scheme.png" "nmos_layoutview.png" "pmos_dc_bodyeffect.png" "../" "pmos_ivcharac.png" "threshold_bodyeffect.png" "pmos_dc_parametric.png" "nmos_extracted.png")
-
- ("/home/al/Documents/Year5Sem1/hamza_dom_test/" (23957 5778 254088 811000) "hamza_dom_tex_test.pdf" "./" "ele792_example_report/" "hamza_dom_tex_test.aux" "../" "ele725_example_report/" "hamza_dom_tex_test.toc" "hamza_dom_tex_test.tex~" "hamza_dom_tex_test.tex" "hamza_dom_tex_test.log")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab1/" (23957 4962 119937 767000) "ele724_files_copied/" "./" "lab1_cover.pdf" "ele724_lab1.tex~" "ele724_lab1.log" "ele724_lab1.tex" "../" "ele724_lab1.aux" "ele724_lab1.toc" "cover.pdf" "ele724_lab1.pdf" "ele724_lab1.lot" "ele724_lab1.lof" "report_pics/")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/lab1/report_pics/" (23955 54767 194976 108000) "lab1_ac_gain_phase_marker.png" "lab1_ac_default.png" "./" "lab1_trans.png" "lab1_parametric.png" "lab1_test_circuit.png" "../" "lab1_amplifier_circuit.png" "lab1_dcresp_mark.png" "lab1_dcresp.png" "lab1_ac_gain_phase.png")
-
- ("/home/al/Documents/Year5Sem1/ELE724/ELE724_labs/ele724_files_copied/" (23952 62559 904176 863000) "lab1_ac_gain_phase_marker.png" "cds.lib" "local.rsf" "lab1_ac_default.png" "streamin.map" "./" "cadenceDocs/" "ele724.zip" "viewsets/" "setup.loc" "lab1_trans.png" "lab1_parametric.png" "lab1_parametric.grf" "lab1_tran_dc_ac.grf" "assura_tech.lib" "lab1_test_circuit.png" "momentum/" "lab1_parametric.il" "cs#2damplifier/" "../" "display.drf" "ads.lib" "lab1_amplifier_circuit.png" "lab1_dcresp_mark.png" "lab1.il" "abstract.option" "cds2gds.map" "lib.defs" "add_text.file" "lab1_dcresp.png" "lab1_ac_gain_phase.png")
-
- ("/home/al/Documents/ELE 725/Lab 3/lab3_tex/" (23954 29662 428077 299000) "./" "lab3_ele725.log" "lab3_ele725.aux" "results_pics/" "lab3_ele725.pdf" "lab3 parts.docx" "../" "lab3_ele725.tex" "lab3_ele725.tex~")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/proof/" (23950 36000 0 0) "./" "barrel_shifter_proof.png" "ITE_proof.txt" "../" "Barrel_shifter_proof.txt" "ITE_proof.png")
-
- ("/home/al/Documents/Year5Sem1/COE718/COE718_labs/lab2/lab2_ryematerials/lab2/" (23954 26748 850250 567000) "Blinky.uvgui.ELCBME" "proof/" "lab2.map" "adc.o" "Font_16x24_h.h" "system_lpc17xx.o" "startup_lpc17xx.lst" "blinky.crf" "Blinky.map" "lab2_uvopt.bak" "Blinky_uvopt.bak" "led.crf" "bitband.c" "lab2_uvproj.bak" "glcd_spi_lpc1700.d" "lab2.uvopt" "bitband.h" "ADC.h" "Blinky.build_log.htm" "irq.crf" "Blinky_LPC1700.dep" "kbd.crf" "system_lpc17xx.crf" "ADC.c" "lab2_LPC1700.dep" "lab2.htm" "lab2.lnp" "bitband.o" "Blinky.uvgui_ELCBME.bak" "Font_6x8_h.h" "kbd.d" "startup_lpc17xx.o" "Blinky.c" "system_lpc17xx.d" "lab2.sct" "system_LPC17xx.c" "irq.d" "lab2.uvgui.ELCBME" "led.d" "startup_lpc17xx.d" "glcd_spi_lpc1700.crf" "bitband.crf" "Blinky.c~" "led.o" "blinky.d" "KBD.c" "adc.crf" "LED.h" "glcd_spi_lpc1700.o" "Blinky.lnp" "irq.o" "startup_LPC17xx.s" "GLCD_SPI_LPC1700.c" "kbd.o" "IRQ.c" "Blinky.axf" "Blinky.uvopt" "lab2.uvgui_ELCBME.bak" "adc.d" "LED.c" "bitband.d" "lab2.uvproj" "Blinky.sct" "lab2.build_log.htm" "Blinky_uvproj.bak" "GLCD.h" "lab2.axf" "Blinky.htm" "blinky.o" "KBD.h" "../" "./")
-
- ("/home/al/Documents/ELE 725/Lab 4/lab4_tex/" (23882 19197 932702 0) "lab4_ele725.pdf" "lab4_ele725.tex" "./" "results_pics/" "lab4_ele725.aux" "../" "lab4 parts.docx" "lab4_ele725.log" "lab4_ele725.tex~")
-
- ("/home/al/Documents/ELE 725/Lab 1/" (23882 19227 643651 0) "DownSample.m" "mu_temp.wav" "ele725_lab1updated.m" "./" "rebuild_hello_N(2).wav" "ele725_lab1.m" "ele725_lab1_Dom.m" "Table of Contents.html" "cover/" "octave-workspace" "rebuild_hello_N(8).wav" "hello_N(2).wav" "ELE725 Lab 1.pdf" "lab1_tex/" "sampling_func.m" "../" "ELE725_lab1.wav" "hello_mu_N(8).wav" "hello_quant_N(4).wav" "hello_mu_N(4).wav" "html/" "hello_quant_N(8).wav" "hello_N(4).wav" "rebuild_hello_N(4).wav" "hello_N(8).wav" "pir_lab1/" "hello_quant_N(2).wav" "hello_mu_N(2).wav")
-
- ("/home/al/Documents/ELE 725/" (23882 19207 808715 0) "Lecture 8 Questions.pdf" "Lecture 1 Introduction to multimedia systems and processing.pdf" "Tests/" "Latex_IEEE/" "Formula Sheet/" "Lesson 2 Lossless Image Compression systems.pdf" "Lecture 3 Questions and Solutions.pdf" "Lecture 7 Questions and Solutions DCT.pdf" "Lecture 10 Video Coding and Motion Estimation.pdf" "Lecture 4 Questions and Solutions.pdf" "Lecture 6 Questions and Solutions.pdf" "Lecture 7 Transform Coding and Discrete Cosine Transform.pdf" "2_IMG-20190704-WA0002.jpg" "Course Outline/" "Lab 0/" "Lab Manual/" "Problem Set/" "Lecture 4 Lossless Predictive Coding.pdf" "Lab 4/" "practice/" "12 Basics of Audio Coding.pdf" "Lecture 1 Questions and Solutions.pdf" "Lab 2/" "new_zip/" "Lecture 6 Delta Modulation.pdf" "Lectures/" "Lab 1/" "3_IMG-20190704-WA0003.jpg" "Lab 3/" "ELE725-S2019-CourseOutline.pdf" "Lecture 10 Questions.pdf" "Textbook/" "Lecture 3 Lossless compression - Huffman Coding.pdf" "ELE 725 Lecture 8 - JPEG Standard.pdf" "Quantization and Coding.pdf" "midterm_solution/" "Lecture 2 Questions and Solutions.pdf" "4_IMG-20190704-WA0000.jpg" "Lecture 7 Questions and Solutions Transforms.pdf" "1_IMG-20190704-WA0001.jpg" "0_IMG-20190704-WA0004.jpg" "new_lectures/" "Lecture 13 Introduction to Multimedia Synchronization.pdf" "Lab 5 (Coding Assignment)/" "ELE 725 Lecture 9 - Video Coding Introduction.pdf" "Lecture 5 Lossy Compression Systems - Quantization Theory.pdf" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/ELE792/ELE792_school/" (23947 54408 448577 602000) "./" "exams/" "Chapter 6 Sections.html" "ELE792 - Digital Signal Processing - F2019 - 9112019 - 131 AM.zip" "Table of Contents.html" "Chapter 2 Sections.html" "sinetablegen.m" "Chapter 7 Sections.html" "ELE792_F2018_HandwrittenNotes.pdf" "ELE792 F2019 Course Outline.pdf" "Chapter 3 Sections.html" "../" "Chapter 8 Sections.html" "Chapter 1 Sections.html" "Chapter 4 Sections.html" "Chapter 11 Sections.html" "HW - Lecture 0.html" "[Alan_V._Oppenheim,_Ronald_W._Schafer]_Discrete-Ti(z-lib.org).pdf" "Chapter 5 Sections.html" "Creating Projects in CCS.pdf" "discrete-time-signal-processing-by-alan-v-oppenheim.pdf")
-
- ("/home/al/Documents/resumes/new_current/Al/" (23935 43133 671231 448000) "synopsys2.pdf" "resume_Alvi.pdf" "./" "cover_letter/" "resume_edited.pdf" "resume.log" "L3wescam/" "resume_edited3.pdf" "pref.txt" "GEOTAB/" "resume.tex~" "../" "resume.tex" "resume.aux" "resume_edited2.pdf" "#resume.tex#" "resume.out")
-
- ("/home/al/Documents/Projects/blink_test_tiny85/" (23939 1919 834635 401000) "./" "main.elf" "Makefile" "../" "main.hex" "Makefile~" "main.c" "main.c~")
-
- ("/home/al/Documents/Git_Projects/RC_tiny85/" (23942 6679 460971 252000) "main_rx.c~" "main_tx2.c" "./" "main.elf" "Makefile" "README.md" "RC_tiny85.s#2" "main_tx.c" "main_tx_usart.c" ".git/" "README" "main_tx_usart.c~" "main_tx2.c~" "../" "RC_tiny85.sch" "main.hex" "RC_tiny85.s#1" "RC_tiny85.s#3" "main_rx.c")
-
- ("/home/al/Documents/Git_Projects/work_table_light/work_table_light/" (23910 6669 872062 916000) "work_table_light.s#6" "work_table_light.s#2" "./" "work_table_light_schematic.png" "work_table_light.sch" "eagle.epf" "work_table_light.s#4" "feh_004955_000001_work_table_light_schematic.png" "work_table_light.s#7" "../" "work_table_light.s#8" "work_table_light.s#3" "work_table_light.s#1" "work_table_light.s#9" "work_table.s#1" "work_table_light.s#5")
-
- ("/home/al/Documents/resumes/new_current/Al/cover_letter/geotab/" (23935 64852 893436 441000) "./" "../")
-
- ("/home/al/Documents/birth/" (23933 19843 975566 942000) ".#letter_guarantor.tex" "Amit Ahmed.pdf" "./" "alvi_resume_cover.pdf" "letter_guratntor.org" "Shahinur.pdf" "alvi_resume_cover_laura(1).pdf" "alvi_resumecover_tim.pdf" "letter_guratntor.tex~" "letter_guarantor.pdf" "letter_guarantor.tex" "../" "letter_guarantor.tex~" "mozilla.pdf" "#letter_guarantor.tex#" "let.pdf" "filename_11485702903720677242842175071920171569-3089080934363891959.pdf" "amitahmednewclaimforms.pdf" "letter_guarantor.log" "To whom it may concern.docx" "Moushumi.pdf" "letter_guarantor.aux" "mozilla2.pdf")
-
- ("/home/al/Documents/Git_Projects/work_table_light/" (23933 31643 336694 264000) "./" "main_but_leds.c" "main.elf" ".main_analog.c.swp" "main_total.c" "Makefile" "main_twopot.c" "main_color.c" "work_table_light/" "#main_but.c#" "README.md" "main_analog.c" "stepper_code/" "main_butcol.c" ".git/" "README" "../" "main.hex" "main_but.c" "main_total2.c" "main_whitelight.c" "main_total2.c~" ".main_tot.c.swp")
-
- ("/home/al/Documents/resumes/new_current/Al/cover_letter/celestica/" (23935 49124 336210 750000) "./" "Celestica.tex~" "Celestica.log" "Celestica.pdf" "Celestica.tex" "../" "Celestica.out" "Celestica.aux")
-
- ("/home/al/Documents/resumes/new_current/Al/cover_letter/" (23865 35666 61655 0) "./" "celestica/" "suez/" "aecom/" "fujifilm/" "l3wescam/" "Momentaj/" "../" "suez-data/" "intel/" "template/" "cohesity/")
-
- ("/home/al/Documents/resumes/new_current/Al/L3wescam/" (23935 43092 686445 811000) "./" "L3_resume.pdf" "L3_resume.aux" "cover_letter/" "L3_resume.out" "../" "L3_resume.tex~" "L3_resume.log" "L3_resume.tex")
-
- ("/home/al/Documents/ELE 725/Lab 1/lab1_tex/" (23882 19228 580974 0) "./" "lab1_ele725.aux" "lab1_ele725.tex~" "results_pics/" "lab1_ele725.pdf" "../" "lab1_ele725.tex" "bare_jrnl_compsoc.tex" "lab1_ele725.log")
-
- ("/home/al/Documents/Year5Sem1/ELE754/" (23925 61267 647331 670000) "./" "ELE 754.zip" "../")
-
- ("/home/al/Documents/Git_Projects/work_table_light/stepper_code/" (23921 29453 56072 131000) "./" "main.elf" "Makefile" "main_stepper.c" "main_joystick.c" "../" "main.hex" "Makefile~" "main_stepper.c~" "main_joystick.c~")
-
- ("/home/al/Documents/bash_scripts/" (23910 6655 663773 84000) "reptex.sh" "powersave.sh" "./" "alarm_script/" "reptex.sh~" "varscript.sh" "../" "cmdarg.sh" ".powersave.sh.swp" "netres.sh" "performance.sh" "varscript2.sh" "test.txt")
-
- ("/home/al/Documents/Projects/rgb_sign_tiny85/" (23910 6674 652160 413000) "main2.c" "./" "main.elf" "Makefile" "README.md" "main1.c" ".git/" "../" "main.hex")
 )
 
 ;; ----- ido-unc-hosts-cache -----

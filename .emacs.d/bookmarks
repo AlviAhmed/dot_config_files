@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("todo"
+(("java_practice"
+ (filename . "~/Documents/java_practice/")
+ (front-context-string)
+ (rear-context-string . "elloworld.java~\n")
+ (position . 304))
+("Desktop"
+ (filename . "~/Desktop/")
+ (front-context-string . "1573033862574.jp")
+ (rear-context-string . "33 Nov  6 19:27 ")
+ (position . 210))
+("tor_book"
+ (filename . "~/tor-browser_en-US/Browser/Downloads/")
+ (front-context-string . "ebook\n  -rw-rw-r")
+ (rear-context-string . "96 Oct 12 21:16 ")
+ (position . 763))
+("todo"
  (filename . "~/todo/")
  (front-context-string . "todo.org\n  -rw-r")
  (rear-context-string . "90 Nov  3 04:43 ")
