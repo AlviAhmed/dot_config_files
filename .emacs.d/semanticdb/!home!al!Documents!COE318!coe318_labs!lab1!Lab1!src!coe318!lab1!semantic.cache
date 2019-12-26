@@ -1,0 +1,73 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("coe318.lab1" package nil nil [93 113])
+            ("Resistor" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("r" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [299 316])
+                    ("v" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [377 394])
+                    ("Resistor" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("resistance" variable (:type "double") (reparse-symbol formal_parameters) [599 616]))                          )
+                        (reparse-symbol class_member_declaration) [583 1056])
+                    ("getResistance" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1165 1372])
+                    ("getVoltage" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1476 1584])
+                    ("setVoltage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("voltage" variable (:type "double") (reparse-symbol formal_parameters) [1735 1749]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1712 1797])
+                    ("getCurrent" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1902 2034])
+                    ("setCurrent" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("current" variable (:type "double") (reparse-symbol formal_parameters) [2186 2200]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2163 2242])
+                    ("getPower" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [2360 2442])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [3169 3182]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3145 4603]))                  
+                :type "class")
+                nil [115 4605]))          
+      :file "Resistor.java"
+      :pointmax 4605
+      :fsize 4604
+      :lastmodtime '(22972 10194 923919 0)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!COE318!coe318_labs!lab1!Lab1!src!coe318!lab1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

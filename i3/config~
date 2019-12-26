@@ -58,16 +58,16 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move down
-bindsym $mod+Shift+k move up
-bindsym $mod+Shift+l move right
-bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down 50px 
+bindsym $mod+Shift+k move up  50px
+bindsym $mod+Shift+l move right 50px
+bindsym $mod+Shift+h move left 50px
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Left move left 10px
+bindsym $mod+Shift+Down move down 10px
+bindsym $mod+Shift+Up move up    10px
+bindsym $mod+Shift+Right move right 10px
 # split in horizontal orientation
 bindsym $mod+b split h
 
@@ -97,8 +97,12 @@ bindsym $mod+a focus parent
 
 #assign power-manager to specific workspace 
 
-assign [class="^Xfce4-power-manager-settings"] 10
+#assign [class="^Xfce4-power-manager-settings"] 10
+assign [class="^Waterfox"] 2
+assign [class="^emacs"] 1
 
+# Can switch between current and last workspace with same number
+workspace_auto_back_and_forth yes
 # switch to workspace
 bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
@@ -123,6 +127,9 @@ bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 
+bindsym $mod+Shift+greater move container to output right
+bindsym $mod+Shift+less move container to output left
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -138,10 +145,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym k resize shrink height 50 px or 50 ppt
+        bindsym j resize grow height 50 px or 50 ppt
+        bindsym h resize shrink width 50 px or 50 ppt
+        bindsym l resize grow width 50 px or 50 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -158,15 +165,31 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
+#Syntax:
+#
+#mode dock|hide|invisible
+#hidden_state hide|show
+#modifier <Modifier>|none
+#
+#Example:
+#
+#bar {
+#    mode dock|hide|invisible
+#    hidden_state hide|show
+#    modifier Mod1
+#}
 bar {    
 	mode dock
-	hidden_state show 
+	hidden_state show
 	position top
+	modifier Mod1
 	colors {
-        background #000000
+		
+        background #090f68
 #        statusline #00A5FF #that neon blue
   	}
-	font pango:DejaVu Sans Bold 10
+	font pango:DejaVu Sans Bold 7
         #tray_output primary
         status_command i3status 
 	#~/.i3/bar.sh
@@ -177,16 +200,19 @@ bar {
 	#(◕‿◕)
 	#binding_mode_indicator yes 
 	
-} 
+}
 
 #custom key Bindings 
-bindsym $mod+t exec thunar
+bindsym $mod+t exec nautilus 
+bindsym $mod+m exec emacs
 bindsym $mod+p exec xfce4-power-manager-settings 
-bindsym $mod+n exec ~/comtools/./netres.sh
-bindsym $mod+i exec ~/waterfox/./waterfox    
+bindsym $mod+n exec ~/Documents/bash_scripts ./netres.sh
+bindsym $mod+i exec ~/waterfox/./waterfox
 bindsym $mod+Shift+i exec chromium-browser
+bindsym $mod+Shift+t bar mode toggle
 bindsym $mod+Shift+a exec xfce4-appfinder 
-bindsym $mod+x	     exec xfce4-screenshooter  
+bindsym $mod+x	     exec xfce4-screenshooter
+bindsym $mod+Shift+o exec ~/eagle-9.4.2/eagle
 
 hide_edge_borders both  
 #Alsa Mixer Sound Controls
@@ -220,7 +246,12 @@ bindsym XF86AudioPrev exec playerctl previous
 #exec --no-startup-id i3-msg 'workspace 10; exec /usr/bin/firefox'
 exec_always --no-startup-id nm-applet
 exec_always --no-startup-id feh --bg-scale /home/al/Pictures/Wallpapers  
-exec --no-startup-id xfce4-power-manager-settings
+#exec --no-startup-id xfce4-power-manager-settings
+#exec --no-startup-id emacs
+#exec_always --no-startup-id bash /home/al/.conky/conky-startup.sh
+#exec ~/waterfox/./waterfox
+#exec --no-startup-id emacs 
 bindsym $mod+o  exec --no-startup-id "i3lock -i ~/Desktop/i3lock_pic/123.png -p win|default && systemctl suspend"
 
+ 
 

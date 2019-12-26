@@ -1,128 +1,128 @@
-pdftoppm -png nand_tb.pdf nand_tb
-pdftoppm -png interim_cover.pdf interim_cover
-pdftoppm -png interim_cover.pdf sum_cover
-man zip
-ppm2pdf
-pdf2pmm
-pdf2ppm
-man ppm2pdf
-man pdf2ppm
-pdfpmm
-ppm2pdf
-man pdf2ppm
-man pdftoppm
-ppmtopdf
-man ppmtopdf
-man ppmtopdf
-man pdftoppm
-clearman ppmtopdf
+chmod o-w Counter.java
+chmod a+rw ComplexNumber.java
+chmod o-w ComplexNumber.java
+chmod ugo-rw ComplexTry.java
+chmod ugo+rw o-w ComplexTry.java
+chmod 664 ComplexTry.java
+cd ..
+ls
+cd linked_counters/
+ls
+javac Counter.java
+javac Counter.java
+javac Counter.java
+javac Counter.java CounterTry.java 
+java CounterTry
+javac Counter.java CounterTry.java 
+java CounterTry
+javac CounterTry.java
+javac Counter.java CounterTry.java 
+lear
 clear
-pdftoppm -png adder_layout
-pdftoppm -png adder_layout.ps add_lay
-pdftoppm -png add_lay adder_layout.os
-pdftoppm -png adder_layout.ps add_lay.png
-ppmtopdf -png adder_layout.ps add_lay.png
-ppmtopng
-man pstopdf
-man ps2pdf
-ps2pdf adder_layout.ps 
-ps2pdf adder_layout.ps add_lay
-ps2pdf adder_layout.ps add_lay.pdf
-ps2pdf adder_extracted.ps add_ext.pdf
-ps2pdf adder_schem.ps add_sch.pdf
-ps2pdf adder_tb.ps add_tb.pdf
-ps2pdf sc_ect_tb.ps scecttb.pdf
-pdftoppm -png add_ext.pdf  add_ext
-pdftoppm -png add_lay.pdf  add_lay
-pdftoppm -png add_sch.pdf  add_sch
-pdftoppm -png add_tb.pdf  add_tb
-pdftoppm -png scecttb.pdf scecttb
-pdftoppm -png ele734cov4
-pdftoppm -png ele734_cover4.pdf ele734cov4
-pdftoppm
-man pdftoppm
-pdftoppm media_cover.pdf media_cover
-pdftoppm -png media_cover.pdf media_cover
-ppm2pdf vpulse.ps
-ps2pdf vpulse.ps
-ps2pdf vpulse.df
-ps2pdf vpulse
-ps2pdf vpulse.pdf vpulse.ps
-man ps2pdf
-ps2pdf vpulse.ps
+javac Counter.java CounterTry.java 
+javac Counter.java CounterTry.java 
+java CounterTry
+java CounterTry
+javac Counter.java CounterTry.java 
+java CounterTry
+javac Counter.java CounterTry.java
+java CounterTry
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+java CounterTry
+javac Counter.java CounterTry.java
+java CounterTry
+javac Counter.java CounterTry.java
+java CounterTry
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+java CounterTry
+javac Counter.java CounterTry.java
+javac Counter.java CounterTry.java
+java CounterTry
+javac ComplexNumber.java
+javac ComplexNumber.java ComplexTry.java
+java
+java ComplexTry
+cd ..
+cd linked_counters/
 ls
+javac CounterTry.java  Counter.java 
+java CounterTry
+javac CounterTry.java  Counter.java 
+java CounterTry
+javac CounterTry.java  Counter.java 
+java CounterTry
+javac CounterTry.java  Counter.java 
+java CounterTry
+javac CounterTry.java  Counter.java 
+java CounterTry
+javac CounterTry.java  Counter.java 
+java CounterTry
+ls
+./struct_prac_2 
+./struct_prac_2 
 clear
+./struct_prac_2 
+./struct_prac_2 
+./struct_prac_2 
 ls
-ps2pdf vpulse.ps
-pdftoppm -png vpulse.pdf vpulse
-pdftoppm -png ele724_cover.pdf ele724_cover
-pdftoppm -png ele792lab4_cover_page.pdf ele792_lab4_cover
-man zip
-zip -r ENF_prog_sub.zip ENF_project_submission/
-make farentocel.cpp 
-g++ farentocel.cpp 
-./farentocel.cpp 
+./linked_lists 
+./linked_lists 
 ls
-./faren
-./faren
-./faren
-./faren
-./faren
-./example_prog
-ebrowse *.css *.html
-ebrowse *.css *.html
+./linked_lists 
+./linked_lists 
+./linked_lists 
+./linked_lists 
 ls
-ls
-cd /opt/
-ls
-sudo apt install jdk-13.0.1_linux-x64_bin.deb 
-ls
-sudo dpkg -i jdk-13.0.1_linux-x64_bin.deb 
-cd ~
-./helloworld 
-ls
-./Resistor 
-./oop_prac 
-./oop_prac 
-./oop_prac 
-./oop_prac 
-./Resistor 
-./Resistor 
-./Resistor 
-./Resistor 
-./Account
-ls
-cd bank_account/
-ls
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-ls
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-./Account
-sudo chmod u=rwx MainBank.cpp 
-sudo vim init.el 
-youtube-dl -f 140 https://www.youtube.com/watch?v=dS6UI3ukWfA
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+javac Elephant.java 
+java Elephant
+javac Elephant.java 
+java Elephant

@@ -1005,19 +1005,20 @@ If the scroll count is zero the command scrolls half the screen."
            (goto-char (point-max))
            (recenter (- (max 1 scroll-margin)))))))))
 
-(evil-define-command evil-scroll-page-up (count)
-  "Scrolls the window COUNT pages upwards."
-  :repeat nil
-  :keep-visual t
-  (interactive "p")
-  (evil-save-column
-    (dotimes (i count)
-      (condition-case err
-          (scroll-down nil)
-        (beginning-of-buffer
-         (if (and (bobp) (zerop i))
-             (signal (car err) (cdr err))
-           (goto-char (point-min))))))))
+;;Temporarily disabling this to allow for buffer C-b
+;;(evil-define-command evil-scroll-page-up (count)
+;;  "Scrolls the window COUNT pages upwards."
+;;  :repeat nil
+;;  :keep-visual t
+;;  (interactive "p")
+;;  (evil-save-column
+;;    (dotimes (i count)
+;;      (condition-case err
+;;          (scroll-down nil)
+;;        (beginning-of-buffer
+;;         (if (and (bobp) (zerop i))
+;;             (signal (car err) (cdr err))
+;;           (goto-char (point-min))))))))
 
 (evil-define-command evil-scroll-page-down (count)
   "Scrolls the window COUNT pages downwards."

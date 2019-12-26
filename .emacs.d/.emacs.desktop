@@ -2,54 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Dec  8 01:32:04 2019
+;; Created Tue Dec 24 01:09:29 2019
 ;; Desktop file format version 208
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24044 39140 868121 252000) (desktop . "208") "root@al" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#5f5f5f") (background-color . "#fdfde7") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#5f5f5f") (environment) (sticky) (fullscreen-restore) (frameset--id . "D206-4922-7911-A1AB") (frameset--mini t . t) (frameset--text-pixel-height . 1046) (height . 61) (width . 238) (modeline . t) (unsplittable) (left . 0) (top . 34) (icon-name) (display . ":0") (explicit-name)) ((min-height . 8) (min-width . 67) (min-height-ignore . 5) (min-width-ignore . 16) (min-height-safe . 2) (min-width-safe . 8) (min-pixel-height . 136) (min-pixel-width . 536) (min-pixel-height-ignore . 85) (min-pixel-width-ignore . 128) (min-pixel-height-safe . 34) (min-pixel-width-safe . 64)) hc (pixel-width . 1920) (pixel-height . 1029) (total-width . 240) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 296) (pixel-height . 1029) (total-width . 37) (total-height . 61) (normal-height . 1.0) (normal-width . 0.15416666666666667) (parameters (window-side . left) (window-slot . 0)) (buffer " *Treemacs-Scoped-Buffer-#<frame emacs@al 0x110ec30>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 145) (start . 131))) (vc (last . t) (pixel-width . 1624) (pixel-height . 1029) (total-width . 203) (total-height . 61) (normal-height . 1.0) (normal-width . 0.8458333333333333) (combination-limit . t) (leaf (pixel-width . 1624) (pixel-height . 825) (total-width . 203) (total-height . 49) (normal-height . 0.7973760932944607) (normal-width . 1.0) (buffer "Account.cpp" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 726) (start . 350))) (hc (last . t) (pixel-width . 1624) (pixel-height . 204) (total-width . 203) (total-height . 12) (normal-height . 0.20262390670553931) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 768) (pixel-height . 204) (total-width . 96) (total-height . 12) (normal-height . 1.0) (normal-width . 0.47536945812807885) (buffer "*Flycheck errors*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (pixel-width . 448) (pixel-height . 204) (total-width . 56) (total-height . 12) (normal-height . 1.0) (normal-width . 0.27463054187192115) (buffer "*eshell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 56) (start . 1))) (leaf (last . t) (pixel-width . 408) (pixel-height . 204) (total-width . 51) (total-height . 12) (normal-height . 1.0) (normal-width . 0.25) (buffer "*compilation*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))))])
+(setq desktop-saved-frameset [frameset 1 (24065 43929 640613 876000) (desktop . "208") "al@al" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#5f5f5f") (background-color . "#fdfde7") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#5f5f5f") (environment) (frameset--id . "A524-A1EE-2835-7C5E") (frameset--mini t . t) (frameset--text-pixel-height . 1046) (height . 61) (width . 238) (modeline . t) (unsplittable) (left . 1600) (top . 34) (icon-name) (display . ":0") (explicit-name)) ((min-height . 8) (min-width . 20) (min-height-ignore . 5) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 136) (min-pixel-width . 160) (min-pixel-height-ignore . 85) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 34) (min-pixel-width-safe . 32)) vc (pixel-width . 1920) (pixel-height . 1029) (total-width . 240) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (hc (pixel-width . 1920) (pixel-height . 927) (total-width . 240) (total-height . 55) (normal-height . 0.8965014577259476) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 1432) (pixel-height . 927) (total-width . 179) (total-height . 55) (normal-height . 1.0) (normal-width . 0.7458333333333325) (buffer "linked_lists.c" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 316) (start . 1))) (leaf (last . t) (pixel-width . 488) (pixel-height . 927) (total-width . 61) (total-height . 55) (normal-height . 1.0) (normal-width . 0.25416666666666754) (buffer "*compilation*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1)))) (leaf (last . t) (pixel-width . 1920) (pixel-height . 102) (total-width . 240) (total-height . 6) (normal-height . 0.10349854227405242) (normal-width . 1.0) (buffer "*eshell*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 69) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
-(setq regexp-search-ring '("r1" "htdoc" "opt"))
-(setq register-alist '((48 . "#include <iostream>\n#include <string>\n")))
-(setq file-name-history '("~/.emacs.d/bookmarks" "~/.emacs.d/.cache/treemacs-persist" "~/Documents/c++_practice/typecast.cpp" "~/Documents/c++_practice/helloworld.cpp" "~/Documents/c++_practice/helloworld" "/opt/lampp/htdocs/first/first_website.php" "/opt/lampp/htdocs/first/style.css" "~/.emacs.d/init.el" "~/Documents/COE318/labs/lab1/Lab1/src/coe318/lab1/Resistor.java" "~/Documents/COE318/labs/lab1/lab1.pdf" "~/.emacs.d/elpa/jdee-20191102.1426/jdee-autoloads.el" "~/todo/todo.org" "~/Documents/c++_practice/calculator.cpp" "~/Documents/c++_practice/example_prog.cpp" "~/Documents/c++_practice/faren" "~/Documents/c++_practice/farentocel.cpp" "~/.emacs.d/elpa/flymake-cursor-20120322.1757/flymake-cursor-autoloads.el" "~/.emacs.d/elpa/flymake-google-cpplint-20140205.1325/flymake-google-cpplint-autoloads.el" "~/.emacs.d/elpa/flymake-easy-20140818.755/flymake-easy-autoloads.el"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/al/Documents/c_practice/lec8_structure/linked_lists.c"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/al/Documents/c++_practice/bank_account/Account.cpp"
-  "Account.cpp"
-  'c++-mode
-  '(abbrev-mode visual-line-mode subword-mode undo-tree-mode override-global-mode flycheck-mode rainbow-delimiters-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
-  726
-  '(726 nil)
-  nil
-  nil
-  '((buffer-display-time 24044 39138 766039 822000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (722 722 373 373 373 199 199 723 38 21))))
-
-(desktop-create-buffer 208
-  "/home/al/Documents/c++_practice/Resistor.cpp"
-  "Resistor.cpp"
-  'c++-mode
-  '(abbrev-mode visual-line-mode subword-mode undo-tree-mode override-global-mode flycheck-mode rainbow-delimiters-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode)
-  1
+  "/home/al/Documents/c_practice/lec8_structure/linked_lists.c"
+  "linked_lists.c"
+  'c-mode
+  '(abbrev-mode visual-line-mode subword-mode undo-tree-mode global-auto-revert-mode override-global-mode flycheck-mode rainbow-delimiters-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
+  316
   '(1 nil)
   nil
   nil
-  '((buffer-display-time 24044 38161 394634 551000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  "/home/al/Documents/c++_practice/struct_practice.cpp"
-  "struct_practice.cpp"
-  'c++-mode
-  '(abbrev-mode visual-line-mode subword-mode undo-tree-mode override-global-mode flycheck-mode rainbow-delimiters-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
-  58
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 24044 37804 134491 408000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24065 43926 719601 26000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (1 1))))
 

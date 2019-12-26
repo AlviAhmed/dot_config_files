@@ -1,100 +1,10 @@
-#include <iostream>
-#include <string>
-#include <iomanip> //for std::precision
-#include <vector> //for array lists equivalent
+127.0.0.1	localhost
+127.0.1.1	al 
+0.0.0.0 	www.youtube.com youtube.com
 
-class Account {
-
-private:
-  std::string name; 
-private:
-  int number = 0;
-private:
-  double initialBalance = 0.0;
-  
-public:
-  Account(std::string name, int number, double initialBalance){
-    this -> name = name;
-     this -> number = number;
-     this -> initialBalance = initialBalance;
-  }
-public:
-  int getNumber(){
-    // std::cout << number;
-    return number;
-    //  return number;
-  }
-public:
-  int getBalance(){
-    std::setprecision(2);
-    //std::cout << initialBalance;
-    return initialBalance;
-    //return initialBalance;
-  }
-public:
-  std::string getName(){
-    //   std::cout << name;
-    //    return 0;
-      return name;
-  }
-public:
-  bool deposit (double amount){
-    if (amount <= 0){
-      return false;
-    }
-    else{
-      initialBalance  += amount;
-      return true;
-    }
-  }
-public:
-  bool withdraw (double amount){
-    if (amount > initialBalance || amount <= 0){
-      return false;
-    }
-    else {
-      initialBalance -= amount;
-      return true;
-    }
-  }
-
-public:
-  std::string toString() {
-    //std::string s1 = "( " + getName() + " , ";
-    //std::string s2 = getNumber() + " , ";
-    //std::setprecision(2);
-    //std::string s3 = getBalance() + " )";
-    //std::string sum = s1 + s2 + s3;
-    std::cout << "( " << getName() << ", " << getNumber() << ", ";
-    std::setprecision(2);
-    std::cout << getBalance() << " )" << "\n";
-    //    std::cout << sum;
-}  
-};
-
-class Bank {
-private:
-  std::string name;
-private:
-  std::vector<Account> accounts; /* Declaring an vector of Account objects, need vector library, array list equivalent in java*/
-private:
-  int numAccounts;
-public:
-  Bank(std::string name, int maxNumberAccounts){ //bank constructor
-    
-  }
-  
-};
-
-class MainAccount {
-public:
-  std::string display;
-};
-
-
-
-
-int main () {
-  Account Al("hello",20,500.00);
-   Al.toString();
-}
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

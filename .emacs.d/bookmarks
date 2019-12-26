@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("java_practice"
+(("c_practice"
+ (filename . "~/Documents/c_practice/")
+ (front-context-string . "..\n  -rwxrwxr-x ")
+ (rear-context-string . "88 Dec 23 18:41 ")
+ (position . 167))
+("COE318"
+ (filename . "~/Documents/COE318/")
+ (front-context-string . "books\n  drwxrwxr")
+ (rear-context-string . "96 Apr 20  2018 ")
+ (position . 206))
+("first"
+ (filename . "/opt/lampp/htdocs/first/")
+ (front-context-string . "..\n  -rw-rw-r-- ")
+ (rear-context-string . "96 Dec  6 00:16 ")
+ (position . 164))
+("java_practice"
  (filename . "~/Documents/java_practice/")
  (front-context-string)
  (rear-context-string . "elloworld.java~\n")
