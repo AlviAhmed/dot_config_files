@@ -1,0 +1,3 @@
+(:token
+ (:access_token "ya29.Il-4B14LKFkrRHY7JxiWp-guqGIC2vyNsk6JeZt57T7-W7N85-nQXXQhKDqNu29IzsbYcNOmLfSWvTMn1_7ppEtLqxcxiwObKcP3B45AFANU6xCiB9FfNLir-f_J4wlp8g" :expires_in 3600 :refresh_token "1//0fECamUI_IP-hCgYIARAAGA8SNwF-L9Irx6aAkcUULzT8Uu3d_bznclAE2cof-9vXY62VFr4wM9TKd-CoLXG9QYcfH9ttzF_Rva8" :scope "https://www.googleapis.com/auth/calendar" :token_type "Bearer")
+ :elem nil)

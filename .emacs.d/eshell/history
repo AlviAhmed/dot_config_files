@@ -1,128 +1,128 @@
-chmod o-w Counter.java
-chmod a+rw ComplexNumber.java
-chmod o-w ComplexNumber.java
-chmod ugo-rw ComplexTry.java
-chmod ugo+rw o-w ComplexTry.java
-chmod 664 ComplexTry.java
+./5axis_main 
+gcc -o 5axis_main 5axis_main.c 
+./5axis_main 
+git status
+git checkout Jason
+zip -r lab4
+zip -r lab4 ba4.zip
+zip -r lab4 la4.zip
+zip -r lab4.zip lab4
+submit coe628 lab4 lab4.zip
+pdftoppm -png COE838_lab2_cover.pdf coe_la2b_cover
+git status
+git checkout Alvi
+git add backup7_phase2end/
+git commit -m "phase 2 end"
+git push origin Alvi
+zip phase2_end.zip timer_fresh.X
+zip -r phase2_end.zip timer_fresh.X
+git status
+git add phase2_end.zip 
+git commit -m "added whole project for the phase2 end"
+git push origin Alvi
+pdftoppm -png COE628_Week1_W2020.pdf lec1_pic
+convert lec1_pic-01.png -resize 50% lec1_01.jpg
+convert lec1_pic-01.png -resize 50% lec1_01.jpng
+convert lec1_pic-01.png -resize 50% lec1_01.png
+convert lec1_pic-01.png -resize 30% lec1_01.png
+convert *.png -resize 30% *.png
+convert *.png -resize 40% *.png
+convert *.png -resize 40% */small/.png
+convert *.png -resize 40% *small/.png
+convert *.png -resize 40% *small/.png
+convert *.png -resize 40% small/*.png
+convert *.png -resize 40% small/*lec1.png
 cd ..
 ls
-cd linked_counters/
+convert *.png -resize 40% scaled/*lec1.png
+convert *.png -resize 40% scaled/lec1.png
+cd scaled/
 ls
-javac Counter.java
-javac Counter.java
-javac Counter.java
-javac Counter.java CounterTry.java 
-java CounterTry
-javac Counter.java CounterTry.java 
-java CounterTry
-javac CounterTry.java
-javac Counter.java CounterTry.java 
+cd ..
+convert *.png -resize 50% scaled/lec1.png
+AclearWelcome to the Emacs shell
+convert *.png -resize 40% scaled/lec1.png
+convert *.png -resize 50% scaled/lec1.png
+./security.sh 
+cd user_input_practice/
+ls
+./user1.sh
+sudo ./user1.sh
+./user2
+./user1.sh
+ebook-convert gtd.pdf Getting\ Things\ Done\ The\ Art\ of\ Stress-Free\ Productivity\ by\ David\ Allen\ \(z-lib.org\).epub 
+ebook-convert Getting\ Things\ Done\ The\ Art\ of\ Stress-Free\ Productivity\ by\ David\ Allen\ \(z-lib.org\).epub gtd.pdf 
+ls
+./user1.sh
+sudo ./user1.sh
+ls
+chmod +x user1.sh
+./user1.sh 
+./user1.sh 
 lear
 clear
-javac Counter.java CounterTry.java 
-javac Counter.java CounterTry.java 
-java CounterTry
-java CounterTry
-javac Counter.java CounterTry.java 
-java CounterTry
-javac Counter.java CounterTry.java
-java CounterTry
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-java CounterTry
-javac Counter.java CounterTry.java
-java CounterTry
-javac Counter.java CounterTry.java
-java CounterTry
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-java CounterTry
-javac Counter.java CounterTry.java
-javac Counter.java CounterTry.java
-java CounterTry
-javac ComplexNumber.java
-javac ComplexNumber.java ComplexTry.java
-java
-java ComplexTry
+ls
+chmod +x pdftopictures.sh 
+./pdftopictures.sh 
+./pdftopictures.sh 
+./pdftopictures.sh 
+./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+ls
+cd week2/
+chmod 666 COE628_Week2_W2020_upload1.pdf
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
 cd ..
-cd linked_counters/
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+cd week2/
 ls
-javac CounterTry.java  Counter.java 
-java CounterTry
-javac CounterTry.java  Counter.java 
-java CounterTry
-javac CounterTry.java  Counter.java 
-java CounterTry
-javac CounterTry.java  Counter.java 
-java CounterTry
-javac CounterTry.java  Counter.java 
-java CounterTry
-javac CounterTry.java  Counter.java 
-java CounterTry
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+cd ..
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+sudo ./pdftopictures.sh 
+chmod +x pdftopictures.sh
+./pdftopictures.sh
+./pdftopictures.sh
+./pdftopictures.sh
+chmod +x pdftopictures.sh
+./pdftopictures.sh
+chmod 666 pdftopictures.sh
+./pdftopictures.sh
+sudo ./pdftopictures.sh
+./pdftopictures.sh
+sudo pdftopictures.sh
 ls
-./struct_prac_2 
-./struct_prac_2 
+ln user1.sh linkuser1.sh
+ln user1.sh linkuser1.sh
+ln -v user1.sh linkuser1.sh
+ln s- user1.sh link1
+ln s- user1.sh link1.sh
+ln -s user1.sh link1.sh
+ls -l 
+man ln
 clear
-./struct_prac_2 
-./struct_prac_2 
-./struct_prac_2 
+ln user1.sh link1.sh
+ln user1.sh link1.sh
+sudo rm pdftopic
+sudo rm -rf pdftopic
+convert d1.jpg -resize 40% d1.jpg  
+convert d1.jpg -resize 1% d1.png  
+rm -r scaled
+sudo rm -r scaled
+  convert *.png -resize 50% scaled/slec.png    
+mkdir scaled
+  convert *.png -resize 50% scaled/slec.png    
+sudo mkdir scaled
+sudo  convert *.png -resize 50% scaled/slec.png    
+./lecpdftopic.sh
+clear
+./lecpdftopic.sh
+sudo ./lecpdftopic.sh
 ls
-./linked_lists 
-./linked_lists 
-ls
-./linked_lists 
-./linked_lists 
-./linked_lists 
-./linked_lists 
-ls
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-javac Elephant.java 
-java Elephant
-javac Elephant.java 
-java Elephant

@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "exwm-firefox-evil" "20190608.2230" "Firefox hotkeys to functions" '((emacs "24.4") (exwm "0.16") (evil "1.0.0") (exwm-firefox-core "1.0")) :commit "69e8eff0e5443183713213386c450ebfef3b4d0a" :keywords '("extensions") :authors '(("Sebastian Wålinder" . "s.walinder@gmail.com")) :maintainer '("Sebastian Wålinder" . "s.walinder@gmail.com") :url "https://github.com/walseb/exwm-firefox-evil")

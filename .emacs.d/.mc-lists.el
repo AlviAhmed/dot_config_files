@@ -3,12 +3,15 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        evil-backward-char
         evil-forward-char
         evil-forward-word-begin
         evil-previous-line
+        hungry-delete-backward
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        evil-insert
         evil-next-line
         ))

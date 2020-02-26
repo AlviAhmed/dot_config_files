@@ -2,11 +2,166 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("c_practice"
- (filename . "~/Documents/c_practice/")
- (front-context-string . "..\n  -rwxrwxr-x ")
- (rear-context-string . "88 Dec 23 18:41 ")
+(("bash_scripts"
+ (filename . "~/Documents/bash_scripts/")
+ (front-context-string . "alarm_script\n  -")
+ (rear-context-string . "96 Aug  8  2019 ")
+ (position . 213))
+("todo_week.org"
+ (filename . "~/Dropbox/Sync/todo_week.org")
+ (front-context-string . "* To-Do for the ")
+ (rear-context-string)
+ (position . 1))
+(".config"
+ (filename . "~/.config/")
+ (front-context-string . "i3\n  drwxrwxr-x ")
+ (rear-context-string . "96 Feb  2 16:53 ")
+ (position . 1999))
+("hpl_tc_config.h"
+ (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/led_timer_trial_mckdiv8.X/config/hpl_tc_config.h")
+ (front-context-string . "r\n#ifndef CONF_T")
+ (rear-context-string . "> timer_prescale")
+ (position . 644))
+("Phase2"
+ (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Phase2/led_timer_trial_mckdiv8.X/led_flasher_main.c")
+ (front-context-string . "g\n#include \"atme")
+ (rear-context-string . "/a>\n */\n//testin")
+ (position . 1423))
+("ENG503"
+ (filename . "~/Documents/Year5Sem2/ENG503/")
+ (front-context-string . "Essay Rubric.doc")
+ (rear-context-string . "90 Jan 25 22:01 ")
+ (position . 452))
+("printer_server"
+ (filename . "/ssh:al@192.168.0.28:/home/al/")
+ (front-context-string . "Desktop\n  -rw---")
+ (rear-context-string . "96 Jan 19 16:59 ")
+ (position . 512))
+("a266ahme"
+ (filename . "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/")
+ (front-context-string . ".artist_states\n ")
+ (rear-context-string . "10 Nov 20 20:28 ")
+ (position . 368))
+("coe528_labs_school"
+ (filename . "~/Documents/Year5Sem2/COE528/COE528_labs/coe528_labs_school/")
+ (front-context-string)
+ (rear-context-string . "Jan 14 15:22 ..\n")
+ (position . 202))
+("atsame70"
+ (filename . "~/Documents/Year5Sem1/ELE700/datasheets_guides/")
+ (front-context-string . "micro_step_reso_")
+ (rear-context-string . "15 Nov 15 10:35 ")
+ (position . 535))
+("Sync"
+ (filename . "~/Dropbox/Sync/")
+ (front-context-string . "coe718help\n  drw")
+ (rear-context-string . "96 Dec 30 05:51 ")
+ (position . 198))
+("ELE800"
+ (filename . "~/Documents/Year5Sem1/ELE700/ELE800/")
+ (front-context-string . "..\nP -rw-rw-r-- ")
+ (rear-context-string . "96 Jan 10 14:13 ")
+ (position . 183))
+("Capstone"
+ (filename . "~/Documents/Git_Projects/Capstone/")
+ (front-context-string)
+ (rear-context-string . "75 Jan 10 13:44 ")
+ (position . 268))
+("COE428"
+ (filename . "~/Documents/COE428/")
+ (front-context-string . "COE428 - Algorit")
+ (rear-context-string . "96 Apr 20  2018 ")
+ (position . 223))
+("COE838"
+ (filename . "~/Documents/Year5Sem2/COE838/")
+ (front-context-string . "COE838_labs\n  dr")
+ (rear-context-string . "96 Jan  9 15:08 ")
+ (position . 211))
+("ELE884"
+ (filename . "~/Documents/Year5Sem2/ELE884/")
+ (front-context-string . "Jan6quicknotes.o")
+ (rear-context-string . "78 Jan  6 16:21 ")
+ (position . 211))
+("ELE709"
+ (filename . "~/Documents/Year5Sem2/ELE709/")
+ (front-context-string . "ELE709_labs\n  dr")
+ (rear-context-string . "96 Jan  9 10:33 ")
+ (position . 416))
+("COE628"
+ (filename . "~/Documents/Year5Sem2/COE628/")
+ (front-context-string . "Assignment\n  drw")
+ (rear-context-string . "96 Dec 26 10:09 ")
+ (position . 211))
+("COE528"
+ (filename . "~/Documents/Year5Sem2/COE528/")
+ (front-context-string)
+ (rear-context-string . "96 Dec 26 09:50 ")
+ (position . 211))
+("Year5Sem2"
+ (filename . "~/Documents/Year5Sem2/")
+ (front-context-string . "COE 528_labs\n  d")
+ (rear-context-string . "96 Dec 26 09:50 ")
+ (position . 226))
+("L3Wescam_2020_co_op"
+ (filename . "~/Documents/resumes/new_current/Al/L3Wescam_2020_co_op/")
+ (front-context-string)
+ (rear-context-string . "84 Jan  8 12:18 ")
+ (position . 237))
+("org-capture-last-stored"
+ (filename . "~/org/notes.org")
+ (front-context-string . "** TODO hello th")
+ (rear-context-string)
+ (position . 9))
+("actual_cnc_stuff"
+ (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
+ (front-context-string . "Base Stepper Wit")
+ (rear-context-string . "32 Nov 20 17:06 ")
+ (position . 313))
+("Dropbox"
+ (filename . "~/Dropbox/")
+ (front-context-string . "Get Started with")
+ (rear-context-string . "40 Jan  6 13:15 ")
+ (position . 321))
+("lg_phone_sync"
+ (filename . "/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C004%5D/Internal storage/Sync/")
+ (front-context-string . "Capstone.org\n  d")
+ (rear-context-string . "97 Jan  6 07:00 ")
+ (position . 249))
+("lg_phone"
+ (filename . "/run/user/1000/gvfs/")
+ (front-context-string . "mtp:host=%5Busb%")
+ (rear-context-string . " 0 Dec 31  1969 ")
+ (position . 156))
+(".emacs.d"
+ (filename . "~/.emacs.d/")
+ (front-context-string . "init.el\n  -rw-rw")
+ (rear-context-string . "96 Jan  3 19:27 ")
+ (position . 937))
+("phonefiles"
+ (filename . "~/Documents/phonefiles/")
+ (front-context-string . ".stfolder\n  -rw-")
+ (rear-context-string . "96 Dec 30 04:03 ")
+ (position . 263))
+("Backups"
+ (filename . "~/Documents/Backups/")
+ (front-context-string)
+ (rear-context-string . "Dec 30 04:03 ..\n")
  (position . 167))
+("alvi.ahmed@ryerson.ca.ical"
+ (filename . "~/Documents/alvi.ahmed@ryerson.ca.ical/")
+ (front-context-string . "alvi.ahmed@ryers")
+ (rear-context-string . "91 Oct 20  2017 ")
+ (position . 231))
+("playbook"
+ (filename . "/smb:playbook@192.168.0.24:/")
+ (front-context-string . "certs\n  dr-xr-xr")
+ (rear-context-string . "  0 Dec 31 1969 ")
+ (position . 99))
+("c_practice"
+ (filename . "~/Documents/c_practice/")
+ (front-context-string . "queue\n  drwxrwxr")
+ (rear-context-string . "96 Jan  9 14:53 ")
+ (position . 314))
 ("COE318"
  (filename . "~/Documents/COE318/")
  (front-context-string . "books\n  drwxrwxr")
