@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: delay
-# key: _delay
-# --
-
-_delay_ms($1);
-$0

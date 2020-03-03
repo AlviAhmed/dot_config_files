@@ -1,12 +1,3 @@
-./5axis_main 
-gcc -o 5axis_main 5axis_main.c 
-./5axis_main 
-git status
-git checkout Jason
-zip -r lab4
-zip -r lab4 ba4.zip
-zip -r lab4 la4.zip
-zip -r lab4.zip lab4
 submit coe628 lab4 lab4.zip
 pdftoppm -png COE838_lab2_cover.pdf coe_la2b_cover
 git status
@@ -126,3 +117,12 @@ clear
 ./lecpdftopic.sh
 sudo ./lecpdftopic.sh
 ls
+java Organization
+java Client
+java Client
+java Client
+java Client
+java Client
+java Client
+java Client
+java Client

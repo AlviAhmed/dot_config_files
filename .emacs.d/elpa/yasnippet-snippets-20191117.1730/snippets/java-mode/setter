@@ -1,7 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: setter
-# key: s
-# --
-public void set${1:Field}(${2:datatype} data) { 
-       ${3:var_name} = data;
-}

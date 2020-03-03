@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: mathbracket
-# key: mb
-# --
-
-\[ $1  \]

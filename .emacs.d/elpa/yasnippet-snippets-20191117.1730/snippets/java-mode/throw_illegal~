@@ -1,8 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: throw new Illegal
-# key: throw
-# --
-
-if (${1:illegal_condition}){ 
-   throw new IllegalArgumentException("${2:error_statement}");
-}

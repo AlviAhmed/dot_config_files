@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- latex-math-preview-expression
- org-toggle-inline-images
- replace-string
- org-toggle-latex-fragment
- revert-buffer
  eval-buffer
+ dmenu
+ eshell
  yas-visit-snippet-file
+ compile
+ rgrep
+ revert-buffer
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 171)
+ (eval-buffer . 187)
  (compare-windows . 8)
  (rainbow-mode . 23)
  (LaTeX-mode . 11)
@@ -29,7 +29,7 @@
  (dired-unmark . 1)
  (copy-file . 4)
  (update-file-autoloads . 1)
- (list-packages . 53)
+ (list-packages . 56)
  (rainbow-delimiters-mode . 5)
  (dashboard-mode . 2)
  (eww . 3)
@@ -42,10 +42,10 @@
  (recover-this-file . 1)
  (dired . 25)
  (image-mode . 3)
- (compile . 883)
+ (compile . 885)
  (shell . 2)
  (kill-buffer . 2)
- (eshell . 370)
+ (eshell . 371)
  (dired-ranger-move . 2)
  (todo-mode . 1)
  (treemacs . 11)
@@ -54,7 +54,7 @@
  (ranger-paste . 1)
  (ranger-override-dired-mode . 6)
  (ranger-show-copy-ring . 1)
- (dmenu . 22)
+ (dmenu . 23)
  (symon-mode . 3)
  (org-agenda . 71)
  (ffap-bindings . 1)
@@ -76,7 +76,7 @@
  (matlab-shell-apropos . 1)
  (describe-text-properties . 1)
  (server-start . 2)
- (package-autoremove . 2)
+ (package-autoremove . 5)
  (kill-ring-save . 1)
  (electric-pair-mode . 1)
  (count-words . 12)
@@ -118,13 +118,13 @@
  (desktop-save-mode . 1)
  (desktop-revert . 9)
  (widen . 1)
- (neotree . 4)
+ (neotree . 5)
  (subword-kill . 1)
  (multiple-cursors-mode . 4)
  (server-force-delete . 1)
  (yas/new-snippet . 1)
  (yas-activate-extra-mode . 6)
- (yas-visit-snippet-file . 34)
+ (yas-visit-snippet-file . 36)
  (yas-tryout-snippet . 15)
  (yas-describe-tables . 6)
  (bibtex-Book . 3)
@@ -212,7 +212,7 @@
  (xref-find-definitions . 9)
  (complete-tag . 1)
  (ggtags-find-tag-dwim . 1)
- (rgrep . 248)
+ (rgrep . 249)
  (evil-org-mode . 1)
  (org-gcal-sync . 2)
  (org-gcal-fetch . 3)
@@ -256,4 +256,6 @@
  (latex-math-preview-expression . 101)
  (latex-math-preview-expression-mode . 2)
  (replace-string . 8)
+ (package-list-packages . 1)
+ (apropos-variable . 1)
 )

@@ -1,6 +1,6 @@
-;; -*- emacs-lisp -*- <20/02/21 02:01:23 /home/al/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <20/02/28 20:13:27 /home/al/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
-;; You can delete it, forcing Tramp to reapply the checks.
+;; Run `M-x tramp-cleanup-all-connections' instead.
 
 (((tramp-file-name "ssh" "a266ahme" nil "pascal.ee.ryerson.ca" nil nil nil)
   ("uname" "Linux 2.6.32-754.23.1.el6.x86_64")
