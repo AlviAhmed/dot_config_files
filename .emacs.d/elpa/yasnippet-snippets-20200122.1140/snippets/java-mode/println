@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: println
-# key: pr
+# key: sys
 # --
-System.out.println("${1:text}");
+System.out.println(${1:text/var});
 $0

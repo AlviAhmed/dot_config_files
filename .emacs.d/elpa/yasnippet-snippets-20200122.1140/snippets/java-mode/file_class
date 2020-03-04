@@ -1,9 +1,16 @@
 # -*- mode: snippet -*-
 # name: file_class
-# key: file
+# key: class
 # --
 public class ${1:`(file-name-base
                     (or (buffer-file-name)
-                        (buffer-name)))`} {
-  $0
+                        (buffer-name)))`} { 
+
+public ${1:`(file-name-base
+              (or (buffer-file-name)
+                  (buffer-name)))`}($2) { 
+$0
+}
+
+$0
 }

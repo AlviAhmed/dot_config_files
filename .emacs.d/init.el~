@@ -7,7 +7,6 @@
 (package-initialize)  
 
 (setq-default    
-	treemacs-icons-dired t
 	confirm-kill-emacs 'yes-or-no-p)
 (fset 'yes-or-no-p 'y-or-n-p)                     ; Replace yes/no prompts with y/n 
 
@@ -35,6 +34,30 @@
 (global-set-key (kbd "M-J") 'shrink-window)
 (global-set-key (kbd "M-K") 'enlarge-window)
 
+(require 'calfw-cal)
+(require 'calfw-ical)
+(require 'calfw-org)
+
+(defun my-open-calendar ()
+  (interactive)
+  (cfw:open-calendar-buffer
+   :contents-sources
+   (list
+    (cfw:org-create-source "Green")  ; orgmode source
+;;    (cfw:ical-create-source "Moon" "~/moon.ics" "Gray")  ; ICS source1
+    (cfw:ical-create-source "gcal" "https://calendar.google.com/calendar/ical/alvi.ahmed%40ryerson.ca/private-2dd2e7e146eb7a004400af04562036cf/basic.ics" "IndianRed") ; google calendar ICS
+   ))) 
+
+
+;;org capture 
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/random_capture.org" "Tasks")
+         "* TODO %?\n  %i\n  %a")
+        ))
+
+
+;;org agenda default 
+(setq org-agenda-default-appointment-duration 60)
 
 ;;Meghanada java mode
 (require 'meghanada)
@@ -110,11 +133,6 @@
 (use-package treemacs-evil
   :after treemacs evil
   :ensure t) 
-
-(use-package treemacs-icons-dired
-  :after treemacs dired
-  :ensure t
-  :config (treemacs-icons-dired-mode))
 ;;treemacs  
 
 
@@ -150,7 +168,7 @@
 ;;(define-key dired-mode-map (kbd "N" )'evil-search-previous)  
 ;;(define-key dired-mode-map (kbd "C-p" )'nil)   
 
-
+(which-key-mode)
 
    
 (global-set-key (kbd "M-!") 'delete-other-windows)  
@@ -614,12 +632,10 @@ static char *gnus-pointer[] = {
  '(jdee-db-spec-breakpoint-face-colors (cons "#fafafa" "#bdbdbd"))
  '(jdee-server-dir "~/myJars")
  '(objed-cursor-color "#c82829")
- '(org-agenda-files
-   (quote
-    ("~/Dropbox/Sync/todo_week.org" "~/Dropbox/Sync/sched_org.org")))
+ '(org-agenda-files (quote ("~/Dropbox/Sync/sched_org.org")))
  '(package-selected-packages
    (quote
-    (treemacs treemacs-evil treemacs-icons-dired doom-modeline meghanada highlight-indent-guides ivy-yasnippet yasnippet-snippets spacemacs-theme ranger ido-vertical-mode evil-numbers org-babel-eval-in-repl eimp highlight-symbol hideshow-org org-notebook spaceline highlight-parentheses perspective org-mind-map org-timeline mu4e-alert exwm-firefox-evil exwm dmenu org-gcal htmlize focus evil-mu4e evil-mc general evil-tabs tabbar dumb-jump ggtags flymake-cursor flymake-google-cpplint iedit avy-flycheck flycheck tramp-auto-auth tramp-hdfs tramp-term gnu-elpa-keyring-update moe-theme org-bullets latex-math-preview pyenv-mode anaconda-mode elpy live-py-mode matlab-mode atom-dark-theme atom-one-dark-theme org-ac php-auto-yasnippets fill-column-indicator darkroom buffer-move writeroom-mode dired-rainbow format-all nov popup-kill-ring evil-goggles nyan-mode dashboard rainbow-delimiters hungry-delete openwith smex beacon dired-ranger yasnippet-classic-snippets w3 use-package projectile-codesearch org-evil org-edna latex-preview-pane irony-eldoc evil-tutor evil-org evil-fringe-mark evil-commentary evil-collection dracula-theme doom-themes company-jedi company-irony-c-headers company-irony company-dict company-c-headers company-bibtex company-auctex color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized better-defaults base16-theme avk-emacs-themes auto-yasnippet auto-org-md auto-minor-mode auto-indent-mode auto-highlight-symbol auto-dim-other-buffers auto-dictionary auto-correct auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex alect-themes ac-math ac-c-headers)))
+    (calfw-cal calfw-howm calfw-gcal calfw-ical calfw-org calfw which-key treemacs treemacs-evil treemacs-icons-dired doom-modeline meghanada highlight-indent-guides ivy-yasnippet yasnippet-snippets spacemacs-theme ranger ido-vertical-mode evil-numbers org-babel-eval-in-repl eimp highlight-symbol hideshow-org org-notebook spaceline highlight-parentheses perspective org-mind-map org-timeline mu4e-alert exwm-firefox-evil exwm dmenu org-gcal htmlize focus evil-mu4e evil-mc general evil-tabs tabbar dumb-jump ggtags flymake-cursor flymake-google-cpplint iedit avy-flycheck flycheck tramp-auto-auth tramp-hdfs tramp-term gnu-elpa-keyring-update moe-theme org-bullets latex-math-preview pyenv-mode anaconda-mode elpy live-py-mode matlab-mode atom-dark-theme atom-one-dark-theme org-ac php-auto-yasnippets fill-column-indicator darkroom buffer-move writeroom-mode dired-rainbow format-all nov popup-kill-ring evil-goggles nyan-mode dashboard rainbow-delimiters hungry-delete openwith smex beacon dired-ranger yasnippet-classic-snippets w3 use-package projectile-codesearch org-evil org-edna latex-preview-pane irony-eldoc evil-tutor evil-org evil-fringe-mark evil-commentary evil-collection dracula-theme doom-themes company-jedi company-irony-c-headers company-irony company-dict company-c-headers company-bibtex company-auctex color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized better-defaults base16-theme avk-emacs-themes auto-yasnippet auto-org-md auto-minor-mode auto-indent-mode auto-highlight-symbol auto-dim-other-buffers auto-dictionary auto-correct auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex alect-themes ac-math ac-c-headers)))
  '(pdf-view-midnight-colors (quote ("#655370" . "#fbf8ef")))
  '(persp-mode t)
  '(send-mail-function (quote mailclient-send-it))

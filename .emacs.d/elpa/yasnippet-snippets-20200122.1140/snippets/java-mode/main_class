@@ -3,7 +3,7 @@
 # name: main_class
 # key: main_class
 # --
-class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
+public class `(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`
 {
 public static void main(String[] args)
 {

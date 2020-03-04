@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("bash_scripts"
+(("COE528_lectures_modern"
+ (filename . "~/Documents/Year5Sem2/COE528/COE528_lectures_modern/")
+ (front-context-string . "week1\n  drwxrwxr")
+ (rear-context-string . "96 Mar  1 13:59 ")
+ (position . 433))
+("sched_org.org"
+ (filename . "~/Dropbox/Sync/sched_org.org")
+ (front-context-string . "* To-Do for the ")
+ (rear-context-string)
+ (position . 1))
+("bash_scripts"
  (filename . "~/Documents/bash_scripts/")
  (front-context-string . "alarm_script\n  -")
  (rear-context-string . "96 Aug  8  2019 ")
@@ -108,10 +118,10 @@
  (rear-context-string . "84 Jan  8 12:18 ")
  (position . 237))
 ("org-capture-last-stored"
- (filename . "~/org/notes.org")
- (front-context-string . "** TODO hello th")
- (rear-context-string)
- (position . 9))
+ (filename . "~/Dropbox/Sync/random_capture.org")
+ (front-context-string . "** TODO haven't ")
+ (rear-context-string . " and Autoboxing\n")
+ (position . 238))
 ("actual_cnc_stuff"
  (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
  (front-context-string . "Base Stepper Wit")

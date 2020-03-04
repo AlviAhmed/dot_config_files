@@ -2,17 +2,17 @@
 ;; ----- smex-history -----
 (
  eval-buffer
- dmenu
  eshell
- yas-visit-snippet-file
  compile
- rgrep
- revert-buffer
+ yas-visit-snippet-file
+ org-capture
+ treemacs
+ my-open-calendar
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 187)
+ (eval-buffer . 195)
  (compare-windows . 8)
  (rainbow-mode . 23)
  (LaTeX-mode . 11)
@@ -29,7 +29,7 @@
  (dired-unmark . 1)
  (copy-file . 4)
  (update-file-autoloads . 1)
- (list-packages . 56)
+ (list-packages . 59)
  (rainbow-delimiters-mode . 5)
  (dashboard-mode . 2)
  (eww . 3)
@@ -42,13 +42,13 @@
  (recover-this-file . 1)
  (dired . 25)
  (image-mode . 3)
- (compile . 885)
+ (compile . 888)
  (shell . 2)
  (kill-buffer . 2)
- (eshell . 371)
+ (eshell . 378)
  (dired-ranger-move . 2)
  (todo-mode . 1)
- (treemacs . 11)
+ (treemacs . 12)
  (org-latex-export-to-pdf . 36)
  (ranger-cut . 1)
  (ranger-paste . 1)
@@ -65,7 +65,7 @@
  (dired-ranger-copy . 105)
  (dired-ranger-paste . 7)
  (serial-term . 22)
- (calendar . 4)
+ (calendar . 5)
  (TeX-PDF-mode . 2)
  (mkdir . 15)
  (openwith-mode . 20)
@@ -124,7 +124,7 @@
  (server-force-delete . 1)
  (yas/new-snippet . 1)
  (yas-activate-extra-mode . 6)
- (yas-visit-snippet-file . 36)
+ (yas-visit-snippet-file . 37)
  (yas-tryout-snippet . 15)
  (yas-describe-tables . 6)
  (bibtex-Book . 3)
@@ -160,7 +160,7 @@
  (desktop-read . 29)
  (Info-mode-menu . 1)
  (make-frame-on-display . 1)
- (package-install . 1)
+ (package-install . 3)
  (tramp-version . 1)
  (tramp-cleanup-all-connections . 5)
  (dedicated-mode . 3)
@@ -195,7 +195,7 @@
  (describe-bindings . 1)
  (evil-tabs-mode . 6)
  (ranger-refresh . 1)
- (revert-buffer . 184)
+ (revert-buffer . 191)
  (global-evil-tabs-mode . 1)
  (tabbar-mode . 2)
  (flycheck-disable-checker . 1)
@@ -218,7 +218,7 @@
  (org-gcal-fetch . 3)
  (org-gcal-sync-buffer . 2)
  (org-gcal-post-at-point . 1)
- (org-capture . 2)
+ (org-capture . 4)
  (org-insert-subheading . 1)
  (org-insert-heading . 1)
  (org-sort . 2)
@@ -226,7 +226,7 @@
  (calc . 1)
  (quit-window . 1)
  (grep . 2)
- (time-stamp . 1)
+ (time-stamp . 2)
  (savehist-mode . 2)
  (emacs-version . 1)
  (ad-enable-advice . 1)
@@ -258,4 +258,8 @@
  (replace-string . 8)
  (package-list-packages . 1)
  (apropos-variable . 1)
+ (cfw:open-calendar-buffer . 4)
+ (cfw:open-ical-calendar . 1)
+ (my-open-calendar . 3)
+ (meghanada-mode . 2)
 )

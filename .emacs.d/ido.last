@@ -96,15 +96,20 @@
 ;; ----- ido-work-directory-list -----
 (
  "/home/al/.emacs.d/"
+ "/home/al/Dropbox/Sync/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/example_reference/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/java-mode/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week3/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_interface/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_inheritance_2/"
  "/home/al/"
  "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week1/example1/"
- "/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/java-mode/"
  "/home/al/Documents/c_practice/pointer_prac/"
  "/home/al/.emacs.d/elpa/yasnippet-snippets-20191117.1730/snippets/org-mode/"
  "/home/al/Documents/Year5Sem2/ELE884/necessary_eq/"
  "/home/al/Documents/Year5Sem2/COE628/COE628_notes/pre_midterm/lec6&7/"
  "/home/al/Documents/Year5Sem1/ELE792/ELE792_labs/lab2/"
- "/home/al/Dropbox/Sync/"
  "/home/al/Documents/Year5Sem2/ELE884/ELE884_lectures_2020/"
  "/home/al/Documents/Year5Sem2/COE628/COE628_notes/pre_midterm/"
  "/home/al/Documents/Year5Sem2/COE628/COE628_notes/pre_midterm/lec_pics/week2/"
@@ -140,40 +145,59 @@
  "/home/al/Documents/Year5Sem2/COE628/COE628_labs/COE628_lab4_from_trash/"
  "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/COE528/lab2/"
  "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/COE528/lab2/Ex2/src/coe528/lab2/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab2/lab2/"
- "/home/al/Documents/c++_practice/string_prac/palindrome_detector/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab2/lab2/Ex2/src/main/java/coe528/lab2/"
- "/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/LED flasher.X/"
- "/home/al/Documents/Year5Sem1/ELE700/ELE800/planning_todo_resources/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "random_capture.org"
+ "Buyable.java"
+ "InstallementBuyable.java"
+ "C.java"
+ "B.java"
+ "Test.java"
+ "A.java"
  "Organization.java"
  "Client.java"
- "coe628_lec6&7.pdf"
- "formulas_sheet.pdf"
- "ele792_lab2.tex"
- "Lab2 FIR Filtering F2018.pdf"
- "ele792_lab2.pdf"
- "coe628_lec2.org"
- "lecpdftopic.sh"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/.emacs.d/" (24158 29816 604489 462000) "init.el" ".cache/" "./" "backup_init/" ".org-id-locations" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "org-gcal/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "auto-save-list/" "nov-places" "../" ".emacs.desktop" "init.el~" "snippets/" "request/" "abbrev_defs" "thumbs/" "history" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "tramp" "elpa/" ".mc-lists.el" "dmenu-items" "%backup%~" "semanticdb/" "places")
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/" (24149 40812 245769 523000) "lab4.pdf" "./" "spare_trace/" "lab3.pdf" "lab2b/" "lab1_report/" "lab2b_report/" "lab2a/" "../" "lab2a.pdf" "OpenCL_lab.pdf" "SoC-Project.pdf" "lab2b.pdf" "lab3_report/" "Screenshot_2020-01-29_03-17-20.png")
 
- ("/home/al/.config/i3/" (24156 47526 558653 859000) "./" "config~" "../" "config")
+ ("/home/al/.config/i3/" (24159 1948 886131 282000) "./" "config~" "../" "config")
+
+ ("/home/al/.emacs.d/" (24159 1959 474349 924000) "init.el" ".cache/" "./" "backup_init/" ".org-id-locations" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "org-gcal/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "meghanada/" "auto-save-list/" "nov-places" "../" ".emacs.desktop" "init.el~" "snippets/" "request/" "abbrev_defs" "thumbs/" "history" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "tramp" "elpa/" ".mc-lists.el" "dmenu-items" "%backup%~" "semanticdb/" "places")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week3/" (24158 60634 573555 425000) "./" "example_dataabstraction/" "coe528.W20.week3.2020.Jan.23.pdf" "Abstraction.and.Decomposition.pdf" "../" "Procedural-Abstraction.pdf")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/" (24159 1335 161459 855000) "./" "Test.java" "Exercises.pdf" "example_reference/" "../" "example_clone/" "coe528.W20.week4.2020.Jan.30.pdf" "coe528.W20.week4.2020.Jan.28.pdf")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/example_reference/" (24159 1769 746430 783000) "./" "Ex.java" "Ex.java~" "../" "Ex.class")
+
+ ("/home/al/Dropbox/Sync/" (24159 2669 16982 497000) "latex_shell_commands.org~" "20191129_170515_HDR.jpg" ".comments/" "./" "20191129_172219_HDR.jpg" "google_calendar.org" "random_capture.org" "random_capture.org~" "img/" "sched_org.org" "useful_linux_commands.org~" "sched_org.ics" "sched_org.org~" "20191129_165123_HDR.jpg" "misc_symbols.png" "data/" "../" "sched_org.ics~" "latex_shell_commands.org" "fdm_questions/" ".#google_calendar.org" "coe718help/" "20200219_232208_HDR-1.jpg" "greek_letters.png" "binary_sym.png" "'" "google_calendar.org~" "arrows.png" "20191129_172223_HDR.jpg" "useful_linux_commands.org")
+
+ ("/home/al/" (24159 1975 858688 234000) "polybar/" ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" "interprocess/" "*message*-20191229-180034" ".fonts/" ".cache/" ".linuxmint/" "java/" "systemc-2.3.3/" "lab1_material2.zip" "help/" "wine-4.0.1/" "toolbox/" "composer.json" "Music/" "elisp_practice.lisp~" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" "Desktop/" ".ssh/" ".purple/" "myJars/" "my-diagram.png" ".matlab/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" ".notes~" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" "#.selected_editor#" ".swo" "composer.lock" "elisp_practice.el" "id.txt~" "shawn_courses.png" "feh_005979_000002_20191107_144533_HDR.jpg" ".p2/" "evilwm-1.1.1.tar.gz" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "polyspace/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "back_doom/" "libxcb-1.13.1.tar.bz2" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Dropbox/" "Release.key" ".thumbnails/" "org/" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "www.gatevidyalay.com/" "polybar-3.4.2.tar" "files2/" "wrestling_workout.org~" "Vmware/" "themes_like.org~" "graph_extracted_schematic.png" "systemc-2.3.3.tar.gz" "eagle_libraries_storage/" "EAGLE/" "index.html" "junit413/" ".var/" "trail.org~" ".i3status.conf" ".mplab_dv/" ".config/" "frostwire-6.8.1.all.deb" "vendor/" "gcc.gnu.org/" ".rpmdb/" "junk/" ".mplayer/" ".gconf/" "GNUstep/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" "index.html.1" ".wine/" "opt/" ".mplab_ide/" ".netbeans/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "mplab-data-visualizer-standalone(linux).1.0.675.run" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" "sys/" ".sane/" ".surf/" ".bashrc" ".putty/" "minicom.log" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "llvm-project/" "waterfox/" ".gtkrc-xfce" "etc/" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "testing_newwebcam.webm" "coe718_final/" "META-INF/" ".dropbox-dist/" "L3resumenotes.org~" "ihsec/" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".authinfo" "apache-maven-3.6.3/" ".profile" ".android/" ".Private/" ".mplab_ipe/" ".ratpoison_history" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" "test.org~" ".lesshst" "pacakges_deleted.png" "Screenshot_2020-01-06_09-00-16.png" "NetBeansProjects/" "matlab2019b_zip/" "shared_windows7/" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lab3b_2.zip" "xampp-linux-x64-7.1.33-1-installer.run" "mozilla.pdf" "feh_005979_000001_20191107_144533_HDR.jpg" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" "JUNIT_WORKSPACE/" "jdee-server/" ".ICEauthority" "plantuml.jar" "eagle-9.4.2/" ".FBReader/" ".vmware/" "back_emacs/" ".pki/" ".gtktermrc" "OpenSpades-0.1.3-Windows/" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "testing/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "output.txt" ".npm/" "eclipse/" "MPLABXProjects/" "wine-4.0.1.tar.xz" ".psensor/" "extracted_schem.ps" "dissenter-browser-v0.66.99-amd64.deb" "drawing.svg" "apache-maven-3.6.3-bin.tar.gz" "Public/" "final_exam_sched.png" "ui/" "hello~" ".viminfo" ".waterfox/" ".dropbox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" ".eclipse/" ".oracle_jre_usage/" ".doom.d/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" ".m2/" "opencv-3.4.6.zip" ".kde/" "test.org" "priority_inv.pdf" "extern/" ".aspell.en.prepl" "OpenSpades-0.1.3-Windows.zip" "hello.txt" ".vimrc" ".ihsec/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" ".thunderbird/" "workout_home.jpg" ".mozilla/" "examples/" "temp.cpp~" "Documents/" ".conkyrc" ".minirc.dfl" "NewFolder/" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" ".nbi/" ".notes" "position(s).png" "LICENSE.txt" "meme.png" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "testing_systemc/" ".frostwire5/" "elisp_practice.el~" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/example_clone/" (24159 1120 817056 947000) "./" "../")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week3/example_dataabstraction/" (24158 60700 974910 708000) "./" "../")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/java-mode/" (24158 60674 818376 868000) "setter~" "doc" "./" "println~" "iterator" "override" "file_class~" "param" "println" "for" "method" "fori" "main" "constructor" ".#setter" "assert" "#setter#" "this" "javadoc" "return" "ife" "main_class" "cls" "getter~" "../" "import" "test" "equals" "testClass" "main_class~" "value" "if" "define test method" "getter" "printf" "new" "assertEquals" "file_class" "lambda" "toString" "try" "setter" "apr_assert")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_exception/" (24158 58310 347531 492000) "./" "../")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/" (24158 52919 173743 906000) "./" "example_interface/" "example_try_final/" "example_vector/" "example_interface_2/" "coe528.W20.week2.2020.Jan.14.pdf" "example_junit/" "Screenshot_2020-03-03_16-34-52.png" "example_inheritance_2/" "Understanding.Objects.in.Java.Part3.pdf" "Understanding.Objects.in.Java.Part2.pdf" "Screenshot_2020-03-03_16-31-26.png" "example_dynamic_binding/" "../" "example_arraylist/" "Screenshot_2020-03-03_15-46-00.png" "coe528.W20.week2.2020.Jan.16.pdf" "Screenshot_2020-03-03_15-46-16.png" "example_constructor_inheritance/" "example_package/" "interface_car.png" "example_student/")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_interface/" (24158 52777 754890 302000) "InstallementBuyable.java" "out/" "InstallementBuyable.class" "./" "InterfaceTest.class" "Vehicle.class" "Car.class" "InstallementBuyable.java~" "Buyable.java~" "../" "Car.java" "InterfaceTest.java" "Buyable.class" "InterfaceTest.java~" "Buyable.java" "Car.java~" "Vehicle.java")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_inheritance_2/" (24158 49638 119629 771000) "A.java" "out/" "./" "Test.java" "B.java~" "A.class" "C.java~" "C.java" "Test.java~" "C.class" "Test.class" "B.class" "../" "B.java" "A.java~")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_inheritance_array_list/" (24158 48420 378969 213000) "./" "../")
+
+ ("/home/al/Documents/Git_Projects/dot_config_files/" (24158 30042 68824 307000) "./" ".conky/" "i3/" ".i3status.conf" "README.md" ".bashrc" ".git/" "../" "ranger/" ".zshrc" ".emacs" ".vimrc" ".conkyrc" "nvim/")
 
  ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/" (24156 64022 261207 474000) "PWM_with_comparison_enables.X/" "edp.X/" "custom_pins/" "back_up/" "./" "PWM_with_comparison_enables.atzip" "backup3/" "Phase1_end/" "timer_fresh.X/" "defaults_initial_test/" "PWM_with_comparison_enables_another_pin.atzip" "timer_ramp_constant/" "timer_fresh.atzip" "PWM_basic/" "PWM_plus_timer.X/" "Timer_basic_with_5/" "phase2_end.zip" "led_flasher_main.c" "together/" "../" "edp.atstart" "dontneedrn/" "crucial_commands.org" "EDP Fall report template.pdf" "timer_experiments/" "edp.atzip" "crucial_commands.org~" "PWM_plus_timer.atzip" "LED flasher.atzip" "pwm_trail_2.atzip")
-
- ("/home/al/Dropbox/Sync/" (24158 23075 587298 586000) "latex_shell_commands.org~" "20191129_170515_HDR.jpg" ".comments/" "./" "20191129_172219_HDR.jpg" "random_capture.org" "img/" "sched_org.org" "useful_linux_commands.org~" "sched_org.ics" "sched_org.org~" "20191129_165123_HDR.jpg" "misc_symbols.png" "data/" "../" "sched_org.ics~" "latex_shell_commands.org" "fdm_questions/" "coe718help/" "20200219_232208_HDR-1.jpg" "greek_letters.png" "binary_sym.png" "arrows.png" "20191129_172223_HDR.jpg" "useful_linux_commands.org")
-
- ("/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/java-mode/" (24154 21457 113888 0) "setter~" "doc" "./" "iterator" "override" "param" "println" "for" "method" "fori" "main" "constructor" ".#setter" "assert" "#setter#" "this" "javadoc" "return" "ife" "main_class" "cls" "getter~" "../" "import" "test" "equals" "testClass" "value" "if" "define test method" "getter" "printf" "new" "assertEquals" "file_class" "lambda" "toString" "try" "setter" "apr_assert")
-
- ("/home/al/" (24158 29250 100891 466000) "polybar/" ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" "interprocess/" "*message*-20191229-180034" ".fonts/" ".cache/" ".linuxmint/" "java/" "systemc-2.3.3/" "lab1_material2.zip" "help/" "wine-4.0.1/" "toolbox/" "Music/" "elisp_practice.lisp~" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" "Desktop/" ".ssh/" ".purple/" "myJars/" "my-diagram.png" ".matlab/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" "#.selected_editor#" ".swo" "elisp_practice.el" "id.txt~" "shawn_courses.png" "feh_005979_000002_20191107_144533_HDR.jpg" ".p2/" "evilwm-1.1.1.tar.gz" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "polyspace/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "back_doom/" "libxcb-1.13.1.tar.bz2" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Dropbox/" "Release.key" ".thumbnails/" "org/" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "www.gatevidyalay.com/" "polybar-3.4.2.tar" "files2/" "wrestling_workout.org~" "Vmware/" "themes_like.org~" "graph_extracted_schematic.png" "systemc-2.3.3.tar.gz" "eagle_libraries_storage/" "EAGLE/" "index.html" "junit413/" ".var/" "trail.org~" ".i3status.conf" ".mplab_dv/" ".config/" "frostwire-6.8.1.all.deb" "gcc.gnu.org/" ".rpmdb/" "junk/" ".mplayer/" ".gconf/" "GNUstep/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" "index.html.1" ".wine/" "opt/" ".mplab_ide/" ".netbeans/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "mplab-data-visualizer-standalone(linux).1.0.675.run" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" "sys/" ".sane/" ".surf/" ".bashrc" ".putty/" "minicom.log" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "llvm-project/" "waterfox/" ".gtkrc-xfce" "etc/" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "testing_newwebcam.webm" "coe718_final/" "META-INF/" ".dropbox-dist/" "L3resumenotes.org~" "ihsec/" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".authinfo" "apache-maven-3.6.3/" ".profile" ".android/" ".Private/" ".mplab_ipe/" ".ratpoison_history" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" "test.org~" ".lesshst" "pacakges_deleted.png" "Screenshot_2020-01-06_09-00-16.png" "NetBeansProjects/" "matlab2019b_zip/" "shared_windows7/" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lab3b_2.zip" "xampp-linux-x64-7.1.33-1-installer.run" "mozilla.pdf" "feh_005979_000001_20191107_144533_HDR.jpg" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" "JUNIT_WORKSPACE/" "jdee-server/" ".ICEauthority" "plantuml.jar" "eagle-9.4.2/" ".FBReader/" ".vmware/" "back_emacs/" ".pki/" ".gtktermrc" "OpenSpades-0.1.3-Windows/" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "testing/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "output.txt" ".npm/" "eclipse/" "MPLABXProjects/" "wine-4.0.1.tar.xz" ".psensor/" "extracted_schem.ps" "dissenter-browser-v0.66.99-amd64.deb" "drawing.svg" "apache-maven-3.6.3-bin.tar.gz" "Public/" "final_exam_sched.png" "ui/" "hello~" ".viminfo" ".waterfox/" ".dropbox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" ".eclipse/" ".oracle_jre_usage/" ".doom.d/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" ".m2/" "opencv-3.4.6.zip" ".kde/" "test.org" "priority_inv.pdf" "extern/" ".aspell.en.prepl" "OpenSpades-0.1.3-Windows.zip" "hello.txt" ".vimrc" ".ihsec/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" ".thunderbird/" "workout_home.jpg" ".mozilla/" "examples/" "temp.cpp~" "Documents/" ".conkyrc" ".minirc.dfl" "NewFolder/" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" "Sync/" ".nbi/" ".notes" "position(s).png" "LICENSE.txt" "meme.png" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "testing_systemc/" ".frostwire5/" "elisp_practice.el~" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
 
  ("/home/al/Documents/java_practice/linked_list/" (24074 62936 426583 87000) "./" "Linkedlist$Node.class" "Elephant.java~" "Linkedlist.class" "Reverselinkedlist$Node.class" "Linkedlist.java~" "Reverselinkedlist.java~" "Reverselinkedlist.class" "nestedclass_linkedlist/" "Linkedlist.java" "../" "Reverselinkedlist.java" "Elephant.java" "Elephant.class")
 
@@ -182,8 +206,6 @@
  ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week1/" (24153 34808 841895 290000) "./" "coe528.W20.week1.2020.Jan.09.pdf" "Understanding.Objects.in.Java.Part1.pdf" "../" "coe528.W20.week1.2020.Jan.07.pdf")
 
  ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/" (24153 35641 219754 53000) "./" "week4/" "Design-Pattern-Observer.pdf" "week5/" "Table of Contents.html" "COE528 - Object Orientd Analysis Design - W2020 - 2282020 - 428 PM.zip" "UseOfObserverPatternInJavaFX.pdf" "week2/" "coe528.W20.week7.2020.Feb.27.pdf" "week3/" "../" "coe528.W20.week7.2020.Feb.25.pdf" "week6/" "week1/" "JavaFX.related.files.pdf")
-
- ("/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/" (24153 34869 755202 522000) "./" "coe528.W20.week2.2020.Jan.14.pdf" "Understanding.Objects.in.Java.Part3.pdf" "Understanding.Objects.in.Java.Part2.pdf" "../" "coe528.W20.week2.2020.Jan.16.pdf" "example_student/")
 
  ("/home/al/Documents/Year5Sem2/COE528/" (24148 37667 136060 963000) "COE528_lab3_cover.pdf" "./" "coe528_lab3_cover-1.png" "COE528_lab2_cover.pdf" "COE528_labs/" "mo/" "COE528_labs_pir/" "COE528_lab2_cover-1.png" "coe528.course.outline.W2020.pdf" "../" "COE528_mega/")
 
@@ -263,8 +285,6 @@
 
  ("/home/al/Documents/Year5Sem2/ENG503/" (24113 42307 755530 860000) "./" "reponse_paper_1/" "Table of Contents.html" "csfiles/" "../" "Ghost in the Shell Plot Summary.html" "Essay Rubric.docx" "ENG503 - Science Fiction - W2020 - 1252020 - 958 PM.zip" "How to Write and Edit an Academic Paper.html" "Academic Paper Writing Guidelines 2015(2).docx")
 
- ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/" (24139 3188 749537 143000) "lab4.pdf" "./" "spare_trace/" "lab3.pdf" "lab1_report/" "lab2b_report/" "lab2a/" "../" "lab2a.pdf" "OpenCL_lab.pdf" "SoC-Project.pdf" "lab2b.pdf" "Screenshot_2020-01-29_03-17-20.png")
-
  ("/etc/X11/xinit/" (24138 55872 499281 967000) "./" "xserverrc" "xinputrc" "../" "xinitrc" "xinitrc~")
 
  ("/etc/" (24138 55485 945687 689000) "apm/" "mke2fs.conf" "services" "ntp.conf" "rc2.d/" "hosts" "lvm/" "ranger/" "avahi/" "papersize" "modules-load.d/" "grub.d/" "guest-session/" "NetworkManager/" "thermald/" "securetty" "hp/" "calendar/" "bash_completion" "protocols" "libpaper.d/" "gnome-app-install/" "tmpfiles.d/" "usb_modeswitch.conf" "systemd/" "bash.bashrc" "obex-data-server/" "logrotate.d/" "appstream.conf" "issue" "wildmidi/" "maven/" "rc5.d/" "dkms/" "init/" "profile.d/" "pcmcia/" "ffserver.conf" "usb_modeswitch.d/" "cron.monthly/" "mtab" "subuid" "fwupd/" "security/" "gufw/" "geoclue/" "mono/" "sane.d/" "crypttab" "gnome/" "shells" "rpc" "kernel-img.conf" "gimp/" "os-release" "ld.so.conf" "fuse.conf" "xdg/" "nsswitch.conf" "xfce4/" "cron.hourly/" "initramfs-tools/" "gshadow" "cupshelpers/" "lintianrc" "timeshift.json" "cron.weekly/" "nanorc" "dpkg/" "subuid-" "pam.d/" "rsyslog.conf" "iproute2/" "samba/" "opt/" "legal" "chatscripts/" "macchanger/" "rc0.d/" "alternatives/" "passwd" "deluser.conf" "xml/" "ufw/" "cups/" "sudoers" "menu/" "selinux/" "manpath.config" "acpi/" "checkinstallrc" "glvnd/" ".mplab_ide/" "cryptsetup-initramfs/" "python3/" "texmf/" "inxi.conf" "logcheck/" "debian_version" "mplayer/" "java-11-openjdk/" "sensors3.conf" "udev/" "hosts.allow" "bash_completion.d/" "apparmor.d/" "console-setup/" "ucf.conf" "request-key.conf" "gtk-3.0/" "ssl/" "mailcap.order" "java-8-openjdk/" "libreoffice/" "brltty/" "ldap/" "python2.7/" "cron.daily/" "login.defs" "localtime" "i3status.conf" "ODBCDataSources/" "locale.alias" "modules" "casper.conf" "PackageKit/" "gnome-system-tools/" "locale.gen" "mailcap" "cracklib/" "wgetrc" "resolv.conf" "ifplugd/" "updatedb.conf" "dbus-1/" "init.d/" "screenrc" "UPower/" "dictionaries-common/" "machine-id" "printcap" "avrdude.conf" "ca-certificates.conf" "networkd-dispatcher/" "rc1.d/" "apport/" "debconf.conf" "openal/" "environment" "gconf/" "gss/" "brltty.conf" "zsh_command_not_found" "bluetooth/" "yum/" "sudoers.d/" "magic.mime" "upstream-release/" "python/" "rc4.d/" "modprobe.d/" "gdb/" "libblockdev/" "i3/" "magic" "wpa_supplicant/" "fonts/" "mtools.conf" "ImageMagick-6/" "terminfo/" "vdpau_wrapper.cfg" "sensors.d/" "X11/" "issue.net" "apt/" ".pwd.lock" "lightdm/" "speech-dispatcher/" "GNUstep/" "firefox/" "polkit-1/" "brlapi.key" "emacs/" "pnm2ppa.conf" "tor/" "resolvconf/" "lsb-release" "apg.conf" "vim/" "group-" "sysctl.conf" "minicom/" "conky/" "fstab" "hosts.deny" "emacs25/" "networks" "request-key.d/" "sysctl.d/" "ld.so.conf.d/" "skel/" "linuxmint/" "subgid-" "inputrc" ".java/" "mpv/" "ppp/" "openvpn/" "hdparm.conf" "teamviewer/" "binfmt.d/" "pm/" "ltrace.conf" "network/" "crontab" "apparmor/" "debsums-ignore" "bindresvport.blacklist" "libao.conf" "adduser.conf" "perl/" "profile" "pki/" "apache2/" "rcS.d/" "update-motd.d/" "proxychains.conf" "chromium-browser/" "php/" "python3.6/" "newt/" "vtrgb" "rc6.d/" "libaudit.conf" "logrotate.conf" "shadow" "pam.conf" "odbc.ini" "adjtime" "depmod.d/" "shadow-" "group" "ca-certificates/" "ssh/" "menu-methods/" "kernel/" "libnl-3/" "rmt" "default/" "doc-base/" "compizconfig/" "host.conf" "rsyslog.d/" "dhcp/" "netplan/" "timezone" "gtk-2.0/" "vnc.conf" "anacrontab" "groff/" "su-to-rootrc" "tigervnc/" "ld.so.cache" "udisks2/" "kerneloops.conf" "gai.conf" "mysql/" "odbcinst.ini" "pulse/" "cron.d/" "vmware/" "cifs-utils/" "gshadow-" "sgml/" "hddtemp.db" "ghostscript/" "rc3.d/" "mime.types" "vbox/" "hostname" "passwd-" "thunderbird/" "subgid" "../" "./")
@@ -342,26 +362,6 @@
  ("/home/al/Documents/c++_practice/" (24075 44614 290837 643000) "exam.out" "typecast.cpp" "decimal_points.cpp" "resistor_lab/" "enum" "overloading_prac/" "inputoutput.cpp" "Resistor.cpp~" "example_prog.cpp" "helloworld.cpp~" "ifelse.cpp~" "a.out" "struct_practice.cpp~" "6C4CC842.jpg" "inputoutput.cpp~" "string_reverse.cpp~" "decimal_points.cpp~" "DisplayImage.cpp" "con2/" "Lecture_notes_MIT/" "oop_c++_prac.cpp" "predence_boolean.cpp" "function_dir/" "constructor_practice2.cpp~" "predence_boolean.cpp~" "constructor_practice.cpp~" "open_cv_practice/" "typecast.cpp~" "calculator.cpp" "farentocel.cpp~" "oop_prac" "constructor_practice.cpp" "Nestedclass/" "numbers_chapter1.cpp" "oop_c++_prac.cpp~" "constructor_practice" "numbers_chapter1.cpp~" "Linkedlist_prac/" "calculator.cpp~" "example_prog" "pointer/" "ifelse.cpp" "BROWSE" "hello_world/" "string_prac/" "c++_books/" "example_prog.cpp~" "structure_practice/" "enum.cpp~" "enum.cpp" "bank_account/" "temp/" "../" "./")
 
  ("/home/al/Documents/java_practice/" (24107 5687 688802 710000) "./" "lec2/" "lec1/" "data_struct/" "doubly_linked_lists/" "linked_list_with_function/" "linked_counters/" "sorting/" "lec4/" "linked_list/" "circular_linked_lists/" "lec3/" "../" "blackjack/" "resistor/" "complex_number/" "hello_world/" "nested_inner_class/" "bank_account/" "string/")
-
- ("/home/al/Documents/java_practice/hello_world/" (24075 59738 437673 48000) "helloworld.class" "./" "helloworld.java~" "../" "helloworld.java")
-
- ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab2/lab2/Ex2/src/main/java/coe528/lab2/" (24127 14996 507363 3000) ".#Palindrome.java" "./" "../" "Palindrome.java")
-
- ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab2/" (24121 25942 908742 31000) "./" "coe528.W.2020.lab2.pdf" "../")
-
- ("/home/al/Documents/Git_Projects/grbl/grbl/" (24125 52665 299429 843000) "cpu_map/" "./" "nuts_bolts.h" "gcode.h" "eeprom.c" "report.c" "serial.c" "coolant_control.h" "stepper.h" "gcode.c" "planner.h" "eeprom.h" "probe.c" "limits.c" "config.h" "settings.c" "protocol.c" "probe.h" "system.c" "nuts_bolts.c" "motion_control.c" "../" "spindle_control.h" "defaults.h" "print.h" "report.h" "motion_control.h" "settings.h" "spindle_control.c" "protocol.h" "limits.h" "stepper.c" "main.c" "serial.h" "examples/" "cpu_map.h" "grbl.h" "print.c" "coolant_control.c" "defaults/" "planner.c" "system.h")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab3/" (24126 58358 793541 847000) "./" "fork_practice.c~" "changed_up.c~" "changed_up.c" "lab3/" "fork_practice" "../" "fork_practice.c")
-
- ("/home/al/Documents/Year5Sem1/ELE700/ELE800/planning_todo_resources/" (24126 58057 708056 810000) "block_velocity_profile.png" "ele800.org~" "theory_design.lof" "./" "theory_design.org" "theory_design.tex~" "eq1.png" "Screenshot_2020-02-07_20-29-21.png" "../" "ele800.org" "format_struct.png" "Screenshot_2020-02-07_20-28-35.png" "theory_design.pdf" "theory_design.tex" "EDP Fall report template.pdf" "Theory_Kinematics_Part.docx" "theory_design.org~" "code1.png" "eq2.png")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/hpl/" (24116 52337 755317 516000) "./" "tc/" "xdmac/" "../" "pmc/" "core/" "pio/")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/hal/" (24116 52337 779318 15000) "src/" "./" "utils/" "documentation/" "../" "include/")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/custom_pins/" (24125 41920 866363 862000) "./" "custom_pins.c" "custom_pins.h" "../")
-
- ("/home/al/Documents/Year5Sem2/COE528/COE528_labs_pir/lab1/FlightBooking/src/flightbooking/" (24114 57059 18619 688000) "./" "Manager.java" "Passenger.java" "Member.java" ".DS_Store" "../" "Manager.java~" "Flight.java" "NonMember.java" "Ticket.java")
 )
 
 ;; ----- ido-unc-hosts-cache -----

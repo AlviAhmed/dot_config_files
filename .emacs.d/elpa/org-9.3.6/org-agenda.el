@@ -1820,7 +1820,7 @@ items that span on several days."
   :version "24.1"
   :type 'boolean)
 
-(defcustom org-agenda-default-appointment-duration nil
+(defcustom org-agenda-default-appointment-duration 60
   "Default duration for appointments that only have a starting time.
 When nil, no duration is specified in such cases.
 When non-nil, this must be the number of minutes, e.g. 60 for one hour."

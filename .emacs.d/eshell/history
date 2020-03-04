@@ -1,41 +1,3 @@
-submit coe628 lab4 lab4.zip
-pdftoppm -png COE838_lab2_cover.pdf coe_la2b_cover
-git status
-git checkout Alvi
-git add backup7_phase2end/
-git commit -m "phase 2 end"
-git push origin Alvi
-zip phase2_end.zip timer_fresh.X
-zip -r phase2_end.zip timer_fresh.X
-git status
-git add phase2_end.zip 
-git commit -m "added whole project for the phase2 end"
-git push origin Alvi
-pdftoppm -png COE628_Week1_W2020.pdf lec1_pic
-convert lec1_pic-01.png -resize 50% lec1_01.jpg
-convert lec1_pic-01.png -resize 50% lec1_01.jpng
-convert lec1_pic-01.png -resize 50% lec1_01.png
-convert lec1_pic-01.png -resize 30% lec1_01.png
-convert *.png -resize 30% *.png
-convert *.png -resize 40% *.png
-convert *.png -resize 40% */small/.png
-convert *.png -resize 40% *small/.png
-convert *.png -resize 40% *small/.png
-convert *.png -resize 40% small/*.png
-convert *.png -resize 40% small/*lec1.png
-cd ..
-ls
-convert *.png -resize 40% scaled/*lec1.png
-convert *.png -resize 40% scaled/lec1.png
-cd scaled/
-ls
-cd ..
-convert *.png -resize 50% scaled/lec1.png
-AclearWelcome to the Emacs shell
-convert *.png -resize 40% scaled/lec1.png
-convert *.png -resize 50% scaled/lec1.png
-./security.sh 
-cd user_input_practice/
 ls
 ./user1.sh
 sudo ./user1.sh
@@ -126,3 +88,41 @@ java Client
 java Client
 java Client
 java Client
+git add .emacs.d/
+git commit -m "updated config"
+git push origin master
+clear
+java Test
+ls
+java InterfaceTest
+java InterfaceTest
+java Test
+ls
+java Test
+java Test
+javac Test.java
+java Test
+java Test
+java Test
+java Test
+java Test
+clear
+java Test
+java Test
+java Test
+java Test
+java Number
+java Number
+java Number
+ls
+java Exc
+java Ex
+java Ex
+java Ex
+java Ex
+java Ex
+java Ex
+clear
+clear
+java Ex
+java Ex
