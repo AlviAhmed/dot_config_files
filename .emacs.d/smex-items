@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ irony-install-server
+ package-install
  eval-buffer
- eshell
- compile
- yas-visit-snippet-file
- org-capture
- treemacs
- my-open-calendar
+ list-packages
+ customize-themes
+ writeroom-mode
+ revert-buffer
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 195)
+ (eval-buffer . 205)
  (compare-windows . 8)
  (rainbow-mode . 23)
  (LaTeX-mode . 11)
@@ -20,7 +20,7 @@
  (preview-menu . 1)
  (preview-document . 2)
  (tool-bar-mode . 1)
- (customize-themes . 103)
+ (customize-themes . 104)
  (view-buffer . 1)
  (ranger . 21)
  (term . 36)
@@ -29,7 +29,7 @@
  (dired-unmark . 1)
  (copy-file . 4)
  (update-file-autoloads . 1)
- (list-packages . 59)
+ (list-packages . 61)
  (rainbow-delimiters-mode . 5)
  (dashboard-mode . 2)
  (eww . 3)
@@ -38,23 +38,23 @@
  (nyan-mode . 2)
  (calculator . 3)
  (calculator-menu . 1)
- (org-mode . 10)
+ (org-mode . 11)
  (recover-this-file . 1)
  (dired . 25)
  (image-mode . 3)
- (compile . 888)
+ (compile . 891)
  (shell . 2)
  (kill-buffer . 2)
  (eshell . 378)
  (dired-ranger-move . 2)
  (todo-mode . 1)
- (treemacs . 12)
+ (treemacs . 15)
  (org-latex-export-to-pdf . 36)
  (ranger-cut . 1)
  (ranger-paste . 1)
  (ranger-override-dired-mode . 6)
  (ranger-show-copy-ring . 1)
- (dmenu . 23)
+ (dmenu . 24)
  (symon-mode . 3)
  (org-agenda . 71)
  (ffap-bindings . 1)
@@ -106,7 +106,7 @@
  (auto-fill-mode . 100)
  (buf-move-up . 4)
  (buf-move-down . 14)
- (writeroom-mode . 126)
+ (writeroom-mode . 129)
  (darkroom-mode . 11)
  (process-menu-mode . 2)
  (list-processes . 1)
@@ -131,7 +131,7 @@
  (ispell-word . 2)
  (buf-move-right . 3)
  (diff-mode . 4)
- (diff . 4)
+ (diff . 5)
  (table-shorten-cell . 1)
  (run-python . 1)
  (pyvenv-mode . 2)
@@ -160,7 +160,7 @@
  (desktop-read . 29)
  (Info-mode-menu . 1)
  (make-frame-on-display . 1)
- (package-install . 3)
+ (package-install . 4)
  (tramp-version . 1)
  (tramp-cleanup-all-connections . 5)
  (dedicated-mode . 3)
@@ -195,7 +195,7 @@
  (describe-bindings . 1)
  (evil-tabs-mode . 6)
  (ranger-refresh . 1)
- (revert-buffer . 191)
+ (revert-buffer . 195)
  (global-evil-tabs-mode . 1)
  (tabbar-mode . 2)
  (flycheck-disable-checker . 1)
@@ -212,13 +212,13 @@
  (xref-find-definitions . 9)
  (complete-tag . 1)
  (ggtags-find-tag-dwim . 1)
- (rgrep . 249)
+ (rgrep . 252)
  (evil-org-mode . 1)
  (org-gcal-sync . 2)
  (org-gcal-fetch . 3)
  (org-gcal-sync-buffer . 2)
  (org-gcal-post-at-point . 1)
- (org-capture . 4)
+ (org-capture . 8)
  (org-insert-subheading . 1)
  (org-insert-heading . 1)
  (org-sort . 2)
@@ -230,7 +230,7 @@
  (savehist-mode . 2)
  (emacs-version . 1)
  (ad-enable-advice . 1)
- (dumb-jump-go . 73)
+ (dumb-jump-go . 74)
  (pr-txt-directory . 1)
  (javascript-mode . 1)
  (dumb-jump-quick-look . 1)
@@ -262,4 +262,6 @@
  (cfw:open-ical-calendar . 1)
  (my-open-calendar . 3)
  (meghanada-mode . 2)
+ (customize-variable . 1)
+ (irony-install-server . 2)
 )

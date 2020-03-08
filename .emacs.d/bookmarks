@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("COE528_lectures_modern"
+(("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . "(require 'packag")
+ (rear-context-string)
+ (position . 1))
+("COE528_lectures_modern"
  (filename . "~/Documents/Year5Sem2/COE528/COE528_lectures_modern/")
  (front-context-string . "week1\n  drwxrwxr")
  (rear-context-string . "96 Mar  1 13:59 ")
@@ -119,9 +124,9 @@
  (position . 237))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/random_capture.org")
- (front-context-string . "** TODO haven't ")
- (rear-context-string . " and Autoboxing\n")
- (position . 238))
+ (front-context-string . "** TODO process_")
+ (rear-context-string . "input[i][2]; \n}\n")
+ (position . 4344))
 ("actual_cnc_stuff"
  (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
  (front-context-string . "Base Stepper Wit")

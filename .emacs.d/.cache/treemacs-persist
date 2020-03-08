@@ -9,6 +9,8 @@
  - path :: ~/Documents/Year5Sem1/ELE700/datasheets_guides
 ** i3_config
  - path :: ~/.config/i3
+** c_practice
+ - path :: ~/Documents/c_practice
 * School Work
 ** COE528
  - path :: ~/Documents/Year5Sem2/COE528
