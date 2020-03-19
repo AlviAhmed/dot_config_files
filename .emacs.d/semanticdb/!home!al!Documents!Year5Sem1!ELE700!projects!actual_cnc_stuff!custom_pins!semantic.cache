@@ -1,0 +1,147 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("custom_pins.h" include nil nil [1 25])
+            ("atmel_start.h" include (:system-flag t) nil [27 51])
+            ("hal_init.h" include (:system-flag t) nil [52 73])
+            ("hpl_pmc.h" include (:system-flag t) nil [74 94])
+            ("peripheral_clk_config.h" include (:system-flag t) nil [95 129])
+            ("utils.h" include (:system-flag t) nil [130 148])
+            ("custom_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [168 173]))                  
+                :type "void")
+                nil [151 1674]))          
+      :file "custom_pins_alvi_temp.c"
+      :pointmax 1675
+      :fsize 1674
+      :lastmodtime '(24168 23151 687574 507000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CUSTOM_PINS_INCLUDED" variable (:constant-flag t) nil [279 299])
+            ("custom_init" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1100 1105]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1083 1106])
+            ("global_state" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1033 1045])
+            ("cstep" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [991 996])
+            ("cdir" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [951 955])
+            ("astep" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [909 914])
+            ("adir" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [870 874])
+            ("zstep" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [829 834])
+            ("zdir" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [791 795])
+            ("ystep" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [749 754])
+            ("ydir" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [711 715])
+            ("xstep" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [670 675])
+            ("xdir" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [630 634])
+            ("hal_sleep.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [598 620])
+            ("hal_io.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [578 597])
+            ("hal_init.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [556 577])
+            ("hal_gpio.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [534 555])
+            ("hal_delay.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [511 533])
+            ("hal_atomic.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [487 510])
+            ("utils.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [467 485])
+            ("peripheral_clk_config.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [432 466])
+            ("hpl_pmc.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [411 431])
+            ("hal_init.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [389 410])
+            ("driver_init.h" include (:typemodifiers ("extern" "\"C\"")) (reparse-symbol extern-c-contents) [364 388])
+            ("hal_gpio.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [342 363]))          
+      :file "custom_pins_alvi_temp.h"
+      :pointmax 1172
+      :fsize 1171
+      :lastmodtime '(24168 23527 355313 46000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ystep" . ((symbol "GPIO" 755 . 759) (semantic-list "(GPIO_PORTC, 19)" 759 . 775)))
+          ("zstep" . ((symbol "GPIO" 835 . 839) (semantic-list "(GPIO_PORTA, 5)" 839 . 854)))
+          ("global_state" . ((symbol "false" 1046 . 1051)))
+          ("xdir" . ((symbol "GPIO" 635 . 639) (semantic-list "(GPIO_PORTD, 25)" 639 . 655)))
+          ("astep" . ((symbol "GPIO" 915 . 919) (semantic-list "(GPIO_PORTB, 0)" 919 . 934)))
+          ("CUSTOM_PINS_INCLUDED")
+          ("ydir" . ((symbol "GPIO" 716 . 720) (semantic-list "(GPIO_PORTA, 2)" 720 . 735)))
+          ("zdir" . ((symbol "GPIO" 796 . 800) (semantic-list "(GPIO_PORTA, 6)" 800 . 815)))
+          ("adir" . ((symbol "GPIO" 875 . 879) (semantic-list "(GPIO_PORTB, 1)" 879 . 894)))
+          ("xstep" . ((symbol "GPIO" 676 . 680) (semantic-list "(GPIO_PORTA, 17)" 680 . 696)))
+          ("cdir" . ((symbol "GPIO" 956 . 960) (semantic-list "(GPIO_PORTD, 16)" 960 . 976)))
+          ("cstep" . ((symbol "GPIO" 997 . 1001) (semantic-list "(GPIO_PORTD, 19)" 1001 . 1017)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem1!ELE700!projects!actual_cnc_stuff!custom_pins!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

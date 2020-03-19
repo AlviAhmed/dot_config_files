@@ -1,0 +1,98 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("hal_ext_irq.h" include nil nil [1343 1367])
+            ("EXT_IRQ_AMOUNT" variable (:constant-flag t) nil [1377 1391])
+            ("DRIVER_VERSION" variable (:constant-flag t) nil [1442 1456])
+            ("ext_irq" type
+               (:members 
+                  ( ("cb" variable (:type ("ext_irq_cb_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1526 1542])
+                    ("pin" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1544 1561]))                  
+                :type "struct")
+                nil [1508 1564])
+            ("EXT_IRQ_AMOUNT" variable (:constant-flag t) nil [1683 1697])
+            ("ext_irqs" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("ext_irq" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1759 1806])
+            ("process_ext_irq" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("pin" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1836 1855]))                  
+                :type "void")
+                nil [1808 1856])
+            ("ext_irq_init" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1938 1943]))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [1917 2103])
+            ("ext_irq_deinit" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2179 2184]))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [2156 2215])
+            ("ext_irq_register" function
+               (:arguments 
+                  ( ("pin" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2311 2330])
+                    ("cb" variable (:type ("ext_irq_cb_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2331 2347]))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [2286 3162])
+            ("ext_irq_enable" function
+               (:arguments 
+                  ( ("pin" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3225 3244]))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [3202 3284])
+            ("ext_irq_disable" function
+               (:arguments 
+                  ( ("pin" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3349 3368]))                  
+                :type ("int32_t" type (:type "class") nil nil))
+                nil [3325 3409])
+            ("ext_irq_get_version" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3494 3499]))                  
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [3465 3527])
+            ("process_ext_irq" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("pin" variable
+                       (:constant-flag t
+                        :type ("uint32_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3663 3682]))                  
+                :type "void")
+                nil [3635 4063]))          
+      :file "hal_ext_irq.c"
+      :pointmax 4064
+      :fsize 4063
+      :lastmodtime '(24169 36072 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("EXT_IRQ_AMOUNT" . ((number "1" 1698 . 1699)))
+          ("DRIVER_VERSION" . ((symbol "0x00000001u" 1457 . 1468)))
+          )
+))
+  :file "!home!al!shared_windows7!current!CNC!CNC!hal!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

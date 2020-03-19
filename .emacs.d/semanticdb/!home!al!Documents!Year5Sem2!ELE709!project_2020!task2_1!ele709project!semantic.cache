@@ -1,0 +1,458 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("sys/mman.h" include (:system-flag t) nil [38 59])
+            ("pthread.h" include (:system-flag t) nil [60 80])
+            ("malloc.h" include (:system-flag t) nil [81 100])
+            ("stdlib.h" include (:system-flag t) nil [101 120])
+            ("dlab_def.h" include nil nil [121 142])
+            ("Control_thread" variable (:type ("pthread_t" type (:type "class") nil nil)) nil [144 169])
+            ("data_avail" variable (:type ("sem_t" type (:type "class") nil nil)) nil [170 187])
+            ("MAXS" variable (:constant-flag t) nil [296 300])
+            ("theta" variable
+               (:dereference 1
+                :type "float")
+                nil [379 397])
+            ("ref" variable
+               (:dereference 1
+                :type "float")
+                nil [434 450])
+            ("Kp" variable (:type "double") nil [516 601])
+            ("Fs" variable (:type "double") nil [516 601])
+            ("run_time" variable (:type "double") nil [516 601])
+            ("magnitude" variable (:type "double") nil [516 601])
+            ("frequency" variable (:type "double") nil [516 601])
+            ("duty_cycle" variable (:type "double") nil [516 601])
+            ("run_time" variable (:type "double") nil [516 601])
+            ("motor_position" variable (:type "double") nil [516 601])
+            ("k" variable (:type "int") nil [674 699])
+            ("no_of_samples" variable
+               (:default-value "0"
+                :type "int")
+                nil [674 699])
+            ("ek" variable (:type "double") nil [701 725])
+            ("uk" variable (:type "double") nil [701 725])
+            ("Kp" variable
+               (:default-value "0.0"
+                :type "double")
+                nil [701 725])
+            ("Control" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [788 798]))                  
+                :type "void")
+                nil [774 799])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [813 818]))                  
+                :type "int")
+                nil [802 4512])
+            ("Control" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [4530 4540]))                  
+                :type "void")
+                nil [4516 4877]))          
+      :file "pc.c"
+      :pointmax 4878
+      :fsize 4870
+      :lastmodtime '(24176 58552 929385 371000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAXS" . ((number "10000" 291 . 296)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdint.h" include (:system-flag t) nil [1 20])
+            ("unistd.h" include (:system-flag t) nil [21 40])
+            ("signal.h" include (:system-flag t) nil [41 60])
+            ("stdio.h" include (:system-flag t) nil [61 79])
+            ("string.h" include (:system-flag t) nil [80 99])
+            ("sys/time.h" include (:system-flag t) nil [100 121])
+            ("stdlib.h" include (:system-flag t) nil [122 141])
+            ("getopt.h" include (:system-flag t) nil [142 161])
+            ("fcntl.h" include (:system-flag t) nil [162 180])
+            ("sys/ioctl.h" include (:system-flag t) nil [181 203])
+            ("linux/types.h" include (:system-flag t) nil [204 228])
+            ("linux/spi/spidev.h" include (:system-flag t) nil [229 258])
+            ("math.h" include (:system-flag t) nil [259 276])
+            ("errno.h" include (:system-flag t) nil [277 295])
+            ("error.h" include (:system-flag t) nil [296 314])
+            ("sched.h" include (:system-flag t) nil [315 333])
+            ("pthread.h" include (:system-flag t) nil [335 355])
+            ("semaphore.h" include (:system-flag t) nil [356 378])
+            ("PI" variable (:constant-flag t) nil [399 401])
+            ("SCREEN" variable (:constant-flag t) nil [423 429])
+            ("PS" variable (:constant-flag t) nil [440 442])
+            ("CALLOC" variable (:constant-flag t) nil [458 464])
+            ("Initialize" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "float") (reparse-symbol arg-sub-list) [521 527])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [528 533]))                  
+                :type "int")
+                nil [499 534])
+            ("ReadEncoder" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [558 563]))                  
+                :type "int")
+                nil [535 564])
+            ("DtoA" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "short int") (reparse-symbol arg-sub-list) [581 591]))                  
+                :type "int")
+                nil [565 592])
+            ("Terminate" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [615 620]))                  
+                :type "void")
+                nil [593 621])
+            ("EtoR" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [640 644]))                  
+                :type "float")
+                nil [622 645])
+            ("VtoD" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "float") (reparse-symbol arg-sub-list) [668 674]))                  
+                :type "short int")
+                nil [646 675])
+            ("gch" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [691 696]))                  
+                :type "int")
+                nil [676 697])
+            ("getch" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [715 720]))                  
+                :type "int")
+                nil [698 721])
+            ("read_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [747 754])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [755 764])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [765 772])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [773 779])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [780 786]))                  
+                :type "void")
+                nil [723 787])
+            ("read_vector" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [812 819])
+                    ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [820 829])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [830 837])
+                    ("" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [838 844]))                  
+                :type "void")
+                nil [788 845])
+            ("print_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [871 878])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [879 888])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [889 896])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [897 901])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [902 906]))                  
+                :type "void")
+                nil [846 907])
+            ("print_vector" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [933 940])
+                    ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [941 950])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [951 958])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [959 963]))                  
+                :type "void")
+                nil [908 964])
+            ("multiply_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [993 1002])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1003 1007])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1008 1012])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1013 1022])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1023 1027])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1028 1032])
+                    ("c" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1033 1043]))                  
+                :type "void")
+                nil [965 1044])
+            ("add_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1068 1077])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1078 1087])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1088 1092])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1093 1097])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1098 1107]))                  
+                :type "void")
+                nil [1045 1108])
+            ("subtract_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1137 1146])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1147 1156])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1157 1161])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1162 1166])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1167 1176]))                  
+                :type "void")
+                nil [1109 1177])
+            ("scalar_multiply" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "float") (reparse-symbol arg-sub-list) [1206 1212])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1213 1222])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1223 1227])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1228 1232])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1233 1242]))                  
+                :type "void")
+                nil [1178 1243])
+            ("copy_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1268 1277])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1278 1287])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1288 1292])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1293 1297]))                  
+                :type "void")
+                nil [1244 1298])
+            ("transpose_matrix" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1328 1337])
+                    ("" variable
+                       (:pointer 2
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1338 1347])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1348 1352])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1353 1357]))                  
+                :type "void")
+                nil [1299 1358])
+            ("model_tk" variable
+               (:typemodifiers ("extern")
+                :type "double")
+                nil [1360 1402])
+            ("model_dt" variable
+               (:typemodifiers ("extern")
+                :type "double")
+                nil [1360 1402])
+            ("model_y" variable
+               (:typemodifiers ("extern")
+                :type "double")
+                nil [1360 1402])
+            ("model_x" variable
+               (:dereference 1
+                :typemodifiers ("extern")
+                :type "double")
+                nil [1403 1428])
+            ("plot" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1447 1455])
+                    ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1456 1464])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1465 1471])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1472 1476])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1477 1481])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1482 1489])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1490 1497])
+                    ("" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1498 1505]))                  
+                :type "void")
+                nil [1430 1506])
+            ("sq_wave" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1527 1535])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1536 1540])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1541 1547])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1548 1554]))                  
+                :type "void")
+                nil [1507 1555])
+            ("Square" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [1575 1583])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1584 1588])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1589 1595])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1596 1602])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1603 1609])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [1610 1616]))                  
+                :type "void")
+                nil [1556 1617])
+            ("setup_sched_parameters" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("pthread_attr_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1654 1671])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1672 1676]))                  
+                :type "void")
+                nil [1619 1677]))          
+      :file "dlab_def.h"
+      :pointmax 1678
+      :fsize 1677
+      :lastmodtime '(24176 46479 897802 882000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("PI" . ((symbol "M_PI" 402 . 406)))
+          ("CALLOC" (spp-arg-list ("n" "x") 464 . 469) . ((semantic-list "((x *)calloc(n, sizeof(x)))" 470 . 497)))
+          ("PS" . ((number "1" 447 . 448)))
+          ("SCREEN" . ((number "0" 430 . 431)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem2!ELE709!project_2020!task2_1!ele709project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

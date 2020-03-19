@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <20/02/28 20:13:27 /home/al/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <20/03/19 11:36:29 /home/al/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; Run `M-x tramp-cleanup-all-connections' instead.
 
@@ -10,22 +10,17 @@
    ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
   ("pipe-buf" 4096)
   ("remote-shell" "/bin/sh")
+  ("file-exists" "test -e")
+  ("case-insensitive" nil)
+  ("readlink" "\\readlink")
+  ("stat" "env QUOTING_STYLE=locale \\stat")
   ("id" "/usr/bin/id")
   ("gid-integer" 1012)
-  ("file-exists" "test -e")
-  ("stat" "env QUOTING_STYLE=locale \\stat")
   ("gid-string" "ugrad")
-  ("perl-file-spec" t)
-  ("perl-cwd-realpath" t)
-  ("perl" "\\perl")
-  ("readlink" "\\readlink")
-  ("uid-integer" 2982)
-  ("tmpdir" "/ssh:a266ahme@pascal.ee.ryerson.ca:/tmp")
-  ("touch-t" t)
-  ("touch" "\\touch")
-  ("~" "/home/student2/a266ahme")
-  ("case-insensitive" nil)
   ("ls" "/bin/ls --color=never")
   ("ls--quoting-style=literal --show-control-chars" "--quoting-style=literal --show-control-chars")
   ("ls--dired" "--dired")
-  ("trash" nil)))
+  ("~" "/home/student2/a266ahme")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")))

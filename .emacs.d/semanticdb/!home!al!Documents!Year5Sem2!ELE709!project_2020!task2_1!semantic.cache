@@ -1,0 +1,60 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("sys/mman.h" include (:system-flag t) nil [38 59])
+            ("pthread.h" include (:system-flag t) nil [60 80])
+            ("malloc.h" include (:system-flag t) nil [81 100])
+            ("stdlib.h" include (:system-flag t) nil [101 120])
+            ("MAXS" variable (:constant-flag t) nil [291 295])
+            ("theta" variable
+               (:dereference 1
+                :type "float")
+                nil [374 392])
+            ("ref" variable
+               (:dereference 1
+                :type "float")
+                nil [429 445])
+            ("Kp" variable (:type "double") nil [511 596])
+            ("Fs" variable (:type "double") nil [511 596])
+            ("run_time" variable (:type "double") nil [511 596])
+            ("magnitude" variable (:type "double") nil [511 596])
+            ("frequency" variable (:type "double") nil [511 596])
+            ("duty_cycle" variable (:type "double") nil [511 596])
+            ("run_time" variable (:type "double") nil [511 596])
+            ("motor_position" variable (:type "double") nil [511 596])
+            ("k" variable (:type "int") nil [669 694])
+            ("no_of_samples" variable
+               (:default-value "0"
+                :type "int")
+                nil [669 694])
+            ("ek" variable (:type "double") nil [696 720])
+            ("uk" variable (:type "double") nil [696 720])
+            ("Kp" variable
+               (:default-value "0.0"
+                :type "double")
+                nil [696 720])
+            ("Control" function
+               (:prototype-flag t
+                :type "void")
+                nil [769 784])
+            ("main" function (:type "int") nil [787 4655])
+            ("Control" function (:type "void") nil [4659 5021]))          
+      :file "pc.c"
+      :pointmax 5022
+      :fsize 5021
+      :lastmodtime '(24176 55882 612258 861000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAXS" . ((number "10000" 296 . 301)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem2!ELE709!project_2020!task2_1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

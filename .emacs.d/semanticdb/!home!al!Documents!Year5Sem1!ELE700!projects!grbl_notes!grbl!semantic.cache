@@ -1,0 +1,235 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("grbl.h" include nil nil [803 820])
+            ("DT_SEGMENT" variable (:constant-flag t) nil [857 867])
+            ("REQ_MM_INCREMENT_SCALAR" variable (:constant-flag t) nil [935 958])
+            ("RAMP_ACCEL" variable (:constant-flag t) nil [1007 1017])
+            ("RAMP_CRUISE" variable (:constant-flag t) nil [1028 1039])
+            ("RAMP_DECEL" variable (:constant-flag t) nil [1050 1060])
+            ("MAX_AMASS_LEVEL" variable (:constant-flag t) nil [1968 1983])
+            ("AMASS_LEVEL1" variable (:constant-flag t) nil [2101 2113])
+            ("AMASS_LEVEL2" variable (:constant-flag t) nil [2202 2214])
+            ("AMASS_LEVEL3" variable (:constant-flag t) nil [2260 2272])
+            ("st_block_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("direction_bits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2833 2856])
+                          ("steps" variable
+                             (:dereference 1
+                              :type ("uint32_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2859 2882])
+                          ("step_event_count" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2885 2911]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [2812 2925])
+            ("st_block_buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("st_block_t" type (:type "class") nil nil))
+                nil [2926 2983])
+            ("segment_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("n_step" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3350 3366])
+                          ("st_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3435 3458])
+                          ("cycles_per_tick" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3539 3564])
+                          ("prescaler" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3765 3783]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3331 3879])
+            ("segment_buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("segment_t" type (:type "class") nil nil))
+                nil [3880 3933])
+            ("stepper_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("counter_x" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4076 4198])
+                          ("counter_y" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4076 4198])
+                          ("counter_z" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4076 4198])
+                          ("execute_step" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4322 4343])
+                          ("step_pulse_time" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4394 4418])
+                          ("step_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4463 4484])
+                          ("dir_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4534 4554])
+                          ("step_count" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4639 4659])
+                          ("exec_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4712 4737])
+                          ("exec_block" variable
+                             (:pointer 1
+                              :type ("st_block_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [4806 4829])
+                          ("exec_segment" variable
+                             (:pointer 1
+                              :type ("segment_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [4894 4918]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [4015 4973])
+            ("st" variable
+               (:typemodifiers ("static")
+                :type ("stepper_t" type (:type "class") nil nil))
+                nil [4974 4994])
+            ("segment_buffer_tail" variable
+               (:typemodifiers ("static" "volatile")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5032 5076])
+            ("segment_buffer_head" variable
+               (:typemodifiers ("static")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5077 5112])
+            ("segment_next_head" variable
+               (:typemodifiers ("static")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5113 5146])
+            ("step_port_invert_mask" variable
+               (:typemodifiers ("static")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5190 5227])
+            ("dir_port_invert_mask" variable
+               (:typemodifiers ("static")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5228 5264])
+            ("busy" variable
+               (:typemodifiers ("static" "volatile")
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [5357 5386])
+            ("pl_block" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("plan_block_t" type (:type "class") nil nil))
+                nil [5583 5613])
+            ("st_prep_block" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("st_block_t" type (:type "class") nil nil))
+                nil [5664 5697])
+            ("st_prep_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("st_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5919 5942])
+                          ("flag_partial_block" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [5998 6025])
+                          ("steps_remaining" variable (:type "float") (reparse-symbol classsubparts) [6099 6121])
+                          ("step_per_mm" variable (:type "float") (reparse-symbol classsubparts) [6124 6142])
+                          ("req_mm_increment" variable (:type "float") (reparse-symbol classsubparts) [6214 6237])
+                          ("dt_remainder" variable (:type "float") (reparse-symbol classsubparts) [6240 6259])
+                          ("ramp_type" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6265 6283])
+                          ("mm_complete" variable (:type "float") (reparse-symbol classsubparts) [6321 6339])
+                          ("current_speed" variable (:type "float") (reparse-symbol classsubparts) [6518 6538])
+                          ("maximum_speed" variable (:type "float") (reparse-symbol classsubparts) [6603 6623])
+                          ("exit_speed" variable (:type "float") (reparse-symbol classsubparts) [6701 6718])
+                          ("accelerate_until" variable (:type "float") (reparse-symbol classsubparts) [6769 6792])
+                          ("decelerate_after" variable (:type "float") (reparse-symbol classsubparts) [6852 6875]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [5900 6947])
+            ("prep" variable
+               (:typemodifiers ("static")
+                :type ("st_prep_t" type (:type "class") nil nil))
+                nil [6948 6970])
+            ("st_wake_up" function (:type "void") nil [9873 11050])
+            ("st_go_idle" function (:type "void") nil [11073 12146])
+            ("ISR" function
+               (:arguments 
+                  ( ("" variable (:type ("TIMER1_COMPA_vect" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [16248 16266]))                  
+                :type "int")
+                nil [16244 21619])
+            ("ISR" function
+               (:arguments 
+                  ( ("" variable (:type ("TIMER0_OVF_vect" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22383 22399]))                  
+                :type "int")
+                nil [22379 22627])
+            ("st_generate_step_dir_invert_masks" function (:type "void") nil [23244 23622])
+            ("st_reset" function (:type "void") nil [23672 24316])
+            ("stepper_init" function (:type "void") nil [24371 25367])
+            ("st_update_plan_block_parameters" function (:type "void") nil [25460 25778])
+            ("st_prep_buffer" function (:type "void") nil [26744 45032]))          
+      :file "stepper.c"
+      :pointmax 45621
+      :fsize 45620
+      :lastmodtime '(24166 9564 924029 636000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DT_SEGMENT" . ((semantic-list "(1.0/(ACCELERATION_TICKS_PER_SECOND*60.0))" 868 . 910)))
+          ("AMASS_LEVEL2" . ((semantic-list "(F_CPU/4000)" 2215 . 2227)))
+          ("AMASS_LEVEL3" . ((semantic-list "(F_CPU/2000)" 2273 . 2285)))
+          ("RAMP_DECEL" . ((number "2" 1061 . 1062)))
+          ("MAX_AMASS_LEVEL" . ((number "3" 1984 . 1985)))
+          ("RAMP_ACCEL" . ((number "0" 1018 . 1019)))
+          ("REQ_MM_INCREMENT_SCALAR" . ((number "1.25" 959 . 963)))
+          ("RAMP_CRUISE" . ((number "1" 1040 . 1041)))
+          ("AMASS_LEVEL1" . ((semantic-list "(F_CPU/8000)" 2114 . 2126)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "grbl.h"
+      :fsize 1614
+      :lastmodtime '(24165 34205 532525 487000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("grbl.h" include nil nil [1129 1146])
+            ("report_status_message" function
+               (:arguments 
+                  ( ("status_code" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1822 1842]))                  
+                :type "void")
+                nil [1795 3921])
+            ("report_alarm_message" function
+               (:arguments 
+                  ( ("alarm_code" variable (:type ("int8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3975 3993]))                  
+                :type "void")
+                nil [3949 4667])
+            ("report_feedback_message" function
+               (:arguments 
+                  ( ("message_code" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5163 5184]))                  
+                :type "void")
+                nil [5134 5925])
+            ("report_init_message" function (:type "void") nil [5947 6049])
+            ("report_grbl_help" function (:type "void") nil [6072 6866])
+            ("report_grbl_settings" function (:type "void") nil [6979 12888])
+            ("report_probe_parameters" function (:type "void") nil [13172 13649])
+            ("report_ngc_parameters" function (:type "void") nil [13712 14997])
+            ("report_gcode_modes" function (:type "void") nil [15041 17384])
+            ("report_startup_line" function
+               (:arguments 
+                  ( ("n" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17444 17454])
+                    ("line" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17455 17466]))                  
+                :type "void")
+                nil [17419 17603])
+            ("report_build_info" function
+               (:arguments 
+                  ( ("line" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [17655 17666]))                  
+                :type "void")
+                nil [17632 17793])
+            ("report_echo_line_received" function
+               (:arguments 
+                  ( ("line" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [18005 18016]))                  
+                :type "void")
+                nil [17974 18107])
+            ("report_realtime_status" function (:type "void") nil [18603 22145]))          
+      :file "report.c"
+      :pointmax 22146
+      :fsize 22145
+      :lastmodtime '(24165 34205 548525 889000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem1!ELE700!projects!grbl_notes!grbl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

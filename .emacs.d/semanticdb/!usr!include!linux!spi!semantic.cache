@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SPIDEV_H" variable (:constant-flag t) nil [909 917])
+            ("linux/types.h" include (:system-flag t) nil [919 943])
+            ("linux/ioctl.h" include (:system-flag t) nil [944 968])
+            ("SPI_CPHA" variable (:constant-flag t) nil [1078 1086])
+            ("SPI_CPOL" variable (:constant-flag t) nil [1101 1109])
+            ("SPI_MODE_0" variable (:constant-flag t) nil [1125 1135])
+            ("SPI_MODE_1" variable (:constant-flag t) nil [1151 1161])
+            ("SPI_MODE_2" variable (:constant-flag t) nil [1184 1194])
+            ("SPI_MODE_3" variable (:constant-flag t) nil [1217 1227])
+            ("SPI_CS_HIGH" variable (:constant-flag t) nil [1258 1269])
+            ("SPI_LSB_FIRST" variable (:constant-flag t) nil [1284 1297])
+            ("SPI_3WIRE" variable (:constant-flag t) nil [1312 1321])
+            ("SPI_LOOP" variable (:constant-flag t) nil [1336 1344])
+            ("SPI_NO_CS" variable (:constant-flag t) nil [1359 1368])
+            ("SPI_READY" variable (:constant-flag t) nil [1383 1392])
+            ("SPI_TX_DUAL" variable (:constant-flag t) nil [1407 1418])
+            ("SPI_TX_QUAD" variable (:constant-flag t) nil [1434 1445])
+            ("SPI_RX_DUAL" variable (:constant-flag t) nil [1461 1472])
+            ("SPI_RX_QUAD" variable (:constant-flag t) nil [1488 1499])
+            ("SPI_IOC_MAGIC" variable (:constant-flag t) nil [1619 1632])
+            ("spi_ioc_transfer" type
+               (:members 
+                  ( ("tx_buf" variable (:type ("__u64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3393 3407])
+                    ("rx_buf" variable (:type ("__u64" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3409 3423])
+                    ("len" variable (:type ("__u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3426 3437])
+                    ("speed_hz" variable (:type ("__u32" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3439 3455])
+                    ("delay_usecs" variable (:type ("__u16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3458 3477])
+                    ("bits_per_word" variable (:type ("__u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3479 3499])
+                    ("cs_change" variable (:type ("__u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3501 3517])
+                    ("tx_nbits" variable (:type ("__u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3519 3534])
+                    ("rx_nbits" variable (:type ("__u8" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3536 3551])
+                    ("pad" variable (:type ("__u16" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3553 3564]))                  
+                :type "struct")
+                nil [3366 3903])
+            ("SPI_MSGSIZE" variable (:constant-flag t) nil [3987 3998])
+            ("SPI_IOC_MESSAGE" variable (:constant-flag t) nil [4132 4147])
+            ("SPI_IOC_RD_MODE" variable (:constant-flag t) nil [4282 4297])
+            ("SPI_IOC_WR_MODE" variable (:constant-flag t) nil [4337 4352])
+            ("SPI_IOC_RD_LSB_FIRST" variable (:constant-flag t) nil [4434 4454])
+            ("SPI_IOC_WR_LSB_FIRST" variable (:constant-flag t) nil [4493 4513])
+            ("SPI_IOC_RD_BITS_PER_WORD" variable (:constant-flag t) nil [4602 4626])
+            ("SPI_IOC_WR_BITS_PER_WORD" variable (:constant-flag t) nil [4664 4688])
+            ("SPI_IOC_RD_MAX_SPEED_HZ" variable (:constant-flag t) nil [4778 4801])
+            ("SPI_IOC_WR_MAX_SPEED_HZ" variable (:constant-flag t) nil [4841 4864])
+            ("SPI_IOC_RD_MODE32" variable (:constant-flag t) nil [4946 4963])
+            ("SPI_IOC_WR_MODE32" variable (:constant-flag t) nil [5003 5020]))          
+      :file "spidev.h"
+      :pointmax 5077
+      :fsize 5076
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SPI_NO_CS" . ((number "0x40" 1370 . 1374)))
+          ("SPI_TX_DUAL" . ((number "0x100" 1420 . 1425)))
+          ("SPI_MODE_0" . ((semantic-list "(0|0)" 1137 . 1142)))
+          ("SPI_READY" . ((number "0x80" 1394 . 1398)))
+          ("SPI_IOC_WR_MAX_SPEED_HZ" . ((symbol "_IOW" 4866 . 4870) (semantic-list "(SPI_IOC_MAGIC, 4, __u32)" 4870 . 4895)))
+          ("SPI_MODE_1" . ((semantic-list "(0|SPI_CPHA)" 1163 . 1175)))
+          ("SPI_MODE_2" . ((semantic-list "(SPI_CPOL|0)" 1196 . 1208)))
+          ("SPI_RX_QUAD" . ((number "0x800" 1501 . 1506)))
+          ("SPI_IOC_RD_MODE32" . ((symbol "_IOR" 4965 . 4969) (semantic-list "(SPI_IOC_MAGIC, 5, __u32)" 4969 . 4994)))
+          ("SPI_MODE_3" . ((semantic-list "(SPI_CPOL|SPI_CPHA)" 1229 . 1248)))
+          ("SPI_CS_HIGH" . ((number "0x04" 1271 . 1275)))
+          ("SPI_CPOL" . ((number "0x02" 1111 . 1115)))
+          ("SPI_TX_QUAD" . ((number "0x200" 1447 . 1452)))
+          ("SPI_IOC_RD_MAX_SPEED_HZ" . ((symbol "_IOR" 4803 . 4807) (semantic-list "(SPI_IOC_MAGIC, 4, __u32)" 4807 . 4832)))
+          ("SPI_IOC_MESSAGE" (spp-arg-list ("N") 4147 . 4150) . ((symbol "_IOW" 4151 . 4155) (semantic-list "(SPI_IOC_MAGIC, 0, char[SPI_MSGSIZE(N)])" 4155 . 4195)))
+          ("SPI_IOC_RD_MODE" . ((symbol "_IOR" 4300 . 4304) (semantic-list "(SPI_IOC_MAGIC, 1, __u8)" 4304 . 4328)))
+          ("SPI_3WIRE" . ((number "0x10" 1323 . 1327)))
+          ("SPI_IOC_MAGIC" . ((string "'k'" 1635 . 1638)))
+          ("SPI_MSGSIZE" (spp-arg-list ("N") 3998 . 4001) . ((semantic-list "((((N)*(sizeof (struct spi_ioc_transfer))) < (1 << _IOC_SIZEBITS)) \\
+		? ((N)*(sizeof (struct spi_ioc_transfer))) : 0)" 4005 . 4123)))
+          ("SPI_IOC_WR_MODE" . ((symbol "_IOW" 4355 . 4359) (semantic-list "(SPI_IOC_MAGIC, 1, __u8)" 4359 . 4383)))
+          ("SPI_IOC_RD_BITS_PER_WORD" . ((symbol "_IOR" 4627 . 4631) (semantic-list "(SPI_IOC_MAGIC, 3, __u8)" 4631 . 4655)))
+          ("SPI_IOC_WR_LSB_FIRST" . ((symbol "_IOW" 4515 . 4519) (semantic-list "(SPI_IOC_MAGIC, 2, __u8)" 4519 . 4543)))
+          ("SPI_IOC_WR_BITS_PER_WORD" . ((symbol "_IOW" 4689 . 4693) (semantic-list "(SPI_IOC_MAGIC, 3, __u8)" 4693 . 4717)))
+          ("SPI_LSB_FIRST" . ((number "0x08" 1299 . 1303)))
+          ("SPI_LOOP" . ((number "0x20" 1346 . 1350)))
+          ("SPIDEV_H")
+          ("SPI_RX_DUAL" . ((number "0x400" 1474 . 1479)))
+          ("SPI_CPHA" . ((number "0x01" 1088 . 1092)))
+          ("SPI_IOC_RD_LSB_FIRST" . ((symbol "_IOR" 4456 . 4460) (semantic-list "(SPI_IOC_MAGIC, 2, __u8)" 4460 . 4484)))
+          ("SPI_IOC_WR_MODE32" . ((symbol "_IOW" 5022 . 5026) (semantic-list "(SPI_IOC_MAGIC, 5, __u32)" 5026 . 5051)))
+          )
+))
+  :file "!usr!include!linux!spi!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

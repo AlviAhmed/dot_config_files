@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CNC_5Axis.h" include nil nil [1 23])
+            ("parser_input" variable (:type ("parser_input_t" type (:type "class") nil nil)) nil [25 53])
+            ("parser_state" variable (:type ("parser_state_t" type (:type "class") nil nil)) nil [54 82])
+            ("parser_init" function (:type "void") nil [84 289])
+            ("parse_line" function
+               (:arguments 
+                  ( ("line" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [386 397]))                  
+                :type "void")
+                nil [370 6293]))          
+      :file "parser.c"
+      :pointmax 6298
+      :fsize 6512
+      :lastmodtime '(24177 21334 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "CNC_5Axis.h"
+      :fsize 953
+      :lastmodtime '(24177 28912 0 0)))
+  :file "!home!al!Documents!Year5Sem1!ELE700!ELE800!March18_parth!CNC!CNC!CNC_5AXIS!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

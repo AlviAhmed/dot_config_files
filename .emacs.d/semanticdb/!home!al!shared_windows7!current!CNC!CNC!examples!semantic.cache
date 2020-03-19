@@ -1,0 +1,184 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("driver_examples.h" include nil nil [242 270])
+            ("driver_init.h" include nil nil [271 295])
+            ("utils.h" include nil nil [296 314])
+            ("DAC_0_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [391 396]))                  
+                :type "void")
+                nil [372 529])
+            ("EXTERNAL_IRQ_0_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [602 607]))                  
+                :type "void")
+                nil [574 611])
+            ("period_cb_PWM_0" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("descr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("pwm_descriptor" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [641 682]))                  
+                :type "void")
+                nil [613 710])
+            ("PWM_0_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [765 770]))                  
+                :type "void")
+                nil [746 859])
+            ("period_cb_PWM_1" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("descr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("pwm_descriptor" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [889 930]))                  
+                :type "void")
+                nil [861 958])
+            ("PWM_1_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1013 1018]))                  
+                :type "void")
+                nil [994 1107])
+            ("TIMER_0_task1" variable
+               (:typemodifiers ("static")
+                :type ("timer_task" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1146 1200])
+            ("TIMER_0_task2" variable
+               (:typemodifiers ("static")
+                :type ("timer_task" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1146 1200])
+            ("TIMER_0_task1_cb" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("timer_task" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timer_task" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1231 1273]))                  
+                :type "void")
+                nil [1202 1277])
+            ("TIMER_0_task2_cb" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("timer_task" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timer_task" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1308 1350]))                  
+                :type "void")
+                nil [1279 1354])
+            ("TIMER_0_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1377 1382]))                  
+                :type "void")
+                nil [1356 1737])
+            ("delay_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1758 1763]))                  
+                :type "void")
+                nil [1739 1784])
+            ("TARGET_IO_example" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1896 1901]))                  
+                :type "void")
+                nil [1873 2059]))          
+      :file "driver_examples.c"
+      :pointmax 2060
+      :fsize 2059
+      :lastmodtime '(24169 36072 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("atmel_start.h" include nil nil [242 266])
+            ("utils.h" include nil nil [267 285])
+            ("DRIVER_EXAMPLES_H_INCLUDED" variable (:constant-flag t) nil [330 356])
+            ("TARGET_IO_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [594 599]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [571 600])
+            ("delay_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [563 568]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [544 569])
+            ("TIMER_0_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [536 541]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [515 542])
+            ("PWM_1_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [507 512]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [488 513])
+            ("PWM_0_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [480 485]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [461 486])
+            ("EXTERNAL_IRQ_0_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [453 458]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [425 459])
+            ("DAC_0_example" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [417 422]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [398 423]))          
+      :file "driver_examples.h"
+      :pointmax 669
+      :fsize 668
+      :lastmodtime '(24169 36072 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DRIVER_EXAMPLES_H_INCLUDED")
+          )
+))
+  :file "!home!al!shared_windows7!current!CNC!CNC!examples!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

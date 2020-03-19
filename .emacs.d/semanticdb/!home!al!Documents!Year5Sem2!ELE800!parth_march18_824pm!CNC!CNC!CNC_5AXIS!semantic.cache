@@ -1,0 +1,143 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("CNC_5Axis.h" include nil nil [1 23])
+            ("segment_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("n_step" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [167 183])
+                          ("st_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [251 274]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [149 365])
+            ("stepper_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("counter_x" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [506 631])
+                          ("counter_y" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [506 631])
+                          ("counter_z" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [506 631])
+                          ("counter_a" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [506 631])
+                          ("counter_c" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [506 631])
+                          ("execute_step" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [634 655])
+                          ("step_pulse_time" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [705 729])
+                          ("step_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [773 794])
+                          ("dir_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [843 863])
+                          ("step_count" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [865 885])
+                          ("exec_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [935 960])
+                          ("exec_block" variable
+                             (:pointer 1
+                              :type ("motion_block_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1028 1055])
+                          ("exec_segment" variable
+                             (:pointer 1
+                              :type ("segment_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [1119 1143]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [447 1198])
+            ("x_enable" variable
+               (:typemodifiers ("volatile")
+                :default-value "1"
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1326 1356])
+            ("y_enable" variable
+               (:typemodifiers ("volatile")
+                :default-value "1"
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1357 1387])
+            ("z_enable" variable
+               (:typemodifiers ("volatile")
+                :default-value "1"
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1388 1418])
+            ("a_enable" variable
+               (:typemodifiers ("volatile")
+                :default-value "1"
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1419 1449])
+            ("c_enable" variable
+               (:typemodifiers ("volatile")
+                :default-value "1"
+                :type ("uint8_t" type (:type "class") nil nil))
+                nil [1450 1480])
+            ("step_events_completed" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [1482 1526])
+            ("motion_buffer_head" variable
+               (:typemodifiers ("volatile")
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [1528 1565])
+            ("st" variable
+               (:typemodifiers ("static")
+                :type ("stepper_t" type (:type "class") nil nil))
+                nil [1567 1587])
+            ("segment_buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("segment_t" type (:type "class") nil nil))
+                nil [1588 1640])
+            ("motion_buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("motion_block_t" type (:type "class") nil nil))
+                nil [1641 1697])
+            ("task_stepper_ISR" variable
+               (:typemodifiers ("static")
+                :type ("timer_task" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1701 1762])
+            ("task_set_pins_low" variable
+               (:typemodifiers ("static")
+                :type ("timer_task" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1701 1762])
+            ("stepper_ISR" function
+               (:arguments 
+                  ( ("timer_task" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timer_task" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1906 1948]))                  
+                :type "void")
+                nil [1889 4958])
+            ("set_pins_low" function
+               (:arguments 
+                  ( ("timer_task" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timer_task" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4978 5020]))                  
+                :type "void")
+                nil [4960 5277])
+            ("ISR_init" function (:type "void") nil [5279 5780]))          
+      :file "stepper.c"
+      :pointmax 5785
+      :fsize 5784
+      :lastmodtime '(24176 15632 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "CNC_5Axis.h"
+      :fsize 953
+      :lastmodtime '(24177 28912 0 0)))
+  :file "!home!al!Documents!Year5Sem2!ELE800!parth_march18_824pm!CNC!CNC!CNC_5AXIS!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

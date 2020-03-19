@@ -11,6 +11,10 @@
  - path :: ~/.config/i3
 ** c_practice
  - path :: ~/Documents/c_practice
+** grbl
+ - path :: ~/Documents/Year5Sem1/ELE700/projects/grbl_notes/grbl
+** Git_Projects
+ - path :: ~/Documents/Git_Projects
 * School Work
 ** COE528
  - path :: ~/Documents/Year5Sem2/COE528

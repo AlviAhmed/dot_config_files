@@ -1,0 +1,169 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_TYPES_H" variable (:constant-flag t) nil [95 109])
+            ("asm/types.h" include (:system-flag t) nil [111 133])
+            ("linux/posix_types.h" include (:system-flag t) nil [157 187])
+            ("__bitwise__" variable (:constant-flag t) nil [400 411])
+            ("__bitwise" variable (:constant-flag t) nil [427 436])
+            ("__le16" type
+               (:typedef ("__u16" type (:type "class") nil nil)
+                :type "typedef")
+                nil [450 481])
+            ("__be16" type
+               (:typedef ("__u16" type (:type "class") nil nil)
+                :type "typedef")
+                nil [482 513])
+            ("__le32" type
+               (:typedef ("__u32" type (:type "class") nil nil)
+                :type "typedef")
+                nil [514 545])
+            ("__be32" type
+               (:typedef ("__u32" type (:type "class") nil nil)
+                :type "typedef")
+                nil [546 577])
+            ("__le64" type
+               (:typedef ("__u64" type (:type "class") nil nil)
+                :type "typedef")
+                nil [578 609])
+            ("__be64" type
+               (:typedef ("__u64" type (:type "class") nil nil)
+                :type "typedef")
+                nil [610 641])
+            ("__sum16" type
+               (:typedef ("__u16" type (:type "class") nil nil)
+                :type "typedef")
+                nil [643 675])
+            ("__wsum" type
+               (:typedef ("__u32" type (:type "class") nil nil)
+                :type "typedef")
+                nil [676 707])
+            ("__aligned_u64" variable (:constant-flag t) nil [1219 1232])
+            ("__aligned_be64" variable (:constant-flag t) nil [1275 1289])
+            ("__aligned_le64" variable (:constant-flag t) nil [1333 1347]))          
+      :file "types.h"
+      :pointmax 1439
+      :fsize 1438
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_LINUX_TYPES_H")
+          ("__aligned_u64" . 
+              ((symbol "__u64" 1233 . 1238) (symbol "__attribute__" 1239 . 1252) (semantic-list "((aligned(8)))" 1252 . 1266)))
+          ("__aligned_le64" . 
+              ((symbol "__le64" 1348 . 1354) (symbol "__attribute__" 1355 . 1368) (semantic-list "((aligned(8)))" 1368 . 1382)))
+          ("__bitwise__")
+          ("__bitwise" . ((symbol "__bitwise__" 437 . 448)))
+          ("__aligned_be64" . 
+              ((symbol "__be64" 1290 . 1296) (symbol "__attribute__" 1297 . 1310) (semantic-list "((aligned(8)))" 1310 . 1324)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_POSIX_TYPES_H" variable (:constant-flag t) nil [101 121])
+            ("linux/stddef.h" include (:system-flag t) nil [123 148])
+            ("__FD_SETSIZE" variable (:constant-flag t) nil [753 765])
+            ("__kernel_fd_set" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("fds_bits" variable
+                             (:dereference 1
+                              :type "unsigned long")
+                              (reparse-symbol classsubparts) [790 848]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [772 867])
+            ("__kernel_sighandler_t" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [940 944]))                  
+                :type "void")
+                nil [910 945])
+            ("__kernel_key_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [978 1005])
+            ("__kernel_mqd_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1006 1033])
+            ("asm/posix_types.h" include (:system-flag t) nil [1035 1063]))          
+      :file "posix_types.h"
+      :pointmax 1099
+      :fsize 1098
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax '((TYPEDEF 902 . 909))
+      :lexical-table 
+        '(("_LINUX_POSIX_TYPES_H")
+          ("__FD_SETSIZE" . ((number "1024" 766 . 770)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_IOCTL_H" variable (:constant-flag t) nil [95 109])
+            ("asm/ioctl.h" include (:system-flag t) nil [111 133]))          
+      :file "ioctl.h"
+      :pointmax 164
+      :fsize 163
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_LINUX_IOCTL_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "stddef.h"
+      :pointmax 132
+      :fsize 131
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("asm/errno.h" include (:system-flag t) nil [1 23]))          
+      :file "errno.h"
+      :pointmax 24
+      :fsize 23
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_FALLOC_H_" variable (:constant-flag t) nil [91 101])
+            ("FALLOC_FL_KEEP_SIZE" variable (:constant-flag t) nil [111 130])
+            ("FALLOC_FL_PUNCH_HOLE" variable (:constant-flag t) nil [173 193])
+            ("FALLOC_FL_NO_HIDE_STALE" variable (:constant-flag t) nil [232 255])
+            ("FALLOC_FL_COLLAPSE_RANGE" variable (:constant-flag t) nil [1308 1332])
+            ("FALLOC_FL_ZERO_RANGE" variable (:constant-flag t) nil [1960 1980])
+            ("FALLOC_FL_INSERT_RANGE" variable (:constant-flag t) nil [2792 2814])
+            ("FALLOC_FL_UNSHARE_RANGE" variable (:constant-flag t) nil [3530 3553]))          
+      :file "falloc.h"
+      :pointmax 3585
+      :fsize 3584
+      :lastmodtime '(24130 63531 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_FALLOC_H_")
+          ("FALLOC_FL_PUNCH_HOLE" . ((number "0x02" 194 . 198)))
+          ("FALLOC_FL_ZERO_RANGE" . ((number "0x10" 1982 . 1986)))
+          ("FALLOC_FL_UNSHARE_RANGE" . ((number "0x40" 3555 . 3559)))
+          ("FALLOC_FL_NO_HIDE_STALE" . ((number "0x04" 256 . 260)))
+          ("FALLOC_FL_INSERT_RANGE" . ((number "0x20" 2816 . 2820)))
+          ("FALLOC_FL_KEEP_SIZE" . ((number "0x01" 131 . 135)))
+          ("FALLOC_FL_COLLAPSE_RANGE" . ((number "0x08" 1333 . 1337)))
+          )
+))
+  :file "!usr!include!linux!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

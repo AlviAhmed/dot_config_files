@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.lab1" package nil nil [26 46])
+            ("Manager" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("arry_flight" variable
+                       (:dereference 1
+                        :typemodifiers ("private")
+                        :type "Flight")
+                        (reparse-symbol class_member_declaration) [218 247])
+                    ("arry_ticket" variable
+                       (:dereference 1
+                        :typemodifiers ("private")
+                        :type "Ticket")
+                        (reparse-symbol class_member_declaration) [299 328])
+                    ("num_tickets" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [387 415])
+                    ("createFlights" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("num_flights" variable (:type "int") (reparse-symbol formal_parameters) [573 588]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [547 666])
+                    ("displayAvailableFlights" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("origin" variable (:type "String") (reparse-symbol formal_parameters) [857 870])
+                            ("destination" variable (:type "String") (reparse-symbol formal_parameters) [872 890]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [821 1543])
+                    ("getFlight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightNumber" variable (:type "int") (reparse-symbol formal_parameters) [1867 1883]))                          
+                        :type "Flight")
+                        (reparse-symbol class_member_declaration) [1843 2149])
+                    ("bookSeat" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightNumber" variable (:type "int") (reparse-symbol formal_parameters) [2511 2527])
+                            ("p" variable (:type "Passenger") (reparse-symbol formal_parameters) [2529 2540]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2490 3513])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [3707 3720]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3683 7927]))                  
+                :type "class")
+                nil [188 7934]))          
+      :file "Manager.java"
+      :pointmax 7984
+      :fsize 7973
+      :lastmodtime '(24120 55548 426349 182000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!COE528_labs!coe528_lab1!lab1!FlightBooking!src!coe528!lab1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

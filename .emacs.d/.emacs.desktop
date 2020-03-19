@@ -2,138 +2,150 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sat Jan 25 22:08:29 2020
+;; Created Thu Mar 19 00:28:03 2020
 ;; Desktop file format version 208
 ;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24109 685 73304 245000) (desktop . "208") "al@al" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#5f5f5f") (background-color . "#fdfde7") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#5f5f5f") (environment) (sticky) (frameset--id . "29E3-48BD-9D19-A967") (frameset--mini t . t) (frameset--text-pixel-height . 1046) (height . 61) (width . 238) (modeline . t) (unsplittable) (left . 0) (top . 34) (icon-name) (display . ":0") (explicit-name)) ((min-height . 8) (min-width . 20) (min-height-ignore . 5) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 136) (min-pixel-width . 160) (min-pixel-height-ignore . 85) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 34) (min-pixel-width-safe . 32)) hc (pixel-width . 1920) (pixel-height . 1029) (total-width . 240) (total-height . 61) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (vc (pixel-width . 960) (pixel-height . 1029) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 960) (pixel-height . 519) (total-width . 120) (total-height . 31) (normal-height . 0.5) (normal-width . 1.0) (buffer "todo_week.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 242) (start . 1))) (leaf (last . t) (pixel-width . 960) (pixel-height . 510) (total-width . 120) (total-height . 30) (normal-height . 0.5) (normal-width . 1.0) (buffer "init.el" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3679) (start . 3448)))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1029) (total-width . 120) (total-height . 61) (normal-height . 1.0) (normal-width . 0.5) (buffer "sched_org.org" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2161) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (24178 62675 90374 289000) (desktop . "208") "al@al" nil nil ((((minibuffer . t) (tool-bar-lines . 0) (menu-bar-lines . 0) (vertical-scroll-bars . right) (display-type . mono) (background-mode . light) (cursor-color . "black") (persp--modestring "[" "main" "]") (persp--recursive) (persp--last) (persp--curr . "Unprintable entity") (persp--hash . "Unprintable entity") (right-divider-width . 0) (bottom-divider-width . 0) (foreground-color . "unspecified-fg") (background-color . "unspecified-bg") (font . "tty") (height . 11) (width . 10) (modeline . t) (unsplittable) (frameset--id . "E484-DB96-CE2C-D521") (frameset--mini t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 2) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 5) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 10) (pixel-height . 10) (total-width . 10) (total-height . 10) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 10) (pixel-height . 5) (total-width . 10) (total-height . 5) (normal-height . 0.5) (normal-width . 1.0) (buffer "*dashboard*" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 10) (pixel-height . 5) (total-width . 10) (total-height . 5) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 64) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring nil)
-(setq regexp-search-ring '("IN"))
-(setq register-alist '((48 . "*** ENG 503 Second Response Paper \n    DEADLINE: <2020-02-26 Wed>\n")))
+(setq search-ring '("persis" "persp"))
+(setq regexp-search-ring '("doom" "desktio" "deskt" "project" "labs" "IN"))
+(setq register-alist '((48 . "://github.com/Alexander-Miller/treemacs\n")))
 (setq file-name-history '("/home/al/.emacs.d/init.el" "/home/al/Dropbox/Sync/todo_week.org"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/al/Dropbox/Sync/todo_week.org"
-  "todo_week.org"
-  'org-mode
-  '(visual-line-mode subword-mode undo-tree-mode global-auto-revert-mode override-global-mode flycheck-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
-  242
-  '(25 nil)
-  nil
-  nil
-  '((buffer-display-time 24109 682 788817 240000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (25 93 695 624 1 94 52 561))))
-
-(desktop-create-buffer 208
   "/home/al/.emacs.d/init.el"
   "init.el"
   'emacs-lisp-mode
-  '(visual-line-mode eldoc-mode subword-mode undo-tree-mode global-auto-revert-mode override-global-mode flycheck-mode rainbow-delimiters-mode openwith-mode yas-minor-mode hungry-delete-mode rainbow-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
-  3679
-  '(829 nil)
+  '(visual-line-mode eldoc-mode subword-mode override-global-mode company-mode yas-minor-mode undo-tree-mode which-key-mode global-auto-revert-mode highlight-parentheses-mode highlight-indent-guides-mode flycheck-mode rainbow-delimiters-mode openwith-mode hungry-delete-mode beacon-mode auto-complete-mode)
+  141
+  '(141 nil)
   nil
   nil
-  '((buffer-display-time 24109 682 788819 638000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (829))))
+  '((buffer-display-time 24178 62559 407959 194000) (buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (20394 20394 1 34156 34156 20394 1554 1554 1660 1 1 1603 1603 1603 1603 1603))))
+
+(desktop-create-buffer 208
+  nil
+  "COE838"
+  'dired-mode
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
+  324
+  '(324 nil)
+  t
+  '("/home/al/Documents/Year5Sem2/COE838/")
+  '((buffer-display-time 24178 62525 762049 992000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (549 549 549 324))))
+
+(desktop-create-buffer 208
+  nil
+  "default_rtl_lab3"
+  'dired-mode
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
+  233
+  '(nil nil)
+  t
+  '("/home/al/Documents/Year5Sem2/COE838/default_rtl_lab3/")
+  '((buffer-display-time 24178 62503 68911 699000) (overwrite-mode) (truncate-lines))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/al/Dropbox/Sync/sched_org.org"
   "sched_org.org"
   'org-mode
-  '(visual-line-mode subword-mode undo-tree-mode global-auto-revert-mode override-global-mode flycheck-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode undo-tree-mode which-key-mode global-auto-revert-mode flycheck-mode openwith-mode hungry-delete-mode beacon-mode auto-complete-mode)
   2161
   '(2161 nil)
   nil
   nil
-  '((buffer-display-time 24109 682 788820 882000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring (2100 1789 1789 3130 2195 2227 2227 2440 1789 1789 1789 1789 1789 1789 1789 3131))))
+  '((buffer-display-time 24178 62388 902088 152000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161 2161))))
 
 (desktop-create-buffer 208
   nil
   "Sync"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   409
-  '(1 nil)
+  '(409 nil)
   t
   '("/home/al/Dropbox/Sync/")
-  '((buffer-display-time 24109 535 765607 592000) (overwrite-mode) (truncate-lines))
-  '((mark-ring (1 1))))
+  '((buffer-display-time 24178 62388 903471 319000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (409 409 409 409 409 409 409 409 409 409 409 409 409 409 409 409))))
 
 (desktop-create-buffer 208
   nil
   "lab2"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   240
   '(240 nil)
   t
   '("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab2/lab2/")
-  '((buffer-display-time 24108 57808 567881 812000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24178 62388 904721 490000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (240 240 240 240 240 240 240 240 240 240 240 240 240 240 240 240))))
 
 (desktop-create-buffer 208
   "/home/al/Dropbox/Sync/latex_shell_commands.org"
   "latex_shell_commands.org"
   'org-mode
-  '(visual-line-mode subword-mode undo-tree-mode global-auto-revert-mode override-global-mode flycheck-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode auto-complete-mode which-key-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode undo-tree-mode which-key-mode global-auto-revert-mode flycheck-mode openwith-mode hungry-delete-mode beacon-mode auto-complete-mode)
   1
-  '(nil nil)
+  '(1 nil)
   nil
   nil
-  '((buffer-display-time 24108 61415 29991 104000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24178 62388 964010 985000) (buffer-file-coding-system . undecided-unix) (overwrite-mode) (truncate-lines))
+  '((mark-ring (1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1))))
 
 (desktop-create-buffer 208
   nil
   "lab2a"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   339
   '(339 nil)
   t
   '("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab2/lab2/lab2a/")
-  '((buffer-display-time 24108 57808 567884 817000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24178 62388 965536 217000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (339 339 339 339 339 339 339 339 339 339 339 339 339 339 339 339))))
 
 (desktop-create-buffer 208
   nil
   "coe628_lab2"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   374
-  '(nil nil)
+  '(374 nil)
   t
   '("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab2/")
-  '((buffer-display-time 24108 46479 110464 205000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24178 62388 966767 560000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (374 374 374 374 374 374 374 374 374 374 374 374 374 374 374 374))))
 
 (desktop-create-buffer 208
   nil
   "COE628_labs"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode text-scale-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   307
-  '(352 nil)
+  '(307 nil)
   t
   '("/home/al/Documents/Year5Sem2/COE628/COE628_labs/")
-  '((buffer-display-time 24108 21180 770428 672000) (overwrite-mode) (truncate-lines))
-  '((mark-ring nil)))
+  '((buffer-display-time 24178 62388 967830 393000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (307 307 307 307 307 307 307 307 307 307 307 307 307 307 307 307))))
 
 (desktop-create-buffer 208
   nil
   "COE628"
   'dired-mode
-  '(visual-line-mode subword-mode global-auto-revert-mode override-global-mode openwith-mode yas-minor-mode hungry-delete-mode beacon-mode which-key-mode)
+  '(visual-line-mode subword-mode override-global-mode company-mode yas-minor-mode which-key-mode global-auto-revert-mode openwith-mode hungry-delete-mode beacon-mode)
   275
-  '(272 nil)
+  '(275 nil)
   t
   '("/home/al/Documents/Year5Sem2/COE628/")
-  '((buffer-display-time 24108 21180 770425 672000) (overwrite-mode) (truncate-lines))
-  '((mark-ring (274 274))))
+  '((buffer-display-time 24178 62388 968783 268000) (overwrite-mode) (truncate-lines))
+  '((mark-ring (275 275 275 275 275 275 275 275 275 275 275 275 275 275 275 275))))
 

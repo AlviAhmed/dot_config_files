@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "md5_main.c"
+      :pointmax 4
+      :fsize 19
+      :lastmodtime '(24178 29882 799546 748000)
+      :unmatched-syntax '((symbol 2 . 4) (punctuation 1 . 2))))
+  :file "!home!al!Documents!Year5Sem2!COE838!COE838_labs!project_rtl_default!md5_c_trial!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

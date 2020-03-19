@@ -2,7 +2,22 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("init.el"
+(("Wallpapers"
+ (filename . "~/Pictures/Wallpapers/")
+ (front-context-string)
+ (rear-context-string . "64 Mar 18 03:46 ")
+ (position . 210))
+("shared_windows7"
+ (filename . "~/shared_windows7/")
+ (front-context-string)
+ (rear-context-string . "60 Mar 10 23:02 ")
+ (position . 163))
+("bresenham_isr"
+ (filename . "~/Documents/c_practice/bresenham_algorithm/bresenham_isr/")
+ (front-context-string)
+ (rear-context-string . "96 Mar  9 08:29 ")
+ (position . 238))
+("init.el"
  (filename . "~/.emacs.d/init.el")
  (front-context-string . "(require 'packag")
  (rear-context-string)
@@ -73,10 +88,10 @@
  (rear-context-string . "96 Dec 30 05:51 ")
  (position . 198))
 ("ELE800"
- (filename . "~/Documents/Year5Sem1/ELE700/ELE800/")
- (front-context-string . "..\nP -rw-rw-r-- ")
- (rear-context-string . "96 Jan 10 14:13 ")
- (position . 183))
+ (filename . "~/Documents/Year5Sem2/ELE800/")
+ (front-context-string)
+ (rear-context-string . "54 Mar 18 20:18 ")
+ (position . 227))
 ("Capstone"
  (filename . "~/Documents/Git_Projects/Capstone/")
  (front-context-string)
@@ -124,9 +139,9 @@
  (position . 237))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/random_capture.org")
- (front-context-string . "** TODO process_")
- (rear-context-string . "input[i][2]; \n}\n")
- (position . 4344))
+ (front-context-string . "** TODO \ncompany")
+ (rear-context-string . "e day \n* Tasks \n")
+ (position . 72))
 ("actual_cnc_stuff"
  (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
  (front-context-string . "Base Stepper Wit")
