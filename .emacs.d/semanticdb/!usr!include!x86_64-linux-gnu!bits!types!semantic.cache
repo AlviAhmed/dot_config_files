@@ -660,6 +660,45 @@
         '(("__iovec_defined" . ((number "1" 862 . 863)))
           ("__need_size_t")
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__wint_t_defined" variable (:constant-flag t) nil [34 50])
+            ("_WINT_T" variable (:constant-flag t) nil [384 391])
+            ("__WINT_TYPE__" variable (:constant-flag t) nil [677 690])
+            ("wint_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [712 741]))          
+      :file "wint_t.h"
+      :pointmax 797
+      :fsize 796
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__WINT_TYPE__" . ((UNSIGNED "unsigned" 691 . 699) (INT "int" 700 . 703)))
+          ("__wint_t_defined" . ((number "1" 51 . 52)))
+          ("_WINT_T" . ((number "1" 392 . 393)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__mbstate_t_defined" variable (:constant-flag t) nil [37 56])
+            ("bits/types/__mbstate_t.h" include (:system-flag t) nil [60 95])
+            ("mbstate_t" type
+               (:typedef ("__mbstate_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [97 127]))          
+      :file "mbstate_t.h"
+      :pointmax 136
+      :fsize 135
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__mbstate_t_defined" . ((number "1" 57 . 58)))
+          )
 ))
   :file "!usr!include!x86_64-linux-gnu!bits!types!semantic.cache"
   :semantic-tag-version "2.0"

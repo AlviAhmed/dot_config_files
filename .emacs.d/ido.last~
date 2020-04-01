@@ -2,9 +2,22 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/coe628/" . "lab8/")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/" . "coe628/")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/" . "src/")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/" . "lab8/")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/" . "trying_zip2/")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/" . "coe628_lab8/")
+ ("/home/al/Documents/Year5Sem2/COE628/" . "COE628_labs/")
+ ("/home/al/Documents/Year5Sem2/ENG503/" . "reponse_paper_1/")
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/" . "coe528_project/")
+ ("/home/al/Documents/Year5Sem2/COE528/" . "COE528_labs/")
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/" . "project/")
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/" . "proj_report/")
+ ("/var/" . "log/")
  ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/" . "md5_c_trial/")
  ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/" . "project/")
- ("/home/al/Documents/Year5Sem2/COE838/" . "COE838_labs/")
+ ("/home/al/Documents/Year5Sem2/COE838/" . "COE838_lab/")
  ("/ssh:a266ahme@pascal.ee.ryerson.ca:/home/courses/coe838/projects/md5/" . "rtl/")
  ("/ssh:a266ahme@pascal.ee.ryerson.ca:/home/courses/coe838/projects/" . "md5/")
  ("/ssh:a266ahme@pascal.ee.ryerson.ca:/home/courses/coe838/labs/lab3/" . "rtl/")
@@ -96,12 +109,12 @@
  ("/home/al/Documents/Projects/" . "blink_test_tiny85/")
  ("/home/al/Documents/ELE 404/7th Edition/" . "Example Solutions/")
  ("/home/al/Documents/ELE 404/" . "7th Edition/")
- ("/home/al/Documents/" . "Year5Sem2/")
+ ("/home/al/Documents/" . "lisp_practice/")
  ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/gay_activities/" . "homework2/")
  ("/home/al/Documents/Year4Sem2/ELE 639 - BME 639/" . "gay_activities/")
  ("/home/al/Documents/resumes/new_current/" . "Al/")
  ("/home/" . "al/")
- ("/" . "usr/")
+ ("/" . "var/")
  ("/home/al/Documents/resumes/new_current/Al/cover_letter/" . "aecom/")
  ("/home/al/.config/" . "i3/")
  ("/home/al/" . "Documents/")
@@ -110,10 +123,32 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/COE628/"
+ "/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/Lab_9/src/coe628/lab9/"
+ "/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/coe628/lab8/"
+ "/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/coe628.lab9/src/coe628/lab9/"
+ "/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/"
+ "/home/al/Documents/Year5Sem2/ENG503/response_paper_final/"
+ "/home/al/Dropbox/Sync/"
+ "/home/al/Documents/lisp_practice/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/JavaFx_example_files/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/MultipleStageDemo/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/"
+ "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/ButtonInPane/src/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/proj_report/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/proj_report/proj_summary/"
+ "/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/org-mode/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/project/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/md5_c_trial/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/lab3_report/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/"
+ "/home/al/shared_windows7/current_march20/CNC/CNC/CNC_5AXIS/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ring_buffer/backupring6_march13_5:17am_fifo/"
+ "/var/log/"
+ "/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/md5_c_trial/"
  "/home/al/.emacs.d/"
  "/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/project_rtl_default/rtl/"
- "/home/al/Dropbox/Sync/"
- "/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/md5_c_trial/"
  "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week3/"
  "/home/al/Documents/Year5Sem2/COE838/COE838_labs/project_rtl_default/report/"
  "/home/al/"
@@ -138,63 +173,151 @@
  "/home/al/Documents/Git_Projects/grbl/grbl/"
  "/home/al/shared_windows7/current/CNC/CNC/"
  "/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab1/lab1/FlightBooking/src/coe528/lab1/"
- "/home/al/Documents/java_practice/blackjack/"
- "/home/al/shared_windows7/LED flasher with timers/"
- "/home/al/shared_windows7/test/LED flasher with timers/"
- "/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/custom_pins/"
- "/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_with_velocity/"
- "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/ELE709/lab5/"
- "/home/al/Documents/Year5Sem1/ELE700/projects/grbl_notes/grbl/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham4/"
- "/home/al/Documents/Year5Sem2/ELE884/necessary_eq/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_isr2/"
- "/home/al/Documents/c_practice/jason_kinematics_motion/Capstone-Jason/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_isr/"
- "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_debug/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/example_reference/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week4/"
- "/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/java-mode/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_interface/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week2/example_inheritance_2/"
- "/home/al/Documents/Year5Sem2/COE528/COE528_lectures_modern/week1/example1/"
- "/home/al/Documents/c_practice/pointer_prac/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "random_capture.org"
- "md5_main.c"
- "coe528.W20.week3.2020.Jan.23.pdf"
- ".bashrc"
- "extra_rem.org"
- "application.ini"
- "alsa.conf"
- "openspades"
- ".bash_history"
+ "ProducerConsumer.java"
+ "Semaphore.java"
+ "DiningPhilosophers.java"
+ "lab9_lisi.edu-dining-Philosopherecture8.pdf"
+ "reponse_final.pdf"
+ "reponse_final.tex"
+ "first.lisp"
+ "reponse_final.org"
+ "ENG 503 Final Paper Topics W 2020.pdf"
+ "backburner.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/.emacs.d/" (24178 62519 72593 470000) "init.el" ".cache/" "backup_init/" ".org-id-locations" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "org-gcal/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" ".#dmenu-items" "recentf" "meghanada/" "auto-save-list/" "nov-places" ".emacs.desktop" "init.el~" "snippets/" "request/" "abbrev_defs" "thumbs/" ".emacs.desktop.lock" "history" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "irony/" "tramp" "elpa/" "ede-projects.el" ".mc-lists.el" "dmenu-items" "#ido.last#" "%backup%~" "semanticdb/" "places" "../" "./")
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/" (24192 15923 373577 679000) "./" "Lab_9.zip" "Lab_9/" "../")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/Lab_9/src/coe628/lab9/" (24192 14876 598947 403000) "./" "DiningPhilosophers.java~" "../" ".#DiningPhilosophers.java" "DiningPhilosophers.java" "Semaphore.java")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/coe628/" (24176 17923 0 0) "./" "../" "lab8/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/" (24176 17976 0 0) "./" "../" "coe628/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/" (24176 18105 0 0) "src/" "./" "build.xml" "nbproject/" "../" "build/" "manifest.mf")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/" (24176 18172 482409 218000) "./" "lab8.zip" "../" "lab8/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/" (24176 49304 256801 247000) "./" "old_netbeans/" "../" "default/" "trying_zip2/" "working/" "edit_2/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/" (24192 6043 829317 248000) "./" "coe628_lab1_submit.zip" "coe628_lab8_note.jpeg" "coe628_lab2/" "lab1.zip" "../" "coe628_lab3/" "coe628_lab9/" "coe628_lab1/" "dining_phil/" "coe628_lab8/" "coe628_lab4/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/" (24192 2409 167517 394000) "Tests/" "./" "COE628_notes/" "Course Outline/" "Lab Manual/" "COE628_labs_pir/" "lab6.zip" "Lectures/" "COE628_labs/" "COE628_lectures/" "Assignment/" "../" "Textbook/" "COE628_labs_pir_h/" "lab6/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/" (24192 2420 87691 50000) "./" "../" "lab9_h/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/" (24192 2420 187692 640000) "COE628 Lab 9_2020.pdf" "./" "lab9_lisi.edu-dining-Philosopherecture8.pdf" "../" "Lab#9/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/" (24192 2420 187692 640000) "./" "3.jpeg" "coe628.lab9/" "lab9.pdf" "1.jpeg" "2.jpeg" "5.jpeg" "../" "4.jpeg")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/coe628.lab9/" (24192 6181 323503 735000) "src/" "./" "build.xml" "nbproject/" "dist/" "../" "test/" "build/" "manifest.mf")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/coe628.lab9/src/" (24192 2420 179692 513000) "./" "../" "coe628/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/coe628.lab9/src/coe628/" (24192 2420 183692 576000) "./" "../" "lab9/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/trying_zip2/lab8/src/coe628/lab8/" (24176 18100 0 0) "./" "ProducerConsumer.java" "../" "Semaphore.java")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir_h/lab9_h/Lab#9/coe628.lab9/src/coe628/lab9/" (24192 2420 183692 576000) "./" "Coe628Lab9.java" "../" "DiningPhilosophers.java" "Semaphore.java")
+
+ ("/home/al/" (24192 10652 33071 877000) "polybar/" ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" "interprocess/" "*message*-20191229-180034" "runtimes/" ".fonts/" ".cache/" ".linuxmint/" "from_sig_school/" "java/" "systemc-2.3.3/" "lab1_material2.zip" "help/" "wine-4.0.1/" "toolbox/" "composer.json" "Music/" ".zoom/" "elisp_practice.lisp~" "benchmarks/" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" "Desktop/" ".ssh/" ".purple/" "myJars/" "cmake-3.17.0.tar.gz" "my-diagram.png" "emacs-26.3/" ".matlab/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" ".notes~" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" "#.selected_editor#" ".swo" "docs/" "composer.lock" "elisp_practice.el" "scenebuilder-11.0.0.deb" "id.txt~" "shawn_courses.png" "feh_005979_000002_20191107_144533_HDR.jpg" ".p2/" "evilwm-1.1.1.tar.gz" "CPackSourceConfig.cmake" ".gimp-2.8/" "thumbnail/" "CPackConfig.cmake" "Templates/" ".adobe/" "Makefile" ".eaglerc" "utils/" ".emacs.d/" ".wget-hsts" ".gnupg/" "polyspace/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "back_doom/" "libxcb-1.13.1.tar.bz2" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Dropbox/" "Release.key" ".thumbnails/" "llvm.spec" "org/" ".screenlayout/" "LLVMBuild.cmake" ".gtkrc-2.0~" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "scratch.org~" "www.gatevidyalay.com/" "polybar-3.4.2.tar" "files2/" "steno_practice.txt" "DummyConfigureOutput" "en_date.png" "snap/" "wrestling_workout.org~" "Vmware/" "screenfetch.png" "graph_extracted_schematic.png" "systemc-2.3.3.tar.gz" "eagle_libraries_storage/" "EAGLE/" "index.html" "junit413/" "compile_commands.json" "altera/" ".var/" "trail.org~" ".i3status.conf" ".mplab_dv/" ".config/" "frostwire-6.8.1.all.deb" "vendor/" "gcc.gnu.org/" ".rpmdb/" "junk/" ".mplayer/" ".gconf/" "GNUstep/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" "cedet-1.1/" "index.html.1" "bin/" ".wine/" "opt/" ".mplab_ide/" ".netbeans/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "mplab-data-visualizer-standalone(linux).1.0.675.run" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" "sys/" ".sane/" ".surf/" ".bashrc" ".putty/" "minicom.log" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "waterfox/" ".gtkrc-xfce" "etc/" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "testing_newwebcam.webm" "coe718_final/" "META-INF/" ".dropbox-dist/" "L3resumenotes.org~" "ihsec/" "install_manifest.txt" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".authinfo" ".plover-lock-al-0" "apache-maven-3.6.3/" ".profile" ".android/" ".Private/" ".mplab_ipe/" "jdk1.8.0_111/" ".ratpoison_history" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".aptitude/" ".fehbg" ".lesshst" "pacakges_deleted.png" "Screenshot_2020-01-06_09-00-16.png" "NetBeansProjects/" "matlab2019b_zip/" "shared_windows7/" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lynx_bookmarks.html" "lab3b_2.zip" "rtags/" "clang-10.0.0.src/" "xampp-linux-x64-7.1.33-1-installer.run" "mozilla.pdf" "feh_005979_000001_20191107_144533_HDR.jpg" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" "JUNIT_WORKSPACE/" "test/" "jdee-server/" ".ICEauthority" "plantuml.jar" "eagle-9.4.2/" ".FBReader/" ".vmware/" "back_emacs/" "projects/" ".pki/" "CMakeFiles/" ".gtktermrc" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "testing/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "output.txt" ".npm/" "eclipse/" "MPLABXProjects/" "wine-4.0.1.tar.xz" "tools/" ".psensor/" "extracted_schem.ps" "dissenter-browser-v0.66.99-amd64.deb" "lib/" "drawing.svg" "apache-maven-3.6.3-bin.tar.gz" "Public/" "final_exam_sched.png" "ui/" "hello~" ".viminfo" ".scenebuilder/" ".waterfox/" ".dropbox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" "cmake_install.cmake" ".eclipse/" ".oracle_jre_usage/" ".doom.d/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" ".m2/" "coe528_projectnote2.jpeg" "include/" "opencv-3.4.6.zip" ".kde/" "test.org" "clang-10.0.0.src.tar.xz" "unittests/" "priority_inv.pdf" "extern/" ".aspell.en.prepl" "OpenSpades-0.1.3-Windows.zip" "cmake-3.17.0/" "hello.txt" ".vimrc" ".ihsec/" "scratch.org" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" ".thunderbird/" "workout_home.jpg" ".mozilla/" "examples/" "Documents/" ".conkyrc" "llvm-project-10.0.0.tar.xz" ".minirc.dfl" "NewFolder/" "llvm-project-10.0.0/" ".altera.quartus/" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" ".text.txt.swp" ".nbi/" "netbeans-8.2/" ".notes" "position(s).png" "LICENSE.txt" "meme.png" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "testing_systemc/" ".frostwire5/" "elisp_practice.el~" "intelFPGA_lite/" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" "zoom/" ".selected_editor" ".bash_history" "../" "./")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/" (24192 6560 985541 270000) "COE628 Lab 9_2020.pdf" "./" "lab9_lisi.edu-dining-Philosopherecture8.pdf" "c_version/" "../" "lab9/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/Lab_9/" (24192 9032 183185 407000) "src/" "./" "build.xml" "nbproject/" "../" "build/" "manifest.mf")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/Lab_9/src/" (24192 6679 443425 35000) "./" "../" "coe628/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab9/lab9/Lab_9/src/coe628/" (24192 6679 479425 607000) "./" "../" "lab9/")
+
+ ("/home/al/Documents/Year5Sem2/COE628/COE628_labs_pir/Labs/lab9_h/Lab#9/" (24186 57705 235440 938000) "./" "3.jpeg" "coe628.lab9/" "lab9.pdf" "1.jpeg" "2.jpeg" "5.jpeg" "../" "4.jpeg")
+
+ ("/home/al/Dropbox/Sync/" (24191 56929 568341 448000) "latex_shell_commands.org~" "20191129_170515_HDR.jpg" ".comments/" "20191129_172219_HDR.jpg" "google_calendar.org" "random_capture.org" "#latex_shell_commands.org#" "shawn_courses.odt" "shawn_courses.org~" "random_capture.org~" "extra_rem.org~" "shawn_courses.tex" "img/" "shawn_courses.txt~" "backburner.org~" "sched_org.org" "useful_linux_commands.org~" "sched_org.ics" "backburner.org" "sched_org.org~" "20191129_165123_HDR.jpg" "misc_symbols.png" "data/" "extra_rem.org" "shawn_courses.txt" "coe838_meeting-713540923.ics" "sched_org.ics~" "latex_shell_commands.org" "fdm_questions/" "shawn_courses.org" "coe718help/" "20200219_232208_HDR-1.jpg" "greek_letters.png" "final_exam_sched.png" "binary_sym.png" "google_calendar.org~" "arrows.png" "20191129_172223_HDR.jpg" "shawn_courses.tex~" "extra_rem.ics" ".#sched_org.org" "useful_linux_commands.org" "../" "./")
+
+ ("/home/al/Documents/Year5Sem2/ENG503/response_paper_final/" (24191 54680 704577 848000) "./" ".#reponse_final.tex" "reponse_final.tex" "reponse_final.org~" "Academic Paper Writing Guideline.docx" "reponse_final.pdf" "Table of Contents.html" "reponse_final.aux" "ENG 503 Final Paper Topics W 2020.docx" "reponse_final.org" "reponse_final.lof" "../" "A Guide to Essay Revision.doc" "ENG 503 Final Paper Topics W 2020.pdf" "reponse_final.out" "Essay writing checklist.doc" "reponse_final.tex~" "reponse_final.log")
+
+ ("/home/al/Documents/Year5Sem2/ENG503/reponse_paper_1/" (24122 52741 2883 568000) "./" "../" "Response paper The Time Machine.doc" "Untitled 1.odt" "rep_pap_1.org~" "rep_pap_1.org" "resp.pdf")
+
+ ("/home/al/Documents/lisp_practice/" (24191 23335 635592 63000) "./" "list.lisp~" "first.lisp~" "list.lisp" "../" "first.lisp" ".#list.lisp")
+
+ ("/home/al/Documents/" (24180 50628 582878 917000) "doom/" "gazebo.sh" "ele637/" "birth/" "java_practice/" "intq3.png" "c++_practice/" "latex_practice/" "os/" "intq2.png" "lisp_practice/" "keys/" "Visual Studio 2010/" "rtl8812AU_8821AU_linux/" "Year5Sem2/" "shawn_courses.org~" "sample_csv/" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "python_practice/" "shawn_courses.tex" "8nn1wybcoxm41.jpg" "amaletters/" "oldgame/" "as-installer-7.0.2389-full.exe" "MEGA-RECOVERYKEY.txt" "books/" "crackstation_wordlist.txt.gz" "islam_research/" "ryerson wifi certificate/" "Projects/" "code_comp/" "MATLAB/" "Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack" "2014 - Programming Principles and Practice Using C Plus Plus.pdf" "vera_crypt/" "osap/" "intq1.png" "AVRStudio 5.1/" "quartus_14/" "web_block.txt" "electronic documents/" "sublime_text_3/" "shawn_courses.pdf" "Elements of Electromagnetics 6th.pdf" "c_practice/" "rstudio-1.1.456-amd64/" "html_practice/" "shawn_courses.org" "latex_template/" "bash_scripts/" "violentuml/" "openspades/" "titles/" "downloaded_webpages/" "openspades_linux/" "ele_725.zip" "LCD_Blinky_updated.zip" "arm_trials/" "j502_pinouts.png" "Backups/" "SSR_TSRPT_previous.pdf" "[William_Stallings]_Operating_Systems__Internals_a(z-lib.org).epub" "Dis/" "megasync-xUbuntu_18.04_amd64.deb" "Git_Projects/" "SSR_TSRPT.pdf" "alvi.ahmed@ryerson.ca.ical/" "shawn_courses.tex~" "resumes/" "bills/" "sql_practice/" "../" "./")
+
+ ("/home/al/Documents/Year5Sem2/ENG503/" (24189 33901 929850 878000) "./" "review/" "reponse_paper_1/" "short_stories_drew_hayden/" "Table of Contents.html" "csfiles/" "John Shirley--Freezone.pdf" "notes/" "essay_final_stuff/" "response_paper_2/" "../" "Ghost in the Shell Plot Summary.html" "notes_discussion.txt" "503 course outline W 2020.doc" "short_stories_machine_sex/" "response_paper_final/" "notes_discussion.txt~" "course_discussion_save_material/" "Essay Rubric.docx" "ENG503 - Science Fiction - W2020 - 1252020 - 958 PM.zip" "How to Write and Edit an Academic Paper.html" "Plot versus Story in Learning About Machine Sex.doc" "power_points/" "documents/" "Academic Paper Writing Guidelines 2015(2).docx")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/" (24190 22993 296379 544000) "coe528_template.out" "./" "MyJavaFx.java~" "coe528_template.toc" "coe528.W.2020.project.pdf" "ShowFlowPane/" "coe528_template.pdf" "coe528_template.tex~" "ButtonInPane/" "coe528.org~" "coe528.pdf" "coe528.W.2020.project.updated.due.to.COVID-19.pdf" "coe528_template.tex" "../" "coe528_template.lof" "violet_uml/" "coe528.lof" "coe528.org" "HandleEvent/" "MultipleStageDemo/" "COE528_project_cover.pdf" "MyJavaFX/" "JavaFx_example_files/" "coe528_template.aux" "coe528_template.log" "javafx_test.zip")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/JavaFx_example_files/" (24190 21506 717804 341000) "./" "ShowFlowPane.java" "ButtonInPane.java" "MultipleStageDemo.java" "ShowFlowPane.java~" "../" "HandleEvent.java" "MyJavaFx.java" "HandleEvent.java~" "JavaFX.related.files.pdf")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/MultipleStageDemo/" (24190 20015 407446 221000) "./" "MultipleStageDemo.java" "../")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_project/ButtonInPane/src/" (24190 19611 555496 870000) "./" "ButtonInPane.java~" "ButtonInPane.java" "../")
+
+ ("/home/al/.emacs.d/" (24189 49920 914443 930000) "init.el" ".cache/" "backup_init/" ".org-id-locations" "ac-comphist.dat" "projectile-bookmarks.eld" "image-dired/" "org-gcal/" "ido.last~" "smex-items" "bookmarks" "games/" "tutorial/" "recentf" "meghanada/" "auto-save-list/" "nov-places" ".emacs.desktop" "init.el~" "snippets/" "request/" "abbrev_defs" "thumbs/" "history" "eshell/" "ido.last" "recentf~" "srecode-map.el" "url/" "irony/" "tramp" "elpa/" "ede-projects.el" ".mc-lists.el" "dmenu-items" "#ido.last#" "%backup%~" "semanticdb/" "places" "../" "./")
+
+ ("/home/al/Documents/Year5Sem2/COE528/" (24189 35065 869510 343000) "COE528_lab3_cover.pdf" "./" "COE528_lectures_modern/" "coe528_lab3_cover-1.png" "labs_study/" "COE528_lab2_cover.pdf" "COE528_labs/" "mo/" "COE528_labs_pir/" "multiplicity_for_uml.png" "coe528.W.2020.project.updated.due.to.COVID-19.pdf" "COE528_lab2_cover-1.png" "coe528.course.outline.W2020.pdf" "../" "COE528_mega/")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/" (24167 53622 608136 119000) "./" "coe528_lab2/" "coe528_lab1/" "../" "coe528_project/" "coe528_lab4/")
+
+ ("/home/al/Documents/Year5Sem2/ELE800/report/" (24187 5710 620936 705000) ".#ele800_report_scratch.org" "./" "ele800_report_scratch.org~" "../" "ele800_report_scratch.org")
+
+ ("/home/al/Documents/Year5Sem2/ELE800/" (24187 2858 585226 821000) "./" "../" "parth_march18_824pm/" "CNC.zip")
+
+ ("/home/al/Documents/Year5Sem2/ELE800/ele800_report_scratch.org/" (24187 2848 429018 640000) "./" "../")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/proj_report/" (24186 54402 535981 806000) "project_interim_report.tex~" "./" "project_interim_report.tex" "proj_summary/" "md5_main.c~" "project_interim_report.out" "project_interim_report.pdf" "Project_interem.docx" "proj_cover.pdf" "error.png" "../" "project_interim_report.toc" "project_interim_report.lof" "md5_main.c" "project_interim_report.aux" "project_interim_report.org~" "project_interim_report.log" "project_interim_report.org")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/proj_report/proj_summary/" (24186 54280 389498 528000) "prog_summ.log" "./" "prog_summ.org~" "prog_summ.tex" "prog_summ.org" "prog_summ.out" "../" "prog_summ.pdf" "prog_summ.tex~" "prog_summ.aux")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-snippets-20200122.1140/snippets/org-mode/" (24186 53312 49856 736000) "embedded" "entry" "src" "matrix" "./" "center" "latex_code_line~" "export" "setup" "title" "quote" "exampleblock" "rv_image_background" "dot" "figure" "img" "keywords" "latex_code" "language" "emacs-lisp" "video" "style" "ipython" "author" "table" "verse" "python" "options" "image" "link" "../" "description" "email" "html" "date" "latex_custom" "src~" "uml" "rv_background" "elisp" "custom~" "include" "latex_code~" "latex_code_line")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/" (24169 53906 964172 198000) "./" "nbproject/" ".dep.inc" "Makefile" "#main.c#" "TAGS" "dist/" "../" "build/" "main.c" "main.c~")
+
+ ("/home/al/Documents/java_practice/blackjack/" (24169 51590 371531 562000) "out/" "./" "Card.class" "SimpleUI.java~" "Card.java" "CardPile.java~" "UserInterface.class" "SimpleUI.class" "Card.java~" "BlackjackGame.java~" "UserInterface.java" "CardPile.java" "../" "UserInterface.java~" "SimpleUI.java" "CardPile.class" "BlackjackGame.java" "BlackjackGame.class")
+
+ ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab1/lab1/FlightBooking/src/coe528/lab1/" (24169 51725 777703 935000) "out/" "./" "Manager.java" "Passenger.java" "Member.java" "readme_lab1.org~" "Ticket.java~" "Flight.class" "Member.java~" "../" "Flight.java~" "Passenger.java~" "Manager.java~" "Flight.java" "NonMember.java" "NonMember.java~" "Ticket.java")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/project/" (24186 51239 555964 134000) "md5_group.qsf" "fcalc.vhd" "./" "md5group_tb.vhd" ".qsys_edit/" "leftrotate.vhd~" "md5_group_nativelink_simulation.rpt" "simulation/" "sdata.mif" "chunk_cruncher.vhd~" "kdata.mif" "ip/" "gcalc.vhd~" "srom.vhd" "md5_group.qpf" "pin_assignment_DE1-SoC.tcl" "chunk_cruncher.vhd" "soc_system.qsys" "leftrotate.vhd" "md5_unit.vhd" "db/" "TAGS" "soc_system/" "gcalc.vhd" "srom.qip" "md5_group.vhd" "../" "mram.vhd" "md5unit_tb.vhd" "incremental_db/" "krom.qip" "md5_group.qws" "output_files/" "krom.vhd" "c5_pin_model_dump.txt" "mram.qip")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/md5_c_trial/" (24186 46736 943188 997000) "./" "md5_main" "md5_main.c~" "#md5_main.c#" "TAGS" "../" "md5_main.c")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/lab3_report/" (24185 7125 744866 235000) "coe838_lab3_report.toc" "./" "coe838_lab3_report.pdf" "led.c" "lab3.pdf" "coe838_lab3_report.org~" "what_to_hand_in.png" "seg7.c" "coe838_lab3_report.log" "terminal_output.png" "qsys_screenshot.png" "COE838_lab3_cover.pdf" "coe838_lab3_report.lof" "coe838_lab3_report.tex~" "../" "LED_HEX_FPGA.vhd" "coe838_lab3_report_null.org" "coe838_lab3_report.tex" "main.c" "hps_0.h" "coe838_lab3_report.aux" "coe838_lab3_report.out")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_isr/" (24169 46535 766686 706000) "block_prep.h" "./" "isr_func.h~" "main_headers.h~" "nbproject/" ".dep.inc" "Makefile" "block_prep.c~" "isr_func.h" "isr_func.c~" "TAGS" "dist/" "../" "main_headers.h" "main.h~" "block_prep.c" "isr_func.c" "build/" "block_prep.h~" "main.c" "main.c~")
+
+ ("/home/al/Documents/Git_Projects/grbl/" (24180 54431 668897 976000) "doc/" "./" "nuts_bolts.h" "gcode.h" "Makefile" ".gitignore" "eeprom.c" "serial_protocol.c" "stepper.h" "readme.textile" "gcode.c" "planner.h" "eeprom.h" "grbl/" "serial_protocol.h" "config.h" "settings.c" "wiring_serial.c" ".git/" "motion_control.c" "../" "spindle_control.h" "motion_control.h" "settings.h" "wiring_serial.h" "spindle_control.c" "stepper.c" "COPYING" "main.c" "script/" "planner.c")
+
+ ("/home/al/waterfox/" (24186 4136 674001 848000) "libplds4.so" "libsmime3.so" "./" "libmozwayland.so" "plugin-container" "fonts/" "icons/" "removed-files" "libfreeblpriv3.so" "omni.ja" "libsoftokn3.chk" "gtk2/" "liblgpllibs.so" "libnssdbm3.so" "libnssutil3.so" "libplc4.so" "libmozavcodec.so" "gmp-clearkey/" "libmozsandbox.so" "waterfox" "update-settings.ini" "libmozgtk.so" "dependentlibs.list" "chrome.manifest" "libfreeblpriv3.chk" "platform.ini" "../" "libmozavutil.so" "libnssckbi.so" "libnssdbm3.chk" "libsoftokn3.so" "libnspr4.so" "libssl3.so" "libxul.so" "browser/" "libmozsqlite3.so" "libnss3.so" "updater" "updater.ini" "defaults/" "application.ini" "precomplete")
+
+ ("/var/log/" (24185 28514 835131 975000) "Xorg.1.log" "gpu-manager.log" "Xorg.2.log.old" "./" "Xorg.0.log.old" "syslog.1" "vmware-installer" "timeshift/" "ubuntu-system-adjustments-start.log" "hp/" "syslog.4.gz" "alternatives.log.3.gz" "syslog.3.gz" "mintsystem.timestamps" "dpkg.log" "vnetlib" "ufw.log" "vbox-setup.log" "syslog.5.gz" "gdm3/" "ubuntu-system-adjustments-stop.log" "installer/" "samba/" "btmp" "cups/" "teamviewer14/" "tallylog" "mintsystem.log" "dpkg.log.4.gz" "syslog.2.gz" "alternatives.log.2.gz" "syslog.7.gz" "wtmp.1" "kern.log.2.gz" "auth.log.2.gz" "ubuntu-system-adjustments-adjust-grub-title.log" "auth.log.3.gz" "vbox-setup.log.1" "auth.log.4.gz" "lastlog" "ntpstats/" "kern.log" "Xorg.1.log.old" "journal/" "apt/" "macchanger.log.4.gz" "lightdm/" "speech-dispatcher/" "alternatives.log.4.gz" "macchanger.log" "teamviewer15/" "dpkg.log.2.gz" "auth.log" "kern.log.3.gz" "kern.log.4.gz" "fontconfig.log" "../" "openvpn/" "alternatives.log" "dpkg.log.3.gz" "dpkg.log.1" "Xorg.0.log" "macchanger.log.1.gz" "Xorg.2.log" "kern.log.1" "syslog" "yum.log" "auth.log.1" "boot.log" "wtmp" "macchanger.log.3.gz" "macchanger.log.2.gz" "faillog" "vmware/" "syslog.6.gz" "alternatives.log.1" "bootstrap.log" "btmp.1")
+
+ ("/home/al/shared_windows7/current_march20/CNC/CNC/CNC_5AXIS/" (24180 56613 244077 692000) "./" "motion_buffer.h" "motion_buffer.c" "useful_functions.h" "CNC_5Axis.h" "stepper.c~" "stepper.h" "TAGS" "motion_control.c" "../" "main_test.c" "motion_control.h" "useful_functions.c" "filesystem.h" "stepper.c" "parser.c" "pin_define.h" "filesystem.c" "main.c" "inv_kin.c" "parser.h" "inv_kin.h")
+
+ ("/home/al/Documents/Year5Sem2/COE838/" (24185 5700 562495 113000) "Tests/" "./" "COE838_lab/" "default_rtl_lab3/" "Course Outline/" "Lab Manual/" "COE838_from_school_comp/" "Lectures/" "af_lab4/" "default_ipfolder_lab3/" "COE838_lectures/" "../" "Textbook/" "p_lab4/" "Problem Sets/")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/project/" (24185 48171 51668 188000) "./" "project/" "../" "problem_with_modelsim.png" "proj_report/" "appendixA.pdf" "md5_c_trial/" "project_rtl_default/")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_lab/" (24185 4809 72995 61000) "lab4.pdf" "./" "spare_trace/" "questions/" "lab4_report/" "lab4_defaults/" "lab3.pdf" "project/" "lab4/" "lab2b/" "lab1_report/" "lab2b_report/" "lab2a/" "../" "lab2a.pdf" "OpenCL_lab.pdf" "SoC-Project.pdf" "lab2b.pdf" "lab3_report/" "Screenshot_2020-01-29_03-17-20.png")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ring_buffer/backupring6_march13_5:17am_fifo/" (24180 46839 533033 98000) "./" "main" "TAGS" "../" "main.c" "main.c~")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ringbuffer_sim_march20/" (24180 47272 83085 259000) "./" "main" "TAGS" "../" "main.c" "main.c~")
+
+ ("/home/al/Dropbox/" (24179 56561 653300 770000) "./" ".dropbox.cache/" ".stignore" "../" "Get Started with Dropbox Paper.url" ".dropbox" "Get Started with Dropbox.pdf" "interviewprep.org" "Sync/")
+
+ ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/md5_c_trial/" (24179 39349 958078 312000) "./" "md5_main" "md5_main.c~" "TAGS" "../" "md5_main.c")
+
+ ("/var/" (24176 41977 179129 808000) "run/" "cache/" "./" "lib/" "opt/" "backups/" "spool/" "local/" "snap/" "lock/" "log/" "../" "mail/" "tmp/")
+
+ ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/custom_pins/" (24168 23527 383313 621000) "./" "../" "custom_pins_alvi_temp.h" "custom_pins_alvi_temp.h~" "custom_pins_alvi_temp.c")
 
  ("/home/al/Documents/c_practice/jason_kinematics_motion/Capstone-Jason/" (24166 41470 168342 345000) "README.org" "./" "motion_buffer.h" "motion_buffer.c" "useful_functions.h" "CNC_5Axis.h" "#motion_buffer.h#" "TAGS" "motion_control.c" "../" "main_test.c" "motion_control.h" "useful_functions.c" "parser.c" "inv_kin.c" "parser.h" "inv_kin.h")
 
- ("/home/al/waterfox/" (24178 43374 689436 114000) "libplds4.so" "libsmime3.so" "./" "libmozwayland.so" "plugin-container" "fonts/" "icons/" "removed-files" "libfreeblpriv3.so" "omni.ja" "libsoftokn3.chk" "gtk2/" "liblgpllibs.so" "libnssdbm3.so" "libnssutil3.so" "libplc4.so" "libmozavcodec.so" "gmp-clearkey/" "libmozsandbox.so" "waterfox" "update-settings.ini" "libmozgtk.so" "dependentlibs.list" "chrome.manifest" "libfreeblpriv3.chk" "platform.ini" "../" "libmozavutil.so" "libnssckbi.so" "libnssdbm3.chk" "libsoftokn3.so" "libnspr4.so" "libssl3.so" "libxul.so" "browser/" "libmozsqlite3.so" "libnss3.so" "updater" "updater.ini" "defaults/" "application.ini" "precomplete")
-
- ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/md5_c_trial/" (24178 61618 871887 235000) "./" "md5_main" "md5_main.c~" "TAGS" "../" "md5_main.c")
-
- ("/home/al/Dropbox/Sync/" (24178 54945 28657 216000) "latex_shell_commands.org~" "20191129_170515_HDR.jpg" ".comments/" "./" "20191129_172219_HDR.jpg" "google_calendar.org" "random_capture.org" "random_capture.org~" "extra_rem.org~" "img/" "sched_org.org" "useful_linux_commands.org~" "sched_org.ics" "backburner.org" "sched_org.org~" "20191129_165123_HDR.jpg" "misc_symbols.png" "data/" "extra_rem.org" "../" "coe838_meeting-713540923.ics" "sched_org.ics~" "latex_shell_commands.org" "fdm_questions/" "coe718help/" "20200219_232208_HDR-1.jpg" "greek_letters.png" "final_exam_sched.png" "binary_sym.png" "google_calendar.org~" "arrows.png" "20191129_172223_HDR.jpg" "extra_rem.ics" "useful_linux_commands.org")
-
  ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/project/project_rtl_default/rtl/" (24178 51508 103815 561000) "fcalc.vhd" "./" "md5unit_tb.vhd~" "md5group_tb.vhd" "sdata.mif" "kdata.mif" "srom.vhd" "pin_assignment_DE1-SoC.tcl" "chunk_cruncher.vhd" "leftrotate.vhd" "md5_unit.vhd" "TAGS" "gcalc.vhd" "srom.qip" "md5_group.vhd" "../" "mram.vhd" "md5unit_tb.vhd" "krom.qip" "krom.vhd" "mram.qip")
-
- ("/home/al/" (24178 61549 341691 240000) "polybar/" ".openshot_qt/" "Untitled Project.osp" ".dmrc~" "Pictures/" "gazebo.sh" "interprocess/" "*message*-20191229-180034" ".fonts/" ".cache/" ".linuxmint/" "from_sig_school/" "java/" "systemc-2.3.3/" "lab1_material2.zip" "help/" "wine-4.0.1/" "toolbox/" "composer.json" "Music/" "elisp_practice.lisp~" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" "Desktop/" ".ssh/" ".purple/" "myJars/" "my-diagram.png" ".matlab/" ".macromedia/" "orgmode.org/" "final_exam_time.tex~" ".java/" ".notes~" "notes.txt~" "Screenshot_2019-09-06_18-37-42.png" "#.selected_editor#" ".swo" "composer.lock" "elisp_practice.el" "id.txt~" "shawn_courses.png" "feh_005979_000002_20191107_144533_HDR.jpg" ".p2/" "evilwm-1.1.1.tar.gz" ".gimp-2.8/" "thumbnail/" "Templates/" ".adobe/" ".eaglerc" ".emacs.d/" ".wget-hsts" ".gnupg/" "polyspace/" "tigervnc-1.9.90.tar.gz" "todo.tex~" "back_doom/" "libxcb-1.13.1.tar.bz2" "MPLABX-v5.20-linux-installer.sh" ".mplabcomm/" "trial/" ".conky/" "Dropbox/" "Release.key" ".thumbnails/" "org/" ".screenlayout/" "dissenter-browser-v0.66.99-amd64.deb.md5" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" ".swp" ".vim/" "trail/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" "www.gatevidyalay.com/" "polybar-3.4.2.tar" "files2/" "steno_practice.txt" "snap/" "wrestling_workout.org~" "Vmware/" "themes_like.org~" "graph_extracted_schematic.png" "systemc-2.3.3.tar.gz" "eagle_libraries_storage/" "EAGLE/" "index.html" "junit413/" "altera/" ".var/" "trail.org~" ".i3status.conf" ".mplab_dv/" ".config/" "frostwire-6.8.1.all.deb" "vendor/" "gcc.gnu.org/" ".rpmdb/" "junk/" ".mplayer/" ".gconf/" "GNUstep/" "opencv-3.4.6/" "rainbow-lorikeet.jpg" "Screenshot_2019-09-10_06-07-17.png" ".xinitrc" "cedet-1.1/" "index.html.1" ".wine/" "opt/" ".mplab_ide/" ".netbeans/" "tigervnc-1.9.90/" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "mplab-data-visualizer-standalone(linux).1.0.675.run" "xc32-v2.30-full-install-linux-installer.run" "final_exam_time.org" "Videos/" "sys/" ".sane/" ".surf/" ".bashrc" ".putty/" "minicom.log" ".xsession-errors" "ghostscript-9.27-linux-x86_64/" "llvm-project/" "waterfox/" ".gtkrc-xfce" "etc/" "tor-browser-linux64-8.5.4_en-US.tar.xz" ".gvfs/" ".gitconfig" ".bash_logout" "printer_drivers/" "testing_newwebcam.webm" "coe718_final/" "META-INF/" ".dropbox-dist/" "L3resumenotes.org~" "ihsec/" "geotab_cover.txt~" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".authinfo" ".plover-lock-al-0" "apache-maven-3.6.3/" ".profile" ".android/" ".Private/" ".mplab_ipe/" ".ratpoison_history" ".nvm/" "Downloads/" ".swt/" ".dbus/" ".ecryptfs/" "OpenShot-v2.4.4-x86_64.AppImage" ".fehbg" "test.org~" ".lesshst" "pacakges_deleted.png" "Screenshot_2020-01-06_09-00-16.png" "NetBeansProjects/" "matlab2019b_zip/" "shared_windows7/" "vmware/" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "lab3b_2.zip" "xampp-linux-x64-7.1.33-1-installer.run" "mozilla.pdf" "feh_005979_000001_20191107_144533_HDR.jpg" "Tutorial - Learn How To Shave With a Safety Razor-ps88RU_BXlA.mp4" ".local/" "JUNIT_WORKSPACE/" "jdee-server/" ".ICEauthority" "plantuml.jar" "eagle-9.4.2/" ".FBReader/" ".vmware/" "back_emacs/" ".pki/" ".gtktermrc" ".Xauthority" ".dmrc" ".texlive2017/" ".icons/" "todo_scratch.org~" "www.ee.ryerson.ca/" "testing/" "curtain_spec.txt~" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "output.txt" ".npm/" "eclipse/" "MPLABXProjects/" "wine-4.0.1.tar.xz" ".psensor/" "extracted_schem.ps" ".xsession" "dissenter-browser-v0.66.99-amd64.deb" "drawing.svg" "apache-maven-3.6.3-bin.tar.gz" "Public/" "final_exam_sched.png" "ui/" "hello~" ".viminfo" ".waterfox/" ".dropbox/" "feh_016605_000001_note_finalschem1.png" ".aspell.en.pws" ".bashrc~" ".eclipse/" ".oracle_jre_usage/" ".doom.d/" "node-v12.13.0-linux-x64/" ".synaptic/" "winehq.key" "FrostWire/" "VirtualBox VMs/" ".xsession-errors.old" ".vnc/" ".gtkrc-2.0" "Boost converter with FeedBack tutorial-nQFpVKSxGQM.mkv" ".gphoto/" ".i3status.conf~" ".m2/" "coe528_projectnote2.jpeg" "opencv-3.4.6.zip" ".kde/" "test.org" "priority_inv.pdf" "extern/" ".aspell.en.prepl" "OpenSpades-0.1.3-Windows.zip" "hello.txt" ".vimrc" ".ihsec/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" ".thunderbird/" "workout_home.jpg" ".mozilla/" "examples/" "temp.cpp~" "Documents/" ".conkyrc" ".minirc.dfl" "NewFolder/" ".altera.quartus/" "Slipknot - Slipknot (1999) (Full Album)-7f-eMdzXfFg.webm" "tor-browser_en-US/" ".sudo_as_admin_successful" ".text.txt.swp" ".nbi/" ".notes" "position(s).png" "LICENSE.txt" "meme.png" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "testing_systemc/" ".frostwire5/" "elisp_practice.el~" "intelFPGA_lite/" "MPLABX-v5.20-linux-installer.tar" "Screenshot_2019-10-25_18-18-46.png" "eclipse-workspace/" ".caches/" ".mchp_packs/" ".fltk/" "md5result.txt" ".selected_editor" ".bash_history" "../" "./")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ring_buffer/backupring6_march13_5:17am_fifo/" (24176 15467 816320 974000) "./" "TAGS" "../" "main.c" "main.c~")
-
- ("/home/al/Documents/Year5Sem2/ELE800/" (24178 47723 417950 169000) "./" "../" "CNC.zip")
 
  ("/home/al/Documents/Year5Sem1/ELE700/ELE800/" (24178 47051 308541 255000) "nvic_reg_table.png" "ELE800-Milestones_Jan2020.pdf" "./" "COE_ELE800_Milestones_Compliance_Report(MCR)_Template.docx" "needtodo.png" "COE_ELE800_FLC_meeting_minutes_template.pdf" "Table of Contents.html" "github-git-cheat-sheet.pdf" "clock_interrupt_stuff/" "COE800_ELE800-Milestones_Deliverables_Template_W2020.pdf" "COE800_ELE800-Milestones_Deliverables_Template_W2020.doc" "Technical_writing_2019.pdf" "Phase 1/" "found_clockstuff.png" "nvic_stm34_example.png" "clockstuff2.png" "EDP_report_template.docx" "COE800ELE800 - Design Project - W2020 - 1102020 - 244 PM.zip" "../" "COE_ELE800_Milestones_Compliance_Report(MCR)_Template.pdf" "planning_todo_resources/" "COE_ELE800_FLC_meeting_minutes_template.docx" "clockstuff3.png")
 
@@ -202,11 +325,7 @@
 
  ("/home/al/Documents/Year5Sem2/COE838/COE838_labs/" (24178 30890 239296 162000) "lab4.pdf" "./" "spare_trace/" "lab3.pdf" "project/" "lab4/" "lab2b/" "lab1_report/" "lab2b_report/" "lab2a/" "../" "lab2a.pdf" "OpenCL_lab.pdf" "SoC-Project.pdf" "project_rtl_default/" "lab2b.pdf" "lab3_report/" "Screenshot_2020-01-29_03-17-20.png")
 
- ("/home/al/Documents/Year5Sem2/COE838/" (24177 21305 108353 606000) "Tests/" "./" "default_rtl_lab3/" "Course Outline/" "Lab Manual/" "COE838_from_school_comp/" "Lectures/" "af_lab4/" "default_ipfolder_lab3/" "COE838_lectures/" "../" "Textbook/" "p_lab4/" "Problem Sets/" "COE838_labs/")
-
  ("/home/al/Documents/Year5Sem2/" (24177 64592 713187 12000) "COE528/" "./" "2018 Labs/" "ENG503/" "COE838/" "COE838.zip" "ELE709.zip" "ELE800/" "COE628.zip" "ELE884.zip" "ELE709/" "2018 Labs.zip" "../" "ELE884/" "COE628/")
-
- ("/home/al/Documents/" (24177 42971 103303 926000) "COE 538 - BME 538/" "doom/" "gazebo.sh" "ele637/" "Year5Sem1/" "birth/" "java_practice/" "intq3.png" "c++_practice/" "latex_practice/" "os/" "intq2.png" "lisp_practice/" "COE318/" "keys/" "Visual Studio 2010/" "rtl8812AU_8821AU_linux/" "Year5Sem2/" "shawn_courses.org~" "sample_csv/" "main-qimg-14f2ff964e7038ec65923c654850188d.png" "python_practice/" "shawn_courses.tex" "8nn1wybcoxm41.jpg" "amaletters/" "oldgame/" "as-installer-7.0.2389-full.exe" "MEGA-RECOVERYKEY.txt" "books/" "crackstation_wordlist.txt.gz" "islam_research/" "ryerson wifi certificate/" "radio/" "COE428/" "quartus_18/" "Projects/" "code_comp/" "MATLAB/" "Oracle_VM_VirtualBox_Extension_Pack-6.0.10.vbox-extpack" "wave_generator_report/" "2014 - Programming Principles and Practice Using C Plus Plus.pdf" "vera_crypt/" "osap/" "intq1.png" "AVRStudio 5.1/" "quartus_14/" "web_block.txt" "cnc_parth_march12/" "electronic documents/" "sublime_text_3/" "shawn_courses.pdf" "Elements of Electromagnetics 6th.pdf" "c_practice/" "rstudio-1.1.456-amd64/" "html_practice/" "shawn_courses.org" "latex_template/" "bash_scripts/" "violentuml/" "openspades/" "titles/" "downloaded_webpages/" "openspades_linux/" "ele_725.zip" "LCD_Blinky_updated.zip" "arm_trials/" "j502_pinouts.png" "Backups/" "SSR_TSRPT_previous.pdf" "FDM_research/" "[William_Stallings]_Operating_Systems__Internals_a(z-lib.org).epub" "Dis/" "megasync-xUbuntu_18.04_amd64.deb" "Git_Projects/" "SSR_TSRPT.pdf" "alvi.ahmed@ryerson.ca.ical/" "rye_eng_comp_backup/" "shawn_courses.tex~" "resumes/" "bills/" "sql_practice/" "../" "./")
 
  ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_debug/" (24166 13234 985486 199000) "./" "main_headers.h~" "nbproject/" ".dep.inc" "Makefile" "plot_3d.c~" "plot_3d.h~" "plot_3d.c" "dist/" "../" "main_headers.h" "plot_3d.h" "build/" "main.c" "main.c~")
 
@@ -269,114 +388,6 @@
  ("/usr/share/alsa/" (24051 23816 313747 411000) "./" "init/" "pcm/" "alsa.conf" "speaker-test/" "smixer.conf" "alsa.conf.d/" "pulse-alsa.conf" "cards/" "topology/" "sndo-mixer.alisp" "utils.sh" "ucm/" "../")
 
  ("/usr/share/nautilus-dropbox/" (24083 31154 27214 790000) "./" "../" "emblems/")
-
- ("/usr/share/" (24176 49046 987262 30000) "kcontrol/" "gdcm-2.8/" "qt5/" "grub-gfxpayload-lists/" "GConf/" "applications/" "upstart/" "emoticons/" "po-debconf/" "lxappearance/" "themes/" "kontact/" "mintsources/" "yum-cli/" "tabset/" "pulseaudio/" "dnsmasq-base/" "fish/" "avahi/" "gdebi/" "xplayer/" "config.kcfg/" "metainfo/" "application-registry/" "glib-2.0/" "base-passwd/" "gst-plugins-bad/" "iso-codes/" "timeshift/" "lxterminal/" "cmake-3.10/" "webkitgtk-3.0/" "kdisplay/" "inkscape/" "onboard/" "calendar/" "global/" "kfontinst/" "i18n/" "simple-scan/" "locale/" "systemd/" "libfm/" "locale-langpack/" "gnome-bluetooth/" "juk/" "python-wheels/" "gnome-settings-daemon/" "gettext-0.19.8/" "pnm2ppa/" "guile/" "konsole/" "backgrounds/" "maven/" "build-essential/" "khelpcenter/" "javascript/" "ignition/" "djvu/" "hal/" "pam-configs/" "gstreamer-1.0/" "kcminput/" "lxpanel/" "consoletrans/" "katexmltools/" "gnome-video-effects/" "knotes/" "messagelist/" "strigi/" "fwupd/" "ubuntu-drivers-common/" "gufw/" "korgac/" "mono/" "cdbs/" "pandoc/" "gnome/" "myspell/" "git-core/" ".mono/" "wayland/" "liblangtag/" "libexttextcat/" "gpicview/" "debconf/" "lib/" "gst-plugins-base/" "devscripts/" "mlt/" "gimp/" "orage/" "sgml-data/" "ubuntu-advantage-tools/" "sounds/" "movit/" "ubuntu-system-adjustments/" "awk/" "xfce4/" "rsyslog/" "orca/" "mu/" "ccsm/" "finalrd/" "help-langpack/" "librarian/" "initramfs-tools/" "linux-sound-base/" "qalculate/" "secureboot/" "python-babel-localedata/" "pkg-config-dpkghook" "xfburn/" "system-config-printer/" "gdal/" "readline/" "gazebo/" "pcmanfm/" "librevenge/" "filezilla/" "bug/" "tcltk/" "dpkg/" "sensible-utils/" "keyutils/" "php7.2-json/" "flatpak/" "wx-3.0-gtk/" "unity-control-center/" "samba/" "netbeans/" "virtualbox/" "accounts/" "pyshared/" "automake-1.15/" "p11-kit/" "keyrings/" "macchanger/" "mugshot/" "light-locker-settings/" "adduser/" "xml/" "ufw/" "cups/" "menu/" "ppd/" "xgreeters/" "xviewer/" "cli-common/" "glvnd/" "dotnet/" "libmessageviewer/" "python3/" "texmf/" "apturl/" "caribou/" "org.kde.syntax-highlighting/" "base-files/" "kcmsolidactions/" "file-roller/" "mplayer/" "poppler/" "libgnomekbd/" "pam/" "gir-1.0/" "kateproject/" "gcc-arm-embedded/" "gtk-doc/" "metacity/" "gtksourceview-3.0/" "pkgconfig/" "gettext/" "mimelnk/" "bash-completion/" "libvisual-plugins-0.4/" "lintian/" "mint-mirrors/" "wallpapers/" "mate-panel/" "liblouis/" "libtimezonemap/" "binfmts/" "rhythmbox/" "gtk-engines/" "console-setup/" "GeoIP/" "sdformat/" "korganizer/" "defaults/" "kxmlgui5/" "pix/" "seahorse/" "kconf_update/" "mono-2.0/" "file/" "kcm_componentchooser/" "yudit/" "dns/" "gtk-3.0/" "doc/" "llvm-6.0/" "gnupg/" "ksysguard/" "mime-info/" "libreoffice/" "mint-upgrade-info/" "gnome-background-properties/" "brltty/" "zoneinfo/" "php7.2-readline/" "yelp-xsl/" "php7.2-common/" "mousetweaks/" "debhelper/" "localechooser/" "mintstick/" "icons/" "lua/" "xed/" "compiz/" "help/" "hfsprogs/" "colord/" "mobile-broadband-provider-info/" "sgml-base/" "software-center/" "gcc-arm-none-eabi/" "PackageKit/" "cryptsetup/" "pixmaps/" "color/" "gnome-control-center/" "gazebo-9/" "gnome-system-tools/" "snmp/" "publicsuffix/" "directfb-1.7.7/" "zenity/" "transmission/" "dbus-1/" "sieve/" "libaudio2/" "screen/" "kservices5/" "unity/" "libwacom/" "ECM/" "dictionaries-common/" "libdrm/" "konqsidebartng/" "xcb/" "purpose/" "foo2qpdl/" "evolution-data-server/" "apport/" "openal/" "indicator-application/" "alsa/" "gconf/" "accountsservice/" "kcmkeyboard/" "OGRE/" "aclocal/" "libparse-debianchangelog-perl/" "indicators/" "vlc/" "ffmpeg/" "hwdata/" "konqueror/" "python/" "cinnamon/" "yelp/" "plymouth/" "ca-certificates-java/" "bison/" "luajit-2.1.0-beta3/" "gdb/" "ldm/" "gocode/" "slick-greeter/" "ntp/" "mythes/" "kaddressbook/" "hplip/" "aptitude/" "docutils/" "fonts/" "kmail2/" "messageviewer/" "ImageMagick-6/" "terminfo/" "xfwm4/" "kpackage/" "knotifications5/" "locales/" "calibre/" "ssl-cert/" "awesome/" "cmake/" "solid/" "tex-common/" "acpi-support/" "hunspell/" "menulibre/" "fonts-droid-fallback/" "X11/" "gitweb/" "kdenlive/" "fonts-sil-padauk/" "java-wrappers/" "lightdm/" "speech-dispatcher/" "tomboy/" "kf5/" "GNUstep/" "gedit/" "polkit-1/" "FBReader/" "vala/" "perl-openssl-defaults/" "appdata/" "man-db/" "icu/" "libgphoto2/" "iptables/" "emacs/" "pavucontrol/" "liblouisutdml/" "grub/" "dict/" "man/" "system-tools-backends-2.0/" "gwenview/" "color-schemes/" "qtchooser/" "nautilus-dropbox/" "vim/" "misc/" "aclocal-1.15/" "intltool-debian/" "gutenprint/" "kdepimwidgets/" "emacs25/" "cinnamon-background-properties/" "kcm_phonon/" "plasma/" "foo2zjs/" "omf/" "consolefonts/" "gcc-8/" "thumbnailers/" "kdevappwizard/" "kwebkitpart/" "fontconfig/" "language-tools/" "m2300w/" "linuxmint/" "session-migration/" "kcalc/" "autoconf/" "openshot-qt/" "enchant/" "usb_modeswitch/" "apps/" "nano/" "nemo/" "xsane/" "proj/" "ppp/" "qt4/" "openvpn/" "libgweather/" "mint-artwork/" "app-install/" "alsa-base/" "lxsession/" "WindowMaker/" "catfish/" "os-prober/" "synaptic/" "xreader/" "kde4/" "wayland-protocols/" "java/" "perl/" "texlive/" "m17n/" "chromium-browser/" "php/" "lxde/" "katepart5/" "sane/" "libc-bin/" "im-config/" "catdoc/" "media-player-info/" "ecryptfs-utils/" "akregator/" "qutebrowser/" "python-apt/" "xdg-desktop-portal/" "aspell/" "info/" "mdm/" "maven-repo/" "ca-certificates/" "graphviz/" "pkg-config-crosswrapper" "debianutils/" "xsessions/" "kcmkeys/" "iso-flag-png/" "command-not-found/" "feh/" "drirc.d/" "mate-background-properties/" "akonadi/" "common-licenses/" "doc-base/" "WINGs/" "compizconfig/" "dh-autoreconf/" "zlibrary/" "mime/" "gvfs/" "netplan/" "python-urlgrabber/" "desktop-directories/" "lxinput/" "hyphen/" "distro-info/" "gdm/" "mysql-common/" "groff/" "xfce4-notes-plugin/" "xml-core/" "perl5/" "sphinx/" "casper/" "libtool/" "gnome-shell/" "mysql/" "libsensors4/" "farstream/" "kcmcss/" "ant/" "php7.2-opcache/" "violetumleditor/" "kservicetypes5/" "okular/" "sgml/" "Thunar/" "ghostscript/" "libthai/" "zsh/" "discord/" "../" "./")
-
- ("/usr/" (24165 22816 796457 772000) "./" "lib64/" "lib/" "sbin/" "libexec/" "local/" "arm-linux-gnueabi/" "lib32/" "bin/" "include/" "arm-none-eabi/" "../" "arm-linux-gnueabihf/" "share/" "src/" "games/")
-
- ("/home/al/Dropbox/" (24176 41587 650843 165000) "./" ".dropbox.cache/" ".stignore" "../" "Get Started with Dropbox Paper.url" ".dropbox" "Get Started with Dropbox.pdf" "interviewprep.org" "Sync/")
-
- ("/snap/" (24176 42070 744464 273000) "./" "snapd/" "core18/" "README" "bin/" "openspades/" "../")
-
- ("/home/" (23884 37578 184431 150000) "./" ".ecryptfs/" "timeshift/" "lost+found/" "../" "al/")
-
- ("/home/al/Documents/Year5Sem2/ELE709/project_2020/task2_1/ele709project/" (24176 58829 218730 510000) "ps2jpg" "./" "pc.c~" "dlab_def.h" "../" "simcc" "newload.c" "hwcc" "pc.c")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE_709/Labs/Project/Week_1/bin/" (24176 53649 14593 487000) "projectA.c" "./" "projectA" "TAGS" "../" "simcc" "newload.c" "dlab.h")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE 709/" (24176 53581 825059 279000) "ELE 709 -OneNote.pdf" "Tests/" "Formula Sheet/" "./" "Course Outline.pdf" "ELE 709 -OneNote-Part 2.pdf" "Lecture Slides/" "Lab Manual/" "prob_W18.pdf" "ELE709 Notes Part I.pdf" "Labs/" "Lectures/" "Projecy.zip" "Midterm-Review.docx" "../" "Textbook/" "ELE709 Notes Part II.pdf" "ELE_709/" ".tmp.drivedownload/" "Problem Sets/")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE 709/Labs/Project/Week_1/bin/" (24176 53603 709557 534000) "projectA.c" "./" "projectA" "TAGS" "../" "simcc" "newload.c" "dlab.h")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE 709/Labs/Project/" (23425 56720 0 0) "./" "Week 2/" "simcc.txt" "simcc.script" "Week 3/" "../" "projw18.pdf" "Week 1/" "proj_week_3.pdf" "proj_week_2.pdf" "newload.c" "dlab.h")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE 709/Labs/Project/Week 1/" (23425 56720 0 0) "./" "bin/" "../")
-
- ("/home/al/Documents/Year5Sem2/ELE709/ELE709_labs/ele709_lab_pir/ELE709/ELE 709/Labs/Project/Week 1/bin/" (24176 53530 275891 418000) "projectA.c" "./" "projectA" "TAGS" "../" "simcc" "newload.c" "dlab.h")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/" (24176 18146 569881 685000) "./" "../" "default/" "trying_zip2/" "working/" "edit_2/")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/" (24176 7525 247720 55000) "./" "coe628_lab1_submit.zip" "coe628_lab8_note.jpeg" "coe628_lab2/" "lab1.zip" "../" "coe628_lab3/" "coe628_lab1/" "coe628_lab8/" "coe628_lab4/")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham4/" (24169 54018 770542 740000) "./" "nbproject/" ".dep.inc" "Makefile" "#main.c#" "TAGS" "dist/" "../" "build/" "main.c" "main.c~")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/" (24172 7145 752916 677000) "back.txt~" "atmel_start.h" "backup3/" "hri/" "nbproject/" "Makefile" "remp.txt" "something_works_519feb14/" "AtmelStart.env_conf" "atmel_start_pins.h" "custom_pins.h~" "driver_init.h" "hal/" "backup/" "hpl/" "backup5/" "driver_init.c~" "custom_pins.c~" "backup4/" "CMSIS/" "atmel_start_config.atstart" "something_works_433feb14/" "TAGS" "bresenham.c" "documentation/" "bresenham.h~" "dist/" "atmel_start_pins.h~" "bresenham.h" "armcc/" "same70b/" "led_flasher_main.c" "driver_init.c" "config/" "back.c" "backup2/" "led_flasher_main.c~" "debug/" "backup8_phase2withonlymain/" "build/" "bresenhem.org" "AtmelStart.gpdsc" "bresenhem.org~" "bresenham.c~" "backup6/" "gcc/" "atmel_start.c" "backup7_phase2end/" "examples/" "backup9_withtimers/" "back.c~" "../" "./")
-
- ("/home/al/shared_windows7/current/CNC/CNC/" (24171 43178 197343 652000) "atmel_start.h" "Release.xml" "./" "Default.xml" "sd_mmc_start.h" "hri/" "good_for_demo.zip" "test_pin.h~" "atmel_start_pins.h" "stdio_start.c" "driver_init.h" "hal/" "backup2_ring/" "hpl/" "sd_mmc_start.c" "Config/" "TAGS" "documentation/" "backup3_march13_6:16am/" "Device_Startup/" "test_pin.c" "sd_mmc/" "../" "CNC.componentinfo.xml" "driver_init.c" "Debug.xml" "stdio_redirect/" "Debug/" "backup_main/" "test_pin.h" "main.c" "test_pin.c~" "atmel_start.c" ".atmel-start-backup/" "backup4_march13_8:56am_goodfordemo/" "CNC.cproj" "stdio_start.h" "examples/" "main.c~")
-
- ("/home/al/Documents/Git_Projects/grbl/grbl/" (24171 20939 934046 947000) "#remp.c#" "grbl_notes_bresenham.org~" "TAGS" "../" "./")
-
- ("/home/al/Documents/Git_Projects/grbl/" (24171 20939 966047 765000) "doc/" "./" "nuts_bolts.h" "gcode.h" "Makefile" ".gitignore" "eeprom.c" "serial_protocol.c" "stepper.h" "readme.textile" "gcode.c" "planner.h" "eeprom.h" "grbl/" "serial_protocol.h" "config.h" "settings.c" "wiring_serial.c" ".git/" "motion_control.c" "../" "spindle_control.h" "motion_control.h" "settings.h" "wiring_serial.h" "spindle_control.c" "stepper.c" "COPYING" "main.c" "script/" "planner.c")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ring_buffer/" (24171 25387 925143 574000) "./" "nbproject/" ".dep.inc" "Makefile" "backupring6_march13_5:17am_fifo/" "backupring5_march13_5:06am_jason_result/" "TAGS" "backupring1_march12_11:00pm/" "dist/" "backupring4_march13_4:40am/" "../" "backupring2_march12_11:16pm/" "backupring3_march12_2:36am,failure/" "build/" "main.c" "main.c~")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/working/lab8/src/coe628/lab8/" (24176 17563 378016 592000) "./" "ProducerConsumer.java" "../" "Semaphore.java")
-
- ("/home/al/Documents/Year5Sem2/ELE709/project_2020/" (24176 42793 304981 70000) "projw20.pdf" "./" "ELE709 - Real-Time Computer Control Systems - W2020 - 3172020 - 631 AM.zip" "XQuartz.pdf" "VcXserv.pdf" "Table of Contents.html" "../" "proj_ans2.pdf" "proj_ans1.pdf")
-
- ("/home/al/Documents/Year5Sem2/ELE709/" (24167 36929 177773 555000) "Tests/" "labs_from_school_comp/" "Formula Sheet/" "./" "Course Outline/" "ELE709_lectures_modern/" "Lab Manual/" "Lectures/" "../" "Textbook/" "ELE709_labs/" "pre_midterm_notes/" "useful_vids/" "ELE709_labs_modern/")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/default/lab 8/" (24176 9136 270368 982000) "./" "ProducerConsumer.java" "../" "Semaphore.java")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab8/lab 8/" (24164 27837 0 0) "./" "ProducerConsumer.java" "../" "Semaphore.java")
-
- ("/home/al/.emacs.d/cedet-1.1/" (24175 64630 658133 949000) "./" "common/" "cedet-build.el" "ede/" "Makefile" "eieio/" "semantic/" "cogre/" "speedbar/" "../" "USING_CEDET_FROM_BZR" "INSTALL" "tests/" "srecode/" "NEWS" "contrib/" "PRERELEASE_CHECKLIST" "cedet-update-version.el")
-
- ("/home/al/Downloads/plover/plover-3.1.1/linux/" (24173 45145 108012 241000) "./" "makepkg.sh" "#README.md#" "README.md" ".#README.md" "../" "debuild.sh")
-
- ("/home/al/Documents/Year5Sem2/ENG503/" (24173 21391 6104 546000) "./" "reponse_paper_1/" "short_stories_drew_hayden/" ".#notes_discussion.txt" "Table of Contents.html" "csfiles/" "notes/" "essay_final_stuff/" "response_paper_2/" "../" "Ghost in the Shell Plot Summary.html" "notes_discussion.txt" "503 course outline W 2020.doc" "short_stories_machine_sex/" "notes_discussion.txt~" "#notes_discussion.txt#" "Essay Rubric.docx" "ENG503 - Science Fiction - W2020 - 1252020 - 958 PM.zip" "How to Write and Edit an Academic Paper.html" "power_points/" "documents/" "Academic Paper Writing Guidelines 2015(2).docx")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ring_buffer/backupring2_march12_11:16pm/" (24170 64257 193108 448000) "./" "../" "main.c")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/" (24170 59980 792879 3000) "bresenham_event_fix/" "./" "ring_buffer/" "../" "bresenham_velocity_5axis/" "backup_main_march12/" "bresenham_with_velocity/" "bresenham_isr/" "bresenham4/")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/" (24168 6093 574105 211000) "./" "bresenham_debug/" "trial/" "5axis/" "bresenham_work.zip" "3axis/" "../" "brensenham_debug2/" "bresenham_isr/" "2axis/")
-
- ("/home/al/Documents/c_practice/" (24166 39116 438809 865000) "./" "linked_list_stack/" "queue/" "test.c~" "a.out" "kinematic_trial/" "array/" "substitutemax/" "pointer_prac/" "dynamic_memory/" "../" "argc_argv/" "bresenham_algorithm/" "test" "jason_kinematics_motion/" "lec8_structure/" "linked_list_pract/" "stack/" "#test.c#" "test.c")
-
- ("/home/al/shared_windows7/" (24170 28329 607163 897000) "./" "current/" "../" "obsolete/")
-
- ("/home/al/shared_windows7/current/" (24170 28332 635208 50000) "./" "../" "CNC/" "CNC.zip")
-
- ("/home/al/shared_windows7/current/CNC/" (24170 33749 3936 659000) "./" ".vs/" "../" "IncFile1.h" "CNC/" "CNC.atsln")
-
- ("/home/al/shared_windows7/current/CNC/CNC/.atmel-start-backup/" (24169 36066 0 0) "./" "CNC_10.zip" "CNC_9.zip" "CNC_2.zip" "CNC_11.zip" "CNC_7.zip" "CNC_5.zip" "CNC_8.zip" "CNC_3.zip" "CNC_4.zip" "../" "CNC_1.zip" "CNC_6.zip")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/5axis/" (24134 48684 423416 722000) "output.txt~" "./" "output2.txt" "output2.txt~" "5axis_main.c~" "../" "output.txt" "5axis_main" "5axis_main.c")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/config/" (24134 30955 998283 572000) "peripheral_clk_config.h" "./" "hpl_tc_config.h" "hpl_xdmac_config.h" "../" "hpl_pmc_config.h" "hpl_tc_config.h~")
-
- ("/home/al/Documents/Year5Sem2/COE628/COE628_labs/coe628_lab4/lab4/" (24136 48278 863603 636000) "stdout.txt~" "./" "nbproject/" ".dep.inc" "Makefile" "cerr.log" "cout.log" "dist/" "../" "build/" "stdout.txt" "main.c" "main.c~")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/" (24169 53906 964172 198000) "./" "nbproject/" ".dep.inc" "Makefile" "#main.c#" "TAGS" "dist/" "../" "build/" "main.c" "main.c~")
-
- ("/home/al/Documents/java_practice/blackjack/" (24169 51590 371531 562000) "out/" "./" "Card.class" "SimpleUI.java~" "Card.java" "CardPile.java~" "UserInterface.class" "SimpleUI.class" "Card.java~" "BlackjackGame.java~" "UserInterface.java" "CardPile.java" "../" "UserInterface.java~" "SimpleUI.java" "CardPile.class" "BlackjackGame.java" "BlackjackGame.class")
-
- ("/home/al/Documents/Year5Sem2/COE528/COE528_labs/coe528_lab1/lab1/FlightBooking/src/coe528/lab1/" (24169 51725 777703 935000) "out/" "./" "Manager.java" "Passenger.java" "Member.java" "readme_lab1.org~" "Ticket.java~" "Flight.class" "Member.java~" "../" "Flight.java~" "Passenger.java~" "Manager.java~" "Flight.java" "NonMember.java" "NonMember.java~" "Ticket.java")
-
- ("/home/al/Desktop/" (24169 52796 286014 457000) "Critical Mass.desktop" "Football-o-saurus.desktop" "1573085896397.gif" "eq.png" "graph1.png" "Screenshot_2019-10-14_08-26-10.png" "alingned_120_max.png" "Python-3.7.4.tar.xz" "IMG-20191027-WA0000.jpg" "Bitvise SSH Client.desktop" "lens.png" "1573072700195.jpg" "End Of Atlantis.desktop" "Firefight.desktop" "AVR Studio 5.1.desktop" "Slay.desktop" "5p1.png" "Screenshot_2019-11-09_23-54-26.png" "quantum.png" "ATSAME70-XPLD.jpg" "Screenshot_2020-02-18_18-15-43.png" "Screenshot_2019-11-12_11-16-08.png" "ca-bundle.crt" "Water Fox.desktop" "Mother Of All Battles.desktop" "5p2.png" "transpose_graphs.png" "waterfox" "Screenshot_2019-11-03_03-22-29.png" "Screenshot_2019-11-09_23-55-15.png" "VMware Workstation Pro.desktop" "VMware Workstation Pro.lnk" "weighted.png" "correlation_graph_wandwo_preproc.png" "hardwarespecs.png" "easy_stepper.png" "atmelstudio.png" "Sean O'Connor's Windows Games/" "spherical_mirror.png" "gunna_fail.png" "atsamed21.jpeg" "mplab.png" "TMC5160.png" "interm_req.png" "The General.desktop" "Cadence_IC_06.17.700_Virtuoso_Rahim-soft.com/" "asdaf.png" "nopreprocess_surf.png" "pres.png" "1573033862574.jpg" "Conquest.desktop" "untitled.c" "Screenshot_2019-11-19_14-34-44.png" "yu.png" "Python-3.7.4.tar.xz.asc" "arduinodue.jpeg" "keiluvision.png" ".bash_history" "../" "./")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/backup2/" (24134 16892 303624 708000) "./" "led_flasher_main.c" "../")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/PWM_with_comparison_enables.X/" (24134 21847 2248 800000) "atmel_start.h" "./" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "hal/" "hpl/" "driver_init.c~" "CMSIS/" "atmel_start_config.atstart" "documentation/" "dist/" "atmel_start_pins.h~" "armcc/" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "config/" "led_flasher_main.c~" "debug/" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
-
- ("/home/al/Documents/Git_Projects/Capstone/Phase1_end/Base_Stepper.X/" (24169 15699 827473 903000) "atmel_start.h" "./" "GPATH" "hri/" "nbproject/" "Makefile" "AtmelStart.env_conf" "atmel_start_pins.h" "driver_init.h" "GTAGS" "hal/" "hpl/" "driver_init.c~" "CMSIS/" "atmel_start_config.atstart" "TAGS" "documentation/" "dist/" "atmel_start_pins.h~" "same70b/" "led_flasher_main.c" "../" "driver_init.c" "GRTAGS" "config/" "led_flasher_main.c~" "build/" "AtmelStart.gpdsc" "gcc/" "atmel_start.c" "examples/")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_isr/" (24169 46535 766686 706000) "block_prep.h" "./" "isr_func.h~" "main_headers.h~" "nbproject/" ".dep.inc" "Makefile" "block_prep.c~" "isr_func.h" "isr_func.c~" "TAGS" "dist/" "../" "main_headers.h" "main.h~" "block_prep.c" "isr_func.c" "build/" "block_prep.h~" "main.c" "main.c~")
-
- ("/home/al/shared_windows7/test/LED flasher with timers/" (24169 31268 58623 700000) "atmel_start.h" "./" "Default.xml" ".atmelstart/" "hri/" "atmel_start_pins.h" "driver_init.h" "hal/" "LED flasher with timers.componentinfo.xml" "hpl/" "IncFile1.c" "Config/" ".vs/" "TAGS" "LED flasher with timers.cproj" "documentation/" "Device_Startup/" "led_flasher_main.c" "../" "driver_init.c" "IncFile1.h" "led_flasher_main.c~" "LED flasher with timers.atsln" "Debug/" "atmel_start.c" "examples/")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_event_fix/" (24169 46584 323668 81000) ".#main.c" "./" "nbproject/" ".dep.inc" "Makefile" "#main.c#" "TAGS" "dist/" "../" "build/" "main.c" "main.c~")
-
- ("/home/al/shared_windows7/LED flasher with timers/" (24169 34677 180160 882000) "atmel_start.h" "./" "Default.xml" ".atmelstart/" "hri/" "atmel_start_pins.h" "driver_init.h" "hal/" "LED flasher with timers.componentinfo.xml" "hpl/" "IncFile1.c" "Config/" ".vs/" "LED flasher with timers.cproj" "documentation/" "Device_Startup/" "led_flasher_main.c" "../" "driver_init.c" "IncFile1.h" "LED flasher with timers.atsln" "Debug/" "atmel_start.c" "examples/")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_fresh.X/backup8_phase2withonlymain/" (24168 15812 103185 773000) "./" "phase2_without_timer.c~" "../" "phase2_without_timer.c")
-
- ("/home/al/Documents/Git_Projects/Capstone/" (24168 29343 920641 863000) "README.org" "./" "README.org~" "Base_Stepper.X/" ".git/" "../")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/custom_pins/" (24168 23527 383313 621000) "./" "../" "custom_pins_alvi_temp.h" "custom_pins_alvi_temp.h~" "custom_pins_alvi_temp.c")
-
- ("/home/al/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/timer_experiments/" (24133 33399 640541 202000) "./" "timer_working_3axis_NO_RAMP.c" "timer_attemp_at_RAMP_SUCCESS_only_ramp_up_though.c" "timer_repeater_working.c" "timer_attemp_at_RAMP_SUCCESS_only_ramp_up_though_2.c" "../" "timer_RAMP_SUCCESS_UP_AND_DOWN.c" "timer_one_shot_1_sec_delay.c" "timer_attempt_at_RAMP_FAILED_USING_NORMAL_TC.c" "timer_set_cycles.c" "timer_one_shot_1_sec_delay.c~")
 )
 
 ;; ----- ido-unc-hosts-cache -----

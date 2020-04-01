@@ -2,12 +2,27 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".google.com"
-  [url-cookie "1P_JAR" "2019-05-27-02" "Wed, 26-Jun-2019 02:03:37 GMT" "/" ".google.com" nil]
-  [url-cookie "NID" "184=OUZZ1cie41oB2PCxgheSM2FDxbfP2ZJ7FLBjLjGQucgzbA5s_rUDtBAvw7sRz89m8QhxjcUIxvUrjVoXsAs7QpuObRy2-pfMrpKtq_p_8_itT6x7zSh3fnewSpSUR_TBZbKCxf_F9y30jApnBzv5GE5dDcP-7p1YegMf4lNg38s" "Tue, 26-Nov-2019 02:03:37 GMT" "/" ".google.com" nil]))
+ '((".stackexchange.com"
+  [url-cookie "prov" "ee53cd10-df1c-ade4-5e6d-5cce07668ae5" "Fri, 01-Jan-2055 00:00:00 GMT" "/" ".stackexchange.com" nil])
+ (".google.ca"
+  [url-cookie "CGIC" "IgMqLyo" "Mon, 21-Sep-2020 12:06:00 GMT" "/complete/search" ".google.ca" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Mon, 21-Sep-2020 12:06:00 GMT" "/search" ".google.ca" nil]
+  [url-cookie "NID" "200=mE0Treo2vfiglPQF0218jHtrpnL9lj_flzLSf4wmi0ZDwe6ymATum0AnHdT7uo7OZnko0KeUPOaF-J7bMa8De85OpFvpCu5XW008vq4kV9AVmBLhAfecjn1rhuZ2-Kz7ucWOeYNcIf4QDB4dHBLIMhkXKqQM2JHty-WOsnsbIAA" "Thu, 24-Sep-2020 12:06:00 GMT" "/" ".google.ca" nil])
+ (".google.com"
+  [url-cookie "CGIC" "IgMqLyo" "Wed, 16-Sep-2020 00:37:21 GMT" "/search" ".google.com" nil]
+  [url-cookie "CGIC" "IgMqLyo" "Wed, 16-Sep-2020 00:37:21 GMT" "/complete/search" ".google.com" nil]
+  [url-cookie "NID" "200=feqRBpOsv2SoxdROPaU9f5iYlI9PW_ilWAv5C3nZyZO4hzlUE4IpKhp0WQnjAf1qLah40ev-ZW8m3tWs5tqO4wUInvxCYn7YKlar3P58iW_xnVCrhXdatWU73g_NX2y0abAspOnVyd58daAapqgqmeD-FFzmw9YN7oLp14WvqDw" "Sat, 19-Sep-2020 00:37:03 GMT" "/" ".google.com" nil]))
 )
 (setq url-cookie-secure-storage
- 'nil)
+ '((".google.ca"
+  [url-cookie "1P_JAR" "2020-03-25-12" "Fri, 24-Apr-2020 12:06:18 GMT" "/" ".google.ca" t])
+ ("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "25-Mar-2020" "Sun, 26 Apr 2020 12:00:00 GMT" "/" "en.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "25-Mar-2020" "Sun, 26 Apr 2020 12:00:00 GMT" "/" ".wikipedia.org" t])
+ (".google.com"
+  [url-cookie "1P_JAR" "2020-03-25-12" "Fri, 24-Apr-2020 12:05:58 GMT" "/" ".google.com" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never

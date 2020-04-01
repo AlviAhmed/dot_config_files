@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags nil
+      :file "HandleEvent.java"
+      :pointmax 1741
+      :fsize 1740
+      :lastmodtime '(24190 22568 19747 450000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!COE528_labs!coe528_project!HandleEvent!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: latex_code_line
+# key: lc
+# -- 
+#+LATEX: \lstinputlisting[language=$1]{$2}  
+
+$0

@@ -107,7 +107,7 @@
       :pointmax 5589
       :fsize 5588
       :lastmodtime '(24168 6511 848813 229000)
-      :unmatched-syntax '((number 78 . 79))
+      :unmatched-syntax nil
       :lexical-table 
         '(("X_AXIS" . ((number "0" 174 . 175)))
           ("N_AXIS" . ((number "3" 78 . 79)))

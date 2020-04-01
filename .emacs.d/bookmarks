@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Wallpapers"
+(("latex_shell_commands.org"
+ (filename . "~/Dropbox/Sync/latex_shell_commands.org")
+ (front-context-string . "* Including pdfs")
+ (rear-context-string)
+ (position . 1))
+("Wallpapers"
  (filename . "~/Pictures/Wallpapers/")
  (front-context-string)
  (rear-context-string . "64 Mar 18 03:46 ")
@@ -139,9 +144,9 @@
  (position . 237))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/random_capture.org")
- (front-context-string . "** TODO \ncompany")
- (rear-context-string . "e day \n* Tasks \n")
- (position . 72))
+ (front-context-string . "** TODO  Downloa")
+ (rear-context-string . "in linux and i3\n")
+ (position . 1034))
 ("actual_cnc_stuff"
  (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
  (front-context-string . "Base Stepper Wit")

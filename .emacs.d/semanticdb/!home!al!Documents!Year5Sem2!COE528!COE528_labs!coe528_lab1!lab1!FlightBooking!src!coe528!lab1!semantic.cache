@@ -65,6 +65,191 @@
       :pointmax 7984
       :fsize 7973
       :lastmodtime '(24120 55548 426349 182000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.lab1" package nil nil [185 205])
+            ("Flight" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("flightNumber" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [288 313])
+                    ("origin" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [320 342])
+                    ("destination" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [348 375])
+                    ("departureTime" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [381 410])
+                    ("capacity" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [416 437])
+                    ("numberOfSeatsLeft" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [443 473])
+                    ("originalPrice" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [479 508])
+                    ("Flight" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("flightNumber" variable (:type "int") (reparse-symbol formal_parameters) [1118 1134])
+                            ("origin" variable (:type "String") (reparse-symbol formal_parameters) [1136 1149])
+                            ("destination" variable (:type "String") (reparse-symbol formal_parameters) [1151 1169])
+                            ("departureTime" variable (:type "String") (reparse-symbol formal_parameters) [1171 1191])
+                            ("capacity" variable (:type "int") (reparse-symbol formal_parameters) [1193 1205])
+                            ("originPrice" variable (:type "double") (reparse-symbol formal_parameters) [1207 1225]))                          )
+                        (reparse-symbol class_member_declaration) [1103 3025])
+                    ("setflightNum" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flightNum" variable (:type "int") (reparse-symbol formal_parameters) [3315 3328]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3290 3509])
+                    ("setorigin" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("origin" variable (:type "String") (reparse-symbol formal_parameters) [3819 3832]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3797 4238])
+                    ("setdest" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("dest" variable (:type "String") (reparse-symbol formal_parameters) [4553 4564]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4533 4969])
+                    ("setcapacity" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cap" variable (:type "int") (reparse-symbol formal_parameters) [5206 5213]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5182 5383])
+                    ("getflightNum" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5540 5602])
+                    ("getorigin" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5742 5798])
+                    ("getdestination" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5953 6019])
+                    ("getdepartureTime" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [6178 6248])
+                    ("getcapacity" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6395 6452])
+                    ("getnumberOfSeatsLeft" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6625 6700])
+                    ("getoriginalPrice" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [6872 6942])
+                    ("bookASeat" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [7381 7612])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [7979 8361]))                  
+                :type "class")
+                nil [260 8365]))          
+      :file "Flight.java"
+      :pointmax 8366
+      :fsize 8365
+      :lastmodtime '(24120 55192 6779 562000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.lab1" package nil nil [186 206])
+            ("Ticket" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("passenger" variable
+                       (:typemodifiers ("private")
+                        :type "Passenger")
+                        (reparse-symbol class_member_declaration) [268 296])
+                    ("flight" variable
+                       (:typemodifiers ("private")
+                        :type "Flight")
+                        (reparse-symbol class_member_declaration) [302 324])
+                    ("price" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [331 352])
+                    ("ticket_counter" variable
+                       (:typemodifiers ("private" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [358 392])
+                    ("Ticket" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("price" variable (:type "double") (reparse-symbol formal_parameters) [697 709])
+                            ("flight" variable (:type "Flight") (reparse-symbol formal_parameters) [711 724])
+                            ("p" variable (:type "Passenger") (reparse-symbol formal_parameters) [726 737]))                          )
+                        (reparse-symbol class_member_declaration) [683 899])
+                    ("setprice" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("price" variable (:type "double") (reparse-symbol formal_parameters) [1034 1046]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1013 1081])
+                    ("setflight" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("flight" variable (:type "Flight") (reparse-symbol formal_parameters) [1221 1234]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1199 1272])
+                    ("setpassenger" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("passenger" variable (:type "Passenger") (reparse-symbol formal_parameters) [1424 1443]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1399 1488])
+                    ("getprice" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1559 1612])
+                    ("getflight" function
+                       (:typemodifiers ("public")
+                        :type "Flight")
+                        (reparse-symbol class_member_declaration) [1687 1742])
+                    ("getpassenger" function
+                       (:typemodifiers ("public")
+                        :type "Passenger")
+                        (reparse-symbol class_member_declaration) [1826 1891])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2061 2298]))                  
+                :type "class")
+                nil [241 2308]))          
+      :file "Ticket.java"
+      :pointmax 2309
+      :fsize 2308
+      :lastmodtime '(24120 52586 424473 544000)
       :unmatched-syntax nil))
   :file "!home!al!Documents!Year5Sem2!COE528!COE528_labs!coe528_lab1!lab1!FlightBooking!src!coe528!lab1!semantic.cache"
   :semantic-tag-version "2.0"

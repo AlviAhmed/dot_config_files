@@ -9,73 +9,89 @@
         '( ("stdio.h" include (:system-flag t) nil [39 57])
             ("stdlib.h" include (:system-flag t) nil [58 77])
             ("stdint.h" include (:system-flag t) nil [80 99])
-            ("N_AXIS" variable (:constant-flag t) nil [109 115])
-            ("X_AXIS" variable (:constant-flag t) nil [205 211])
-            ("Y_AXIS" variable (:constant-flag t) nil [222 228])
-            ("Z_AXIS" variable (:constant-flag t) nil [239 245])
-            ("A_AXIS" variable (:constant-flag t) nil [256 262])
-            ("C_AXIS" variable (:constant-flag t) nil [273 279])
-            ("max" variable (:constant-flag t) nil [290 293])
-            ("motion_buffer_size" variable (:constant-flag t) nil [334 352])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("N_AXIS" variable (:constant-flag t) nil [111 117])
+            ("X_AXIS" variable (:constant-flag t) nil [207 213])
+            ("Y_AXIS" variable (:constant-flag t) nil [224 230])
+            ("Z_AXIS" variable (:constant-flag t) nil [241 247])
+            ("A_AXIS" variable (:constant-flag t) nil [258 264])
+            ("C_AXIS" variable (:constant-flag t) nil [275 281])
+            ("max" variable (:constant-flag t) nil [292 295])
+            ("motion_buffer_size" variable (:constant-flag t) nil [336 354])
             ("motion_block_t" type
                (:typedef ("" type
                      (:members 
                         ( ("steps" variable
                              (:dereference 1
                               :type ("uint32_t" type (:type "class") nil nil))
-                              (reparse-symbol classsubparts) [409 432])
-                          ("step_count" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [437 457])
-                          ("step_event_count" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [483 509])
-                          ("flat_speed" variable (:type "float") (reparse-symbol classsubparts) [696 713])
-                          ("ac_speed" variable (:type "float") (reparse-symbol classsubparts) [719 734]))                        
+                              (reparse-symbol classsubparts) [411 434])
+                          ("step_count" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [439 459])
+                          ("step_event_count" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [485 511])
+                          ("flat_speed" variable (:type "float") (reparse-symbol classsubparts) [698 715])
+                          ("ac_speed" variable (:type "float") (reparse-symbol classsubparts) [721 736]))                        
                       :type "struct")
                       nil nil)
                 :type "typedef")
-                nil [357 926])
+                nil [359 928])
             ("segment_t" type
                (:typedef ("" type
                      (:members 
-                        ( ("n_step" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [955 971])
-                          ("st_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1042 1065]))                        
+                        ( ("n_step" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [957 973])
+                          ("st_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1044 1067]))                        
                       :type "struct")
                       nil nil)
                 :type "typedef")
-                nil [932 1156])
+                nil [934 1158])
             ("segment_buffer" variable
                (:dereference 1
                 :typemodifiers ("static")
                 :type ("segment_t" type (:type "class") nil nil))
-                nil [1159 1211])
+                nil [1161 1213])
             ("stepper_t" type
                (:typedef ("" type
                      (:members 
-                        ( ("counter_x" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1362 1518])
-                          ("counter_y" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1362 1518])
-                          ("counter_z" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1362 1518])
-                          ("counter_a" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1362 1518])
-                          ("counter_c" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1362 1518])
-                          ("execute_step" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1523 1544])
-                          ("step_pulse_time" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1597 1621])
-                          ("step_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1668 1689])
-                          ("dir_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1741 1761])
-                          ("step_count" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1766 1786])
-                          ("exec_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1841 1866])
+                        ( ("counter_x" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1364 1520])
+                          ("counter_y" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1364 1520])
+                          ("counter_z" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1364 1520])
+                          ("counter_a" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1364 1520])
+                          ("counter_c" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1364 1520])
+                          ("execute_step" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1525 1546])
+                          ("step_pulse_time" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1599 1623])
+                          ("step_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1670 1691])
+                          ("dir_outbits" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1743 1763])
+                          ("step_count" variable (:type ("uint16_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1768 1788])
+                          ("exec_block_index" variable (:type ("uint8_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1843 1868])
                           ("exec_block" variable
                              (:pointer 1
                               :type ("motion_block_t" type (:type "class") nil nil))
-                              (reparse-symbol classsubparts) [1937 1964])
+                              (reparse-symbol classsubparts) [1939 1966])
                           ("exec_segment" variable
                              (:pointer 1
                               :type ("segment_t" type (:type "class") nil nil))
-                              (reparse-symbol classsubparts) [2031 2055]))                        
+                              (reparse-symbol classsubparts) [2033 2057]))                        
                       :type "struct")
                       nil nil)
                 :type "typedef")
-                nil [1295 2110])
+                nil [1297 2112])
             ("st" variable
                (:typemodifiers ("static")
                 :type ("stepper_t" type (:type "class") nil nil))
-                nil [2113 2133])
+                nil [2115 2135])
             ("arr" variable
                (:dereference 2
                 :typemodifiers ("volatile")
@@ -88,32 +104,32 @@
     {4,4,0,0,0}
 }"
                 :type "int")
-                nil [2137 2293])
+                nil [2139 2295])
             ("x_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "0"
                 :type "int")
-                nil [2300 2326])
+                nil [2302 2328])
             ("y_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "0"
                 :type "int")
-                nil [2327 2353])
+                nil [2329 2355])
             ("z_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "0"
                 :type "int")
-                nil [2354 2380])
+                nil [2356 2382])
             ("a_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "0"
                 :type "int")
-                nil [2381 2407])
+                nil [2383 2409])
             ("c_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "0"
                 :type "int")
-                nil [2408 2434])
+                nil [2410 2436])
             ("velarr" variable
                (:dereference 2
                 :typemodifiers ("volatile")
@@ -125,7 +141,7 @@
     {5.0}
 }"
                 :type "float")
-                nil [2437 2544])
+                nil [2439 2546])
             ("acarr" variable
                (:dereference 2
                 :typemodifiers ("volatile")
@@ -137,40 +153,40 @@
     {0.5}
 }"
                 :type "float")
-                nil [2547 2653])
+                nil [2549 2655])
             ("motion_buffer_head" variable
                (:typemodifiers ("volatile")
                 :type "int")
-                nil [2658 2690])
+                nil [2660 2692])
             ("motion_buffer" variable
                (:dereference 1
                 :typemodifiers ("static")
                 :type ("motion_block_t" type (:type "class") nil nil))
-                nil [2692 2748])
+                nil [2694 2750])
             ("init_enable" variable
                (:typemodifiers ("volatile")
                 :default-value "1"
                 :type "int")
-                nil [2749 2778])
+                nil [2751 2780])
             ("step_events_completed" variable
                (:default-value "0"
                 :type "int")
-                nil [2781 2811])
-            ("main" function (:type "int") nil [2815 7045]))          
+                nil [2783 2813])
+            ("main" function (:type "int") nil [2817 7089]))          
       :file "main.c"
-      :pointmax 7047
-      :fsize 7046
-      :lastmodtime '(24170 59982 156907 13000)
+      :pointmax 7091
+      :fsize 7089
+      :lastmodtime '(24193 20965 171001 350000)
       :unmatched-syntax nil
       :lexical-table 
-        '(("X_AXIS" . ((number "0" 212 . 213)))
-          ("N_AXIS" . ((number "5" 116 . 117)))
-          ("A_AXIS" . ((number "3" 263 . 264)))
-          ("max" (spp-arg-list ("a" "b") 293 . 298) . ((semantic-list "(((a) > (b)) ? (a) : (b))" 299 . 324)))
-          ("Z_AXIS" . ((number "2" 246 . 247)))
-          ("C_AXIS" . ((number "4" 280 . 281)))
-          ("Y_AXIS" . ((number "1" 229 . 230)))
-          ("motion_buffer_size" . ((number "6" 353 . 354)))
+        '(("X_AXIS" . ((number "0" 218 . 219)))
+          ("N_AXIS" . ((number "5" 118 . 119)))
+          ("A_AXIS" . ((number "3" 269 . 270)))
+          ("max" (spp-arg-list ("a" "b") 299 . 304) . ((semantic-list "(((a) > (b)) ? (a) : (b))" 305 . 330)))
+          ("Z_AXIS" . ((number "2" 252 . 253)))
+          ("C_AXIS" . ((number "4" 286 . 287)))
+          ("Y_AXIS" . ((number "1" 235 . 236)))
+          ("motion_buffer_size" . ((number "6" 359 . 360)))
           )
 ))
   :file "!home!al!Documents!c_practice!bresenham_algorithm!bresenham_isr!backup_main_march12!semantic.cache"

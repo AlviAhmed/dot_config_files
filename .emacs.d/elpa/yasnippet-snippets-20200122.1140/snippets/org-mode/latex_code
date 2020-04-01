@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: latex_code
+# key: latex_code
+# --
+#+LATEX:  
+#+LATEX: \definecolor{codegreen}{rgb}{0,0.6,0}
+#+LATEX: \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+#+LATEX: \definecolor{codepurple}{rgb}{0.58,0,0.82}
+#+LATEX: \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+#+LATEX:  
+#+LATEX: \lstdefinestyle{mystyle}{
+#+LATEX:     backgroundcolor=\color{backcolour},   
+#+LATEX:     commentstyle=\color{codegreen},
+#+LATEX:     keywordstyle=\color{magenta},
+#+LATEX:     numberstyle=\tiny\color{codegray},
+#+LATEX:     stringstyle=\color{codepurple},
+#+LATEX:     basicstyle=\ttfamily\footnotesize,
+#+LATEX:     breakatwhitespace=false,         
+#+LATEX:     breaklines=true,                 
+#+LATEX:     captionpos=b,                    
+#+LATEX:     keepspaces=true,                 
+#+LATEX:     numbers=left,                    
+#+LATEX:     numbersep=5pt,                  
+#+LATEX:     showspaces=false,                
+#+LATEX:     showstringspaces=false,
+#+LATEX:     showtabs=false,                  
+#+LATEX:     tabsize=2
+#+LATEX: }
+#+LATEX:  

@@ -1,0 +1,98 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [139 157])
+            ("stdlib.h" include (:system-flag t) nil [158 177])
+            ("unistd.h" include (:system-flag t) nil [178 197])
+            ("fcntl.h" include (:system-flag t) nil [198 216])
+            ("time.h" include (:system-flag t) nil [217 234])
+            ("sys/mman.h" include (:system-flag t) nil [235 256])
+            ("hwlib.h" include nil nil [257 275])
+            ("socal/socal.h" include nil nil [276 300])
+            ("socal/hps.h" include nil nil [301 323])
+            ("socal/alt_gpio.h" include nil nil [324 351])
+            ("hps_0.h" include nil nil [352 370])
+            ("LW_SIZE" variable (:constant-flag t) nil [380 387])
+            ("LWHPS2FPGA_BASE" variable (:constant-flag t) nil [407 422])
+            ("mult_control" variable
+               (:pointer 1
+                :typemodifiers ("volatile")
+                :default-value "NULL"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [435 474])
+            ("mult_data" variable
+               (:pointer 1
+                :typemodifiers ("volatile")
+                :default-value "NULL"
+                :type ("uint32_t" type (:type "class") nil nil))
+                nil [475 511])
+            ("success" variable (:type "int") nil [512 531])
+            ("total" variable (:type "int") nil [512 531])
+            ("reset_system" function (:type "void") nil [533 761])
+            ("copy_to_input" function
+               (:arguments 
+                  ( ("a" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [782 793])
+                    ("b" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [794 805]))                  
+                :type "void")
+                nil [763 1091])
+            ("copy_output" function (:type "void") nil [1093 1637])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1648 1657])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1658 1670]))                  
+                :type "int")
+                nil [1639 2784]))          
+      :file "main.c"
+      :pointmax 2785
+      :fsize 2901
+      :lastmodtime '(24176 9744 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LW_SIZE" . ((number "0x00200000" 388 . 398)))
+          ("LWHPS2FPGA_BASE" . ((number "0xff200000" 423 . 433)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_ALTERA_HPS_0_H_" variable (:constant-flag t) nil [34 50])
+            ("MULT_DATA_0_COMPONENT_TYPE" variable (:constant-flag t) nil [781 807])
+            ("MULT_DATA_0_COMPONENT_NAME" variable (:constant-flag t) nil [826 852])
+            ("MULT_DATA_0_BASE" variable (:constant-flag t) nil [873 889])
+            ("MULT_DATA_0_SPAN" variable (:constant-flag t) nil [902 918])
+            ("MULT_DATA_0_END" variable (:constant-flag t) nil [930 945])
+            ("MULT_CONTROL_0_COMPONENT_TYPE" variable (:constant-flag t) nil [1117 1146])
+            ("MULT_CONTROL_0_COMPONENT_NAME" variable (:constant-flag t) nil [1168 1197])
+            ("MULT_CONTROL_0_BASE" variable (:constant-flag t) nil [1221 1240])
+            ("MULT_CONTROL_0_SPAN" variable (:constant-flag t) nil [1254 1273])
+            ("MULT_CONTROL_0_END" variable (:constant-flag t) nil [1285 1303]))          
+      :file "hps_0.h"
+      :pointmax 1341
+      :fsize 1386
+      :lastmodtime '(24176 9744 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MULT_DATA_0_COMPONENT_NAME" . ((symbol "mult_data_0" 853 . 864)))
+          ("_ALTERA_HPS_0_H_")
+          ("MULT_CONTROL_0_COMPONENT_TYPE" . ((symbol "mult_control" 1147 . 1159)))
+          ("MULT_DATA_0_BASE" . ((number "0x0" 890 . 893)))
+          ("MULT_DATA_0_END" . ((number "0x3f" 946 . 950)))
+          ("MULT_CONTROL_0_BASE" . ((number "0x40" 1241 . 1245)))
+          ("MULT_CONTROL_0_COMPONENT_NAME" . ((symbol "mult_control_0" 1198 . 1212)))
+          ("MULT_CONTROL_0_END" . ((number "0x7f" 1304 . 1308)))
+          ("MULT_DATA_0_SPAN" . ((number "64" 919 . 921)))
+          ("MULT_DATA_0_COMPONENT_TYPE" . ((symbol "mult_data" 808 . 817)))
+          ("MULT_CONTROL_0_SPAN" . ((number "64" 1274 . 1276)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem2!COE838!af_lab4!lab4!software!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: latex_code_
+# key: my
+# -- 
+#+LaTeX_CLASS: mycustom 

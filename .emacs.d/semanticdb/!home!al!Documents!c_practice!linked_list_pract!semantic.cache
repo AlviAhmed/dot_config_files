@@ -1,0 +1,74 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [25 44])
+            ("user_size" variable (:constant-flag t) nil [56 65])
+            ("node" type
+               (:members 
+                  ( ("data" variable (:type "int") (reparse-symbol classsubparts) [95 104])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [108 126]))                  
+                :type "struct")
+                nil [70 194])
+            ("node" type
+               (:typedef ("node" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [70 194])
+            ("head" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("node" type (:type "class") nil nil))
+                nil [252 270])
+            ("current" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("node" type (:type "class") nil nil))
+                nil [312 333])
+            ("stack" variable
+               (:dereference 1
+                :typemodifiers ("volatile")
+                :default-value "{0}"
+                :type "int")
+                nil [335 364])
+            ("top" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [391 412])
+            ("printer" function (:type "void") nil [415 785])
+            ("insert" function
+               (:arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :type ("node" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [800 811]))                  
+                :type "void")
+                nil [788 1112])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1124 1129]))                  
+                :type "int")
+                nil [1114 1216]))          
+      :file "main.c"
+      :pointmax 1220
+      :fsize 1217
+      :lastmodtime '(24165 22621 646800 545000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("user_size" . ((number "4" 64 . 65)))
+          )
+))
+  :file "!home!al!Documents!c_practice!linked_list_pract!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

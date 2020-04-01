@@ -1,0 +1,180 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [2 25])
+            ("Customer" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("state" variable
+                       (:typemodifiers ("private")
+                        :type "State")
+                        (reparse-symbol class_member_declaration) [132 152])
+                    ("username" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [243 282])
+                    ("password" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [287 326])
+                    ("role" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [331 366])
+                    ("balance" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [371 394])
+                    ("Customer" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("un" variable (:type "String") (reparse-symbol formal_parameters) [528 537])
+                            ("pass" variable (:type "String") (reparse-symbol formal_parameters) [539 550])
+                            ("role" variable (:type "String") (reparse-symbol formal_parameters) [552 563]))                          )
+                        (reparse-symbol class_member_declaration) [512 735])
+                    ("Login" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("un" variable (:type "String") (reparse-symbol formal_parameters) [777 786])
+                            ("Pass" variable (:type "String") (reparse-symbol formal_parameters) [788 799]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [759 910])
+                    ("Logout" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [917 982])
+                    ("Deposit" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("depo" variable (:type "double") (reparse-symbol formal_parameters) [1007 1018]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [987 1103])
+                    ("WithDraw" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("with" variable (:type "double") (reparse-symbol formal_parameters) [1130 1141]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1109 1230])
+                    ("getBalance" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1236 1294])
+                    ("something" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1299 1321])
+                    ("doOnlinePurchase" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [1326 1393]))                  
+                :type "class")
+                nil [74 1395]))          
+      :file "Customer.java"
+      :pointmax 1396
+      :fsize 1395
+      :lastmodtime '(24196 41729 138561 574000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [1 24])
+            ("Silver" type
+               (:typemodifiers ("public")
+                :interfaces ("State")
+                :members 
+                  ( ("addBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [114 136])
+                    ("minusBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [141 165]))                  
+                :type "class")
+                nil [71 167]))          
+      :file "Silver.java"
+      :pointmax 168
+      :fsize 167
+      :lastmodtime '(24196 41609 511959 354000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [1 24])
+            ("State" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("addBalance" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cust" variable (:type "Customer") (reparse-symbol formal_parameters) [124 137]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [101 139])
+                    ("minusBalance" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cust" variable (:type "Customer") (reparse-symbol formal_parameters) [169 182]))                          
+                        :type "void")
+                        (reparse-symbol interface_member_declaration) [144 184]))                  
+                :type "interface")
+                nil [71 186]))          
+      :file "State.java"
+      :pointmax 187
+      :fsize 186
+      :lastmodtime '(24196 41673 485351 656000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [1 24])
+            ("Gold" type
+               (:typemodifiers ("public")
+                :interfaces ("State")
+                :members 
+                  ( ("addBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [111 133])
+                    ("minusBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [138 162]))                  
+                :type "class")
+                nil [71 164]))          
+      :file "Gold.java"
+      :pointmax 165
+      :fsize 164
+      :lastmodtime '(24196 41535 790352 773000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [1 24])
+            ("Platinum" type
+               (:typemodifiers ("public")
+                :interfaces ("State")
+                :members 
+                  ( ("addBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [115 137])
+                    ("minusBalance" variable
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [142 166]))                  
+                :type "class")
+                nil [71 168]))          
+      :file "Platinum.java"
+      :pointmax 169
+      :fsize 168
+      :lastmodtime '(24196 41523 426083 92000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!coe528_project!actual_project_files!Lab5_project!src!coe528!project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

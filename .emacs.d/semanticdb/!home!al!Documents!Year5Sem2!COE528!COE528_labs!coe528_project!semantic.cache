@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("javafx.application.Application" include nil nil [3 41])
+            ("javafx.scene.Scene" include nil nil [42 68])
+            ("javafx.scene.control.Button" include nil nil [69 104])
+            ("javafx.scene.layout.StackPane" include nil nil [105 142])
+            ("javafx.stage.Stage" include nil nil [143 169])
+            ("ButtonInPane" type
+               (:typemodifiers ("public")
+                :superclasses "Application"
+                :members 
+                  ( ("start" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [305 323]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [287 698])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [868 881]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [844 906]))                  
+                :type "class")
+                nil [171 908]))          
+      :file "ButtonInPane.java"
+      :pointmax 909
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("javafx.application.Application" include nil nil [1 39])
+            ("javafx.scene.Scene" include nil nil [40 66])
+            ("javafx.scene.control.Button" include nil nil [67 102])
+            ("javafx.stage.Stage" include nil nil [103 129])
+            ("MyJavaFX" type
+               (:typemodifiers ("public")
+                :superclasses "Application"
+                :members 
+                  ( ("start" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [270 288]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [252 625])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [805 818]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [781 849]))                  
+                :type "class")
+                nil [132 851]))          
+      :file "MyJavaFx.java"
+      :pointmax 852
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!COE528_labs!coe528_project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

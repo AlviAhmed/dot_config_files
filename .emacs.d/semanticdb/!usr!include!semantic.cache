@@ -10023,6 +10023,2554 @@
         '(("_STRINGS_H" . ((number "1" 828 . 829)))
           ("__need_size_t")
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_WCHAR_H" variable (:constant-flag t) nil [915 923])
+            ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION" variable (:constant-flag t) nil [935 982])
+            ("bits/libc-header-start.h" include (:system-flag t) nil [983 1018])
+            ("bits/floatn.h" include (:system-flag t) nil [1066 1090])
+            ("__need_size_t" variable (:constant-flag t) nil [1100 1113])
+            ("__need_wchar_t" variable (:constant-flag t) nil [1122 1136])
+            ("__need_NULL" variable (:constant-flag t) nil [1145 1156])
+            ("stddef.h" include (:system-flag t) nil [1157 1176])
+            ("__need___va_list" variable (:constant-flag t) nil [1186 1202])
+            ("stdarg.h" include (:system-flag t) nil [1203 1222])
+            ("bits/wchar.h" include (:system-flag t) nil [1224 1247])
+            ("bits/types/wint_t.h" include (:system-flag t) nil [1248 1278])
+            ("bits/types/mbstate_t.h" include (:system-flag t) nil [1279 1312])
+            ("bits/types/__FILE.h" include (:system-flag t) nil [1313 1343])
+            ("bits/types/FILE.h" include (:system-flag t) nil [1395 1424])
+            ("bits/types/locale_t.h" include (:system-flag t) nil [1454 1487])
+            ("WCHAR_MIN" variable (:constant-flag t) nil [1745 1754])
+            ("WCHAR_MAX" variable (:constant-flag t) nil [1776 1785])
+            ("WEOF" variable (:constant-flag t) nil [1828 1832])
+            ("wcsftime_l" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [30703 30727])
+                    ("__maxsize" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30728 30745])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [30751 30786])
+                    ("__tp" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30792 30825])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30831 30846]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30677 30855])
+            ("wcsftime" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [30420 30444])
+                    ("__maxsize" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [30445 30462])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [30466 30501])
+                    ("__tp" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("tm" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [30505 30538]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30396 30547])
+            ("fputws_unlocked" function
+               (:type "int"
+                :arguments 
+                  ( ("__ws" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [30141 30172])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [30180 30208]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30113 30209])
+            ("fgetws_unlocked" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__ws" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [29729 29754])
+                    ("__n" variable (:type "int") (reparse-symbol arg-sub-list) [29755 29763])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29769 29797]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29696 29798])
+            ("putwchar_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [29366 29379]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29333 29380])
+            ("putwc_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [29300 29313])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29314 29331]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29270 29332])
+            ("fputwc_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [28901 28914])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28915 28932]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [28870 28933])
+            ("fgetwc_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28561 28578]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [28530 28579])
+            ("getwchar_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [28224 28229]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [28191 28230])
+            ("getwc_unlocked" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28172 28189]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [28142 28190])
+            ("ungetwc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [27756 27768])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [27769 27786]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [27733 27787])
+            ("fputws" function
+               (:type "int"
+                :arguments 
+                  ( ("__ws" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [27509 27540])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [27546 27574]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [27490 27575])
+            ("fgetws" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__ws" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [27295 27320])
+                    ("__n" variable (:type "int") (reparse-symbol arg-sub-list) [27321 27329])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [27333 27361]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [27271 27362])
+            ("putwchar" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [27074 27087]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [27050 27088])
+            ("putwc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [26887 26900])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26901 26918]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26866 26919])
+            ("fputwc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [26833 26846])
+                    ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26847 26864]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26811 26865])
+            ("getwchar" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [26671 26676]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26647 26677])
+            ("getwc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26498 26515]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26477 26516])
+            ("fgetwc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26458 26475]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [26436 26476])
+            ("vswscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [24820 24850])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [24858 24893])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24901 24922]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [24799 24990])
+            ("vwscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [24616 24651])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24658 24679]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [24596 24739])
+            ("vfwscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24284 24307])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [24315 24350])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24358 24379]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [24263 24439])
+            ("swscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [22567 22597])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [22604 22639])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [22640 22644]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [22547 22712])
+            ("wscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [22410 22445])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [22446 22450]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [22391 22510])
+            ("fwscanf" function
+               (:type "int"
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22122 22150])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [22157 22192])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [22193 22197]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [22102 22257])
+            ("vswprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [21786 21810])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21811 21822])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [21831 21866])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21875 21896]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [21764 21965])
+            ("vwprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [21553 21588])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21596 21617]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [21532 21678])
+            ("vfwprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21216 21239])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [21248 21283])
+                    ("__arg" variable (:type ("__gnuc_va_list" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21292 21313]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [21194 21374])
+            ("swprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [20887 20911])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20912 20923])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [20931 20966])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [20967 20971]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [20866 21040])
+            ("wprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [20704 20739])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [20740 20744]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [20684 20805])
+            ("fwprintf" function
+               (:type "int"
+                :arguments 
+                  ( ("__stream" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20412 20440])
+                    ("__format" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [20448 20483])
+                    ("..." variable (:type "vararg") (reparse-symbol arg-sub-list) [20484 20488]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [20391 20549])
+            ("fwide" function
+               (:type "int"
+                :arguments 
+                  ( ("__fp" variable
+                       (:pointer 1
+                        :type ("__FILE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20220 20233])
+                    ("__mode" variable (:type "int") (reparse-symbol arg-sub-list) [20234 20245]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [20202 20254])
+            ("open_wmemstream" function
+               (:type ("__FILE" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__bufloc" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [20058 20077])
+                    ("__sizeloc" variable
+                       (:pointer 1
+                        :type ("size_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20078 20096]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [20026 20105])
+            ("wcpncpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [19734 19761])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [19766 19798])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [19799 19810]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [19709 19824])
+            ("wcpcpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [19515 19542])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [19546 19578]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [19491 19587])
+            ("wcstold_l" function
+               (:type "long double"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [18106 18139])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [18149 18179])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18189 18204]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [18076 18213])
+            ("wcstof_l" function
+               (:type "float"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17971 18004])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [18014 18044])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18045 18060]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17948 18074])
+            ("wcstod_l" function
+               (:type "double"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17849 17882])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17886 17916])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17917 17932]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17825 17946])
+            ("wcstoull_l" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17703 17736])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17744 17774])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [17782 17793])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17794 17809]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17682 17823])
+            ("wcstoll_l" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17536 17569])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17574 17604])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [17609 17620])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17621 17636]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17516 17645])
+            ("wcstoul_l" function
+               (:type "unsigned long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17371 17404])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17413 17443])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [17452 17463])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17464 17479]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17335 17488])
+            ("wcstol_l" function
+               (:type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17222 17255])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [17261 17291])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [17292 17303])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17309 17324]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [17196 17333])
+            ("wcstouq" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16860 16893])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16905 16935])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [16947 16958]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16842 16967])
+            ("wcstoq" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16609 16642])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16651 16681])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [16682 16693]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16592 16707])
+            ("wcstoull" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16340 16373])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16379 16409])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [16415 16426]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16321 16435])
+            ("wcstoll" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16087 16120])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [16130 16160])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [16161 16172]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [16069 16186])
+            ("wcstoul" function
+               (:type "unsigned long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [15836 15869])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [15876 15906])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [15907 15918]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15802 15932])
+            ("wcstol" function
+               (:type "long int"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [15619 15652])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [15656 15686])
+                    ("__base" variable (:type "int") (reparse-symbol arg-sub-list) [15687 15698]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [15595 15707])
+            ("wcstold" function
+               (:type "long double"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [14244 14277])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [14285 14315]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14216 14324])
+            ("wcstof" function
+               (:type "float"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [14135 14168])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [14176 14206]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [14114 14215])
+            ("wcstod" function
+               (:type "double"
+                :arguments 
+                  ( ("__nptr" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [13932 13965])
+                    ("__endptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [13974 14004]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13910 14013])
+            ("wcswidth" function
+               (:type "int"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [13755 13774])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13775 13786]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13734 13795])
+            ("wcwidth" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [13588 13600]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13568 13609])
+            ("wcsnrtombs" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dst" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13254 13277])
+                    ("__src" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [13283 13316])
+                    ("__nwc" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13322 13335])
+                    ("__len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13336 13349])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13355 13382]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [13228 13391])
+            ("mbsnrtowcs" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dst" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [12974 13000])
+                    ("__src" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [13006 13036])
+                    ("__nmc" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13037 13050])
+                    ("__len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13056 13069])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13070 13097]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12948 13106])
+            ("wcsrtombs" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dst" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12694 12717])
+                    ("__src" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [12722 12755])
+                    ("__len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12756 12769])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12774 12801]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12669 12810])
+            ("mbsrtowcs" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dst" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [12463 12489])
+                    ("__src" variable
+                       (:pointer 2
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [12494 12524])
+                    ("__len" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12525 12538])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12543 12570]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [12438 12579])
+            ("mbrlen" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11336 11363])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11364 11375])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11384 11411]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11314 11420])
+            ("__mbrlen" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11234 11261])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11262 11273])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11277 11304]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11210 11313])
+            ("wcrtomb" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [11057 11078])
+                    ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [11079 11092])
+                    ("__ps" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11102 11129]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [11034 11138])
+            ("mbrtowc" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__pwc" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [10847 10873])
+                    ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [10883 10910])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10911 10922])
+                    ("__p" variable
+                       (:pointer 1
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10932 10958]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10824 10967])
+            ("mbsinit" function
+               (:type "int"
+                :arguments 
+                  ( ("__ps" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mbstate_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10679 10701]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10659 10729])
+            ("wctob" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10554 10565]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10536 10574])
+            ("btowc" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [10384 10392]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10363 10401])
+            ("wmempcpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [10183 10208])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [10214 10245])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10246 10257]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [10157 10271])
+            ("wmemset" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9995 10008])
+                    ("__c" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [10009 10021])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10022 10033]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9970 10042])
+            ("wmemmove" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9867 9881])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9882 9902])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9903 9914]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9841 9928])
+            ("wmemcpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9653 9678])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9683 9714])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9715 9726]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9628 9735])
+            ("wmemcmp" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9494 9514])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9515 9535])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9536 9547]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9474 9580])
+            ("wmemchr" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [9341 9360])
+                    ("__c" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [9361 9373])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9374 9385]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [9316 9418])
+            ("wcsnlen" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8885 8904])
+                    ("__maxlen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8905 8921]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8862 8954])
+            ("wcswcs" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__haystack" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8669 8695])
+                    ("__needle" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8696 8720]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8645 8753])
+            ("wcslen" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8214 8233]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8192 8261])
+            ("wcstok" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8038 8062])
+                    ("__delim" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8066 8100])
+                    ("__ptr" variable
+                       (:pointer 2
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [8104 8131]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8014 8140])
+            ("wcsstr" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__haystack" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [7857 7883])
+                    ("__needle" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [7884 7908]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7833 7941])
+            ("wcspbrk" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__wcs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [7373 7394])
+                    ("__accept" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [7395 7419]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7348 7452])
+            ("wcsspn" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wcs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6888 6909])
+                    ("__accept" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6910 6934]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6866 6967])
+            ("wcscspn" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wcs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6674 6695])
+                    ("__reject" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6696 6720]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6651 6753])
+            ("wcschrnul" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6461 6480])
+                    ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [6481 6494]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6434 6527])
+            ("wcsrchr" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__wcs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [6203 6224])
+                    ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [6225 6238]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6178 6271])
+            ("wcschr" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__wcs" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [5775 5796])
+                    ("__wc" variable (:type "wchar_t") (reparse-symbol arg-sub-list) [5797 5810]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5751 5843])
+            ("wcsdup" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__s" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [5369 5388]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5345 5418])
+            ("wcsxfrm_l" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [5207 5221])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [5222 5242])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5247 5258])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5259 5274]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5182 5283])
+            ("wcscoll_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4929 4949])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4950 4970])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4979 4994]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4907 5003])
+            ("wcsxfrm" function
+               (:type ("size_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4564 4589])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4599 4630])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4631 4642]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4541 4651])
+            ("wcscoll" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4313 4333])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4334 4354]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4293 4363])
+            ("wcsncasecmp_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4090 4110])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4111 4131])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4137 4148])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4149 4164]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4064 4173])
+            ("wcscasecmp_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3992 4012])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [4013 4033])
+                    ("__loc" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4038 4053]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3967 4062])
+            ("wcsncasecmp" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3778 3798])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3799 3819])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3823 3834]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3754 3843])
+            ("wcscasecmp" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3637 3657])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3658 3678]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3614 3687])
+            ("wcsncmp" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3444 3464])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3465 3485])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3486 3497]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3424 3549])
+            ("wcscmp" function
+               (:type "int"
+                :arguments 
+                  ( ("__s1" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3283 3303])
+                    ("__s2" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3304 3324]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3264 3376])
+            ("wcsncat" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3127 3154])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [3159 3191])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3192 3203]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3102 3236])
+            ("wcscat" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2942 2969])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2973 3005]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2918 3038])
+            ("wcsncpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2778 2805])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2810 2842])
+                    ("__n" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2843 2854]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2753 2887])
+            ("wcscpy" function
+               (:type "wchar_t"
+                :arguments 
+                  ( ("__dest" variable
+                       (:pointer 1
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2596 2623])
+                    ("__src" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "wchar_t")
+                        (reparse-symbol arg-sub-list) [2627 2659]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2572 2692])
+            ("tm" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :prototype t)
+                (reparse-symbol extern-c-contents) [2534 2544]))          
+      :file "wchar.h"
+      :pointmax 31112
+      :fsize 31111
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax '((LONG 17677 . 17681) (UNSIGNED 17668 . 17676) (EXTERN 17661 . 17667) (LONG 17511 . 17515) (EXTERN 17504 . 17510) (LONG 16837 . 16841) (UNSIGNED 16828 . 16836) (EXTERN 16821 . 16827) (LONG 16587 . 16591) (EXTERN 16580 . 16586) (LONG 16316 . 16320) (UNSIGNED 16307 . 16315) (EXTERN 16300 . 16306) (LONG 16064 . 16068) (EXTERN 16057 . 16063))
+      :lexical-table 
+        '(("WEOF" . ((semantic-list "(0xffffffffu)" 1833 . 1846)))
+          ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION")
+          ("__need_size_t")
+          ("__need_wchar_t")
+          ("WCHAR_MAX" . ((symbol "__WCHAR_MAX" 1786 . 1797)))
+          ("WCHAR_MIN" . ((symbol "__WCHAR_MIN" 1755 . 1766)))
+          ("_WCHAR_H" . ((number "1" 924 . 925)))
+          ("__need_NULL")
+          ("__need___va_list")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_CTYPE_H" variable (:constant-flag t) nil [877 885])
+            ("features.h" include (:system-flag t) nil [889 910])
+            ("bits/types.h" include (:system-flag t) nil [911 934])
+            ("toascii_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10818 10827])
+            ("isascii_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10769 10778])
+            ("isblank_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10699 10708])
+            ("isxdigit_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10648 10658])
+            ("isupper_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10600 10609])
+            ("isspace_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10552 10561])
+            ("ispunct_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10504 10513])
+            ("isprint_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10456 10465])
+            ("isgraph_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10408 10417])
+            ("islower_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10360 10369])
+            ("isdigit_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10312 10321])
+            ("iscntrl_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10264 10273])
+            ("isalpha_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10216 10225])
+            ("isalnum_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10168 10177])
+            ("__toascii_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10110 10121])
+            ("__isascii_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [10061 10072])
+            ("__isblank_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9980 9991])
+            ("__isxdigit_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9918 9930])
+            ("__isupper_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9859 9870])
+            ("__isspace_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9800 9811])
+            ("__ispunct_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9741 9752])
+            ("__isprint_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9682 9693])
+            ("__isgraph_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9623 9634])
+            ("__islower_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9564 9575])
+            ("__isdigit_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9505 9516])
+            ("__iscntrl_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9446 9457])
+            ("__isalpha_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9387 9398])
+            ("__isalnum_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9328 9339])
+            ("toupper_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [8843 8851])
+                    ("__l" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8852 8865]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8821 8874])
+            ("__toupper_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [8789 8797])
+                    ("__l" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8798 8811]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8765 8820])
+            ("tolower_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [8690 8698])
+                    ("__l" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8699 8712]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8668 8721])
+            ("__tolower_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [8636 8644])
+                    ("__l" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8645 8658]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8612 8667])
+            ("isblank_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8531 8555])
+            ("isxdigit_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8504 8529])
+            ("isupper_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8479 8503])
+            ("isspace_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8454 8478])
+            ("ispunct_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8429 8453])
+            ("isprint_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8404 8428])
+            ("isgraph_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8379 8403])
+            ("islower_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8354 8378])
+            ("isdigit_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8329 8353])
+            ("iscntrl_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8304 8328])
+            ("isalpha_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8279 8303])
+            ("isalnum_l" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil)
+                    ("" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [8254 8278])
+            ("__exctype_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7961 7972])
+            ("__isctype_l" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7857 7868])
+            ("bits/types/locale_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [7671 7704])
+            ("_toupper" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7489 7497])
+            ("_tolower" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7422 7430])
+            ("toascii" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7386 7393])
+            ("isascii" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7351 7358])
+            ("__tobody" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5347 5355])
+            ("_tolower" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5214 5235])
+            ("_toupper" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5192 5213])
+            ("toascii" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [5038 5046]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5018 5055])
+            ("isascii" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [4908 4916]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4888 4925])
+            ("isctype" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [4715 4723])
+                    ("__mask" variable (:type "int") (reparse-symbol arg-sub-list) [4724 4735]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4695 4744])
+            ("isblank" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4585 4605])
+            ("toupper" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [4501 4509]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4481 4518])
+            ("tolower" function
+               (:type "int"
+                :arguments 
+                  ( ("__c" variable (:type "int") (reparse-symbol arg-sub-list) [4420 4428]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4400 4437])
+            ("isxdigit" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4334 4355])
+            ("isupper" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4313 4333])
+            ("isspace" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4292 4312])
+            ("ispunct" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4271 4291])
+            ("isprint" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4250 4270])
+            ("isgraph" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4229 4249])
+            ("islower" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4208 4228])
+            ("isdigit" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4187 4207])
+            ("iscntrl" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4166 4186])
+            ("isalpha" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4145 4165])
+            ("isalnum" function
+               (:type "int"
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) nil))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4124 4144])
+            ("__exctype" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3877 3886])
+            ("__toascii" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3814 3823])
+            ("__isascii" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3742 3751])
+            ("__ctype_toupper_loc" function
+               (:type ("__int32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3317 3322]))                  
+                :constant-flag t
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 2
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3271 3364])
+            ("__ctype_tolower_loc" function
+               (:type ("__int32_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3223 3228]))                  
+                :constant-flag t
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 2
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3177 3270])
+            ("__ctype_b_loc" function
+               (:type "unsigned short int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [3129 3134]))                  
+                :constant-flag t
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 2
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3080 3176])
+            ("" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "enum"
+                :members 
+                  ( ("_ISupper" variable
+                       (:constant-flag t
+                        :default-value (1558 1568)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1547 1568])
+                    ("_ISlower" variable
+                       (:constant-flag t
+                        :default-value (1601 1611)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1590 1611])
+                    ("_ISalpha" variable
+                       (:constant-flag t
+                        :default-value (1644 1654)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1633 1654])
+                    ("_ISdigit" variable
+                       (:constant-flag t
+                        :default-value (1688 1698)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1677 1698])
+                    ("_ISxdigit" variable
+                       (:constant-flag t
+                        :default-value (1730 1740)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1718 1740])
+                    ("_ISspace" variable
+                       (:constant-flag t
+                        :default-value (1783 1793)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1772 1793])
+                    ("_ISprint" variable
+                       (:constant-flag t
+                        :default-value (1827 1837)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1816 1837])
+                    ("_ISgraph" variable
+                       (:constant-flag t
+                        :default-value (1869 1879)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1858 1879])
+                    ("_ISblank" variable
+                       (:constant-flag t
+                        :default-value (1912 1922)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1901 1922])
+                    ("_IScntrl" variable
+                       (:constant-flag t
+                        :default-value (1973 1983)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [1962 1983])
+                    ("_ISpunct" variable
+                       (:constant-flag t
+                        :default-value (2024 2035)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2013 2035])
+                    ("_ISalnum" variable
+                       (:constant-flag t
+                        :default-value (2070 2081)
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2059 2081]))                  )
+                (reparse-symbol extern-c-contents) [1538 2105])
+            ("_ISbit" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1381 1387])
+            ("endian.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [1316 1336]))          
+      :file "ctype.h"
+      :pointmax 10964
+      :fsize 10963
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_ISbit" (spp-arg-list ("bit") 1387 . 1392) . ((semantic-list "(1 << (bit))" 1393 . 1405)))
+          ("__islower_l" (spp-arg-list ("c" "l") 9575 . 9580) . ((symbol "__isctype_l" 9581 . 9592) (semantic-list "((c), _ISlower, (l))" 9592 . 9612)))
+          ("__isspace_l" (spp-arg-list ("c" "l") 9811 . 9816) . ((symbol "__isctype_l" 9817 . 9828) (semantic-list "((c), _ISspace, (l))" 9828 . 9848)))
+          ("isdigit_l" (spp-arg-list ("c" "l") 10321 . 10326) . ((symbol "__isdigit_l" 10327 . 10338) (semantic-list "((c), (l))" 10339 . 10349)))
+          ("isprint_l" (spp-arg-list ("c" "l") 10465 . 10470) . ((symbol "__isprint_l" 10471 . 10482) (semantic-list "((c), (l))" 10483 . 10493)))
+          ("__isctype_l" (spp-arg-list ("c" "type" "locale") 7868 . 7885) . ((semantic-list "((locale)->__ctype_b[(int) (c)] & (unsigned short int) type)" 7890 . 7950)))
+          ("__toascii_l" (spp-arg-list ("c" "l") 10121 . 10126) . ((semantic-list "((l), __toascii (c))" 10127 . 10147)))
+          ("_CTYPE_H" . ((number "1" 886 . 887)))
+          ("isxdigit_l" (spp-arg-list ("c" "l") 10658 . 10663) . ((symbol "__isxdigit_l" 10664 . 10676) (semantic-list "((c), (l))" 10677 . 10687)))
+          ("isascii_l" (spp-arg-list ("c" "l") 10778 . 10783) . ((symbol "__isascii_l" 10784 . 10795) (semantic-list "((c), (l))" 10796 . 10806)))
+          ("__isdigit_l" (spp-arg-list ("c" "l") 9516 . 9521) . ((symbol "__isctype_l" 9522 . 9533) (semantic-list "((c), _ISdigit, (l))" 9533 . 9553)))
+          ("__isprint_l" (spp-arg-list ("c" "l") 9693 . 9698) . ((symbol "__isctype_l" 9699 . 9710) (semantic-list "((c), _ISprint, (l))" 9710 . 9730)))
+          ("isgraph_l" (spp-arg-list ("c" "l") 10417 . 10422) . ((symbol "__isgraph_l" 10423 . 10434) (semantic-list "((c), (l))" 10435 . 10445)))
+          ("__isascii_l" (spp-arg-list ("c" "l") 10072 . 10077) . ((semantic-list "((l), __isascii (c))" 10078 . 10098)))
+          ("ispunct_l" (spp-arg-list ("c" "l") 10513 . 10518) . ((symbol "__ispunct_l" 10519 . 10530) (semantic-list "((c), (l))" 10531 . 10541)))
+          ("__isascii" (spp-arg-list ("c") 3751 . 3754) . ((semantic-list "(((c) & ~0x7f) == 0)" 3755 . 3775)))
+          ("__exctype_l" (spp-arg-list ("name") 7972 . 7978) . 
+              ((EXTERN "extern" 7995 . 8001) (INT "int" 8002 . 8005) (symbol "name" 8006 . 8010) (semantic-list "(int, locale_t)" 8011 . 8026) (symbol "__THROW" 8027 . 8034)))
+          ("__toascii" (spp-arg-list ("c") 3823 . 3826) . ((semantic-list "((c) & 0x7f)" 3827 . 3839)))
+          ("__isgraph_l" (spp-arg-list ("c" "l") 9634 . 9639) . ((symbol "__isctype_l" 9640 . 9651) (semantic-list "((c), _ISgraph, (l))" 9651 . 9671)))
+          ("isalnum_l" (spp-arg-list ("c" "l") 10177 . 10182) . ((symbol "__isalnum_l" 10183 . 10194) (semantic-list "((c), (l))" 10195 . 10205)))
+          ("iscntrl_l" (spp-arg-list ("c" "l") 10273 . 10278) . ((symbol "__iscntrl_l" 10279 . 10290) (semantic-list "((c), (l))" 10291 . 10301)))
+          ("isupper_l" (spp-arg-list ("c" "l") 10609 . 10614) . ((symbol "__isupper_l" 10615 . 10626) (semantic-list "((c), (l))" 10627 . 10637)))
+          ("_tolower" (spp-arg-list ("c") 7430 . 7433) . ((semantic-list "((int) (*__ctype_tolower_loc ())[(int) (c)])" 7434 . 7478)))
+          ("__ispunct_l" (spp-arg-list ("c" "l") 9752 . 9757) . ((symbol "__isctype_l" 9758 . 9769) (semantic-list "((c), _ISpunct, (l))" 9769 . 9789)))
+          ("__exctype" (spp-arg-list ("name") 3886 . 3892) . 
+              ((EXTERN "extern" 3893 . 3899) (INT "int" 3900 . 3903) (symbol "name" 3904 . 3908) (semantic-list "(int)" 3909 . 3914) (symbol "__THROW" 3915 . 3922)))
+          ("isalpha_l" (spp-arg-list ("c" "l") 10225 . 10230) . ((symbol "__isalpha_l" 10231 . 10242) (semantic-list "((c), (l))" 10243 . 10253)))
+          ("isblank_l" (spp-arg-list ("c" "l") 10708 . 10713) . ((symbol "__isblank_l" 10714 . 10725) (semantic-list "((c), (l))" 10726 . 10736)))
+          ("isascii" (spp-arg-list ("c") 7358 . 7361) . ((symbol "__isascii" 7362 . 7371) (semantic-list "(c)" 7372 . 7375)))
+          ("__isalnum_l" (spp-arg-list ("c" "l") 9339 . 9344) . ((symbol "__isctype_l" 9345 . 9356) (semantic-list "((c), _ISalnum, (l))" 9356 . 9376)))
+          ("__iscntrl_l" (spp-arg-list ("c" "l") 9457 . 9462) . ((symbol "__isctype_l" 9463 . 9474) (semantic-list "((c), _IScntrl, (l))" 9474 . 9494)))
+          ("__isupper_l" (spp-arg-list ("c" "l") 9870 . 9875) . ((symbol "__isctype_l" 9876 . 9887) (semantic-list "((c), _ISupper, (l))" 9887 . 9907)))
+          ("islower_l" (spp-arg-list ("c" "l") 10369 . 10374) . ((symbol "__islower_l" 10375 . 10386) (semantic-list "((c), (l))" 10387 . 10397)))
+          ("isspace_l" (spp-arg-list ("c" "l") 10561 . 10566) . ((symbol "__isspace_l" 10567 . 10578) (semantic-list "((c), (l))" 10579 . 10589)))
+          ("toascii" (spp-arg-list ("c") 7393 . 7396) . ((symbol "__toascii" 7397 . 7406) (semantic-list "(c)" 7407 . 7410)))
+          ("__isxdigit_l" (spp-arg-list ("c" "l") 9930 . 9935) . ((symbol "__isctype_l" 9936 . 9947) (semantic-list "((c), _ISxdigit, (l))" 9947 . 9968)))
+          ("toascii_l" (spp-arg-list ("c" "l") 10827 . 10832) . ((symbol "__toascii_l" 10833 . 10844) (semantic-list "((c), (l))" 10845 . 10855)))
+          ("__tobody" (spp-arg-list ("c" "f" "a" "args") 5355 . 5370) . ((semantic-list "(__extension__							      \\
+   ({ int __res;							      \\
+      if (sizeof (c) > 1)						      \\
+	{								      \\
+	  if (__builtin_constant_p (c))					      \\
+	    {								      \\
+	      int __c = (c);						      \\
+	      __res = __c < -128 || __c > 255 ? __c : (a)[__c];		      \\
+	    }								      \\
+	  else								      \\
+	    __res = f args;						      \\
+	}								      \\
+      else								      \\
+	__res = (a)[(int) (c)];						      \\
+      __res; }))" 5375 . 5837)))
+          ("_toupper" (spp-arg-list ("c") 7497 . 7500) . ((semantic-list "((int) (*__ctype_toupper_loc ())[(int) (c)])" 7501 . 7545)))
+          ("__isalpha_l" (spp-arg-list ("c" "l") 9398 . 9403) . ((symbol "__isctype_l" 9404 . 9415) (semantic-list "((c), _ISalpha, (l))" 9415 . 9435)))
+          ("__isblank_l" (spp-arg-list ("c" "l") 9991 . 9996) . ((symbol "__isctype_l" 9997 . 10008) (semantic-list "((c), _ISblank, (l))" 10008 . 10028)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LOCALE_H" variable (:constant-flag t) nil [874 883])
+            ("features.h" include (:system-flag t) nil [887 908])
+            ("__need_NULL" variable (:constant-flag t) nil [918 929])
+            ("stddef.h" include (:system-flag t) nil [930 949])
+            ("bits/locale.h" include (:system-flag t) nil [950 974])
+            ("LC_GLOBAL_LOCALE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7596 7612])
+            ("uselocale" function
+               (:type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dataset" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7415 7434]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7388 7443])
+            ("freelocale" function
+               (:type "void"
+                :arguments 
+                  ( ("__dataset" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7050 7069]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [7026 7078])
+            ("duplocale" function
+               (:type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__dataset" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6891 6910]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [6864 6919])
+            ("LC_ALL_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6434 6445])
+            ("LC_IDENTIFICATION_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6375 6397])
+            ("LC_MEASUREMENT_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6322 6341])
+            ("LC_TELEPHONE_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6273 6290])
+            ("LC_ADDRESS_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6228 6243])
+            ("LC_NAME_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6188 6200])
+            ("LC_PAPER_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6146 6159])
+            ("LC_MESSAGES_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6099 6115])
+            ("LC_MONETARY_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6052 6068])
+            ("LC_COLLATE_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6007 6022])
+            ("LC_TIME_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5967 5979])
+            ("LC_NUMERIC_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5922 5937])
+            ("LC_CTYPE_MASK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5880 5893])
+            ("newlocale" function
+               (:type ("locale_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__category_mask" variable (:type "int") (reparse-symbol arg-sub-list) [5548 5568])
+                    ("__locale" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5569 5590])
+                    ("__base" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5597 5613]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5521 5622])
+            ("bits/types/locale_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [5225 5258])
+            ("localeconv" function
+               (:type ("lconv" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4819 4824]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4786 4833])
+            ("setlocale" function
+               (:type "char"
+                :arguments 
+                  ( ("__category" variable (:type "int") (reparse-symbol arg-sub-list) [4667 4682])
+                    ("__locale" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4683 4704]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4643 4713])
+            ("lconv" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("decimal_point" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1746 1766])
+                    ("thousands_sep" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1802 1822])
+                    ("grouping" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2146 2161])
+                    ("int_curr_symbol" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2317 2339])
+                    ("currency_symbol" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2342 2364])
+                    ("mon_decimal_point" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2397 2421])
+                    ("mon_thousands_sep" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2456 2480])
+                    ("mon_grouping" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2511 2530])
+                    ("positive_sign" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2574 2594])
+                    ("negative_sign" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2631 2651])
+                    ("int_frac_digits" variable (:type "char") (reparse-symbol classsubparts) [2688 2709])
+                    ("frac_digits" variable (:type "char") (reparse-symbol classsubparts) [2745 2762])
+                    ("p_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [2870 2889])
+                    ("p_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [2964 2984])
+                    ("n_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [3059 3078])
+                    ("n_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [3153 3173])
+                    ("p_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [3545 3562])
+                    ("n_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [3565 3582])
+                    ("int_p_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [3677 3700])
+                    ("int_p_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [3775 3799])
+                    ("int_n_cs_precedes" variable (:type "char") (reparse-symbol classsubparts) [3874 3897])
+                    ("int_n_sep_by_space" variable (:type "char") (reparse-symbol classsubparts) [3972 3996])
+                    ("int_p_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [4368 4389])
+                    ("int_n_sign_posn" variable (:type "char") (reparse-symbol classsubparts) [4392 4413]))                  )
+                (reparse-symbol extern-c-contents) [1683 4595])
+            ("LC_IDENTIFICATION" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1570 1587])
+            ("LC_MEASUREMENT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1528 1542])
+            ("LC_TELEPHONE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1490 1502])
+            ("LC_ADDRESS" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1456 1466])
+            ("LC_NAME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1427 1434])
+            ("LC_PAPER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1397 1405])
+            ("LC_ALL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1370 1376])
+            ("LC_MESSAGES" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1330 1341])
+            ("LC_MONETARY" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1290 1301])
+            ("LC_COLLATE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1251 1261])
+            ("LC_TIME" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1215 1222])
+            ("LC_NUMERIC" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1176 1186])
+            ("LC_CTYPE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1139 1147]))          
+      :file "locale.h"
+      :pointmax 7675
+      :fsize 7674
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LC_COLLATE" . ((symbol "__LC_COLLATE" 1269 . 1281)))
+          ("LC_TELEPHONE" . ((symbol "__LC_TELEPHONE" 1505 . 1519)))
+          ("LC_MEASUREMENT" . ((symbol "__LC_MEASUREMENT" 1545 . 1561)))
+          ("LC_MONETARY_MASK" . ((semantic-list "(1 << __LC_MONETARY)" 6069 . 6089)))
+          ("LC_TELEPHONE_MASK" . ((semantic-list "(1 << __LC_TELEPHONE)" 6291 . 6312)))
+          ("LC_TIME" . ((symbol "__LC_TIME" 1233 . 1242)))
+          ("LC_NAME" . ((symbol "__LC_NAME" 1438 . 1447)))
+          ("LC_IDENTIFICATION" . ((symbol "__LC_IDENTIFICATION" 1588 . 1607)))
+          ("LC_NUMERIC_MASK" . ((semantic-list "(1 << __LC_NUMERIC)" 5938 . 5957)))
+          ("LC_IDENTIFICATION_MASK" . ((semantic-list "(1 << __LC_IDENTIFICATION)" 6398 . 6424)))
+          ("LC_MONETARY" . ((symbol "__LC_MONETARY" 1308 . 1321)))
+          ("LC_COLLATE_MASK" . ((semantic-list "(1 << __LC_COLLATE)" 6023 . 6042)))
+          ("LC_GLOBAL_LOCALE" . ((semantic-list "((locale_t) -1L)" 7613 . 7629)))
+          ("LC_PAPER" . ((symbol "__LC_PAPER" 1408 . 1418)))
+          ("LC_ADDRESS" . ((symbol "__LC_ADDRESS" 1469 . 1481)))
+          ("LC_MESSAGES_MASK" . ((semantic-list "(1 << __LC_MESSAGES)" 6116 . 6136)))
+          ("LC_MESSAGES" . ((symbol "__LC_MESSAGES" 1348 . 1361)))
+          ("LC_PAPER_MASK" . ((semantic-list "(1 << __LC_PAPER)" 6161 . 6178)))
+          ("LC_ADDRESS_MASK" . ((semantic-list "(1 << __LC_ADDRESS)" 6244 . 6263)))
+          ("LC_CTYPE_MASK" . ((semantic-list "(1 << __LC_CTYPE)" 5895 . 5912)))
+          ("LC_ALL_MASK" . ((semantic-list "(LC_CTYPE_MASK \\
+				 | LC_NUMERIC_MASK \\
+				 | LC_TIME_MASK \\
+				 | LC_COLLATE_MASK \\
+				 | LC_MONETARY_MASK \\
+				 | LC_MESSAGES_MASK \\
+				 | LC_PAPER_MASK \\
+				 | LC_NAME_MASK \\
+				 | LC_ADDRESS_MASK \\
+				 | LC_TELEPHONE_MASK \\
+				 | LC_MEASUREMENT_MASK \\
+				 | LC_IDENTIFICATION_MASK \\
+				 )" 6447 . 6752)))
+          ("LC_CTYPE" . ((symbol "__LC_CTYPE" 1157 . 1167)))
+          ("LC_ALL" . ((symbol "__LC_ALL" 1380 . 1388)))
+          ("_LOCALE_H" . ((number "1" 884 . 885)))
+          ("__need_NULL")
+          ("LC_NUMERIC" . ((symbol "__LC_NUMERIC" 1194 . 1206)))
+          ("LC_TIME_MASK" . ((semantic-list "(1 << __LC_TIME)" 5981 . 5997)))
+          ("LC_NAME_MASK" . ((semantic-list "(1 << __LC_NAME)" 6202 . 6218)))
+          ("LC_MEASUREMENT_MASK" . ((semantic-list "(1 << __LC_MEASUREMENT)" 6342 . 6365)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_WCTYPE_H" variable (:constant-flag t) nil [917 926])
+            ("features.h" include (:system-flag t) nil [930 951])
+            ("bits/types.h" include (:system-flag t) nil [952 975])
+            ("bits/types/wint_t.h" include (:system-flag t) nil [976 1006])
+            ("WEOF" variable (:constant-flag t) nil [1154 1158])
+            ("bits/wctype-wchar.h" include (:system-flag t) nil [1266 1296])
+            ("towctrans_l" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5415 5427])
+                    ("__desc" variable (:type ("wctrans_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5428 5445])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5452 5470]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5388 5479])
+            ("wctrans_l" function
+               (:type ("wctrans_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__property" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5260 5283])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5284 5302]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5232 5316])
+            ("towupper_l" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5071 5083])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5084 5102]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [5045 5111])
+            ("towlower_l" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4928 4940])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4941 4959]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4902 4968])
+            ("iswctype_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4713 4725])
+                    ("__desc" variable (:type ("wctype_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4726 4742])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4743 4761]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4690 4775])
+            ("wctype_l" function
+               (:type ("wctype_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__property" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4546 4569])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4570 4588]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4520 4602])
+            ("iswblank_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4366 4378])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4379 4397]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4343 4406])
+            ("iswxdigit_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4133 4145])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4146 4164]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4109 4173])
+            ("iswupper_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3893 3905])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3906 3924]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3870 3933])
+            ("iswspace_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3617 3629])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3630 3648]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3594 3657])
+            ("iswpunct_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3385 3397])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3398 3416]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3362 3425])
+            ("iswprint_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3162 3174])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3175 3193]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3139 3202])
+            ("iswlower_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3052 3064])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3065 3083]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3029 3092])
+            ("iswgraph_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2776 2788])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2789 2807]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2753 2816])
+            ("iswdigit_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2619 2631])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2632 2650]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2596 2659])
+            ("iswcntrl_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2469 2481])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2482 2500]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2446 2509])
+            ("iswalpha_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2360 2372])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2373 2391]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2337 2400])
+            ("iswalnum_l" function
+               (:type "int"
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2052 2064])
+                    ("__locale" variable (:type ("locale_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2065 2083]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2029 2092])
+            ("bits/types/locale_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [1911 1945])
+            ("towctrans" function
+               (:type ("wint_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__wc" variable (:type ("wint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1785 1797])
+                    ("__desc" variable (:type ("wctrans_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1798 1815]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1760 1824])
+            ("wctrans" function
+               (:type ("wctrans_t" type (:type "class") nil nil)
+                :arguments 
+                  ( ("__property" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1656 1679]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [1630 1688])
+            ("wctrans_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :pointer 1
+                :typedef ("__int32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1474 1509]))          
+      :file "wctype.h"
+      :pointmax 5549
+      :fsize 5548
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_WCTYPE_H" . ((number "1" 927 . 928)))
+          ("WEOF" . ((semantic-list "(0xffffffffu)" 1159 . 1172)))
+          )
 ))
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"

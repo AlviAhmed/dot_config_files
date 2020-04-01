@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "flyspell-correct-avy-menu" "20200215.1337" "Correcting words with flyspell via avy-menu interface" '((flyspell-correct "0.6.1") (avy-menu "0.1.1") (emacs "24")) :commit "e765d1a3d9621decd478aa3fd08b53425da93a87" :authors '(("Boris Buliga" . "boris@d12frosted.io") ("Clemens Radermacher" . "clemera@posteo.net")) :maintainer '("Boris Buliga" . "boris@d12frosted.io") :url "https://github.com/d12frosted/flyspell-correct")

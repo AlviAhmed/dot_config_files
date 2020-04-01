@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("javafx.application.Application" include nil nil [1 39])
+            ("javafx.scene.Scene" include nil nil [40 66])
+            ("javafx.scene.control.Button" include nil nil [67 102])
+            ("javafx.scene.layout.StackPane" include nil nil [103 140])
+            ("javafx.stage.Stage" include nil nil [141 167])
+            ("ButtonInPane" type
+               (:typemodifiers ("public")
+                :superclasses "Application"
+                :members 
+                  ( ("start" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("primaryStage" variable (:type "Stage") (reparse-symbol formal_parameters) [303 321]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [285 696])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [866 879]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [842 904]))                  
+                :type "class")
+                nil [169 906]))          
+      :file "ButtonInPane.java"
+      :pointmax 907
+      :fsize 906
+      :lastmodtime '(24190 19611 515496 94000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!COE528_labs!coe528_project!ButtonInPane!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

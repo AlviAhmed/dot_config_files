@@ -1,0 +1,80 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("pthread.h" include (:system-flag t) nil [40 60])
+            ("semaphore.h" include (:system-flag t) nil [63 85])
+            ("N" variable (:constant-flag t) nil [95 96])
+            ("RIGHT" variable (:constant-flag t) nil [135 140])
+            ("LEFT" variable (:constant-flag t) nil [165 169])
+            ("phil_state" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("THINKING" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [213 222])
+                          ("HUNGRY" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [223 230])
+                          ("EATING" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [231 239]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [198 251])
+            ("state" variable
+               (:dereference 1
+                :type ("phil_state" type (:type "class") nil nil))
+                nil [253 273])
+            ("mutex" variable
+               (:default-value "1"
+                :type ("semaphore" type (:type "class") nil nil))
+                nil [275 294])
+            ("s" variable
+               (:dereference 1
+                :type ("semaphore" type (:type "class") nil nil))
+                nil [295 310])
+            ("test" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [355 361]))                  
+                :type "void")
+                nil [345 498])
+            ("get_forks" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [514 520]))                  
+                :type "void")
+                nil [499 601])
+            ("put_forks" function
+               (:arguments 
+                  ( ("i" variable (:type "int") (reparse-symbol arg-sub-list) [617 623]))                  
+                :type "void")
+                nil [602 718])
+            ("philosopher" function
+               (:arguments 
+                  ( ("process" variable (:type "int") (reparse-symbol arg-sub-list) [736 748]))                  
+                :type "void")
+                nil [719 861]))          
+      :file "main.c"
+      :pointmax 862
+      :fsize 861
+      :lastmodtime '(24192 3207 860218 535000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("N" . ((number "5" 97 . 98)))
+          ("LEFT" (spp-arg-list ("i") 169 . 172) . ((semantic-list "(((i)==N) ? 0 : (i)+1)" 173 . 195)))
+          ("RIGHT" (spp-arg-list ("i") 140 . 143) . ((semantic-list "(((i)+1) %N)" 144 . 156)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem2!COE628!COE628_labs!coe628_lab9!c_version!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

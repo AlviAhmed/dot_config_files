@@ -140,11 +140,11 @@
                 :type "int")
                 nil [2633 2663])
             ("printer" function (:type "void") nil [2666 2712])
-            ("main" function (:type "int") nil [2714 7231]))          
+            ("main" function (:type "int") nil [2714 6821]))          
       :file "main.c"
-      :pointmax 7233
-      :fsize 7232
-      :lastmodtime '(24176 15467 776320 188000)
+      :pointmax 6823
+      :fsize 6822
+      :lastmodtime '(24180 44126 869716 501000)
       :unmatched-syntax nil
       :lexical-table 
         '(("X_AXIS" . ((number "0" 212 . 213)))

@@ -1,0 +1,572 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("SparkNotes: The Time Machine: Chapters 1 and 2" section nil nil [497 1181])
+            ("//<![CDATA[
+(function(){
+    var securemsg;
+    var dosl7_common;
+
+window.sAC=!!window.sAC;try{(function(){(function iS(){var I=!1;function l(I){for(var l=0;I--;)l+=Z(document.documentElement,null);return l}function Z(I,l){var z=\"vi\";l=l||new s;return IS(I,function(I){I.setAttribute(\"data-\"+z,l.Si());return Z(I,l)},null)}function s(){this.ls=1;this.js=0;this.Oo=this.ls;this.IO=null;this.Si=function(){this.IO=this.js+this.Oo;if(!isFinite(this.IO))return this.reset(),this.Si();this.js=this.Oo;this.Oo=this.IO;this.IO=null;return this.Oo};this.reset=function(){this.ls++;this.js=0;this.Oo=this.ls}}var SS=!1;
+function z(I,l){var z=document.createElement(I);l=l||document.body;l.appendChild(z);z&&z.style&&(z.style.display=\"none\")}function _S(l,z){z=z||l;var Z=\"|\";function s(I){I=I.split(Z);var l=[];for(var z=0;z<I.length;++z){var SS=\"\",_S=I[z].split(\",\");for(var jS=0;jS<_S.length;++jS)SS+=_S[jS][jS];l.push(SS)}return l}var _S=0,IS=\"datalist,details,embed,figure,hrimg,strong,article,formaddress|audio,blockquote,area,source,input|canvas,form,link,tbase,option,details,article\";IS.split(Z);IS=s(IS);IS=new RegExp(IS.join(Z),
+\"g\");while(IS.exec(l))IS=new RegExp((\"\"+new Date)[8],\"g\"),I&&(SS=!0),++_S;return z(_S&&1)}function IS(I,l,Z){(Z=Z||SS)&&z(\"div\",I);I=I.children;var s=0;for(var _S in I){Z=I[_S];try{Z instanceof HTMLElement&&(l(Z),++s)}catch(IS){}}return s}_S(iS,l)})();var JS=6;
+try{var LS,OS,ZS=_(84)?1:0,S_=_(440)?1:0,__=_(949)?1:0,i_=_(631)?1:0,o_=_(152)?1:0,Z_=_(856)?1:0;for(var _i=(_(247),0);_i<OS;++_i)ZS+=_(754)?2:1,S_+=_(35)?2:1,__+=_(714)?2:1,i_+=(_(511),2),o_+=_(554)?2:1,Z_+=_(364)?3:1;LS=ZS+S_+__+i_+o_+Z_;window.oo===LS&&(window.oo=++LS)}catch(ii){window.oo=LS}var ji=!0;function J(S){var I=arguments.length,l=[],Z=1;while(Z<I)l[Z-1]=arguments[Z++]-S;return String.fromCharCode.apply(String,l)}
+function Ji(S){var I=50;!S||document[L(I,168,155,165,155,148,155,158,155,166,171,133,166,147,166,151)]&&document[L(I,168,155,165,155,148,155,158,155,166,171,133,166,147,166,151)]!==O(68616527616,I)||(ji=!1);return ji}function L(S){var I=arguments.length,l=[];for(var Z=1;Z<I;++Z)l.push(arguments[Z]-S);return String.fromCharCode.apply(String,l)}function li(){}Ji(window[li[O(1086848,JS)]]===li);Ji(typeof ie9rgb4!==O(1242178186193,JS));
+Ji(RegExp(\"\\x3c\")[O(1372199,JS)](function(){return\"\\x3c\"})&!RegExp(O(42883,JS))[O(1372199,JS)](function(){return\"'x3'+'d';\"}));
+var si=window[L(JS,103,122,122,103,105,110,75,124,107,116,122)]||RegExp(L(JS,115,117,104,111,130,103,116,106,120,117,111,106),O(12,JS))[O(1372199,JS)](window[\"\\x6e\\x61vi\\x67a\\x74\\x6f\\x72\"][\"\\x75\\x73e\\x72A\\x67\\x65\\x6et\"]),SI=+new Date+(_(993)?854181:6E5),iI,II,jI,JI=window[L(JS,121,107,122,90,111,115,107,117,123,122)],oI=si?_(497)?3E4:44436:_(817)?6E3:7173;
+document[J(JS,103,106,106,75,124,107,116,122,82,111,121,122,107,116,107,120)]&&document[L(JS,103,106,106,75,124,107,116,122,82,111,121,122,107,116,107,120)](L(JS,124,111,121,111,104,111,114,111,122,127,105,110,103,116,109,107),function(S){var I=25;document[J(I,143,130,140,130,123,130,133,130,141,146,108,141,122,141,126)]&&(document[L(I,143,130,140,130,123,130,133,130,141,146,108,141,122,141,126)]===J(I,129,130,125,125,126,135)&&S[L(I,130,140,109,139,142,140,141,126,125)]?jI=!0:document[L(I,143,130,
+140,130,123,130,133,130,141,146,108,141,122,141,126)]===O(68616527641,I)&&(iI=+new Date,jI=!1,OI()))});function O(S,I){S+=I;return S.toString(36)}function OI(){if(!document[L(97,210,214,198,211,218,180,198,205,198,196,213,208,211)])return!0;var S=+new Date;if(S>SI&&(_(698)?6E5:419834)>S-iI)return Ji(!1);var I=Ji(II&&!jI&&iI+oI<S);iI=S;II||(II=!0,JI(function(){II=!1},_(549)?1:0));return I}OI();var ZI=[_(224)?17795081:19266123,_(708)?27611931586:2147483647,_(225)?1558153217:1992237439];
+function sI(S){var I=36;S=typeof S===J(I,151,152,150,141,146,139)?S:S[J(I,152,147,119,152,150,141,146,139)](_(455)?36:43);var l=window[S];if(!l[J(I,152,147,119,152,150,141,146,139)])return;var Z=\"\"+l;window[S]=function(S,I){II=!1;return l(S,I)};window[S][J(I,152,147,119,152,150,141,146,139)]=function(){return Z}}for(var Ij=(_(144),0);Ij<ZI[O(1294399199,JS)];++Ij)sI(ZI[Ij]);Ji(!1!==window[L(JS,121,71,73)]);window.LO={Zz:\"085a92110481b8008ee185bff89ad2a0856ed8c16a77cccfd97a1262a15e6abafe9539bf6c8b92d7773d0d3d7ba5971fbe78d6b6d8fe9e958921c82a01bf6ce6f658284a0f008fab7aa4ab97447a1a3f2663e91fabef5b6ced66c1450bb5411f3b5b752de34669a02f74b83227c143e7a9f5e4efdb55af0b329a46bd4a5cc532cbf19d7a87cb2d5de0cb90313a05a046c6dba9fbfd895bfa5ac6fe90bcc6a85f716c9917cd73334f6e939e783846ad97375d3528c6f0df59d79136f16ad740cc\"};
+function jj(S){var I=+new Date,l;!document[J(60,173,177,161,174,181,143,161,168,161,159,176,171,174,125,168,168)]||I>SI&&(_(523)?6E5:513597)>I-iI?l=Ji(!1):(l=Ji(II&&!jI&&iI+oI<I),iI=I,II||(II=!0,JI(function(){II=!1},_(968)?1:0)));return!(arguments[S]^l)}function _(S){return 984>S}(function Jj(I){return I?0:Jj(I)*Jj(I)})(!0);})();}catch(x){}finally{ie9rgb4=void(0);};function ie9rgb4(a,b){return a>>b>>0};
+
+})();
+
+//]]>" section nil nil [1181 6216])
+            ("dataLayer = [{'disableAds': 'false'}];" section nil nil [6216 6382])
+            ("dataLayer = [{'disableAds': 'false'}];" section nil nil [6382 6450])
+            ("(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+      {'gtm.start': new Date().getTime(),event:'gtm.js'}
+      );var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PMJQF3J');" section nil nil [6450 6927])
+            ("function OptanonWrapper() { }" section nil nil [6927 7105])
+            ("function OptanonWrapper() { }" section nil nil [7105 7270])
+            ("var tyche = {
+            mode: 'tyche',
+            config: '//config.playwire.com/1023142/v2/websites/71092/banner.json',
+            forcePath: '/in-article'
+    };" section nil nil [7270 7496])
+            ("(function(d) {
+      var e = d.createElement('script');
+      e.src = d.location.protocol + '//tag.bounceexchange.com/3108/i.js';
+      e.async = true;
+      d.getElementsByTagName(\"head\")[0].appendChild(e);
+    }(document));" section nil nil [7496 7750])
+            ("End Playwire  BounceX -->
+  
+
+
+<link rel=\"stylesheet\" href=\"https://www.sparknotes.com/vendor/stylesheets/owl.carousel.min.css\">
+<link href=\"https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i\" rel=\"stylesheet\">
+<link rel=\"stylesheet\" href=\"https://www.sparknotes.com/build/stylesheets/styles.css?rev=2503\">
+
+<link rel=\"canonical\" href=\"index.html\" />" section nil nil [7750 8300])
+            ("SparkNotes users wanted!" section (:members 
+              ( ("SparkNotes users wanted!" section nil nil [9330 9918]))              ) nil [8300 9918])
+            ("// This code checks if the cookie exists and if not removes the hidden class.
+  // I assume this is inline due to concerns with disply vs runtime of code, so left it here for now.
+  const bannerHidden = document.cookie.match(
+    /^(.*;)?\\s*snSurveyHeader\\s*=\\s*[^;]+(.*)?$/
+  );
+  if (!bannerHidden) {
+    document
+      .querySelector(\".js-global-banner\")
+      .classList.remove(\"js-global-banner--hidden\");
+  }" section nil nil [9918 13430])
+            ("Artboard" section nil nil [13430 17505])
+            ("! Error" section (:members 
+              ( ("The Time Machine" section (:members 
+                  ( ("Plot Overview" anchor nil nil [19946 19949])
+                    ("Chapters 1 and 2" anchor nil nil [20100 20103])
+                    ("Chapters 3 and 4" anchor nil nil [20175 20178])
+                    ("Chapter 5" anchor nil nil [20249 20252])
+                    ("Chapters 6 and 7" anchor nil nil [20316 20319])
+                    ("Chapters 8-10" anchor nil nil [20390 20393])
+                    ("Chapters 11 and 12, and Epilogue" anchor nil nil [20461 20464])
+                    ("Analysis" anchor nil nil [20551 20554])
+                    ("Characters" anchor nil nil [20660 20663])
+                    ("Context" anchor nil nil [20849 20852])
+                    ("Full Book Quiz" anchor nil nil [20913 20916])
+                    ("Study Questions" anchor nil nil [22099 22102])
+                    ("Further Reading" anchor nil nil [22179 22182])
+                    ("How to Write Literary Analysis" anchor nil nil [22416 22419])
+                    ("Suggested Essay Topics" anchor nil nil [22526 22529])
+                    ("How to Cite This SparkNote" anchor nil nil [22610 22613])
+                    ("Chapters 1 and 2" section (:members 
+                      ( ("Summary" section nil nil [24222 26356])
+                        ("Commentary" section nil nil [26356 30221])
+                        ("Take the <span>Chapters 1 and 2" section nil nil [30221 31025])
+                        ("Every Book on Your English Syllabus Summed Up in a Quote from <i>The Office" section nil nil [31025 31850])
+                        ("7 Beloved Fictional Characters Who Are Secretly Terrible People" section nil nil [31850 32281])
+                        ("The Time Machine: Popular pages" section (:members 
+                          ( ("CHARACTERS" section nil nil [32664 33176])
+                            ("FURTHER STUDY" section nil nil [33176 33630]))                          ) nil [32281 33630])
+                        ("Take a Study Break" section (:members 
+                          ( ("Every Book on Your English Syllabus Summed Up in a Quote from <i>The Office" section nil nil [34230 35028])
+                            ("7 Beloved Fictional Characters Who Are Secretly Terrible People" section nil nil [35028 35828])
+                            ("25 Literary Quotes That Will Break Your Heart, But Only If You've Read the Book" section nil nil [35828 36653])
+                            ("Pick 7 Movies and We'll Tell You What Book You Should Read While You're Social Distancing" section nil nil [36653 37494])
+                            ("QUIZ: Are You Living in a Literary Dystopia?" section nil nil [37494 38071]))                          ) nil [33630 38071]))                      ) nil [22801 38071])
+                    ("Be Book-Smarter." section nil nil [38071 38603]))                  ) nil [19107 38603]))              ) nil [17505 38603])
+            ("var year = document.getElementById(\"footer-year\");
+      var date = new Date();
+      year.innerHTML = date.getFullYear();" section (:members 
+              ( ("Contact Us" anchor nil nil [38817 38820])
+                ("Terms of Use" anchor nil nil [38893 38896])
+                ("About" anchor nil nil [39299 39302])
+                ("Sitemap" anchor nil nil [39368 39371])
+                ("Advertise" anchor nil nil [39462 39465])
+                ("Mobile Apps" anchor nil nil [39562 39565])
+                ("-->" anchor nil nil [39643 39646])
+                ("-->" anchor nil nil [39787 39790])
+                ("-->" anchor nil nil [39936 39939])
+                ("-->" anchor nil nil [40085 40088]))              ) nil [38603 40187])
+            ("var _cf = _cf || []; _cf.push(['_setFsp', true]);  _cf.push(['_setBm', true]); _cf.push(['_setAu', '/resources/da9ef048972241c4fffaa1b16223dc']);" section nil nil [40187 40374])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40374 40497])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40497 40610])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40610 40723])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40723 40834])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40834 40953])
+            ("$(function() {
+  
+          $(document).on( 'click', \".tag--titleTitle-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTitle', 'eventAction' : 'click', 'eventLabel': 'titleTitle-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-same\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-same', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--titleTab-different\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'titleTabs', 'eventAction' : 'click', 'eventLabel': 'titleTab-different', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-notLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-notLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--authorLink-isChannelLink\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'authorLink', 'eventAction' : 'click', 'eventLabel': 'authorLink-isChannelLink', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_breadcrumbs1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_breadcrumbs', 'eventAction' : 'click', 'eventLabel': 'interiorpage_breadcrumbs', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".interiorpage_subnav1 a[href!='#']\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_subnav', 'eventAction' : 'click', 'eventLabel': 'interiorpage_subnav_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \"#interiorpage_title_link1\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_title_link', 'eventAction' : 'click', 'eventLabel': 'interiorpage_title_link', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-right-rail-blog a\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_sparknotesblog', 'eventAction' : 'click', 'eventLabel': 'interiorpage_sparknotesblog', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--page-turn\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_prevnext', 'eventAction' : 'click', 'eventLabel': 'interiorpage_prevnext', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--popular-pages\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_morehelp', 'eventAction' : 'click', 'eventLabel': 'interiorpage_morehelp', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-quickQuiz\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_quickQuiz', 'eventValue' : '1'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-summary\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_summary', 'eventValue' : '2'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-noFear\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_noFear', 'eventValue' : '3'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-lifeAndTimes\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_lifeAndTimes', 'eventValue' : '4'});
+          });
+        
+          $(document).on( 'click', \".tag--moreLikeThis-blog\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_moreLikeThis', 'eventAction' : 'click', 'eventLabel': 'moreLikeThis_blog', 'eventValue' : '5'});
+          });
+        
+          $(document).on( 'click', \".tag--interior-pagination\", function(event){
+            dataLayer.push({'event': 'snEvent', 'eventCategory' : 'interiorpage_pagination', 'eventAction' : 'click', 'eventLabel': 'interiorpage_pagination', 'eventValue' : '1'});
+          });
+        });" section nil nil [40953 46035]))          
+      :file "index.html"
+      :pointmax 46035
+      :fsize 46037
+      :lastmodtime '(24193 44850 812338 170000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!ENG503!sparknotes_eng503!tt!www.sparknotes.com!lit!timemachine!section1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

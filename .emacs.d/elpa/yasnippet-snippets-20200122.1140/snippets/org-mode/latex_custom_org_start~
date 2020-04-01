@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: latex_custom_org_start
+# key: lstart
+# -- 
+#+TITLE: $1
+#+AUTHOR: $2  
+#+OPTIONS: toc:nil 
+#+LATEX: \newpage
+#+TOC: headlines 
+#+LATEX: \newpage
+#+TOC: listings 
+#+LATEX: \newpage 
+#+LATEX: \setlength{\parindent}{0pt} 
