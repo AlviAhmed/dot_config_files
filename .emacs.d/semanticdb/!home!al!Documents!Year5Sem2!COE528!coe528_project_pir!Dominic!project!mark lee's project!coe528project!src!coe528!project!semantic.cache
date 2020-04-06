@@ -1,0 +1,509 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("java.net.URL" include nil nil [211 231])
+            ("java.util.ResourceBundle" include nil nil [232 264])
+            ("javafx.event.ActionEvent" include nil nil [265 297])
+            ("javafx.fxml.FXML" include nil nil [298 322])
+            ("javafx.fxml.FXMLLoader" include nil nil [323 353])
+            ("javafx.fxml.Initializable" include nil nil [354 387])
+            ("javafx.scene.Node" include nil nil [388 413])
+            ("javafx.scene.Parent" include nil nil [414 441])
+            ("javafx.scene.Scene" include nil nil [442 468])
+            ("javafx.scene.control.Label" include nil nil [469 503])
+            ("javafx.scene.control.TextField" include nil nil [504 542])
+            ("javafx.stage.Stage" include nil nil [543 569])
+            ("ManagerController" type
+               (:typemodifiers ("public")
+                :interfaces ("Initializable")
+                :members 
+                  ( ("m" variable
+                       (:typemodifiers ("protected")
+                        :type "Manager")
+                        (reparse-symbol class_member_declaration) [699 735])
+                    ("amount" variable
+                       (:typemodifiers ("static")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [741 766])
+                    ("balance" variable (:type "double") (reparse-symbol class_member_declaration) [771 790])
+                    ("Password" variable
+                       (:typemodifiers ("private")
+                        :type "TextField")
+                        (reparse-symbol class_member_declaration) [810 837])
+                    ("Username" variable
+                       (:typemodifiers ("private")
+                        :type "TextField")
+                        (reparse-symbol class_member_declaration) [857 884])
+                    ("Amount" variable
+                       (:typemodifiers ("private")
+                        :type "TextField")
+                        (reparse-symbol class_member_declaration) [904 929])
+                    ("prompt" variable
+                       (:typemodifiers ("private")
+                        :type "Label")
+                        (reparse-symbol class_member_declaration) [950 971])
+                    ("logoutButton" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("event" variable (:type "ActionEvent") (reparse-symbol formal_parameters) [1068 1085]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1043 1361])
+                    ("addCustomerButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1455 2096])
+                    ("deleteCustomerButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2199 2454])
+                    ("initialize" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("url" variable (:type "URL") (reparse-symbol formal_parameters) [2558 2565])
+                            ("rb" variable (:type "ResourceBundle") (reparse-symbol formal_parameters) [2567 2584]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2535 2609]))                  
+                :type "class")
+                nil [637 2620]))          
+      :file "ManagerController.java"
+      :pointmax 2621
+      :fsize 2714
+      :lastmodtime '(23542 5882 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("Silver" type
+               (:typemodifiers ("public")
+                :superclasses "State"
+                :members 
+                  ( ("FEE" variable
+                       (:typemodifiers ("public" "final")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [292 321])
+                    ("changeTier" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("c" variable (:type "Customer") (reparse-symbol formal_parameters) [409 419]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [386 609])
+                    ("getFee" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [673 722])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [792 849]))                  
+                :type "class")
+                nil [252 856]))          
+      :file "Silver.java"
+      :pointmax 857
+      :fsize 903
+      :lastmodtime '(23542 8614 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("State" type
+               (:typemodifiers ("public" "abstract")
+                :members 
+                  ( ("changeTier" function
+                       (:typemodifiers ("public" "abstract")
+                        :arguments 
+                          ( ("c" variable (:type "Customer") (reparse-symbol formal_parameters) [358 368]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [326 370])
+                    ("getFee" function
+                       (:typemodifiers ("public" "abstract")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [419 451]))                  
+                :type "class")
+                nil [252 453]))          
+      :file "State.java"
+      :pointmax 454
+      :fsize 477
+      :lastmodtime '(23542 5850 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("Customer" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("username" variable (:type "String") (reparse-symbol class_member_declaration) [509 525])
+                    ("balance" variable (:type "double") (reparse-symbol class_member_declaration) [566 587])
+                    ("tier" variable
+                       (:typemodifiers ("static")
+                        :type "State")
+                        (reparse-symbol class_member_declaration) [626 644])
+                    ("password" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [699 723])
+                    ("role" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [772 811])
+                    ("Customer" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("u" variable (:type "String") (reparse-symbol formal_parameters) [901 909]))                          )
+                        (reparse-symbol class_member_declaration) [884 939])
+                    ("Customer" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("u" variable (:type "String") (reparse-symbol formal_parameters) [1025 1033])
+                            ("bal" variable (:type "double") (reparse-symbol formal_parameters) [1035 1045]))                          )
+                        (reparse-symbol class_member_declaration) [1008 1293])
+                    ("getRole" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1418 1474])
+                    ("getCustomer" function
+                       (:typemodifiers ("public")
+                        :type "Customer")
+                        (reparse-symbol class_member_declaration) [1596 1653])
+                    ("setBalance" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("b" variable (:type "double") (reparse-symbol formal_parameters) [1853 1861]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1830 1890])
+                    ("setTier" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("t" variable (:type "State") (reparse-symbol formal_parameters) [2058 2065]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2038 2092])
+                    ("deposit" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("a" variable (:type "double") (reparse-symbol formal_parameters) [2254 2262]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2234 2292])
+                    ("withdraw" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("w" variable (:type "double") (reparse-symbol formal_parameters) [2485 2493]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2464 2523])
+                    ("purchase" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("c" variable (:type "double") (reparse-symbol formal_parameters) [2782 2790]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2761 2821])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2971 3027])
+                    ("repOK" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [3155 3254]))                  
+                :type "class")
+                nil [480 3256]))          
+      :file "Customer.java"
+      :pointmax 3257
+      :fsize 3407
+      :lastmodtime '(23542 8284 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("java.io.File" include nil nil [211 231])
+            ("java.io.IOException" include nil nil [232 259])
+            ("java.io.PrintWriter" include nil nil [260 287])
+            ("java.util.ArrayList" include nil nil [288 315])
+            ("Manager" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("m" variable
+                       (:typemodifiers ("static")
+                        :type "Manager")
+                        (reparse-symbol class_member_declaration) [385 402])
+                    ("role" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [477 515])
+                    ("Manager" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [546 578])
+                    ("getRole" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [654 710])
+                    ("createCustomer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("user" variable (:type "String") (reparse-symbol formal_parameters) [846 857])
+                            ("pass" variable (:type "String") (reparse-symbol formal_parameters) [859 870])
+                            ("bal" variable (:type "double") (reparse-symbol formal_parameters) [872 882]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [816 1547])
+                    ("deleteCustomer" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("user" variable (:type "String") (reparse-symbol formal_parameters) [1646 1657]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1616 1876]))                  
+                :type "class")
+                nil [358 1878]))          
+      :file "Manager.java"
+      :pointmax 1879
+      :fsize 1960
+      :lastmodtime '(23542 8748 0 0)
+      :unmatched-syntax '((SEMICOLON 471 . 472) (PAREN_BLOCK 469 . 471) (GT 468 . 469) (LT 459 . 460) (NEW 446 . 449) (EQ 444 . 445) (GT 432 . 433) (STATIC 407 . 413) (LT 423 . 424)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("java.io.BufferedReader" include nil nil [211 241])
+            ("java.io.FileReader" include nil nil [242 268])
+            ("java.io.IOException" include nil nil [269 296])
+            ("java.net.URL" include nil nil [297 317])
+            ("java.util.ResourceBundle" include nil nil [318 350])
+            ("javafx.collections.FXCollections" include nil nil [351 391])
+            ("javafx.collections.ObservableList" include nil nil [392 433])
+            ("javafx.event.ActionEvent" include nil nil [434 466])
+            ("javafx.fxml.FXML" include nil nil [467 491])
+            ("javafx.fxml.FXMLLoader" include nil nil [492 522])
+            ("javafx.fxml.Initializable" include nil nil [523 556])
+            ("javafx.scene.Node" include nil nil [557 582])
+            ("javafx.scene.Parent" include nil nil [583 610])
+            ("javafx.scene.Scene" include nil nil [611 637])
+            ("javafx.scene.control.ChoiceBox" include nil nil [638 676])
+            ("javafx.scene.control.Label" include nil nil [677 711])
+            ("javafx.scene.control.PasswordField" include nil nil [712 754])
+            ("javafx.scene.control.TextField" include nil nil [755 793])
+            ("javafx.stage.Stage" include nil nil [794 820])
+            ("LoginController" type
+               (:typemodifiers ("public")
+                :interfaces ("Initializable")
+                :members 
+                  ( ("br" variable (:type "BufferedReader") (reparse-symbol class_member_declaration) [928 953])
+                    ("USERNAME" variable
+                       (:typemodifiers ("public" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1054 1093])
+                    ("PASSWORD" variable
+                       (:typemodifiers ("public" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1098 1137])
+                    ("user" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1142 1170])
+                    ("pass" variable
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1175 1203])
+                    ("manager" variable
+                       (:typemodifiers ("static")
+                        :type "Manager")
+                        (reparse-symbol class_member_declaration) [1213 1252])
+                    ("customer" variable
+                       (:typemodifiers ("static")
+                        :type "Customer")
+                        (reparse-symbol class_member_declaration) [1257 1282])
+                    ("Menu" variable
+                       (:typemodifiers ("public")
+                        :type "ChoiceBox")
+                        (reparse-symbol class_member_declaration) [1303 1325])
+                    ("prompt" variable
+                       (:typemodifiers ("public")
+                        :type "Label")
+                        (reparse-symbol class_member_declaration) [1341 1361])
+                    ("Username" variable
+                       (:typemodifiers ("public")
+                        :type "TextField")
+                        (reparse-symbol class_member_declaration) [1376 1402])
+                    ("Password" variable
+                       (:typemodifiers ("public")
+                        :type "PasswordField")
+                        (reparse-symbol class_member_declaration) [1417 1447])
+                    ("initialize" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1467 1567])
+                    ("loginButton" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("event" variable (:type "ActionEvent") (reparse-symbol formal_parameters) [1835 1852]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1811 3645])
+                    ("initialize" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("url" variable (:type "URL") (reparse-symbol formal_parameters) [3692 3699])
+                            ("rb" variable (:type "ResourceBundle") (reparse-symbol formal_parameters) [3701 3718]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3669 3749]))                  
+                :type "class")
+                nil [863 3760]))          
+      :file "LoginController.java"
+      :pointmax 3761
+      :fsize 3869
+      :lastmodtime '(23542 5890 0 0)
+      :unmatched-syntax '((SEMICOLON 1048 . 1049) (PAREN_BLOCK 1025 . 1048) (EQ 990 . 991) (GT 979 . 980) (IDENTIFIER 958 . 972) (LT 972 . 973)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("javafx.application.Application" include nil nil [211 249])
+            ("javafx.fxml.FXMLLoader" include nil nil [250 280])
+            ("javafx.scene.Parent" include nil nil [281 308])
+            ("javafx.scene.Scene" include nil nil [309 335])
+            ("javafx.stage.Stage" include nil nil [336 362])
+            ("Bank" type
+               (:typemodifiers ("public")
+                :superclasses "Application"
+                :members 
+                  ( ("start" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("stage" variable (:type "Stage") (reparse-symbol formal_parameters) [486 497]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [468 692])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [784 797]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [760 828]))                  
+                :type "class")
+                nil [405 835]))          
+      :file "Bank.java"
+      :pointmax 836
+      :fsize 870
+      :lastmodtime '(23542 5910 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("java.net.URL" include nil nil [211 231])
+            ("java.util.ResourceBundle" include nil nil [232 264])
+            ("javafx.event.ActionEvent" include nil nil [265 297])
+            ("javafx.fxml.FXML" include nil nil [298 322])
+            ("javafx.fxml.FXMLLoader" include nil nil [323 353])
+            ("javafx.fxml.Initializable" include nil nil [354 387])
+            ("javafx.scene.Node" include nil nil [388 413])
+            ("javafx.scene.Parent" include nil nil [414 441])
+            ("javafx.scene.Scene" include nil nil [442 468])
+            ("javafx.scene.control.Label" include nil nil [469 503])
+            ("javafx.scene.control.TextField" include nil nil [504 542])
+            ("javafx.stage.Stage" include nil nil [543 569])
+            ("CustomerController" type
+               (:typemodifiers ("public")
+                :interfaces ("Initializable")
+                :members 
+                  ( ("amount" variable
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [700 725])
+                    ("Amount" variable
+                       (:typemodifiers ("public")
+                        :type "TextField")
+                        (reparse-symbol class_member_declaration) [740 764])
+                    ("Balance" variable
+                       (:typemodifiers ("public")
+                        :type "Label")
+                        (reparse-symbol class_member_declaration) [779 800])
+                    ("Tier" variable
+                       (:typemodifiers ("public")
+                        :type "Label")
+                        (reparse-symbol class_member_declaration) [815 833])
+                    ("logoutButton" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("event" variable (:type "ActionEvent") (reparse-symbol formal_parameters) [935 952]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [910 1228])
+                    ("depositButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1332 1853])
+                    ("withdrawButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1961 2568])
+                    ("balanceButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2646 2823])
+                    ("purchaseButton" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2927 3744])
+                    ("initialize" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("url" variable (:type "URL") (reparse-symbol formal_parameters) [3848 3855])
+                            ("rb" variable (:type "ResourceBundle") (reparse-symbol formal_parameters) [3857 3874]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3825 3899]))                  
+                :type "class")
+                nil [637 3902]))          
+      :file "CustomerController.java"
+      :pointmax 3902
+      :fsize 4023
+      :lastmodtime '(23542 6334 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.project" package nil nil [186 209])
+            ("Gold" type
+               (:typemodifiers ("public")
+                :superclasses "State"
+                :members 
+                  ( ("FEE" variable
+                       (:typemodifiers ("public" "final")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [290 319])
+                    ("changeTier" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("c" variable (:type "Customer") (reparse-symbol formal_parameters) [406 416]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [383 572])
+                    ("getFee" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [639 688])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [756 811]))                  
+                :type "class")
+                nil [252 813]))          
+      :file "Gold.java"
+      :pointmax 814
+      :fsize 858
+      :lastmodtime '(23542 5894 0 0)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!coe528_project_pir!Dominic!project!mark lee's project!coe528project!src!coe528!project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

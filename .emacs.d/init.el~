@@ -17,49 +17,45 @@
 
 
 ;;Allowing Subwords
-(global-subword-mode 1) 
+(global-subword-mode 1)  
+
+;;Confi
 
 ;;Org Capture 
 (global-set-key (kbd "C-c c") 'org-capture)
 
-;;Switching Windows
+;;Switching and movingg around windows
 (global-set-key (kbd "M-k") 'windmove-up)
 (global-set-key (kbd "M-j") 'windmove-down)
 (global-set-key (kbd "M-l") 'windmove-right)
 (global-set-key (kbd "M-h") 'windmove-left) 
-;;(global-set-key (kbd "M-<up>") 'windmove-up)
-;;(global-set-key (kbd "M-<down>") 'windmove-down)
-;;(global-set-key (kbd "M-<right>") 'windmove-right)
-;;(global-set-key (kbd "M-<left>") 'windmove-left)
-;;Resizing windows
+;;Switching Windows 
+
+;; Sizing Windows
 (global-set-key (kbd "M-H") 'shrink-window-horizontally)
 (global-set-key (kbd "M-L") 'enlarge-window-horizontally)
 (global-set-key (kbd "M-J") 'shrink-window)
 (global-set-key (kbd "M-K") 'enlarge-window) 
+;; Sizing Windows
 
-;;setting up alerts 
-(setq alert-default-style 'libnotify)
+;;Moving Windows  
+(global-set-key (kbd "C-M-k") 'buf-move-up)  
+(global-set-key (kbd "C-M-j") 'buf-move-down) 
+(global-set-key (kbd "C-M-l") 'buf-move-right) 
+(global-set-key (kbd "C-M-h") 'buf-move-left) 
+;;Moving Windows 
 
-(require 'calfw-cal)
-(require 'calfw-ical)
-(require 'calfw-org)
-
-(defun my-open-calendar ()
-  (interactive)
-  (cfw:open-calendar-buffer
-   :contents-sources
-   (list
-    (cfw:org-create-source "Green")  ; orgmode source
-;;    (cfw:ical-create-source "Moon" "~/moon.ics" "Gray")  ; ICS source1
-    (cfw:ical-create-source "gcal" "https://calendar.google.com/calendar/ical/alvi.ahmed%40ryerson.ca/private-2dd2e7e146eb7a004400af04562036cf/basic.ics" "IndianRed") ; google calendar ICS
-   ))) 
+;; rgrep 
+(global-set-key (kbd "M-/") 'rgrep) 
+;; rgrep
 
 
-;; desktop save mode 
-;;(desktop-save-mode 1) 
-;;(add-hook  'desktop-read  'after-make-frame-functions)
-;;(setq desktop-load-locked-desktop t) 
-;; desktop save mode 
+;; ;; Perspective Mode  
+;; (use-package perspective
+;;   :config
+;;   (persp-mode))
+;; ;; Perspective Mode
+
 
 ;;org capture 
 (setq org-capture-templates
@@ -104,39 +100,10 @@
 (require 'ede/proj-scheme)
 (require 'ede/proj-shared)
 
-;; -----------
-;;(load-file "~/cedet-1.1/common/cedet.el") ;; CAN'T USE THIS LINE SINCE CEDET IS ALREADY LOADED
-;; Enable EDE (Project Management) features
-;; (global-ede-mode 1)
-;; ;;(semantic-load-enable-excessive-code-helpers) ;; THIS VARIABLE IS VOID        
-;; ;;(global-srecode-minor-mode 1)            ; Enable template insertion menu
-;; ;; Semantic
-;; (global-semantic-idle-scheduler-mode 1)
-;; (global-semantic-idle-completions-mode)
-;; (global-semantic-decoration-mode)
-;; (global-semantic-highlight-func-mode)
-;; (global-semantic-show-unmatched-syntax-mode)
-
-;; CC-mode
-;;(add-hook 'c-mode-common-hook '(lambda ()
-;;        (setq ac-sources (append '(ac-source-semantic) ac-sources))
-;;)) 
-
-
-;; (require 'semantic/ia) 
-;; (require 'semantic/bovine/gcc)
-;; ;; turn on semantic 
+;;turn on semantic mode
 (semantic-mode 1)  
-;; ;;turn on ede mode 
+;;turn on ede mode 
 (global-ede-mode 1)   
-;; (add-hook 'c-mode-hook 'ede-minor-mode)
-;; (add-hook 'java-mode-hook 'ede-minor-mode)
-;; (add-hook 'c++-mode-hook 'ede-minor-mode)
-;; (add-hook 'objc-mode-hook 'ede-minor-mode)
-;; ;;some other mode I don't know  
-;;;; (global-semantic-idle-scheduler-mode 1)   
-;;(setq-mode-local c-mode semanticdb-find-default-throttle
-;;                 '(project unloaded system recursive)) 
 
 ;; CEDET
  
@@ -194,22 +161,7 @@
 ;;;; begin yassnippet
 (require 'yasnippet)
 (yas-global-mode 1)  
-;; fixing tab conflict with company
-;;(define-key yas-minor-mode-map [(tab)] nil)
-;;(define-key yas-minor-mode-map (kbd "TAB") nil)
-;; fixing tab conflict with company 
-
 ;;;; end yassnippet 
-
-
-;; Begin rtags 
-;;(rtags-start-process-unless-running)
-;;(add-hook 'c-mode-hook 'rtags-start-process-unless-running)
-;;(add-hook 'c++-mode-hook 'rtags-start-process-unless-running)
-;;(add-hook 'objc-mode-hook 'rtags-start-process-unless-running)
-;; End rtags
-
-
 
 ;;Drag Stuff    
 (drag-stuff-mode t)
@@ -221,33 +173,42 @@
 
 ;;org formatting 
 (add-hook 'org-mode-hook 'auto-fill-mode) 
+;;org formatting 
 
 
 ;;org agenda default 
 (setq org-agenda-default-appointment-duration 60)
+;;org agenda default 
 
-;;;;Meghanada java mode
-;;(require 'meghanada)
-;;(add-hook 'java-mode-hook
-;;          (lambda ()
-;;            ;; meghanada-mode on
-;;            (meghanada-mode t)
-;;            ;; enable telemetry
-;;            (meghanada-telemetry-enable t)
-;;            (flycheck-mode +1)
-;;            (setq c-basic-offset 2)
-;;            ;; use code format
-;;            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
-;;(cond
-;;   ((eq system-type 'windows-nt)
-;;    (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
-;;    (setq meghanada-maven-path "mvn.cmd"))
-;;   (t
-;;    (setq meghanada-java-path "java")
-;;    (setq meghanada-maven-path "mvn")))
-;;;;Meghanada java mode
 
+;;Meghanada java mode
+
+(require 'meghanada)
+(add-hook 'java-mode-hook
+         (lambda ()
+           ;; meghanada-mode on
+           (meghanada-mode t)
+           ;; enable telemetry
+           (meghanada-telemetry-enable t)
+           (flycheck-mode +1)
+           (setq c-basic-offset 2)
+           ;; use code format
+           (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+(cond
+  ((eq system-type 'windows-nt)
+   (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
+   (setq meghanada-maven-path "mvn.cmd"))
+  (t
+   (setq meghanada-java-path "java")
+   (setq meghanada-maven-path "mvn")))
+
+;;Meghanada java mode
+
+
+
+;;setting default face font
 (set-face-attribute 'default nil :height 120) 
+;;setting default face font
 
 ;;Autocompleting brackets via electric pairs
 (setq electric-pair-pairs '(
@@ -260,6 +221,7 @@
 ;;			   ;; (?\\ . ?\\)
 			    ))  
 (electric-pair-mode 1)        
+;;Autocompleting brackets via electric pairs
 
 ;;custom pairs for org mode
 (defvar org-electric-pairs '((?$ . ?$) ) "Electric pairs for org-mode.")
@@ -278,11 +240,23 @@
 
 ;;Enabling evil mode globally
 (evil-mode 1)   
-
-(global-evil-tabs-mode nil)  
+;;Enabling evil mode globally
 
 ;; making evil mode default
 (require 'evil) 
+
+
+;;Evil Tabs 
+(use-package evil-tabs 
+	:ensure t 
+	:config  
+	(define-key evil-tabs-mode-map (kbd "g-t") nil)  
+	(define-key evil-tabs-mode-map (kbd "g-T") nil) 
+;Already defined the movement keys to switch between tabs somewhere else
+	) 
+
+;; (global-evil-tabs-mode t)
+;;Evil Tabs 
 
 
 ;;org babel code block execution 
@@ -337,8 +311,8 @@
 (global-set-key (kbd "M-@") 'split-window-below)  
 (global-set-key (kbd "M-#") 'split-window-right)  
 (global-set-key (kbd "M-$") 'delete-window)  
-;;binding hot key for bookmark
-(global-set-key (kbd "M-1") 'ido-switch-buffer)
+;;binding hot key for buffer list 
+(global-set-key (kbd "M-1") 'ido-switch-buffer) 
 ;;binding the bookmark to hotkey
 (global-set-key (kbd "M-2") 'bookmark-jump)  
 (global-set-key (kbd "<f2>") 'elscreen-next)
@@ -547,8 +521,11 @@
 ;;Setting up Ido mode
 (setq ido-enable-flex-matching t)
 (setq do-create-new-buffer 'always)
-(setq ido-everywhere t)
-(ido-mode 1)
+(setq ido-everywhere t) 
+(ido-mode 1) 
+
+;; (defalias 'list-buffers 'ibuffer-other-window)
+;;Setting up Ido mode
 
 ;;Ido Vertical Mode
 (require 'ido-vertical-mode)
@@ -809,7 +786,6 @@ static char *gnus-pointer[] = {
    (quote
     (company-emacs-eclim mu4e-jump-to-list mu4e-maildirs-extension mu4e-overview mu4e-query-fragments modus-operandi-theme modus-vivendi-theme alert alert-termux org-alert company-rtags flycheck-rtags rtags rtags-xref flyspell-correct-avy-menu fuzzy flyspell-correct-ivy company-fuzzy evil-vimish-fold drag-stuff isearch hs-isearch-open hs-minor-mode github-theme company-anaconda company-ctags company-lsp company-lua company-math company-php company-shell company calfw-cal calfw-howm calfw-gcal calfw-ical calfw-org calfw which-key treemacs treemacs-evil treemacs-icons-dired doom-modeline meghanada highlight-indent-guides ivy-yasnippet yasnippet-snippets spacemacs-theme ranger ido-vertical-mode evil-numbers org-babel-eval-in-repl eimp highlight-symbol hideshow-org org-notebook spaceline highlight-parentheses org-mind-map org-timeline mu4e-alert exwm-firefox-evil exwm dmenu org-gcal htmlize focus evil-mu4e evil-mc general evil-tabs tabbar dumb-jump ggtags flymake-cursor flymake-google-cpplint iedit avy-flycheck flycheck tramp-auto-auth tramp-hdfs tramp-term gnu-elpa-keyring-update moe-theme org-bullets latex-math-preview pyenv-mode anaconda-mode elpy live-py-mode matlab-mode atom-dark-theme atom-one-dark-theme org-ac php-auto-yasnippets fill-column-indicator darkroom buffer-move writeroom-mode dired-rainbow format-all nov popup-kill-ring evil-goggles nyan-mode dashboard rainbow-delimiters hungry-delete openwith smex beacon dired-ranger yasnippet-classic-snippets w3 use-package projectile-codesearch org-evil org-edna latex-preview-pane irony-eldoc evil-tutor evil-org evil-fringe-mark evil-commentary evil-collection dracula-theme doom-themes company-jedi company-irony-c-headers company-irony company-dict company-c-headers company-bibtex company-auctex color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized better-defaults base16-theme avk-emacs-themes auto-yasnippet auto-org-md auto-minor-mode auto-indent-mode auto-highlight-symbol auto-dim-other-buffers auto-dictionary auto-correct auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex alect-themes ac-math ac-c-headers)))
  '(pdf-view-midnight-colors (quote ("#655370" . "#fbf8ef")))
- '(persp-mode t)
  '(rustic-ansi-faces
    ["#0c0a20" "#e61f44" "#a7da1e" "#ffd400" "#1ea8fc" "#ff2afc" "#42c6ff" "#f2f3f7"])
  '(send-mail-function (quote mailclient-send-it))

@@ -14,3 +14,37 @@ clear
 cd section1/
 pandoc -o output.pdf index.html
 sudo rm -R dance_with_the_dead/
+ls
+biber . reponse_final_template.bcf 
+biber . reponse_final_template.tex
+biber reponse_final_template.tex
+biber reponse_final_template
+git add .emacs.d/
+git add .emacs.d/
+git add -A
+git add .emacs.d/
+git commit -m "update"
+git push origin master
+ls
+./pc
+ssh vibrato
+ps2pdf task2_1_mod.ps task2_1_mod.pdf
+ps2pdf task2_2_mod.ps task2_2_mod.pdf
+cd .. 
+cd ele709_project_pir/
+ls
+ps2pdf testing_k97_tf30.ps testing_k97_tf30.pdf
+ps2pdf testing_kp97_tf30.ps testing_kp97_tf30.pdf
+ps2pdf testing_kp97_tf30_pir.ps testing_kp97_tf30_pir.pdf
+ps2pdf testing_kp97_tf10_pir.ps testing_kp97_tf10_pir.pdf
+ps2pdf test_kp5_tf10_pir.ps test_kp5_tf10_pir.pdf
+ps2pdf test_kp5_tf30_pir.ps test_kp5_tf30_pir.pdf
+cd ..
+cd ele709_project_mod
+ps2pdf asdfasdf.ps asdfasdf.pdf
+ps2pdf test_kp97_tf10_mod.ps tkp97tf10mod.pdf
+ps2pdf tkp97tf30mod.ps tkp97tf30mod.pdf
+ps2pdf kp97tf30mod.ps kp97tf30mod.pdf
+ps2pdf kp97tf10mod.ps kp97tf10mod.pdf
+ps2pdf task2_3_tf10.ps task2_3_tf10.pdf
+wget -np -m -k -l2 -nc https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path#26059

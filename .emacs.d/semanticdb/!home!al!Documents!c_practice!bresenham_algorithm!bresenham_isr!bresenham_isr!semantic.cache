@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("main_headers.h" include nil nil [1 26]))          
+      :file "isr_func.c"
+      :pointmax 29
+      :fsize 28
+      :lastmodtime '(24166 13860 797533 200000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "main_headers.h"
+      :fsize 489
+      :lastmodtime '(24166 36172 991795 357000)))
+  :file "!home!al!Documents!c_practice!bresenham_algorithm!bresenham_isr!bresenham_isr!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

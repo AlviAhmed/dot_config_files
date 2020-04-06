@@ -2,7 +2,42 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("latex_shell_commands.org"
+((".profile"
+ (filename . "~/.profile")
+ (front-context-string . "export JUNIT_HOM")
+ (rear-context-string . "c_builder/bin\"\n\n")
+ (position . 964))
+(".bash_aliases"
+ (filename . "~/.bash_aliases")
+ (front-context-string . "\n#Custom \n\n#moun")
+ (rear-context-string)
+ (position . 1))
+("useful_linux_commands.org"
+ (filename . "~/Dropbox/Sync/useful_linux_commands.org")
+ (front-context-string . "* Conflict with ")
+ (rear-context-string . "ystem.conf(5) \n\n")
+ (position . 12325))
+(".bashrc"
+ (filename . "~/.bashrc")
+ (front-context-string . "\n# If not runnin")
+ (rear-context-string . "\n# for examples\n")
+ (position . 146))
+("back_emacs"
+ (filename . "~/back_emacs/")
+ (front-context-string . ".emacs.d\n  -rw-r")
+ (rear-context-string . "96 Apr  1 19:48 ")
+ (position . 205))
+("coe528_inside_project"
+ (filename . "~/Documents/Year5Sem2/COE528/coe528_project/actual_project_files/Lab5_project/src/coe528/project/")
+ (front-context-string . "Silver.java\n  -r")
+ (rear-context-string . "64 Apr  1 09:43 ")
+ (position . 433))
+("coe528_project"
+ (filename . "~/Documents/Year5Sem2/COE528/coe528_project/")
+ (front-context-string . "ButtonInPane\n  -")
+ (rear-context-string . "96 Mar 27 14:57 ")
+ (position . 235))
+("latex_shell_commands.org"
  (filename . "~/Dropbox/Sync/latex_shell_commands.org")
  (front-context-string . "* Including pdfs")
  (rear-context-string)
@@ -343,10 +378,10 @@
  (rear-context-string . "123535Z-001.zip\n")
  (position . 370))
 ("downloaded_webpages"
- (filename . "~/downloaded_webpages/")
- (front-context-string . "index.html.1\n  -")
- (rear-context-string . "70 May 29 12:28 ")
- (position . 218))
+ (filename . "~/Documents/downloaded_webpages/")
+ (front-context-string . "..\n  drwxrwxr-x ")
+ (rear-context-string . "84 Mar 30 05:29 ")
+ (position . 179))
 ("latex_lab2_ele639"
  (filename . "~/Documents/Year4Sem2/ELE 639 - BME 639/Labs_al/Lab2/latex_lab2/")
  (front-context-string . "lab2.tex\n  -rw-r")

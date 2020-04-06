@@ -1,0 +1,61 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("dlab_def.h" include nil nil [20 41])
+            ("stdlib.h" include (:system-flag t) nil [42 61])
+            ("pthread.h" include (:system-flag t) nil [62 82])
+            ("semaphore.h" include (:system-flag t) nil [83 105])
+            ("math.h" include (:system-flag t) nil [106 123])
+            ("MAXS" variable (:constant-flag t) nil [133 137])
+            ("PI" variable (:constant-flag t) nil [152 154])
+            ("Kp" variable (:type "float") nil [160 241])
+            ("run_time" variable (:type "float") nil [160 241])
+            ("Fs" variable (:type "float") nil [160 241])
+            ("theta" variable
+               (:dereference 1
+                :type "float")
+                nil [160 241])
+            ("ref" variable
+               (:dereference 1
+                :type "float")
+                nil [160 241])
+            ("magnitude" variable (:type "float") nil [160 241])
+            ("frequency" variable (:type "float") nil [160 241])
+            ("duty_cycle" variable (:type "float") nil [160 241])
+            ("motor_num" variable (:type "int") nil [242 271])
+            ("no_of_samples" variable (:type "int") nil [242 271])
+            ("selection" variable (:type "char") nil [272 287])
+            ("data_avail" variable (:type ("sem_t" type (:type "class") nil nil)) nil [288 305])
+            ("completion" variable
+               (:default-value "PTHREAD_MUTEX_INITIALIZER"
+                :type ("pthread_mutex_t" type (:type "class") nil nil))
+                nil [306 359])
+            ("Control" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [375 385]))                  
+                :type "void")
+                nil [361 935])
+            ("main" function (:type "int") nil [937 5255]))          
+      :file "pc.c"
+      :pointmax 5256
+      :fsize 5417
+      :lastmodtime '(24197 45427 835776 500000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("PI" . ((symbol "M_PI" 155 . 159)))
+          ("MAXS" . ((number "10000" 138 . 143)))
+          )
+))
+  :file "!home!al!Documents!Year5Sem2!ELE709!ele709_project_mod!task_2_1_mod!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

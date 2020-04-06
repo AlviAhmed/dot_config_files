@@ -1,0 +1,62 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("stdint.h" include (:system-flag t) nil [40 59])
+            ("plotLine" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x0" variable (:type "int") (reparse-symbol arg-sub-list) [78 85])
+                    ("y0" variable (:type "int") (reparse-symbol arg-sub-list) [86 93])
+                    ("x1" variable (:type "int") (reparse-symbol arg-sub-list) [94 101])
+                    ("y1" variable (:type "int") (reparse-symbol arg-sub-list) [102 109]))                  
+                :type "void")
+                nil [63 110])
+            ("plotLine3D" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x1" variable (:type "int") (reparse-symbol arg-sub-list) [129 136])
+                    ("y1" variable (:type "int") (reparse-symbol arg-sub-list) [137 144])
+                    ("z1" variable (:type "int") (reparse-symbol arg-sub-list) [145 152])
+                    ("x2" variable (:type "int") (reparse-symbol arg-sub-list) [153 160])
+                    ("y2" variable (:type "int") (reparse-symbol arg-sub-list) [161 168])
+                    ("z2" variable (:type "int") (reparse-symbol arg-sub-list) [169 176]))                  
+                :type "void")
+                nil [113 177])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [190 195]))                  
+                :type "int")
+                nil [180 454])
+            ("plotLine3D" function
+               (:arguments 
+                  ( ("x1" variable (:type "int") (reparse-symbol arg-sub-list) [472 479])
+                    ("y1" variable (:type "int") (reparse-symbol arg-sub-list) [480 487])
+                    ("z1" variable (:type "int") (reparse-symbol arg-sub-list) [488 495])
+                    ("x2" variable (:type "int") (reparse-symbol arg-sub-list) [496 503])
+                    ("y2" variable (:type "int") (reparse-symbol arg-sub-list) [504 511])
+                    ("z2" variable (:type "int") (reparse-symbol arg-sub-list) [512 519]))                  
+                :type "void")
+                nil [456 3220])
+            ("plotLine" function
+               (:arguments 
+                  ( ("x0" variable (:type "int") (reparse-symbol arg-sub-list) [3238 3245])
+                    ("y0" variable (:type "int") (reparse-symbol arg-sub-list) [3246 3253])
+                    ("x1" variable (:type "int") (reparse-symbol arg-sub-list) [3254 3261])
+                    ("y1" variable (:type "int") (reparse-symbol arg-sub-list) [3262 3269]))                  
+                :type "void")
+                nil [3223 4127]))          
+      :file "3axis_main.c"
+      :pointmax 4130
+      :fsize 4129
+      :lastmodtime '(24162 39216 4077 140000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!c_practice!bresenham_algorithm!3axis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

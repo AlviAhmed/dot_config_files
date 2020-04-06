@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- term
- ansi-term
- dmenu
  eshell
- revert-buffer
- rgrep
+ eval-buffer
+ indent-region
+ evil-mode
+ customize-themes
+ customize-customized
+ eval-last-sexp
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 272)
+ (eval-buffer . 284)
  (compare-windows . 8)
  (rainbow-mode . 23)
  (LaTeX-mode . 11)
@@ -20,7 +20,7 @@
  (preview-menu . 1)
  (preview-document . 2)
  (tool-bar-mode . 1)
- (customize-themes . 121)
+ (customize-themes . 129)
  (view-buffer . 1)
  (ranger . 21)
  (term . 38)
@@ -29,7 +29,7 @@
  (dired-unmark . 1)
  (copy-file . 6)
  (update-file-autoloads . 1)
- (list-packages . 74)
+ (list-packages . 75)
  (rainbow-delimiters-mode . 5)
  (dashboard-mode . 2)
  (eww . 6)
@@ -42,10 +42,10 @@
  (recover-this-file . 1)
  (dired . 25)
  (image-mode . 3)
- (compile . 899)
+ (compile . 900)
  (shell . 2)
  (kill-buffer . 2)
- (eshell . 429)
+ (eshell . 442)
  (dired-ranger-move . 2)
  (todo-mode . 1)
  (treemacs . 15)
@@ -54,7 +54,7 @@
  (ranger-paste . 1)
  (ranger-override-dired-mode . 6)
  (ranger-show-copy-ring . 1)
- (dmenu . 35)
+ (dmenu . 36)
  (symon-mode . 3)
  (org-agenda . 71)
  (ffap-bindings . 1)
@@ -82,7 +82,7 @@
  (count-words . 13)
  (toggle-word-wrap . 3)
  (scroll-up . 1)
- (evil-mode . 11)
+ (evil-mode . 15)
  (octave-mode . 4)
  (top-level . 1)
  (rename-file . 4)
@@ -91,8 +91,8 @@
  (auto-complete . 9)
  (ispell . 13)
  (nov-mode . 8)
- (eval-last-sexp . 10)
- (eval-region . 16)
+ (eval-last-sexp . 19)
+ (eval-region . 17)
  (describe-function . 6)
  (emacs-lisp-mode . 1)
  (view-echo-area-messages . 9)
@@ -103,7 +103,7 @@
  (help . 5)
  (browse-web . 3)
  (visual-line-mode . 10)
- (auto-fill-mode . 106)
+ (auto-fill-mode . 110)
  (buf-move-up . 4)
  (buf-move-down . 15)
  (writeroom-mode . 133)
@@ -124,7 +124,7 @@
  (server-force-delete . 1)
  (yas/new-snippet . 1)
  (yas-activate-extra-mode . 6)
- (yas-visit-snippet-file . 39)
+ (yas-visit-snippet-file . 42)
  (yas-tryout-snippet . 15)
  (yas-describe-tables . 6)
  (bibtex-Book . 3)
@@ -141,7 +141,7 @@
  (org-emphasize . 1)
  (evil-delete-line . 1)
  (bookmark-delete . 3)
- (fill-region . 104)
+ (fill-region . 119)
  (ranger-mode . 4)
  (facemenu-update . 1)
  (facemenu-set-face . 2)
@@ -160,7 +160,7 @@
  (desktop-read . 31)
  (Info-mode-menu . 1)
  (make-frame-on-display . 1)
- (package-install . 4)
+ (package-install . 6)
  (tramp-version . 1)
  (tramp-cleanup-all-connections . 5)
  (dedicated-mode . 3)
@@ -195,7 +195,7 @@
  (describe-bindings . 1)
  (evil-tabs-mode . 6)
  (ranger-refresh . 1)
- (revert-buffer . 281)
+ (revert-buffer . 349)
  (global-evil-tabs-mode . 1)
  (tabbar-mode . 2)
  (flycheck-disable-checker . 3)
@@ -235,7 +235,7 @@
  (javascript-mode . 1)
  (dumb-jump-quick-look . 1)
  (butterfly . 1)
- (persp-mode . 12)
+ (persp-mode . 16)
  (windmove-left . 2)
  (windmove-right . 1)
  (org-archive-subtree . 2)
@@ -261,11 +261,11 @@
  (cfw:open-calendar-buffer . 4)
  (cfw:open-ical-calendar . 1)
  (my-open-calendar . 3)
- (meghanada-mode . 2)
+ (meghanada-mode . 3)
  (customize-variable . 1)
  (irony-install-server . 2)
  (create-tags . 25)
- (indent-region . 2)
+ (indent-region . 3)
  (dumb-jump-back . 2)
  (evil-toggle-fold . 1)
  (mh-folder-mode . 1)
@@ -278,7 +278,7 @@
  (evil-goto-definition . 1)
  (drag-stuff-up . 2)
  (company-diag . 1)
- (flyspell-mode . 8)
+ (flyspell-mode . 14)
  (vhdl-mode . 1)
  (find-tag-regexp . 2)
  (xref-find-apropos . 2)
@@ -287,4 +287,13 @@
  (rtags-mode . 1)
  (rtags-install . 20)
  (org-check-deadlines . 1)
+ (customize-group . 1)
+ (set-locale-environment . 1)
+ (bibtex-mode . 2)
+ (load-theme . 2)
+ (ediff-buffers . 2)
+ (org-agenda-append-agenda . 1)
+ (org-tags-sparse-tree . 1)
+ (view-lossage . 1)
+ (customize-customized . 1)
 )

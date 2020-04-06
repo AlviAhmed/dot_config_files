@@ -1,0 +1,64 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("coe528.lab4" package nil nil [2 22])
+            ("java.io.IOException" include nil nil [24 51])
+            ("java.util.*" include nil nil [53 72])
+            ("java.io.*" include nil nil [74 91])
+            ("Record" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("filename" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [194 218])
+                    ("instance_var" variable
+                       (:typemodifiers ("private" "static")
+                        :type "Record")
+                        (reparse-symbol class_member_declaration) [223 258])
+                    ("Record" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "String") (reparse-symbol formal_parameters) [383 391]))                          )
+                        (reparse-symbol class_member_declaration) [369 418])
+                    ("getInstance" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("n" variable (:type "String") (reparse-symbol formal_parameters) [458 466]))                          
+                        :type "Record")
+                        (reparse-symbol class_member_declaration) [424 592])
+                    ("read" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [792 1297])
+                    ("write" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("msg" variable (:type "String") (reparse-symbol formal_parameters) [1392 1402]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1374 1810])
+                    ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1839 1852]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1815 2275]))                  
+                :type "class")
+                nil [133 2277]))          
+      :file "Record.java"
+      :pointmax 2279
+      :fsize 2278
+      :lastmodtime '(24199 2118 539299 222000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!coe528_labs_from_school!COE528!lab4!lab4!src!coe528!lab4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

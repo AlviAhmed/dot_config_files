@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags nil
+      :file "project_uml.class.violet.html"
+      :pointmax 51123
+      :fsize 51122
+      :lastmodtime '(24199 7960 0 0)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!coe528_project!actual_project_files!violet_uml!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

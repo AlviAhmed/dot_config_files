@@ -1,7 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -91,60 +90,6 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-#Custom 
-
-#mounting drives
-alias usb='sudo mount /dev/sdb1 /mnt' 
-alias dusb='sudo umount /dev/sdb1'  
-
-#Some more aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF' 
-alias r='ranger'
-alias sr='sudo ranger'
-alias nr='sudo service network-manager restart'  
-alias ns='sudo service network-manager stop'  
-alias v='vim' 
-alias sv='sudo vim'
-
-#Extreme Dim For Both Monitors
-alias evdim='xrandr --output VGA1 --brightness $1'
-alias eldim='xrandr --output LVDS1 --brightness $1'
-
-#Alarm bash script
-alias studytimer='cd ~/Documents/bash_scripts/alarm_script && bash alarm_timer.sh'
-
-#Going to favourite music directories
-alias slipknot='cd ~/Music/Slipknot'
-alias dancedead='cd ~/Music/Dance\ with\ the\ Dead'
-
-#Opening correct version of emacs
-alias em='emacs-26.1 -nw'
-alias emc='emacsclient'
-
-#Multiple monitor commands (user defined not default)
-
-alias lvds='xrandr --output VGA1 --off --output LVDS1 --auto --rotate normal --pos 0x0'
-alias lvds1='xrandr --output DP1 --off --output LVDS1 --auto --rotate normal --pos 0x0'
-
-alias dp1='xrandr --output LVDS1 --off --output DP1 --auto --rotate normal --pos 0x0' 
-alias vga='xrandr --output LVDS1 --off --output VGA1 --auto --rotate normal --pos 0x0' 
-
-alias dualr='xrandr --output LVDS1 --auto --rotate normal --pos 0x0 --output VGA1 --auto  --rotate normal --right-of LVDS1'
-
-alias blank='xrandr --output LVDS1 --off --output VGA1 --off' 
-alias project='xrandr --output LVDS1 --auto --output VGA1 --mode 1600x768'
-
-#nnn configs 
-
-export NNN_FALLBACK_OPENER=xdg-open 
-export NNN_DE_FILE_MANAGER=thunar
-export XDG_CURRENT_DESKTOP=KDE
-#cpu commmands 
-alias cpuinfo='sudo cpufreq-info'
-alias perform='sudo bash comtools/performance.sh' 
-alias save='sudo bash comtools/powersave.sh'  
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -193,3 +138,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$PATH:"/opt/microchip/xc32/v2.30/bin""
+
+export QSYS_ROOTDIR="/home/al/altera/14.0/quartus/sopc_builder/bin"
