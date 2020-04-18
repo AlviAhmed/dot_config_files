@@ -3,126 +3,50 @@
 (semanticdb-project-database-file "semanticdb-project-database-file"
   :tables
   (list
+
+
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
         '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("math.h" include (:system-flag t) nil [20 37])
-            ("sys/mman.h" include (:system-flag t) nil [38 59])
-            ("pthread.h" include (:system-flag t) nil [60 80])
-            ("malloc.h" include (:system-flag t) nil [81 100])
-            ("stdlib.h" include (:system-flag t) nil [101 120])
-            ("dlab_def.h" include nil nil [121 142])
-            ("Control" variable (:type ("pthread_t" type (:type "class") nil nil)) nil [144 162])
-            ("data_avail" variable (:type ("sem_t" type (:type "class") nil nil)) nil [163 180])
-            ("MAXS" variable (:constant-flag t) nil [289 293])
-            ("theta" variable
-               (:dereference 1
-                :type "float")
-                nil [372 390])
-            ("ref" variable
-               (:dereference 1
-                :type "float")
-                nil [427 443])
-            ("Kp" variable (:type "double") nil [509 594])
-            ("Fs" variable (:type "double") nil [509 594])
-            ("run_time" variable (:type "double") nil [509 594])
-            ("magnitude" variable (:type "double") nil [509 594])
-            ("frequency" variable (:type "double") nil [509 594])
-            ("duty_cycle" variable (:type "double") nil [509 594])
-            ("run_time" variable (:type "double") nil [509 594])
-            ("motor_position" variable (:type "double") nil [509 594])
-            ("k" variable (:type "int") nil [667 692])
-            ("no_of_samples" variable
+            ("stdlib.h" include (:system-flag t) nil [46 65])
+            ("unistd.h" include (:system-flag t) nil [88 107])
+            ("pthread.h" include (:system-flag t) nil [131 151])
+            ("NTHREADS" variable (:constant-flag t) nil [194 202])
+            ("string_index" variable
                (:default-value "0"
                 :type "int")
-                nil [667 692])
-            ("ek" variable (:type "double") nil [694 718])
-            ("uk" variable (:type "double") nil [694 718])
-            ("Kp" variable
-               (:default-value "0.0"
-                :type "double")
-                nil [694 718])
-            ("Control" function
-               (:prototype-flag t
-                :pointer 1
-                :arguments 
-                  ( ("arg" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [781 791]))                  
-                :type "void")
-                nil [767 792])
-            ("main" function (:type "int") nil [795 4521])
-            ("Control" function
-               (:pointer 1
-                :arguments 
-                  ( ("arg" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [4539 4549]))                  
-                :type "void")
-                nil [4525 4886]))          
-      :file "pc.c"
-      :pointmax 4887
-      :fsize 4886
-      :lastmodtime '(24176 57604 898746 216000)
-      :unmatched-syntax nil
-      :lexical-table 
-        '(("MAXS" . ((number "10000" 294 . 299)))
-          )
-)
-    (semanticdb-table "semanticdb-table"
-      :major-mode c-mode
-      :tags 
-        '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("dlab_def.h" include nil nil [20 41])
-            ("stdlib.h" include (:system-flag t) nil [42 61])
-            ("pthread.h" include (:system-flag t) nil [62 82])
-            ("semaphore.h" include (:system-flag t) nil [83 105])
-            ("math.h" include (:system-flag t) nil [106 123])
-            ("MAXS" variable (:constant-flag t) nil [133 137])
-            ("PI" variable (:constant-flag t) nil [152 154])
-            ("kp" variable (:type "float") nil [160 169])
-            ("run_time" variable (:type "float") nil [193 208])
-            ("fs" variable (:type "float") nil [244 253])
-            ("theta" variable
+                nil [206 227])
+            ("string_to_print" variable
                (:dereference 1
-                :type "float")
-                nil [275 293])
-            ("ref" variable
-               (:dereference 1
-                :type "float")
-                nil [330 346])
-            ("magnitude" variable (:type "float") nil [404 420])
-            ("motor_num" variable (:type "int") nil [451 465])
-            ("no_of_samples" variable (:type "int") nil [467 485])
-            ("input" variable (:type "char") nil [486 497])
-            ("data_avail" variable (:type ("sem_t" type (:type "class") nil nil)) nil [498 515])
-            ("completion" variable
+                :default-value "\"0123456789\""
+                :type "char")
+                nil [229 267])
+            ("lock" variable
                (:default-value "PTHREAD_MUTEX_INITIALIZER"
                 :type ("pthread_mutex_t" type (:type "class") nil nil))
-                nil [516 569])
-            ("question" function (:type "void") nil [574 1041])
-            ("Control" function
+                nil [291 340])
+            ("func" function
                (:pointer 1
                 :arguments 
                   ( ("arg" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [1058 1068]))                  
+                        (reparse-symbol arg-sub-list) [378 388]))                  
                 :type "void")
-                nil [1044 1627])
-            ("reference" function (:type "void") nil [1663 1927])
-            ("main" function (:type "int") nil [1929 4541]))          
-      :file "pc (1).c"
-      :pointmax 4541
-      :fsize 4694
-      :lastmodtime '(24176 63318 722494 159000)
+                nil [367 1017])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1029 1034]))                  
+                :type "int")
+                nil [1020 1605]))          
+      :file "lab4_12.c"
+      :pointmax 1606
+      :fsize 1605
+      :lastmodtime '(24214 8918 344478 325000)
       :unmatched-syntax nil
       :lexical-table 
-        '(("PI" . ((symbol "M_PI" 155 . 159)))
-          ("MAXS" . ((number "10000" 138 . 143)))
+        '(("NTHREADS" . ((number "3" 203 . 204)))
           )
 ))
   :file "!home!al!Downloads!semantic.cache"

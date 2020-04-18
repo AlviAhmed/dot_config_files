@@ -48,3 +48,73 @@ ps2pdf kp97tf30mod.ps kp97tf30mod.pdf
 ps2pdf kp97tf10mod.ps kp97tf10mod.pdf
 ps2pdf task2_3_tf10.ps task2_3_tf10.pdf
 wget -np -m -k -l2 -nc https://unix.stackexchange.com/questions/26047/how-to-correctly-add-a-path-to-path#26059
+./dotfile_backup
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+cd alarm_script
+ls
+bash alarm_timer.sh 
+bash alarm_timer.sh 
+bash alarm_timer.sh 
+cd ~/Documents/Git_Projects
+git clone https://github.com/AlviAhmed/bash_scripts.git
+cd bash_scripts/
+git add -A
+git commit -m "update"
+git push origin master
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest
+cp -urv /tmp/testsource/. /tmp/testdest/.
+cp -urv /tmp/testsource /tmp/testdest/.
+zip -r Problem1.zip
+zip -R Problem1.zip
+zip -R Problem1
+zip -r Problem1 Problem1.zip
+zip -R Problem1 Problem1.zip
+zip -r Problem1.zip Problem1
+youtube-dl --playlist-reverse -o '%(playlist_index)s - %(title)s.%(ext)s' --write-annotations --download-archive .archive --add-metadata --write-info-json --write-thumbnail -f bestvideo[ext=vp9]+bestaudio[ext=opus]/bestvideo+bestaudio --merge-output-format mkv --all-subs --embed-subs -i --embed-thumbnail https://www.youtube.com/channel/UC0uTPqBCFIpZxlz_Lv1tk_g/videos
+youtube-dl --playlist-reverse -o '%(playlist_index)s - %(title)s.%(ext)s' --write-annotations --download-archive .archive --add-metadata --write-info-json --write-thumbnail -f bestvideo[ext=vp9]+bestaudio[ext=opus]/bestvideo+bestaudio --merge-output-format mkv --all-subs --embed-subs -i --embed-thumbnail https://www.youtube.com/channel/UC0uTPqBCFIpZxlz_Lv1tk_g/videos
+rm -R *.part
+pdf2ps -png coe628_term_cover coe628_term_cover.pdf 
+pdf2ps -png coe628_term_cover.pdf coe628_term_cover
+pdf2ps coe628_term_cover.pdf coe628_term_cover
+pstopng 
+ps2png
+man pthread_create
+man pthread_join
+./pthread
+man memset
+man pthread_mutex_unlock
+man pthread_mutex
+man mutex
+man sem
+man semaphore
+man sem_init
+man sem_signal
+man ffmpeg
+clear
+cd ~/Documents/downloaded_webpages/
+wget -np -m -k -l2 https://www.reddit.com/r/emacs/comments/2jeu1c/undo_theme_changes/
+ffmpeg -i March_30_10-21-36.mkv -t 01:16:08 -c copy subVideo1.mp4
+cd ~/Videos/lectures/coe628_march30/
+ffmpeg -i March_30_10-21-36.mkv -t 01:16:08 -c copy subVideo1.mp4
+cd ..
+ls
+cd coe838_april1/
+ls
+ffmpeg -i 2020-04-02\ 06-10-57.mkv -t 02:33:53 -c copy coe838_april1_edited.mp4
+bash toggle_emacs_theme.sh 
+bash toggle_emacs_theme.sh 
+man pdftotext
+pdftotext COE628_Week2_W2020_upload1.pdf  COE628_Week2_W2020_upload1.txt
+gdb test 
+gdb
+gdb test2
+mpv /home/al/Documents/Year5Sem2/COE838/COE838_VIDEO_LECTURES/coe838_april9/coe838_lec10.mkv
+mpv /home/al/Documents/Year5Sem2/COE838/COE838_VIDEO_LECTURES/coe838_april9/coe838_lec10.mkv

@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- eshell
  eval-buffer
- indent-region
- evil-mode
- customize-themes
- customize-customized
- eval-last-sexp
+ latex-preview-pane-mode
+ latex-math-preview-expression
+ appt-delete
+ appt-check
+ org-agenda
+ org-toggle-inline-images
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 284)
+ (eval-buffer . 324)
  (compare-windows . 8)
  (rainbow-mode . 23)
  (LaTeX-mode . 11)
@@ -20,7 +20,7 @@
  (preview-menu . 1)
  (preview-document . 2)
  (tool-bar-mode . 1)
- (customize-themes . 129)
+ (customize-themes . 135)
  (view-buffer . 1)
  (ranger . 21)
  (term . 38)
@@ -45,7 +45,7 @@
  (compile . 900)
  (shell . 2)
  (kill-buffer . 2)
- (eshell . 442)
+ (eshell . 444)
  (dired-ranger-move . 2)
  (todo-mode . 1)
  (treemacs . 15)
@@ -56,7 +56,7 @@
  (ranger-show-copy-ring . 1)
  (dmenu . 36)
  (symon-mode . 3)
- (org-agenda . 71)
+ (org-agenda . 72)
  (ffap-bindings . 1)
  (exwm-mode . 1)
  (org-schedule . 1)
@@ -79,7 +79,7 @@
  (package-autoremove . 6)
  (kill-ring-save . 1)
  (electric-pair-mode . 1)
- (count-words . 13)
+ (count-words . 30)
  (toggle-word-wrap . 3)
  (scroll-up . 1)
  (evil-mode . 15)
@@ -104,7 +104,7 @@
  (browse-web . 3)
  (visual-line-mode . 10)
  (auto-fill-mode . 110)
- (buf-move-up . 4)
+ (buf-move-up . 5)
  (buf-move-down . 15)
  (writeroom-mode . 133)
  (darkroom-mode . 11)
@@ -124,7 +124,7 @@
  (server-force-delete . 1)
  (yas/new-snippet . 1)
  (yas-activate-extra-mode . 6)
- (yas-visit-snippet-file . 42)
+ (yas-visit-snippet-file . 43)
  (yas-tryout-snippet . 15)
  (yas-describe-tables . 6)
  (bibtex-Book . 3)
@@ -141,7 +141,7 @@
  (org-emphasize . 1)
  (evil-delete-line . 1)
  (bookmark-delete . 3)
- (fill-region . 119)
+ (fill-region . 134)
  (ranger-mode . 4)
  (facemenu-update . 1)
  (facemenu-set-face . 2)
@@ -149,9 +149,9 @@
  (ansi-term . 10)
  (mouse-drag-and-drop-region . 3)
  (latex-preview-update . 1)
- (latex-preview-pane-mode . 4)
+ (latex-preview-pane-mode . 5)
  (preview-cache-preamble . 2)
- (org-toggle-inline-images . 84)
+ (org-toggle-inline-images . 87)
  (color-theme-print . 1)
  (org-indent-mode . 4)
  (org-cycle-list-bullet . 1)
@@ -253,7 +253,7 @@
  (eimp-mode . 3)
  (elpy-shell-send-file . 1)
  (org-sort-entries . 2)
- (latex-math-preview-expression . 101)
+ (latex-math-preview-expression . 102)
  (latex-math-preview-expression-mode . 2)
  (replace-string . 8)
  (package-list-packages . 1)
@@ -278,7 +278,7 @@
  (evil-goto-definition . 1)
  (drag-stuff-up . 2)
  (company-diag . 1)
- (flyspell-mode . 14)
+ (flyspell-mode . 17)
  (vhdl-mode . 1)
  (find-tag-regexp . 2)
  (xref-find-apropos . 2)
@@ -290,10 +290,16 @@
  (customize-group . 1)
  (set-locale-environment . 1)
  (bibtex-mode . 2)
- (load-theme . 2)
+ (load-theme . 5)
  (ediff-buffers . 2)
  (org-agenda-append-agenda . 1)
  (org-tags-sparse-tree . 1)
  (view-lossage . 1)
  (customize-customized . 1)
+ (clone-indirect-buffer . 1)
+ (cfw:open-org-calendar . 4)
+ (org-table-convert . 1)
+ (org-agenda-to-appt . 4)
+ (appt-delete . 3)
+ (appt-check . 2)
 )

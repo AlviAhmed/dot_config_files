@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: python
-# key: py_
+# key: py
 # --
-#+begin_src python
+\lstset{language=python}
+\begin[language=python]{lstlisting}
 $0
-#+end_src
+\end{lstlisting}

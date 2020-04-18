@@ -1,0 +1,155 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("stdint.h" include (:system-flag t) nil [40 59])
+            ("N_Axis" variable (:constant-flag t) nil [72 78])
+            ("steps_per_mm" variable (:constant-flag t) nil [89 101])
+            ("steps_per_radian" variable (:constant-flag t) nil [114 130])
+            ("motion_buffer_size" variable (:constant-flag t) nil [143 161])
+            ("total_num_blocks" variable (:constant-flag t) nil [174 190])
+            ("max" variable (:constant-flag t) nil [217 220])
+            ("M_PI" variable (:constant-flag t) nil [267 271])
+            ("motion_buffer_head" variable
+               (:typemodifiers ("volatile")
+                :type "int")
+                nil [296 328])
+            ("motion_block_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("steps" variable
+                             (:dereference 1
+                              :type ("uint32_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [350 373])
+                          ("step_sequence" variable
+                             (:dereference 1
+                              :type ("uint32_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [381 412])
+                          ("global_counter" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [418 442])
+                          ("direction" variable
+                             (:dereference 1
+                              :type ("uint32_t" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [447 474]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [330 494])
+            ("motion_buffer" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("motion_block_t" type (:type "class") nil nil))
+                nil [496 552])
+            ("x_counter" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [594 621])
+            ("x_stepper" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [623 650])
+            ("y_counter" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [653 680])
+            ("y_stepper" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [682 709])
+            ("z_counter" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [712 739])
+            ("z_stepper" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [741 768])
+            ("a_counter" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [771 798])
+            ("a_stepper" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [800 827])
+            ("c_counter" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [830 857])
+            ("c_stepper" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [859 886])
+            ("x_tog" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [889 912])
+            ("y_tog" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [914 937])
+            ("x_dir" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [940 963])
+            ("y_dir" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [964 987])
+            ("z_dir" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [988 1011])
+            ("a_dir" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [1013 1036])
+            ("c_dir" variable
+               (:typemodifiers ("volatile")
+                :default-value "0"
+                :type "int")
+                nil [1037 1060])
+            ("main" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1073 1078]))                  
+                :type "int")
+                nil [1063 6866]))          
+      :file "5axis_main.c"
+      :pointmax 6896
+      :fsize 6895
+      :lastmodtime '(24134 48672 703188 325000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("N_Axis" . ((number "5" 79 . 80)))
+          ("max" (spp-arg-list ("a" "b") 220 . 225) . ((semantic-list "(a>b ? a:b)" 226 . 237)))
+          ("steps_per_radian" . ((number "127" 131 . 134)))
+          ("steps_per_mm" . ((number "800" 102 . 105)))
+          ("M_PI" . ((number "3.141592654" 272 . 283)))
+          ("motion_buffer_size" . ((number "256" 162 . 165)))
+          ("total_num_blocks" . ((number "6" 191 . 192)))
+          )
+))
+  :file "!home!al!Documents!c_practice!bresenham_algorithm!5axis!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

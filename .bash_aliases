@@ -39,7 +39,7 @@ alias dancedead='cd ~/Music/Dance\ with\ the\ Dead'
 #Opening correct version of emacs
 alias emk='killall emacs'
 alias ems='emacs --daemon'
-alias emc='screen emacsclient -create-frame --alternate-editor=""'
+alias emc='screen emacsclient -n -create-frame --alternate-editor=""'
 
 #Multiple monitor commands (user defined not default)
 alias lvds='xrandr --output VGA-1 --off --output LVDS-1 --auto --rotate normal --pos 0x0'

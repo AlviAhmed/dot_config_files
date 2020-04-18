@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("math.h" include (:system-flag t) nil [20 37])
+            ("main" function (:type "int") nil [38 1103]))          
+      :file "lab1_1_2.c"
+      :pointmax 1104
+      :fsize 1105
+      :lastmodtime '(24152 36326 757804 529000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!ELE709!labs_from_school_comp!ELE709!lab1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

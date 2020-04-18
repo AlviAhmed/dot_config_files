@@ -1,0 +1,98 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [23 41])
+            ("stdlib.h" include (:system-flag t) nil [44 63])
+            ("pthread.h" include (:system-flag t) nil [66 86])
+            ("string.h" include (:system-flag t) nil [87 106])
+            ("lock" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) nil [171 192])
+            ("a" variable
+               (:dereference 1
+                :type "int")
+                nil [196 207])
+            ("myfunc1" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [266 278]))                  
+                :type "void")
+                nil [252 707])
+            ("myfunc2" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [723 735]))                  
+                :type "void")
+                nil [709 1150])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1164 1173])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1174 1187]))                  
+                :type "int")
+                nil [1155 1788]))          
+      :file "mutex_pthread.c"
+      :pointmax 1789
+      :fsize 1788
+      :lastmodtime '(24213 29549 761427 493000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [27 45])
+            ("stdlib.h" include (:system-flag t) nil [48 67])
+            ("pthread.h" include (:system-flag t) nil [70 90])
+            ("string.h" include (:system-flag t) nil [91 110])
+            ("lock" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) nil [175 196])
+            ("a" variable
+               (:dereference 1
+                :type "int")
+                nil [200 211])
+            ("myfunc1" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [270 282]))                  
+                :type "void")
+                nil [256 580])
+            ("myfunc2" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [596 608]))                  
+                :type "void")
+                nil [582 904])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [918 927])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [928 941]))                  
+                :type "int")
+                nil [909 1486]))          
+      :file "mutex_pthread_alt.c"
+      :pointmax 1487
+      :fsize 1486
+      :lastmodtime '(24213 32348 139619 859000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!ELE709!SELF_PRACTICE_C_CODE!mutex_pthread!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

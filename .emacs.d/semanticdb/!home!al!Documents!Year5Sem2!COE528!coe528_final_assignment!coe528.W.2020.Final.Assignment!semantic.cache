@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags 
+        '( ("problem1" package nil nil [1 18])
+            ("Driver" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [72 85]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48 2702]))                  
+                :type "class")
+                nil [21 2704]))          
+      :file "Driver.java"
+      :pointmax 2705
+      :fsize 2782
+      :lastmodtime '(24205 12172 0 0)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!COE528!coe528_final_assignment!coe528.W.2020.Final.Assignment!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

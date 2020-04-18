@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: being_equation
+# key: beq
+# --
+\begin{align}
+\label{$0}
+$1
+\end{align}

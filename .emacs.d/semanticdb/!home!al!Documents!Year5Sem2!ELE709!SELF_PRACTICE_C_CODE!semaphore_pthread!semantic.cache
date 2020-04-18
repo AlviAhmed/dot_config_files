@@ -1,0 +1,55 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [28 46])
+            ("stdlib.h" include (:system-flag t) nil [49 68])
+            ("pthread.h" include (:system-flag t) nil [71 91])
+            ("string.h" include (:system-flag t) nil [92 111])
+            ("semaphore.h" include (:system-flag t) nil [113 135])
+            ("lock" variable (:type ("pthread_mutex_t" type (:type "class") nil nil)) nil [200 221])
+            ("buf" variable
+               (:dereference 1
+                :type "char")
+                nil [225 238])
+            ("mysemname_mutex" variable (:type ("sem_t" type (:type "class") nil nil)) nil [282 304])
+            ("myfunc1" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [321 333]))                  
+                :type "void")
+                nil [307 709])
+            ("myfunc2" function
+               (:pointer 1
+                :arguments 
+                  ( ("myvar" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [725 737]))                  
+                :type "void")
+                nil [711 1077])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1091 1100])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1101 1114]))                  
+                :type "int")
+                nil [1082 1738]))          
+      :file "semaphore_pthread.c"
+      :pointmax 1401
+      :fsize 1738
+      :lastmodtime '(24213 35244 820695 125000)
+      :unmatched-syntax nil))
+  :file "!home!al!Documents!Year5Sem2!ELE709!SELF_PRACTICE_C_CODE!semaphore_pthread!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

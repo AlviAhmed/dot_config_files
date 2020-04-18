@@ -109,7 +109,7 @@
 With non-nil prefix argument, add the marked items to the current
 selection.  This allows you to gather files from multiple dired
 buffers for a single paste."
-  (interactive "Y")
+  (interactive "P")
   ;; TODO: add dired+ `dired-get-marked-files' support?
   (let ((marked (dired-get-marked-files)))
     (if (or (not arg)

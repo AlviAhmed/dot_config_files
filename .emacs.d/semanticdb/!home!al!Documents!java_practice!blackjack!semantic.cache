@@ -191,6 +191,14 @@
       :pointmax 2456
       :fsize 2455
       :lastmodtime '(24107 5702 533084 613000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode java-mode
+      :tags nil
+      :file "CardPile.java"
+      :pointmax 2294
+      :fsize 2293
+      :lastmodtime '(24107 6190 966264 776000)
       :unmatched-syntax nil))
   :file "!home!al!Documents!java_practice!blackjack!semantic.cache"
   :semantic-tag-version "2.0"
