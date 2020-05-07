@@ -2,454 +2,104 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-((".profile"
- (filename . "~/.profile")
- (front-context-string . "export JUNIT_HOM")
- (rear-context-string . "c_builder/bin\"\n\n")
- (position . 964))
-(".bash_aliases"
- (filename . "~/.bash_aliases")
- (front-context-string . "\n#Custom \n\n#moun")
- (rear-context-string)
- (position . 1))
-("useful_linux_commands.org"
- (filename . "~/Dropbox/Sync/useful_linux_commands.org")
- (front-context-string . "* Conflict with ")
- (rear-context-string . "ystem.conf(5) \n\n")
- (position . 12325))
-(".bashrc"
- (filename . "~/.bashrc")
- (front-context-string . "\n# If not runnin")
- (rear-context-string . "\n# for examples\n")
- (position . 146))
-("back_emacs"
- (filename . "~/back_emacs/")
- (front-context-string . ".emacs.d\n  -rw-r")
- (rear-context-string . "96 Apr  1 19:48 ")
- (position . 205))
-("coe528_inside_project"
- (filename . "~/Documents/Year5Sem2/COE528/coe528_project/actual_project_files/Lab5_project/src/coe528/project/")
- (front-context-string . "Silver.java\n  -r")
- (rear-context-string . "64 Apr  1 09:43 ")
- (position . 433))
-("coe528_project"
- (filename . "~/Documents/Year5Sem2/COE528/coe528_project/")
- (front-context-string . "ButtonInPane\n  -")
- (rear-context-string . "96 Mar 27 14:57 ")
- (position . 235))
-("latex_shell_commands.org"
- (filename . "~/Dropbox/Sync/latex_shell_commands.org")
- (front-context-string . "* Including pdfs")
- (rear-context-string)
- (position . 1))
-("Wallpapers"
- (filename . "~/Pictures/Wallpapers/")
- (front-context-string)
- (rear-context-string . "64 Mar 18 03:46 ")
- (position . 210))
-("shared_windows7"
- (filename . "~/shared_windows7/")
- (front-context-string)
- (rear-context-string . "60 Mar 10 23:02 ")
- (position . 163))
-("bresenham_isr"
- (filename . "~/Documents/c_practice/bresenham_algorithm/bresenham_isr/")
- (front-context-string)
- (rear-context-string . "96 Mar  9 08:29 ")
- (position . 238))
+(("prot_emacs"
+ (filename . "~/Videos/programming_and_tech_videos/prot_emacs/")
+ (front-context-string . "About my lemonba")
+ (rear-context-string . "91 Apr 28 22:20 ")
+ (position . 250))
+("c_practice"
+ (filename . "~/Documents/c_practice/")
+ (front-context-string . "a.out\n  drwxrwxr")
+ (rear-context-string . "96 Apr 22 16:30 ")
+ (position . 212))
+("Documents"
+ (filename . "~/Documents/")
+ (front-context-string . "c_practice\n  drw")
+ (rear-context-string . "96 Apr 22 16:30 ")
+ (position . 208))
+("monitor_setting"
+ (filename . "~/bash_scripts/monitor_setting/")
+ (front-context-string . "DUALR.sh\n  -rwxr")
+ (rear-context-string . "80 Apr 27 11:35 ")
+ (position . 213))
+("launch"
+ (filename . "~/.config/polybar/launch")
+ (front-context-string . "	polybar example")
+ (rear-context-string . " example -r &  \n")
+ (position . 419))
+("~"
+ (filename . "~/")
+ (front-context-string . "poly_note.txt\n  ")
+ (rear-context-string . "69 Apr 26 21:44 ")
+ (position . 2243))
+("Videos"
+ (filename . "~/Videos/")
+ (front-context-string . "file_example_MP4")
+ (rear-context-string . "45 Apr 26 13:39 ")
+ (position . 209))
+(".config"
+ (filename . "~/.config/")
+ (front-context-string . "BraveSoftware\n  ")
+ (rear-context-string . "96 Apr 22 07:17 ")
+ (position . 250))
+("bash_scripts"
+ (filename . "~/bash_scripts/")
+ (front-context-string . "alarm_script\n  -")
+ (rear-context-string . "96 Apr 22 16:25 ")
+ (position . 204))
 ("init.el"
  (filename . "~/.emacs.d/init.el")
  (front-context-string . "(require 'packag")
  (rear-context-string)
  (position . 1))
-("COE528_lectures_modern"
- (filename . "~/Documents/Year5Sem2/COE528/COE528_lectures_modern/")
- (front-context-string . "week1\n  drwxrwxr")
- (rear-context-string . "96 Mar  1 13:59 ")
- (position . 433))
+(".bash_aliases"
+ (filename . "~/.bash_aliases")
+ (front-context-string . "output LVDS-1 --")
+ (rear-context-string . "s vga='xrandr --")
+ (position . 1437))
 ("sched_org.org"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "* To-Do for the ")
+ (front-context-string . "#+STARTUP:  hide")
  (rear-context-string)
  (position . 1))
-("bash_scripts"
- (filename . "~/Documents/bash_scripts/")
- (front-context-string . "alarm_script\n  -")
- (rear-context-string . "96 Aug  8  2019 ")
- (position . 213))
-("todo_week.org"
- (filename . "~/Dropbox/Sync/todo_week.org")
- (front-context-string . "* To-Do for the ")
- (rear-context-string)
- (position . 1))
-(".config"
- (filename . "~/.config/")
- (front-context-string . "i3\n  drwxrwxr-x ")
- (rear-context-string . "96 Feb  2 16:53 ")
- (position . 1999))
-("hpl_tc_config.h"
- (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/led_timer_trial_mckdiv8.X/config/hpl_tc_config.h")
- (front-context-string . "r\n#ifndef CONF_T")
- (rear-context-string . "> timer_prescale")
- (position . 644))
-("Phase2"
- (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/Phase2/led_timer_trial_mckdiv8.X/led_flasher_main.c")
- (front-context-string . "g\n#include \"atme")
- (rear-context-string . "/a>\n */\n//testin")
- (position . 1423))
-("ENG503"
- (filename . "~/Documents/Year5Sem2/ENG503/")
- (front-context-string . "Essay Rubric.doc")
- (rear-context-string . "90 Jan 25 22:01 ")
- (position . 452))
-("printer_server"
- (filename . "/ssh:al@192.168.0.28:/home/al/")
- (front-context-string . "Desktop\n  -rw---")
- (rear-context-string . "96 Jan 19 16:59 ")
- (position . 512))
-("a266ahme"
- (filename . "/ssh:a266ahme@pascal.ee.ryerson.ca:/home/student2/a266ahme/")
- (front-context-string . ".artist_states\n ")
- (rear-context-string . "10 Nov 20 20:28 ")
- (position . 368))
-("coe528_labs_school"
- (filename . "~/Documents/Year5Sem2/COE528/COE528_labs/coe528_labs_school/")
- (front-context-string)
- (rear-context-string . "Jan 14 15:22 ..\n")
- (position . 202))
-("atsame70"
- (filename . "~/Documents/Year5Sem1/ELE700/datasheets_guides/")
- (front-context-string . "micro_step_reso_")
- (rear-context-string . "15 Nov 15 10:35 ")
- (position . 535))
+("fonts"
+ (filename . "~/.local/share/fonts/")
+ (front-context-string . "fonts.dir\n  -rw-")
+ (rear-context-string . "70 Apr 24 14:20 ")
+ (position . 209))
+("polybar"
+ (filename . "~/.config/polybar/config")
+ (front-context-string . "padding-right = ")
+ (rear-context-string . "adding-left = 0\n")
+ (position . 1145))
 ("Sync"
  (filename . "~/Dropbox/Sync/")
- (front-context-string . "coe718help\n  drw")
- (rear-context-string . "96 Dec 30 05:51 ")
- (position . 198))
-("ELE800"
- (filename . "~/Documents/Year5Sem2/ELE800/")
+ (front-context-string . "20191129_172219_")
+ (rear-context-string . "59 Apr 22 16:32 ")
+ (position . 341))
+("useful_linux_commands.org"
+ (filename . "~/Dropbox/Sync/useful_linux_commands.org")
+ (front-context-string . "* Turning off wi")
+ (rear-context-string . "ble\n#+END_SRC \n\n")
+ (position . 19173))
+("bspwmrc"
+ (filename . "~/.config/bspwm/bspwmrc")
+ (front-context-string . "#!/bin/sh\nsxhkd ")
+ (rear-context-string)
+ (position . 1))
+("sxhkdrc"
+ (filename . "~/.config/sxhkd/sxhkdrc")
  (front-context-string)
- (rear-context-string . "54 Mar 18 20:18 ")
- (position . 227))
-("Capstone"
- (filename . "~/Documents/Git_Projects/Capstone/")
- (front-context-string)
- (rear-context-string . "75 Jan 10 13:44 ")
- (position . 268))
-("COE428"
- (filename . "~/Documents/COE428/")
- (front-context-string . "COE428 - Algorit")
- (rear-context-string . "96 Apr 20  2018 ")
- (position . 223))
-("COE838"
- (filename . "~/Documents/Year5Sem2/COE838/")
- (front-context-string . "COE838_labs\n  dr")
- (rear-context-string . "96 Jan  9 15:08 ")
- (position . 211))
-("ELE884"
- (filename . "~/Documents/Year5Sem2/ELE884/")
- (front-context-string . "Jan6quicknotes.o")
- (rear-context-string . "78 Jan  6 16:21 ")
- (position . 211))
-("ELE709"
- (filename . "~/Documents/Year5Sem2/ELE709/")
- (front-context-string . "ELE709_labs\n  dr")
- (rear-context-string . "96 Jan  9 10:33 ")
- (position . 416))
-("COE628"
- (filename . "~/Documents/Year5Sem2/COE628/")
- (front-context-string . "Assignment\n  drw")
- (rear-context-string . "96 Dec 26 10:09 ")
- (position . 211))
-("COE528"
- (filename . "~/Documents/Year5Sem2/COE528/")
- (front-context-string)
- (rear-context-string . "96 Dec 26 09:50 ")
- (position . 211))
-("Year5Sem2"
- (filename . "~/Documents/Year5Sem2/")
- (front-context-string . "COE 528_labs\n  d")
- (rear-context-string . "96 Dec 26 09:50 ")
- (position . 226))
-("L3Wescam_2020_co_op"
- (filename . "~/Documents/resumes/new_current/Al/L3Wescam_2020_co_op/")
- (front-context-string)
- (rear-context-string . "84 Jan  8 12:18 ")
- (position . 237))
-("org-capture-last-stored"
- (filename . "~/Dropbox/Sync/random_capture.org")
- (front-context-string . "** TODO  Downloa")
- (rear-context-string . "in linux and i3\n")
- (position . 1034))
-("actual_cnc_stuff"
- (filename . "~/Documents/Year5Sem1/ELE700/projects/actual_cnc_stuff/")
- (front-context-string . "Base Stepper Wit")
- (rear-context-string . "32 Nov 20 17:06 ")
- (position . 313))
+ (rear-context-string . "turn\n	xfce4-term")
+ (position . 27))
+(".xprofile"
+ (filename . "~/.xprofile")
+ (front-context-string . "                ")
+ (rear-context-string . "ky\ndocky &      ")
+ (position . 150))
 ("Dropbox"
  (filename . "~/Dropbox/")
  (front-context-string . "Get Started with")
- (rear-context-string . "40 Jan  6 13:15 ")
- (position . 321))
-("lg_phone_sync"
- (filename . "/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C004%5D/Internal storage/Sync/")
- (front-context-string . "Capstone.org\n  d")
- (rear-context-string . "97 Jan  6 07:00 ")
- (position . 249))
-("lg_phone"
- (filename . "/run/user/1000/gvfs/")
- (front-context-string . "mtp:host=%5Busb%")
- (rear-context-string . " 0 Dec 31  1969 ")
- (position . 156))
-(".emacs.d"
- (filename . "~/.emacs.d/")
- (front-context-string . "init.el\n  -rw-rw")
- (rear-context-string . "96 Jan  3 19:27 ")
- (position . 937))
-("phonefiles"
- (filename . "~/Documents/phonefiles/")
- (front-context-string . ".stfolder\n  -rw-")
- (rear-context-string . "96 Dec 30 04:03 ")
- (position . 263))
-("Backups"
- (filename . "~/Documents/Backups/")
- (front-context-string)
- (rear-context-string . "Dec 30 04:03 ..\n")
- (position . 167))
-("alvi.ahmed@ryerson.ca.ical"
- (filename . "~/Documents/alvi.ahmed@ryerson.ca.ical/")
- (front-context-string . "alvi.ahmed@ryers")
- (rear-context-string . "91 Oct 20  2017 ")
- (position . 231))
-("playbook"
- (filename . "/smb:playbook@192.168.0.24:/")
- (front-context-string . "certs\n  dr-xr-xr")
- (rear-context-string . "  0 Dec 31 1969 ")
- (position . 99))
-("c_practice"
- (filename . "~/Documents/c_practice/")
- (front-context-string . "queue\n  drwxrwxr")
- (rear-context-string . "96 Jan  9 14:53 ")
- (position . 314))
-("COE318"
- (filename . "~/Documents/COE318/")
- (front-context-string . "books\n  drwxrwxr")
- (rear-context-string . "96 Apr 20  2018 ")
- (position . 206))
-("first"
- (filename . "/opt/lampp/htdocs/first/")
- (front-context-string . "..\n  -rw-rw-r-- ")
- (rear-context-string . "96 Dec  6 00:16 ")
- (position . 164))
-("java_practice"
- (filename . "~/Documents/java_practice/")
- (front-context-string)
- (rear-context-string . "elloworld.java~\n")
- (position . 304))
-("Desktop"
- (filename . "~/Desktop/")
- (front-context-string . "1573033862574.jp")
- (rear-context-string . "33 Nov  6 19:27 ")
- (position . 210))
-("tor_book"
- (filename . "~/tor-browser_en-US/Browser/Downloads/")
- (front-context-string . "ebook\n  -rw-rw-r")
- (rear-context-string . "96 Oct 12 21:16 ")
- (position . 763))
-("todo"
- (filename . "~/todo/")
- (front-context-string . "todo.org\n  -rw-r")
- (rear-context-string . "90 Nov  3 04:43 ")
- (position . 195))
-("Conky"
- (filename . "~/.conky/conky_rings/Conky/")
- (front-context-string . "mem\n  -rwxrwxr-x")
- (rear-context-string . "65 Aug 11 21:16 ")
- (position . 766))
-("Torrent Data"
- (filename . "~/FrostWire/Torrent Data/")
- (front-context-string . "The Conjuring (2")
- (rear-context-string . "96 Oct  5 19:07 ")
- (position . 303))
-("usb"
- (filename . "/../media/al/usb/")
- (front-context-string . "792_pir\n  -rwxr-")
- (rear-context-string . "92 Oct  2 09:24 ")
- (position . 228))
-("xsessions"
- (filename . "/usr/share/xsessions/")
- (front-context-string . "i3.desktop\n  -rw")
- (rear-context-string . "97 Sep 24  2017 ")
- (position . 311))
-("islam_research"
- (filename . "~/Documents/islam_research/")
- (front-context-string . "P drwxr-xr-x  2 ")
- (rear-context-string . "Oct 12 23:34 ..\n")
- (position . 175))
-("ELE 504"
- (filename . "~/Documents/ELE 504/")
- (front-context-string . "Additional Probl")
- (rear-context-string . "96 Aug  6 23:57 ")
- (position . 217))
-("RC_tiny85"
- (filename . "~/Documents/Git_Projects/RC_tiny85/")
- (front-context-string . ".git\n  -rwxrwxrw")
- (rear-context-string . "96 Sep 18 22:55 ")
- (position . 224))
-("ELE792"
- (filename . "~/Documents/Year5Sem1/ELE792/")
- (front-context-string . "ELE792_labs\n  dr")
- (rear-context-string . "96 Sep 11 01:32 ")
- (position . 211))
-("ELE734"
- (filename . "~/Documents/Year5Sem1/ELE734/")
- (front-context-string . "CMOS VLSI Design")
- (rear-context-string . "96 Sep  9 02:24 ")
- (position . 222))
-("ELE724"
- (filename . "~/Documents/Year5Sem1/ELE724/")
- (front-context-string . "contract.png\n  d")
- (rear-context-string . "84 Sep 11 01:59 ")
- (position . 222))
-("ELE700"
- (filename . "~/Documents/Year5Sem1/ELE700/")
- (front-context-string . "ELE700_labs\n  dr")
- (rear-context-string . "96 Sep 10 10:50 ")
- (position . 211))
-("COE718"
- (filename . "~/Documents/Year5Sem1/COE718/")
- (front-context-string . "coe718_mega\n  dr")
- (rear-context-string . "96 Sep  9 02:13 ")
- (position . 262))
-("ELE724_school"
- (filename . "~/Documents/Year5Sem1/ELE724/ELE724_school/")
- (front-context-string . "ELE724_course_ou")
- (rear-context-string . "82 Sep  3 15:06 ")
- (position . 360))
-("Year5Sem1"
- (filename . "~/Documents/Year5Sem1/")
- (front-context-string . "ELE724\n  drwxrwx")
- (rear-context-string . "96 Sep  9 02:24 ")
- (position . 306))
-("python_practice"
- (filename . "~/Documents/python_practice/")
- (front-context-string . "float_python.py\n")
- (rear-context-string . "82 Jul 22 18:48 ")
- (position . 216))
-("i3"
- (filename . "~/.config/i3/")
- (front-context-string . "config\n  -rw-rw-")
- (rear-context-string . "30 Jul  7 03:12 ")
- (position . 201))
-("work_table_light"
- (filename . "~/Documents/Git_Projects/work_table_light/")
- (front-context-string . ".git\n  -rw-rw-r-")
- (rear-context-string . "96 Jul 15 05:12 ")
- (position . 228))
-("wave_generator_report"
- (filename . "~/Documents/wave_generator_report/")
- (front-context-string . "report_pics\n  -r")
- (rear-context-string . "96 Jul  6 00:01 ")
- (position . 226))
-("alarm_script"
- (filename . "~/Documents/bash_scripts/alarm_script/")
- (front-context-string . ".\n  drwxrwxr-x 3")
- (rear-context-string . "96 Jun 26 20:43 ")
- (position . 140))
-("Waveform_Generator"
- (filename . "~/Documents/Git_Projects/Waveform_Generator/")
- (front-context-string . "dcconvertercircu")
- (rear-context-string . "09 Mar 16 15:12 ")
- (position . 233))
-("Videos"
- (filename . "~/Videos/")
- (front-context-string . "AVR_USART__Seria")
- (rear-context-string . "47 Apr  2 06:18 ")
- (position . 220))
-("Pictures"
- (filename . "~/Pictures/")
- (front-context-string . "slideshow_trial\n")
- (rear-context-string . "96 Jun 23 12:40 ")
- (position . 628))
-("~"
- (filename . "~/")
- (front-context-string . "  drwx------   3")
- (rear-context-string . "123535Z-001.zip\n")
- (position . 370))
-("downloaded_webpages"
- (filename . "~/Documents/downloaded_webpages/")
- (front-context-string . "..\n  drwxrwxr-x ")
- (rear-context-string . "84 Mar 30 05:29 ")
- (position . 179))
-("latex_lab2_ele639"
- (filename . "~/Documents/Year4Sem2/ELE 639 - BME 639/Labs_al/Lab2/latex_lab2/")
- (front-context-string . "lab2.tex\n  -rw-r")
- (rear-context-string . "80 Mar 26 20:00 ")
- (position . 590))
-("books"
- (filename . "~/Documents/books/")
- (front-context-string . "anode.pdf\n  -rwx")
- (rear-context-string . "86 Jun 12  2017 ")
- (position . 470))
-("avr_usart"
- (filename . "~/Documents/Projects/avr_usart/")
- (front-context-string . "main.elf\n  -rw-r")
- (rear-context-string . "80 May 23 21:12 ")
- (position . 217))
-("ELE 725"
- (filename . "~/Documents/Year4.5Sem1/ELE 725/")
- (front-context-string . "Lab 0\n  drwxrwxr")
- (rear-context-string . "96 May 14 13:51 ")
- (position . 326))
-("ranger-u"
- (filename . "~/Documents/Year4Sem2/usbfiles/")
- (front-context-string . "ELE635-PDFS/\n  d")
- (rear-context-string . " 4k 04-13 13:07 ")
- (position . 134))
-("electronic documents"
- (filename . "~/Documents/electronic documents/")
- (front-context-string . "2N3904.pdf\n  -rw")
- (rear-context-string . "79 Mar 12 17:40 ")
- (position . 290))
-("c++_practice"
- (filename . "~/Documents/c++_practice/")
- (front-context-string . "example_prog.cpp")
- (rear-context-string . "76 Apr 11 20:43 ")
- (position . 318))
-("Music"
- (filename . "~/Music/")
- (front-context-string . "2013 - Out of Bo")
- (rear-context-string . "96 Apr  9 14:34 ")
- (position . 212))
-("ranger-k"
- (filename . "~/Documents/resumes/new_current/Al/cover_letter/")
- (front-context-string . "cohesity\n  drwxr")
- (rear-context-string . "0K Apr  7 14:38 ")
- (position . 87))
-("resumes"
- (filename . "~/Documents/resumes/")
- (front-context-string . "al_resume.docx\n ")
- (rear-context-string . "50 Jun 24  2018 ")
- (position . 209))
-("Downloads"
- (filename . "~/Downloads/")
- (front-context-string . "AVR_USART__Seria")
- (rear-context-string . "47 Apr  2 06:18 ")
- (position . 219))
-("Documents"
- (filename . "~/Documents/")
- (front-context-string . "alvi.ahmed@ryers")
- (rear-context-string . "96 Jul 18  2018 ")
- (position . 216))
-("Git_Projects"
- (filename . "~/Documents/Git_Projects/")
- (front-context-string . "avr_cnc\n  drwxrw")
- (rear-context-string . "96 Mar 26 18:45 ")
- (position . 213))
-("Projects"
- (filename . "~/Documents/Projects/")
- (front-context-string . "avr_cnc\n  drwxrw")
- (rear-context-string . "96 Apr  1 13:04 ")
- (position . 210))
+ (rear-context-string . "31 Apr 22 16:32 ")
+ (position . 394))
 )

@@ -3,15 +3,17 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-        evil-backward-char
-        evil-forward-char
-        evil-forward-word-begin
-        evil-previous-line
+        end-of-visual-line
         hungry-delete-backward
+        hungry-delete-forward
+        keyboard-escape-quit
+        my-insert-tab-char
+        org-cycle
+        save-some-buffers
+        sh-beginning-of-command
+        undefined
         ))
 
 (setq mc/cmds-to-run-once
       '(
-        evil-insert
-        evil-next-line
         ))

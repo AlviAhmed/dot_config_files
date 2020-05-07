@@ -1,0 +1,296 @@
+
+
+###---Custom Program Hotkeys---###
+# emacs 
+super + m
+	emacsclient -n -create-frame --alternate-editor=""
+
+# internet browser 
+super + i 
+	brave-browser	
+
+# terminal emulator
+super + Return 
+	xfce4-terminal --maximize --hide-menubar  --hide-borders
+
+# program launcher
+super + d
+	dmenu_run	 
+
+# restarting polybar 
+super + shift + alt + p 
+	~/.config/polybar/launch 
+
+# show poly bar 
+super + p 
+	polybar-msg cmd toggle
+
+# # Engaging the security 
+# super + shift + s 
+# 	bash ~/bash_scripts/security_prompt.sh 
+
+# Calling the Appfinder 
+super + shift + a 
+	xfce4-appfinder
+
+;;;---Binding for Screen Shooter---;;; 
+super + shift + x 
+	xfce4-screenshooter
+;;;---Binding for Screen Shooter---;;;
+
+;;;---Controlling Gaps---;;;
+super + shift + bracket{left,right}
+	bspc config -d focused window_gap "$(($(bspc config -d focused window_gap) {-,+} 5 ))" 
+
+super + shift + ctrl + bracket{left,right}
+	bspc config -d focused window_gap "$(($(bspc config -d focused window_gap) {-,+} 20 ))"
+
+;;;---Controlling Gaps---;;;
+
+;;;---Configuring Rotation of Windows---;;;
+super + {_,shift + }r
+	bspc node @/ --rotate {90,-90}
+;;;---Configuring Rotation of Windows---;;;
+
+
+
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
+
+#
+# bspwm hotkeys
+#
+
+# emacs light/dark modes 
+super + e
+	bash ~/bash_scripts/toggle_emacs_theme.sh
+
+
+# quit bspwm normally
+super + alt + Escape 
+	bspc quit & xfce4-session-logout
+
+
+# close 
+super + shift + q  
+	bspc node -c || xdo close
+
+#kill 
+super + shift + w
+	bspc node -k || xdo kill
+
+
+# alternate between the tiled and monocle layout
+super + f
+	 bspc desktop -l next
+
+# if the current node is automatic, send it to the last manual, otherwise pull the last leaf
+super + y
+	bspc query -N -n focused.automatic && bspc node -n last.!automatic || bspc node last.leaf -n focused
+
+# swap the current node and the biggest node
+super + g
+	bspc node -s biggest
+
+#
+# state/flags
+#
+
+# set the window state
+super + space
+	bspc node -t floating 
+
+super + s 
+	bspc node -t pseudo_tiled 
+
+super + shift + t
+	bspc node -t tiled  
+
+# Launching Thunar
+super + t 
+	thunar
+
+# set the node flags
+super + ctrl + {x,y,z}
+	bspc node -g {locked,sticky,private} 
+
+;;;---Setting Hidden Node Flag---;;; 
+super + n 
+	bash ~/bash_scripts/hidden_node.sh
+	
+
+;;;---Setting Hidden Node Flag---;;;
+#
+# focus/swap
+#
+
+# focus the node in the given direction
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east} 
+
+# focus the node in the given direction (alternate keys)
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east} 
+
+# Changing focus and size with the arrow keys as well
+
+# focus the node for the given path jump
+super + {p,b,comma,period}
+	bspc node -f @{parent,brother,first,second}
+
+# focus the next/previous node in the current desktop
+# super + {_,shift + }c
+# 	bspc node -f {next,prev}.local 
+alt + {_,shift + }Tab  
+	bspc node -f {next,prev}.local
+
+
+# focus the next/previous desktop in the current monitor
+super + bracket{left,right}
+	bspc desktop -f {prev,next}.local
+
+super + shift + {comma,period}
+	bspc monitor -f {prev,next}
+
+
+
+# focus the last node/desktop
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+# focus the older or newer node in the focus history
+super + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+
+#focus nodes also with different monitors
+
+super + {1-9,0}
+    D={1-9,10}; \
+    bspc desktop -f "$(bspc query -D -m | sed -n "$D p")"
+
+super + shift + {1-9,0}
+    D={1-9,0}; \
+    bspc node -d "$(bspc query -D -m | sed -n "$D p")" 
+
+
+super + ctrl + alt + {1-9,0}    
+    D={1-9,0}; \
+    bspc desktop -s "$(bspc query -D -m | sed -n "$D p")" 
+
+
+
+
+
+
+###---Transfering Nodes Between Monitors---###
+super + v
+	bspc node -m VGA-1
+
+super + shift + v
+	bspc node -m LVDS-1
+###---Transfering Nodes Between Monitors---###
+
+
+###---Transfering Desktops Between Monitors---###
+
+super + shift + o
+	bspc desktop -m VGA-1 
+
+super + ctrl + o 
+	bspc desktop -m LVDS-1
+
+###---Transfering Desktops Between Monitors---###
+
+# #focus or send to the given desktop
+# super + {_,shift + }{1-9,0} 
+# 	bspc {desktop -f,node -d} '^{1-9,10}'
+
+super + a
+	bspc monitor -a 1
+
+super + shift + d
+	bspc desktop -r
+
+
+
+
+
+
+#
+# preselect
+#
+
+# preselect the direction
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+# preselect the ratio
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+# cancel the preselection for the focused node
+super + ctrl + space
+	bspc node -p cancel
+
+# cancel the preselection for the focused desktop
+super + ctrl + shift + space
+	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
+
+#
+# move/resize
+#
+
+# expand a window by moving one of its side outward
+super + alt + {h,j,k,l}
+	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# contract a window by moving one of its side inward
+super + alt + shift + {h,j,k,l}
+	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+# move a floating window
+super + ctrl + alt + {h,j,k,l}
+	bspc node -v {-60 0,0 60,0 -60,60 0}
+
+# creating new receptacle
+# super + r
+# 	bspc node -i
+
+
+#Future reference: locked flag makes it so that you can't close the node
+
+######################################## Media Control ########################################
+
+# Pulse Audio controls
+XF86AudioRaiseVolume  
+#	amixer set Master 5%+
+	pactl set-sink-volume 1 +5% #increase sound volume
+XF86AudioLowerVolume     
+#	amixer set Master 5%-
+	pactl set-sink-volume 1 -5% #decrease sound volume
+XF86AudioMute   
+#	amixer set Master toggle
+	pactl set-sink-mute 1 toggle # mute sound
+
+
+# Screen brightness controls
+XF86MonBrightnessUp
+	xbacklight -inc 20 # increase screen brightness
+XF86MonBrightnessDown  
+	xbacklight -dec 20 # decrease screen brightness
+
+# Media player controls
+XF86AudioPlay   
+	playerctl play
+XF86AudioPause  
+	playerctl pause
+XF86AudioNext  
+	playerctl next
+nXF86AudioPrev  
+	playerctl previous 
+
+######################################## Media Control ########################################

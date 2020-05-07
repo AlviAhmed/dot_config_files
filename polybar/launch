@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# Terminate already running bar instances
+killall -q polybar
+# Wait until the processes have been shut down
+while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
+
+# polybar example -r &
+# polybar example2 -r &
+
+# VGA_QUERY=$(xrandr --query | grep 'VGA-1' | cut -d " " -f 2) 
+# POS_QUERY=$(xrandr --query | grep 'VGA-1' | sed "s/\s/;/g" | sed "s/x/;/g" | sed "s/+/;/g" | cut -d ";" -f 5,6 | sed "s/;//g") 
+
+MONITOR_QUERY=$(xrandr --query | grep -w 'connected' | cut -d " " -f 1 |  wc -l)
+
+if [[ $MONITOR_QUERY = "3" ]]; then 
+	polybar example -r & 
+	polybar example2 -r & 
+	polybar example3 -r & 
+	notify-send "3 monitor setup"
+elif [[ $MONITOR_QUERY = "2" ]]; then 
+	polybar example -r & 
+	polybar example2 -r &   
+	notify-send "2 monitor setup"
+else
+	polybar example -r &  
+	notify-send "1 monitor setup"
+fi
+
+
+# if [[ $POS_QUERY = "00" ]]; then   
+# 	polybar example -r &  
+# 	polybar example2 -r &
+# elif [[ $POS_QUERY = "16000" ]]; then 
+# 	polybar example -r &  
+# 	polybar example2 -r & 	
+# elif [[ $VGA_QUERY = "connected" ]]; then
+# 	polybar example -r &  
+# 	polybar example2 -r & 	
+# else
+# 	polybar example -r &  
+#fi
+
