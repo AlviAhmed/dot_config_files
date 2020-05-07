@@ -1,0 +1,11 @@
+sxhkd &                         # Simple X hot key daemon  
+
+xset fp+ $HOME/.local/share/fonts
+xset fp rehash
+
+
+
+
+
+
+

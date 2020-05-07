@@ -37,7 +37,6 @@
 
 ;;;---Dired Settings---;;; 
 (setq dired-dwim-target t)              ;will allow copy to another split dired
-
 (defun xah-dired-mode-setup ()
   "to be run as hook for `dired-mode'."
   (dired-hide-details-mode 1))
@@ -45,7 +44,7 @@
 ;;;---Dired Settings---;;; 
 
 ;;;---Dired Switches---;;; 
-(setq dired-listing-switches "-alt")
+;; (setq dired-listing-switches "-alt")
 ;;;---Dired Switches---;;;
 
 

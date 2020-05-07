@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("prot_emacs"
+(("Github_Projects"
+ (filename . "~/Documents/Github_Projects/")
+ (front-context-string . "dot_config_files")
+ (rear-context-string . "96 Apr 26 19:59 ")
+ (position . 213))
+("prot_emacs"
  (filename . "~/Videos/programming_and_tech_videos/prot_emacs/")
  (front-context-string . "About my lemonba")
  (rear-context-string . "91 Apr 28 22:20 ")

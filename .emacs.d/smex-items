@@ -12,7 +12,7 @@
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 21)
+ (eval-buffer . 22)
  (customize . 1)
  (customize-themes . 1)
  (package-install . 1)

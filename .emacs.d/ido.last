@@ -18,11 +18,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/bash_scripts/"
  "/home/al/.config/sxhkd/"
+ "/home/al/.config/polybar/"
+ "/home/al/.config/bspwm/"
  "/home/al/"
  "/home/al/.gnupg/"
  "/home/al/Dropbox/Sync/"
- "/home/al/bash_scripts/"
  "/usr/local/share/emacs/26.3/lisp/"
  "/home/al/Documents/"
  "/home/al/bash_scripts/monitor_setting/"
@@ -44,7 +46,15 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/" (24242 26720 582774 604000) ".config/" ".dropbox-dist/" "Public/" "tmp_user/" "tor-browser_en-US/" "enc/" ".lesshst" ".sane/" "FrostWire/" ".frostwire5/" "frostwire-6.8.4.amd64.tar.gz" ".bash_aliases" ".VeraCrypt-lock-al" "VeraCrypt/" ".sudo_as_admin_successful" ".local/" ".dropbox/" "Desktop/" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".pki/" ".Xauthority" ".tg_priv" "new_dired/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" "Downloads/" "bash_scripts/" ".linuxmint/" "Templates/" "snap/" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" ".emacs.d/" ".gtkrc-2.0" ".mozilla/" ".gtkrc-xfce" ".dbus/" "Music/" ".java/" ".bash_logout" ".bash_history" "emacs-26.3/" ".bashrc" "Videos/" ".profile" ".cache/" "Dropbox/" ".toggle" ".xsession-errors" "../" "./")
+ ("/home/al/bash_scripts/" (24243 25924 613764 489000) "home_backup.sh~" "test1/" ".powersave.sh.swp" "./" "varscript.sh" "security_prompt.sh~" "trial.sh" "user_input_practice/" "home_backup.sh" "monitor_setting.sh~" "reptex.sh~" "dotfile_backup.sh" "performance.sh" "prompt.sh~" "hidden_node.sh~" "prompt.sh" "monitor_setting.sh" "prompt~" "alarm_script/" "netres.sh" "test.txt" "toggle_emacs_theme.sh" "security_prompt.sh" "xfce4-terminal" "toggle_emacs_theme.sh~" "test2/" "dotfile_backup.sh~" "reptex.sh" "../" "varscript2.sh" "monitor_setting/" "security.sh" "powersave.sh" "hidden_node.sh" "cmdarg.sh" "security.sh~")
+
+ ("/home/al/.config/sxhkd/" (24243 25339 894016 366000) "./" "sxhkdrc" "../" "sxhkdrc~")
+
+ ("/home/al/.config/polybar/" (24235 48968 743245 530000) "./" "config~" "launch~" "config" "../" "launch")
+
+ ("/home/al/.config/bspwm/" (24238 15847 772523 590000) "./" "VGA1.sh" "../" "bspwmrc~" "bspwmrc")
+
+ ("/home/al/" (24243 21991 564532 481000) ".config/" ".dropbox-dist/" "Public/" "tmp_user/" "tor-browser_en-US/" "enc/" ".lesshst" ".sane/" "FrostWire/" ".frostwire5/" "frostwire-6.8.4.amd64.tar.gz" ".bash_aliases" ".VeraCrypt-lock-al" "VeraCrypt/" ".sudo_as_admin_successful" ".local/" ".dropbox/" "Desktop/" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".pki/" ".Xauthority" ".tg_priv" "new_dired/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" "Downloads/" "bash_scripts/" ".linuxmint/" "Templates/" "snap/" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" ".emacs.d/" ".gtkrc-2.0" ".mozilla/" ".gtkrc-xfce" ".dbus/" "Music/" ".java/" ".bash_logout" ".bash_history" "emacs-26.3/" ".bashrc" "Videos/" ".profile" ".cache/" "Dropbox/" ".toggle" ".xsession-errors" "../" "./")
 
  ("/home/al/.emacs.d/" (24242 26712 250490 745000) "image-dired/" "./" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "../" "dmenu-items" "tramp" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2")
 
@@ -52,13 +62,9 @@
 
  ("/home/al/Documents/" (24242 24918 696167 213000) "PP01- EDP Report-1.docx" "Github_Projects/" "./" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "c++_practice/" "lisp_practice/" "html_practice/" "bills_and_docs.txt" "printer_drivers/" "sql_practice/" "sleep_inv/" "python_practice/" "c_practice/" "../" "java_practice/")
 
- ("/home/al/bash_scripts/" (24241 44064 703089 944000) "home_backup.sh~" "test1/" ".powersave.sh.swp" "./" "varscript.sh" "security_prompt.sh~" "trial.sh" "user_input_practice/" "home_backup.sh" "monitor_setting.sh~" "reptex.sh~" "dotfile_backup.sh" "performance.sh" "prompt.sh~" "hidden_node.sh~" "prompt.sh" "monitor_setting.sh" ".toggle_hid.txt" "prompt~" "alarm_script/" "netres.sh" "test.txt" "toggle_emacs_theme.sh" "security_prompt.sh" "xfce4-terminal" "toggle_emacs_theme.sh~" "test2/" "reptex.sh" "../" "varscript2.sh" "monitor_setting/" "security.sh" "powersave.sh" "hidden_node.sh" "cmdarg.sh" "security.sh~")
-
  ("/home/al/Dropbox/Sync/" (24238 29944 582636 486000) "coe838_meeting-713540923.ics" "useful_linux_commands.org~" "random_capture.org" "fdm_questions/" ".comments/" "arrows.png" "latex_shell_commands.org" "20191129_170515_HDR.jpg" "shawn_courses.tex" "img/" "backburner.org~" "useful_linux_commands.org" "alvi.ahmed@ryerson.ca.ics" "shawn_courses.tex~" "extra_rem.org" "latex_shell_commands (al's conflicted copy 2020-05-03).org~" "emacs_default_tutorial.org" "random_capture.org~" "useful_linux_commands (al's conflicted copy 2020-05-03).org~" "final_exam_sched.png" "coe718help/" "sched_org (al's conflicted copy 2020-05-03).org" "google_calendar.org~" "20191129_172223_HDR.jpg" "sched_org (al's conflicted copy 2020-05-03).org~" "latex_shell_commands.org~" "useful_linux_commands (al's conflicted copy 2020-05-03).org" "data/" "shawn_courses.txt~" "sched_org.org~" "20191129_172219_HDR.jpg" "extra_rem.org~" "latex_shell_commands.txt" "20191129_165123_HDR.jpg" "latex_shell_commands.txt~" "shawn_courses.txt" "shawn_courses.org~" "backburner.org" "extra_rem.ics" "misc_symbols.png" "emacs_default_tutorial.org~" "sched_org.ics~" "greek_letters.png" "#latex_shell_commands.org#" "shawn_courses.odt" "shawn_courses.org" "sched_org.org" "sched_org.ics" "google_calendar.org" "binary_sym.png" "20200219_232208_HDR-1.jpg" "../" "./")
 
  ("/home/al/.gnupg/" (24238 64976 948290 864000) "./" "random_seed" "pubring.kbx" "gpg-agent.conf" "../" "trustdb.gpg" "private-keys-v1.d/")
-
- ("/home/al/.config/sxhkd/" (24239 7784 24926 63000) "./" "sxhkdrc" "../" "sxhkdrc~")
 
  ("/media/al/Seagate Backup Plus Drive/" (24240 30301 575086 200000) "FileHistory/" "Warranty.pdf" "VMware Workstation Pro 15.0.0 Build 10134415 (x64) + Crack [CracksNow]/" "UltraSlim.ico" "System Volume Information/" "Start_Here_Mac.app/" "Seagate/" "programming_and_tech_videos/" "Multisim 10.1/" "Media/" "cube.tar" "cube/" ".Trash-1000/" ".#hello.tar.gz" "$RECYCLE.BIN/" "../" "./")
 
@@ -89,8 +95,6 @@
  ("/home/al/Downloads/" (24235 40664 341020 730000) "./" "dcpl2550dwpdrv-4.0.0-1.i386.deb" "font-awesome.zip" "TON 092519.mp3" "TON 091819.mp3" "TON 032520.mp3" "DN 040220.mp3" "TON 082119.mp3" "dwm-6.2.tar.gz" "dwm-6.2/" "../" "SIL Open Font License.txt")
 
  ("/home/al/bash_scripts/monitor_setting/" (24233 59419 725022 675000) "DUALR.sh~" "VGA1.sh~" "./" "VGA1.sh" "DUALL.sh" "#VGA1.sh#" "LVDS1.sh~" "DUALR.sh" "LVDS1.sh" "../")
-
- ("/home/al/.config/polybar/" (24233 58967 343537 517000) "./" "config~" ".#launch" "launch~" "config" "../" "launch")
 )
 
 ;; ----- ido-unc-hosts-cache -----

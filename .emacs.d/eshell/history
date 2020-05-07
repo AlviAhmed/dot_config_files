@@ -35,3 +35,4 @@ git clone https://github.com/AlviAhmed/dot_config_files.git
 ls
 cd print_driver/
 sudo dpkg -i dcpl2550dwpdrv-4.0.0-1.i386.deb 
+bash dotfile_backup.sh 
