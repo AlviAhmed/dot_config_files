@@ -36,3 +36,15 @@ ls
 cd print_driver/
 sudo dpkg -i dcpl2550dwpdrv-4.0.0-1.i386.deb 
 bash dotfile_backup.sh 
+git add -A
+git commit -m 
+git commit -m "update"
+git push origin master
+git config --global user.email "alviahmed1234@gmail.com"
+git config --global user.name "AlviAhmed"
+git add -A
+git commit -m "update"
+git push origin master
+bash ~/bash_scripts/dotfile_backup.sh 
+cd ..
+git clone https://github.com/AlviAhmed/bash_scripts.git
