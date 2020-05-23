@@ -81,3 +81,11 @@ sudo rename dwm.desktop .dwm.desktop
 mod lvds
 mon lvds
 mon lvds
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/.
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/.
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/.
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/magnet.txt
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/
+scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/
+scp ~/magnet_link_udemy.txt al@192.168.0.10:~/Desktop/
+git push origin master

@@ -766,9 +766,7 @@ static char *gnus-pointer[] = {
     ("#183691" "#969896" "#a71d5d" "#969896" "#0086b3" "#795da3" "#a71d5d" "#969896")))
  '(objed-cursor-color "#c82829")
  '(openwith-mode t)
- '(org-agenda-files
-   (quote
-    ("~/Dropbox/Sync/sched_org.org" "~/Dropbox/Sync/todo_daily.org")))
+ '(org-agenda-files (quote ("~/Dropbox/Sync/sched_org.org")))
  '(org-todo-keywords
    (quote
     ((sequence "TODO(t)" "NEXT(n)" "INPROG(l)" "CANCELLED(c)" "DONE(d)"))))
