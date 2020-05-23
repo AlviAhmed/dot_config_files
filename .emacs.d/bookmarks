@@ -2,7 +2,57 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Git_Projects"
+(("html_practice"
+ (filename . "~/Documents/html_practice/")
+ (front-context-string)
+ (rear-context-string . "May 21 06:08 ..\n")
+ (position . 170))
+(".bash_history"
+ (filename . "~/.bash_history")
+ (front-context-string . "ECHO=$(echo $MON")
+ (rear-context-string)
+ (position . 1))
+("elisp_lisp_practice"
+ (filename . "~/Documents/elisp_lisp_practice/")
+ (front-context-string . "boolcase.el\n  -r")
+ (rear-context-string . "38 May 20 22:08 ")
+ (position . 217))
+("background_pics"
+ (filename . "~/Pictures/background_pics/")
+ (front-context-string . "1418875913979-0.")
+ (rear-context-string . "78 May 19 06:21 ")
+ (position . 220))
+("Pictures"
+ (filename . "~/Pictures/")
+ (front-context-string . "background_pics\n")
+ (rear-context-string . "96 May 19 09:24 ")
+ (position . 203))
+("bin"
+ (filename . "~/bin/")
+ (front-context-string)
+ (rear-context-string . "35 May 19 09:19 ")
+ (position . 194))
+("xsessions"
+ (filename . "/usr/share/xsessions/")
+ (front-context-string . "bspwm.desktop\n  ")
+ (rear-context-string . "04 Jul 14  2017 ")
+ (position . 216))
+("dwm"
+ (filename . "~/dwm/")
+ (front-context-string . "config.def.h\n  -")
+ (rear-context-string . "83 May  8 23:06 ")
+ (position . 207))
+(".profile"
+ (filename . "~/.profile")
+ (front-context-string)
+ (rear-context-string . "artus/bin:$PATH\n")
+ (position . 1414))
+("org-refile-last-stored"
+ (filename . "~/Dropbox/Sync/sched_org.org")
+ (front-context-string . "** INPROG Finish")
+ (rear-context-string . "ime it may take\n")
+ (position . 4722))
+("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")
  (rear-context-string . "96 May  6 23:10 ")

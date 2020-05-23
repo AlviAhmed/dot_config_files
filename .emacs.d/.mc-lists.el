@@ -3,15 +3,15 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-        end-of-visual-line
+        beginning-of-visual-line
+        emmet-expand-line
+        handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward
-        keyboard-escape-quit
+        kill-region
         my-insert-tab-char
-        org-cycle
-        save-some-buffers
-        sh-beginning-of-command
-        undefined
+        set-fill-column
+        slime-autodoc-space
         ))
 
 (setq mc/cmds-to-run-once

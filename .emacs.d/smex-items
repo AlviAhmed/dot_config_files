@@ -1,26 +1,51 @@
 
 ;; ----- smex-history -----
 (
+ bookmark-save
+ highlight-regexp
+ list-packages
  eval-buffer
- compile
- revert-buffer
- ediff-buffers
- occur
- occur-mode
- peep-dired
+ slime
+ customize-themes
+ buf-move-up
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 22)
- (customize . 1)
- (customize-themes . 1)
- (package-install . 1)
- (list-packages . 1)
- (peep-dired . 2)
- (occur . 7)
+ (eval-buffer . 78)
+ (customize . 2)
+ (customize-themes . 9)
+ (package-install . 2)
+ (list-packages . 13)
+ (peep-dired . 14)
+ (occur . 8)
  (occur-mode . 2)
- (ediff-buffers . 1)
- (revert-buffer . 2)
+ (ediff-buffers . 2)
+ (revert-buffer . 4)
  (compile . 1)
+ (eshell . 17)
+ (bookmark-save . 5)
+ (rgrep . 7)
+ (org-agenda . 1)
+ (goto-line . 2)
+ (rectangle-mark-mode . 4)
+ (string-rectangle . 1)
+ (hide-mode-line-mode . 1)
+ (diff-mode . 1)
+ (diff . 1)
+ (irony-install-server . 7)
+ (customize-group . 1)
+ (ediff-regions-linewise . 1)
+ (dmenu . 1)
+ (projectile-mode . 2)
+ (projectile-add-known-project . 6)
+ (dumb-jump-go . 1)
+ (projectile-ripgrep . 1)
+ (clone-indirect-buffer . 2)
+ (clone-buffer . 1)
+ (ansi-term . 1)
+ (slime . 13)
+ (windmove-up . 1)
+ (buf-move-up . 2)
+ (highlight-regexp . 1)
 )

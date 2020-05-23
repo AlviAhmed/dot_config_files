@@ -1,3 +1,4 @@
+test -f ~/.bashrc && . ~/.bashrc
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
 # exists.
@@ -26,15 +27,19 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH="$PATH:"/opt/microchip/xc32/v2.30/bin"" 
-alias make="/usr/bin/make -j 2"
+#export PATH="$PATH:"/opt/microchip/xc32/v2.30/bin"" 
+alias make="/usr/bin/make -j 2" # Making make use multiple cores
 
-export QSYS_ROOTDIR="/home/al/altera/14.0/quartus/sopc_builder/bin"
+#export QSYS_ROOTDIR="/home/al/altera/14.0/quartus/sopc_builder/bin"
 
-export JUNIT_HOME=/usr/local/JUNIT
-export CLASSPATH=$CLASSPATH:$JUNIT_HOME/junit-4.13.jar:.
-PATH=/usr/local/apache-maven-3.x.y\bin:$PATH
-PATH=/home/al/Documents/openspades/openspades.mk/bin:$PATH
-PATH=/home/al/waterfox:$PATH
-PATH=$HOME/.local/bin:$PATH 
-PATH=$HOME/altera/14.0/quartus/bin:$PATH
+#export JUNIT_HOME=/usr/local/JUNIT
+#export CLASSPATH=$CLASSPATH:$JUNIT_HOME/junit-4.13.jar:.
+#PATH=/usr/local/apache-maven-3.x.y\bin:$PATH
+#PATH=/home/al/Documents/openspades/openspades.mk/bin:$PATH
+#PATH=/home/al/waterfox:$PATH
+PATH=$HOME/.local/bin:$PATH  
+PATH=$HOME/bin:$PATH 
+# PATH=$HOME/bash_scripts/setting_wallpaper.sh:$PATH 
+PATH=$HOME/usr/java/jre1.8.0_251:$PATH
+#PATH=$HOME/altera/14.0/quartus/bin:$PATH
+alias em='emacsclient -nw -create-frame'

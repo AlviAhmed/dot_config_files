@@ -2,7 +2,11 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/media/al/" . "Seagate Backup Plus Drive/")
+ ("/home/al/.emacs.d/" . "eshell/")
+ ("/home/al/.local/" . "bin/")
+ ("/usr/" . "local/")
+ ("/usr/local/" . "bin/")
+ ("/media/al/" . "Backup Plus/")
  ("/media/" . "al/")
  ("/sudo::/home/al/Documents/" . "sleep_inv/")
  ("/sudo::/home/al/" . "Documents/")
@@ -11,70 +15,131 @@
  ("/sys/class/" . "leds/")
  ("/sys/" . "class/")
  ("/etc/" . "acpi/")
- ("/" . "sys/")
- ("/home/al/Documents/" . "c_practice/")
- ("/home/al/" . ".gnupg/")
+ ("/" . "tmp/")
+ ("/home/al/Documents/" . "elisp_practice/")
+ ("/home/al/" . "bash_scripts/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/"
+ "/home/al/Documents/elisp_lisp_practice/"
+ "/home/al/.emacs.d/"
+ "/home/al/Documents/elisp_practice/"
+ "/home/al/Dropbox/Sync/"
+ "/home/al/.emacs.d/eshell/"
+ "/home/al/back_emacs/"
+ "/home/al/Documents/json_practice/"
+ "/home/al/Documents/javascript_practice/"
+ "/home/al/Documents/nodejs_practice/"
+ "/tmp/"
+ "/home/al/Documents/c_practice/"
+ "/home/al/first-app/"
+ "/home/al/dwm/"
+ "/ssh:al@"
+ "/home/al/Dropbox/"
  "/home/al/bash_scripts/"
  "/home/al/.config/sxhkd/"
  "/home/al/.config/polybar/"
  "/home/al/.config/bspwm/"
- "/home/al/"
  "/home/al/.gnupg/"
- "/home/al/Dropbox/Sync/"
  "/usr/local/share/emacs/26.3/lisp/"
  "/home/al/Documents/"
  "/home/al/bash_scripts/monitor_setting/"
- "/home/al/Documents/c_practice/"
- "/home/al/.emacs.d/"
  "/home/al/.config/xfce4/terminal/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "testing_sym.txt"
- "gpg-agent.conf"
- "useful_linux_commands.org"
- "hidden_node.sh"
- "DUALR.sh"
- "DUALL.sh"
- "LVDS1.sh"
+ ".bash_history"
+ "loop.lisp"
+ "if_statements.lisp"
+ "boolcase.el"
+ ".mc-lists.el"
+ "defparam.lisp"
+ "num_with_com.lisp"
+ "first_prog.lisp"
+ "interac_func.el"
+ "test.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/bash_scripts/" (24243 25924 613764 489000) "home_backup.sh~" "test1/" ".powersave.sh.swp" "./" "varscript.sh" "security_prompt.sh~" "trial.sh" "user_input_practice/" "home_backup.sh" "monitor_setting.sh~" "reptex.sh~" "dotfile_backup.sh" "performance.sh" "prompt.sh~" "hidden_node.sh~" "prompt.sh" "monitor_setting.sh" "prompt~" "alarm_script/" "netres.sh" "test.txt" "toggle_emacs_theme.sh" "security_prompt.sh" "xfce4-terminal" "toggle_emacs_theme.sh~" "test2/" "dotfile_backup.sh~" "reptex.sh" "../" "varscript2.sh" "monitor_setting/" "security.sh" "powersave.sh" "hidden_node.sh" "cmdarg.sh" "security.sh~")
+ ("/tmp/" (24263 1594 820305 170000) ".XIM-unix/" "polybar_mqueue.30518" ".X11-unix/" "systemd-private-2b867aa0dc88455ba3eac68a379f7aab-systemd-resolved.service-9C8l6P/" "dropbox-antifreeze-BcQeS1" "pulse-KdhtXMmr18n2/" "ssh-NqhFNy6qe3Mj/" "bspwm_0_0-socket" "./" "systemd-private-2b867aa0dc88455ba3eac68a379f7aab-ntp.service-2wl1Um/" ".X0-lock" ".org.chromium.Chromium.KAFOVh/" "VSCode Crashes/" "systemd-private-2b867aa0dc88455ba3eac68a379f7aab-rtkit-daemon.service-M8ZIUg/" "systemd-private-2b867aa0dc88455ba3eac68a379f7aab-ModemManager.service-HxqEsc/" "config-err-nxf7zS" "emacs1000/" "babel-O7OSHc/" ".ICE-unix/" "systemd-private-2b867aa0dc88455ba3eac68a379f7aab-colord.service-cgKpsz/" ".font-unix/" "../" ".Test-unix/")
 
- ("/home/al/.config/sxhkd/" (24243 25339 894016 366000) "./" "sxhkdrc" "../" "sxhkdrc~")
+ ("/home/al/Dropbox/Sync/" (24263 1067 713254 885000) "useful_linux_commands.org~" "random_capture.org" "fdm_questions/" "arrows.png" "latex_shell_commands.org" "20191129_170515_HDR.jpg" "shawn_courses.tex" "img/" "useful_linux_commands.org" "extra_rem.org" "20191129_172223_HDR.jpg" "data/" "sched_org.org~" "20191129_172219_HDR.jpg" "latex_shell_commands.txt" "20191129_165123_HDR.jpg" "shawn_courses.txt" "misc_symbols.png" "greek_letters.png" "#sched_org.org#" "shawn_courses.odt" "sched_org.org" "binary_sym.png" "todo_daily.org" "20200219_232208_HDR-1.jpg" "../" "./")
 
- ("/home/al/.config/polybar/" (24235 48968 743245 530000) "./" "config~" "launch~" "config" "../" "launch")
+ ("/home/al/" (24263 1590 280227 494000) ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" ".oracle_jre_usage/" "tor-browser_en-US/" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".bash_aliases" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" ".openarena/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" ".var/" "Downloads/" "bash_scripts/" "note.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" "frostwire-6.8.1.all.deb" "test.el~" "back_init/" ".bash_aliases~" ".emacs.d/" ".gtkrc-2.0" ".profile~" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".mozilla/" "sum_course.org" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".java/" ".dmesg.txt.swp" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".ssh/" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" ".profile" "quicklisp.lisp" ".cache/" "Dropbox/" ".toggle" "bin/" "openspades/" "src/" ".slime/" ".viminfo.tmp" ".xsession-errors" "../" "./")
 
- ("/home/al/.config/bspwm/" (24238 15847 772523 590000) "./" "VGA1.sh" "../" "bspwmrc~" "bspwmrc")
+ ("/home/al/.emacs.d/" (24263 1566 879695 514000) "image-dired/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "./" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "../" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations")
 
- ("/home/al/" (24243 21991 564532 481000) ".config/" ".dropbox-dist/" "Public/" "tmp_user/" "tor-browser_en-US/" "enc/" ".lesshst" ".sane/" "FrostWire/" ".frostwire5/" "frostwire-6.8.4.amd64.tar.gz" ".bash_aliases" ".VeraCrypt-lock-al" "VeraCrypt/" ".sudo_as_admin_successful" ".local/" ".dropbox/" "Desktop/" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".pki/" ".Xauthority" ".tg_priv" "new_dired/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" "Downloads/" "bash_scripts/" ".linuxmint/" "Templates/" "snap/" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" ".emacs.d/" ".gtkrc-2.0" ".mozilla/" ".gtkrc-xfce" ".dbus/" "Music/" ".java/" ".bash_logout" ".bash_history" "emacs-26.3/" ".bashrc" "Videos/" ".profile" ".cache/" "Dropbox/" ".toggle" ".xsession-errors" "../" "./")
+ ("/home/al/Documents/elisp_lisp_practice/" (24263 1457 437179 304000) "loop.lisp" "list_function.el" "first_prog.lisp" "./" "if_statements.lisp" "#case_state.lisp#" "defparam.lisp~" "case_state.lisp~" "num_with_com.lisp" "#num_with_com.lisp#" "lists.lisp~" "case_state.lisp" "interac_func.el" "if_statements.lisp~" "first_prog.lisp~" "defparam.lisp" "boolcase.el" "../" "#if_statements.lisp#" "lists.lisp" "loop.lisp~")
 
- ("/home/al/.emacs.d/" (24242 26712 250490 745000) "image-dired/" "./" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "../" "dmenu-items" "tramp" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2")
+ ("/home/al/.config/sxhkd/" (24263 1409 464127 170000) "./" "sxhkdrc" "backup.txt" "../" "sxhkdrc~")
 
- ("/home/al/.config/xfce4/terminal/" (24238 28989 508354 370000) "terminalrc" "./" "accels.scm" "terminalrc~" "../")
+ ("/home/al/Documents/" (24262 21251 665528 814000) "PP01- EDP Report-1.docx" "org_mode_notes/" "other_tobeorg/" "./" "json_practice/" "resumes/" "nodejs_practice/" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "c++_practice/" "lisp_practice/" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "sql_practice/" "sleep_inv/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "../" "Git_Projects/" "java_practice/")
 
- ("/home/al/Documents/" (24242 24918 696167 213000) "PP01- EDP Report-1.docx" "Github_Projects/" "./" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "c++_practice/" "lisp_practice/" "html_practice/" "bills_and_docs.txt" "printer_drivers/" "sql_practice/" "sleep_inv/" "python_practice/" "c_practice/" "../" "java_practice/")
+ ("/home/al/Dropbox/" (24262 20212 369037 788000) "./" ".dropbox" "Sync/" ".dropbox.cache/" "../" "tickler.org~")
 
- ("/home/al/Dropbox/Sync/" (24238 29944 582636 486000) "coe838_meeting-713540923.ics" "useful_linux_commands.org~" "random_capture.org" "fdm_questions/" ".comments/" "arrows.png" "latex_shell_commands.org" "20191129_170515_HDR.jpg" "shawn_courses.tex" "img/" "backburner.org~" "useful_linux_commands.org" "alvi.ahmed@ryerson.ca.ics" "shawn_courses.tex~" "extra_rem.org" "latex_shell_commands (al's conflicted copy 2020-05-03).org~" "emacs_default_tutorial.org" "random_capture.org~" "useful_linux_commands (al's conflicted copy 2020-05-03).org~" "final_exam_sched.png" "coe718help/" "sched_org (al's conflicted copy 2020-05-03).org" "google_calendar.org~" "20191129_172223_HDR.jpg" "sched_org (al's conflicted copy 2020-05-03).org~" "latex_shell_commands.org~" "useful_linux_commands (al's conflicted copy 2020-05-03).org" "data/" "shawn_courses.txt~" "sched_org.org~" "20191129_172219_HDR.jpg" "extra_rem.org~" "latex_shell_commands.txt" "20191129_165123_HDR.jpg" "latex_shell_commands.txt~" "shawn_courses.txt" "shawn_courses.org~" "backburner.org" "extra_rem.ics" "misc_symbols.png" "emacs_default_tutorial.org~" "sched_org.ics~" "greek_letters.png" "#latex_shell_commands.org#" "shawn_courses.odt" "shawn_courses.org" "sched_org.org" "sched_org.ics" "google_calendar.org" "binary_sym.png" "20200219_232208_HDR-1.jpg" "../" "./")
+ ("/home/al/Documents/nodejs_practice/" (24262 22084 149743 78000) "app3.js~" "app1.js~" "./" "#app3.js#" "logger.js" "app2.js" "app2.js~" "TAGS" "#app2.js#" "app1.js" "app3.js" "#app1.js#" "../" "app.js")
+
+ ("/home/al/.emacs.d/eshell/" (24262 21321 206833 447000) "./" "history" "alias~" "alias" "lastdir" "../")
+
+ ("/home/al/.config/xfce4/terminal/" (24262 22105 309953 229000) "terminalrc" "./" "accels.scm" "terminalrc~" "../")
+
+ ("/home/al/Documents/elisp_practice/" (24261 54977 793469 841000) "list_function.el" "./" ".#minor_mode.el" "interac_func.el~" "interac_func.el" "../")
+
+ ("/home/al/bash_scripts/monitor_setting/" (24259 60058 403138 213000) ".projectile" "MON_SEL.sh" "./" "MON_SEL.sh~" "MON_NUM.sh" "VGA1.sh" "DUALL.sh" "MON_NUM.sh~" "DUALR.sh" "LVDS1.sh" "../")
+
+ ("/home/al/bash_scripts/" (24259 58338 12039 187000) ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "dotfile_backup.sh" "performance.sh" "argcmd.sh~" "argument_command.sh~" "setting_wallpaper.sh~" "wm_management.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "#dwm_volume.sh#" "setting_wallpaper.sh" "reptex.sh" "../" "dwm_volume.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
+
+ ("/usr/local/share/info/" (24224 15471 661427 696000) "message.info.gz" "url.info.gz" "speedbar.info.gz" "reftex.info.gz" "tramp.info.gz" "eudc.info.gz" "todo-mode.info.gz" "sc.info.gz" "forms.info.gz" "ido.info.gz" "epa.info.gz" "srecode.info.gz" "ediff.info.gz" "remember.info.gz" "viper.info.gz" "erc.info.gz" "htmlfontify.info.gz" "sieve.info.gz" "eieio.info.gz" "eintr.info.gz" "mairix-el.info.gz" "semantic.info.gz" "calc.info.gz" "cl.info.gz" "edt.info.gz" "emacs-mime.info.gz" "ede.info.gz" "emacs-gnutls.info.gz" "bovine.info.gz" "auth.info.gz" "efaq.info.gz" "./" "ccmode.info.gz" "flymake.info.gz" "ada-mode.info.gz" "widget.info.gz" "vip.info.gz" "dbus.info.gz" "ert.info.gz" "rcirc.info.gz" "elisp.info.gz" "vhdl-mode.info.gz" "sasl.info.gz" "dired-x.info.gz" "info.info.gz" "emacs.info.gz" "pcl-cvs.info.gz" "pgg.info.gz" "gnus.info.gz" "woman.info.gz" "newsticker.info.gz" "nxml-mode.info.gz" "eshell.info.gz" "wisent.info.gz" "idlwave.info.gz" "mh-e.info.gz" "ebrowse.info.gz" "smtpmail.info.gz" "org.info.gz" "ses.info.gz" "autotype.info.gz" "../" "eww.info.gz" "dir" "octave-mode.info.gz")
+
+ ("/home/al/Pictures/" (24259 45985 917070 218000) "./" "bspwm_rice.png" "location_of_jvm_and_glassfish.png" "location_of_jvm_and_netbeans.png" "verynice.png" "background_pics/" "okay.png" "wtf.png" "../" "wallpapers/")
+
+ ("/home/al/Documents/c_practice/" (24257 52498 831679 810000) "argc_argv/" ".projectile" "coe838_bus.c" "NEW" "./" "bresenham_algorithm/" "pointer_prac/" "substitutemax/" "lec8_structure/" "linked_list_stack/" "gdb_debugging/" "array/" "coe838_bus" "linked_list_pract/" "kinematic_trial/" "a.out" "dynamic_memory/" "jason_kinematics_motion/" "stack/" "#coe838_bus.c#" "test.c~" "new_prac/" "test" "copy.c" "#test.c#" "coe838_bus.c~" "../" "queue/" "test.c")
+
+ ("/home/al/Documents/javascript_practice/" (24256 59139 230816 180000) "./" "../")
+
+ ("/home/al/Documents/json_practice/" (24256 64275 139737 644000) "./" "index.html~" "index.html" "company.json" "../" "company.json~")
+
+ ("/home/al/Pictures/wallpapers/" (24259 45876 622906 630000) "./" "1418875913979-0.jpg" "../")
+
+ ("/home/al/back_emacs/" (24256 65136 49567 198000) "./" "dot_config_files_init.el at 7b1f94ede6051ca71a5610918a1089b5ca62b90a · AlviAhmed_dot_config_files_files/" ".emacs.d/" "dot_config_files_init.el at 7b1f94ede6051ca71a5610918a1089b5ca62b90a · AlviAhmed_dot_config_files.html" "../")
+
+ ("/home/al/first-app/" (24255 58545 903327 790000) "app1.js~" "./" "app.js~" "logger.js~" "logger.js" "app2.js" "app2.js~" "app1.js" "../" "app.js")
+
+ ("/home/al/.config/bspwm/" (24252 46059 368121 192000) "./" "../" "bspwmrc~" "bspwmrc")
+
+ ("/home/al/dwm/" (24252 40179 441192 528000) "util.h" "dwm-attachbottom-6.2.diff" "dwm-rotatestack-20161021-ab9571b.diff" "dwm.c" ".git/" "dwm-cfacts-6.2.diff" "fibonacci.c" "dwm-movestack-6.1.diff" "dwm-6.1-single_tagset.diff" "dwm-centeredmaster-6.1.diff" "drw.h" "config.h" "dwm-gridmode-5.8.2.diff" "drw.c" "config.def.h.orig" "dwm.png" "dwm-fakefullscreen-20170508-ceac8c9.diff" "keepfloatingposition.c" "layouts.c" "horizgrid.c" "config.def.h.rej" "dwm-fibonacci-20200418-c82db69.diff" "movestack.c" "config.h.orig" "grid.c" "Makefile" "README" "dwm.c.rej" "dwm-6.0-smfact.diff" "drw.o" "dwm.1" "util.c" "dwm-horizgrid-6.1.diff" "config.h.rej" "dwm-pertag-6.2.diff" "config.h~" "dwm-noborder-6.2.diff" "config.mk" "transient.c" "dwm-cfacts_centeredmaster-6.2.diff" "LICENSE" "config.def.h" "dwm.c.orig" "../" "./")
+
+ ("/home/al/.config/dwm_custom/" (24249 15883 729094 98000) "./" "../")
+
+ ("/home/al/.local/bin/" (24226 65477 30089 253000) "easy_install-2.7" "./" "easy_install" "../")
+
+ ("/home/al/.local/" (24226 65477 30089 253000) "./" "share/" "lib/" "../" "bin/")
+
+ ("/home/al/netbeans-8.1/" (24244 5969 954637 403000) "webcommon/" "THIRDPARTYLICENSE.txt" "enterprise/" "./" "uninstall.sh" "README.html" "etc/" "ergonomics/" "websvccommon/" "cnd/" "mobility/" "netbeans.css" "harness/" "CREDITS.html" "extide/" "profiler/" "moduleCluster.properties" "groovy/" "nb/" "cndext/" "php/" "platform/" "javafx/" "apisupport/" "../" "java/" "ide/" "bin/" "dlight/" "LICENSE.txt")
+
+ ("/usr/local/bin/" (24230 17982 300627 195000) "search" "emacs" "polybar-msg" "yelp" "highlight-mint" "polybar" "./" "ctags" "etags" "gnome-help" "emacs-26.3" "emacsclient" "apt" "mint-sha256sum" "ebrowse" "../")
+
+ ("/usr/local/" (24224 15303 526648 314000) "libexec/" "games/" "./" "etc/" "src/" "man/" "include/" "share/" "lib/" "sbin/" "../" "bin/")
+
+ ("/usr/" (24243 62380 71225 805000) "libexec/" "games/" "lib64/" "local/" "./" "src/" "include/" "share/" "java/" "lib/" "sbin/" "../" "bin/" "lib32/")
+
+ ("/home/al/.config/polybar/" (24243 25920 213675 940000) "./" "config" "../" "launch")
+
+ ("/media/al/" (24243 21989 380487 948000) "./" "Backup Plus/" "../")
+
+ ("/media/" (24243 22023 905191 975000) "veracrypt1/" "./" "al/" "../")
+
+ ("/home/al/Documents/Git_Projects/bash_scripts/" (24243 33072 266292 631000) ".git/" "./" "home_backup.sh" "reptex.sh~" "dotfile_backup.sh" "performance.sh" "monitor_setting.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "dotfile_backup.sh~" "reptex.sh" "../" "monitor_setting/" "security.sh" "powersave.sh" "hidden_node.sh" "security.sh~")
 
  ("/home/al/.gnupg/" (24238 64976 948290 864000) "./" "random_seed" "pubring.kbx" "gpg-agent.conf" "../" "trustdb.gpg" "private-keys-v1.d/")
 
  ("/media/al/Seagate Backup Plus Drive/" (24240 30301 575086 200000) "FileHistory/" "Warranty.pdf" "VMware Workstation Pro 15.0.0 Build 10134415 (x64) + Crack [CracksNow]/" "UltraSlim.ico" "System Volume Information/" "Start_Here_Mac.app/" "Seagate/" "programming_and_tech_videos/" "Multisim 10.1/" "Media/" "cube.tar" "cube/" ".Trash-1000/" ".#hello.tar.gz" "$RECYCLE.BIN/" "../" "./")
 
- ("/media/al/" (24240 12805 235873 132000) "Seagate Backup Plus Drive/" "./" "../")
-
- ("/media/" (24240 12799 955746 336000) "./" "al/" "../")
-
  ("/home/al/Documents/sleep_inv/" (24235 55837 787172 569000) "./" "syslog" "../")
-
- ("/home/al/Documents/c_practice/" (24235 40100 291431 337000) "argc_argv/" "coe838_bus.c" "NEW" "./" "bresenham_algorithm/" "pointer_prac/" "substitutemax/" "lec8_structure/" "linked_list_stack/" "gdb_debugging/" "array/" "coe838_bus" "linked_list_pract/" "kinematic_trial/" "a.out" "dynamic_memory/" "jason_kinematics_motion/" "stack/" "#coe838_bus.c#" "test.c~" "new_prac/" "test" "copy.c" "#test.c#" "coe838_bus.c~" "../" "queue/" "test.c")
 
  ("/usr/local/share/emacs/26.3/lisp/" (24224 15484 518888 480000) "vt100-led.el.gz" "expand.el.gz" "htmlfontify.elc" "newcomment.el.gz" "mouse-copy.el.gz" "wdired.el.gz" "mpc.el.gz" "doc-view.el.gz" "desktop.el.gz" "avoid.el.gz" "autoinsert.el.gz" "tmm.el.gz" "indent.elc" "window.elc" "help-fns.elc" "saveplace.elc" "dos-vars.el.gz" "hfy-cmap.el.gz" "info-xref.el.gz" "strokes.elc" "abbrev.elc" "dired-aux.el.gz" "password-cache.el.gz" "dframe.elc" "locate.elc" "widget.el.gz" "hilit-chg.el.gz" "userlock.el.gz" "filesets.el.gz" "auth-source-pass.el.gz" "proced.elc" "xt-mouse.el.gz" "shell.elc" "ibuffer.el.gz" "foldout.elc" "startup.el.gz" "echistory.elc" "emulation/" "shadowfile.elc" "pcmpl-x.el.gz" "wdired.elc" "tree-widget.elc" "repeat.elc" "isearch.elc" "tabify.elc" "mouse-drag.elc" "novice.el.gz" "faces.el.gz" "jit-lock.el.gz" "vcursor.el.gz" "novice.elc" "ansi-color.elc" "flow-ctrl.el.gz" "makesum.elc" "cus-start.el.gz" "strokes.el.gz" "info-look.el.gz" "gnus/" "rtree.elc" "autorevert.elc" "hippie-exp.elc" "cus-face.el.gz" "pixel-scroll.el.gz" "international/" "cdl.el.gz" "scroll-all.el.gz" "hl-line.el.gz" "custom.elc" "w32-fns.elc" "ebuff-menu.elc" "xml.elc" "allout-widgets.el.gz" "arc-mode.elc" "kmacro.el.gz" "cedet/" "hex-util.el.gz" "find-lisp.el.gz" "minibuffer.elc" "ps-samp.el.gz" "ido.el.gz" "frameset.el.gz" "files.el.gz" "thingatpt.elc" "avoid.elc" "scroll-lock.el.gz" "x-dnd.el.gz" "svg.elc" "bindings.elc" "COPYING" "ps-def.el.gz" "help-fns.el.gz" "t-mouse.elc" "cus-theme.elc" "ps-mule.elc" "time.el.gz" "recentf.el.gz" "facemenu.el.gz" "filecache.el.gz" "iimage.el.gz" "allout.el.gz" "tool-bar.elc" "xwidget.elc" "thumbs.elc" "repeat.el.gz" "env.elc" "files-x.el.gz" "leim/" "play/" "dired-x.elc" "timezone.elc" "facemenu.elc" "info.elc" "align.el.gz" "tree-widget.el.gz" "outline.elc" "language/" "pixel-scroll.elc" "font-lock.elc" "color.el.gz" "filenotify.el.gz" "battery.el.gz" "term/" "array.elc" "newcomment.elc" "delim-col.el.gz" "battery.elc" "button.el.gz" "filesets.elc" "winner.elc" "ffap.el.gz" "pcmpl-x.elc" "forms.elc" "bs.el.gz" "ruler-mode.el.gz" "dos-w32.elc" "time-stamp.elc" "case-table.el.gz" "vt-control.elc" "ebuff-menu.el.gz" "mwheel.elc" "notifications.elc" "face-remap.el.gz" "cus-start.elc" "help-mode.elc" "talk.el.gz" "electric.el.gz" "loadhist.el.gz" "delsel.elc" "paren.elc" "jit-lock.elc" "dynamic-setting.elc" "printing.elc" "comint.el.gz" "image-mode.elc" "simple.el.gz" "image-mode.el.gz" "display-line-numbers.elc" "speedbar.el.gz" "display-line-numbers.el.gz" "bookmark.el.gz" "tempo.elc" "sb-image.elc" "ldefs-boot.el" "register.el.gz" "autorevert.el.gz" "subdirs.el" "savehist.elc" "linum.elc" "json.el.gz" "cus-theme.el.gz" "help-macro.elc" "char-fold.el.gz" "dos-fns.el.gz" "winner.el.gz" "reveal.el.gz" "dired.elc" "ibuf-macs.el.gz" "rfn-eshadow.elc" "filenotify.elc" "completion.elc" "epg-config.elc" "imenu.elc" "t-mouse.el.gz" "info-xref.elc" "time.elc" "double.elc" "array.el.gz" "mh-e/" "pcmpl-gnu.elc" "ibuffer.elc" "format.el.gz" "kermit.el.gz" "xml.el.gz" "locate.el.gz" "dom.el.gz" "pcmpl-rpm.el.gz" "textmodes/" "msb.elc" "man.el.gz" "sb-image.el.gz" "hexl.elc" "auth-source.el.gz" "loadup.el" "find-cmd.el.gz" "wid-browse.elc" "font-lock.el.gz" "ibuf-ext.elc" "autoarg.el.gz" "whitespace.el.gz" "rot13.elc" "delsel.el.gz" "generic-x.elc" "loaddefs.el" "descr-text.el.gz" "calc/" "bs.elc" "rfn-eshadow.el.gz" "mb-depth.el.gz" "epg.elc" "electric.elc" "replace.el.gz" "epg.el.gz" "isearchb.el.gz" "replace.elc" "widget.elc" "cus-edit.elc" "icomplete.el.gz" "pcomplete.el.gz" "face-remap.elc" "scroll-all.elc" "pcmpl-linux.el.gz" "type-break.el.gz" "echistory.el.gz" "align.elc" "misc.elc" "case-table.elc" "font-core.elc" "url/" "lpr.elc" "emacs-lock.el.gz" "calendar/" "ehelp.elc" "ruler-mode.elc" "allout-widgets.elc" "cmuscheme.el.gz" "faces.elc" "dynamic-setting.el.gz" "reveal.elc" "pcmpl-gnu.el.gz" "finder.elc" "cus-dep.el.gz" "help-at-pt.elc" "info.el.gz" "ecomplete.elc" "char-fold.elc" "descr-text.elc" "menu-bar.el.gz" "dos-fns.elc" "man.elc" "plstore.elc" "scroll-bar.elc" "edmacro.el.gz" "pcomplete.elc" "jka-compr.elc" "time-stamp.el.gz" "macros.elc" "whitespace.elc" "image/" "woman.elc" "registry.el.gz" "tutorial.el.gz" "vt100-led.elc" "obarray.elc" "flow-ctrl.elc" "xdg.elc" "auth-source.elc" "midnight.el.gz" "json.elc" "ielm.el.gz" "isearch.el.gz" "soundex.el.gz" "find-lisp.elc" "font-core.el.gz" "rot13.el.gz" "menu-bar.elc" "README" "tooltip.el.gz" "scroll-bar.el.gz" "find-file.el.gz" "erc/" "help-mode.el.gz" "emacs-lisp/" "files.elc" "mouse.elc" "ecomplete.el.gz" "view.el.gz" "generic-x.el.gz" "ibuf-ext.el.gz" "ido.elc" "dframe.el.gz" "frame.el.gz" "dired.el.gz" "mouse-copy.elc" "fringe.el.gz" "md4.el.gz" "x-dnd.elc" "jka-cmpr-hook.elc" "ezimage.el.gz" "indent.el.gz" "register.elc" "ls-lisp.el.gz" "ezimage.elc" "window.el.gz" "ehelp.el.gz" "dom.elc" "epa.elc" "disp-table.el.gz" "cus-dep.elc" "elec-pair.elc" "obarray.el.gz" "minibuf-eldef.elc" "ielm.elc" "rtree.el.gz" "timezone.el.gz" "epa-mail.el.gz" "forms.el.gz" "misearch.el.gz" "wid-edit.el.gz" "outline.el.gz" "tutorial.elc" "tmm.elc" "pcmpl-cvs.el.gz" "term.elc" "term.el.gz" "button.elc" "ps-def.elc" "foldout.el.gz" "notifications.el.gz" "paren.el.gz" "dired-aux.elc" "recentf.elc" "reposition.elc" "mpc.elc" "dired-x.el.gz" "dired-loaddefs.el" "scroll-lock.elc" "uniquify.el.gz" "informat.elc" "ibuffer-loaddefs.el" "vt-control.el.gz" "find-dired.el.gz" "env.el.gz" "type-break.elc" "double.el.gz" "sort.el.gz" "imenu.el.gz" "tooltip.elc" "follow.elc" "soundex.elc" "tar-mode.elc" "format-spec.el.gz" "dabbrev.elc" "bindings.el.gz" "net/" "follow.el.gz" "color.elc" "allout.elc" "registry.elc" "server.el.gz" "view.elc" "dos-vars.elc" "w32-fns.el.gz" "chistory.el.gz" "tabify.el.gz" "misc.el.gz" "shell.el.gz" "sort.elc" "subr.el.gz" "calculator.el.gz" "finder.el.gz" "hi-lock.el.gz" "rect.el.gz" "hl-line.elc" "dnd.el.gz" "chistory.elc" "pcmpl-unix.elc" "epa-hook.elc" "ps-mule.el.gz" "md4.elc" "elide-head.elc" "pcmpl-rpm.elc" "org/" "finder-inf.el" "kmacro.elc" "composite.el.gz" "speedbar.elc" "isearchb.elc" "midnight.elc" "help-macro.el.gz" "pcmpl-linux.elc" "ps-print.el.gz" "tar-mode.el.gz" "mouse-drag.el.gz" "buff-menu.el.gz" "image-file.el.gz" "delim-col.elc" "userlock.elc" "obsolete/" "proced.el.gz" "uniquify.elc" "desktop.elc" "fringe.elc" "minibuffer.el.gz" "apropos.el.gz" "printing.el.gz" "ffap.elc" "cdl.elc" "emacs-lock.elc" "mb-depth.elc" "xt-mouse.elc" "help.elc" "subr.elc" "thumbs.el.gz" "xdg.el.gz" "xwidget.el.gz" "edmacro.elc" "hex-util.elc" "simple.elc" "cus-edit.el.gz" "jka-cmpr-hook.el.gz" "talk.elc" "version.el.gz" "master.el.gz" "image.el.gz" "cus-load.el" "comint.elc" "htmlfontify-loaddefs.el" "completion.el.gz" "skeleton.elc" "expand.elc" "ps-print-loaddefs.el" "ses.el.gz" "epa-dired.elc" "image-dired.elc" "w32-vars.el.gz" "select.elc" "dabbrev.el.gz" "ibuf-macs.elc" "shadowfile.el.gz" "composite.elc" "loadhist.elc" "dirtrack.elc" "progmodes/" "skeleton.el.gz" "epa-dired.el.gz" "epa-file.el.gz" "ses.elc" "svg.el.gz" "format-spec.elc" "elec-pair.el.gz" "ps-print.elc" "htmlfontify.el.gz" "server.elc" "linum.el.gz" "abbrev.el.gz" "thingatpt.el.gz" "image-file.elc" "epg-config.el.gz" "eshell/" "epa-mail.elc" "lpr.el.gz" "epa.el.gz" "dnd.elc" "windmove.el.gz" "epa-file.elc" "buff-menu.elc" "wid-edit.elc" "arc-mode.el.gz" "jka-compr.el.gz" "woman.el.gz" "pcmpl-cvs.elc" "auth-source-pass.elc" "savehist.el.gz" "startup.elc" "minibuf-eldef.el.gz" "plstore.el.gz" "image-dired.el.gz" "iimage.elc" "wid-browse.el.gz" "autoinsert.elc" "hi-lock.elc" "pcmpl-unix.el.gz" "help-at-pt.el.gz" "elide-head.el.gz" "vcursor.elc" "help.el.gz" "misearch.elc" "hilit-chg.elc" "bookmark.elc" "ps-bdf.el.gz" "ps-samp.elc" "hexl.el.gz" "calculator.elc" "version.elc" "frameset.elc" "tempo.el.gz" "select.el.gz" "saveplace.el.gz" "mail/" "mouse.el.gz" "epa-hook.el.gz" "ps-bdf.elc" "hfy-cmap.elc" "msb.el.gz" "windmove.elc" "info-look.elc" "disp-table.elc" "frame.elc" "master.elc" "hippie-exp.el.gz" "cmuscheme.elc" "find-dired.elc" "ansi-color.el.gz" "dirtrack.el.gz" "profiler.elc" "files-x.elc" "apropos.elc" "doc-view.elc" "ls-lisp.elc" "icomplete.elc" "rect.elc" "profiler.el.gz" "tool-bar.el.gz" "kermit.elc" "password-cache.elc" "makesum.el.gz" "macros.el.gz" "reposition.el.gz" "find-cmd.elc" "dos-w32.el.gz" "custom.el.gz" "informat.el.gz" "nxml/" "image.elc" "vc/" "w32-vars.elc" "find-file.elc" "autoarg.elc" "cus-face.elc" "filecache.elc" "mwheel.el.gz" "format.elc" "../" "./")
 
@@ -93,8 +158,6 @@
  ("/home/" (24224 2634 292327 157000) "./" ".ecryptfs/" "lost+found/" "al/" "../")
 
  ("/home/al/Downloads/" (24235 40664 341020 730000) "./" "dcpl2550dwpdrv-4.0.0-1.i386.deb" "font-awesome.zip" "TON 092519.mp3" "TON 091819.mp3" "TON 032520.mp3" "DN 040220.mp3" "TON 082119.mp3" "dwm-6.2.tar.gz" "dwm-6.2/" "../" "SIL Open Font License.txt")
-
- ("/home/al/bash_scripts/monitor_setting/" (24233 59419 725022 675000) "DUALR.sh~" "VGA1.sh~" "./" "VGA1.sh" "DUALL.sh" "#VGA1.sh#" "LVDS1.sh~" "DUALR.sh" "LVDS1.sh" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

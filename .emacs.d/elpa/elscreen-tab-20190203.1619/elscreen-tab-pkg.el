@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "elscreen-tab" "20190203.1619" "minor mode to display tabs of elscreen in a dedicated buffer" '((emacs "26") (elscreen "20180321") (dash "2.14.1")) :commit "da79fb0b9ead2402662ff8e163039635aaae2413" :keywords '("tools" "extensions") :authors '(("Aki Syunsuke" . "sunny.day.dev@gmail.com")) :maintainer '("Aki Syunsuke" . "sunny.day.dev@gmail.com") :url "https://github.com/aki-s/elscreen-tab")

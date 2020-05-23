@@ -48,3 +48,36 @@ git push origin master
 bash ~/bash_scripts/dotfile_backup.sh 
 cd ..
 git clone https://github.com/AlviAhmed/bash_scripts.git
+cd ~/bash_scripts/
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+ls | grep dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+bash dotfile_backup.sh 
+printf "Backing up bash scripts to usb" cp -urv ~/bash_scripts/.  /media/al/Backup Plus/linux_experimental_backup_with_terminal/al/Documents/Git_Projects/bash_scripts
+printf "Backing up bash scripts to usb" cp -urv ~/bash_scripts/.  /media/al/Backup Plus/linux_experimental_backup_with_terminal/al/Documents/Git_Projects/bash_scripts
+cp -urv ~/bash_scripts/.  /media/al/Backup Plus/linux_experimental_backup_with_terminal/al/Documents/Git_Projects/bash_scripts
+bash dotfile_backup.sh 
+ls
+cd Desktop/
+cd ~/Documents/
+sudo make install clean
+sudo make clean install 
+sudo make clean install
+git branch config
+git branch
+branch -D config
+git branch -D config
+sudo make clean install
+sudo make clean install
+sudo rename dwm.desktop .dwm.desktop
+mod lvds
+mon lvds
+mon lvds
