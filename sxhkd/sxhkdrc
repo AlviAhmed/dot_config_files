@@ -34,7 +34,7 @@ super + t
 
 # emacs 
 super + m 
-	emacsclient -n -create-frame --alternate-editor=""
+	emacsclient -n -create-frame --alternate-editor="" && emacsclient -e "(load-theme 'xresources t)"
 
 # internet browser 
 super + i 
@@ -299,7 +299,8 @@ super + n
 super + shift + s 
 	bspc rule -a xfce4-terminal -o state=floating rectangle=800x500+200+200
 
+# Restarting bspwm
 super + b 
-	bash ~/.config/bspwm/bspwmrc
+	bash ~/.config/bspwm/bspwmrc && feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
 
 ###---BSPWM BINDINGS---###

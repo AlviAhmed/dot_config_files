@@ -31,8 +31,8 @@
 ;;Allowing Subwords
 (global-subword-mode 1)   
 
-;; ;;Starting Emacs server 
-(server-start) 
+;; ;; ;;Starting Emacs server 
+;; (server-start) 
 
 ;;adding org appointment from the agenda
 (org-agenda-to-appt)
@@ -64,6 +64,12 @@
 ;;;---Enabling Winner Mode---;;;
 (winner-mode 1)
 ;;;---Enabling Winner Mode---;;; 
+
+
+;;;---Shell Command bgpape---;;;
+;; (global-set-key (kbd "C-c C-b") (lambda () (interactive) (shell-command "bgpape")))
+
+;;;---Shell Command bgpape---;;;
 
 ;;;---Refiling active region---;;;
 (setq org-refile-active-region-within-subtree t)
@@ -100,37 +106,6 @@
 
 ;;;---Hide Show Mode---;;;
 
-;; ;;;---CEDET---;;; 
-;; (require 'cedet)
-;; (require 'eieio)
-;; (require 'eieio-speedbar)
-;; (require 'eieio-opt)
-;; (require 'eieio-base)
-;; (require 'ede/source)
-;; (require 'ede/base)
-;; (require 'ede/auto)
-;; (require 'ede/proj)
-;; (require 'ede/proj-archive)
-;; (require 'ede/proj-aux)
-;; (require 'ede/proj-comp)
-;; (require 'ede/proj-elisp)
-;; (require 'ede/proj-info)
-;; (require 'ede/proj-misc)
-;; (require 'ede/proj-obj)
-;; (require 'ede/proj-prog)
-;; (require 'ede/proj-scheme)
-;; (require 'ede/proj-shared)
-;; (setq package-enable-at-startup nil)
-;; (package-initialize) 
-
-;; (semantic-mode 1)  
-;; (global-ede-mode 1)  
-
-
-
-;; ;;;---CEDET---;;;
-
-
 ;;;---Web Mode---;;;
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
@@ -151,7 +126,6 @@
 ;;;---Highlighting Parentheses---;;;
 (show-paren-mode 1)
 ;;;---Highlighting Parentheses---;;;
-
 
 ;;;---Toggle Show Dot Files---;;; 
   (defun dired-dotfiles-toggle ()
@@ -425,7 +399,15 @@
 ;;;---Dired Async Shell---;;; 
 (global-set-key (kbd "C-c b") 'bookmark-jump)  
 (global-set-key (kbd "C-c x") 'xah-open-in-external-app)
-(global-set-key (kbd "C-c a") 'dired-do-async-shell-command)   
+
+
+(defun bgpape ()
+  "Uses the cygstart command to open the file at point."
+  (interactive)
+  (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) "&")))
+(add-hook 'dired-mode-hook '(lambda () 
+                              (local-set-key (kbd "b") 'bgpape)))
+
 ;;;---Dired Async Shell---;;;
 
 ;;visual-regexp 
@@ -568,13 +550,6 @@
 (global-set-key (kbd "M-@") 'split-window-below)  
 (global-set-key (kbd "M-#") 'split-window-right)  
 (global-set-key (kbd "M-$") 'delete-window)  
-;; (global-set-key (kbd "M-2") 'bookmark-jump)  
-;; (global-set-key (kbd "M-3") 'xah-open-in-external-app)
-;; (global-set-key (kbd "M-4") 'dired-do-async-shell-command)   
-
-;; (global-set-key (kbd "f") 'ido-find-file)
-;; (define-key dired-mode-map (kbd "-") 'dired-up-directory)
-;; (define-key dired-mode-map (kbd "i") 'dired-toggle-read-only)
 
 (require 'fill-column-indicator) 
 
