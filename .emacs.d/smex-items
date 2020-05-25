@@ -14,7 +14,7 @@
 (
  (eval-buffer . 86)
  (customize . 2)
- (customize-themes . 29)
+ (customize-themes . 30)
  (package-install . 2)
  (list-packages . 19)
  (peep-dired . 14)
@@ -55,5 +55,5 @@
  (rainbow-mode . 7)
  (shell . 1)
  (update-file-autoloads . 1)
- (load-file . 2)
+ (load-file . 4)
 )
