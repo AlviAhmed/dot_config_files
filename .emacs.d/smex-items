@@ -1,29 +1,29 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- list-packages
  customize-themes
+ load-file
+ rainbow-mode
+ update-file-autoloads
+ revert-buffer
  eshell
- savehist-mode
- org-agenda
- compile
+ shell
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 86)
  (customize . 2)
- (customize-themes . 21)
+ (customize-themes . 29)
  (package-install . 2)
- (list-packages . 17)
+ (list-packages . 19)
  (peep-dired . 14)
  (occur . 8)
  (occur-mode . 2)
  (ediff-buffers . 2)
- (revert-buffer . 4)
+ (revert-buffer . 6)
  (compile . 7)
- (eshell . 22)
+ (eshell . 23)
  (bookmark-save . 5)
  (rgrep . 7)
  (org-agenda . 3)
@@ -52,4 +52,8 @@
  (hs-minor-mode . 1)
  (yas-visit-snippet-file . 1)
  (savehist-mode . 2)
+ (rainbow-mode . 7)
+ (shell . 1)
+ (update-file-autoloads . 1)
+ (load-file . 2)
 )

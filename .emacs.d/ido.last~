@@ -2,17 +2,22 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/al/.emacs.d/elpa/" . "ac-js2-20190101.933/")
+ ("/home/al/.emacs.d/" . "elpa/")
+ ("/home/al/.cache/" . "wal/")
  ("/home/al/Pictures/" . "wallpapers/")
  ("/media/al/" . "Backup Plus/")
  ("/media/" . "al/")
  ("/" . "media/")
- ("/home/al/" . "hideshow-org/")
+ ("/home/al/" . ".emacs.d/")
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" . "tut10/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/bash_scripts/"
  "/home/al/"
+ "/home/al/.cache/wal/"
  "/home/al/bin/"
  "/home/al/.config/bspwm/"
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut_#6/"
@@ -29,24 +34,38 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "emacs_bg.sh"
  ".Xresources"
+ "colors.Xresources"
  "AUTHORS"
  "main_3.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/" (24267 16523 241550 392000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" ".oracle_jre_usage/" "tor-browser_en-US/" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".fzf.bash" ".bash_aliases" ".thumbnails/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" ".openarena/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" ".Xresources~" "testdisk.log" ".dmrc" ".var/" "Downloads/" "bash_scripts/" "note.txt" ".toggle_hid.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "test.el~" "back_init/" ".gimp-2.8/" "kaktxt.c~" ".bash_aliases~" ".emacs.d/" ".gtkrc-2.0" ".profile~" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".mozilla/" "testing_wget/" "sum_course.org" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".java/" ".dmesg.txt.swp" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".bashrc~" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" "bin/" "openspades/" "src/" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".xsession-errors" "../" "./")
+ ("/home/al/bash_scripts/" (24267 23523 785453 481000) ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "emacs_bg.sh" "dotfile_backup.sh" "performance.sh" "emacs_bg.sh~" "argcmd.sh~" "argument_command.sh~" "setting_wallpaper.sh~" "wm_management.sh" "emacs_xresource.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "#dwm_volume.sh#" "setting_wallpaper.sh" "dotfile_backup.sh~" "reptex.sh" "../" "dwm_volume.sh" "monitor_setting/" "emacs_xresource.sh~" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
 
- ("/home/al/bin/" (24267 14232 300091 171000) "./" "bgpape" "../" "bgpape~")
+ ("/home/al/.emacs.d/elpa/ac-js2-20190101.933/" (24259 50568 887114 586000) "ac-js2-autoloads.el" "./" "ac-js2-pkg.el" "ac-js2.elc" "ac-js2.el" "skewer-addon.js" "ac-js2-tests.elc" "../" "ac-js2-tests.el")
+
+ ("/home/al/.emacs.d/elpa/" (24267 19919 300429 146000) "yasnippet-classic-snippets-1.0.2.signed" "avy-menu-20190713.1348/" "multiple-cursors-20191210.1759/" "yasnippet-classic-snippets-1.0.2/" "hide-mode-line-20190922.115/" "use-package-20200322.2110/" "skewer-mode-20200304.1142/" "s-20180406.808/" "ac-js2-20190101.933/" "fill-column-indicator-20191109.10/" "dired-hacks-utils-20190522.950/" "epl-20180205.2049/" "dired-subtree-20180922.1615/" "popup-20160709.1429/" "doom-themes-20200521.1936/" "archives/" "smex-20151212.2209/" "which-key-20200216.1350/" "xresources-theme-20190108.1851/" "tramp-auto-auth-20191027.1419/" "yasnippet-20200413.2221/" "auctex-12.2.0/" "js2-mode-20200427.33/" "autothemer-20180920.923/" "moody-20200113.2321/" "parsebib-20200513.2352/" "ido-vertical-mode-20180618.2101/" "web-mode-20200501.1939/" "beacon-20190104.1931/" "auctex-12.2.0.signed" "pkg-info-20150517.1143/" "dumb-jump-20200518.559/" "irony-20200130.849/" "emmet-mode-20180613.341/" "bind-key-20191110.416/" "elscreen-20181009.451/" "yasnippet-snippets-20200523.1033/" "keycast-20200418.2028/" "projectile-20200517.1330/" "rainbow-mode-1.0.4.signed" "visual-regexp-20190414.814/" "expand-region-20200304.1839/" "dmenu-20190908.44/" "modus-operandi-theme-20200425.1503/" "popup-kill-ring-20131020.1854/" "modus-vivendi-theme-20200425.1503/" "tramp-2.4.3.4.signed" "buffer-move-20160615.1803/" "company-bibtex-20171105.644/" "company-c-headers-20190825.1631/" "pos-tip-20191227.1356/" "rainbow-delimiters-20191018.1233/" "angular-snippets-20140514.523/" "peep-dired-20160321.2237/" "gruvbox-theme-20200514.740/" "company-auctex-20180725.1912/" "gnupg/" "company-20200510.1614/" "dash-20200426.2244/" "elscreen-tab-20190203.1619/" "tramp-2.4.3.4/" "hungry-delete-20200309.209/" "flycheck-20200516.1719/" "company-irony-c-headers-20151018.909/" "company-irony-20190124.2346/" "avy-20200422.1153/" "rainbow-mode-1.0.4/" "simple-httpd-20191103.1446/" "../" "./")
+
+ ("/home/al/.emacs.d/" (24267 22349 429519 387000) "image-dired/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "./" "history" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "../" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations")
+
+ ("/home/al/.config/bspwm/" (24267 21573 641607 647000) "./" "../" "bspwmrc~" "bspwmrc")
+
+ ("/home/al/bin/" (24267 21360 681245 43000) "./" "bgpape" "../" "bgpape~")
+
+ ("/home/al/.cache/wal/" (24267 21019 830318 422000) "colors-speedcrunch.json" "colors.hs" "colors-wal.vim" "colors-konsole.colorscheme" "./" "colors-tty.sh" "wal" "colors-wal-dwm.h" "colors-waybar.css" "colors.scss" "colors.sh" "colors-sway" "colors-rofi-dark.rasi" "colors-wal-st.h" "colors-oomox" "colors" "colors.Xresources" "colors-wal-tabbed.h" "colors-kitty.conf" "colors.json" "sequences" "colors.yml" "colors-putty.reg" "../" "schemes/" "colors.css" "colors-rofi-light.rasi" "colors-wal-dmenu.h")
+
+ ("/home/al/" (24267 21589 485934 508000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" ".oracle_jre_usage/" "tor-browser_en-US/" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".fzf.bash" ".bash_aliases" ".thumbnails/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" ".openarena/" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" ".Xresources~" "testdisk.log" ".dmrc" ".var/" "Downloads/" "bash_scripts/" "note.txt" ".toggle_hid.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "test.el~" "back_init/" ".gimp-2.8/" "kaktxt.c~" ".bash_aliases~" ".emacs.d/" ".gtkrc-2.0" ".profile~" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".mozilla/" "testing_wget/" "sum_course.org" "colors.Xresources" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".java/" ".dmesg.txt.swp" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".bashrc~" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" "bin/" "openspades/" "src/" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".xsession-errors" "../" "./")
+
+ ("/home/al/.cache/" (24266 59441 607471 516000) "TeamViewer/" "babl/" "thumbnails/" "xfce4/" "mozilla/" "sessions/" "./" "xreader/" "flatpak/" "obexd/" "qt_compose_cache_little_endian_775ccb91c8f84539a863dbbb02766c59" "wal/" "dmenu_run" "common-lisp/" "event-sound-cache.tdb.775ccb91c8f84539a863dbbb02766c59.x86_64-pc-linux-gnu" "netbeans/" "pip/" "transmission/" "dconf/" "wine/" "thunderbird/" "docky/" "gstreamer-1.0/" "google-chrome/" "BraveSoftware/" "qtshadercache/" "mesa_shader_cache/" "JNA/" "node-gyp/" "motd.legal-displayed" "../" "mintinstall/" "icon-cache.kcache" "gegl-0.3/" "qBittorrent/" "fontconfig/")
 
  ("/home/al/Pictures/wallpapers/" (24259 54749 961099 508000) "./" "wallpaper.jpg" "../" "wallpaper.png")
 
  ("/home/al/Pictures/" (24264 31442 303411 238000) "34470974_Screenshot_20200520-155705.png" "davor_recommend.png" "./" "buying_course.png" "bspwm_rice.png" "location_of_jvm_and_glassfish.png" "location_of_jvm_and_netbeans.png" "verynice.png" "background_pics/" "okay.png" "wtf.png" "../" "udemy.png" "error.png" "wallpapers/")
 
  ("/home/al/Pictures/background_pics/" (24263 38286 201161 454000) "anime_landscape.jpg" "min_wolf.png" "protest.jpg" "cyber_punk_setting_2.png" "min_earth.png" "dark_propane.png" "space_black.jpg" "shiny_moon.jpg" "mash_pulp.jpg" "min_astro_hello.png" "red_samurai.png" "pattern.jpg" "cyber_scene.png" "coastal_city.jpg" "min_satel.jpg" "caravan_place.png" "broad_shoulders.jpg" "min_polar.png" "lights.jpg" "empty_cartoon_bar.jpg" "movie_city.jpg" "pyramibs_cyber.png" "cyberpunk_city.jpg" "exist_dread.png" "train_tracks.jpg" "anime_store.jpg" "cyber_sunset.png" "krusty_krab.jpg" "skateboard_graveyard.jpg" "cyber_coldiers.jpg" "cartoon_store.png" "black_horse_quote.jpg" "head_robot.jpg" "monk.jpg" "hannibal.jpg" "space_astro.jpg" "cyberwatermelon.jpg" "blade_runner_cartooh.jpg" "old_plug_synth.jpg" "../" "./")
-
- ("/home/al/.config/bspwm/" (24266 59701 177051 312000) "./" "../" "bspwmrc~" "bspwmrc")
 
  ("/media/al/" (24266 52930 661771 157000) "./" "Backup Plus/" "../")
 
@@ -71,8 +90,6 @@
  ("/home/al/Documents/c_practice/cprogramming_in_linux/tut_#3/" (24266 40225 453822 695000) "main_3" "./" "main_3.c~" "main_3.c" "../")
 
  ("/home/al/hideshow-org/" (24266 40884 508426 33000) ".git/" "./" "hideshow-org.el" "TODO" "AUTHORS" "../" "LICENSE" "README.md")
-
- ("/home/al/.emacs.d/" (24266 40978 426504 824000) "image-dired/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "./" ".#ido.last" "elpa/" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" ".#init.el" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "../" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations")
 
  ("/home/al/Documents/c_practice/cprogramming_in_linux/tut#3/" (24266 38998 778851 518000) "./" ".#main_3.c" "../")
 

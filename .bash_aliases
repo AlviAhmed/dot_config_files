@@ -39,6 +39,7 @@ alias dancedead='cd ~/Music/Dance\ with\ the\ Dead'
 #Opening correct version of emacs
 alias emk='killall emacs'
 alias ems='emacs --daemon'
+alias embg='bash ~/bash_scripts/emacs_bg.sh'
 alias emc='screen emacsclient -n -create-frame --alternate-editor=""' 
 alias emnw='emacs -nw'
 alias em='emacsclient -nw -create-frame'

@@ -120,3 +120,6 @@ wall anime_landscape.jpg
 sudo chmod +x wall
 sudo chmod +x wall
 chmod 777 wall
+xrdb -merge .Xresources
+xrdb -merge .Xresources
+xrdb -merge .Xresources

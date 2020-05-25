@@ -10,12 +10,11 @@ bspc rule -r '*'
 ###---Rules---### 
 
 ###---Autostart---###
+~/.config/polybar/launch 
 killall "nm-applet" 
-nm-applet &  
-killall "polybar"
-~/.config/polybar/launch &
+nm-applet 
 killall "dropbox" 
-dropbox start & 
+dropbox start 
 # emacsclient -n -create-frame --alternate-editor="" &
 ###---Autostart---### 
 
