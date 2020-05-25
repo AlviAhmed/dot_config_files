@@ -89,3 +89,34 @@ scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/
 scp ~/magnet_link_udemy.txt al@192.168.0.23:~/Desktop/
 scp ~/magnet_link_udemy.txt al@192.168.0.10:~/Desktop/
 git push origin master
+ls
+git status
+git init
+git add -A 
+git commit -m "First Commit"
+git push origin master
+git add -A
+git commit -m "added comment"
+find . -name "master"
+git status
+git status
+git add -A
+git status
+git commit -m "removed comment"
+git checkout -- .
+git checkout -- .
+git remote -v
+gcc -o main_1 main_1.c
+./main_1
+cd ..
+cd tut_\#
+cd tut_\#1/
+ls
+cd ../tut_#2
+gcc -o main_2 main_2.c 
+./main_2
+bash bspwmrc &
+wall anime_landscape.jpg
+sudo chmod +x wall
+sudo chmod +x wall
+chmod 777 wall

@@ -49,9 +49,9 @@
  (position . 1414))
 ("org-refile-last-stored"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** INPROG Finish")
- (rear-context-string . "ime it may take\n")
- (position . 4722))
+ (front-context-string . "** TODO Reading ")
+ (rear-context-string . "ful Soup Python\n")
+ (position . 5017))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")

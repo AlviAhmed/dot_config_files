@@ -1,6 +1,8 @@
-sxhkd &                         # Simple X hot key daemon  
-wmname compiz &	                # Fixing problems with GUI programs
+sxhkd & 
+# sxhkd &                         # Simple X hot key daemon  
+# wmname compiz &	                # Fixing problems with GUI programs
 xset fp+ $HOME/.local/share/fonts
-xset fp rehash
-emacs --daemon 
-feh --bg-fill ~/Pictures/wallpapers/wallpaper.png #setting up wallpaper
+xset fp rehash 
+emacs --daemon &
+feh --bg-fill ~/Pictures/wallpapers/wallpaper.png #setting up wallpaper &
+wal --vte -R &

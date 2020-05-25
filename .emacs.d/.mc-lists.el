@@ -4,14 +4,19 @@
 (setq mc/cmds-to-run-for-all
       '(
         beginning-of-visual-line
+        c-electric-paren
         emmet-expand-line
         handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward
+        keyboard-escape-quit
         kill-region
         my-insert-tab-char
+        org-agenda-show-and-scroll-up
+        org-self-insert-command
         set-fill-column
         slime-autodoc-space
+        yas-expand
         ))
 
 (setq mc/cmds-to-run-once

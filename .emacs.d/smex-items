@@ -1,32 +1,32 @@
 
 ;; ----- smex-history -----
 (
- bookmark-save
- highlight-regexp
- list-packages
  eval-buffer
- slime
+ list-packages
  customize-themes
- buf-move-up
+ eshell
+ savehist-mode
+ org-agenda
+ compile
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 78)
+ (eval-buffer . 86)
  (customize . 2)
- (customize-themes . 9)
+ (customize-themes . 21)
  (package-install . 2)
- (list-packages . 13)
+ (list-packages . 17)
  (peep-dired . 14)
  (occur . 8)
  (occur-mode . 2)
  (ediff-buffers . 2)
  (revert-buffer . 4)
- (compile . 1)
- (eshell . 17)
+ (compile . 7)
+ (eshell . 22)
  (bookmark-save . 5)
  (rgrep . 7)
- (org-agenda . 1)
+ (org-agenda . 3)
  (goto-line . 2)
  (rectangle-mark-mode . 4)
  (string-rectangle . 1)
@@ -48,4 +48,8 @@
  (windmove-up . 1)
  (buf-move-up . 2)
  (highlight-regexp . 1)
+ (recompile . 1)
+ (hs-minor-mode . 1)
+ (yas-visit-snippet-file . 1)
+ (savehist-mode . 2)
 )

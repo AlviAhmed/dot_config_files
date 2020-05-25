@@ -55,7 +55,7 @@ alias xfce4-terminal='xfce4-terminal --maximize --hide-menubar  --hide-borders'
 
 #Setting Wallpaper 
 
-alias wall='bash ~/bash_scripts/setting_wallpaper.sh'
+alias bgpape='bash ~/bin/bgpape'
 
 #nnn configs 
 export NNN_FALLBACK_OPENER=xdg-open 
@@ -72,7 +72,8 @@ alias save='sudo bash bash_scripts/powersave.sh'
 #base fam 
 alias base='ssh -Y al@192.168.0.23'
 
-
+#reseting bspwm 
+alias bspr='bash ~/.config/bspwm/bspwmrc &'
 
 
 
