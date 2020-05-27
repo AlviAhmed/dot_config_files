@@ -11,7 +11,6 @@ hc emit_hook reload
 # xsetroot -solid '#5A8E3A'
 
 feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
-
 # remove all existing keybindings
 hc keyunbind --all
 

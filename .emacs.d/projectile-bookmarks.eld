@@ -1,1 +1,1 @@
-("~/bash_scripts/" "~/bash_scripts/monitor_setting/" "~/Documents/html_practice/" "~/Documents/c_practice/" "~/hideshow-org/" "~/Documents/Git_Projects/dot_config_files/" "~/Documents/nodejs_practice/")
+("~/bash_scripts/monitor_setting/" "~/bash_scripts/" "~/Documents/html_practice/" "~/Documents/c_practice/" "~/hideshow-org/" "~/Documents/Git_Projects/dot_config_files/" "~/Documents/nodejs_practice/")

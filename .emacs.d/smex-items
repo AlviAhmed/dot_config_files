@@ -2,11 +2,11 @@
 ;; ----- smex-history -----
 (
  customize-themes
+ rainbow-mode
  emmet-mode
  eshell
  eval-buffer
  load-file
- rainbow-mode
  update-file-autoloads
 )
 
@@ -14,7 +14,7 @@
 (
  (eval-buffer . 96)
  (customize . 2)
- (customize-themes . 36)
+ (customize-themes . 37)
  (package-install . 2)
  (list-packages . 19)
  (peep-dired . 14)
@@ -52,7 +52,7 @@
  (hs-minor-mode . 1)
  (yas-visit-snippet-file . 1)
  (savehist-mode . 2)
- (rainbow-mode . 7)
+ (rainbow-mode . 8)
  (shell . 1)
  (update-file-autoloads . 1)
  (load-file . 4)
