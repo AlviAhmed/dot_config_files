@@ -1,29 +1,29 @@
 
 ;; ----- smex-history -----
 (
- customize-themes
- rainbow-mode
- emmet-mode
- eshell
  eval-buffer
- load-file
- update-file-autoloads
+ eshell
+ html-mode
+ js2-mode
+ reindent-then-newline-and-indent
+ emmet-mode
+ customize-themes
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 96)
+ (eval-buffer . 97)
  (customize . 2)
- (customize-themes . 37)
+ (customize-themes . 40)
  (package-install . 2)
  (list-packages . 19)
- (peep-dired . 14)
+ (peep-dired . 16)
  (occur . 8)
  (occur-mode . 2)
  (ediff-buffers . 2)
  (revert-buffer . 6)
  (compile . 7)
- (eshell . 27)
+ (eshell . 33)
  (bookmark-save . 5)
  (rgrep . 7)
  (org-agenda . 3)
@@ -40,7 +40,7 @@
  (projectile-mode . 2)
  (projectile-add-known-project . 6)
  (dumb-jump-go . 1)
- (projectile-ripgrep . 1)
+ (projectile-ripgrep . 2)
  (clone-indirect-buffer . 2)
  (clone-buffer . 1)
  (ansi-term . 1)
@@ -56,5 +56,8 @@
  (shell . 1)
  (update-file-autoloads . 1)
  (load-file . 4)
- (emmet-mode . 7)
+ (emmet-mode . 12)
+ (js2-mode . 6)
+ (html-mode . 2)
+ (reindent-then-newline-and-indent . 1)
 )

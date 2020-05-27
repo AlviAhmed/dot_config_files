@@ -21,14 +21,21 @@ XF86MonBrightnessDown
 ###---Media Controls---###
 
 # ###---Custom Prog Launcher Keys---###
+# # emacs light/dark modes 
+# super + e
+# 	bash ~/bash_scripts/toggle_emacs_theme.sh
 
 
-# emacs light/dark modes 
-super + e
-	bash ~/bash_scripts/toggle_emacs_theme.sh
+#Rotate herbstluftwm layout clockwise 
+super + e 
+	herbstclient chain .-. lock .-. rotate .-. rotate .-. rotate .-. unlock
+#Rotate herbstluftwm layout counter-clockwise 
+super + shift + e 
+	herbstclient chain .-. lock .-. rotate .-. unlock
+
 
 # Launching Thunar
-super + t
+super + t 
 	thunar
 
 
@@ -67,12 +74,16 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 
+super + shift + w 
+	 ~/Documents/herb_examples/savestate.sh > ~/Documents/herb_examples/mystate
+super + w
+	 ~/Documents/herb_examples/loadstate.sh < ~/Documents/herb_examples/mystate
+
+
 
 	
 
 # ###---BSPWM BINDINGS---### 
-
-
 # # restarting polybar 
 # super + shift + alt + p 
 # 	~/.config/polybar/launch 

@@ -2,7 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/al/bash_scripts/" . "monitor_setting/")
+ ("/home/al/Documents/" . "herb_examples/")
  ("/home/al/.emacs.d/elpa/" . "ac-js2-20190101.933/")
  ("/home/al/.emacs.d/" . "elpa/")
  ("/home/al/.cache/" . "wal/")
@@ -10,22 +10,23 @@
  ("/media/al/" . "Backup Plus/")
  ("/media/" . "al/")
  ("/" . "media/")
- ("/home/al/" . ".config/")
+ ("/home/al/" . "Documents/")
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" . "tut10/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/al/bash_scripts/monitor_setting/"
- "/home/al/bash_scripts/"
- "/home/al/Documents/"
+ "/home/al/Documents/javascript_practice/"
+ "/home/al/Documents/html_practice/practice_with_git/"
+ "/home/al/Documents/herb_examples/"
  "/usr/share/xsessions/"
  "/home/al/.config/herbstluftwm/"
- "/home/al/Documents/html_practice/practice_with_git/"
+ "/home/al/Documents/"
  "/home/al/Documents/html_practice/"
  "/home/al/Documents/html_practice/web_practice/practice_with_git/"
  "/home/al/.emacs.d/"
  "/home/al/"
+ "/home/al/bash_scripts/"
  "/home/al/.cache/wal/"
  "/home/al/bin/"
  "/home/al/.config/bspwm/"
@@ -43,49 +44,49 @@
 
 ;; ----- ido-work-file-list -----
 (
- "MON_SEL.sh"
- "herb_keybind.txt"
+ "myscript.js"
+ "savestate.sh"
+ "loadstate.sh"
  "herbstluftwm.desktop"
+ "herb_keybind.txt"
  "st.css"
  "website_1.html"
  "colors.el"
  "emacs_bg.sh"
  ".Xresources"
- "colors.Xresources"
- "AUTHORS"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/" (24270 6433 301881 539000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" ".oracle_jre_usage/" "tor-browser_en-US/" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".fzf.bash" ".bash_aliases" ".thumbnails/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" ".openarena/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" ".var/" "Downloads/" "bash_scripts/" "note.txt" ".toggle_hid.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "back_init/" ".gimp-2.8/" ".emacs.d/" ".gtkrc-2.0" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".mozilla/" "testing_wget/" "sum_course.org" "colors.Xresources" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".java/" ".dmesg.txt.swp" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".toggle" "bin/" "openspades/" "src/" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".xsession-errors" "../" "./")
+ ("/home/al/Documents/javascript_practice/" (24270 18846 35146 976000) "myscript.js" "./" "sec.html" "first.html" "myscript.js~" "../")
 
- ("/home/al/.emacs.d/" (24270 6492 931019 608000) "image-dired/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "./" "history" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "../" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations")
+ ("/home/al/Documents/html_practice/practice_with_git/" (24270 10837 768996 773000) ".git/" "./" "st.css" "website_1.html" "../" "rain_lorry.jpeg")
 
- ("/home/al/.config/herbstluftwm/" (24269 64242 599670 400000) "./" "autostart~" "../" "autostart")
+ ("/home/al/Documents/herb_examples/" (24270 9800 809300 262000) "savestate.sh" "lasttag.sh" "exec_on_tag.sh" "loadstate.sh" "./" "maximize.sh" "wselect.sh" "execwith.sh" "scratchpad.sh" "savestate.sh~" "layout.sh" "loadstate.sh~" "toggledualhead.sh" "keychain.sh" "windowmenu.sh" "dmenu.sh" "README" "mystate" "q3terminal.sh" "floatmon.sh" "herbstcommander.sh" "dumpbeautify.sh" "../")
 
- ("/home/al/bash_scripts/" (24270 6495 771073 814000) ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "emacs_bg.sh" ".#emacs_bg.sh" "dotfile_backup.sh" "performance.sh" "wm_management.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "#dwm_volume.sh#" "setting_wallpaper.sh" "dotfile_backup.sh~" "reptex.sh" "../" "dwm_volume.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
+ ("/home/al/" (24270 9486 875345 933000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" ".oracle_jre_usage/" "tor-browser_en-US/" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".fzf.bash" ".bash_aliases" ".thumbnails/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" ".openarena/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".ICEauthority" ".Private/" ".viminfo" ".xprofile" "testdisk.log" ".dmrc" ".var/" "Downloads/" "bash_scripts/" "note.txt" ".toggle_hid.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "back_init/" ".gimp-2.8/" ".emacs.d/" ".gtkrc-2.0" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".mozilla/" "testing_wget/" "sum_course.org" "colors.Xresources" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".java/" ".dmesg.txt.swp" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" "bin/" "openspades/" "src/" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".xsession-errors" "../" "./")
 
  ("/home/al/.config/" (24269 29161 808701 417000) "bspwm/" "xfce4/" "deluge/" "celluloid/" "Signal/" "caja/" "xreader/" "jstest-gtk/" "Kitware/" "QtProject.conf" "VeraCrypt/" "htop/" "gtk-3.0/" "VirtualBox/" "wal/" "polybar/" "pavucontrol.ini" "qt5ct/" "i3/" "compton/" "herbstluftwm/" "Thunar/" "transmission/" "libreoffice/" "dconf/" "user-dirs.locale" "sxhkd/" "gtk-2.0/" "enchant/" "xviewer/" "dwm_custom/" "zathura/" "pix/" "google-chrome/" "BraveSoftware/" "xed/" "configstore/" "okularpartrc" "hexchat/" "teamviewer/" "neofetch/" "user-dirs.dirs" "mimeapps.list" "mpv/" "sublime-text-3/" "Code/" "autostart/" "menus/" "pulse/" "qBittorrent/" "okularrc" "../" "./")
 
- ("/usr/share/xsessions/" (24269 29172 224886 896000) "dwm.desktop" "i3.desktop" "bspwm.desktop" "./" "i3-with-shmlog.desktop" "qtile.desktop" "xfce.desktop" "herbstluftwm.desktop" "../")
+ ("/home/al/.config/herbstluftwm/" (24270 9657 174575 754000) "./" "autostart~" "../" "autostart")
 
- ("/home/al/Dropbox/" (24269 28889 963400 181000) "./" ".dropbox" "Sync/" ".dropbox.cache/" "../" "tickler.org~")
-
- ("/home/al/Dropbox/Sync/" (24269 58107 653895 486000) "useful_linux_commands.org~" "random_capture.org" "arrows.png" "latex_shell_commands.org" "useful_linux_commands.org" "useful_links_notes.org" "extra_rem.org" "data/" "sched_org.org~" "latex_shell_commands.txt" "misc_symbols.png" "programming_task.org" "greek_letters.png" "sched_org.org" "binary_sym.png" "todo_daily.org" "../" "./")
+ ("/home/al/Documents/" (24270 7652 208398 661000) "PP01- EDP Report-1.docx" "org_mode_notes/" "other_tobeorg/" "./" "json_practice/" "resumes/" "nodejs_practice/" "kak_trail.c" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "os/" "c++_practice/" "lisp_practice/" "herb_keybind.txt" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "sql_practice/" "sleep_inv/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "../" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "java_practice/")
 
  ("/home/al/.config/bspwm/" (24269 22321 671502 491000) "./" "../" "bspwmrc~" "bspwmrc")
 
  ("/home/al/bin/" (24269 28526 462012 681000) "./" "herbstclient" "herbstluftwm" "bgpape" "../" "bgpape~")
 
+ ("/home/al/.emacs.d/" (24269 28589 90871 492000) "image-dired/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "./" "history" "elpa/" "ido.last" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "bookmarks" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "../" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations")
+
  ("/home/al/Documents/html_practice/" (24267 53838 251790 118000) ".projectile" "practice_with_git/" "./" "space_black.jpg" "light_off_on.jpg" "cont.css" "light_off.jpg" "light_on.jpg" "first_cont.html" "first_style_sheet.css" "bspwm_rice.png" "note.txt" "train_tracks.jpg" "first.html" "#first.html#" "secratary.jpg" "forms.html" "../" "plan.webp" "rain_lorry.jpeg" "city.jpg")
 
- ("/home/al/Documents/html_practice/practice_with_git/" (24269 9340 533353 283000) ".git/" "./" "st.css" "website_1.html" "../")
-
- ("/home/al/Documents/" (24269 26989 147940 141000) "PP01- EDP Report-1.docx" "org_mode_notes/" "other_tobeorg/" "./" "json_practice/" "resumes/" "nodejs_practice/" "kak_trail.c" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "default.Xdefaults.txt" "os/" "c++_practice/" "lisp_practice/" "herb_keybind.txt" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "sql_practice/" "sleep_inv/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "../" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "java_practice/")
+ ("/usr/share/xsessions/" (24269 27768 483715 479000) "dwm.desktop" "i3.desktop" "bspwm.desktop" "./" "i3-with-shmlog.desktop" "qtile.desktop" "xfce.desktop" "../")
 
  ("/home/al/bash_scripts/monitor_setting/" (24259 60058 403138 213000) ".projectile" "MON_SEL.sh" "./" "MON_SEL.sh~" "MON_NUM.sh" "VGA1.sh" "DUALL.sh" "MON_NUM.sh~" "DUALR.sh" "LVDS1.sh" "../")
 
  ("/home/al/Documents/html_practice/web_practice/practice_with_git/" (24267 37881 345438 670000) ".git/" "./" "../")
+
+ ("/home/al/bash_scripts/" (24267 24224 527471 164000) ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "emacs_bg.sh" "dotfile_backup.sh" "performance.sh" "wm_management.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "#dwm_volume.sh#" "setting_wallpaper.sh" "reptex.sh" "../" "dwm_volume.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
 
  ("/home/al/.emacs.d/elpa/ac-js2-20190101.933/" (24259 50568 887114 586000) "ac-js2-autoloads.el" "./" "ac-js2-pkg.el" "ac-js2.elc" "ac-js2.el" "skewer-addon.js" "ac-js2-tests.elc" "../" "ac-js2-tests.el")
 

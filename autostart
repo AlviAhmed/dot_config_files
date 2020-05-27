@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # this is a simple config for herbstluftwm
+#wname=LG3D
 
 hc() {
     herbstclient "$@"
@@ -34,6 +35,8 @@ hc keybind $Mod-h     focus left
 hc keybind $Mod-j     focus down
 hc keybind $Mod-k     focus up
 hc keybind $Mod-l     focus right
+
+
 
 # Hiding Windows 
 

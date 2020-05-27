@@ -1,14 +1,3 @@
-./main_1
-cd ..
-cd tut_\#
-cd tut_\#1/
-ls
-cd ../tut_#2
-gcc -o main_2 main_2.c 
-./main_2
-bash bspwmrc &
-wall anime_landscape.jpg
-sudo chmod +x wall
 sudo chmod +x wall
 chmod 777 wall
 xrdb -merge .Xresources
@@ -126,3 +115,14 @@ git checkout media_queries
 git status
 git checkout master
 git checkout -b diff_max_auto
+git status 
+bash layout.sh
+bash layout.sh
+git status
+git add -A 
+git commit -m "diff_max_auto"
+git push origin diff_max_auto
+git status
+make
+make install
+make clean install
