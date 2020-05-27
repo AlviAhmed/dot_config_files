@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
  customize-themes
+ emmet-mode
+ eshell
+ eval-buffer
  load-file
  rainbow-mode
  update-file-autoloads
- revert-buffer
- eshell
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 96)
  (customize . 2)
- (customize-themes . 30)
+ (customize-themes . 36)
  (package-install . 2)
  (list-packages . 19)
  (peep-dired . 14)
@@ -23,7 +23,7 @@
  (ediff-buffers . 2)
  (revert-buffer . 6)
  (compile . 7)
- (eshell . 23)
+ (eshell . 27)
  (bookmark-save . 5)
  (rgrep . 7)
  (org-agenda . 3)
@@ -56,4 +56,5 @@
  (shell . 1)
  (update-file-autoloads . 1)
  (load-file . 4)
+ (emmet-mode . 7)
 )

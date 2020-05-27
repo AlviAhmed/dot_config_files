@@ -10,7 +10,9 @@ bspc rule -r '*'
 ###---Rules---### 
 
 ###---Autostart---###
-~/.config/polybar/launch 
+emacsclient -e "(server-force-delete)" # light theme 
+emacs --daemon &
+~/.config/polybar/launch &
 killall "nm-applet" 
 nm-applet 
 killall "dropbox" 

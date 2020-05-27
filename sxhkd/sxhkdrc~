@@ -68,7 +68,7 @@ super + Escape
 
 
 
-
+	
 
 ###---BSPWM BINDINGS---### 
 
@@ -302,5 +302,7 @@ super + shift + s
 # Restarting bspwm
 super + b 
 	bash ~/.config/bspwm/bspwmrc && feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
+super + shift + b 
+	feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
 
 ###---BSPWM BINDINGS---###

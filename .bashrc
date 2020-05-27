@@ -119,3 +119,4 @@ fi
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 (cat ~/.cache/wal/sequences &)
+export PATH=$PATH:$HOME/bin

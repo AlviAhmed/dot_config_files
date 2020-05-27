@@ -6,6 +6,7 @@
         beginning-of-visual-line
         c-electric-paren
         emmet-expand-line
+        end-of-visual-line
         handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward

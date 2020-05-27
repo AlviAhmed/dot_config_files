@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("html_practice"
+(("herbstluft_config"
+ (filename . "~/.config/herbstluftwm/autostart")
+ (front-context-string . "#!/usr/bin/env b")
+ (rear-context-string)
+ (position . 1))
+("html_practice"
  (filename . "~/Documents/html_practice/")
  (front-context-string)
  (rear-context-string . "May 21 06:08 ..\n")
