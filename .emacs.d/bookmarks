@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("herbstluft_config"
+(("org-capture-last-stored"
+ (filename . "~/Dropbox/Sync/random_capture.org")
+ (front-context-string . "** TODO learn ab")
+ (rear-context-string . "gnals in linux \n")
+ (position . 144))
+("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
  (rear-context-string)

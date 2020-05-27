@@ -38,15 +38,6 @@
 (org-agenda-to-appt)
 ;;adding org appointments  
 
-;;;---Org Mode Capture---;;;
-(global-set-key (kbd "C-c c") 'org-capture)
-(setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/random_capture.org" "Tasks")
-         "* TODO %?\n  %i\n  %a")
-        )  
-	) 
-;;;---Org Mode Capture---;;;
-
 ;;;---Rebinding Undo Key---;;;
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'undo)
@@ -494,8 +485,6 @@
 
 
 
-;;Org Capture 
-(global-set-key (kbd "C-c c") 'org-capture)
 
 ;; Sizing Windows
 (global-set-key (kbd "M-H") 'shrink-window-horizontally)
@@ -525,9 +514,12 @@
 (global-set-key (kbd "M-/") 'rgrep) 
 ;; rgrep
 
+;;Org Capture 
+(global-set-key (kbd "C-c c") 'org-capture)
+
 ;;org capture 
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/random_capture.org" "Tasks")
+      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/sched_org.org" "Inbox Tasks")
          "* TODO %?\n  %i\n  %a")
         )  
 	) 

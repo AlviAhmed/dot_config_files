@@ -38,6 +38,15 @@
 (org-agenda-to-appt)
 ;;adding org appointments  
 
+;;;---Org Mode Capture---;;;
+(global-set-key (kbd "C-c c") 'org-capture)
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/sched_org.org" "Inbox Tasks")
+         "* TODO %?\n  %i\n  %a")
+        )  
+	) 
+;;;---Org Mode Capture---;;;
+
 ;;;---Rebinding Undo Key---;;;
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'undo)
@@ -589,6 +598,9 @@
 ;; Org Mode tasks 
 (setq org-todo-keywords
       '((sequence "TODO" "NEXT" "INPROG" "CANCELLED" "DONE" ))) 
+
+
+
 
 
 ;;Enabling line show mode
