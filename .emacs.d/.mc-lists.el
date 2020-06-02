@@ -7,6 +7,7 @@
         c-electric-paren
         emmet-expand-line
         end-of-visual-line
+        forward-sentence
         handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward
@@ -17,6 +18,7 @@
         org-self-insert-command
         set-fill-column
         slime-autodoc-space
+        toggle-input-method
         yas-expand
         ))
 

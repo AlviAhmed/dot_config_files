@@ -1,6 +1,3 @@
-emacs --daemon &
 sxhkd & 
-xset fp+ $HOME/.local/share/fonts
-xset fp rehash 
 feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
 wal --vte -R &

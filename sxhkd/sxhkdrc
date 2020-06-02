@@ -14,9 +14,9 @@ XF86AudioMute
 
 # Screen brightness controls
 XF86MonBrightnessUp
-	xbacklight -inc 20 # increase screen brightness
+	xbacklight -inc 20 & # increase screen brightness
 XF86MonBrightnessDown  
-	xbacklight -dec 20 # decrease screen brightness
+	xbacklight -dec 20 & # decrease screen brightness
 
 ###---Media Controls---###
 
@@ -25,19 +25,9 @@ XF86MonBrightnessDown
 # super + e
 # 	bash ~/bash_scripts/toggle_emacs_theme.sh
 
-
-#Rotate herbstluftwm layout clockwise 
-super + e 
-	herbstclient chain .-. lock .-. rotate .-. rotate .-. rotate .-. unlock
-#Rotate herbstluftwm layout counter-clockwise 
-super + shift + e 
-	herbstclient chain .-. lock .-. rotate .-. unlock
-
-
 # Launching Thunar
-super + t 
-	thunar
-
+# super + shift + t
+# 	thunar
 
 # emacs 
 super + m 
@@ -74,16 +64,37 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 
+
+---Herbstluftwm---###
 super + shift + w 
 	 ~/Documents/herb_examples/savestate.sh > ~/Documents/herb_examples/mystate
 super + w
 	 ~/Documents/herb_examples/loadstate.sh < ~/Documents/herb_examples/mystate
 
+#Rotate herbstluftwm layout clockwise 
+super + e 
+	herbstclient chain .-. lock .-. rotate .-. rotate .-. rotate .-. unlock
+#Rotate herbstluftwm layout counter-clockwise 
+super + shift + e 
+	herbstclient chain .-. lock .-. rotate .-. unlock
+###---Herbstluftwm---###
 
 
 	
 
 # ###---BSPWM BINDINGS---### 
+
+# # Add focused window to a tabbed instance in given direction
+# super + t; {h,j,k,l}
+#     bash ~/bash_scripts/tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
+
+# # Remove one tab from tabbed
+# super + t; r
+#     tabbed=$(bspc query -N -n focused); \
+#     child=$(tabc $tabbed list | head -n1); \
+#     tabc $tabbed remove $child
+
+
 # # restarting polybar 
 # super + shift + alt + p 
 # 	~/.config/polybar/launch 
@@ -123,7 +134,6 @@ super + w
 # ####---Configuring Rotation of Windows---###
 
 
-
 # # make sxhkd reload its configuration files:
 # super + Escape
 # 	pkill -USR1 -x sxhkd
@@ -134,9 +144,8 @@ super + w
 
 
 # # close 
-# super + shift + q  
+# super + q  
 # 	bspc node -c || xdo close
-
 
 
 # #kill 

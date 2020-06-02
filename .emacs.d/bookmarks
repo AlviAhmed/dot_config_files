@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
+(("useful_links_notes.org"
+ (filename . "~/Dropbox/Sync/useful_links_notes.org")
+ (front-context-string)
+ (rear-context-string . "rc\n** coursera \n")
+ (position . 981))
+("javascript_practice"
+ (filename . "~/Documents/javascript_practice/")
+ (front-context-string . "object.html\n  -r")
+ (rear-context-string . "88 May 28 15:07 ")
+ (position . 374))
+("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/random_capture.org")
  (front-context-string . "** TODO learn ab")
  (rear-context-string . "gnals in linux \n")

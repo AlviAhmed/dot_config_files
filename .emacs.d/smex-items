@@ -1,63 +1,16 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- eshell
- html-mode
- js2-mode
- reindent-then-newline-and-indent
- emmet-mode
- customize-themes
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+ erc
+ ert
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 99)
- (customize . 2)
- (customize-themes . 40)
- (package-install . 2)
- (list-packages . 19)
- (peep-dired . 16)
- (occur . 8)
- (occur-mode . 2)
- (ediff-buffers . 2)
- (revert-buffer . 6)
- (compile . 7)
- (eshell . 33)
- (bookmark-save . 5)
- (rgrep . 7)
- (org-agenda . 3)
- (goto-line . 2)
- (rectangle-mark-mode . 4)
- (string-rectangle . 1)
- (hide-mode-line-mode . 1)
- (diff-mode . 1)
- (diff . 1)
- (irony-install-server . 7)
- (customize-group . 1)
- (ediff-regions-linewise . 1)
- (dmenu . 1)
- (projectile-mode . 2)
- (projectile-add-known-project . 6)
- (dumb-jump-go . 1)
- (projectile-ripgrep . 2)
- (clone-indirect-buffer . 2)
- (clone-buffer . 1)
- (ansi-term . 1)
- (slime . 13)
- (windmove-up . 1)
- (buf-move-up . 2)
- (highlight-regexp . 1)
- (recompile . 1)
- (hs-minor-mode . 1)
- (yas-visit-snippet-file . 1)
- (savehist-mode . 2)
- (rainbow-mode . 8)
- (shell . 1)
- (update-file-autoloads . 1)
- (load-file . 4)
- (emmet-mode . 12)
- (js2-mode . 6)
- (html-mode . 2)
- (reindent-then-newline-and-indent . 1)
+ 
 )

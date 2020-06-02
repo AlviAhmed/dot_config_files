@@ -12,9 +12,9 @@ bspc rule -r '*'
 ###---Autostart---###
 ~/.config/polybar/launch &
 killall "nm-applet" 
-nm-applet 
+nm-applet &
 killall "dropbox" 
-dropbox start 
+dropbox start &
 # emacsclient -n -create-frame --alternate-editor="" &
 ###---Autostart---### 
 
@@ -32,8 +32,8 @@ bspc config click-to-focus none
 bspc config focus_follows_pointer true
 
 
-bspc config border_width         3
-bspc config window_gap 			 1
+bspc config border_width         1
+bspc config window_gap 			 0
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true 

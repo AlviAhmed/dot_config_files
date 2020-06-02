@@ -10,13 +10,11 @@ bspc rule -r '*'
 ###---Rules---### 
 
 ###---Autostart---###
-emacsclient -e "(server-force-delete)" # light theme 
-emacs --daemon &
 ~/.config/polybar/launch &
 killall "nm-applet" 
-nm-applet 
+nm-applet &
 killall "dropbox" 
-dropbox start 
+dropbox start &
 # emacsclient -n -create-frame --alternate-editor="" &
 ###---Autostart---### 
 
