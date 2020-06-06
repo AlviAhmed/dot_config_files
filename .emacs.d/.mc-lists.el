@@ -20,6 +20,7 @@
         org-self-insert-command
         set-fill-column
         slime-autodoc-space
+        text-scale-adjust
         toggle-input-method
         yas-expand
         ))
