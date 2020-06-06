@@ -5,6 +5,7 @@
       '(
         beginning-of-visual-line
         c-electric-paren
+        c-indent-line-or-region
         emmet-expand-line
         end-of-visual-line
         forward-sentence
@@ -13,6 +14,7 @@
         hungry-delete-forward
         keyboard-escape-quit
         kill-region
+        kill-visual-line
         my-insert-tab-char
         org-agenda-show-and-scroll-up
         org-self-insert-command

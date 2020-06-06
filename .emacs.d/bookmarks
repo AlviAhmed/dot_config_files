@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("useful_links_notes.org"
+(("useful_programming_notes.org"
+ (filename . "~/Dropbox/Sync/useful_programming_notes.org")
+ (front-context-string . "* C programming\n")
+ (rear-context-string)
+ (position . 1))
+("myfirstreact"
+ (filename . "~/Documents/react_practice/myfirstreact/")
+ (front-context-string . ".git\n  -rw-rw-r-")
+ (rear-context-string . "96 Jun  3 02:41 ")
+ (position . 238))
+("react_practice"
+ (filename . "~/Documents/react_practice/")
+ (front-context-string . "myfirstreact\n  -")
+ (rear-context-string . "96 Jun  3 02:41 ")
+ (position . 212))
+("Downloads"
+ (filename . "~/Downloads/")
+ (front-context-string)
+ (rear-context-string . "ubuntu1_all.deb\n")
+ (position . 236))
+("useful_links_notes.org"
  (filename . "~/Dropbox/Sync/useful_links_notes.org")
  (front-context-string)
  (rear-context-string . "rc\n** coursera \n")
@@ -13,10 +33,10 @@
  (rear-context-string . "88 May 28 15:07 ")
  (position . 374))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/Sync/random_capture.org")
- (front-context-string . "** TODO learn ab")
- (rear-context-string . "gnals in linux \n")
- (position . 144))
+ (filename . "~/Dropbox/Sync/sched_org.org")
+ (front-context-string . "** TODO Need to ")
+ (rear-context-string . " printer cables\n")
+ (position . 3133))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")

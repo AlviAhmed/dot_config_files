@@ -16,6 +16,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/Documents/Projects/first_blink/"
+ "/home/al/Documents/Git_Projects/rgb_sign/"
  "/home/al/Documents/javascript_practice/"
  "/home/al/Documents/html_practice/practice_with_git/"
  "/home/al/Documents/herb_examples/"
@@ -58,7 +60,17 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/Documents/javascript_practice/" (24270 18846 35146 976000) "myscript.js" "./" "sec.html" "first.html" "myscript.js~" "../")
+ ("/home/al/Documents/Projects/first_blink/" (24279 24668 893112 860000) "./" "main.c" "Makefile" "../")
+
+ ("/home/al/Documents/Git_Projects/work_table_light/" (24279 23816 263899 814000) "main_analog.c" "main_whitelight.c" "main_total2.c" ".git/" "./" "#main_but.c#" "main_twopot.c" "main_total2.c~" "main_total.c" ".main_tot.c.swp" "work_table_light/" "main_butcol.c" "main_color.c" "main_but.c" ".main_analog.c.swp" "Makefile" "README" "main.elf" "stepper_code/" "../" "README.md" "main_but_leds.c" "main.hex")
+
+ ("/home/al/Documents/Git_Projects/rgb_sign/" (24279 23841 256404 500000) ".git/" "./" "main2.c" "Makefile" "main.elf" ".main2.c.swp" "../" "README.md" "main.hex")
+
+ ("/home/al/Documents/react_practice/" (24278 51562 227139 865000) "./" "../")
+
+ ("/home/al/Documents/" (24277 5288 263801 937000) "PP01- EDP Report-1.docx" "org_mode_notes/" "other_tobeorg/" "./" "json_practice/" "resumes/" "nodejs_practice/" "orgcard.pdf" "kak_trail.c" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "c++_practice/" "lisp_practice/" "herb_keybind.txt" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "sql_practice/" "sleep_inv/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "../" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "epub_pdf.txt" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "company_tips.txt" "java_practice/")
+
+ ("/home/al/Documents/javascript_practice/" (24278 49435 41374 859000) ".projectile" "myscript.js" "object_event.html" "throw_error.html" "./" "sec.html" "throw_error.html~" "class.html" "object.js" "array.html" "compar.html" "forloop.html" "first.html" "html_1.html" "string_1.html" "../")
 
  ("/home/al/Documents/html_practice/practice_with_git/" (24270 10837 768996 773000) ".git/" "./" "st.css" "website_1.html" "../" "rain_lorry.jpeg")
 
@@ -69,8 +81,6 @@
  ("/home/al/.config/" (24269 29161 808701 417000) "bspwm/" "xfce4/" "deluge/" "celluloid/" "Signal/" "caja/" "xreader/" "jstest-gtk/" "Kitware/" "QtProject.conf" "VeraCrypt/" "htop/" "gtk-3.0/" "VirtualBox/" "wal/" "polybar/" "pavucontrol.ini" "qt5ct/" "i3/" "compton/" "herbstluftwm/" "Thunar/" "transmission/" "libreoffice/" "dconf/" "user-dirs.locale" "sxhkd/" "gtk-2.0/" "enchant/" "xviewer/" "dwm_custom/" "zathura/" "pix/" "google-chrome/" "BraveSoftware/" "xed/" "configstore/" "okularpartrc" "hexchat/" "teamviewer/" "neofetch/" "user-dirs.dirs" "mimeapps.list" "mpv/" "sublime-text-3/" "Code/" "autostart/" "menus/" "pulse/" "qBittorrent/" "okularrc" "../" "./")
 
  ("/home/al/.config/herbstluftwm/" (24270 9657 174575 754000) "./" "autostart~" "../" "autostart")
-
- ("/home/al/Documents/" (24270 7652 208398 661000) "PP01- EDP Report-1.docx" "org_mode_notes/" "other_tobeorg/" "./" "json_practice/" "resumes/" "nodejs_practice/" "kak_trail.c" "usb_backup/" "dired_practice/" "emacs.pdf" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "os/" "c++_practice/" "lisp_practice/" "herb_keybind.txt" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "sql_practice/" "sleep_inv/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "../" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "java_practice/")
 
  ("/home/al/.config/bspwm/" (24269 22321 671502 491000) "./" "../" "bspwmrc~" "bspwmrc")
 

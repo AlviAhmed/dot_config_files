@@ -38,6 +38,16 @@
 (org-agenda-to-appt)
 ;;adding org appointments  
 
+;; Moving Focus Windows
+(global-set-key (kbd "M-h") 'windmove-left)
+(global-set-key (kbd "M-l") 'windmove-right)
+(global-unset-key (kbd "M-j"))
+(global-set-key (kbd "M-j") 'windmove-down)
+(global-set-key (kbd "M-k") 'windmove-up) 
+;; Moving Focus Windows
+
+
+
 ;;;---Rebinding Undo Key---;;;
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'undo)
@@ -60,17 +70,40 @@
     (setq frame-title-format "%b")
 ;;;---Modifying the title bar---;;;
 
+;;;---Setting up tide mode---;;;
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  ;; company is an optional dependency. You have to
+  ;; install it separately via package-install
+  ;; `M-x package-install [ret] company`
+  (company-mode +1))
+
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode) 
 
 
-;; ;;;---Config eshell to allow bash script---;;;  
-;; (setq shell-file-name "bash")
-;; (setq shell-command-switch "-ic")
-;; ;;;---Config eshell to allow bash script---;;; 
+(use-package tide
+  :ensure t
+  :after (typescript-mode company flycheck)
+  :hook ((typescript-mode . tide-setup)
+         (typescript-mode . tide-hl-identifier-mode)
+         (before-save . tide-format-before-save)))
+;;;---Setting up tide mode---;;;
+
 
 ;;;---Enabling Winner Mode---;;;
 (winner-mode 1)
 ;;;---Enabling Winner Mode---;;; 
-
 
 ;;;---Shell Command bgpape---;;;
 ;; (global-set-key (kbd "C-c C-b") (lambda () (interactive) (shell-command "bgpape")))
@@ -356,11 +389,11 @@
 ;;;---Elscreen---;;;
 (use-package elscreen-tab 
 	:ensure t 
-	:config 
-	(global-set-key (kbd "<f2>") 'elscreen-next)
-	(global-set-key (kbd "<f1>") 'elscreen-previous)
-	(global-set-key (kbd "<f3>") 'elscreen-create) 
-	(global-set-key (kbd "<f4>") 'elscreen-kill))
+	:config  
+	(global-set-key (kbd "M-p") 'elscreen-next)
+	(global-set-key (kbd "M-P") 'elscreen-previous)
+	(global-set-key (kbd "C-c n") 'elscreen-create) 
+	(global-set-key (kbd "C-c d") 'elscreen-kill))
  
 ;;;---Elscreen---;;; 
 
@@ -476,7 +509,7 @@
 (use-package avy
   :ensure t
   :bind
-  ("M-s a" . avy-goto-char))
+  ("M-z" . avy-goto-char))
 
 ;; Hungry Delete
 (require 'hungry-delete)
@@ -499,13 +532,6 @@
 (global-set-key (kbd "M-K") 'enlarge-window) 
 ;; Sizing Windows
 
-;; Moving Focus Windows
-(global-set-key (kbd "M-h") 'windmove-left)
-(global-set-key (kbd "M-l") 'windmove-right)
-(global-unset-key "\M-j")
-(global-set-key (kbd "\M-j") 'windmove-down)
-(global-set-key (kbd "M-k") 'windmove-up) 
-;; Moving Focus Windows
 
 ;; Disabling all themes 
 (defun disable-all-themes ()
@@ -823,7 +849,7 @@ static char *gnus-pointer[] = {
     ((sequence "TODO(t)" "NEXT(n)" "INPROG(l)" "CANCELLED(c)" "DONE(d)"))))
  '(package-selected-packages
    (quote
-    (apropospriate-theme xresources-theme rainbow-mode angular-snippets web-mode emmet-mode rg ripgrep projectile-speedbar ac-js2 js2-mode js2-refactor json-mode xref-js2 lsp-mode elscreen-tab-mode elscreen-buffer-group elscreen-fr elscreen-tab projectile-mode projectile gruvbox-theme vterm hide-mode-line keycast moody tramp peep-dired dired-subtree visual-regexp multiple-cursors auctex pos-tip expand-region pdf-tools evil-ediff company-emacs-eclim mu4e-jump-to-list mu4e-maildirs-extension mu4e-overview mu4e-query-fragments modus-operandi-theme modus-vivendi-theme alert alert-termux org-alert company-rtags flycheck-rtags rtags rtags-xref flyspell-correct-avy-menu fuzzy flyspell-correct-ivy company-fuzzy evil-vimish-fold drag-stuff isearch hs-isearch-open hs-minor-mode github-theme company-anaconda company-ctags company-lsp company-lua company-math company-php company-shell company calfw-cal calfw-howm calfw-gcal calfw-ical calfw-org calfw which-key treemacs treemacs-evil treemacs-icons-dired doom-modeline meghanada highlight-indent-guides ivy-yasnippet yasnippet-snippets spacemacs-theme ranger ido-vertical-mode evil-numbers org-babel-eval-in-repl eimp highlight-symbol hideshow-org org-notebook spaceline highlight-parentheses org-mind-map org-timeline mu4e-alert exwm-firefox-evil exwm dmenu org-gcal htmlize focus evil-mu4e evil-mc general evil-tabs tabbar dumb-jump ggtags flymake-cursor flymake-google-cpplint iedit avy-flycheck flycheck tramp-auto-auth tramp-hdfs tramp-term gnu-elpa-keyring-update moe-theme org-bullets latex-math-preview pyenv-mode anaconda-mode elpy live-py-mode matlab-mode atom-dark-theme atom-one-dark-theme org-ac php-auto-yasnippets fill-column-indicator darkroom buffer-move writeroom-mode dired-rainbow format-all nov popup-kill-ring evil-goggles nyan-mode dashboard rainbow-delimiters hungry-delete openwith smex beacon yasnippet-classic-snippets w3 use-package projectile-codesearch org-evil org-edna latex-preview-pane irony-eldoc evil-tutor evil-org evil-fringe-mark evil-commentary evil-collection dracula-theme doom-themes company-jedi company-irony-c-headers company-irony company-dict company-c-headers company-bibtex company-auctex color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized better-defaults base16-theme avk-emacs-themes auto-yasnippet auto-org-md auto-minor-mode auto-indent-mode auto-highlight-symbol auto-dim-other-buffers auto-dictionary auto-correct auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex alect-themes ac-math ac-c-headers)))
+    (fzf tide apropospriate-theme xresources-theme rainbow-mode angular-snippets web-mode emmet-mode rg ripgrep projectile-speedbar ac-js2 js2-mode js2-refactor json-mode xref-js2 lsp-mode elscreen-tab-mode elscreen-buffer-group elscreen-fr elscreen-tab projectile-mode projectile gruvbox-theme vterm hide-mode-line keycast moody tramp peep-dired dired-subtree visual-regexp multiple-cursors auctex pos-tip expand-region pdf-tools evil-ediff company-emacs-eclim mu4e-jump-to-list mu4e-maildirs-extension mu4e-overview mu4e-query-fragments modus-operandi-theme modus-vivendi-theme alert alert-termux org-alert company-rtags flycheck-rtags rtags rtags-xref flyspell-correct-avy-menu fuzzy flyspell-correct-ivy company-fuzzy evil-vimish-fold drag-stuff isearch hs-isearch-open hs-minor-mode github-theme company-anaconda company-ctags company-lsp company-lua company-math company-php company-shell company calfw-cal calfw-howm calfw-gcal calfw-ical calfw-org calfw which-key treemacs treemacs-evil treemacs-icons-dired doom-modeline meghanada highlight-indent-guides ivy-yasnippet yasnippet-snippets spacemacs-theme ranger ido-vertical-mode evil-numbers org-babel-eval-in-repl eimp highlight-symbol hideshow-org org-notebook spaceline highlight-parentheses org-mind-map org-timeline mu4e-alert exwm-firefox-evil exwm dmenu org-gcal htmlize focus evil-mu4e evil-mc general evil-tabs tabbar dumb-jump ggtags flymake-cursor flymake-google-cpplint iedit avy-flycheck flycheck tramp-auto-auth tramp-hdfs tramp-term gnu-elpa-keyring-update moe-theme org-bullets latex-math-preview pyenv-mode anaconda-mode elpy live-py-mode matlab-mode atom-dark-theme atom-one-dark-theme org-ac php-auto-yasnippets fill-column-indicator darkroom buffer-move writeroom-mode dired-rainbow format-all nov popup-kill-ring evil-goggles nyan-mode dashboard rainbow-delimiters hungry-delete openwith smex beacon yasnippet-classic-snippets w3 use-package projectile-codesearch org-evil org-edna latex-preview-pane irony-eldoc evil-tutor evil-org evil-fringe-mark evil-commentary evil-collection dracula-theme doom-themes company-jedi company-irony-c-headers company-irony company-dict company-c-headers company-bibtex company-auctex color-theme-solarized color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized better-defaults base16-theme avk-emacs-themes auto-yasnippet auto-org-md auto-minor-mode auto-indent-mode auto-highlight-symbol auto-dim-other-buffers auto-dictionary auto-correct auto-complete-sage auto-complete-rst auto-complete-pcmp auto-complete-nxml auto-complete-exuberant-ctags auto-complete-distel auto-complete-clang-async auto-complete-clang auto-complete-chunk auto-complete-c-headers auto-complete-auctex alect-themes ac-math ac-c-headers)))
  '(pdf-view-midnight-colors (quote ("#655370" . "#fbf8ef")))
  '(pos-tip-background-color "#ffffffffffff")
  '(pos-tip-foreground-color "#78909C")
