@@ -7,13 +7,13 @@ XF86AudioLowerVolume
 XF86AudioMute   
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
 
-#  If keyboard has no media keys 
+##--If keyboard has no media keys 
 super + {_,shift + }v
 	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {+5%,-5%} 
 
 super + ctrl + v
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
-	
+##--If keyboard has no media keys	
 
 
 
@@ -33,12 +33,13 @@ super + i
 
 # terminal emulator
 super + Return 
- 	xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar
-
-# Dmenu
+ 	xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scDmenu
 super + d
  	dmenu_run	 
 
+# Launching Thunar 
+super + shift + f 
+	thunar 
 
 # Calling the Appfinder 
 super + shift + a 
@@ -73,17 +74,6 @@ super + Escape
 	
 
 # ###---BSPWM BINDINGS---### 
-
-# # Add focused window to a tabbed instance in given direction
-# super + t; {h,j,k,l}
-#     bash ~/bash_scripts/tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
-
-# # Remove one tab from tabbed
-# super + t; r
-#     tabbed=$(bspc query -N -n focused); \
-#     child=$(tabc $tabbed list | head -n1); \
-#     tabc $tabbed remove $child
-
 
 # restarting polybar 
 super + shift + alt + p 
@@ -309,11 +299,11 @@ super + shift + b
 ###---Adding Tabbed Functionality---### 
 
 # Add focused window to a tabbed instance in given direction
-super + t; {h,j,k,l}
+super + c; {h,j,k,l}
     tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
 
 # Remove one tab from tabbed
-super + t; r
+super + c; r
     tabbed=$(bspc query -N -n focused); \
     child=$(tabc.sh $tabbed list | head -n1); \
     tabc.sh $tabbed remove $child

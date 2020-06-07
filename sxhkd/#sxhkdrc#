@@ -33,15 +33,11 @@ super + i
 
 # terminal emulator
 super + Return 
- 	xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar
-
-# Launching Dmenu
+ 	xfce4-terminal --maximize --hide-menubar  --hide-borders --hidDmenu
 super + d
  	dmenu_run	 
 
-# Launching Thunar 
-super + shift + f 
-	thunar 
+thunar
 
 # Calling the Appfinder 
 super + shift + a 
