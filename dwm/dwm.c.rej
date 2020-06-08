@@ -1,53 +1,58 @@
---- dwm.c
-+++ dwm.c
-@@ -522,7 +522,7 @@ clientmessage(XEvent *e)
- 		if (cme->data.l[1] == netatom[NetWMFullscreen]
- 		|| cme->data.l[2] == netatom[NetWMFullscreen])
- 			setfullscreen(c, (cme->data.l[0] == 1 /* _NET_WM_STATE_ADD    */
--				|| (cme->data.l[0] == 2 /* _NET_WM_STATE_TOGGLE */ && !c->isfullscreen)));
-+				|| cme->data.l[0] == 2 /* _NET_WM_STATE_TOGGLE */));
- 	} else if (cme->message_type == netatom[NetActiveWindow]) {
- 		if (c != selmon->sel && !c->isurgent)
- 			seturgent(c, 1);
-@@ -552,7 +552,6 @@ void
- configurenotify(XEvent *e)
- {
- 	Monitor *m;
--	Client *c;
- 	XConfigureEvent *ev = &e->xconfigure;
- 	int dirty;
- 
-@@ -1471,24 +1463,10 @@ setfullscreen(Client *c, int fullscreen)
- 		XChangeProperty(dpy, c->win, netatom[NetWMState], XA_ATOM, 32,
- 			PropModeReplace, (unsigned char*)&netatom[NetWMFullscreen], 1);
- 		c->isfullscreen = 1;
--		c->oldstate = c->isfloating;
--		c->oldbw = c->bw;
--		c->bw = 0;
--		c->isfloating = 1;
--		resizeclient(c, c->mon->mx, c->mon->my, c->mon->mw, c->mon->mh);
--		XRaiseWindow(dpy, c->win);
- 	} else if (!fullscreen && c->isfullscreen){
- 		XChangeProperty(dpy, c->win, netatom[NetWMState], XA_ATOM, 32,
- 			PropModeReplace, (unsigned char*)0, 0);
- 		c->isfullscreen = 0;
--		c->isfloating = c->oldstate;
--		c->bw = c->oldbw;
--		c->x = c->oldx;
--		c->y = c->oldy;
--		c->w = c->oldw;
--		c->h = c->oldh;
--		resizeclient(c, c->x, c->y, c->w, c->h);
--		arrange(c->mon);
- 	}
+--- /dev/null
++++ /dev/null
+@@ -1585,6 +1589,19 @@ setmfact(const Arg *arg) {
  }
  
-@@ -1705,8 +1683,6 @@ togglefloating(const Arg *arg)
- {
- 	if (!selmon->sel)
- 		return;
--	if (selmon->sel->isfullscreen) /* no support for fullscreen windows */
--		return;
- 	selmon->sel->isfloating = !selmon->sel->isfloating || selmon->sel->isfixed;
- 	if (selmon->sel->isfloating)
- 		resize(selmon->sel, selmon->sel->x, selmon->sel->y,
+ void
++setsmfact(const Arg *arg) {
++	float sf;
++
++	if(!arg || !selmon->lt[selmon->sellt]->arrange)
++		return;
++	sf = arg->sf < 1.0 ? arg->sf + selmon->smfact : arg->sf - 1.0;
++	if(sf < 0 || sf > 0.9)
++		return;
++	selmon->smfact = sf;
++	arrange(selmon);
++}
++
++void
+ setup(void) {
+ 	XSetWindowAttributes wa;
+ 
+@@ -1707,7 +1724,7 @@ textnw(const char *text, unsigned int le
+ 
+ void
+ tile(Monitor *m) {
+-	unsigned int i, n, h, mw, my, ty;
++	unsigned int i, n, h, smh, mw, my, ty;
+ 	Client *c;
+ 
+ 	for(n = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), n++);
+@@ -1725,9 +1742,23 @@ tile(Monitor *m) {
+ 			my += HEIGHT(c);
+ 		}
+ 		else {
+-			h = (m->wh - ty) / (n - i);
+-			resize(c, m->wx + mw, m->wy + ty, m->ww - mw - (2*c->bw), h - (2*c->bw), False);
+-			ty += HEIGHT(c);
++			smh = m->mh * m->smfact;
++			if(!(nexttiled(c->next)))
++				h = (m->wh - ty) / (n - i);
++			else
++				h = (m->wh - smh - ty) / (n - i);
++			if(h < minwsz) {
++				c->isfloating = True;
++				XRaiseWindow(dpy, c->win);
++				resize(c, m->mx + (m->mw / 2 - WIDTH(c) / 2), m->my + (m->mh / 2 - HEIGHT(c) / 2), m->ww - mw - (2*c->bw), h - (2*c->bw), False);
++				ty -= HEIGHT(c);
++			}
++			else
++				resize(c, m->wx + mw, m->wy + ty, m->ww - mw - (2*c->bw), h - (2*c->bw), False);
++			if(!(nexttiled(c->next)))
++				ty += HEIGHT(c) + smh;
++			else
++				ty += HEIGHT(c);
+ 		}
+ }
+ 

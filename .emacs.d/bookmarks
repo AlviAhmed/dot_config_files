@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("useful_programming_notes.org"
+(("dot_config_files"
+ (filename . "~/Documents/Git_Projects/dot_config_files/")
+ (front-context-string . "autostart\n  -rw-")
+ (rear-context-string . "70 Jun  2 09:47 ")
+ (position . 231))
+("useful_programming_notes.org"
  (filename . "~/Dropbox/Sync/useful_programming_notes.org")
  (front-context-string . "* C programming\n")
  (rear-context-string)

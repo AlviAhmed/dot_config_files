@@ -1,1 +1,1 @@
-("~/Documents/react_practice/" "~/bash_scripts/monitor_setting/" "~/bash_scripts/" "~/Documents/c_practice/" "~/Documents/html_practice/" "~/Documents/javascript_practice/" "~/Documents/nodejs_practice/" "~/dwm/" "~/hideshow-org/" "~/tabbed/")
+("~/bash_scripts/" "~/dwm/" "~/Documents/Git_Projects/dot_config_files/dwm/" "~/Documents/dwm-6.2/" "~/Documents/react_practice/" "~/bash_scripts/monitor_setting/" "~/Documents/c_practice/" "~/Documents/html_practice/" "~/Documents/javascript_practice/" "~/Documents/nodejs_practice/" "~/hideshow-org/" "~/tabbed/")
