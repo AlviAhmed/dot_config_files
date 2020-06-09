@@ -346,14 +346,19 @@ label = %date% %time%
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
-label-volume =%{A3:pavucontrol:}🔊 %percentage%%%{A}
+format-volume = <ramp-volume> <label-volume> <bar-volume>
+label-volume =%{A3:pavucontrol:} %percentage%%%{A}
 label-volume-foreground = ${root.foreground}
 
 label-muted = 🔇 MUTED
 label-muted-foreground = ${colors.foreground-clear}
 
-bar-volume-width = 10
+ramp-volume-0 = 🔈 
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+
+bar-volume-width = 5
 bar-volume-foreground-0 = #00FFFF
 bar-volume-foreground-1 = #00FFFF
 bar-volume-foreground-2 = #00FFFF
