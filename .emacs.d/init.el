@@ -105,11 +105,6 @@
 (winner-mode 1)
 ;;;---Enabling Winner Mode---;;; 
 
-;;;---Shell Command bgpape---;;;
-;; (global-set-key (kbd "C-c C-b") (lambda () (interactive) (shell-command "bgpape")))
-
-;;;---Shell Command bgpape---;;;
-
 ;;;---Refiling active region---;;;
 (setq org-refile-active-region-within-subtree t)
 ;;;---Refiling active region---;;;
@@ -444,7 +439,7 @@
 (defun bgpape ()
   "Starts the command to change desktop background"
   (interactive)
-  (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) "&")))
+  (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) " > /dev/null 2>&1 &")))
 (add-hook 'dired-mode-hook '(lambda () 
                               (local-set-key (kbd "b") 'bgpape)))
 

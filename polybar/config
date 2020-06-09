@@ -121,8 +121,8 @@ font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
 font-4 = DejaVuSans:style=Bold:pixelsize=10;1
 
 modules-left = bspwm 
-modules-center = xwindow mpd pulseaudio 
-modules-right = filesystem xbacklight memory cpu battery temperature date wlan pacnum
+modules-center = xwindow mpd pulseaudio pacnum
+modules-right = filesystem xbacklight memory cpu battery pacnum temperature date wlan 
 
 tray-position = right
 tray-padding = 2
@@ -140,12 +140,6 @@ enable-ipc = true
 cursor-click = pointer
 cursor-scroll = ns-resize  
 ;;;--- Second Bar For External Monitor---;;; 
-
-
-[module/pacnum] 
-type = custom/script 
-exec = dpkg-query --list | wc -l 
-interval = 600
 
 
 
@@ -173,20 +167,12 @@ label-indicator-underline = ${colors.secondary}
 [module/filesystem]
 type = internal/fs
 interval = 25
-mount-0 = /
-label-mounted =%{A1:baobab:}%{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%%{A}
+mount-0 = / 
+mount-1 = /home
+label-mounted =%{A1:thunar:}%{F#0a81f5}%mountpoint%%{F-}:%free% free%{A}
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-clear}
-
-; [module/filesystem_home] 
-; type = internal/fs
-; interval = 25
-; mount-0 = /home/al
-; label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-; label-unmounted = %mountpoint% not mounted
-; label-unmounted-foreground = ${colors.foreground-alt}
-
-
+label-unmounted-foreground = ${colors.foreground-clear} 
+format-mounted = <label-mounted>
 
 [module/bspwm]
 type = internal/bspwm
@@ -324,6 +310,8 @@ ramp-signal-3 = 🟣
 ; green circle
 ramp-signal-4 = 🟢
 ramp-signal-foreground = ${colors.foreground-clear}
+
+
 
 
 [module/eth]
@@ -468,6 +456,13 @@ ramp-0 = 🟥
 ramp-1 = 🟨
 ramp-2 = 🟦
 ramp-foreground = ${colors.foreground-clear}
+
+
+; [module/pacnum] 
+; type = custom/script 
+; exec = dpkg-query --list | wc -l 
+; interval = 600 
+
 
 [module/powermenu]
 type = custom/menu
