@@ -65,7 +65,7 @@ bspc config presel_feedback_color "$color1"
 
 ###---Placement of Windows---###  
 bspc config top_padding 23      # adding top padding to allow for polybar to show
-bspc config automatic_scheme alternate
+bspc config automatic_scheme alternate 
 bspc config initial_polarity second_child
 ###---Placement of Windows---###
 
