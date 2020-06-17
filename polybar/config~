@@ -22,7 +22,8 @@ background = #222
 background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
-foreground-alt = #555
+foreground-alt = #555 
+foreground-clear = #ffffff
 primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
@@ -34,145 +35,112 @@ alert = #bd2c40
 monitor = ${env:MONITOR:LVDS-1}
 width = 100%
 height = 20
-;offset-x = 1%
-;offset-y = 1%
+offset-x = 0
+offset-y = 1
 radius = 6.0
-fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+separator = |
+
+
+line-size = 4
 line-color = #f00
 
 border-size = 1
 border-color = #FF00FF
 
+
 padding-left = 0
 padding-right = 2
 
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = DejaVuSans:pixelsize=10;1
-font-1 = unifont:pixelsize=8;0
-font-2 = siji:pixelsize=10;1
+font-0 = SourceCodePro:style=Bold:pixelsize=11;
+font-1 = HackNerdFont:pixelsize=10;1
+font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
+font-4 = DejaVuSans:style=Bold:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = xwindow mpd pulseaudio 
-modules-right = filesystem xbacklight memory cpu battery temperature powermenu date
+modules-right = filesystem xbacklight memory cpu battery temperature date wlan
 
 tray-position = right
 tray-padding = 2
-;tray-background = #0063ff
+tray-background= #0000AA
 
-wm-restack = bspwm
-;wm-restack = i3
+
+wm-restack = bspwm 
+             
 override-redirect = true
 enable-ipc = true                
 
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+; scroll-up = bspwm-desknext 
+; scroll-down = bspwm-deskprev
 
 cursor-click = pointer
-cursor-scroll = ns-resize 
+cursor-scroll = ns-resize  
 ;;;--- First Bar For External Monitor---;;; 
-
-
-
 
 ;;;--- Second Bar For External Monitor---;;; 
 [bar/example2]
 monitor = ${env:MONITOR:VGA-1}
+monitor-fallback = ${env:MONITOR:LVDS-1}
 width = 100%
 height = 20
+offset-x = 0
+offset-y = 1
 radius = 6.0
-fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+separator = |
+
+
+line-size = 4
 line-color = #f00
 
 border-size = 1
 border-color = #FFFFFF
 
+
 padding-left = 0
 padding-right = 2
 
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = DejaVuSans:pixelsize=10;1
-font-1 = unifont:pixelsize=8;0
-font-2 = siji:pixelsize=10;1
+font-0 = SourceCodePro:style=Bold:pixelsize=11;
+font-1 = HackNerdFont:pixelsize=10;1
+font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
+font-4 = DejaVuSans:style=Bold:pixelsize=10;1
 
-modules-left = bspwm
-modules-center = xwindow mpd pulseaudio 
-modules-right = filesystem xbacklight memory cpu battery temperature powermenu date
+modules-left = bspwm 
+modules-center = xwindow mpd pulseaudio pacnum
+modules-right = filesystem xbacklight memory cpu battery temperature date wlan 
 
 tray-position = right
 tray-padding = 2
-tray-background = #000000
+tray-background= #0000AA
+
 
 wm-restack = bspwm 
              
 override-redirect = true
 enable-ipc = true                
 
+; scroll-up = bspwm-desknext 
+; scroll-down = bspwm-deskprev
+
 cursor-click = pointer
-cursor-scroll = ns-resize 
+cursor-scroll = ns-resize  
 ;;;--- Second Bar For External Monitor---;;; 
 
 
 
-;;;--- Third bar for External Monitor ---;;; 
-[bar/example3]
-monitor = ${env:MONITOR:HDMI-1}
-width = 100%
-height = 20
-radius = 6.0
-fixed-center = false
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 3
-line-color = #f00
-
-border-size = 1
-border-color = #00FFFF
-
-padding-left = 0
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 2
-
-font-0 = DejaVuSans:pixelsize=10;1
-font-1 = unifont:pixelsize=8;0
-font-2 = siji:pixelsize=10;1
-
-modules-left = bspwm
-modules-center = xwindow mpd pulseaudio 
-modules-right = filesystem xbacklight memory cpu battery temperature powermenu date
-
-tray-position = right
-tray-padding = 2
-tray-background = #000000
-
-wm-restack = bspwm 
-             
-override-redirect = true
-enable-ipc = true                
-
-cursor-click = pointer
-cursor-scroll = ns-resize 
-;;;--- Third bar for External Monitor ---;;;
 
 [module/xwindow]
 type = internal/xwindow
@@ -197,12 +165,12 @@ label-indicator-underline = ${colors.secondary}
 [module/filesystem]
 type = internal/fs
 interval = 25
-
-mount-0 = /
-
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+mount-0 = / 
+mount-1 = /home
+label-mounted =%{A1:thunar &:}%{F#0a81f5}%mountpoint%%{F-}:%free% free%{A}
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+label-unmounted-foreground = ${colors.foreground-clear} 
+format-mounted = <label-mounted>
 
 [module/bspwm]
 type = internal/bspwm
@@ -302,40 +270,47 @@ card = intel_backlight
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix =CPU: 💻            
+format-prefix-foreground = ${colors.foreground-clear}
 format-underline = #f90000
 label = %percentage:2%%
 
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix =MEM: 
+format-prefix-foreground = ${colors.foreground-clear}
 format-underline = #4bffdc
 label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = 
+interface = wlp3s0
 interval = 3.0
-
 format-connected = <ramp-signal> <label-connected>
 format-connected-underline = #9f78e1
-label-connected = %essid%
+label-connected = %{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':} WIFI:%essid% %{A} 
 
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+; format-disconnected =
+format-disconnected = <label-disconnected>
+format-disconnected-underline = ${self.format-connected-underline}
+label-disconnected = %ifname% disconnected
+label-disconnected-foreground = ${colors.foreground-clear}
+label-disconnnected = ⚪	
+; red circle
+ramp-signal-0 =%{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':}🔴%{A}
+; orange circle
+ramp-signal-1 =%{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':}🟠%{A}
+; yellow circle
+ramp-signal-2 =%{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':}🟡%{A}
+; purple circle
+ramp-signal-3 =%{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':}🟣%{A}
+; green circle
+ramp-signal-4 =%{A1: xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar -H  -e 'nmcli d wifi list && echo "nmcli d wifi connect <wifi_name> password <wifi_password>"':}🟢%{A}
+ramp-signal-foreground = ${colors.foreground-clear}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
+
+
 
 [module/eth]
 type = internal/network
@@ -344,7 +319,7 @@ interval = 3.0
 
 format-connected-underline = #55aa55
 format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
+format-connected-prefix-foreground = ${colors.foreground-clear}
 label-connected = %local_ip%
 
 format-disconnected =
@@ -356,37 +331,39 @@ format-disconnected =
 [module/date]
 type = internal/date
 interval = 5
-
 date =
 date-alt = "DATE: %Y-%m-%d"
-
 time = %H:%M
 time-alt = %H:%M:%S
-
-format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix = ⏰
+format-prefix-foreground = ${colors.foreground-clear}
 format-underline = #0a6cf5
-
 label = %date% %time%
+
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
+format-volume = <ramp-volume> <label-volume> <bar-volume>
+label-volume =%{A3:pavucontrol:} %percentage%%%{A}
 label-volume-foreground = ${root.foreground}
 
-label-muted =  MUTE
-label-muted-foreground = #666
+label-muted = 🔇 MUTED
+label-muted-foreground = ${colors.foreground-clear}
 
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
+ramp-volume-0 = 🔈 
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+
+bar-volume-width = 5
+bar-volume-foreground-0 = #00FFFF
+bar-volume-foreground-1 = #00FFFF
+bar-volume-foreground-2 = #00FFFF
+bar-volume-foreground-3 = #00FF00
+bar-volume-foreground-4 = #00FF00
 bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
+bar-volume-foreground-6 = #FF0000
 bar-volume-gradient = false
 bar-volume-indicator = |
 bar-volume-indicator-font = 2
@@ -403,15 +380,15 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-volume-foreground = ${root.foreground}
 format-muted-prefix = " "
-format-muted-foreground = ${colors.foreground-alt}
+format-muted-foreground = ${colors.foreground-clear}
 label-muted =  MUTE
 
 bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-0 = #00FFFF
+bar-volume-foreground-1 = #00FFFF
+bar-volume-foreground-2 = #00FF00
+bar-volume-foreground-3 = #00FF00
+bar-volume-foreground-4 = #00FF00
 bar-volume-foreground-5 = #f5a70a
 bar-volume-foreground-6 = #ff5555
 bar-volume-gradient = false
@@ -422,6 +399,14 @@ bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
+
+
+[module/pacnum]
+type = custom/script
+exec = dpkg-query --list | wc -l 
+interval = 600 
+format-underline = #268bd2 
+format-prefix-foreground = ${colors.foreground-clear}
 
 [module/battery]
 type = internal/battery
@@ -435,25 +420,31 @@ format-charging-underline = #ffb52a
 format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix =__
+format-full-prefix-foreground = ${colors.foreground-clear}
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
+ramp-capacity-foreground = ${colors.foreground-clear}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-0 =  
+animation-charging-1 =  
+animation-charging-2 = 
+animation-charging-3 =  
+animation-charging-4 = 
+animation-charging-foreground = ${colors.foreground-clear}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-0 = 
+animation-discharging-1 =  
+animation-discharging-2 = 
+animation-discharging-3 =  
+animation-discharging-4 =  
+
+
+animation-discharging-foreground = ${colors.foreground-clear}
 animation-discharging-framerate = 750
 
 [module/temperature]
@@ -461,19 +452,24 @@ type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
 
-format = <ramp> <label>
+; format = <ramp> <label>
+format=<label>
 format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
+; format-warn = <ramp> <label-warn>
+format-warn=<label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature-c%
-label-warn = %temperature-c%
+label =🌡%temperature-c%
+label-warn =🟥 🌡 %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = ${colors.foreground-alt}
+ramp-0 = 🟥	
+ramp-1 = 🟨
+ramp-2 = 🟦
+ramp-foreground = ${colors.foreground-clear}
+
+
+
 
 [module/powermenu]
 type = custom/menu
@@ -487,7 +483,7 @@ label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
 label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
+label-separator-foreground = ${colors.foreground-clear}
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1
@@ -505,7 +501,7 @@ menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
 [settings]
-screenchange-reload = true
+; screenchange-reload = true
 ;compositing-background = xor
 ;compositing-background = screen
 ;compositing-foreground = source

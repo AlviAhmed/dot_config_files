@@ -1,39 +1,3 @@
-cd practice_with_git/
-ls
-git add -A
-git commit -m "first commit"
-git push origin master
-git add -A
-git commit -m "second commit"
-git push origin master
-git checkout -b working_head_div
-ls
-git status
-clear
-git add -A
-git commit -m "changed header 1"
-git push origin working_head_div
-clear
-git checkout master
-git status
-git checkout -b head_2
-git status
-git add -A
-git commit -m "changed the second heading"
-git push origin head_2
-git checkout -b 2div_2header
-git status
-git checkout master
-git checkout -b 2div_2header
-git push -d origin 2div_2header
-git branch -vv
-git checkout head_2
-git branch -vv
-git push -d head_2 2div_2header
-git branch -d 2div_2header
-git status
-git -v
-git -vv
 git --vv
 git branch -vv
 git checkout master
@@ -126,3 +90,39 @@ make flash
 make flash
 make flash
 make flash
+sudo cp -urv *.ttf /usr/share/fonts/truetype/.
+cd ..
+ls
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+ln -s mouse_sensitivity.sh mouse_sen
+ls
+mv mouse_sen ~/bin/.
+ln -s ~/bash_scripts/mouse_sensitivity.sh mouse_sensitivity && mv ~/bin/.
+ln -s ~/bash_scripts/mouse_sensitivity.sh mouse_sensitivity && mv mouse_sensitivity ~/bin/.

@@ -128,11 +128,14 @@
 
 ;;;---Hide Show Mode---;;;
 ;;--Hide Show Org--;;
+(use-package hideshow-org
+  :ensure t
+  :config
 (add-to-list 'load-path "~/hideshow-org/")
-(require 'hideshow-org) 
-(global-set-key "\C-ch" 'hs-org/minor-mode)
-;;--Hide Show Org--;;
 
+(global-set-key "\C-ch" 'hs-org/minor-mode)
+  )
+;;--Hide Show Org--;;
 ;;--Hide Show Actual--;;
 		
 ;;--Hide Show Actual--;;
@@ -141,15 +144,18 @@
 ;;;---Hide Show Mode---;;;
 
 ;;;---Web Mode---;;;
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(use-package web-mode
+  :ensure t
+  :config
+ (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+  )
 ;;;---Web Mode---;;;
 
 ;;;---Emmet Mode---;;; 
@@ -255,11 +261,13 @@
 ;;--Irony--;;
 
 ;;--Company Irony C Headers--;;
-(require 'company-irony-c-headers)
-;; Load with `irony-mode` as a grouped backend
-(eval-after-load 'company
-  '(add-to-list
-    'company-backends '(company-irony-c-headers company-irony)))
+(use-package company-irony-c-headers
+  :config
+ 	(eval-after-load 'company
+ 	  '(add-to-list
+ 	    'company-backends '(company-irony-c-headers company-irony)))
+  :ensure t
+  )
 ;;--Company Irony C Headers--;;
 
 ;;;---Company---;;;
@@ -275,11 +283,14 @@
 
 
 ;;;---js2-mode---;;;
-(require 'js2-mode)
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;; Better imenu
-(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
-
+(use-package js2-mode
+  :ensure t
+  :config
+ 	(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+ 	;; Better imenu
+ 	(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+	
+  )
 (use-package ac-js2
 	:ensure t 
 	:config
@@ -291,7 +302,9 @@
 
 
 ;;;---Yasnippet---;;;
-(require 'yasnippet)
+(use-package yasnippet
+  :ensure t
+  )
 (yas-global-mode 1) 
 ;;;---Yasnippet---;;;
 
@@ -507,8 +520,9 @@
   ("M-z" . avy-goto-char))
 
 ;; Hungry Delete
-(require 'hungry-delete)
-(global-hungry-delete-mode)
+(use-package hungry-delete
+  :ensure t
+)
 
 
 ;; enabling which-key
@@ -584,8 +598,9 @@
 (global-set-key (kbd "M-#") 'split-window-right)  
 (global-set-key (kbd "M-$") 'delete-window)  
 
-(require 'fill-column-indicator) 
-
+(use-package fill-column-indicator
+  :ensure t
+  )
 ;; moving files to trash
 (setq delete-by-moving-to-trash t) 
 
@@ -619,17 +634,12 @@
 (setq org-todo-keywords
       '((sequence "TODO" "NEXT" "INPROG" "CANCELLED" "DONE" ))) 
 
-
-
-
-
 ;;Enabling line show mode
 (global-hl-line-mode t)
 
 
 ;;Begin Scroll Settings
-;;(setq scroll-conservatively 1)
-;; scroll one line at a time (less "jumpy" than defaults)
+
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
 (setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
 (setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
@@ -637,11 +647,11 @@
 (setq scroll-conservatively 101) ;; move minimum when cursor exits view, instead of recentering....
 ;;Disabling the scroll bar
 (toggle-scroll-bar 1)  
+
+;;keep cursor at same position when scrolling
+(setq scroll-preserve-screen-position 1)
+
 ;; End Scroll Settings 
-
-
-
-
 
 
 ;;Org-latex template

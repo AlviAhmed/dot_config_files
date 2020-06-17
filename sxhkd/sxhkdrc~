@@ -25,7 +25,7 @@ XF86MonBrightnessDown
 
 
 # Restarting the background
-super + shift + b 
+super + b 
 	feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
 
 
@@ -297,7 +297,7 @@ super + s
 
 
 # Restarting bspwm
-super + b 
+super + shift + b 
 	bash ~/.config/bspwm/bspwmrc && feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
 
 
@@ -315,6 +315,7 @@ super + c; r
     child=$(tabc.sh $tabbed list | head -n1); \
     tabc.sh $tabbed remove $child
 ###---Adding Tabbed Functionality---### 
+
 
 
 

@@ -6,6 +6,8 @@
         beginning-of-visual-line
         c-electric-paren
         c-indent-line-or-region
+        dabbrev-expand
+        electric-pair-delete-pair
         emmet-expand-line
         end-of-visual-line
         forward-sentence

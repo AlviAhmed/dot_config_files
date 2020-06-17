@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("dot_config_files"
+(("openbox"
+ (filename . "~/.config/openbox/")
+ (front-context-string)
+ (rear-context-string . "25 Jun 16 19:41 ")
+ (position . 257))
+("latex_shell_commands.org"
+ (filename . "~/Dropbox/Sync/latex_shell_commands.org")
+ (front-context-string . "* Including pdfs")
+ (rear-context-string)
+ (position . 1))
+("dot_config_files"
  (filename . "~/Documents/Git_Projects/dot_config_files/")
  (front-context-string . "autostart\n  -rw-")
  (rear-context-string . "70 Jun  2 09:47 ")
@@ -39,9 +49,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** TODO Need to ")
- (rear-context-string . " printer cables\n")
- (position . 3133))
+ (front-context-string . "** TODO  Make ow")
+ (rear-context-string . "ivity in linux \n")
+ (position . 3788))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
@@ -94,9 +104,9 @@
  (position . 1414))
 ("org-refile-last-stored"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** TODO Reading ")
- (rear-context-string . "ful Soup Python\n")
- (position . 5017))
+ (front-context-string . "** TODO Try baki")
+ (rear-context-string . "  :Programming:\n")
+ (position . 5984))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")

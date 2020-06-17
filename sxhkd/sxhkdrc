@@ -1,4 +1,3 @@
-
 # Pulse Audio controls
 XF86AudioRaiseVolume  
 	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +5%  
@@ -315,6 +314,7 @@ super + c; r
     child=$(tabc.sh $tabbed list | head -n1); \
     tabc.sh $tabbed remove $child
 ###---Adding Tabbed Functionality---### 
+
 
 
 

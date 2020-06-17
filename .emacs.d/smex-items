@@ -1,18 +1,26 @@
 
 ;; ----- smex-history -----
 (
- compile
- eshell
  eval-buffer
- cd
- 5x5
- arp
- dbx
+ ediff-buffers
+ string-rectangle
+ highlight-symbol-at-point
+ highlight-phrase
+ emmet-mode
+ customize-themes
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 3)
- (eshell . 3)
+ (eval-buffer . 5)
+ (eshell . 4)
  (compile . 1)
+ (emmet-mode . 5)
+ (peep-dired . 2)
+ (hyperspec-lookup . 1)
+ (customize-themes . 3)
+ (highlight-phrase . 1)
+ (highlight-symbol-at-point . 2)
+ (string-rectangle . 1)
+ (ediff-buffers . 1)
 )

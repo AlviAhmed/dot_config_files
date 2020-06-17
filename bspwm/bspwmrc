@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# sxhkd & 
-# wmname LG3D &
+ sxhkd & 
 
 wmname LG3D &
 
