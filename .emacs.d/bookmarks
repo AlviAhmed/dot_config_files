@@ -2,7 +2,37 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("openbox"
+(("website"
+ (filename . "~/Documents/Git_Projects/website/")
+ (front-context-string . "css\n  drwxrwxr-x")
+ (rear-context-string . "96 Jun 29 13:28 ")
+ (position . 271))
+("extra_todo.org"
+ (filename . "~/Dropbox/Sync/extra_todo.org")
+ (front-context-string . "** TODO  How are")
+ (rear-context-string . "* Hello World! \n")
+ (position . 17))
+("daily_todo.org"
+ (filename . "~/Dropbox/Sync/daily_todo.org")
+ (front-context-string . "* Daily To-Do \n*")
+ (rear-context-string)
+ (position . 1))
+("python_practice"
+ (filename . "~/Documents/python_practice/")
+ (front-context-string)
+ (rear-context-string . "e_learning_adam\n")
+ (position . 238))
+(".offlineimaprc"
+ (filename . "~/.offlineimaprc")
+ (front-context-string)
+ (rear-context-string)
+ (position . 1))
+("alweb"
+ (filename . "/ssh:root@alviahmed.com:/var/www/alweb/")
+ (front-context-string)
+ (rear-context-string . "49 Jun 20 00:39 ")
+ (position . 188))
+("openbox"
  (filename . "~/.config/openbox/")
  (front-context-string)
  (rear-context-string . "25 Jun 16 19:41 ")
@@ -49,9 +79,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** TODO  Make ow")
- (rear-context-string . "ivity in linux \n")
- (position . 3788))
+ (front-context-string . "\n** TODO Make mo")
+ (rear-context-string . "ava programming\n")
+ (position . 6094))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
@@ -103,10 +133,10 @@
  (rear-context-string . "artus/bin:$PATH\n")
  (position . 1414))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** TODO Try baki")
- (rear-context-string . "  :Programming:\n")
- (position . 5984))
+ (filename . "~/Dropbox/Sync/extra_todo.org")
+ (front-context-string . "** TODO Ring Exe")
+ (rear-context-string . "w are you doing\n")
+ (position . 44))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")

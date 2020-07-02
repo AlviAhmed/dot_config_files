@@ -1,7 +1,7 @@
 (define-package "epc" "20140610.534" "A RPC stack for the Emacs Lisp"
   '((concurrent "0.3.1")
     (ctable "0.1.2"))
-  :keywords
+  :commit "e1bfa5ca163273859336e3cc89b4b6460f7f8cda" :keywords
   '("lisp" "rpc")
   :authors
   '(("SAKURAI Masashi <m.sakurai at kiwanami.net>"))

@@ -1,6 +1,6 @@
 (define-package "python-environment" "20150310.853" "virtualenv API for Emacs Lisp"
   '((deferred "0.3.1"))
-  :keywords
+  :commit "401006584e32864a10c69d29f14414828909362e" :keywords
   '("applications" "tools")
   :authors
   '(("Takafumi Arakaki <aka.tkf at gmail.com>"))

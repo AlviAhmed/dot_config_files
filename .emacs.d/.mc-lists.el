@@ -4,7 +4,9 @@
 (setq mc/cmds-to-run-for-all
       '(
         beginning-of-visual-line
+        c-electric-delete-forward
         c-electric-paren
+        c-electric-star
         c-indent-line-or-region
         dabbrev-expand
         electric-pair-delete-pair
@@ -19,7 +21,9 @@
         kill-visual-line
         my-insert-tab-char
         org-agenda-show-and-scroll-up
+        org-delete-char
         org-self-insert-command
+        overwrite-mode
         set-fill-column
         slime-autodoc-space
         text-scale-adjust
@@ -29,4 +33,5 @@
 
 (setq mc/cmds-to-run-once
       '(
+        smex
         ))

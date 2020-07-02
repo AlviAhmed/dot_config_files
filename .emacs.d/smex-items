@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- eval-buffer
- ediff-buffers
- string-rectangle
- highlight-symbol-at-point
- highlight-phrase
+ imenu
+ package-install
+ org-mode
+ list-packages
+ dmenu
+ goto-line
  emmet-mode
- customize-themes
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 5)
- (eshell . 4)
- (compile . 1)
- (emmet-mode . 5)
+ (eval-buffer . 25)
+ (eshell . 7)
+ (compile . 26)
+ (emmet-mode . 12)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
  (customize-themes . 3)
@@ -23,4 +23,28 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
+ (bookmark-save . 2)
+ (irony-install-server . 11)
+ (recompile . 1)
+ (count-words . 3)
+ (revert-buffer . 1)
+ (dmenu . 3)
+ (reindent-then-newline-and-indent . 1)
+ (projectile-add-known-project . 4)
+ (company-css . 1)
+ (company-capf . 1)
+ (list-tags . 1)
+ (list-packages . 3)
+ (electric-indent-mode . 4)
+ (benchmark . 1)
+ (org-agenda . 8)
+ (yas-load-snippet-buffer . 1)
+ (yas-tryout-snippet . 1)
+ (yas-visit-snippet-file . 3)
+ (count-lines-region . 1)
+ (count-words-region . 1)
+ (goto-line . 1)
+ (org-mode . 3)
+ (package-install . 1)
+ (imenu . 4)
 )

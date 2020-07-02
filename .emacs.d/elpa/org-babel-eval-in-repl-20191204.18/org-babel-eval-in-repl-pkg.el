@@ -3,7 +3,7 @@
     (matlab-mode "3.3.6")
     (ess "16.10")
     (emacs "24"))
-  :keywords
+  :commit "e111b4b5c6844bb389317354ea172cd96a8bb658" :keywords
   '("literate programming" "reproducible research" "async execution")
   :authors
   '(("Takeshi Teshima" . "diadochos.developer@gmail.com"))

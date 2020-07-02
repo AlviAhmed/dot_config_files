@@ -1,9 +1,15 @@
 ;;; yaxception-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
-(add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
+
+(add-to-list 'load-path (directory-file-name
+                         (or (file-name-directory #$) (car load-path))))
+
 
-;;;### (autoloads nil nil ("yaxception.el") (23706 48201 378749 250000))
+;;;### (autoloads nil "yaxception" "yaxception.el" (0 0 0 0))
+;;; Generated autoloads from yaxception.el
+
+(if (fboundp 'register-definition-prefixes) (register-definition-prefixes "yaxception" '("yaxception")))
 
 ;;;***
 
@@ -11,5 +17,6 @@
 ;; version-control: never
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
+;; coding: utf-8
 ;; End:
 ;;; yaxception-autoloads.el ends here

@@ -2,7 +2,7 @@
   '((dash "0.0.0")
     (paredit "0.0.0")
     (ace-window "0.0.0"))
-  :url "https://github.com/kaz-yos/eval-in-repl/")
+  :commit "c8e5f31a2476c922857d921e367b6a2320ce5a6f" :url "https://github.com/kaz-yos/eval-in-repl/")
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
