@@ -319,6 +319,8 @@
 (global-set-key (kbd "C-c b") 'bookmark-jump)  
 (global-set-key (kbd "C-c x") 'xah-open-in-external-app)
 
+(setq python-shell-interpreter "/usr/bin/python3")
+
 (add-hook 'c-mode-hook 'electric-indent-mode)
 (add-hook 'c++-mode-hook 'electric-indent-mode)
 (add-hook 'python-mode-hook 'electric-indent-mode)

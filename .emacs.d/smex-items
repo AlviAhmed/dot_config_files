@@ -1,41 +1,41 @@
 
 ;; ----- smex-history -----
 (
- imenu
- package-install
- org-mode
- list-packages
+ eval-buffer
  dmenu
- goto-line
- emmet-mode
+ run-python
+ electric-indent-mode
+ python-mode
+ compile
+ irony-install-server
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 25)
+ (eval-buffer . 26)
  (eshell . 7)
- (compile . 26)
- (emmet-mode . 12)
+ (compile . 27)
+ (emmet-mode . 13)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
- (customize-themes . 3)
+ (customize-themes . 4)
  (highlight-phrase . 1)
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
  (bookmark-save . 2)
- (irony-install-server . 11)
+ (irony-install-server . 12)
  (recompile . 1)
  (count-words . 3)
  (revert-buffer . 1)
- (dmenu . 3)
+ (dmenu . 6)
  (reindent-then-newline-and-indent . 1)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 1)
  (list-packages . 3)
- (electric-indent-mode . 4)
+ (electric-indent-mode . 8)
  (benchmark . 1)
  (org-agenda . 8)
  (yas-load-snippet-buffer . 1)
@@ -47,4 +47,7 @@
  (org-mode . 3)
  (package-install . 1)
  (imenu . 4)
+ (css-mode . 1)
+ (python-mode . 1)
+ (run-python . 1)
 )
