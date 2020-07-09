@@ -407,12 +407,15 @@
 (setq org-refile-allow-creating-parent-nodes 'confirm)
 
 (setq org-agenda-exporter-settings
-        '((ps-number-of-columns 2)
-          (ps-landscape-mode t)
-          (org-agenda-add-entry-text-maxlines 5)
-          (htmlize-output-type 'css))) 
-
-(setq org-agenda-prefix-format " [ ] ")
+           '((ps-number-of-columns 1)
+             (ps-landscape-mode t)
+             (org-agenda-add-entry-text-maxlines 5)
+             )) 
+(setq org-agenda-prefix-format "[ ] %t ")
+(setq org-agenda-entry-text-mode t)
+(setq org-agenda-entry-text-maxlines 5)
+(setq org-agenda-skip-additional-timestamps-same-entry nil)
+(setq org-agenda-use-time-grid nil)
 (setq org-agenda-with-colors t)
 (setq org-agenda-remove-tags nil)
 (setq ps-print-header nil)

@@ -12,6 +12,7 @@ bspc rule -r '*'
 # ~/.config/polybar/launch &
 killall "tint2"
 tint2 &
+xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" $(xdo id -n tint2)
 killall "nm-applet" 
 nm-applet &
 killall "dropbox" 

@@ -298,7 +298,7 @@
    (defun create-tags (dir-name)
       "Create tags file."
       (interactive "DDirectory: ")
-      (eshell-command)
+      (eshell-command))
 #+END_SRC
        (format "find %s -type f -name \"*.[ch]\" | etags -"
        dir-name)))
@@ -419,6 +419,10 @@
  #+BEGIN_SRC emacs-lisp
  (global-set-key (kbd "C-c b") 'bookmark-jump)  
  (global-set-key (kbd "C-c x") 'xah-open-in-external-app)
+#+END_SRC
+* Python Shell Interpreter
+#+BEGIN_SRC emacs-lisp
+(setq python-shell-interpreter "/usr/bin/python3")
 #+END_SRC
 * Electric indent mode hooks
  #+BEGIN_SRC emacs-lisp
@@ -545,17 +549,23 @@
 #+END_SRC
 * Org exporter settings
  #+BEGIN_SRC emacs-lisp
-  (setq org-agenda-exporter-settings
-          '((ps-number-of-columns 2)
-            (ps-landscape-mode t)
-            (org-agenda-add-entry-text-maxlines 5)
-            (htmlize-output-type 'css))) 
-
-  (setq org-agenda-prefix-format " [ ] ")
-  (setq org-agenda-with-colors t)
-  (setq org-agenda-remove-tags nil)
-  (setq ps-print-header nil)
+(setq org-agenda-exporter-settings
+           '((ps-number-of-columns 1)
+             (ps-landscape-mode nil)
+             (org-agenda-add-entry-text-maxlines 5)
+             )) 
+(setq org-agenda-prefix-format "[ ] %t ")
+(setq org-agenda-entry-text-mode t)
+(setq org-agenda-entry-text-maxlines 5)
+(setq org-agenda-skip-additional-timestamps-same-entry nil)
+(setq org-agenda-use-time-grid nil)
+(setq org-agenda-with-colors t)
+(setq org-agenda-remove-tags nil)
+(setq ps-print-header nil)
 #+END_SRC
+
+#+RESULTS:
+
 * Org capture 
 #+BEGIN_SRC emacs-lisp
   (setq org-capture-templates

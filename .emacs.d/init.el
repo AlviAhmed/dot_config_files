@@ -15,7 +15,8 @@
  '(custom-enabled-themes (quote (doom-acario-light)))
  '(custom-safe-themes
    (quote
-    ("9b01a258b57067426cc3c8155330b0381ae0d8dd41d5345b5eddac69f40d409b" default))))
+    ("9b01a258b57067426cc3c8155330b0381ae0d8dd41d5345b5eddac69f40d409b" default)))
+ '(org-agenda-files (quote ("~/Dropbox/Sync/daily_todo.org"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

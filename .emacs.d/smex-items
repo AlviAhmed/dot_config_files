@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ org-agenda-write
+ org-agenda
+ describe-variable
+ org-agenda-columns
+ indent-region
  eval-buffer
- dmenu
- run-python
- electric-indent-mode
- python-mode
- compile
- irony-install-server
+ bookmark-save
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 26)
+ (eval-buffer . 28)
  (eshell . 7)
  (compile . 27)
  (emmet-mode . 13)
@@ -23,7 +23,7 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
- (bookmark-save . 2)
+ (bookmark-save . 4)
  (irony-install-server . 12)
  (recompile . 1)
  (count-words . 3)
@@ -37,7 +37,7 @@
  (list-packages . 3)
  (electric-indent-mode . 8)
  (benchmark . 1)
- (org-agenda . 8)
+ (org-agenda . 34)
  (yas-load-snippet-buffer . 1)
  (yas-tryout-snippet . 1)
  (yas-visit-snippet-file . 3)
@@ -50,4 +50,15 @@
  (css-mode . 1)
  (python-mode . 1)
  (run-python . 1)
+ (outline-mode . 1)
+ (text-mode . 1)
+ (customize-apropos . 1)
+ (table-insert . 2)
+ (table-split-cell . 4)
+ (table-split-cell-vertically . 3)
+ (table-split-cell-horizontally . 5)
+ (org-agenda-write . 10)
+ (describe-variable . 10)
+ (org-agenda-columns . 3)
+ (indent-region . 1)
 )
