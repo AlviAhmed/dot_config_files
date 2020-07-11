@@ -7,10 +7,10 @@ XF86AudioMute
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
 
 ##--If keyboard has no media keys 
-super + {_,shift + }v
-	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {+5%,-5%} 
+super + {x,c}
+	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {-5%,+5%} 
 
-super + ctrl + v
+super + z
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
 ##--If keyboard has no media keys	
 
@@ -57,7 +57,7 @@ super + shift + x
 	xfce4-screenshooter
 
 
-# Reloading SXHKD
+# Restarting SXHKD
 super + Escape
 	pkill -USR1 -x sxhkd
 
@@ -304,15 +304,15 @@ super + shift + b
 
 ###---Adding Tabbed Functionality---### 
 
-# Add focused window to a tabbed instance in given direction
-super + c; {h,j,k,l}
-    tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
+# # Add focused window to a tabbed instance in given direction
+# super + c; {h,j,k,l}
+#     tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
 
-# Remove one tab from tabbed
-super + c; r
-    tabbed=$(bspc query -N -n focused); \
-    child=$(tabc.sh $tabbed list | head -n1); \
-    tabc.sh $tabbed remove $child
+# # Remove one tab from tabbed
+# super + c; r
+#     tabbed=$(bspc query -N -n focused); \
+#     child=$(tabc.sh $tabbed list | head -n1); \
+#     tabc.sh $tabbed remove $child
 ###---Adding Tabbed Functionality---### 
 
 

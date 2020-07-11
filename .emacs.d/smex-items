@@ -1,7 +1,7 @@
 
 ;; ----- smex-history -----
 (
- org-agenda-write
+ run-python
  org-agenda
  describe-variable
  org-agenda-columns
@@ -49,7 +49,7 @@
  (imenu . 4)
  (css-mode . 1)
  (python-mode . 1)
- (run-python . 1)
+ (run-python . 6)
  (outline-mode . 1)
  (text-mode . 1)
  (customize-apropos . 1)

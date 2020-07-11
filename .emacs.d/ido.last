@@ -18,9 +18,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/Documents/python_practice/"
  "/home/al/Dropbox/Sync/"
  "/home/al/.emacs.d/"
- "/home/al/Documents/python_practice/"
  "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/css/"
  "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/"
  "/home/al/Documents/Git_Projects/website/"
@@ -86,6 +86,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/al/Documents/python_practice/" (24328 28928 127811 731000) ".projectile" "strings.py" "numbers.py" "./" "lists.py" "helloworld.py" "machine_learning_adam/" "tuples.py" "user_input.py" "tuples.py~" "functions.py" "lists.py~" "functions.py~" "basic_calculator.py" "../" "data_types.py")
+
  ("/home/al/Dropbox/Sync/" (24326 63887 637947 715000) "daily_todo.pdf" "arrows.png" "daily_todo.org" "daily_todo.org~" "daily_todo." "daily_todo.pdf~" "data/" "sched_org.org~" "daily_todo.tex" "misc_symbols.png" "extra_todo.org" "greek_letters.png" "sched_org.org" "binary_sym.png" "extra_org/" "../" "./")
 
  ("/home/al/.emacs.d/" (24326 63722 966771 709000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "srecode-map.el" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "flycheck_myinit.el" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "tramp" "projectile.cache" "#myinit.org#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
@@ -97,8 +99,6 @@
  ("/home/al/bash_scripts/monitor_setting/" (24318 65412 222080 550000) ".projectile" "MON_SEL.sh" "./" "MON_SEL.sh~" "MON_NUM.sh" "VGA1.sh" "DUALL.sh" "MON_NUM.sh~" "DUALR.sh" "LVDS1.sh" "../")
 
  ("/home/al/Documents/" (24323 17684 615619 995000) "Projects/" "PP01- EDP Report-1.docx" "angular_practice/" "other_tobeorg/" "#shawn_courses_table1_table2.org#" "json_practice/" "resumes/" "nodejs_practice/" "Ahmed, Alvi.500696421.Graduation letter.pdf" "shawn_courses_table1_table2.org~" "usb_backup/" "dired_practice/" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "c++_practice/" "makita/" "lisp_practice/" "ele639_shawn_help.zip" "ele639_shawn_help/" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "shawn_courses_table1_table2.txt" "sql_practice/" "react_practice/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "shawn_courses_table1_table2.org" "sed_practice/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "asus_tuf_reciept/" "java_practice/" "../" "./")
-
- ("/home/al/Documents/python_practice/" (24318 29851 722510 372000) ".projectile" "strings.py" "numbers.py" "./" "lists.py" "helloworld.py" "machine_learning_adam/" "user_input.py" "lists.py~" "basic_calculator.py" "../" "data_types.py")
 
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" (24317 51351 442313 329000) "tut22/" "tut12/" "tut7/" "tut17/" "tut33/" "tut22_1/" "./" "tut8/" "tut9/" "tut1	/" "tut26/" "tut21/" "tut30/" "tut28/" "tut4/" "common_headers.h~" "tut11/" "tut31/" "tut27/" "tut20/" "tut3/" "tut34/" "common_headers.h" "tut16/" "tut10/" "tut13/" "tut23/" "tut18/" "tut2/" "tut24/" "tut15/" "tut25/" "tut19/" "../" "tut29/" "tut32/" "tut5/" "tut6/")
 
