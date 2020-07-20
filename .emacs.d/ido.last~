@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/al/Dropbox/" . "Sync/")
  ("/usr/share/" . "fonts/")
  ("/usr/" . "share/")
  ("/home/al/Documents/" . "herb_examples/")
@@ -18,9 +19,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/al/Dropbox/Sync/"
- "/home/al/.emacs.d/"
  "/home/al/Documents/python_practice/"
+ "/home/al/Dropbox/Sync/"
+ "/home/al/Documents/c_practice/socket_programming/"
+ "/home/al/.emacs.d/"
+ "/home/al/"
  "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/css/"
  "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/"
  "/home/al/Documents/Git_Projects/website/"
@@ -30,7 +33,6 @@
  "/ssh:root@alviahmed.com:/var/www/alweb/"
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut31/"
  "/media/veracrypt1/"
- "/home/al/"
  "/home/al/Documents/Git_Projects/"
  "/home/al/Documents/"
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut29/"
@@ -67,44 +69,47 @@
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut_#6/"
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut_#9/"
  "/home/al/Documents/c_practice/cprogramming_in_linux/tut_#8/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut_#7/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "myinit.org"
+ "ifstatement.py"
+ "backburner.org"
+ "inbox.org"
+ "project.org"
  "myinit.el"
- "daily_todo.org"
  "daily_todo.pdf"
+ "myinit.org"
+ "daily_todo.org"
  "number.py"
  "styles.css"
- "10bytechunk.txt"
- ".projectile"
- "extra_todo.org"
- "main31.c"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/Dropbox/Sync/" (24326 63887 637947 715000) "daily_todo.pdf" "arrows.png" "daily_todo.org" "daily_todo.org~" "daily_todo." "daily_todo.pdf~" "data/" "sched_org.org~" "daily_todo.tex" "misc_symbols.png" "extra_todo.org" "greek_letters.png" "sched_org.org" "binary_sym.png" "extra_org/" "../" "./")
+ ("/home/al/Documents/python_practice/" (24332 52414 234318 868000) ".projectile" "strings.py" "numbers.py" "guessinggame.py" "whileloop.py~" "./" "lists.py" "helloworld.py" "ifstatement.py~" "machine_learning_adam/" "tuples.py" "user_input.py" "tuples.py~" "functions.py" "ad_calc.py~" "guessinggame.py~" "lists.py~" "functions.py~" "basic_calculator.py" "dictionaries.py~" "ad_calc.py" "whileloop.py" "ifstatement.py" "../" "dictionaries.py" "data_types.py")
 
- ("/home/al/.emacs.d/" (24326 63722 966771 709000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "srecode-map.el" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "flycheck_myinit.el" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "tramp" "projectile.cache" "#myinit.org#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
+ ("/home/al/Dropbox/Sync/" (24332 8543 172074 170000) "inbox.org" "daily_todo.pdf" "notes.org" "priorities.org" "priorities.pdf" "daily_todo.org" "project.org" "backburner.org" "other_notes/" "../" "./")
 
- ("/home/al/" (24326 63417 280835 517000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "mpv-shot0003.jpg" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "icecat-60.7.0-gnu1.tar.bz2" ".xprofile" "fonts/" ".imwheelrc" "testdisk.log" ".dmrc" ".var/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" "manga_trial/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" ".emacs.d/" ".gtkrc-2.0" "mpv-shot0001.jpg" ".profile~" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" "colors.Xresources" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "webpack.config.js" "Music/" ".runescape" ".java/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "kissanime/" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
+ ("/home/al/Documents/c_practice/socket_programming/" (24332 3714 369520 77000) "./" "tcp_client.c~" "../" "tcp_client.c")
 
- ("/home/al/.config/bspwm/" (24318 63386 243925 180000) "./" "#bspwmrc#" "../" "bspwmrc~" "bspwmrc")
+ ("/home/al/.emacs.d/" (24330 62717 738569 164000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "srecode-map.el" "myinit.org~" ".#myinit.org" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
+
+ ("/home/al/Dropbox/" (24330 58193 386130 873000) "./" ".dropbox" "Sync/" ".dropbox.cache/" "../")
+
+ ("/home/al/" (24330 61860 488537 173000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "node_modules/" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "extra.pdf" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "mpv-shot0003.jpg" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "icecat-60.7.0-gnu1.tar.bz2" ".xprofile" "fonts/" ".imwheelrc" "testdisk.log" ".dmrc" ".var/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "siji/" "manga_trial/" ".gconf/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" ".emacs.d/" ".gtkrc-2.0" "mpv-shot0001.jpg" ".profile~" "bills/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" "colors.Xresources" "dist/" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" ".java/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "kissanime/" "netlify.toml" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
+
+ ("/home/al/.config/bspwm/" (24327 25498 726194 442000) "./" "#bspwmrc#" "../" "bspwmrc~" "bspwmrc")
+
+ ("/home/al/Documents/Git_Projects/website/" (24327 25830 872636 862000) ".git/" "./" "css/" "index.html" "projects.html~" "projects.html" "README.org" "CSS-My-Site/" "../" "contact.html" "images/")
 
  ("/home/al/bash_scripts/monitor_setting/" (24318 65412 222080 550000) ".projectile" "MON_SEL.sh" "./" "MON_SEL.sh~" "MON_NUM.sh" "VGA1.sh" "DUALL.sh" "MON_NUM.sh~" "DUALR.sh" "LVDS1.sh" "../")
 
  ("/home/al/Documents/" (24323 17684 615619 995000) "Projects/" "PP01- EDP Report-1.docx" "angular_practice/" "other_tobeorg/" "#shawn_courses_table1_table2.org#" "json_practice/" "resumes/" "nodejs_practice/" "Ahmed, Alvi.500696421.Graduation letter.pdf" "shawn_courses_table1_table2.org~" "usb_backup/" "dired_practice/" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "c++_practice/" "makita/" "lisp_practice/" "ele639_shawn_help.zip" "ele639_shawn_help/" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "shawn_courses_table1_table2.txt" "sql_practice/" "react_practice/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "shawn_courses_table1_table2.org" "sed_practice/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "asus_tuf_reciept/" "java_practice/" "../" "./")
 
- ("/home/al/Documents/python_practice/" (24318 29851 722510 372000) ".projectile" "strings.py" "numbers.py" "./" "lists.py" "helloworld.py" "machine_learning_adam/" "user_input.py" "lists.py~" "basic_calculator.py" "../" "data_types.py")
-
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" (24317 51351 442313 329000) "tut22/" "tut12/" "tut7/" "tut17/" "tut33/" "tut22_1/" "./" "tut8/" "tut9/" "tut1	/" "tut26/" "tut21/" "tut30/" "tut28/" "tut4/" "common_headers.h~" "tut11/" "tut31/" "tut27/" "tut20/" "tut3/" "tut34/" "common_headers.h" "tut16/" "tut10/" "tut13/" "tut23/" "tut18/" "tut2/" "tut24/" "tut15/" "tut25/" "tut19/" "../" "tut29/" "tut32/" "tut5/" "tut6/")
 
  ("/home/al/Documents/Git_Projects/website/css/" (24317 48440 729070 65000) ".projectile" "./" "styles.css" "../")
-
- ("/home/al/Documents/Git_Projects/website/" (24316 47313 155351 308000) ".git/" "./" "css/" "index.html" "projects.html~" "projects.html" "README.org" "../" "contact.html" "images/")
 
  ("/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/" (24317 50924 409907 82000) "./" "css/" "index.html~" "index.html" "../")
 

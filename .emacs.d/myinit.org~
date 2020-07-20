@@ -1,5 +1,5 @@
 * Emacs Interface Tweaks
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (setq-default    
 	confirm-kill-emacs 'yes-or-no-p)
 (fset 'yes-or-no-p 'y-or-n-p)                     ; Replace yes/no prompts nwith y/n 
@@ -12,19 +12,19 @@
 ;;Lines and columns
 (line-number-mode 1)
 (column-number-mode 1) 
-#+END_SRC
+  #+END_SRC
 
 * Emacs Optimizations 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
-#+END_SRC
+  #+END_SRC
 * Changing Emacs Defaults
 ** Highlighting Parentheses
-#+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
    (show-paren-mode 1)
-#+END_SRC
+   #+END_SRC
 ** Toggle Show Dot Files
-#+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
      (defun dired-dotfiles-toggle ()
        "Show/hide dot-files"
        (interactive)
@@ -37,88 +37,88 @@
 	       (dired-do-kill-lines))
 	   (progn (revert-buffer) ; otherwise just revert to re-show
 	          (set (make-local-variable 'dired-dotfiles-show-p) t)))))
-#+END_SRC
+   #+END_SRC
 ** Allowing Subwords
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (global-subword-mode 1)   
- #+END_SRC
+   #+END_SRC
 ** Modifying Title bar 
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
 (setq frame-title-format "%b")
-#+END_SRC
+   #+END_SRC
 ** Dired Settings
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (setq dired-dwim-target t)              ;will allow copy to another split dired
   (defun xah-dired-mode-setup ()
     "to be run as hook for `dired-mode'."
     (dired-hide-details-mode 1))
   (add-hook 'dired-mode-hook 'xah-dired-mode-setup)
-#+END_SRC
+   #+END_SRC
 ** Dired Switches
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   ;; (setq dired-listing-switches "-alt")
-#+END_SRC
+   #+END_SRC
 ** Setting up expand region
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package expand-region
 	  :ensure t 
 	  :config 
 	  (global-set-key (kbd "C-;") 'er/expand-region))
-#+END_SRC
+   #+END_SRC
 ** Dired Subtree
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (use-package dired-subtree  
 	 :ensure t
   	 :after dired
   	 :config
   	 (bind-key "<tab>" #'dired-subtree-toggle dired-mode-map)
   	 (bind-key "<backtab>" #'dired-subtree-cycle dired-mode-map))
-#+END_SRC
+   #+END_SRC
 ** Disabling ring/bell setting
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (setq ring-bell-function 'ignore)
-#+END_SRC
+   #+END_SRC
 ** Disable the startup tutorial screen 
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (setq inhibit-startup-message t)
-#+END_SRC
+   #+END_SRC
 * Changing Focus of Windows 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "M-h") 'windmove-left)
 (global-set-key (kbd "M-l") 'windmove-right)
 (global-unset-key (kbd "M-j"))
 (global-set-key (kbd "M-j") 'windmove-down)
 (global-set-key (kbd "M-k") 'windmove-up) 
 
-#+END_SRC
+  #+END_SRC
 * Small shortcuts and custom bindings
 ** Rebinding and Changing the Undo Key
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (global-unset-key "\C-z")
  (global-set-key "\C-z" 'undo)
-#+END_SRC
+   #+END_SRC
 ** Binding Dabbrev
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (global-unset-key "\M-\\")
  (global-unset-key "\M-p")
  (global-set-key "\M-\\" 'dabbrev-expand)
-#+END_SRC
+   #+END_SRC
 * Slime (Config for Common lisp)
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (load (expand-file-name "~/quicklisp/slime-helper.el"))
  ;; Replace "sbcl" with the path to your implementation
  (setq inferior-lisp-program "sbcl")
-#+END_SRC
+  #+END_SRC
 * Vimish Fold
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package vimish-fold
              :ensure t
              :config
              (global-set-key (kbd "C-c v f") #'vimish-fold)
 			 (global-set-key (kbd "C-c v v") #'vimish-fold-delete))
-#+END_SRC
+  #+END_SRC
 * Tide Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (defun setup-tide-mode ()
    (interactive)
    (tide-setup)
@@ -146,35 +146,47 @@
    :hook ((typescript-mode . tide-setup)
           (typescript-mode . tide-hl-identifier-mode)
           (before-save . tide-format-before-save)))
-#+END_SRC
+  #+END_SRC
 * Winner Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (winner-mode 1)
+  #+END_SRC
+* Python Tabs
+#+BEGIN_SRC emacs-lisp
+(add-hook 'python-mode-hook
+      (lambda ()
+        (setq-default indent-tabs-mode nil)
+        (setq-default tab-width 4)
+        (setq-default python-indent 4)))
 #+END_SRC
+
+#+RESULTS:
+| (lambda nil (setq-default indent-tabs-mode nil) (setq-default tab-width 4) (setq-default python-indent 4)) | yasnippet-snippets--fixed-indent | electric-indent-mode | anaconda-mode | er/add-python-mode-expansions |
+
 * Org Mode Configs
 ** Refiling Active Region
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (setq org-refile-active-region-within-subtree t)
-#+END_SRC
+   #+END_SRC
 * Electric Pairs Brackets
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 	 (setq electric-pair-pairs '(
 				     (?\( . ?\))
 				     (?\{ . ?\})
 				     (?\[ . ?\])
 				     (?\" . ?\"))) 
 	 (electric-pair-mode 1)   
-#+END_SRC
+  #+END_SRC
 * Rainbow Delimiters
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package rainbow-delimiters
 	 :ensure t
 	 :init
 	 (rainbow-delimiters-mode))
  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-#+END_SRC
+  #+END_SRC
 * Hide Show Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
    ;; (use-package hideshow-org
    ;;   :ensure t
    ;;   :config
@@ -182,10 +194,10 @@
 
    ;; (global-set-key "\C-ch" 'hs-org/minor-mode)
    ;;   )
-#+END_SRC
+  #+END_SRC
 * Web Develop Configurations
 ** Web Mode
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package web-mode
     :ensure t
     :config
@@ -198,22 +210,22 @@
    (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
    (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
     )
-#+END_SRC
+   #+END_SRC
 ** Emmet Mode
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
   (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
-#+END_SRC
+   #+END_SRC
 * Speedbar 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (global-set-key (kbd "<f8>") 'speedbar)
-#+END_SRC
+  #+END_SRC
 * Dumbjump Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (dumb-jump-mode)
-#+END_SRC
+  #+END_SRC
 * Move line up or down
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (defun move-line-down ()
     (interactive)
     (let ((col (current-column)))
@@ -234,15 +246,15 @@
 
   (global-set-key (kbd "C-S-j") 'move-line-down)
   (global-set-key (kbd "C-S-k") 'move-line-up)
-#+END_SRC
+  #+END_SRC
 * Anaconda Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package anaconda-mode 
 	 :config 
 	 (add-hook 'python-mode-hook 'anaconda-mode))
-#+END_SRC
+  #+END_SRC
 * Company
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (require 'cl)
 
  (use-package company 
@@ -264,17 +276,17 @@
 	 (add-to-list 'company-backends 'company-nxml)
 	 (add-to-list 'company-backends 'company-files) 
 	 (add-to-list 'company-backends 'company-anaconda))
-#+END_SRC
+  #+END_SRC
 ** Company Jedi
 ** Company Irony
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package company-irony
 	  :ensure t 
 	  :config  
 	  (add-to-list 'company-backends 'company-irony))
-#+END_SRC
+   #+END_SRC
 ** Irony
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package irony 
 	  :ensure t 
 	  :config  
@@ -282,9 +294,9 @@
 	  (add-hook 'c-mode-hook 'irony-mode)
 	  (add-hook 'objc-mode-hook 'irony-mode)
 	  (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
-#+END_SRC
+   #+END_SRC
 ** Company Irony C Headers
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package company-irony-c-headers
     :config
  	  (eval-after-load 'company
@@ -292,20 +304,20 @@
  	      'company-backends '(company-irony-c-headers company-irony)))
     :ensure t
     )
-#+END_SRC
+   #+END_SRC
 * Generating Etags
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
    (defun create-tags (dir-name)
       "Create tags file."
       (interactive "DDirectory: ")
       (eshell-command))
-#+END_SRC
-       (format "find %s -type f -name \"*.[ch]\" | etags -"
-       dir-name)))
- #+BEGIN_SRC emacs-lisp
-#+END_SRC
+  #+END_SRC
+  (format "find %s -type f -name \"*.[ch]\" | etags -"
+  dir-name)))
+  #+BEGIN_SRC emacs-lisp
+  #+END_SRC
 * js2-mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package js2-mode
    :ensure t
    :config
@@ -320,22 +332,22 @@
 	 (add-to-list 'company-backends 'ac-js2-company) 
 	 (setq ac-js2-evaluate-calls t)
  )
-#+END_SRC
+  #+END_SRC
 * Yasnippet
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package yasnippet
    :ensure t
    )
  (yas-global-mode 1) 
-#+END_SRC
+  #+END_SRC
 * Flycheck Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package flycheck 
 	 :ensure t 
 	 :init (global-flycheck-mode t))
-#+END_SRC
+  #+END_SRC
 * Popup
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package popup 
 	 :ensure t 
 	 :config 
@@ -347,17 +359,17 @@
 	 (define-key popup-menu-keymap (kbd "C-p") nil)
 	 (define-key popup-menu-keymap (kbd "M-n") #'popup-next)
 	 (define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
-#+END_SRC
+  #+END_SRC
 ** Kill ring
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package popup-kill-ring 
 	  :ensure t 
 	  :config 
 	  (define-key popup-kill-ring-keymap (kbd "M-n")     'popup-kill-ring-next)
 	  (define-key popup-kill-ring-keymap (kbd "M-p")     'popup-kill-ring-previous))
-#+END_SRC
+   #+END_SRC
 * Ido Mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package ido  
 	 :ensure t
 	 :config 
@@ -368,24 +380,24 @@
 	 (setq ido-default-buffer-method 'selected-window) 
 	 (setq ido-default-file-method 'selected-window)	 
 	 )
-#+END_SRC
+  #+END_SRC
 ** Ido Vertical
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package ido-vertical-mode 
 	  :ensure t 
 	  :config 
 	  (ido-vertical-mode 1)
 	  (setq ido-vertical-define-keys 'C-n-and-C-p-only))
-#+END_SRC
+   #+END_SRC
 ** Smex Mode
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (use-package smex 
 	  :ensure t
 	  :init (smex-initialize) 
 	  :bind ("M-x" . smex))
-#+END_SRC
+   #+END_SRC
 * Elscreen
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package elscreen-tab 
 	 :ensure t 
 	 :config  
@@ -393,9 +405,9 @@
 	 (global-set-key (kbd "M-P") 'elscreen-previous)
 	 (global-set-key (kbd "C-c n") 'elscreen-create) 
 	 (global-set-key (kbd "C-c d") 'elscreen-kill))
-#+END_SRC
+  #+END_SRC
 * Projectile
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (setq projectile-enable-caching t)
  (use-package projectile 
 	 :ensure t 
@@ -403,9 +415,9 @@
 	 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)  
 	 (setq projectile-enable-caching t)
 	 (projectile-mode +1 ))
-#+END_SRC
+  #+END_SRC
 * Multiple Cursors
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package multiple-cursors
 	 :ensure t 
 	 :config 
@@ -414,36 +426,36 @@
 	 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 	 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 	 ) 
-#+END_SRC
+  #+END_SRC
 ** Dired Async Shell
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
  (global-set-key (kbd "C-c b") 'bookmark-jump)  
  (global-set-key (kbd "C-c x") 'xah-open-in-external-app)
-#+END_SRC
+   #+END_SRC
 * Python Shell Interpreter
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (setq python-shell-interpreter "/usr/bin/python3")
-#+END_SRC
+  #+END_SRC
 * Electric indent mode hooks
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (add-hook 'c-mode-hook 'electric-indent-mode)
  (add-hook 'c++-mode-hook 'electric-indent-mode)
  (add-hook 'python-mode-hook 'electric-indent-mode)
  (add-hook 'java-mode-hook 'electric-indent-mode)
  (add-hook 'html-mode-hook 'electric-indent-mode)
  (add-hook 'css-mode-hook 'electric-indent-mode)
-#+END_SRC
+  #+END_SRC
 * Custom Script (bgpape)
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (defun bgpape ()
    "Starts the command to change desktop background"
    (interactive)
    (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) " > /dev/null 2>&1 &")))
  (add-hook 'dired-mode-hook '(lambda () 
                                (local-set-key (kbd "b") 'bgpape)))
-#+END_SRC
+  #+END_SRC
 * visual-regexp 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package visual-regexp 
 	 :ensure t 
 	 :config
@@ -451,17 +463,17 @@
 	 (define-key global-map (kbd "C-c q") 'vr/query-replace)
 	 ;; if you use multiple-cursors, this is for you:
 	 (define-key global-map (kbd "C-c m") 'vr/mc-mark))
-#+END_SRC
+  #+END_SRC
 * Setting the side lines as relative like in vim
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (setq-default display-line-numbers 'relative)
-#+END_SRC
+  #+END_SRC
 * Enabling tab indents I think
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (setq-default indent-tabs-mode nil)
-#+END_SRC
+  #+END_SRC
 * Pop-up menu for kill ring 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package popup 
 	 :ensure t 
 	 :config 
@@ -474,166 +486,186 @@
 	 (define-key popup-menu-keymap (kbd "M-n") #'popup-next)
 	 (define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
  (global-set-key (kbd "C-x p") 'popup-kill-ring) 
-#+END_SRC
+  #+END_SRC
 * iBuffer for C-x C-b 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package ibuffer 
 	     	 :ensure t 
 		 :config 
 		 (global-set-key (kbd "C-x C-b") 'ibuffer))
-#+END_SRC
+  #+END_SRC
+
+  #+RESULTS:
+  : t
+
 * beacon, cursor signal when switching windows
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package beacon :ensure t :init (beacon-mode 1))
-#+END_SRC
+  #+END_SRC
 * if use-package package not present, then download
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (unless (package-installed-p 'use-package)
    (package-refresh-contents)
    (package-install 'use-package)) 
-#+END_SRC
+  #+END_SRC
 * Setting up Avy
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package avy
    :ensure t
    :bind
    ("M-z" . avy-goto-char))
-#+END_SRC
+  #+END_SRC
 * Hungry Delete
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package hungry-delete
    :ensure t
  )
-#+END_SRC
+  #+END_SRC
 *  Enabling which-key
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (use-package which-key
   :ensure t
   :init
   (which-key-mode))
-#+END_SRC
+  #+END_SRC
 * Sizing Windows
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (global-set-key (kbd "M-H") 'shrink-window-horizontally)
  (global-set-key (kbd "M-L") 'enlarge-window-horizontally)
  (global-set-key (kbd "M-J") 'shrink-window)
  (global-set-key (kbd "M-K") 'enlarge-window) 
-#+END_SRC
+  #+END_SRC
 * Disabling all themes 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
  (defun disable-all-themes ()
    "disable all active themes."
    (dolist (i custom-enabled-themes)
      (disable-theme i)))
-#+END_SRC
+  #+END_SRC
 ** Using disable all themes in order to load another theme without conflict
- #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (defadvice load-theme (before disable-themes-first activate)
     (disable-all-themes))
-#+END_SRC
+   #+END_SRC
 * rgrep 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "M-/") 'rgrep) 
-#+END_SRC
+  #+END_SRC
 * Org Capture 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c c") 'org-capture)
-#+END_SRC
+  #+END_SRC
 * Org refile 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
-#+END_SRC
+  #+END_SRC
 * Org creating new parents
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq org-refile-allow-creating-parent-nodes 'confirm)
-#+END_SRC
+  #+END_SRC
 * Org exporter settings
- #+BEGIN_SRC emacs-lisp
-(setq org-agenda-exporter-settings
-           '((ps-number-of-columns 1)
-             (ps-landscape-mode nil)
-             (org-agenda-add-entry-text-maxlines 5)
-             )) 
-(setq org-agenda-prefix-format "[ ] %t ")
-(setq org-agenda-entry-text-mode t)
-(setq org-agenda-entry-text-maxlines 5)
-(setq org-agenda-skip-additional-timestamps-same-entry nil)
-(setq org-agenda-use-time-grid nil)
-(setq org-agenda-with-colors t)
-(setq org-agenda-remove-tags nil)
-(setq ps-print-header nil)
-#+END_SRC
+  #+BEGIN_SRC emacs-lisp
+    (setq org-agenda-exporter-settings
+               '((ps-number-of-columns 1)
+                 (ps-landscape-mode t)
+                 (org-agenda-add-entry-text-maxlines 5)
+                 )) 
+    (setq org-agenda-prefix-format "[ ] %t ")
+    (setq ps-left-margin   	(/ (* 72  0.5) 2.54)) ;   the position of numbers next 72 is the cm
+    (setq ps-right-margin   	(/ (* 72  10) 2.54)) ;   
+    (setq ps-inter-column   	(/ (* 72  0.5) 2.54)) ;   
+    (setq ps-top-margin  	(/ (* 72  0.5) 2.54)) ;   
+    (setq ps-bottom-margin   (/ (* 72  1) 2.54)) ;   
+     (setq org-agenda-entry-text-exclude-regexps 
+       '("<[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^>]*>"))
+     (setq ps-font-size   '(11 . 12.5))
+     (setq ps-header-font-size '(13 . 14))
+    (setq org-agenda-skip-additional-timestamps-same-entry nil)
+    (setq org-agenda-use-time-grid nil)
+    (setq org-agenda-with-colors t)
+    (setq org-agenda-remove-tags nil)
+    (setq ps-print-header nil)
+    (setq org-agenda-span 2)
+    (setq org-agenda-compact-blocks t)
+    ;; (setq org-agenda-block-seperator "-")
+     ;; (defun gg/entry-text-nix-empty-line ()
+     ;;   "Delete empty entry text lines in agenda"
+     ;;   (goto-char (point-min))
+     ;;   (replace-regexp (concat "^ *" org-agenda-entry-text-leaders " *\n") ""))
 
-#+RESULTS:
+     ;; (add-hook 'org-agenda-finalize-hook 'gg/entry-text-nix-empty-line)
+
+
+  #+END_SRC
 
 * Org capture 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq org-capture-templates
         '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/sched_org.org" "Inbox Tasks")
            "* TODO %?\n  %i\n  %a")
           )  
 	  ) 
-#+END_SRC
+  #+END_SRC
 * Begin emacs tags 
-#+BEGIN_SRC emacs_lisp
+  #+BEGIN_SRC emacs_lisp
     (defun create-tags (dir-name)
        "Create tags file."
        (interactive "DDirectory: ")
        (eshell-command 
         (format "find %s -type f -name \"*.[ch]\" | etags -" dir-name)))
-#+END_SRC
+  #+END_SRC
 * C indent style 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq c-default-style "linux"
         c-basic-offset 4)
-#+END_SRC
+  #+END_SRC
 * Org formatting 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (add-hook 'org-mode-hook 'auto-fill-mode) 
-#+END_SRC
+  #+END_SRC
 * Org agenda default 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq org-agenda-default-appointment-duration 60)
-#+END_SRC
+  #+END_SRC
 * Setting default face font
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (set-face-attribute 'default nil :height 120) 
-#+END_SRC
+  #+END_SRC
 * Splitting Window Key Bindings
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "M-@") 'split-window-below)  
   (global-set-key (kbd "M-#") 'split-window-right)  
   (global-set-key (kbd "M-$") 'delete-window)  
-#+END_SRC
+  #+END_SRC
 * Fill Column Indicator
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (use-package fill-column-indicator
     :ensure t
     )
-#+END_SRC
+  #+END_SRC
 * Moving files to trash
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq delete-by-moving-to-trash t) 
-#+END_SRC
+  #+END_SRC
 * Visual Line mode, line wrapper
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (global-visual-line-mode t )
-#+END_SRC
+  #+END_SRC
 * deletion selection mode -> allows deletion of selected text 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (delete-selection-mode t)
-#+END_SRC
+  #+END_SRC
 *  setting kill whole line to true
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
    (setq kill-whole-line t)
-#+END_SRC
+  #+END_SRC
 *  Indenting Tabs 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 4) 
-#+END_SRC
+  #+END_SRC
 *  make tab key do indent first then completion.
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq-default tab-always-indent 'complete) 
   (defun my-insert-tab-char ()
     "Insert a tab char. (ASCII 9, \t)"
@@ -644,36 +676,36 @@
 	  (local-set-key [(f5)] 'recompile)
   ) 
   (add-hook 'prog-mode-hook 'compile-key)
-#+END_SRC
+  #+END_SRC
 *  Org Mode tasks 
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq org-todo-keywords
         '((sequence "TODO" "NEXT" "INPROG" "CANCELLED" "DONE" ))) 
-#+END_SRC
+  #+END_SRC
 * Enabling line show mode
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (global-hl-line-mode t)
-#+END_SRC
+  #+END_SRC
 * Begin Scroll Settings
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) 
   (setq mouse-wheel-progressive-speed nil)
   (setq mouse-wheel-follow-mouse 't)
   (setq scroll-step 1)
   (setq scroll-conservatively 101)
-#+END_SRC
+  #+END_SRC
 * Disabling the scroll bar
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (toggle-scroll-bar 1)  
 
-#+END_SRC
+  #+END_SRC
 * keep cursor at same position when scrolling
- #+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (setq scroll-preserve-screen-position 1)
 
-#+END_SRC
+  #+END_SRC
 * Org-latex template 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
   (with-eval-after-load 'ox-latex
   (add-to-list 'org-latex-classes
                '("mycustom"
@@ -752,4 +784,9 @@
 
 
 
+  #+END_SRC
+* C default comments 
+#+BEGIN_SRC emacs-lisp
+	(add-hook 'c-mode-hook (lambda () (setq comment-start "//"
+                                        comment-end   "")))
 #+END_SRC

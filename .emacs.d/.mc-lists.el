@@ -21,6 +21,8 @@
         kill-visual-line
         my-insert-tab-char
         org-agenda-show-and-scroll-up
+        org-beginning-of-line
+        org-cycle
         org-delete-char
         org-self-insert-command
         overwrite-mode

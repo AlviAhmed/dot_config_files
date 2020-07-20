@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
- run-python
  org-agenda
+ run-lisp
+ electric-indent-mode
+ count-lines-page
+ indent-for-comment
  describe-variable
- org-agenda-columns
- indent-region
- eval-buffer
- bookmark-save
+ describe-char
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 28)
+ (eval-buffer . 30)
  (eshell . 7)
  (compile . 27)
  (emmet-mode . 13)
@@ -23,8 +23,8 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
- (bookmark-save . 4)
- (irony-install-server . 12)
+ (bookmark-save . 5)
+ (irony-install-server . 13)
  (recompile . 1)
  (count-words . 3)
  (revert-buffer . 1)
@@ -35,9 +35,9 @@
  (company-capf . 1)
  (list-tags . 1)
  (list-packages . 3)
- (electric-indent-mode . 8)
+ (electric-indent-mode . 10)
  (benchmark . 1)
- (org-agenda . 34)
+ (org-agenda . 89)
  (yas-load-snippet-buffer . 1)
  (yas-tryout-snippet . 1)
  (yas-visit-snippet-file . 3)
@@ -57,8 +57,12 @@
  (table-split-cell . 4)
  (table-split-cell-vertically . 3)
  (table-split-cell-horizontally . 5)
- (org-agenda-write . 10)
- (describe-variable . 10)
+ (org-agenda-write . 45)
+ (describe-variable . 29)
  (org-agenda-columns . 3)
- (indent-region . 1)
+ (indent-region . 2)
+ (describe-char . 1)
+ (indent-for-comment . 1)
+ (count-lines-page . 1)
+ (run-lisp . 1)
 )

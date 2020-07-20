@@ -109,6 +109,12 @@
 
 (winner-mode 1)
 
+(add-hook 'python-mode-hook
+      (lambda ()
+        (setq-default indent-tabs-mode nil)
+        (setq-default tab-width 4)
+        (setq-default python-indent 4)))
+
 (setq org-refile-active-region-within-subtree t)
 
 (setq electric-pair-pairs '(
@@ -412,13 +418,29 @@
              (org-agenda-add-entry-text-maxlines 5)
              )) 
 (setq org-agenda-prefix-format "[ ] %t ")
-(setq org-agenda-entry-text-mode t)
-(setq org-agenda-entry-text-maxlines 5)
+(setq ps-left-margin   	(/ (* 72  0.5) 2.54)) ;   the position of numbers next 72 is the cm
+(setq ps-right-margin   	(/ (* 72  10) 2.54)) ;   
+(setq ps-inter-column   	(/ (* 72  0.5) 2.54)) ;   
+(setq ps-top-margin  	(/ (* 72  0.5) 2.54)) ;   
+(setq ps-bottom-margin   (/ (* 72  1) 2.54)) ;   
+ (setq org-agenda-entry-text-exclude-regexps 
+   '("<[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^>]*>"))
+ (setq ps-font-size   '(10 . 11.5))
+ (setq ps-header-font-size '(12 . 13))
 (setq org-agenda-skip-additional-timestamps-same-entry nil)
 (setq org-agenda-use-time-grid nil)
 (setq org-agenda-with-colors t)
 (setq org-agenda-remove-tags nil)
 (setq ps-print-header nil)
+(setq org-agenda-span 3)
+(setq org-agenda-compact-blocks t)
+;; (setq org-agenda-block-seperator "-")
+ ;; (defun gg/entry-text-nix-empty-line ()
+ ;;   "Delete empty entry text lines in agenda"
+ ;;   (goto-char (point-min))
+ ;;   (replace-regexp (concat "^ *" org-agenda-entry-text-leaders " *\n") ""))
+
+ ;; (add-hook 'org-agenda-finalize-hook 'gg/entry-text-nix-empty-line)
 
 (setq org-capture-templates
       '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/sched_org.org" "Inbox Tasks")
@@ -555,3 +577,6 @@ Version 2019-11-04"
         (mapc
          (lambda ($fpath) (let ((process-connection-type nil))
                             (start-process "" nil "xdg-open" $fpath))) $file-list))))))
+
+(add-hook 'c-mode-hook (lambda () (setq comment-start "//"
+                                comment-end   "")))

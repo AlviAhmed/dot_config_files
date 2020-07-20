@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("myinit.org"
+(("islam_research.org"
+ (filename . "~/Documents/islam_research/islam_research.org")
+ (front-context-string . "* Slaves, right ")
+ (rear-context-string)
+ (position . 1))
+("ps-print.el.gz"
+ (filename . "/usr/local/share/emacs/26.3/lisp/ps-print.el.gz")
+ (front-context-string . "(defcustom ps-le")
+ (rear-context-string . "--------------\n\n")
+ (position . 88685))
+("myinit.org"
  (filename . "~/.emacs.d/myinit.org")
  (front-context-string . "* Emacs Interfac")
  (rear-context-string)
@@ -84,9 +94,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "\n** TODO Make mo")
- (rear-context-string . "ava programming\n")
- (position . 6094))
+ (front-context-string . "** TODO find ora")
+ (rear-context-string)
+ (position . 15))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
@@ -138,10 +148,10 @@
  (rear-context-string . "artus/bin:$PATH\n")
  (position . 1414))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/Sync/extra_todo.org")
- (front-context-string . "** TODO Ring Exe")
- (rear-context-string . "w are you doing\n")
- (position . 44))
+ (filename . "~/Dropbox/Sync/inbox.org")
+ (front-context-string . "*** TODO tell ab")
+ (rear-context-string . " printer cables\n")
+ (position . 532))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")
