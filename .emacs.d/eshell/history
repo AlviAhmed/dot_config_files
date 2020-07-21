@@ -1,8 +1,3 @@
-ls
-git checkout 2div_2header
-git add -A
-git commit -m "update"
-git push origin 2div_2header
 git push origin 2div_2header
 git status 
 git checkout master
@@ -126,3 +121,8 @@ git checkout master
 git branch -a
 git status
 git status
+bash documents_backup.sh 
+ln -s dotfile_backup.sh  ~/bin/dfb
+ln -s documents_backup.sh ~/bin/db
+ln -s ~/bash_scripts/documents_backup.sh ~/bin/db
+ln -s ~/bash_scripts/dotfile_backup.sh  ~/bin/dfb

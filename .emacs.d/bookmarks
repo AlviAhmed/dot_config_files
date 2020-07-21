@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("islam_research.org"
+(("tint2rc"
+ (filename . "~/.config/tint2/tint2rc")
+ (front-context-string . "#---- Generated ")
+ (rear-context-string)
+ (position . 1))
+("islam_research.org"
  (filename . "~/Documents/islam_research/islam_research.org")
  (front-context-string . "* Slaves, right ")
  (rear-context-string)
@@ -233,10 +238,10 @@
  (rear-context-string . "59 Apr 22 16:32 ")
  (position . 341))
 ("useful_linux_commands.org"
- (filename . "~/Dropbox/Sync/useful_linux_commands.org")
- (front-context-string . "* Turning off wi")
- (rear-context-string . "ble\n#+END_SRC \n\n")
- (position . 19173))
+ (filename . "~/Dropbox/Sync/other_notes/useful_linux_commands.org")
+ (front-context-string . "* logind, used f")
+ (rear-context-string)
+ (position . 1))
 ("bspwmrc"
  (filename . "~/.config/bspwm/bspwmrc")
  (front-context-string . "#!/bin/sh\nsxhkd ")

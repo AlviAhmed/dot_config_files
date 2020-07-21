@@ -61,11 +61,11 @@ module-margin-right = 2
 font-0 = SourceCodePro:style=Bold:pixelsize=11;
 font-1 = HackNerdFont:pixelsize=10;1
 font-2 = NotoColorEmoji:fontformat=truetype:scale=10:antialias=false;
-font-4 = DejaVuSans:style=Bold:pixelsize=10;1
+font-4 = DejaVuSans:style=Bold:pixelsize=10;
 
 modules-left = bspwm
-modules-center = xwindow mpd pulseaudio 
-modules-right = filesystem xbacklight memory cpu battery temperature date wlan
+modules-center = xwindow pulseaudio 
+modules-right = filesystem memory cpu battery temperature date wlan
 
 tray-position = right
 tray-padding = 2
@@ -278,7 +278,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix =MEM: 
+format-prefix =💾 MEM: 
 format-prefix-foreground = ${colors.foreground-clear}
 format-underline = #4bffdc
 label = %percentage_used%%
@@ -437,15 +437,15 @@ animation-charging-4 = 
 animation-charging-foreground = ${colors.foreground-clear}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 =  
-animation-discharging-2 = 
-animation-discharging-3 =  
-animation-discharging-4 =  
+; animation-discharging-0 = 
+animation-discharging-0 = 
+; animation-discharging-2 = 
+; animation-discharging-3 =  
+; animation-discharging-4 =  
 
 
 animation-discharging-foreground = ${colors.foreground-clear}
-animation-discharging-framerate = 750
+animation-discharging-framerate = 0
 
 [module/temperature]
 type = internal/temperature

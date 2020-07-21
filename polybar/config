@@ -28,8 +28,6 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 
-
-
 ;;;--- First Bar For External Monitor---;;; 
 [bar/example]
 monitor = ${env:MONITOR:LVDS-1}
@@ -45,7 +43,7 @@ foreground = ${colors.foreground}
 separator = |
 
 
-line-size = 4
+line-size = 1
 line-color = #f00
 
 border-size = 1
