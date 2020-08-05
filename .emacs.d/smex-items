@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
+ eshell
  org-agenda
- run-lisp
- electric-indent-mode
- count-lines-page
- indent-for-comment
- describe-variable
- describe-char
+ revert-buffer
+ bookmark-save
+ auto-fill-mode
+ list-packages
+ yas-visit-snippet-file
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 7)
+ (eshell . 13)
  (compile . 27)
- (emmet-mode . 13)
+ (emmet-mode . 19)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
  (customize-themes . 4)
@@ -23,24 +23,24 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
- (bookmark-save . 5)
+ (bookmark-save . 9)
  (irony-install-server . 13)
  (recompile . 1)
  (count-words . 3)
- (revert-buffer . 1)
+ (revert-buffer . 12)
  (dmenu . 6)
  (reindent-then-newline-and-indent . 1)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 1)
- (list-packages . 3)
- (electric-indent-mode . 10)
+ (list-packages . 7)
+ (electric-indent-mode . 11)
  (benchmark . 1)
- (org-agenda . 89)
+ (org-agenda . 156)
  (yas-load-snippet-buffer . 1)
  (yas-tryout-snippet . 1)
- (yas-visit-snippet-file . 3)
+ (yas-visit-snippet-file . 4)
  (count-lines-region . 1)
  (count-words-region . 1)
  (goto-line . 1)
@@ -57,12 +57,19 @@
  (table-split-cell . 4)
  (table-split-cell-vertically . 3)
  (table-split-cell-horizontally . 5)
- (org-agenda-write . 45)
- (describe-variable . 29)
+ (org-agenda-write . 47)
+ (describe-variable . 30)
  (org-agenda-columns . 3)
- (indent-region . 2)
+ (indent-region . 3)
  (describe-char . 1)
  (indent-for-comment . 1)
  (count-lines-page . 1)
  (run-lisp . 1)
+ (describe-function . 2)
+ (rgrep . 3)
+ (auto-fill-mode . 3)
+ (highlight-indent-guides-mode . 3)
+ (customize-variable . 1)
+ (gdscript-mode . 3)
+ (gdscript-format-buffer . 1)
 )

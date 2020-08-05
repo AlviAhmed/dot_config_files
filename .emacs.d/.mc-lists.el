@@ -9,10 +9,12 @@
         c-electric-star
         c-indent-line-or-region
         dabbrev-expand
+        dumb-jump-go
         electric-pair-delete-pair
         emmet-expand-line
         end-of-visual-line
         forward-sentence
+        gdscript-indent-dedent-line-backspace
         handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward
@@ -24,6 +26,7 @@
         org-beginning-of-line
         org-cycle
         org-delete-char
+        org-forward-sentence
         org-self-insert-command
         overwrite-mode
         set-fill-column

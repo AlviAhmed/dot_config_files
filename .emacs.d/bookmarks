@@ -2,13 +2,38 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("tint2rc"
+(("exercise.org"
+ (filename . "~/Dropbox/Sync/")
+ (front-context-string . "* Exercise \n** I")
+ (rear-context-string)
+ (position . 1))
+("backburner.org"
+ (filename . "~/Dropbox/Sync/backburner.org")
+ (front-context-string . "* Backburner\n** ")
+ (rear-context-string)
+ (position . 1))
+("cooking.org"
+ (filename . "~/Dropbox/Sync/cooking.org")
+ (front-context-string . "* Food purchase ")
+ (rear-context-string)
+ (position . 1))
+("inbox.org"
+ (filename . "~/Dropbox/Sync/inbox.org")
+ (front-context-string . "* Unorganized\n**")
+ (rear-context-string . "ava programming\n")
+ (position . 2565))
+("priorities.org"
+ (filename . "~/Dropbox/Sync/priorities.org")
+ (front-context-string . "                ")
+ (rear-context-string . "t book 2nd part ")
+ (position . 397))
+("tint2rc"
  (filename . "~/.config/tint2/tint2rc")
  (front-context-string . "#---- Generated ")
  (rear-context-string)
  (position . 1))
 ("islam_research.org"
- (filename . "~/Documents/islam_research/islam_research.org")
+ (filename . "~/Dropbox/Sync/islam_research.org")
  (front-context-string . "* Slaves, right ")
  (rear-context-string)
  (position . 1))
@@ -98,10 +123,10 @@
  (rear-context-string . "88 May 28 15:07 ")
  (position . 374))
 ("org-capture-last-stored"
- (filename . "~/Dropbox/Sync/sched_org.org")
- (front-context-string . "** TODO find ora")
- (rear-context-string)
- (position . 15))
+ (filename . "~/Dropbox/Sync/inbox.org")
+ (front-context-string . "** TODO Luke, th")
+ (rear-context-string . " old wineskins?\n")
+ (position . 1064))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
@@ -153,10 +178,10 @@
  (rear-context-string . "artus/bin:$PATH\n")
  (position . 1414))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/Sync/inbox.org")
- (front-context-string . "*** TODO tell ab")
- (rear-context-string . " printer cables\n")
- (position . 532))
+ (filename . "~/Dropbox/Sync/priorities.org")
+ (front-context-string . "** TODO research")
+ (rear-context-string . "18:00>\n** TODO \n")
+ (position . 879))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")
@@ -223,10 +248,10 @@
  (rear-context-string)
  (position . 1))
 ("fonts"
- (filename . "~/.local/share/fonts/")
- (front-context-string . "fonts.dir\n  -rw-")
- (rear-context-string . "70 Apr 24 14:20 ")
- (position . 209))
+ (filename . "/usr/share/fonts/")
+ (front-context-string . "cmap\n  drwxr-xr-")
+ (rear-context-string . "96 Dec 13  2019 ")
+ (position . 212))
 ("polybar"
  (filename . "~/.config/polybar/config")
  (front-context-string . "padding-right = ")

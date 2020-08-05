@@ -62,6 +62,8 @@
 (global-set-key (kbd "M-j") 'windmove-down)
 (global-set-key (kbd "M-k") 'windmove-up)
 
+(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
+
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'undo)
 
@@ -116,6 +118,9 @@
         (setq-default python-indent 4)))
 
 (setq org-refile-active-region-within-subtree t)
+(setq org-refile-use-outline-path t)
+
+(global-set-key (kbd "C-x C-z") 'nil)
 
 (setq electric-pair-pairs '(
 			    (?\( . ?\))
@@ -329,7 +334,6 @@
 
 (add-hook 'c-mode-hook 'electric-indent-mode)
 (add-hook 'c++-mode-hook 'electric-indent-mode)
-(add-hook 'python-mode-hook 'electric-indent-mode)
 (add-hook 'java-mode-hook 'electric-indent-mode)
 (add-hook 'html-mode-hook 'electric-indent-mode)
 (add-hook 'css-mode-hook 'electric-indent-mode)
@@ -406,47 +410,56 @@
 
 (global-set-key (kbd "M-/") 'rgrep)
 
-(global-set-key (kbd "C-c c") 'org-capture)
-
-(setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
+(setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
 
 (setq org-refile-allow-creating-parent-nodes 'confirm)
 
 (setq org-agenda-exporter-settings
-           '((ps-number-of-columns 1)
-             (ps-landscape-mode t)
-             (org-agenda-add-entry-text-maxlines 5)
-             )) 
-(setq org-agenda-prefix-format "[ ] %t ")
-(setq ps-left-margin   	(/ (* 72  0.5) 2.54)) ;   the position of numbers next 72 is the cm
-(setq ps-right-margin   	(/ (* 72  10) 2.54)) ;   
-(setq ps-inter-column   	(/ (* 72  0.5) 2.54)) ;   
-(setq ps-top-margin  	(/ (* 72  0.5) 2.54)) ;   
-(setq ps-bottom-margin   (/ (* 72  1) 2.54)) ;   
- (setq org-agenda-entry-text-exclude-regexps 
-   '("<[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^>]*>"))
- (setq ps-font-size   '(10 . 11.5))
- (setq ps-header-font-size '(12 . 13))
-(setq org-agenda-skip-additional-timestamps-same-entry nil)
-(setq org-agenda-use-time-grid nil)
-(setq org-agenda-with-colors t)
-(setq org-agenda-remove-tags nil)
-(setq ps-print-header nil)
-(setq org-agenda-span 3)
-(setq org-agenda-compact-blocks t)
-;; (setq org-agenda-block-seperator "-")
- ;; (defun gg/entry-text-nix-empty-line ()
- ;;   "Delete empty entry text lines in agenda"
- ;;   (goto-char (point-min))
- ;;   (replace-regexp (concat "^ *" org-agenda-entry-text-leaders " *\n") ""))
+                   '((ps-number-of-columns 2)
+                     (ps-landscape-mode t)
+                     (org-agenda-add-entry-text-maxlines 7)
+        ;; (setq org-agenda-prefix-format "[ ] %t ")
+        ;; (setq ps-left-margin   	(/ (* 72  0.5) 2.54)) ;   the position of numbers next 72 is the cm
+        ;; (setq ps-right-margin   	(/ (* 72  0.2) 2.54)) ;   
+        ;; (setq ps-inter-column   	(/ (* 72  0.5) 2.54)) ;   
+        ;; (setq ps-top-margin  	(/ (* 72  0.5) 2.54)) ;   
+        ;; (setq ps-bottom-margin   (/ (* 72  1) 2.54)) ;   
+        ;;  ;; (setq ps-font-size   '(10 . 11.5))
+        ;;  ;; (setq ps-header-font-size '(12 . 13))
+        ;; (setq org-agenda-use-time-grid nil)
+        ;; (setq org-agenda-with-colors t)
+        ;; (setq org-agenda-remove-tags nil)
+        ;; (setq ps-print-header nil)
+        ;; ;; (setq org-agenda-start-on-weekday nil)
+        ;; ;; (setq org-agenda-span 1)
 
- ;; (add-hook 'org-agenda-finalize-hook 'gg/entry-text-nix-empty-line)
+                     ))  
+    (setq org-agenda-skip-additional-timestamps-same-entry nil)
+     (setq org-agenda-entry-text-exclude-regexps 
+       '("<[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}[^>]*>"))
+    (setq org-agenda-compact-blocks t)
+    (setq org-agenda-block-seperator "-")
+     (defun gg/entry-text-nix-empty-line ()
+       "Delete empty entry text lines in agenda"
+       (goto-char (point-min))
+       (replace-regexp (concat "^ *" org-agenda-entry-text-leaders " *\n") ""))
+     (add-hook 'org-agenda-finalize-hook 'gg/entry-text-nix-empty-line)
+(setq org-use-fast-todo-selection t)
 
 (setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/sched_org.org" "Inbox Tasks")
+      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/inbox.org" "Unorganized")
          "* TODO %?\n  %i\n  %a")
         )  
 	)
+
+(global-set-key (kbd "C-c c") 'org-capture)
+
+(setq org-agenda-files '(
+"~/Dropbox/Sync/daily_todo.org" 
+"~/Dropbox/Sync/exercise.org" 
+"~/Dropbox/Sync/priorities.org"  
+
+))
 
 (setq c-default-style "linux"
       c-basic-offset 4)
@@ -488,7 +501,7 @@
 (add-hook 'prog-mode-hook 'compile-key)
 
 (setq org-todo-keywords
-      '((sequence "TODO" "NEXT" "INPROG" "CANCELLED" "DONE" )))
+      '((sequence "TODO(t)" "NEXT(n)" "INPROG(p)" "|" "CANCELLED(c!)" "DONE(d!)" )))
 
 (global-hl-line-mode t)
 

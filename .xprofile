@@ -1,3 +1,4 @@
-sxhkd & 
+sxhkd &
+export _JAVA_AWT_WM_NONREPARENTING=1
 feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
 wal --vte -R &
