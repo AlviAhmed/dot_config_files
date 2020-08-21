@@ -2,7 +2,31 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("exercise.org"
+(("hosts"
+ (filename .
+           #("/su:root@al:/etc/hosts" 4 8
+             (tramp-default t)
+             9 11
+             (tramp-default t)))
+ (front-context-string . "127.0.0.1	localh")
+ (rear-context-string)
+ (position . 1))
+("note_self.org"
+ (filename . "~/Dropbox/Sync/note_self.org")
+ (front-context-string . "* Thoughts and e")
+ (rear-context-string)
+ (position . 1))
+("laser_effect_demo"
+ (filename . "~/Documents/godot_projects/laser_effect_demo/")
+ (front-context-string . "CollisionPolygon")
+ (rear-context-string . "60 Aug  8 00:45 ")
+ (position . 228))
+("godot_projects"
+ (filename . "~/Documents/godot_projects/")
+ (front-context-string . "godot-and-androi")
+ (rear-context-string . "96 Aug  3 09:48 ")
+ (position . 366))
+("exercise.org"
  (filename . "~/Dropbox/Sync/")
  (front-context-string . "* Exercise \n** I")
  (rear-context-string)
@@ -124,9 +148,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/inbox.org")
- (front-context-string . "** TODO Luke, th")
- (rear-context-string . " old wineskins?\n")
- (position . 1064))
+ (front-context-string . "** TODO Buy / Re")
+ (rear-context-string . " in mathematics\n")
+ (position . 1733))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")

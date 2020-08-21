@@ -95,6 +95,15 @@
 #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 #+END_SRC
+* Abbrev 
+#+BEGIN_SRC emacs-lisp 
+(setq save-abbrevs 'silently)
+(setq-default abbrev-mode t)
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Small shortcuts and custom bindings
 ** Rebinding and Changing the Undo Key
    #+BEGIN_SRC emacs-lisp
@@ -566,9 +575,13 @@
   #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "M-/") 'rgrep) 
   #+END_SRC
+* Org Agenda on Startup 
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-init-hook 'org-agenda-list)
+#+END_SRC
 * Org refile 
   #+BEGIN_SRC emacs-lisp
-  (setq org-refile-targets '((org-agenda-files :maxlevel . 3)))
+  (setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
   #+END_SRC
 * Org creating new parents
   #+BEGIN_SRC emacs-lisp
@@ -628,6 +641,20 @@
   #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c c") 'org-capture)
   #+END_SRC
+
+* Org Agenda Files 
+#+BEGIN_SRC emacs-lisp 
+	 (setq org-agenda-files '(
+"~/Dropbox/Sync/daily_todo.org" 
+"~/Dropbox/Sync/exercise.org" 
+"~/Dropbox/Sync/priorities.org"  
+
+))
+
+#+END_SRC
+
+#+RESULTS:
+| ~/Dropbox/Sync/daily_todo.org | ~/Dropbox/Sync/exercise.org | ~/Dropbox/Sync/priorities.org |
 
 * Begin emacs tags 
   #+BEGIN_SRC emacs_lisp

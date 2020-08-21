@@ -1,4 +1,5 @@
 sxhkd &
-export _JAVA_AWT_WM_NONREPARENTING=1
-feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
+feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
+tint2 &
+killall xfce4-panel
 wal --vte -R &

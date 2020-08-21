@@ -41,5 +41,6 @@ PATH=$HOME/.local/bin:$PATH
 PATH=$HOME/bin:$PATH #adding own custom scripts to global 
 # PATH=$HOME/bash_scripts/setting_wallpaper.sh:$PATH 
 PATH=$HOME/usr/java/jre1.8.0_251:$PATH
+PATH=$HOME/bin/tem:$PATH
 #PATH=$HOME/altera/14.0/quartus/bin:$PATH
-alias em='emacsclient -nw -create-frame'
+alias em='emacsclient -nw'

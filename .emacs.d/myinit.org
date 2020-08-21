@@ -95,6 +95,15 @@
 #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 #+END_SRC
+* Abbrev 
+#+BEGIN_SRC emacs-lisp 
+(setq save-abbrevs 'silently)
+(setq-default abbrev-mode t)
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Small shortcuts and custom bindings
 ** Rebinding and Changing the Undo Key
    #+BEGIN_SRC emacs-lisp
@@ -372,6 +381,10 @@
 	 (define-key popup-menu-keymap (kbd "M-n") #'popup-next)
 	 (define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
   #+END_SRC
+
+  #+RESULTS:
+  : t
+
 ** Kill ring
    #+BEGIN_SRC emacs-lisp
   (use-package popup-kill-ring 
@@ -566,6 +579,10 @@
   #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "M-/") 'rgrep) 
   #+END_SRC
+* Org Agenda on Startup 
+#+BEGIN_SRC emacs-lisp
+(add-hook 'after-init-hook 'org-agenda-list)
+#+END_SRC
 * Org refile 
   #+BEGIN_SRC emacs-lisp
   (setq org-refile-targets '((org-agenda-files :maxlevel . 10)))

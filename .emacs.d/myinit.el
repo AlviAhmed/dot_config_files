@@ -64,6 +64,9 @@
 
 (setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 
+(setq save-abbrevs 'silently)
+(setq-default abbrev-mode t)
+
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'undo)
 
@@ -409,6 +412,8 @@
   (disable-all-themes))
 
 (global-set-key (kbd "M-/") 'rgrep)
+
+(add-hook 'after-init-hook 'org-agenda-list)
 
 (setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
 
