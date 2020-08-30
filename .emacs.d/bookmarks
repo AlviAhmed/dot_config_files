@@ -148,9 +148,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/inbox.org")
- (front-context-string . "** TODO Buy / Re")
- (rear-context-string . " in mathematics\n")
- (position . 1733))
+ (front-context-string . "** TODO meaning ")
+ (rear-context-string . "ats, deadlifts)\n")
+ (position . 2073))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")
@@ -202,10 +202,10 @@
  (rear-context-string . "artus/bin:$PATH\n")
  (position . 1414))
 ("org-refile-last-stored"
- (filename . "~/Dropbox/Sync/priorities.org")
- (front-context-string . "** TODO research")
- (rear-context-string . "18:00>\n** TODO \n")
- (position . 879))
+ (filename . "~/Dropbox/Sync/exercise.org")
+ (front-context-string . "**** [2020-08-22")
+ (rear-context-string . "ngs at hip lvl)\n")
+ (position . 922))
 ("Git_Projects"
  (filename . "~/Documents/Git_Projects/")
  (front-context-string . "bash_scripts\n  d")

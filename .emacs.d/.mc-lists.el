@@ -3,6 +3,7 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        TeX-insert-backslash
         beginning-of-visual-line
         c-electric-delete-forward
         c-electric-paren
@@ -38,5 +39,7 @@
 
 (setq mc/cmds-to-run-once
       '(
+        eshell-interrupt-process
+        mouse-set-region
         smex
         ))

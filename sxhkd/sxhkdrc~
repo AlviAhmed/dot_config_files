@@ -1,3 +1,10 @@
+# Screen brightness controls
+XF86MonBrightnessUp
+	xbacklight -inc 20 & # increase screen brightness
+XF86MonBrightnessDown  
+	xbacklight -dec 20 & # decrease screen brightness
+
+
 # Pulse Audio controls
 XF86AudioRaiseVolume  
 	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +5%  
@@ -14,15 +21,16 @@ super + z
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
 ##--If keyboard has no media keys	
 
-# Screen brightness controls
-XF86MonBrightnessUp
-	xbacklight -inc 20 & # increase screen brightness
-XF86MonBrightnessDown  
-	xbacklight -dec 20 & # decrease screen brightness
+
+# super + b
+#  	xbacklight -inc 20 &
+# super + shift + b
+#  	xbacklight -dec 20 &
+
 
 
 # Restarting the background
-super + b 
+super + alt + b 
 	feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
 
 

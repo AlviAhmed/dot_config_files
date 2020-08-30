@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- eshell
  revert-buffer
- gdscript-mode
- emmet-mode
- list-abbrevs
- edit-abbrevs
- abbrev-mode
+ mkdir
+ flyspell-mode
+ dmenu
+ flyspell-correct-at-point
+ flyspell-word
+ list-packages
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 15)
+ (eshell . 73)
  (compile . 27)
- (emmet-mode . 24)
+ (emmet-mode . 40)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
  (customize-themes . 4)
@@ -27,14 +27,14 @@
  (irony-install-server . 13)
  (recompile . 1)
  (count-words . 3)
- (revert-buffer . 20)
- (dmenu . 9)
- (reindent-then-newline-and-indent . 1)
+ (revert-buffer . 72)
+ (dmenu . 22)
+ (reindent-then-newline-and-indent . 2)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 1)
- (list-packages . 7)
+ (list-packages . 9)
  (electric-indent-mode . 11)
  (benchmark . 1)
  (org-agenda . 159)
@@ -46,7 +46,7 @@
  (goto-line . 1)
  (org-mode . 3)
  (package-install . 1)
- (imenu . 4)
+ (imenu . 5)
  (css-mode . 1)
  (python-mode . 1)
  (run-python . 6)
@@ -60,15 +60,15 @@
  (org-agenda-write . 47)
  (describe-variable . 30)
  (org-agenda-columns . 3)
- (indent-region . 3)
- (describe-char . 1)
+ (indent-region . 4)
+ (describe-char . 2)
  (indent-for-comment . 1)
  (count-lines-page . 1)
  (run-lisp . 1)
  (describe-function . 2)
  (rgrep . 3)
- (auto-fill-mode . 3)
- (highlight-indent-guides-mode . 3)
+ (auto-fill-mode . 12)
+ (highlight-indent-guides-mode . 6)
  (customize-variable . 1)
  (gdscript-mode . 4)
  (gdscript-format-buffer . 1)
@@ -80,4 +80,26 @@
  (write-abbrev-file . 1)
  (read-abbrev-file . 2)
  (abbrev-edit-save-buffer . 2)
+ (image-dired . 9)
+ (linum-mode . 2)
+ (savehist-mode . 3)
+ (query-replace . 3)
+ (org-time-stamp-inactive . 1)
+ (upcase-region . 1)
+ (overwrite-mode . 2)
+ (xah-open-in-external-app . 3)
+ (clone-indirect-buffer . 2)
+ (vimish-fold . 5)
+ (vimish-fold-unfold-all . 2)
+ (vlf . 2)
+ (profiler-start . 2)
+ (profiler-stop . 1)
+ (profiler-report . 2)
+ (vlf-stop-follow . 1)
+ (scroll-bar-mode . 1)
+ (fill-region . 2)
+ (flyspell-mode . 4)
+ (flyspell-word . 1)
+ (flyspell-correct-at-point . 1)
+ (mkdir . 1)
 )

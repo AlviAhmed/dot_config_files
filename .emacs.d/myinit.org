@@ -6,7 +6,7 @@
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode -1)
+(menu-bar-mode 1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -14,10 +14,21 @@
 (column-number-mode 1) 
   #+END_SRC
 
+  #+RESULTS:
+  : t
+
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
+* Revert Buffer to F5 
+#+BEGIN_SRC emacs-lisp 
+ (global-set-key (kbd "<f5>") 'revert-buffer)
+#+END_SRC
+
+#+RESULTS:
+: revert-buffer
+
 * Changing Emacs Defaults
 ** Highlighting Parentheses
    #+BEGIN_SRC emacs-lisp
@@ -95,6 +106,15 @@
 #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 #+END_SRC
+* Preventing Lag When Scrolling 
+#+BEGIN_SRC emacs-lisp 
+(setq jit-lock-defer-time 0)
+(setq fast-but-imprecise-scrolling t)
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Abbrev 
 #+BEGIN_SRC emacs-lisp 
 (setq save-abbrevs 'silently)
@@ -581,8 +601,10 @@
   #+END_SRC
 * Org Agenda on Startup 
 #+BEGIN_SRC emacs-lisp
-(add-hook 'after-init-hook 'org-agenda-list)
 #+END_SRC
+
+#+RESULTS:
+
 * Org refile 
   #+BEGIN_SRC emacs-lisp
   (setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
@@ -651,8 +673,8 @@
 	 (setq org-agenda-files '(
 "~/Dropbox/Sync/daily_todo.org" 
 "~/Dropbox/Sync/exercise.org" 
-"~/Dropbox/Sync/priorities.org"  
-
+"~/Dropbox/Sync/priorities.org"   
+"~/Dropbox/Sync/islam_research.org"   
 ))
 
 #+END_SRC

@@ -1,128 +1,124 @@
-clear
-ls
-git clone https://github.com/AlviAhmed/work_table_light.git
-git clone 
-git clone https://github.com/AlviAhmed/rgb_sign.git
-git clone https://github.com/AlviAhmed/RC_tiny85.git
-make 
-make 
-make flash
-make flash
-make flash
-make flash
-make flash
-sudo cp -urv *.ttf /usr/share/fonts/truetype/.
-cd ..
-ls
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-npm start
-ln -s mouse_sensitivity.sh mouse_sen
-ls
-mv mouse_sen ~/bin/.
-ln -s ~/bash_scripts/mouse_sensitivity.sh mouse_sensitivity && mv ~/bin/.
-ln -s ~/bash_scripts/mouse_sensitivity.sh mouse_sensitivity && mv mouse_sensitivity ~/bin/.
-git clone https://github.com/AlviAhmed/website.git
-cd website
-ls
+git status
+git status
 git add -A
-git commit -m "first commit"
-git push origin master
-git checkout -b added_more_content
-git add index.org 
-ls
-git add src_files/index.org
-ls
-cd src_files/
-ls
-git add index.html
-git commit -m "included more content"
-git push origin added_more_content
-git branch checkout master
-ls
-ls
+git commit -m "added the instancing file"
+git push origin Alvi_instancing
 git status
-rm index.html~
-ls
+git add -A
+git commit -m "failed attempt at circle"
+git push origin experience_timeline
 git status
-git checkout -b master
-git checkout master
+git add -A
+git commit -m "actually working now"
+git push origin experience_timeline
 git status
-ls
-cd ..
 git branch -a
-git merge added_more_content
+git checkout website_css
+git checkout experience_timeline
 git add -A
-git commit -m "files merged with added content"
-git push origin master
-cp -urv {InputMono, InputSans, InputSerif} /usr/share/fonts/truetype/.
-git status
-git checkout master
+git commit -m "added some padding"
+git push origin experience_timeline
 git branch -a
-git status
-git status
-bash documents_backup.sh 
-ln -s dotfile_backup.sh  ~/bin/dfb
-ln -s documents_backup.sh ~/bin/db
-ln -s ~/bash_scripts/documents_backup.sh ~/bin/db
-ln -s ~/bash_scripts/dotfile_backup.sh  ~/bin/dfb
-ls
-unzip WD4.6\ Stub\ HTML\ Code.zip 
-youtube-dl -a ../godot_android.txt 
-git status
+git checkout skills_lvl
+git checkout skills_table
+git checkout skills_lvl
+git checkout navbar
+git checkout adding_navbar
+ping google.com
 clear
-man ln
-ln -s MON_SEL.sh ~/bin/mon
-./godot_laser_game_backup.sh 
-bash godot_laser_game_backup.sh 
-bash godot_laser_game_backup.sh 
-ls -s godot_laser_game_backup.sh ~/bin/glgb
-ls -s godot_laser_game_backup.sh ~/.bin/glgb
-ls -s godot_laser_game_backup.sh ~/.bin/glgb.sh
-ln -s godot_laser_game_backup.sh ~/bin/glgb
-openbox --replace & exit
+git status
+git branch -a
+git checkout -b subtotal_website
+git merge experience_timeline
+git status
+git merge --abort
+git push stash
+git stash
+git add -A
+git stash
+git trash
+git status
+git add -A
+git commit -m "working navbar"
+git push origin subtotal_website
+git branch -a
+git merge skills_lvl
+git status
+git add -A
+git commit -m "skill lvl merged"
+git push origin subtotal_website
+git branch -a
+git merge experience_timeline
+git status
+git add -A
+git commit -m "added some link functionality, made improvements to layout"
+git push origin subtotal_website
+git add -A
+git commit -m "added basics of bootstrap cards"
+git push origin subtotal_website
 git status
 git status
 git add -A
-git commit -m "reflections, postions and lasers working well for now"
-git push origin Alvi
-git status
-git add -A
-git commit -m "bootstrap cards, css z index and stacking order, media query and sizing, bootstrap challenge "
-git push origin bootstrap-intermediate
-git push origin bootstrap_intermediate
-git push origin bootstrap_intermediate
-git add -A
-git commit -m "bootstrap challenge fixes and adding id links" 
-git push origin bootstrap_intermediate
-youtube-dl -a links.txt 
+git commit -m "bootstrap cards for projects now formatted good enough"
+git push origin subtotal_website
+youtube-dl -a links_powermetal.txt 
 clear
 ls
-la
-la
-ls -a
+mkdir power_metal_music
+mv links_powermetal.txt  power_metal_music
+cd power_metal_music
+ls
+youtube-dl -f 140 -a links_powermetal.txt
+git status
+git add -A
+git commit -m "added some pictures for bootstrap cards"
+git push origin subtotal_website
+git status
+git add -A
+git commit -m "card deck, unresponsive"
+git push origin subtotal_website
+git log
+git checkout a32dec6126108e20b5bb2cce4e199f5551551ee5
+git status
+git status
+git revert a32dec6126108e20b5bb2cce4e199f5551551ee5
+git add -A
+git stash
+git revert a32dec6126108e20b5bb2cce4e199f5551551ee5
+git revert a32dec6126108e20b5bb2cce4e199f5551551ee5 -m "reverted"
+git revert -m "revert" a32dec6126108e20b5bb2cce4e199f5551551ee5 
+git add -A
+git commit -m "????"
+git status
+git push origin subtotal_website
+clear
+git status
+git checkout -
+git add -A
+git stash
+git stash list
+git status
+git checkout -
+git stash apply stash@{0}
+git status
+git add -A
+git commit -m "card deck, unequal length but gaps and responsive"
+git push origin subtotal_website
+git status 
+git add -A
+git commit -m "deleting extra sentence"
+git push origin subtotal_website
+git status
+git add -A
+git commit -m "fixed bootstrap cards for the most part"
+git push origin subtotal_website
+git status
+git add -A
+git commit -m "finished almost all of main project page"
+git push origin subtotal_website
+git add -A
+git commit -m "linked pages to buttons"
+git push origin subtotal_website
+wget -m -k https://hackaday.io/project/164026-desiging-an-audio-amplifier
+wget -m -k -l2 https://hackaday.io/project/164026-desiging-an-audio-amplifier
+wget -m -k -np -l2 https://hackaday.io/project/164026-desiging-an-audio-amplifier

@@ -1,5 +1,4 @@
 sxhkd &
 feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
 tint2 &
-killall xfce4-panel
 wal --vte -R &

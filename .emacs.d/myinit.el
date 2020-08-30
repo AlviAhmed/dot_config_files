@@ -4,7 +4,7 @@
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode -1)
+(menu-bar-mode 1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -63,6 +63,9 @@
 (global-set-key (kbd "M-k") 'windmove-up)
 
 (setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
+
+(setq jit-lock-defer-time 0)
+(setq fast-but-imprecise-scrolling t)
 
 (setq save-abbrevs 'silently)
 (setq-default abbrev-mode t)
@@ -413,7 +416,7 @@
 
 (global-set-key (kbd "M-/") 'rgrep)
 
-(add-hook 'after-init-hook 'org-agenda-list)
+
 
 (setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
 
@@ -462,8 +465,8 @@
 (setq org-agenda-files '(
 "~/Dropbox/Sync/daily_todo.org" 
 "~/Dropbox/Sync/exercise.org" 
-"~/Dropbox/Sync/priorities.org"  
-
+"~/Dropbox/Sync/priorities.org"   
+"~/Dropbox/Sync/islam_research.org"   
 ))
 
 (setq c-default-style "linux"
