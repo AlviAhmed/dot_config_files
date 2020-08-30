@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- revert-buffer
- mkdir
- flyspell-mode
+ compile
+ cancel-function-timers
  dmenu
- flyspell-correct-at-point
- flyspell-word
+ revert-buffer
  list-packages
+ doc-view-toggle-display
+ mkdir
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
  (eshell . 73)
- (compile . 27)
+ (compile . 28)
  (emmet-mode . 40)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
@@ -27,14 +27,14 @@
  (irony-install-server . 13)
  (recompile . 1)
  (count-words . 3)
- (revert-buffer . 72)
- (dmenu . 22)
+ (revert-buffer . 81)
+ (dmenu . 28)
  (reindent-then-newline-and-indent . 2)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 1)
- (list-packages . 9)
+ (list-packages . 10)
  (electric-indent-mode . 11)
  (benchmark . 1)
  (org-agenda . 159)
@@ -102,4 +102,6 @@
  (flyspell-word . 1)
  (flyspell-correct-at-point . 1)
  (mkdir . 1)
+ (doc-view-toggle-display . 1)
+ (cancel-function-timers . 2)
 )

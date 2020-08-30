@@ -13,6 +13,8 @@
 
 (add-hook 'focus-out-hook #'garbage-collect)
 
+(global-set-key (kbd "<f5>") 'revert-buffer)
+
 (show-paren-mode 1)
 
 (defun dired-dotfiles-toggle ()
