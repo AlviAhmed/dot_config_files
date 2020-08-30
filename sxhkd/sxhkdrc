@@ -209,10 +209,11 @@ super + {comma,period}
 
 # Transfering Nodes between Monitors
 super + shift + comma
-	bspc node -m VGA-1
+	bspc node -m VGA-1 && bspc monitor -f VGA-1
+
 
 super + shift + period
-	bspc node -m LVDS-1
+	bspc node -m LVDS-1 && bspc monitor -f LVDS-1
 
 
 # Transfering Desktops between Monitors
