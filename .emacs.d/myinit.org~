@@ -17,10 +17,39 @@
   #+RESULTS:
   : t
 
+* OpenWith config 
+#+BEGIN_SRC emacs-lisp
+(require 'openwith)
+(openwith-mode t)
+(setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
+#+END_SRC
+
+#+RESULTS:
+| \.pdf\' | okular | (file) |
+
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
+* Revert Buffer to F5 
+#+BEGIN_SRC emacs-lisp 
+ (global-set-key (kbd "<f5>") 'revert-buffer)
+#+END_SRC
+
+#+RESULTS:
+: revert-buffer
+
+* Emacs html export variables 
+#+BEGIN_SRC emacs-lisp 
+
+(setq org-html-html5-fancy t) 
+
+
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Changing Emacs Defaults
 ** Highlighting Parentheses
    #+BEGIN_SRC emacs-lisp

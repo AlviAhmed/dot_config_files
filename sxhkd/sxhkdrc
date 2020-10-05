@@ -167,11 +167,12 @@ super + {_,shift + }{Left,Down,Up,Right}
 alt + Tab
 	bspc node -f last
 
+alt + shift + Tab  
+	bspc node -f next
+
 super + Tab  
 	bspc node -f next.local
 
-super + shift + Tab  
-	bspc node -f next
 
 
 # focus the next/previous desktop in the current monitor
@@ -179,9 +180,9 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 
-# # focus the last node/desktop
-# super + {grave,Tab}
-# 	bspc {node,desktop} -f last
+# # focus the last node/desktopn
+super + grave
+	bspc desktop -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
@@ -197,7 +198,8 @@ super + {1-9,0}
 	
 super + shift + {1-9,0}
     D={1-9,0}; \
-    bspc node -d "$(bspc query -D -m | sed -n "$D p")" 
+    bspc node -d "$(bspc query -D -m | sed -n "$D p")"
+
 
 super + ctrl + alt + {1-9,0}    
     D={1-9,0}; \

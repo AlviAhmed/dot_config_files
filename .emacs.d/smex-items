@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- compile
- cancel-function-timers
- dmenu
- revert-buffer
+ multi-occur
+ ivy-wgrep-change-to-wgrep-mode
  list-packages
- doc-view-toggle-display
- mkdir
+ multi-isearch-files
+ occur
+ ivy-mode
+ emmet-mode
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 73)
- (compile . 28)
- (emmet-mode . 40)
+ (eshell . 112)
+ (compile . 37)
+ (emmet-mode . 48)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
  (customize-themes . 4)
@@ -23,21 +23,21 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 1)
- (bookmark-save . 11)
+ (bookmark-save . 12)
  (irony-install-server . 13)
  (recompile . 1)
  (count-words . 3)
- (revert-buffer . 81)
- (dmenu . 28)
+ (revert-buffer . 95)
+ (dmenu . 30)
  (reindent-then-newline-and-indent . 2)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 1)
- (list-packages . 10)
+ (list-packages . 11)
  (electric-indent-mode . 11)
  (benchmark . 1)
- (org-agenda . 159)
+ (org-agenda . 160)
  (yas-load-snippet-buffer . 1)
  (yas-tryout-snippet . 1)
  (yas-visit-snippet-file . 4)
@@ -66,8 +66,8 @@
  (count-lines-page . 1)
  (run-lisp . 1)
  (describe-function . 2)
- (rgrep . 3)
- (auto-fill-mode . 12)
+ (rgrep . 5)
+ (auto-fill-mode . 13)
  (highlight-indent-guides-mode . 6)
  (customize-variable . 1)
  (gdscript-mode . 4)
@@ -80,10 +80,10 @@
  (write-abbrev-file . 1)
  (read-abbrev-file . 2)
  (abbrev-edit-save-buffer . 2)
- (image-dired . 9)
+ (image-dired . 10)
  (linum-mode . 2)
- (savehist-mode . 3)
- (query-replace . 3)
+ (savehist-mode . 4)
+ (query-replace . 5)
  (org-time-stamp-inactive . 1)
  (upcase-region . 1)
  (overwrite-mode . 2)
@@ -98,10 +98,25 @@
  (vlf-stop-follow . 1)
  (scroll-bar-mode . 1)
  (fill-region . 2)
- (flyspell-mode . 4)
+ (flyspell-mode . 6)
  (flyspell-word . 1)
  (flyspell-correct-at-point . 1)
  (mkdir . 1)
  (doc-view-toggle-display . 1)
  (cancel-function-timers . 2)
+ (calc . 3)
+ (org-insert-link . 2)
+ (speedbar . 3)
+ (comment-region . 2)
+ (org-tags-view . 6)
+ (refill-mode . 3)
+ (org-refile . 2)
+ (ibuffer . 2)
+ (ispell . 8)
+ (company-files . 1)
+ (occur . 2)
+ (ivy-mode . 2)
+ (multi-isearch-files . 1)
+ (multi-occur . 2)
+ (ivy-wgrep-change-to-wgrep-mode . 2)
 )

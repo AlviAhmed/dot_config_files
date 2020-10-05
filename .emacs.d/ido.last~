@@ -2,6 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/" . "images/")
+ ("/home/al/Documents/c_practice/bresenham_algorithm/" . "5axis/")
+ ("/home/al/Documents/c_practice/" . "bresenham_algorithm/")
+ ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/" . "al/")
+ ("/media/al/Backup Plus/" . "linux_experimental_backup_with_terminal/")
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" . "01 Pointer Basics/")
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/" . "[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/")
+ ("/home/al/FrostWire/Torrent Data/" . "C-C++-Courses/")
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/" . "avr-cnc-page/")
  ("/home/al/Documents/Git_Projects/website_actual/images/" . "program_icons/")
  ("/home/al/FrostWire/" . "Torrent Data/")
  ("/home/al/Documents/python_davor/Average Filter/Av_filt/" . "Av_filt/")
@@ -10,7 +19,7 @@
  ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/" . "css/")
  ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/" . "TinDog Start Here/")
  ("/home/al/Documents/Git_Projects/website/" . "Bootstrap-installation/")
- ("/home/al/Documents/Git_Projects/" . "website/")
+ ("/home/al/Documents/Git_Projects/" . "laser_game/")
  ("/home/al/Documents/Git_Projects/website_actual/" . "css/")
  ("/home/al/Documents/godot_projects/rpg_godot_project/godot_rpg/" . "Godot Rpg/")
  ("/home/al/Documents/godot_projects/rpg_godot_project/" . "godot_rpg/")
@@ -24,33 +33,62 @@
  ("/home/al/Dropbox/" . "Sync/")
  ("/usr/share/" . "fonts/")
  ("/usr/" . "share/")
- ("/home/al/Documents/" . "python_davor/")
+ ("/home/al/Documents/" . "c_practice/")
  ("/home/al/.emacs.d/elpa/" . "ac-js2-20190101.933/")
  ("/home/al/.emacs.d/" . "elpa/")
  ("/home/al/.cache/" . "wal/")
  ("/home/al/Pictures/" . "wallpapers/")
  ("/media/al/" . "Backup Plus/")
- ("/media/" . "veracrypt1/")
- ("/" . "usr/")
- ("/home/al/" . "FrostWire/")
+ ("/media/" . "al/")
+ ("/" . "media/")
+ ("/home/al/" . "Documents/")
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" . "tut10/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/al/Documents/Git_Projects/website_actual/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/"
+ "/home/al/Documents/Git_Projects/Bank_Manager/"
+ "/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/css/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/"
+ "/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/5axis_ISR/"
+ "/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/trial/5axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/5axis/"
+ "/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/3axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/3axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/2axis/"
+ "/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ringbuffer_sim_march20/"
+ "/home/al/Dropbox/Sync/other_notes/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/waveform_generator/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/cortexm3_media_center/"
+ "/home/al/Documents/Git_Projects/website/Javascript/"
+ "/home/al/Documents/Git_Projects/website_actual/proj_pages/"
+ "/home/al/"
+ "/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/"
+ "/home/al/Documents/html_practice/"
+ "/home/al/Documents/godot_projects/laser_game/laser_effect_demo/"
+ "/home/al/Documents/godot_projects/laser_effect_demo/"
+ "/home/al/Dropbox/Sync/"
+ "/home/al/Documents/Git_Projects/laser_game/"
+ "/home/al/Documents/c_practice/socket_programming/udemy_tut/TCPclient/"
+ "/home/al/bash_scripts/"
+ "/home/al/Documents/resumes/new_current/Al/improved_freecodecamp/"
+ "/home/al/Documents/resumes/new_current/Al/improved_resume_aug_30_2020/"
+ "/home/al/Documents/resumes/new_current/Al/"
+ "/home/al/Documents/Git_Projects/website_actual/proj_pages/avr-cnc-page/"
+ "/home/al/Documents/Git_Projects/website_actual/hackaday_github_proj_info/"
  "/home/al/Documents/Git_Projects/website_actual/css/"
+ "/home/al/Documents/Git_Projects/website_actual/"
  "/home/al/Documents/Git_Projects/website_actual/images/program_icons/"
  "/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/css/"
  "/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/"
  "/home/al/Videos/"
- "/home/al/"
- "/home/al/Documents/godot_projects/laser_effect_demo/"
- "/home/al/Documents/Git_Projects/laser_game/"
  "/home/al/.ssh/"
  "/home/al/Documents/python_davor/Average Filter/Av_filt/Av_filt/"
- "/home/al/Dropbox/Sync/"
- "/home/al/Documents/resumes/new_current/Al/"
  "/home/al/Documents/old_website_pulled/"
  "/home/al/Videos/cp_debates/faouriz_terrorism/"
  "/home/al/Documents/godot_projects/rpg_godot_project/godot_rpg/Godot Rpg/"
@@ -58,77 +96,150 @@
  "/home/al/Documents/godot_projects/first_godot_project/"
  "/home/al/Documents/Git_Projects/website/Bootstrap-installation/"
  "/home/al/Documents/Git_Projects/website/"
- "/home/al/bash_scripts/"
  "/home/al/bin/"
- "/home/al/.emacs.d/elpa/yasnippet-snippets-20200606.1149/snippets/latex-mode/"
- "/home/al/Documents/resumes/"
- "/ssh:root@alviahmed.com:/var/www/alweb/"
- "/ssh:root@alviahmed.com:/var/www/alweb/css/"
- "/home/al/Documents/Git_Projects/website/CSS-My-Site/"
- "/home/al/Documents/Git_Projects/website/CSS-My-Site/css/"
- "/home/al/Dropbox/Sync/exercise/"
- "/home/al/Videos/downloaded_vids/"
- "/home/al/Documents/python_practice/"
- "/home/al/.emacs.d/"
- "/home/al/Documents/c_practice/socket_programming/"
- "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/css/"
- "/home/al/Videos/[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/4. Introduction to CSS/bacon_fan_site/WD3.5 Bacon Fansite Start Here/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut33/"
- "/home/al/.emacs.d/elpa/yasnippet-classic-snippets-1.0.2/snippets/cc-mode/"
- "/home/al/Documents/Git_Projects/website/css/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut31/"
- "/media/veracrypt1/"
- "/home/al/Documents/Git_Projects/"
- "/home/al/Documents/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut29/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut27/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut26/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut25/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut24/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut24/main24/"
- "/home/al/Documents/c_practice/cprogramming_in_linux/tut23/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "contact.html"
  "proj_main.html"
- "index.html"
- "styles.css"
- "code.png"
- "own.txt"
+ "contact.css"
+ "output.txt"
+ "5axis_main.c"
+ "proj_page_shared.css"
+ "path_front.gd"
+ "combiner_b_front.gd"
  "mirror-beam.gd"
- "door_collision.gd"
- "beam-starter.gd"
- "mirror-front.gd"
- "id_rsa.pub"
+ "splitter_front.gd"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/Documents/Git_Projects/website_actual/" (24393 27042 166602 592000) ".git/" "./" "css/" "proj_main.html~" "index.html" "proj_main.html" "projects.html" "audio-amp-projpg.org" "audio-amp-projpg.html" "../" "contact.html" "images/")
+ ("/home/al/Documents/Git_Projects/Bank_Manager/" (24440 11461 256481 309000) ".git/" "./" "Lab5_project/" "README.org" "../" "README.org~" "images/")
 
- ("/home/al/Documents/Git_Projects/website_actual/css/" (24393 23827 411836 148000) ".projectile" "./" "own.txt" "#styles.css#" "styles.css" ".#styles.css" "styles.css~" "../")
+ ("/ssh:root@alviahmed.com:/var/www/alweb/" (ftp . 444920.6526772054) "images/" "personal_website_notes.org~" "proj_main.html" "../" "proj_pages/" "index.html" "index.html~" ".git/" "proj_main.html~" "personal_website_notes.org" "contact.html" "contact.html~" "./" "css/")
 
- ("/home/al/" (24393 20065 78554 225000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "Docum" "firebase.json" "extra.pdf" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "bootstrap-4.5.0-examples.zip" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "mpv-shot0003.jpg" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "icecat-60.7.0-gnu1.tar.bz2" ".xprofile" "website_improvments.org" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" "manga_trial/" ".gconf/" "AndroidStudioProjects/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "bootstrap-4.5.0-dist.zip" ".emacs.d/" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" "bills/" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "kissanime/" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
+ ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/" (ftp . 444920.65252038656) "org_proj_template.html" "java_bank/" "waveform_generator/" "sys_c_alu/" "../" "cortexm3_media_center/" "sys_c_jpg_enc/" "proj_page_shared.css~" "org_proj_template.org" "sys_c_de1_soc/" "sys_c_multa/" "org_proj_template.html~" "laser_game/" "initial.org" "avr_cnc_page/" ".projectile" "./" "org_proj_template.org~" "proj_page_shared.css" "edp_5axis/" "design_amp/")
 
- ("/home/al/Documents/Git_Projects/website_actual/images/program_icons/" (24392 60756 398751 118000) "./" "cplus.png" "python.webp" "java.png" "cplus.svg" "code.png" "bash.jpg" "../" "code.svg" "c.png")
+ ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/java_bank/" (ftp . 444920.65214369906) "images/" "java_bank.html" "../" "java_bank.html~" "./")
+
+ ("/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/" (24411 44405 252221 875000) "ManagerController.java~" "MainController.java~" "Platinum.java" "Manager.java~" "./" "BankAppGui.java~" "State.java~" "State.java" "BankAppGui.java" "Gold.java" "out/" "Customer.java~" "Manager.java" "Customer.java" "Customer.fxml" "Silver.java~" "Gold.java~" "CustomerController.java~" "CustomerController.java" "MainController.java" "ManagerController.java" "Manager.fxml~" "../" "Main.fxml" "Platinum.java~" "Silver.java" "Manager.fxml")
+
+ ("/ssh:root@alviahmed.com:/var/www/alweb/css/" (ftp . 444909.18951641355) "own.txt" "../" "contact.css" "styles.css" "contact.css~" "styles_projindiv.css" ".projectile" "styles.css~" "#styles.css#" "./")
+
+ ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/images/" (ftp . 444909.1453365415) "../" "5axis_result.png" "2axis_result.png" "3axis_result.png" "2dbresen.png" "3dbresen.png" "./")
+
+ ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/" (ftp . 444908.29976517026) "images/" "../" "edp_5axis.html" "edp_5axis.html~" "./")
+
+ ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/5axis_ISR/" (24439 34065 35230 876000) "./" "5axis_result.png" "main.c" "main" "output.txt" "../" "main.c~")
+
+ ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/" (24439 33817 602263 14000) ".git/" "./" "5axis_ISR/" "2axis/" "README.org" "3axis/" "../" "README.org~")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/" (24439 32487 819484 467000) "./" "nbproject/" ".dep.inc" "main.c" "main" "build/" "Makefile" "dist/" "TAGS" "../" "main.c~")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/trial/5axis/" (24439 24895 52487 88000) "./" "output2.txt" "5axis_main" "output2.txt~" "output.txt" "5axis_main.c~" "5axis_main.c" "output.txt~" "../")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/5axis/" (24439 24314 864836 440000) "./" "output2.txt" "5axis_main" "output2.txt~" "output.txt" "5axis_main.c~" "5axis_main.c" "output.txt~" "../")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/" (24224 43373 214103 120000) "./" "bresenham_isr/" "brensenham_debug2/" "2axis/" "5axis/" "bresenham_debug/" "3axis/" "../" "bresenham_work.zip" "trial/")
+
+ ("/home/al/Documents/c_practice/" (24332 2519 784870 886000) "argc_argv/" ".projectile" "coe838_bus.c" "NEW" "./" "bresenham_algorithm/" "pointer_prac/" "substitutemax/" "lec8_structure/" "linked_list_stack/" "cprogramming_in_linux/" "gdb_debugging/" "array/" "coe838_bus" "linked_list_pract/" "fork_practice/" "kinematic_trial/" "a.out" "dynamic_memory/" "jason_kinematics_motion/" "stack/" "new_prac/" "copy.c" "socket_programming/" "coe838_bus.c~" "../" "queue/")
+
+ ("/home/al/Documents/" (24434 316 908045 936000) "ELE 504/" "Projects/" "godot_projects/" "PP01- EDP Report-1.docx" "islam_research/" "COE328/" "angular_practice/" "GDQuest_Godot_Demos/" "COE718/" "ELE724/" "other_tobeorg/" "#shawn_courses_table1_table2.org#" "COE838/" "json_practice/" "resumes/" "website_icons/" "COE608/" "nodejs_practice/" "Ahmed, Alvi.500696421.Graduation letter.pdf" "SHAWN_HELP/" "CCF_007563.jpg" "shawn_courses_table1_table2.org~" "godot_andriod_example/" "usb_backup/" "An Introduction to Programming in Emacs Lisp by Robert J. Chassell (z-lib.org).pdf" "dired_practice/" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "python_davor/" "c++_practice/" "makita/" "lisp_practice/" "bengla_tafsir/" "ele639_shawn_help.zip" "COE 538 - BME 538/" "ele639_shawn_help/" "books/" "ELE792/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "shawn_courses_table1_table2.txt" "COE528/" "sql_practice/" "softeng-resume-example/" "NEED_to_extract_projects/" "COE428/" "react_practice/" "elisp_lisp_practice/" "ELE734/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "ELE709/" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "shawn_courses_table1_table2.org" "sed_practice/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "asus_tuf_reciept/" "COE628/" "java_practice/" "../" "./")
+
+ ("/home/al/Documents/Git_Projects/" (24439 13849 892022 29000) "website_colors/" "Bank_Manager/" "website/" "dot_config_files/" "./" "DE1_SoC/" "Integer_Arithmetic_ALU/" "Digital_PID_Controller/" "NotoColorEmoji.ttf" "Bresenham_Sim_5axis/" "hack_nerd_fonts/" "work_table_light/" "Shift-Register-Sign/" "bash_scripts/" "i3lock/" "source-code-pro/" "CortexM3_Media_Center/" "Intro_Signal_Processing/" "Multiplier_Accelerator/" "Laser_Game/" "NotoEmoji-Regular.ttf" "RC_tiny85/" "rgb_sign/" "JPEG_Encoder_Decoder_Unit/" "Designing-an-Audio-Amplifier/" "../" "Waveform_Generator/" "MediaAuth_ENF/")
+
+ ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/3axis/" (24439 23537 556933 189000) "./" "3axis_main.c~" "3axis_main.c" "output.txt" "output.txt~" "3axis_main" "../" "3axis_result.png")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/3axis/" (24439 23057 343045 971000) "./" "3axis_main.c~" "3axis_main.c" "3axis_main" "../")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/2axis/" (24439 22605 953757 973000) "2axis_main.c" "2axis_main" "./" "comp_main.c~" "output.txt" "comp_main" "../" "comp_main.c" "2axis_main.c~")
+
+ ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ringbuffer_sim_march20/" (24224 43372 262110 661000) "./" "main.c" "main" "TAGS" "../" "main.c~")
+
+ ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/al/" (24405 20944 0 0) "COE718/" "lighttable-0.8.1-linux/" "News/" "th_files/" "android_sumon_backup/" ".git-credentials" "test.txt" "website_improvments.org" "website_improvments.org~" ".newsrc-dribble" "MEGA-RECOVERYKEY.txt" "th.html" "#test.txt#" "ELE734/" "kissanime/" ".audacity-data/" "bootstrap-4.5.0-dist/" ".AndroidStudio4.0/" "rtl8812au/" "rtl88x2bu/" "dailytodo.ps" "dailytodo.pdf" "bootstrap-4.5.0-examples.zip" "bootstrap-4.5.0.zip" "bootstrap-4.5.0-dist.zip" ".imwheelrc" ".imwheelrc~" "ideaIC-2020.1.3.tar.gz" "mpv-shot0003.jpg" "mpv-shot0001.jpg" "extra.pdf" ".offlineimaprc" "mpv-shot0002.jpg" ".offlineimaprc~" ".runescape" "behaviour.png" ".gradle/" "AndroidStudioProjects/" "Android/" ".offlineimap/" ".Mail/" "flash_player/" ".idlerc/" "awk_practice/" "tabbed/" "Jagex/" "hello-react/" "sketchbook/" ".arduino/" "testing_wget/" "node-v12.16.3-linux-x64/" "cmake-3.17.2-Linux-x86_64/" "x2x-dbgsym_1.30-7_amd64.ddeb" "x2x/" "VeraCrypt/" "bills/" "back_init/" "bar/" ".vscode/" "enc/" ".slime/" "src/" "quicklisp/" "dist/" "dwmstatus/" "dwm/" "frostwire-6.8.4.amd64/" "fzf/" "hideshow-org/" "tor-browser_en-US/" "netbeans-11.3/" "openspades/" "new_dired/" "bash_scripts/" "FrostWire/" "siji/" ".viminfo.tmp" "en503_takehome_test.pdf" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "icecat-60.7.0-gnu1.tar.bz2" "code_1.45.1-1589445302_amd64.deb" "openspades-0.1.3.tar.gz" "node-v12.16.3-linux-x64 (1).tar.xz" ".steam/" "i3/" "LTspiceXVII/" "eagle-9.0.0/" "electronics/" "alvi.ahmed@ryerson.ca.ical/" "eagle libraries/" "latex_practice/" "test.el" "electronic documents/" "Git_Projects/" "osap/" "MATLAB/" "learning bengali/" ".Xresources" "11937930_984118698317194_6977058106448093759_o (2017_02_09 06_38_46 UTC).jpg" "amplify.yml" ".hplip/" "firebase.json" "webpack.config.js" "jdk-8u111-nb-8_2-linux-x64.sh" "colors.Xresources" "node-v12.16.3-linux-x64.tar.xz" "Apache-NetBeans-11.3-bin-linux-x64.sh" "biblatex-cheatsheet.pdf" "cookieclickersave.txt" "cookieclickersave.txt~" ".ICEauthority" ".spacemacs" "jdk-14.0.1_linux-x64_bin.deb" "google-chrome-stable_current_amd64.deb" "#.bash_history#" "bash_practice/" ".openarena/" ".scenebuilder/" "netbeans-8.2/" "jdk1.8.0_111/" "cmake-3.17.0/" "rtags/" "benchmarks/" "bin/" "docs/" "unittests/" "test/" "runtimes/" "utils/" "lib/" "cmake-3.17.0.tar.gz" "install_manifest.txt" "include/" "tools/" "CMakeFiles/" "en_date.png" "compile_commands.json" "cmake_install.cmake" "Makefile" "llvm.spec" "x2x_1.30-7_amd64.deb" "LLVMBuild.cmake" "CPackSourceConfig.cmake" "CPackConfig.cmake" "netlify.toml" "clang-10.0.0.src/" "llvm-project-10.0.0/" ".profile~" "scenebuilder-11.0.0.deb" "screenfetch.png" ".bash_aliases~" ".bash_aliases" "qTox-v1.16.3.x86_64.AppImage" "netbeans-8.1-linux.sh" "clang-10.0.0.src.tar.xz" "llvm-project-10.0.0.tar.xz" "scratch.org~" "scratch.org" "gcc.gnu.org/" "opt/" ".caches/" ".npm/" ".nvm/" "node-v12.13.0-linux-x64/" "polybar/" ".doom.d/" "ui/" "junk/" "files2/" ".ihsec/" "matlab2019b_zip/" "examples/" "etc/" "ihsec/" ".m2/" "NetBeansProjects/" ".mplab_ipe/" "coe718_final/" ".netbeans/" "polyspace/" "sys/" "java/" "interprocess/" "extern/" "orgmode.org/" "toolbox/" "help/" ".matlab/" "www.gatevidyalay.com/" "MPLABXProjects/" ".mplabcomm/" ".mchp_packs/" ".mplab_ide/" ".oracle_jre_usage/" ".fltk/" ".vnc/" ".gitignore" "www.ee.ryerson.ca/" "ghostscript-9.27-linux-x86_64/" ".rpmdb/" ".kde/" ".ssh/" "altera/" "snap/" "vendor/" "junit413/" "JUNIT_WORKSPACE/" "wine-4.0.1/" "vmware/" ".gimp-2.8/" ".vmware/" ".fonts/" "opencv-3.4.6/" "EAGLE/" "eagle_libraries_storage/" "org/" "emotion-form.png" "VirtualBox VMs/" ".conky/" "printer_drivers/" "trial/" ".sane/" ".FBReader/" ".emacs.d/" ".purple/" "eagle-9.4.2/" ".gconf/" ".waterfox/" ".pki/" ".dropbox-dist/" "emacs-26.3/" ".screenlayout/" ".aptitude/" "sum_course.org" "testing_systemc/" ".nbi/" ".dbus/" ".icons/" "Dropbox/" ".dropbox/" "systemc-2.3.3/" ".wine/" ".psensor/" ".macromedia/" ".adobe/" ".synaptic/" ".xprofile" ".frostwire5/" ".java/" ".zoom/" "from_sig_school/" "cross.png" "waterfox/" ".viminfo" ".lesshst" ".gtkrc-2.0~" "intelFPGA_lite/" ".altera.quartus/" "cedet-1.1/" "META-INF/" ".bash_history" "lynx_bookmarks.html" "composer.lock" ".putty/" "back_doom/" "composer.json" ".notes" "test.org" "LICENSE.txt" "plantuml.jar" ".xsession" "OpenSpades-0.1.3-Windows.zip" ".mplab_dv/" "shared_windows7/" "systemc-2.3.3.tar.gz" ".xinitrc" ".bashrc~" ".text.txt.swp" "mplab-data-visualizer-standalone(linux).1.0.675.run" ".gtktermrc" ".minirc.dfl" "id.txt~" "position(s).png" ".notes~" "hello.txt" "downlist-logo.png" "my-diagram.png" "output.txt" "myJars/" "jdee-server/" "#.selected_editor#" ".dmrc" "steno_practice.txt" "detail-btn-add-2.png" "elisp_practice.el" "magnet_link_udemy.txt" "GNUstep/" "pacakges_deleted.png" ".dmesg.txt.swp" "libxcb-1.13.1.tar.bz2" ".var/" "note.txt" "apache-maven-3.6.3/" ".swo" "Screenshot_2020-01-06_09-00-16.png" "llvm-project/" ".ratpoison_history" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" ".dec_chg.txt" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" ".gtkrc-2.0" "index.html.1" ".authinfo" "dmesg.txt" "testdisk.log" "MPLABX-v5.20-linux-installer.tar" "xc32-v2.30-full-install-linux-installer.run" "minicom.log" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "MPLABX-v5.20-linux-installer.sh" ".Xauthority" "Screenshot_2019-10-25_18-18-46.png" "final_exam_time.org" "final_exam_sched.png" "kaktxt.c" ".wget-hsts" "drawing.svg" "cmake-3.17.2-Linux-x86_64.sh" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "tutor" ".python_history" "index.html" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" "polybar-3.4.2.tar" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "opencv-3.4.6.zip" "extracted_schem.ps" ".dmrc~" "lab1_material2.zip" ".tg_priv" ".aspell.en.pws" ".aspell.en.prepl" "mozilla.pdf" "trail/" "gazebo.sh" "back_emacs/" "evilwm-1.1.1.tar.gz" "#.bash_aliases#" "package-lock.json" "package.json" ".fzf.bash" "L3resumenotes.org~" "hello~" ".slime-history.eld" "notes.txt~" "tmp_user/" ".gitconfig" "quicklisp.lisp" ".mplayer/" ".i3status.conf~" ".i3status.conf" ".fehbg" ".conkyrc" ".sbclrc" ".gvfs/" "lab3b_2.zip" ".texlive2017/" ".selected_editor" ".vimrc" ".vim/" ".xprofile~" ".plover-lock-al-0" ".xsession-errors" ".surf/" "Untitled Project.osp" "thumbnail/" ".openshot_qt/" "OpenShot-v2.4.4-x86_64.AppImage" "graph_extracted_schematic.png" "Screenshot_2019-09-06_18-37-42.png" "tigervnc-1.9.90.tar.gz" "priority_inv.pdf" "quicklisp.lisp.asc" "workout_home.jpg" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".eaglerc" ".swp" "md5result.txt" "curtain_spec.txt~" "Videos/" "Screenshot_2019-09-10_06-07-17.png" "Pictures/" "fonts/" "Release.key" "winehq.key" ".thunderbird/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" ".android/" "xampp-linux-x64-7.1.33-1-installer.run" ".sudo_as_admin_successful" ".bashrc" ".mozilla/" ".linuxmint/" ".gphoto/" ".thumbnails/" "frostwire-6.8.1.all.deb" ".local/" "node_modules/" "manga_trial/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".cache/" ".gnupg/" ".profile" ".gtkrc-xfce" ".xsession-errors.old" ".config/" ".bash_logout" ".swt/" "eclipse-workspace/" "eclipse/" ".p2/" ".eclipse/" "../" "./")
+
+ ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/" (24180 10350 0 0) "al/" "../" "./")
+
+ ("/media/al/Backup Plus/" (0 0 0 0) "alvi laptop stuffs/" "Alvi laptop pics/" "lock_cube.txt" "$RECYCLE.BIN/" "System Volume Information/" "linux_experimental_backup_with_terminal/" "edp_drive_backup/" "Udemy_Courses/" "Start_Here_Mac.app/" "Seagate/" "Warranty.pdf" "Start_Here_Win.exe" "Autorun.inf" "._" ".VolumeIcon.ico" ".VolumeIcon.icns" ".Trash-1000/" "software/" "../" "./")
+
+ ("/media/al/" (24439 14505 637568 318000) "./" "Backup Plus/" "../")
+
+ ("/media/" (24434 29854 883325 856000) "./" "al/" "../")
+
+ ("/home/al/" (24439 13720 193342 940000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "extra.pdf" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "bootstrap-4.5.0-examples.zip" ".swp" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "mpv-shot0003.jpg" "android_sumon_backup/" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "icecat-60.7.0-gnu1.tar.bz2" "th.html" ".aspell.en.pws" ".xprofile" "website_improvments.org" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "AndroidStudioProjects/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "bootstrap-4.5.0-dist.zip" ".emacs.d/" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" "bills/" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" "resume_revature.pdf" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
+
+ ("/home/al/Dropbox/Sync/other_notes/" (24439 3217 523323 213000) "useful_notes.org" "useful_linux_commands.org~" "personal_website_notes.org" "arrows.png" "latex_shell_commands.org" "./" "exercise.org" "useful_linux_commands.org" "useful_links_notes.org" "islam_research.org" "game_ideas.org" "resume_interview_ideas.org" "cooking.org" "exercise_info/" "useful_emacs_notes.org" "christ_research.org" "misc_symbols.png" "useful_programming_notes.org" "greek_letters.png" "personal_website_notes.org~" "religion.org" "exercise_notes.org" "../" "binary_sym.png" "laser_game_notes.org")
+
+ ("/home/al/Documents/Git_Projects/website/Javascript/" (24438 63531 657546 73000) "./" "test.js" ".#function_parameters.js" "function_parameters.js" "../")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/" (24406 19685 995940 635000) "./" "design_amp/" "org_proj_template.org~" "laser_game/" "org_proj_template.html" "org_proj_template.org" "proj_page_template.html" "initial.org" "sys_c_multa/" "sys_c_alu/" "proj_page_shared.css" "../" "org_proj_template.html~" "avr_cnc_page/")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/" (24406 18898 356661 950000) "./" ".#sys_c_alu.html" "../" "images/" "sys_c_alu.html")
+
+ ("/home/al/Documents/html_practice/" (24406 18662 400068 884000) ".projectile" "initial.org~" "practice_with_git/" "./" "space_black.jpg" "light_off_on.jpg" "index.html~" "cont.css" "light_off.jpg" "light_on.jpg" "first_cont.html" "index.html" "first_style_sheet.css" "bspwm_rice.png" "note.txt" "index.org" "train_tracks.jpg" "index.org~" "first.html" "initial.org" "#first.html#" "proj_page_shared.css~" "secratary.jpg" "forms.html" "proj_page_shared.css" "../" "plan.webp" "rain_lorry.jpeg" "city.jpg")
+
+ ("/home/al/Documents/c_practice/socket_programming/" (24395 51687 809645 678000) "./" "udemy_tut/" "../")
+
+ ("/home/al/.emacs.d/" (24406 18023 627620 30000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "%backup%~" "srecode-map.el" "myinit.org_archive" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "abbrev_defs" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
+
+ ("/home/al/bin/" (24395 53404 565992 817000) "android_start.sh~" "godot_start.sh" "./" "mp" "glgb" "br" "tem" "herbstclient" "herbstluftwm" "bgpape" "godot_start.sh~" "db" "ms" "dfb" "term_emacs.sh~" "mon" "../" "android_start.sh" "tabc.sh")
+
+ ("/home/al/Documents/Git_Projects/website_actual/" (24404 52116 538303 130000) ".git/" "./" "css/" "proj_main.html~" "index.html" "proj_main.html" "proj_pages/" "audio-amp-projpg.org" "audio-amp-projpg.html" "../" "contact.html" "images/")
+
+ ("/home/al/Documents/Git_Projects/website_actual/css/" (24404 50194 827231 291000) ".projectile" "contact.css" "./" "own.txt" "styles.css" "contact.css~" "styles.css~" "styles_projindiv.css" "../")
+
+ ("/home/al/bash_scripts/" (24405 15221 945382 949000) "mouse_precise.sh" ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "documents_backup.sh~" "emacs_bg.sh" "mouse_sensitivity.sh" "cron_trial.sh" "changing_brightness_hardware.sh" "dotfile_backup.sh" "performance.sh" "changing_brightness_hardware.sh~" "wm_management.sh" "documents_backup.sh" "godot_laser_game_backup.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "setting_wallpaper.sh" "reptex.sh" "../" "dwm_volume.sh" "tabc.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
+
+ ("/home/al/Dropbox/Sync/" (24406 3453 308075 992000) "random_capture.org" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "exercise.org" "TaskManager.org~" "useful_linux_commands.org" "laser_game_notes.org~" "useful_links_notes.org" "project.org" "TaskManager.org" "NEARFUTURE_TODO.org~" "islam_research.org" "#TaskManager.org#" "programming.org" "resume_interview_ideas.org" "cooking.org" "resume_interview_ideas.org~" "exercise_info/" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "exercise_notes.org~" "other_notes/" "note_self.org" "g1_test.org" "personal_website_notes.org~" "exercise_notes.org" "#personal_website_notes.org#" "laser_game_notes.org" "NEARFUTURE_TODO.org" "../" "./")
+
+ ("/home/al/Documents/godot_projects/laser_effect_demo/" (24401 20490 763751 196000) "mirror-sprite.gd" "combiner.tscn" "door.gd" "splitter_front.gd" "door.tscn" "default_env.tres" "combiner-sprite.gd" "laser_end.gd" "project.godot" "mirror-front.gd" "combiner_b_front.gd" "icon.png.import" "splitter-sprite.gd~" "#whole_mirror.gd#" "laser_beam.gd" "mirror-beam-support.tscn" "door_assets/" ".import/" "splitter_combiner_assets/" "icon.png" "path_splitter.tscn" "mirror_assets/" "combiner-sprite.gd~" "path_splitter.gd" "laser_beam.tscn" "whole_mirror.tscn" "splitter.tscn" "beam-starter.tscn" "path_splitter_sprite.gd~" "whole_splitter.gd" "mirror-beam.tscn" "laser_assets/" "splitter-sprite.gd" "path_splitter_sprite.gd" "World.tscn" "path_front.gd" "whole_mirror.gd" "combiner_a_front.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "combiner.gd" "splitter.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
+
+ ("/home/al/Documents/godot_projects/laser_game/laser_effect_demo/" (24401 20419 214292 352000) "mirror-sprite.gd" "combiner.tscn" "door.gd" "splitter_front.gd" "door.tscn" "default_env.tres" "combiner-sprite.gd" "laser_end.gd" "project.godot" "mirror-front.gd" "combiner_b_front.gd" "icon.png.import" "splitter-sprite.gd~" "#whole_mirror.gd#" "laser_beam.gd" "mirror-beam-support.tscn" "door_assets/" ".import/" "splitter_combiner_assets/" "icon.png" "path_splitter.tscn" "mirror_assets/" "combiner-sprite.gd~" "path_splitter.gd" "laser_beam.tscn" "whole_mirror.tscn" "splitter.tscn" "beam-starter.tscn" "path_splitter_sprite.gd~" "whole_splitter.gd" "mirror-beam.tscn" "laser_assets/" "splitter-sprite.gd" "path_splitter_sprite.gd" "World.tscn" "path_front.gd" "whole_mirror.gd" "combiner_a_front.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "combiner.gd" "splitter.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
+
+ ("/home/al/Documents/godot_projects/" (24397 19157 499469 652000) "GodotIntro-Assets/" "./" "godot_first_complete/" "4ffdf06f3ec82cf403279d323bb99333.pdf" "instancing/" "rpg_godot_project/" "laser_effect_demo/" "instancing_practice/" "../" "instancing.zip" "godot-and-android/" "first_godot_project/")
+
+ ("/home/al/Documents/c_practice/socket_programming/udemy_tut/TCPclient/" (24395 63205 34570 211000) "./" "tcp_client" "../" "tcp_client.c")
+
+ ("/home/al/Documents/Git_Projects/laser_game/" (24397 24537 449203 41000) ".git/" "./" "README.org" "laser_effect_demo/" "../" "laser_cardinal.png")
+
+ ("/home/al/Android/" (24358 34802 459607 344000) "./" "../" "Sdk/")
+
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/01 Pointer Basics/" (24264 54208 414703 181000) "007 Indirection-en.srt" "007 Indirection.mp4" "./" "008 Study Notes  Step One.html" "006 Pointer variables.mp4" "001 What is this course about.mp4" "008 C-Pointers-Study-Notes-Step-One.pdf" "004 POINTERS-SOURCE-CODE.zip" "002 How to use this course.mp4" "001 What is this course about-en.srt" "006 Pointer variables-en.srt" "005 What is a pointer-en.srt" "003 ReadMeAndFAQ.pdf" "004 Source Code Archive.html" "003 Course Notes and FAQ.html" "002 How to use this course-en.srt" "../" "005 What is a pointer.mp4")
+
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" (24264 47091 122829 228000) "./" "01 Pointer Basics/" "[FreeCourseSite.com].url" "[FreeCourseSite.com].txt" "03 Lists and data structures/" "[HaxTech.me].txt" "04 Common Pointer Problems/" "../" "02 Addresses and Indirection/" "[HaxTech.me].url")
+
+ ("/home/al/Videos/" (24395 59739 732040 703000) "godot_android.txt" "nginx/" "godot-raycast2d/" "The Supremes Finger Family _ Nursery Rhymes Songs For Babies _ Kids Rhyme-gRDRXqK-Tew.mkv" "programming_and_tech_videos/" "calisthenics/" "godot-instancing/" "Mysterium Fasces Ep. 15 - Jay Dyer-Eo3icDkJjj8.webm" "Cartesian Graph (2D) & Transforms-sChM51ibm5k.mkv" "godot_audio/" "links_powermetal.txt~" "cp_debates/" "How to Cook Steak Perfectly Every Time _ The Stay At Home Chef-nsw0Px-Pho8.webm" "sam_shamoun/" "godot_android_vids/" "godot_laser/" "[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/" "ryerson-ai-workshop/" "Lucid Dreaming - Sleep Hypnosis Session - By Thomas Hall-dYztV2WNBm4.mkv" "elisp_lisp tutorial/" "orgmode_rainer/" "theology/" "downloaded_vids/" "Introduction to Godot (Zenva Davor)/" "file_example_MP4_1920_18MG.mp4" "uncle_dave_emacs/" "Beginners Guide To Cooking - Learn The Basics-Jj1fhYZJjek.mkv" "godot-area2d/" "android_studio/" "GD-Like-Script/" "[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" "ABC Song + More Nursery Rhymes & Kids Songs - CoComelon-71h8MZshGSs.mkv" "../" "./")
+
+ ("/home/al/Videos/[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" (24264 32058 365143 235000) "02 Socket Programming Basics/" "./" "04 Summary/" "FreeTutorials.Eu.html" "03 HTTP Protocol/" "Torrent Downloaded From GloDls.to.txt" "Discuss.FreeTutorials.Us.html" "[TGx]Downloaded from torrentgalaxy.org.txt" "How you can help Team-FTU.txt" "../" "01 Introduction/" "FreeCoursesOnline.Me.html")
+
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" (24264 32058 365143 235000) "02 Socket Programming Basics/" "./" "04 Summary/" "FreeTutorials.Eu.html" "03 HTTP Protocol/" "Torrent Downloaded From GloDls.to.txt" "Discuss.FreeTutorials.Us.html" "[TGx]Downloaded from torrentgalaxy.org.txt" "How you can help Team-FTU.txt" "../" "01 Introduction/" "FreeCoursesOnline.Me.html")
+
+ ("/home/al/FrostWire/Torrent Data/C-C++-Courses/" (24297 1800 803844 40000) "[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" "./" "[DesireCourse.Com] Udemy - C++ From Beginner to Expert/" "[FreeAllCourse.Com] Udemy - Beginning C++ Programming - From Beginner to Beyond/" "Embedded Systems Programming on ARM Cortex-M3-M4 Processor/" "[FreeTutorials.Us] Udemy - C Programming For Beginners - Master the C Language/" "../" "[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/")
+
+ ("/home/al/FrostWire/Torrent Data/" (24395 51546 66640 841000) "Taxi Driver (1976)/" "C-C++-Courses/" "[FreeTutorials.Eu] Udemy - Python for Data Science and Machine Learning Bootcamp/" "./" "Aoi Bungaku Series/" "[Golumpa] Dimension W [Dual Audio] [BDRip] [10-bit] [1080p]/" "[FreeTutorials.Us] Udemy - Discovering Godot Make Video Games in Python-like GDScript/" "Sicario.2015.720p.BRRip.x264-ETRG/" "The Complete Front-End Web Development Course!/" "Python and Django Full Stack Web Developer Bootcamp/" "[DesireCourse.Net] Udemy - The Complete SQL Bootcamp 2020 Go from Zero to Hero/" "Prisoners (2013) (1080p BluRay x265 HEVC 10bit AAC 5.1 afm72)/" "[ FreeCourseWeb.com ] Udemy - Absolute Introduction to Object Oriented Programming in Java.zip" "[ FreeCourseWeb.com ] Skillshare - How To Become A Game Developer Using Godot Game Engine 3.zip" "Ninja Scroll (1993) [BluRay] [1080p] [YTS.AM]/" "Sicario Day Of The Soldado (2018) [BluRay] [1080p] [YTS.AM]/" "Microsoft Office Professional Plus VL 2019 - 1809 (Build 10827.20181) + Activator [CracksMind]/" "[FFF] D-Frag! [BD][1080p-FLAC]/" "../" "Ansatsu Kyoushitsu 2nd Season [1080]/" "[FreeCourseLab.me] Udemy - The Complete 2020 Web Development Bootcamp/")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/avr-cnc-page/" (24395 15803 718014 916000) "./" "avr-cnc.org~" "../" "#avr-cnc.org#" "avr-cnc.org" "images/")
+
+ ("/home/al/Documents/resumes/new_current/Al/" (24395 15246 593982 215000) "synopsys2.pdf" "resume.tex~" "cover_letter/" "resume_edited.pdf" "./" "resume_edited3.pdf" "resume.log" "improved_freecodecamp/" "L3wescam/" "resume_Alvi.pdf" "pref.txt" "resume.pdf" "improved_clinic/" "GEOTAB/" "resume.aux" "../" "L3Wescam_2020_co_op/" "resume.out" "resume_edited2.pdf")
+
+ ("/home/al/Documents/resumes/new_current/Al/improved_freecodecamp/" (24395 49871 490783 65000) "resume_aug30.pdf" "resume_aug30.aux" "./" "resume_aug30.tex" "resume_aug30.tex~" "resume_aug30.pdf~" "resume_aug30.out" "../" "resume_aug30.log")
+
+ ("/home/al/Documents/c_practice/socket_programming/udemy_tut/" (24395 51687 777645 0) "./" "../")
+
+ ("/home/al/Documents/resumes/new_current/Al/improved_resume_aug_30_2020/" (24395 15218 861382 551000) "resume_aug30.pdf" "resume_aug30.aux" "./" "resume_aug30.tex" "resume_aug30.tex~" "resume_aug30.out" "../" "resume_aug30.log")
+
+ ("/home/al/Documents/softeng-resume-example/" (24395 4379 312817 875000) "./" "../")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/design-amp/" (24394 37047 121845 870000) "./" "../")
+
+ ("/home/al/Documents/Git_Projects/website_actual/hackaday_github_proj_info/" (24394 36428 408370 833000) "./" "avr-cnc.html" "weborg.org" "avr-cnc.html~" "../" "avr-cnc.org" "weborg.org~")
+
+ ("/home/al/Documents/Git_Projects/website_actual/images/program_icons/" (24392 63892 235733 868000) "555.svg.2020_08_28_07_59_41.0.svg" "./" "cplus.png" "555.svg.2020_08_28_08_16_37.0.svg" "python.webp" "java.png" "555.png" "cplus.svg" "code.png" "555.svg.2020_08_28_08_02_22.0.svg" "mixed.png" "bash.jpg" "../" "mixed.xcf" "code.svg" "c.png" "555.svg")
 
  ("/home/al/Documents/Git_Projects/website_actual/images/" (24391 38461 937329 135000) "cloud.png" "./" "computer.png" "rnbl.jpg" "chillies.png" "circle-cropped.png" "logo.png" "project_images/" "mountain.png" "../" "logo.xcf" "program_icons/")
 
- ("/home/al/.emacs.d/" (24391 37040 197461 788000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "%backup%~" "srecode-map.el" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "abbrev_defs" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
-
- ("/home/al/Videos/" (24391 36947 283375 917000) "godot_android.txt" "godot-raycast2d/" "The Supremes Finger Family _ Nursery Rhymes Songs For Babies _ Kids Rhyme-gRDRXqK-Tew.mkv" "programming_and_tech_videos/" "calisthenics/" "godot-instancing/" "Mysterium Fasces Ep. 15 - Jay Dyer-Eo3icDkJjj8.webm" "Cartesian Graph (2D) & Transforms-sChM51ibm5k.mkv" "godot_audio/" "links_powermetal.txt~" "cp_debates/" "How to Cook Steak Perfectly Every Time _ The Stay At Home Chef-nsw0Px-Pho8.webm" "sam_shamoun/" "godot_android_vids/" "power_metal_music/" "godot_laser/" "[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/" "ryerson-ai-workshop/" "Lucid Dreaming - Sleep Hypnosis Session - By Thomas Hall-dYztV2WNBm4.mkv" "elisp_lisp tutorial/" "orgmode_rainer/" "theology/" "downloaded_vids/" "Introduction to Godot (Zenva Davor)/" "file_example_MP4_1920_18MG.mp4" "uncle_dave_emacs/" "Beginners Guide To Cooking - Learn The Basics-Jj1fhYZJjek.mkv" "godot-area2d/" "android_studio/" "GD-Like-Script/" "ABC Song + More Nursery Rhymes & Kids Songs - CoComelon-71h8MZshGSs.mkv" "../" "./")
-
  ("/home/al/Documents/godot_projects/rpg_godot_project/godot_rpg/Godot Rpg/" (24387 9175 845836 37000) "Font/" "Sprites/" "audioplayer.gd~" "TileSet.tscn" "./" "Player.tscn" "Player.gd~" "default_env.tres" "Enemy.tscn" "UI.gd" "project.godot" "icon.png.import" "Audio/" "MainScene.tscn" "Glowing.tscn" "Chest.tscn" "CameraFollow.gd" ".import/" "icon.png" "audioplayer.gd" "Chest.gd" "export_presets.cfg" "Enemy.gd~" "Player.gd" "Enemy.gd" "../" "UI.tscn" "tileset.tres" "UI/")
-
- ("/home/al/Dropbox/Sync/" (24389 55529 181411 486000) "random_capture.org" "inbox.org" "daily_todo.pdf" "latex_shell_commands.org" "exercise.org" "priorities.org" "useful_linux_commands.org" "game_ideas.pdf" "useful_links_notes.org" "daily_todo.org" "project.org" "extra_rem.org" "inbox.org~" "priorities.org~" "#exercise.org#" "#daily_todo.org#" "islam_research.org" "game_ideas.odt" "game_ideas.org" "islam_research.org~" "cooking.org" "exercise_info/" "daily_todo.svg" "backburner.org" "programming_task.org" "exercise_notes.org~" "game_ideas.tex" "other_notes/" "note_self.org" "g1_test.org" "religion.org" "exercise_notes.org" "exercise.org~" "sched_org.org" "note_self.org~" "todo_daily.org" "../" "./")
-
- ("/home/al/Documents/Git_Projects/laser_game/" (24390 11370 252599 638000) "trying_instancing/" ".git/" "./" "README.org" "laser_effect_demo/" "../")
-
- ("/home/al/Documents/godot_projects/laser_effect_demo/" (24390 35616 60861 345000) "mirror-beam.gd~" "mirror-sprite.gd" "default_env.tres" "laser_end.gd" "global.gd" "project.godot" "mirror-front.gd" "icon.png.import" "#whole_mirror.gd#" "laser_beam.gd" "door_assets/" ".import/" "icon.png" "mirror_assets/" "World.gd" "mirror-front.gd~" "laser_beam.tscn" "whole_mirror.tscn" "beam-starter.tscn" "mirror-beam.tscn" "laser_assets/" "door_collision.gd~" "World.tscn" "mirror-beam-container.gd" "whole_mirror.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
-
- ("/home/al/FrostWire/Torrent Data/" (24353 17723 445605 267000) "Taxi Driver (1976)/" "Courses/" "[FreeTutorials.Eu] Udemy - Python for Data Science and Machine Learning Bootcamp/" "./" "Aoi Bungaku Series/" "[Golumpa] Dimension W [Dual Audio] [BDRip] [10-bit] [1080p]/" "[FreeTutorials.Us] Udemy - Discovering Godot Make Video Games in Python-like GDScript/" "Sicario.2015.720p.BRRip.x264-ETRG/" "The Complete Front-End Web Development Course!/" "Python and Django Full Stack Web Developer Bootcamp/" "[DesireCourse.Net] Udemy - The Complete SQL Bootcamp 2020 Go from Zero to Hero/" "Prisoners (2013) (1080p BluRay x265 HEVC 10bit AAC 5.1 afm72)/" "[ FreeCourseWeb.com ] Udemy - Absolute Introduction to Object Oriented Programming in Java.zip" "[ FreeCourseWeb.com ] Skillshare - How To Become A Game Developer Using Godot Game Engine 3.zip" "Ninja Scroll (1993) [BluRay] [1080p] [YTS.AM]/" "Sicario Day Of The Soldado (2018) [BluRay] [1080p] [YTS.AM]/" "Microsoft Office Professional Plus VL 2019 - 1809 (Build 10827.20181) + Activator [CracksMind]/" "[FFF] D-Frag! [BD][1080p-FLAC]/" "../" "Ansatsu Kyoushitsu 2nd Season [1080]/" "[FreeCourseLab.me] Udemy - The Complete 2020 Web Development Bootcamp/")
 
  ("/home/al/FrostWire/" (24230 59433 874336 759000) "./" "Torrents/" "Torrent Data/" "../")
 
@@ -142,21 +253,11 @@
 
  ("/home/al/Documents/python_davor/" (24385 46958 386200 217000) "Average_filter_RGB/" "./" "Average Filter.zip" "Average Filter/" "Average_filter_RGB.zip" "../")
 
- ("/home/al/Documents/" (24385 46902 37062 418000) "Projects/" "godot_projects/" "PP01- EDP Report-1.docx" "islam_research/" "angular_practice/" "GDQuest_Godot_Demos/" "other_tobeorg/" "#shawn_courses_table1_table2.org#" "json_practice/" "resumes/" "nodejs_practice/" "Ahmed, Alvi.500696421.Graduation letter.pdf" "SHAWN_HELP/" "CCF_007563.jpg" "shawn_courses_table1_table2.org~" "godot_andriod_example/" "usb_backup/" "dired_practice/" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "python_davor/" "c++_practice/" "makita/" "lisp_practice/" "bengla_tafsir/" "ele639_shawn_help.zip" "ele639_shawn_help/" "books/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "shawn_courses_table1_table2.txt" "sql_practice/" "react_practice/" "elisp_lisp_practice/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "shawn_courses_table1_table2.org" "sed_practice/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "asus_tuf_reciept/" "java_practice/" "../" "./")
-
  ("/home/al/Documents/old_website_pulled/" (24383 59507 513139 532000) "./" "css/" "index.html" "projects.html" "README.org" "../" "contact.html" "images/")
-
- ("/home/al/Documents/Git_Projects/" (24383 59071 248171 494000) "website/" "dot_config_files/" "./" "NotoColorEmoji.ttf" "laser_game/" "hack_nerd_fonts/" "work_table_light/" "bash_scripts/" "i3lock/" "source-code-pro/" "website_actual/" "NotoEmoji-Regular.ttf" "RC_tiny85/" "rgb_sign/" "../")
 
  ("/home/al/Videos/downloaded_vids/" (24366 230 591047 924000) "'prophet Muhammad' yet all his prophecy were false-Y9jTdhspqP0.mkv" "Gordon Ramsay's Top 5 Fish Recipes-EziM5ckJbo4.mkv" "How to grow vegetables indoors without any equipment - so easy-pbXk_bQornM.mkv" "stirfry.mkv" "Why boyfriend _ girlfriend is not healthy lifestyle-0d6OQyVDgcA.mkv" "Shucking 2,000 Oysters A Day At Hog Island-bIlVyZFVWso.mp4" "5 Vegetables that are too EASY to GROW in the Garden-WNh4DYm0GzY.mkv" "The Corruption of the Quran (Jay Smith and David Wood)-LfgV9cNf1vc.mp4" "How To Regrow Everything-Jze8utzpLhg.webm" "Setting up a Basic Indoor Grow Room-pPR2Gq18RPo.mkv" "How To Fillet Every Fish _ Method Mastery _ Epicurious-wcueSXGueJs.mkv" "3 Ways To Cook The Juiciest Chicken Breast Ever - Bobby's Kitchen  Basics-DYdOPjjBvm0.mkv" "Japanese Street Food - LIVE FUGU PUFFERFISH Puffer Fish Japan-4xD3wfp1LAA.mp4" "Gordon Ramsay’s Ultimate Vegetarian Lunch-M8OGXmLTTiI.mkv" "5 EASY DIY Chicken Marinades + 3 Meal Ideas!!! _ HONEYSUCKLE-1Qan6reIHS8.mkv" "How To Marinate Chicken • Tasty-4poF67XxxOk.mkv" "The most laughable book The book of Allah-ujEZ_430LE0.mp4" "7 Best Chicken Marinades (Freezer Ready Meal Prep!)-ncsYo26fME0.mp4" "How To Butcher a Whole Tuna - Every Cut of Fish Explained _ Handcrafted _ Bon Appétit-_r9Ndb6N_y0.mkv" "Creamy Garlic Chicken Breasts-DaeQ2AKp00k.mkv" "Amazon's Bezos Says Three Good Decisions a Day 'Enough'-kfY3uRCvEMo.webm" "The Best Meal Plan To Build Muscle Faster (EAT LIKE THIS!)-osqvOUJjaCo.mkv" "How To Grow Tomatoes At Home (SEED TO HARVEST)-eySTo2GgvoY.mkv" "How to cook vegetables the proper way-Qi_G367LVco.mkv" "5 Easy Ways To Cook Fish-Tgv7tCx2NsA.mkv" "Debate.💥Abdul Ustaz 🙊 v.s #Christian_Prince#. 🤣give me more mistakes.--h90hrO6xvU.mp4" "Jesus said go an buy a sword is metaphorical-oP4DNrXW0B0.mp4" "How to enjoy your life While life is full of misery!-InnVtJ7Cr4g.mp4" "Bodybuilding Meals on a Budget _ Tuna & Potato-E2kIgUJMqVc.mkv" "dw_vid.txt" "../" "./")
 
  ("/home/al/Documents/resumes/" (24361 58732 610216 710000) "Sumaiya Karim_Resume.docx" "./" "Software-Engineer-Resume.docx" "resume_clinic_scan/" "../" "al_resume.docx" "al_resume.odt" "new_current/" "alvi_ahmed_resume.pdf")
-
- ("/home/al/Documents/resumes/new_current/Al/" (24361 63730 898893 524000) "synopsys2.pdf" "resume.tex~" "cover_letter/" "resume_edited.pdf" "./" "resume_edited3.pdf" "resume.log" "L3wescam/" "resume_Alvi.pdf" "pref.txt" "resume.pdf" "resume.tex" "improved_clinic/" "GEOTAB/" "resume.aux" "../" "L3Wescam_2020_co_op/" "resume.out" "resume_edited2.pdf")
-
- ("/home/al/bin/" (24371 39495 940866 41000) "android_start.sh~" "godot_start.sh" "./" "mp" "glgb" "tem" "herbstclient" "herbstluftwm" "bgpape" "godot_start.sh~" "db" "ms" "dfb" "term_emacs.sh~" "mon" "../" "android_start.sh" "tabc.sh")
-
- ("/home/al/bash_scripts/" (24366 15172 150519 931000) "mouse_precise.sh" ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "emacs_bg.sh" "mouse_sensitivity.sh" "cron_trial.sh" "dotfile_backup.sh" "performance.sh" "argcmd.sh~" "wm_management.sh" "documents_backup.sh" "godot_laser_game_backup.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "setting_wallpaper.sh" "godot_laser_game_backup.sh~" "reptex.sh" "../" "dwm_volume.sh" "tabc.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
 
  ("/home/al/Documents/godot_projects/first_godot_project/" (24376 32501 946827 724000) "Font/" "Title.tscn" "CameraController.gd" "Sprites/" "Coin.tscn" "./" "Player.tscn" "Heart.tscn" "default_env.tres" "Enemy.tscn" "UI.gd" "project.godot" "icon.png.import" "Audio/" "first_godot_project.pck" "MainScene.tscn" "Health.gd" ".import/" "icon.png" "audioplayer.gd" "Coin.gd" "Heart.gd" "export_presets.cfg" "Player.gd" "Enemy.gd" "../" "UI.tscn")
 
@@ -172,8 +273,6 @@
 
  ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/" (24366 62106 455049 733000) "./" "index.html~" "index.html" "TinDog Start Here/" "../" "TinDog Start Here.zip")
 
- ("/home/al/Documents/godot_projects/" (24366 15846 42233 645000) "GodotIntro-Assets/" "./" "GodotIntro-Assets.zip" "4ffdf06f3ec82cf403279d323bb99333.pdf" "rpg_godot_project/" "laser_effect_demo/" "../" "godot-and-android/" "GodotIntro-CompleteProject.zip" "first_godot_project/")
-
  ("/home/al/.emacs.d/elpa/yasnippet-snippets-20200606.1149/snippets/latex-mode/" (24306 32344 175859 275000) "int" "section" "sum" "code" "includegraphics" "label" "cite" "frame" "moderncv-cvlistitem" "caption" "description" "textbf" "note" "enumerate" "moderncv-cvlistdoubleitem" "moderncv" "movie" "german-quotes-single" "moderncv-cventry" "if" "documentclass" "usepackage" "block" "equation" "figure" "moderncv-cvline" "moderncv-cvcomputer" "gls" "python" "acronym" "newglossaryentry" "bigcap" "left-right" "alertblock" "article" "newcommand" "bigcup" "subsec" "listing" "align" "itemize" "frac" "emph" "labelcref" "capgls" "binom" "moderncv-cvlanguage" "german-quotes" "begin" "item" "alg" "columns" "question" "prod" "glspl" "subf" "subfigure" "../" "./")
 
  ("/home/al/Music/" (24358 51932 535269 502000) "./" "Shieeeet-uoKsZ1EA9iY.m4a" "Why are you running sound effect-CIEdF1GRxCo.m4a" "running.mp3" "../")
@@ -188,8 +287,6 @@
 
  ("/home/al/bootstrap-4.5.0-dist/" (24250 54321 0 0) "./" "css/" "js/" "../")
 
- ("/home/al/Dropbox/Sync/other_notes/" (24353 42889 352573 222000) "useful_notes.org" "useful_linux_commands.org~" "arrows.png" "latex_shell_commands.org" "./" "useful_linux_commands.org" "misc_symbols.png" "useful_programming_notes.org" "greek_letters.png" "#useful_linux_commands.org#" "../" "binary_sym.png" ".#useful_linux_commands.org")
-
  ("/usr/share/fonts/truetype/open-sans/" (24228 11508 349827 973000) "OpenSans-CondLightItalic.ttf" "OpenSans-CondBold.ttf" "OpenSans-Bold.ttf" "OpenSans-Regular.ttf" "./" "OpenSans-CondLight.ttf" "OpenSans-SemiboldItalic.ttf" "OpenSans-LightItalic.ttf" "OpenSans-Semibold.ttf" "OpenSans-ExtraBold.ttf" "OpenSans-Italic.ttf" "OpenSans-Light.ttf" "OpenSans-BoldItalic.ttf" "OpenSans-ExtraBoldItalic.ttf" "../")
 
  ("/usr/share/fonts/truetype/" (24287 41596 277761 348000) "font-awesome/" "unfonts-core/" "SourceCodePro-MediumIt.ttf" "crosextra/" "Hack Regular Nerd Font Complete.ttf" "fonts-deva-extra/" "padauk/" "adf/" "samyak-fonts/" "lohit-bengali/" "porson/" "SourceCodePro-Medium.ttf" "arphic-bsmi00lp/" "kacst-one/" "neohellenic/" "droid/" "kacst/" "SourceCodePro-LightIt.ttf" "junicode/" "fonts-kalapi/" "NotoEmoji-Regular.ttf" "arphic-gkai00mp/" "lohit-oriya/" "SourceCodePro-ExtraLightIt.ttf" "arphic-bkai00mp/" "lohit-punjabi/" "Gargi/" "lohit-tamil-classical/" "siji.ttf" "NotoColorEmoji.ttf" "comfortaa/" "sinhala/" "Hack Bold Italic Nerd Font Complete.ttf" "baekmuk/" "arphic-gbsn00lp/" "roboto/" "noto/" "Hack Regular Nerd Font Complete Windows Compatible.ttf" "fonts-japanese-mincho.ttf" "lato/" "baskerville/" "lao/" "pagul/" "fonts-telu-extra/" "abyssinica/" "gentiumplus/" "Navilu/" "fonts-beng-extra/" "lohit-tamil/" "samyak/" "solomos/" "lohit-assamese/" "Hack Bold Nerd Font Complete Mono.ttf" "fonts-guru-extra/" "./" "Hack Italic Nerd Font Complete.ttf" "artemisia/" "SourceCodePro-Bold.ttf" "Hack Italic Nerd Font Complete Mono Windows Compatible.ttf" "gentium-basic/" "Hack Regular Nerd Font Complete Mono Windows Compatible.ttf" "SourceCodePro-ExtraLight.ttf" "SourceCodePro-Semibold.ttf" "Hack Bold Italic Nerd Font Complete Windows Compatible.ttf" "SourceCodePro-Light.ttf" "Hack Bold Italic Nerd Font Complete Mono Windows Compatible.ttf" "SourceCodePro-SemiboldIt.ttf" "croscore/" "open-sans/" "asana-math/" "SourceCodePro-Black.ttf" "Hack Italic Nerd Font Complete Windows Compatible.ttf" "ttf-khmeros-core/" "lohit-telugu/" "lohit-devanagari/" "Nakula/" "liberation2/" "olga/" "liberation/" "SourceCodePro-BlackIt.ttf" "didot/" "Hack Italic Nerd Font Complete Mono.ttf" "unfonts-extra/" "Sahadeva/" "gentium/" "lohit-malayalam/" "unifont-13.0.02.ttf" "ebgaramond/" "SourceCodePro-Regular.ttf" "fonts-japanese-gothic.ttf" "SourceCodePro-It.ttf" "Gubbi/" "malayalam/" "ubuntu/" "Hack Bold Nerd Font Complete Mono Windows Compatible.ttf" "Hack Bold Italic Nerd Font Complete Mono.ttf" "Hack Regular Nerd Font Complete Mono.ttf" "Sarai/" "tibetan-machine/" "tlwg/" "Hack Bold Nerd Font Complete Windows Compatible.ttf" "lohit-gujarati/" "fonts-gujr-extra/" "SourceCodePro-BoldIt.ttf" "Hack Bold Nerd Font Complete.ttf" "lohit-kannada/" "complutum/" "freefont/" "../" "openoffice/" "fonts-orya-extra/" "dejavu/")
@@ -197,8 +294,6 @@
  ("/usr/share/" (24347 59875 549327 852000) "dnsmasq-base/" "gvfs/" "ppd/" "kpackage/" "fonts-droid-fallback/" "rsyslog/" "kf5/" "hfsprogs/" "casper/" "readline/" "mintstick/" "consoletrans/" "xfce4/" "netplan/" "xdg-desktop-portal/" "gimp/" "emacs/" "drawing/" "automake-1.15/" "pnm2ppa/" "caribou/" "base-passwd/" "gnome-system-tools/" "awk/" "polkit-1/" "alsa-base/" "libexttextcat/" "menulibre/" "maven-repo/" "sgml-data/" "ubuntu-drivers-common/" "xsane/" "xfwm4/" "metainfo/" "texlive/" "mu/" "simple-scan/" "cmake-3.10/" "foo2zjs/" "language-tools/" "pam/" "metacity/" "os-prober/" "ioquake3/" "linux-sound-base/" "gtk-doc/" "perl/" "ppp/" "vim/" "perl-openssl-defaults/" "aspell/" "accounts/" "plymouth/" "compizconfig/" "fonts-sil-padauk/" "debhelper/" "linuxmint/" "m17n/" "cli-common/" "openvpn/" "ghostscript/" "dotnet/" "dzen2/" "directfb-1.7.7/" "python/" "libreoffice/" "mythtv/" "cinnamon/" "emacs25/" "openssh/" "mate-background-properties/" "gnome-control-center/" "help/" "ca-certificates/" "libvisual-plugins-0.4/" "seahorse/" "yelp/" "zlibrary/" "yelp-xsl/" "sounds/" "dictionaries-common/" "vlc/" "bison/" "drirc.d/" "locale-langpack/" "sgml/" "games/" "help-langpack/" "cm-super/" "autoconf/" "keyutils/" "FBReader/" "upstart/" "ImageMagick-6/" "pkgconfig/" "xed/" "gutenprint/" "vala/" "tcltk/" "publicsuffix/" "secureboot/" "compiz/" "dpkg/" "misc/" "docutils/" "evolution-data-server/" "mime/" "zoneinfo/" "kxmlgui5/" "xviewer/" "gufw/" "speech-dispatcher/" "unity/" "mono-2.0/" "screen/" "libsensors4/" "systemtap/" "dns/" "gettext-0.19.8/" "guile/" "texinfo/" "djvu/" "cdbs/" "latex-cjk-common/" "fish/" "snmp/" "yudit/" "hwdata/" "gdm/" "iptables/" "media-player-info/" "python-apt/" "dbus-1/" "doc-base/" "debconf/" "distro-info/" "session-migration/" "texmf/" "libc-bin/" "mintsources/" "binfmts/" "fwupd/" "mate-panel/" "iso-codes/" "gnome-settings-daemon/" "sane/" "desktop-directories/" "qt4/" "python-wheels/" "kak/" "mysql-common/" "fonts/" "gtk-engines/" "joystick/" "onboard/" "gnome-bluetooth/" "nemo/" "ubuntu-system-adjustments/" "kconf_update/" "defaults/" "cmake/" "mplayer/" "aptitude/" "gcc-8/" "aglfn/" "docky/" "calendar/" "mobile-broadband-provider-info/" "arduino/" "pkg-config-dpkghook" "im-config/" "slick-greeter/" "base-files/" "ccsm/" "themes/" "gstreamer-1.0/" "offlineimap/" "libdrm/" "wine/" "mdm/" "tex-common/" "rubygems-integration/" "wallpapers/" "wayland/" "llvm-6.0/" "ecryptfs-utils/" "consolefonts/" "pulseaudio/" "grub-gfxpayload-lists/" "libparse-debianchangelog-perl/" "cinnamon-background-properties/" "dh-autoreconf/" "okular/" "pkg-config-crosswrapper" "po-debconf/" "foo2qpdl/" "flatpak/" "light-locker-settings/" "localechooser/" "xml/" "libthai/" "alsa/" "backgrounds/" "dict/" "timeshift/" "kdevappwizard/" "python-babel-localedata/" "poppler/" "console-setup/" "info/" "bug/" "gdebi/" "fontconfig/" "pixmaps/" "libtimezonemap/" "man/" "asciidoc/" "groff/" "pavucontrol/" "purpose/" "glib-2.0/" "mythes/" "X11/" "fonts-sil-gentiumplus/" "code/" "rhythmbox/" "menu/" "file-roller/" "application-registry/" "transmission/" "app-install/" "libgweather/" "ntp/" "unity-control-center/" "pyshared/" "lightdm/" "systemd/" "inkscape/" "samba/" "cups/" "applications/" "xgreeters/" "command-not-found/" "catfish/" "qt5/" "enchant/" "libtool/" "javascript/" "gnupg/" "finalrd/" "zsh/" "python3/" "iso-flag-png/" "jstest-gtk/" "hyphen/" "debianutils/" "gnote/" "pygtk/" "librevenge/" "adduser/" "pam-configs/" "ufw/" "accountsservice/" "kservices5/" "mint-artwork/" "icu/" "terminfo/" "bash-completion/" "thumbnailers/" "aclocal-1.15/" "gdb/" "man-db/" "liblouisutdml/" "java/" "synaptic/" "color/" "kservicetypes5/" "config.kcfg/" "pstoedit/" "GConf/" "ca-certificates-java/" "acpi-support/" "gnome-background-properties/" "gnome/" "libwacom/" "locales/" "mousetweaks/" "appdata/" "nano/" "gettext/" "libgphoto2/" "util-macros/" "virtualbox/" "glvnd/" "mimelnk/" "ldm/" "grub/" "file/" "git-core/" "avahi/" "gconf/" "lintian/" "hal/" "icons/" "cryptsetup/" "GeoIP/" "sphinx/" "sgml-base/" "liblangtag/" "nautilus-dropbox/" "i18n/" "usb_modeswitch/" "xml-core/" "asymptote/" "gtksourceview-3.0/" "gnome-shell/" "zenity/" "brltty/" "build-essential/" "lcdf-typetools/" "system-config-printer/" "libgnomekbd/" "mint-mirrors/" "system-tools-backends-2.0/" "apport/" "xreader/" "myspell/" "libaudio2/" "intltool-debian/" "gnome-video-effects/" "pix/" "openal/" "sensible-utils/" "orca/" "indicator-application/" "hunspell/" "aclocal/" "Thunar/" "tabset/" "xcb/" "neofetch/" "tint2/" "common-licenses/" "knotifications5/" "mugshot/" "fonts-font-awesome/" "initramfs-tools/" "doc/" "hplip/" "librarian/" ".mono/" "feh/" "locale/" "keyrings/" "m2300w/" "apps/" "mint-upgrade-info/" "python3-pycparser/" "perl5/" "gst-plugins-base/" "software-center/" "indicators/" "apturl/" "mime-info/" "kde4/" "xsessions/" "ubuntu-advantage-tools/" "PackageKit/" "gir-1.0/" "p11-kit/" "gitweb/" "mono/" "colord/" "omf/" "ssl-cert/" "liblouis/" "../" "./")
 
  ("/home/al/Dropbox/Sync/exercise/" (24352 54339 643825 960000) "./" "exercise.org" "exercise.pdf" "davor_workout.org" "davor_workout.png" "davor_workout.org~" "exercise.org~" "../")
-
- ("/home/al/Documents/c_practice/socket_programming/" (24334 8070 256605 689000) "./" "tcp_client.c~" "tcp_server.c~" "tcp_server.c" "../" "tcp_client.c")
 
  ("/home/al/Documents/python_practice/" (24348 49264 105118 303000) ".projectile" "forloop.py~" "strings.py" "numbers.py" "2dlist.py" "guessinggame.py" "whileloop.py~" "./" "lists.py" "helloworld.py" "ifstatement.py~" "translator.py~" "exponents.py" "machine_learning_adam/" "forloop.py" "tuples.py" "user_input.py" "tuples.py~" "functions.py" "ad_calc.py~" "guessinggame.py~" "lists.py~" "functions.py~" "translator.py" "basic_calculator.py" "dictionaries.py~" "ad_calc.py" "whileloop.py" "2dlist.py~" "ifstatement.py" "../" "dictionaries.py" "data_types.py" "exponents.py~")
 
@@ -219,92 +314,6 @@
  ("/home/al/Documents/c_practice/cprogramming_in_linux/tut33/" (24316 45706 309118 220000) "lipsum.txt" "lipsum.txt~" "./" "main33" "main33.c~" "10bytechunk.txt" "main33.c" "../")
 
  ("/home/al/.emacs.d/elpa/yasnippet-classic-snippets-1.0.2/snippets/cc-mode/" (24316 36213 180193 435000) "./" "inc" "for" "if" ".yas-parents" "main" "inc.1" "for~" "../" "once" "struct" "do")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut31/" (24312 40762 541807 368000) "./" "main31.c~" "main31.c" "main31" "../")
-
- ("/media/" (24312 35241 459551 40000) "veracrypt1/" "./" "al/" "../")
-
- ("/home/al/.config/" (24305 18648 405044 338000) "bspwm/" "xfce4/" "deluge/" "celluloid/" "Signal/" "caja/" "xreader/" "jstest-gtk/" "Kitware/" "wesnoth/" "QtProject.conf" "VeraCrypt/" "htop/" "gtk-3.0/" "VirtualBox/" "wal/" "polybar/" "pavucontrol.ini" "qt5ct/" "i3/" "compton/" "herbstluftwm/" "Thunar/" "transmission/" "libreoffice/" "dconf/" "user-dirs.locale" "tint2/" "Trolltech.conf" "openbox/" "sxhkd/" "gtk-2.0/" "enchant/" "xviewer/" "dwm_custom/" "zathura/" "pix/" "google-chrome/" "BraveSoftware/" "xed/" "configstore/" "okularpartrc" "hexchat/" "teamviewer/" "neofetch/" "user-dirs.dirs" "mimeapps.list" "mpv/" "sublime-text-3/" "Code/" "autostart/" "menus/" "pulse/" "qBittorrent/" "okularrc" "../" "./")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut23/" (24303 5079 30540 166000) "./" "main23.c~" "myheader.h" "addnumbers.c" "addnumbers.c~" "myheader.h~" "main23.c" "main23" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut24/" (24303 6470 206443 20000) "./" "myfile.txt~" "main24" "main24.c" "main24.c~" "myfile.txt" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut26/" (24303 19826 670298 936000) "./" "main26" "output.txt" "../" "main26.c~" "main26.c")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut27/" (24303 21905 407687 387000) "main27.c~" "main27" "./" "main27.c" "../")
-
- ("/usr/share/fonts/" (24228 11506 821703 817000) "type1/" "truetype/" "fonts-go/" "svg/" "opentype/" "./" "cMap/" "X11/" "eot/" "woff/" "cmap/" "../")
-
- ("/usr/" (24243 62380 71225 805000) "libexec/" "games/" "lib64/" "local/" "./" "src/" "include/" "share/" "java/" "lib/" "sbin/" "../" "bin/" "lib32/")
-
- ("/home/al/fonts/" (24304 16020 254557 277000) "eot/" "ChangeLog.txt" "type1/" "INSTALL.txt" "./" "Input-Font.zip" "woff/" "truetype/" "X11/" "README.txt" "opentype/" "Input_Fonts/" "Scripts/" "svg/" "../" "cmap/" "LICENSE.txt" "fonts-go/" "cMap/")
-
- ("/home/al/fonts/Input_Fonts/" (24304 16020 170556 242000) "InputSans/" "./" "InputSerif/" "SETTINGS.txt" "InputMono/" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut29/" (24303 27107 543959 424000) "main29" "./" "main29.c" "main29.c~" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut25/" (24303 8465 585370 413000) "main25.c" "./" "main25" "main25.c~" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut24/main24/" (24303 1429 616051 348000) "./" "c" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut/tut22/" (24302 32699 141403 798000) "main22.c~" "./" "main22.c" "../" "main22")
-
- ("/home/al/Documents/Git_Projects/website/src_files/" (24301 38142 673260 290000) "./" "index.html" "index.org" "../")
-
- ("/home/" (24224 2634 292327 157000) "./" ".ecryptfs/" "lost+found/" "al/" "../")
-
- ("/usr/share/xsessions/" (24297 26652 325671 51000) "dwm.desktop" "i3.desktop" "bspwm.desktop" "./" "i3-with-shmlog.desktop" "qtile.desktop" "xfce.desktop" "herbstluftwm.desktop" "../")
-
- ("/home/al/Documents/react_practice/" (24288 7001 497000 220000) ".projectile" "es6.html" "./" "third_app/" "react_html/" "myfirstreact/" "fourth_app/" "es6.html~" "mysecondreact/" "../")
-
- ("/home/al/Documents/react_practice/fourth_app/fourth-app/src/" (24289 18211 676666 992000) "index.js" "./" "index.html" "../")
-
- ("/home/al/Documents/angular_practice/" (24291 13884 831570 318000) "./" "multi_app.html" "first.html" "first_module.html" "first_directive.html" "../" "angular_filter.html" "angular_filter.html~")
-
- ("/home/al/.config/herbstluftwm/" (24272 44934 245296 24000) "panel.sh" "./" "panel.sh~" "autostart~" "../" "autostart")
-
- ("/home/al/Documents/herb_examples/" (24270 9919 99544 297000) "savestate.sh" "lasttag.sh" "exec_on_tag.sh" "loadstate.sh" "./" "maximize.sh" "wselect.sh" "execwith.sh" "scratchpad.sh" "savestate.sh~" "layout.sh" "loadstate.sh~" "toggledualhead.sh" "keychain.sh" "windowmenu.sh" "dmenu.sh" "README" "mystate" "q3terminal.sh" "floatmon.sh" "herbstcommander.sh" "dumpbeautify.sh" "../")
-
- ("/home/al/Documents/html_practice/practice_with_git/" (24270 10981 403727 126000) ".git/" "./" "st.css" "website_1.html" "../" "rain_lorry.jpeg")
-
- ("/home/al/Documents/Projects/first_blink/" (24279 24900 873794 650000) "./" "main.c" "Makefile" "main.elf" "../" "main.hex")
-
- ("/home/al/Documents/react_practice/react_html/" (24288 2494 841935 180000) "./" "index.html~" "index.html" "../")
-
- ("/home/al/Documents/react_practice/mysecondreact/src/" (24282 39578 972136 264000) "index.js" "./" "index.html~" "index.html" "../" "index.css")
-
- ("/home/al/Pictures/background_pics/" (24270 19523 551826 396000) "anime_landscape.jpg" "min_wolf.png" "protest.jpg" "cyber_punk_setting_2.png" "min_earth.png" "dark_propane.png" "space_black.jpg" "shiny_moon.jpg" "mash_pulp.jpg" "min_astro_hello.png" "red_samurai.png" "pattern.jpg" "cyber_scene.png" "coastal_city.jpg" "min_satel.jpg" "caravan_place.png" "broad_shoulders.jpg" "min_polar.png" "lights.jpg" "empty_cartoon_bar.jpg" "movie_city.jpg" "pyramibs_cyber.png" "cyberpunk_city.jpg" "JaUimKG.png" "exist_dread.png" "train_tracks.jpg" "anime_store.jpg" "cyber_sunset.png" "krusty_krab.jpg" "skateboard_graveyard.jpg" "cyber_coldiers.jpg" "cartoon_store.png" "black_horse_quote.jpg" "head_robot.jpg" "monk.jpg" "hannibal.jpg" "space_astro.jpg" "cyberwatermelon.jpg" "blade_runner_cartooh.jpg" "old_plug_synth.jpg" "../" "./")
-
- ("/home/al/Documents/Git_Projects/work_table_light/" (24279 23816 263899 814000) "main_analog.c" "main_whitelight.c" "main_total2.c" ".git/" "./" "#main_but.c#" "main_twopot.c" "main_total2.c~" "main_total.c" ".main_tot.c.swp" "work_table_light/" "main_butcol.c" "main_color.c" "main_but.c" ".main_analog.c.swp" "Makefile" "README" "main.elf" "stepper_code/" "../" "README.md" "main_but_leds.c" "main.hex")
-
- ("/home/al/Documents/Git_Projects/rgb_sign/" (24279 23841 256404 500000) ".git/" "./" "main2.c" "Makefile" "main.elf" ".main2.c.swp" "../" "README.md" "main.hex")
-
- ("/home/al/Documents/javascript_practice/" (24278 49435 41374 859000) ".projectile" "myscript.js" "object_event.html" "throw_error.html" "./" "sec.html" "throw_error.html~" "class.html" "object.js" "array.html" "compar.html" "forloop.html" "first.html" "html_1.html" "string_1.html" "../")
-
- ("/home/al/Documents/html_practice/" (24267 53838 251790 118000) ".projectile" "practice_with_git/" "./" "space_black.jpg" "light_off_on.jpg" "cont.css" "light_off.jpg" "light_on.jpg" "first_cont.html" "first_style_sheet.css" "bspwm_rice.png" "note.txt" "train_tracks.jpg" "first.html" "#first.html#" "secratary.jpg" "forms.html" "../" "plan.webp" "rain_lorry.jpeg" "city.jpg")
-
- ("/home/al/Documents/html_practice/web_practice/practice_with_git/" (24267 37881 345438 670000) ".git/" "./" "../")
-
- ("/home/al/.emacs.d/elpa/ac-js2-20190101.933/" (24259 50568 887114 586000) "ac-js2-autoloads.el" "./" "ac-js2-pkg.el" "ac-js2.elc" "ac-js2.el" "skewer-addon.js" "ac-js2-tests.elc" "../" "ac-js2-tests.el")
-
- ("/home/al/.emacs.d/elpa/" (24267 19919 300429 146000) "yasnippet-classic-snippets-1.0.2.signed" "avy-menu-20190713.1348/" "multiple-cursors-20191210.1759/" "yasnippet-classic-snippets-1.0.2/" "hide-mode-line-20190922.115/" "use-package-20200322.2110/" "skewer-mode-20200304.1142/" "s-20180406.808/" "ac-js2-20190101.933/" "fill-column-indicator-20191109.10/" "dired-hacks-utils-20190522.950/" "epl-20180205.2049/" "dired-subtree-20180922.1615/" "popup-20160709.1429/" "doom-themes-20200521.1936/" "archives/" "smex-20151212.2209/" "which-key-20200216.1350/" "xresources-theme-20190108.1851/" "tramp-auto-auth-20191027.1419/" "yasnippet-20200413.2221/" "auctex-12.2.0/" "js2-mode-20200427.33/" "autothemer-20180920.923/" "moody-20200113.2321/" "parsebib-20200513.2352/" "ido-vertical-mode-20180618.2101/" "web-mode-20200501.1939/" "beacon-20190104.1931/" "auctex-12.2.0.signed" "pkg-info-20150517.1143/" "dumb-jump-20200518.559/" "irony-20200130.849/" "emmet-mode-20180613.341/" "bind-key-20191110.416/" "elscreen-20181009.451/" "yasnippet-snippets-20200523.1033/" "keycast-20200418.2028/" "projectile-20200517.1330/" "rainbow-mode-1.0.4.signed" "visual-regexp-20190414.814/" "expand-region-20200304.1839/" "dmenu-20190908.44/" "modus-operandi-theme-20200425.1503/" "popup-kill-ring-20131020.1854/" "modus-vivendi-theme-20200425.1503/" "tramp-2.4.3.4.signed" "buffer-move-20160615.1803/" "company-bibtex-20171105.644/" "company-c-headers-20190825.1631/" "pos-tip-20191227.1356/" "rainbow-delimiters-20191018.1233/" "angular-snippets-20140514.523/" "peep-dired-20160321.2237/" "gruvbox-theme-20200514.740/" "company-auctex-20180725.1912/" "gnupg/" "company-20200510.1614/" "dash-20200426.2244/" "elscreen-tab-20190203.1619/" "tramp-2.4.3.4/" "hungry-delete-20200309.209/" "flycheck-20200516.1719/" "company-irony-c-headers-20151018.909/" "company-irony-20190124.2346/" "avy-20200422.1153/" "rainbow-mode-1.0.4/" "simple-httpd-20191103.1446/" "../" "./")
-
- ("/home/al/.cache/wal/" (24267 21019 830318 422000) "colors-speedcrunch.json" "colors.hs" "colors-wal.vim" "colors-konsole.colorscheme" "./" "colors-tty.sh" "wal" "colors-wal-dwm.h" "colors-waybar.css" "colors.scss" "colors.sh" "colors-sway" "colors-rofi-dark.rasi" "colors-wal-st.h" "colors-oomox" "colors" "colors.Xresources" "colors-wal-tabbed.h" "colors-kitty.conf" "colors.json" "sequences" "colors.yml" "colors-putty.reg" "../" "schemes/" "colors.css" "colors-rofi-light.rasi" "colors-wal-dmenu.h")
-
- ("/home/al/.cache/" (24266 59441 607471 516000) "TeamViewer/" "babl/" "thumbnails/" "xfce4/" "mozilla/" "sessions/" "./" "xreader/" "flatpak/" "obexd/" "qt_compose_cache_little_endian_775ccb91c8f84539a863dbbb02766c59" "wal/" "dmenu_run" "common-lisp/" "event-sound-cache.tdb.775ccb91c8f84539a863dbbb02766c59.x86_64-pc-linux-gnu" "netbeans/" "pip/" "transmission/" "dconf/" "wine/" "thunderbird/" "docky/" "gstreamer-1.0/" "google-chrome/" "BraveSoftware/" "qtshadercache/" "mesa_shader_cache/" "JNA/" "node-gyp/" "motd.legal-displayed" "../" "mintinstall/" "icon-cache.kcache" "gegl-0.3/" "qBittorrent/" "fontconfig/")
-
- ("/home/al/Pictures/wallpapers/" (24259 54749 961099 508000) "./" "wallpaper.jpg" "../" "wallpaper.png")
-
- ("/home/al/Pictures/" (24264 31442 303411 238000) "34470974_Screenshot_20200520-155705.png" "davor_recommend.png" "./" "buying_course.png" "bspwm_rice.png" "location_of_jvm_and_glassfish.png" "location_of_jvm_and_netbeans.png" "verynice.png" "background_pics/" "okay.png" "wtf.png" "../" "udemy.png" "error.png" "wallpapers/")
-
- ("/media/al/" (24266 52930 661771 157000) "./" "Backup Plus/" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut_#6/" (24266 49247 614424 894000) "./" "main_6.c~" "../" "main_6.c")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut10/" (24266 49487 243633 578000) "./" "../")
-
- ("/home/al/Documents/c_practice/cprogramming_in_linux/tut_#9/" (24266 49482 475529 878000) "./" "main_9.c" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

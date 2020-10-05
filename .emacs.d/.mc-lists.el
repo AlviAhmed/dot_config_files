@@ -7,11 +7,13 @@
         beginning-of-visual-line
         c-electric-delete-forward
         c-electric-paren
+        c-electric-semi&comma
         c-electric-star
         c-indent-line-or-region
         dabbrev-expand
         dumb-jump-go
         electric-pair-delete-pair
+        elscreen-next
         emmet-expand-line
         end-of-visual-line
         forward-sentence
@@ -25,6 +27,7 @@
         my-insert-tab-char
         org-agenda-show-and-scroll-up
         org-beginning-of-line
+        org-ctrl-c-ctrl-c
         org-cycle
         org-delete-char
         org-forward-sentence
@@ -34,6 +37,7 @@
         slime-autodoc-space
         text-scale-adjust
         toggle-input-method
+        wdired-finish-edit
         yas-expand
         ))
 

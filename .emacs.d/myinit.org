@@ -17,6 +17,16 @@
   #+RESULTS:
   : t
 
+* OpenWith config 
+#+BEGIN_SRC emacs-lisp
+(require 'openwith)
+(openwith-mode t)
+(setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
+#+END_SRC
+
+#+RESULTS:
+| \.pdf\' | okular | (file) |
+
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
@@ -28,6 +38,17 @@
 
 #+RESULTS:
 : revert-buffer
+
+* Emacs html export variables 
+#+BEGIN_SRC emacs-lisp 
+
+(setq org-html-html5-fancy t) 
+
+
+#+END_SRC
+
+#+RESULTS:
+: t
 
 * Changing Emacs Defaults
 ** Highlighting Parentheses
@@ -308,10 +329,10 @@
 	 (setq company-selection-wrap-around t) 
 	 (setq company-require-match 'never)  
 	 (setq company-dabbrev-downcase nil)
-	 (define-key company-active-map (kbd "M-n") nil) 
-	 (define-key company-active-map (kbd "M-p") nil) 
-	 (define-key company-active-map (kbd "C-n") #'company-select-next) 
-	 (define-key company-active-map (kbd "C-p") #'company-select-previous) 
+	 (define-key company-active-map (kbd "C-n") nil) 
+	 (define-key company-active-map (kbd "C-p") nil) 
+	 (define-key company-active-map (kbd "M-n") #'company-select-next) 
+	 (define-key company-active-map (kbd "M-p") #'company-select-previous) 
 	 (add-to-list 'company-backends 'company-capf)
 	 (add-to-list 'company-backends 'company-dabbrev)
 	 (add-to-list 'company-backends 'company-nxml)

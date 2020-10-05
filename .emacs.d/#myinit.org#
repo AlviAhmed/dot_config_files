@@ -6,7 +6,7 @@
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode -1)
+(menu-bar-mode 1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -14,10 +14,42 @@
 (column-number-mode 1) 
   #+END_SRC
 
+  #+RESULTS:
+  : t
+
+* OpenWith config 
+#+BEGIN_SRC emacs-lisp
+(require 'openwith)
+(openwith-mode t)
+(setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
+#+END_SRC
+
+#+RESULTS:
+| \.pdf\' | okular | (file) |
+
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
+* Revert Buffer to F5 
+#+BEGIN_SRC emacs-lisp 
+ (global-set-key (kbd "<f5>") 'revert-buffer)
+#+END_SRC
+
+#+RESULTS:
+: revert-buffer
+
+* Emacs html export variables 
+#+BEGIN_SRC emacs-lisp 
+
+(setq org-html-html5-fancy t) 
+
+
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Changing Emacs Defaults
 ** Highlighting Parentheses
    #+BEGIN_SRC emacs-lisp
@@ -95,6 +127,15 @@
 #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 #+END_SRC
+* Preventing Lag When Scrolling 
+#+BEGIN_SRC emacs-lisp 
+(setq jit-lock-defer-time 0)
+(setq fast-but-imprecise-scrolling t)
+#+END_SRC
+
+#+RESULTS:
+: t
+
 * Abbrev 
 #+BEGIN_SRC emacs-lisp 
 (setq save-abbrevs 'silently)
@@ -288,16 +329,20 @@
 	 (setq company-selection-wrap-around t) 
 	 (setq company-require-match 'never)  
 	 (setq company-dabbrev-downcase nil)
-	 (define-key company-active-map (kbd "M-n") nil) 
-	 (define-key company-active-map (kbd "M-p") nil) 
-	 (define-key company-active-map (kbd "C-n") #'company-select-next) 
-	 (define-key company-active-map (kbd "C-p") #'company-select-previous) 
+	 (define-key company-active-map (kbd "C-n") nil) 
+	 (define-key company-active-map (kbd "C-p") nil) 
+	 (define-key company-active-map (kbd "M-n") #'company-select-next) 
+	 (define-key company-active-map (kbd "M-p") #'company-select-previous) 
 	 (add-to-list 'company-backends 'company-capf)
 	 (add-to-list 'company-backends 'company-dabbrev)
 	 (add-to-list 'company-backends 'company-nxml)
 	 (add-to-list 'company-backends 'company-files) 
 	 (add-to-list 'company-backends 'company-anaconda))
   #+END_SRC
+
+  #+RESULTS:
+  : t
+
 ** Company Jedi
 ** Company Irony
    #+BEGIN_SRC emacs-lisp
@@ -381,6 +426,10 @@
 	 (define-key popup-menu-keymap (kbd "M-n") #'popup-next)
 	 (define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
   #+END_SRC
+
+  #+RESULTS:
+  : t
+
 ** Kill ring
    #+BEGIN_SRC emacs-lisp
   (use-package popup-kill-ring 
@@ -577,11 +626,9 @@
   #+END_SRC
 * Org Agenda on Startup 
 #+BEGIN_SRC emacs-lisp
-(add-hook 'after-init-hook 'org-agenda-list)
 #+END_SRC
 
 #+RESULTS:
-| org-agenda-list | x-wm-set-size-hint | global-company-mode | tramp-register-archive-file-name-handler |
 
 * Org refile 
   #+BEGIN_SRC emacs-lisp
@@ -651,8 +698,8 @@
 	 (setq org-agenda-files '(
 "~/Dropbox/Sync/daily_todo.org" 
 "~/Dropbox/Sync/exercise.org" 
-"~/Dropbox/Sync/priorities.org"  
-
+"~/Dropbox/Sync/priorities.org"   
+"~/Dropbox/Sync/islam_research.org"   
 ))
 
 #+END_SRC

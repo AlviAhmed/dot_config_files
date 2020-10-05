@@ -37,10 +37,16 @@
  '(objed-cursor-color "#964C7B")
  '(org-agenda-files
    (quote
-    ("~/Dropbox/Sync/priorities.org" "~/Dropbox/Sync/exercise.org" "~/Dropbox/Sync/religion.org" "~/Dropbox/Sync/backburner.org" "~/Dropbox/Sync/inbox.org" "~/Dropbox/Sync/daily_todo.org")))
+    ("~/Dropbox/Sync/TODO.org" "~/Dropbox/Sync/inbox.org" "~/Dropbox/Sync/note_self.org" "~/Dropbox/Sync/backburner.org")))
+ '(org-file-apps
+   (quote
+    ((auto-mode . emacs)
+     ("\\.mm\\'" . default)
+     ("\\.x?html?\\'" . "brave-browser %s")
+     ("\\.pdf\\'" . "okular %s"))))
  '(package-selected-packages
    (quote
-    (auctex flyspell-correct-ivy vlf cdlatex company-math latex-math-preview lsp-latex gdscript-mode highlight-indent-guides zeno-theme yasnippet-snippets yasnippet-classic-snippets xresources-theme which-key web-mode visual-regexp vimish-fold use-package tramp-auto-auth tide smex react-snippets rainbow-mode rainbow-delimiters projectile popup-kill-ring peep-dired org-babel-eval-in-repl org-ac multiple-cursors moody modus-vivendi-theme modus-operandi-theme keycast js-react-redux-yasnippets java-snippets ivy-yasnippet ido-vertical-mode hungry-delete hideshow-org hide-mode-line gruvbox-theme fzf fill-column-indicator expand-region emmet-mode elscreen-tab dumb-jump doom-themes dmenu django-snippets dired-subtree competitive-programming-snippets company-jedi company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex company-anaconda buster-snippets buffer-move beacon avy-menu apropospriate-theme angular-snippets ac-js2)))
+    (wgrep openwith htmlize auctex flyspell-correct-ivy vlf cdlatex company-math latex-math-preview lsp-latex gdscript-mode highlight-indent-guides zeno-theme yasnippet-snippets yasnippet-classic-snippets xresources-theme which-key web-mode visual-regexp vimish-fold use-package tramp-auto-auth tide smex react-snippets rainbow-mode rainbow-delimiters projectile popup-kill-ring peep-dired org-babel-eval-in-repl org-ac multiple-cursors moody modus-vivendi-theme modus-operandi-theme keycast js-react-redux-yasnippets java-snippets ivy-yasnippet ido-vertical-mode hungry-delete hideshow-org hide-mode-line gruvbox-theme fzf fill-column-indicator expand-region emmet-mode elscreen-tab dumb-jump doom-themes dmenu django-snippets dired-subtree competitive-programming-snippets company-jedi company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex company-anaconda buster-snippets buffer-move beacon avy-menu apropospriate-theme angular-snippets ac-js2)))
  '(pdf-view-midnight-colors (cons "#FFFFFF" "#27212E"))
  '(pos-tip-background-color "#3a513a513a51")
  '(pos-tip-foreground-color "#9E9E9E")

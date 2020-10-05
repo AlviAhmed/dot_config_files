@@ -11,9 +11,15 @@
 (line-number-mode 1)
 (column-number-mode 1)
 
+(require 'openwith)
+(openwith-mode t)
+(setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
+
 (add-hook 'focus-out-hook #'garbage-collect)
 
 (global-set-key (kbd "<f5>") 'revert-buffer)
+
+(setq org-html-html5-fancy t)
 
 (show-paren-mode 1)
 
@@ -208,10 +214,10 @@
 	(setq company-selection-wrap-around t) 
 	(setq company-require-match 'never)  
 	(setq company-dabbrev-downcase nil)
-	(define-key company-active-map (kbd "M-n") nil) 
-	(define-key company-active-map (kbd "M-p") nil) 
-	(define-key company-active-map (kbd "C-n") #'company-select-next) 
-	(define-key company-active-map (kbd "C-p") #'company-select-previous) 
+	(define-key company-active-map (kbd "C-n") nil) 
+	(define-key company-active-map (kbd "C-p") nil) 
+	(define-key company-active-map (kbd "M-n") #'company-select-next) 
+	(define-key company-active-map (kbd "M-p") #'company-select-previous) 
 	(add-to-list 'company-backends 'company-capf)
 	(add-to-list 'company-backends 'company-dabbrev)
 	(add-to-list 'company-backends 'company-nxml)
