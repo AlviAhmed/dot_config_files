@@ -47,11 +47,18 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/"
+ "/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/"
+ "/home/al/Documents/Projects/avr_usart/"
+ "/home/al/Documents/Git_Projects/website/DOM/"
+ "/home/al/.emacs.d/elpa/yasnippet-classic-snippets-1.0.2/snippets/html-mode/header/"
+ "/home/al/.emacs.d/"
  "/ssh:root@alviahmed.com:/var/www/alweb/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/css/"
+ "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/sys_c_alu/"
  "/home/al/Documents/Git_Projects/Bank_Manager/"
  "/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/"
  "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/"
- "/ssh:root@alviahmed.com:/var/www/alweb/css/"
  "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/"
  "/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/5axis_ISR/"
  "/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/"
@@ -90,50 +97,65 @@
  "/home/al/.ssh/"
  "/home/al/Documents/python_davor/Average Filter/Av_filt/Av_filt/"
  "/home/al/Documents/old_website_pulled/"
- "/home/al/Videos/cp_debates/faouriz_terrorism/"
- "/home/al/Documents/godot_projects/rpg_godot_project/godot_rpg/Godot Rpg/"
- "/home/al/Documents/godot_projects/godot_first_complete/GodotTestProject/"
- "/home/al/Documents/godot_projects/first_godot_project/"
- "/home/al/Documents/Git_Projects/website/Bootstrap-installation/"
- "/home/al/Documents/Git_Projects/website/"
- "/home/al/bin/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "Makefile"
+ "mainrx.c"
+ "README.org"
+ "maintx.c"
+ "index.html"
+ "styles.css"
+ "script"
+ "myinit.el"
  "contact.html"
  "proj_main.html"
- "contact.css"
- "output.txt"
- "5axis_main.c"
- "proj_page_shared.css"
- "path_front.gd"
- "combiner_b_front.gd"
- "mirror-beam.gd"
- "splitter_front.gd"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/" (24454 53795 470007 563000) "./" ".mainrx.c.swp" "mainrx.c~" "mainrx.c" "Makefile" "maintx.c" "main.elf" "Makefile~" "../" "maintx.c~" "main.hex")
+
+ ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/" (24454 52551 279805 226000) "schematic/" ".git/" "./" "avr_usart/" "duty_cycle/" "README.org" "../" "README.md")
+
+ ("/home/al/Documents/Projects/avr_usart/" (24454 51945 626164 524000) "./" ".mainrx.c.swp" "mainrx.c~" "mainrx.c" "Makefile" "maintx.c" "main.elf" "Makefile~" "../" "maintx.c~" "main.hex")
+
+ ("/home/al/Documents/Git_Projects/website/DOM/" (24453 32371 753613 66000) "index.js~" "index.js" "./" "index.html~" "DOM Challenge Starting Files/" "index.html" "styles.css" "styles.css~" "__MACOSX/" "DOM Challenge Starting Files.zip" "../")
+
+ ("/home/al/.emacs.d/elpa/yasnippet-classic-snippets-1.0.2/snippets/html-mode/header/" (24266 37717 83099 662000) "h3" "./" "h5" "h6" "h4" "h2" "../" "h1")
+
+ ("/home/al/Videos/" (24447 59013 930564 172000) "godot_android.txt" "ROS/" "AVR USART (Serial Communication) Explained-KnyyQujvcBo.mp4" "nginx/" "godot-raycast2d/" "The Supremes Finger Family _ Nursery Rhymes Songs For Babies _ Kids Rhyme-gRDRXqK-Tew.mkv" "programming_and_tech_videos/" "calisthenics/" "godot-instancing/" "Mysterium Fasces Ep. 15 - Jay Dyer-Eo3icDkJjj8.webm" "Cartesian Graph (2D) & Transforms-sChM51ibm5k.mkv" "godot_audio/" "links_powermetal.txt~" "cp_debates/" "How to Cook Steak Perfectly Every Time _ The Stay At Home Chef-nsw0Px-Pho8.webm" "sam_shamoun/" "godot_android_vids/" "Mathew/" "godot_laser/" "[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/" "ryerson-ai-workshop/" "Lucid Dreaming - Sleep Hypnosis Session - By Thomas Hall-dYztV2WNBm4.mkv" "elisp_lisp tutorial/" "orgmode_rainer/" "theology/" "downloaded_vids/" "Introduction to Godot (Zenva Davor)/" "file_example_MP4_1920_18MG.mp4" "uncle_dave_emacs/" "Beginners Guide To Cooking - Learn The Basics-Jj1fhYZJjek.mkv" "godot-area2d/" "android_studio/" "GD-Like-Script/" "[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" "ABC Song + More Nursery Rhymes & Kids Songs - CoComelon-71h8MZshGSs.mkv" "../" "./")
+
+ ("/home/al/Documents/Git_Projects/website_actual/images/program_icons/" (24443 34505 858692 472000) "./" "cplus.png" "python.webp" "java.png" "cplus.svg" "bash.jpg" "../" "c.png")
+
+ ("/home/al/Documents/Git_Projects/website_actual/" (24443 34505 858692 472000) ".git/" "./" "css/" "index.html" "projects.html" "../" "contact.html" "images/")
+
+ ("/home/al/Documents/Git_Projects/website_actual/css/" (24443 34505 850692 327000) ".projectile" "./" "styles.css" "styles.css~" "../")
+
+ ("/home/al/bash_scripts/" (24447 34669 830455 192000) "mouse_precise.sh" ".projectile" "dwmbar.sh" "argcmd.sh" "./" ".#setting_wallpaper.sh" "home_backup.sh" "documents_backup.sh~" "eagle_start.sh" "better_backup/" "eagle_start~" "emacs_bg.sh" "mouse_sensitivity.sh" "changing_brightness_hardware.sh" "dotfile_backup.sh" "performance.sh" "changing_brightness_hardware.sh~" "wm_management.sh" "documents_backup.sh" "godot_laser_game_backup.sh" "alarm_script/" "netres.sh" "#setting_wallpaper.sh#" "toggle_emacs_theme.sh" "security_prompt.sh" "setting_wallpaper.sh" "reptex.sh" "../" "dwm_volume.sh" "tabc.sh" "monitor_setting/" "security.sh" "eagle_start.sh~" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
+
+ ("/home/al/Dropbox/Sync/" (24450 12340 208185 136000) "random_capture.org" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "exercise.org" "#note_self.org#" "priorities.org" "useful_linux_commands.org" "useful_links_notes.org" "daily_todo.org" "project.org" "extra_rem.org" "inbox.org~" "scratch.org" "getting_avrcode_work_arduino/" "TODO.org" "TaskManager.org" "islam_research.org" "game_ideas.org" "programming.org" "resume_interview_ideas.org" "cooking.org" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "programming_task.org" "other_notes/" "note_self.org" "g1_test.org" "religion.org" "exercise_notes.org" "sched_org.org" "TODO.org~" "todo_daily.org" "laser_game_notes.org" "../" "./")
+
+ ("/home/al/" (24452 57798 417597 812000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "extra.pdf" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "bootstrap-4.5.0-examples.zip" ".swp" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "eagle-9.6.2/" "mpv-shot0003.jpg" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" "battery.svg" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "electronic documents/" ".minirc.dfl" "icecat-60.7.0-gnu1.tar.bz2" "th.html" "backup/" ".aspell.en.pws" ".xprofile" "website_improvments.org" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "AndroidStudioProjects/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "bootstrap-4.5.0-dist.zip" ".emacs.d/" "minicom.log" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" "bills/" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" "EAGLE/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "pic/" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" "resume_revature.pdf" "mpv-shot0004.jpg" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" "battery_wallpaper/" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
+
+ ("/home/al/Dropbox/Sync/other_notes/" (24448 17658 835356 82000) "useful_notes.org" "useful_linux_commands.org~" "personal_website_notes.org" "arrows.png" "latex_shell_commands.org" "./" "exercise.org" "useful_linux_commands.org" "useful_links_notes.org" "islam_research.org" "game_ideas.org" "resume_interview_ideas.org" "cooking.org" "exercise_info/" "useful_emacs_notes.org" "christ_research.org" "misc_symbols.png" "useful_programming_notes.org" "exercise_notes.org~" "greek_letters.png" "personal_website_notes.org~" "religion.org" "exercise_notes.org" "../" "binary_sym.png" "laser_game_notes.org")
+
+ ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/" (24445 43393 852111 648000) ".git/" "./" "5axis_ISR/" "2axis/" "#README.org#" "README.org" "3axis/" "../" "README.org~")
+
+ ("/home/al/.emacs.d/" (24452 57848 619018 181000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "%backup%~" "srecode-map.el" "myinit.org_archive" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "abbrev_defs" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
+
+ ("/home/al/Documents/Git_Projects/website/" (24437 39731 442498 59000) "Bootstrap-installation/" ".git/" "./" "css/" "index.html" ".vscode/" "projects.html~" "testingtesting123.txt" "projects.html" "README.org" "Javascript/" "CSS-My-Site/" "../" "contact.html" "images/")
+
+ ("/home/al/Documents/Git_Projects/website/Javascript/" (24438 64326 469217 78000) "./" "test.js" "function_parameters.js" "../" "function_parameters.js~")
+
+ ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/3axis/" (24439 23679 915865 406000) "./" "3axis_main.c~" "3axis_main.c" "output.txt" "output.txt~" "3axis_main" "../" "3axis_result.png")
+
  ("/home/al/Documents/Git_Projects/Bank_Manager/" (24440 11461 256481 309000) ".git/" "./" "Lab5_project/" "README.org" "../" "README.org~" "images/")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/" (ftp . 444920.6526772054) "images/" "personal_website_notes.org~" "proj_main.html" "../" "proj_pages/" "index.html" "index.html~" ".git/" "proj_main.html~" "personal_website_notes.org" "contact.html" "contact.html~" "./" "css/")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/" (ftp . 444920.65252038656) "org_proj_template.html" "java_bank/" "waveform_generator/" "sys_c_alu/" "../" "cortexm3_media_center/" "sys_c_jpg_enc/" "proj_page_shared.css~" "org_proj_template.org" "sys_c_de1_soc/" "sys_c_multa/" "org_proj_template.html~" "laser_game/" "initial.org" "avr_cnc_page/" ".projectile" "./" "org_proj_template.org~" "proj_page_shared.css" "edp_5axis/" "design_amp/")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/java_bank/" (ftp . 444920.65214369906) "images/" "java_bank.html" "../" "java_bank.html~" "./")
 
  ("/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/" (24411 44405 252221 875000) "ManagerController.java~" "MainController.java~" "Platinum.java" "Manager.java~" "./" "BankAppGui.java~" "State.java~" "State.java" "BankAppGui.java" "Gold.java" "out/" "Customer.java~" "Manager.java" "Customer.java" "Customer.fxml" "Silver.java~" "Gold.java~" "CustomerController.java~" "CustomerController.java" "MainController.java" "ManagerController.java" "Manager.fxml~" "../" "Main.fxml" "Platinum.java~" "Silver.java" "Manager.fxml")
 
- ("/ssh:root@alviahmed.com:/var/www/alweb/css/" (ftp . 444909.18951641355) "own.txt" "../" "contact.css" "styles.css" "contact.css~" "styles_projindiv.css" ".projectile" "styles.css~" "#styles.css#" "./")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/images/" (ftp . 444909.1453365415) "../" "5axis_result.png" "2axis_result.png" "3axis_result.png" "2dbresen.png" "3dbresen.png" "./")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/" (ftp . 444908.29976517026) "images/" "../" "edp_5axis.html" "edp_5axis.html~" "./")
-
  ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/5axis_ISR/" (24439 34065 35230 876000) "./" "5axis_result.png" "main.c" "main" "output.txt" "../" "main.c~")
-
- ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/" (24439 33817 602263 14000) ".git/" "./" "5axis_ISR/" "2axis/" "README.org" "3axis/" "../" "README.org~")
 
  ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/" (24439 32487 819484 467000) "./" "nbproject/" ".dep.inc" "main.c" "main" "build/" "Makefile" "dist/" "TAGS" "../" "main.c~")
 
@@ -149,8 +171,6 @@
 
  ("/home/al/Documents/Git_Projects/" (24439 13849 892022 29000) "website_colors/" "Bank_Manager/" "website/" "dot_config_files/" "./" "DE1_SoC/" "Integer_Arithmetic_ALU/" "Digital_PID_Controller/" "NotoColorEmoji.ttf" "Bresenham_Sim_5axis/" "hack_nerd_fonts/" "work_table_light/" "Shift-Register-Sign/" "bash_scripts/" "i3lock/" "source-code-pro/" "CortexM3_Media_Center/" "Intro_Signal_Processing/" "Multiplier_Accelerator/" "Laser_Game/" "NotoEmoji-Regular.ttf" "RC_tiny85/" "rgb_sign/" "JPEG_Encoder_Decoder_Unit/" "Designing-an-Audio-Amplifier/" "../" "Waveform_Generator/" "MediaAuth_ENF/")
 
- ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/3axis/" (24439 23537 556933 189000) "./" "3axis_main.c~" "3axis_main.c" "output.txt" "output.txt~" "3axis_main" "../" "3axis_result.png")
-
  ("/home/al/Documents/c_practice/bresenham_algorithm/3axis/" (24439 23057 343045 971000) "./" "3axis_main.c~" "3axis_main.c" "3axis_main" "../")
 
  ("/home/al/Documents/c_practice/bresenham_algorithm/2axis/" (24439 22605 953757 973000) "2axis_main.c" "2axis_main" "./" "comp_main.c~" "output.txt" "comp_main" "../" "comp_main.c" "2axis_main.c~")
@@ -161,17 +181,9 @@
 
  ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/" (24180 10350 0 0) "al/" "../" "./")
 
- ("/media/al/Backup Plus/" (0 0 0 0) "alvi laptop stuffs/" "Alvi laptop pics/" "lock_cube.txt" "$RECYCLE.BIN/" "System Volume Information/" "linux_experimental_backup_with_terminal/" "edp_drive_backup/" "Udemy_Courses/" "Start_Here_Mac.app/" "Seagate/" "Warranty.pdf" "Start_Here_Win.exe" "Autorun.inf" "._" ".VolumeIcon.ico" ".VolumeIcon.icns" ".Trash-1000/" "software/" "../" "./")
-
  ("/media/al/" (24439 14505 637568 318000) "./" "Backup Plus/" "../")
 
  ("/media/" (24434 29854 883325 856000) "./" "al/" "../")
-
- ("/home/al/" (24439 13720 193342 940000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "firebase.json" "extra.pdf" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "bootstrap-4.5.0-examples.zip" ".swp" ".offlineimaprc" ".fzf.bash" ".bash_aliases" ".thumbnails/" "emotion-form.png" "mpv-shot0003.jpg" "android_sumon_backup/" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "netbeans-8.2/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "icecat-60.7.0-gnu1.tar.bz2" "th.html" ".aspell.en.pws" ".xprofile" "website_improvments.org" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "x2x-dbgsym_1.30-7_amd64.ddeb" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "AndroidStudioProjects/" "frostwire-6.8.1.all.deb" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "bootstrap-4.5.0-dist.zip" ".emacs.d/" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" "bills/" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "#.bash_aliases#" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" ".gphoto/" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" "netbeans-8.1-linux.sh" ".Xresources" "resume_revature.pdf" ".ssh/" ".offlineimaprc~" "Videos/" "jdk-14.0.1_linux-x64_bin.deb" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" ".xsession-errors" "../" "./")
-
- ("/home/al/Dropbox/Sync/other_notes/" (24439 3217 523323 213000) "useful_notes.org" "useful_linux_commands.org~" "personal_website_notes.org" "arrows.png" "latex_shell_commands.org" "./" "exercise.org" "useful_linux_commands.org" "useful_links_notes.org" "islam_research.org" "game_ideas.org" "resume_interview_ideas.org" "cooking.org" "exercise_info/" "useful_emacs_notes.org" "christ_research.org" "misc_symbols.png" "useful_programming_notes.org" "greek_letters.png" "personal_website_notes.org~" "religion.org" "exercise_notes.org" "../" "binary_sym.png" "laser_game_notes.org")
-
- ("/home/al/Documents/Git_Projects/website/Javascript/" (24438 63531 657546 73000) "./" "test.js" ".#function_parameters.js" "function_parameters.js" "../")
 
  ("/home/al/Documents/Git_Projects/website_actual/proj_pages/" (24406 19685 995940 635000) "./" "design_amp/" "org_proj_template.org~" "laser_game/" "org_proj_template.html" "org_proj_template.org" "proj_page_template.html" "initial.org" "sys_c_multa/" "sys_c_alu/" "proj_page_shared.css" "../" "org_proj_template.html~" "avr_cnc_page/")
 
@@ -181,17 +193,7 @@
 
  ("/home/al/Documents/c_practice/socket_programming/" (24395 51687 809645 678000) "./" "udemy_tut/" "../")
 
- ("/home/al/.emacs.d/" (24406 18023 627620 30000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "%backup%~" "srecode-map.el" "myinit.org_archive" "myinit.org~" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "abbrev_defs" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
-
  ("/home/al/bin/" (24395 53404 565992 817000) "android_start.sh~" "godot_start.sh" "./" "mp" "glgb" "br" "tem" "herbstclient" "herbstluftwm" "bgpape" "godot_start.sh~" "db" "ms" "dfb" "term_emacs.sh~" "mon" "../" "android_start.sh" "tabc.sh")
-
- ("/home/al/Documents/Git_Projects/website_actual/" (24404 52116 538303 130000) ".git/" "./" "css/" "proj_main.html~" "index.html" "proj_main.html" "proj_pages/" "audio-amp-projpg.org" "audio-amp-projpg.html" "../" "contact.html" "images/")
-
- ("/home/al/Documents/Git_Projects/website_actual/css/" (24404 50194 827231 291000) ".projectile" "contact.css" "./" "own.txt" "styles.css" "contact.css~" "styles.css~" "styles_projindiv.css" "../")
-
- ("/home/al/bash_scripts/" (24405 15221 945382 949000) "mouse_precise.sh" ".projectile" "dwmbar.sh" "argcmd.sh" "./" "home_backup.sh" "documents_backup.sh~" "emacs_bg.sh" "mouse_sensitivity.sh" "cron_trial.sh" "changing_brightness_hardware.sh" "dotfile_backup.sh" "performance.sh" "changing_brightness_hardware.sh~" "wm_management.sh" "documents_backup.sh" "godot_laser_game_backup.sh" "alarm_script/" "netres.sh" "toggle_emacs_theme.sh" "security_prompt.sh" "setting_wallpaper.sh" "reptex.sh" "../" "dwm_volume.sh" "tabc.sh" "monitor_setting/" "security.sh" "powersave.sh" "extra_snippets.txt" "hidden_node.sh")
-
- ("/home/al/Dropbox/Sync/" (24406 3453 308075 992000) "random_capture.org" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "exercise.org" "TaskManager.org~" "useful_linux_commands.org" "laser_game_notes.org~" "useful_links_notes.org" "project.org" "TaskManager.org" "NEARFUTURE_TODO.org~" "islam_research.org" "#TaskManager.org#" "programming.org" "resume_interview_ideas.org" "cooking.org" "resume_interview_ideas.org~" "exercise_info/" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "exercise_notes.org~" "other_notes/" "note_self.org" "g1_test.org" "personal_website_notes.org~" "exercise_notes.org" "#personal_website_notes.org#" "laser_game_notes.org" "NEARFUTURE_TODO.org" "../" "./")
 
  ("/home/al/Documents/godot_projects/laser_effect_demo/" (24401 20490 763751 196000) "mirror-sprite.gd" "combiner.tscn" "door.gd" "splitter_front.gd" "door.tscn" "default_env.tres" "combiner-sprite.gd" "laser_end.gd" "project.godot" "mirror-front.gd" "combiner_b_front.gd" "icon.png.import" "splitter-sprite.gd~" "#whole_mirror.gd#" "laser_beam.gd" "mirror-beam-support.tscn" "door_assets/" ".import/" "splitter_combiner_assets/" "icon.png" "path_splitter.tscn" "mirror_assets/" "combiner-sprite.gd~" "path_splitter.gd" "laser_beam.tscn" "whole_mirror.tscn" "splitter.tscn" "beam-starter.tscn" "path_splitter_sprite.gd~" "whole_splitter.gd" "mirror-beam.tscn" "laser_assets/" "splitter-sprite.gd" "path_splitter_sprite.gd" "World.tscn" "path_front.gd" "whole_mirror.gd" "combiner_a_front.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "combiner.gd" "splitter.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
 
@@ -208,8 +210,6 @@
  ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/01 Pointer Basics/" (24264 54208 414703 181000) "007 Indirection-en.srt" "007 Indirection.mp4" "./" "008 Study Notes  Step One.html" "006 Pointer variables.mp4" "001 What is this course about.mp4" "008 C-Pointers-Study-Notes-Step-One.pdf" "004 POINTERS-SOURCE-CODE.zip" "002 How to use this course.mp4" "001 What is this course about-en.srt" "006 Pointer variables-en.srt" "005 What is a pointer-en.srt" "003 ReadMeAndFAQ.pdf" "004 Source Code Archive.html" "003 Course Notes and FAQ.html" "002 How to use this course-en.srt" "../" "005 What is a pointer.mp4")
 
  ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" (24264 47091 122829 228000) "./" "01 Pointer Basics/" "[FreeCourseSite.com].url" "[FreeCourseSite.com].txt" "03 Lists and data structures/" "[HaxTech.me].txt" "04 Common Pointer Problems/" "../" "02 Addresses and Indirection/" "[HaxTech.me].url")
-
- ("/home/al/Videos/" (24395 59739 732040 703000) "godot_android.txt" "nginx/" "godot-raycast2d/" "The Supremes Finger Family _ Nursery Rhymes Songs For Babies _ Kids Rhyme-gRDRXqK-Tew.mkv" "programming_and_tech_videos/" "calisthenics/" "godot-instancing/" "Mysterium Fasces Ep. 15 - Jay Dyer-Eo3icDkJjj8.webm" "Cartesian Graph (2D) & Transforms-sChM51ibm5k.mkv" "godot_audio/" "links_powermetal.txt~" "cp_debates/" "How to Cook Steak Perfectly Every Time _ The Stay At Home Chef-nsw0Px-Pho8.webm" "sam_shamoun/" "godot_android_vids/" "godot_laser/" "[FreeAllCourse.Com] Udemy - The Complete 2020 Web Development Bootcamp/" "ryerson-ai-workshop/" "Lucid Dreaming - Sleep Hypnosis Session - By Thomas Hall-dYztV2WNBm4.mkv" "elisp_lisp tutorial/" "orgmode_rainer/" "theology/" "downloaded_vids/" "Introduction to Godot (Zenva Davor)/" "file_example_MP4_1920_18MG.mp4" "uncle_dave_emacs/" "Beginners Guide To Cooking - Learn The Basics-Jj1fhYZJjek.mkv" "godot-area2d/" "android_studio/" "GD-Like-Script/" "[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" "ABC Song + More Nursery Rhymes & Kids Songs - CoComelon-71h8MZshGSs.mkv" "../" "./")
 
  ("/home/al/Videos/[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" (24264 32058 365143 235000) "02 Socket Programming Basics/" "./" "04 Summary/" "FreeTutorials.Eu.html" "03 HTTP Protocol/" "Torrent Downloaded From GloDls.to.txt" "Discuss.FreeTutorials.Us.html" "[TGx]Downloaded from torrentgalaxy.org.txt" "How you can help Team-FTU.txt" "../" "01 Introduction/" "FreeCoursesOnline.Me.html")
 
@@ -234,8 +234,6 @@
  ("/home/al/Documents/Git_Projects/website_actual/proj_pages/design-amp/" (24394 37047 121845 870000) "./" "../")
 
  ("/home/al/Documents/Git_Projects/website_actual/hackaday_github_proj_info/" (24394 36428 408370 833000) "./" "avr-cnc.html" "weborg.org" "avr-cnc.html~" "../" "avr-cnc.org" "weborg.org~")
-
- ("/home/al/Documents/Git_Projects/website_actual/images/program_icons/" (24392 63892 235733 868000) "555.svg.2020_08_28_07_59_41.0.svg" "./" "cplus.png" "555.svg.2020_08_28_08_16_37.0.svg" "python.webp" "java.png" "555.png" "cplus.svg" "code.png" "555.svg.2020_08_28_08_02_22.0.svg" "mixed.png" "bash.jpg" "../" "mixed.xcf" "code.svg" "c.png" "555.svg")
 
  ("/home/al/Documents/Git_Projects/website_actual/images/" (24391 38461 937329 135000) "cloud.png" "./" "computer.png" "rnbl.jpg" "chillies.png" "circle-cropped.png" "logo.png" "project_images/" "mountain.png" "../" "logo.xcf" "program_icons/")
 
@@ -268,8 +266,6 @@
  ("/home/al/Videos/cp_debates/faouriz_terrorism/" (24382 42117 553894 812000) "links.txt" "./" "Firoz's Struggle To Defend Islam - Part 2 _ Christian Prince-67e4FpLWyI4.mp4" "Firoz's Struggle To Defend Islam - Part 1 _ Christian Prince-sSLlHoaG9ro.mp4" "Sheikh Abdul Wadud (from Astoria, New York) Taught Christian Prince On AIr-0Qm2DqzX2RM.mp4" "../" "Christian Prince - was Muhammad a Terrorist, a Muslim defends his Prophet-KWqAIzkddoY.mp4")
 
  ("/home/al/Documents/godot_projects/godot_first_complete/GodotTestProject/" (24373 42170 771868 540000) "Font/" "CameraController.gd" "Coin.tscn" "./" "Player.tscn" "default_env.tres" "Enemy/" "Enemy.tscn" "UI.gd" "project.godot" "Player/" "icon.png.import" "Audio/" "MainScene.tscn" ".import/" "icon.png" "Coin.gd" "Tile.tscn" "Player.gd" "Tiles/" "Enemy.gd" "../" "Coin/" "UI.tscn")
-
- ("/home/al/Documents/Git_Projects/website/" (24362 2285 24918 198000) "Bootstrap-installation/" ".git/" "./" "css/" "index.html" "projects.html~" "testingtesting123.txt" "projects.html" "README.org" "CSS-My-Site/" "../" "contact.html" "images/")
 
  ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/" (24366 62106 455049 733000) "./" "index.html~" "index.html" "TinDog Start Here/" "../" "TinDog Start Here.zip")
 

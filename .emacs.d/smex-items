@@ -1,46 +1,46 @@
 
 ;; ----- smex-history -----
 (
- multi-occur
- ivy-wgrep-change-to-wgrep-mode
- list-packages
- multi-isearch-files
- occur
- ivy-mode
+ org-tags-sparse-tree
+ org-tags-view
+ list-tags
+ eshell
+ revert-buffer
  emmet-mode
+ yas-load-snippet-buffer
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 112)
+ (eshell . 141)
  (compile . 37)
- (emmet-mode . 48)
+ (emmet-mode . 61)
  (peep-dired . 2)
  (hyperspec-lookup . 1)
  (customize-themes . 4)
  (highlight-phrase . 1)
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
- (ediff-buffers . 1)
+ (ediff-buffers . 3)
  (bookmark-save . 12)
- (irony-install-server . 13)
+ (irony-install-server . 14)
  (recompile . 1)
  (count-words . 3)
- (revert-buffer . 95)
+ (revert-buffer . 98)
  (dmenu . 30)
  (reindent-then-newline-and-indent . 2)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
- (list-tags . 1)
- (list-packages . 11)
+ (list-tags . 2)
+ (list-packages . 12)
  (electric-indent-mode . 11)
  (benchmark . 1)
  (org-agenda . 160)
- (yas-load-snippet-buffer . 1)
+ (yas-load-snippet-buffer . 2)
  (yas-tryout-snippet . 1)
- (yas-visit-snippet-file . 4)
+ (yas-visit-snippet-file . 5)
  (count-lines-region . 1)
  (count-words-region . 1)
  (goto-line . 1)
@@ -67,7 +67,7 @@
  (run-lisp . 1)
  (describe-function . 2)
  (rgrep . 5)
- (auto-fill-mode . 13)
+ (auto-fill-mode . 14)
  (highlight-indent-guides-mode . 6)
  (customize-variable . 1)
  (gdscript-mode . 4)
@@ -80,7 +80,7 @@
  (write-abbrev-file . 1)
  (read-abbrev-file . 2)
  (abbrev-edit-save-buffer . 2)
- (image-dired . 10)
+ (image-dired . 11)
  (linum-mode . 2)
  (savehist-mode . 4)
  (query-replace . 5)
@@ -97,7 +97,7 @@
  (profiler-report . 2)
  (vlf-stop-follow . 1)
  (scroll-bar-mode . 1)
- (fill-region . 2)
+ (fill-region . 8)
  (flyspell-mode . 6)
  (flyspell-word . 1)
  (flyspell-correct-at-point . 1)
@@ -106,17 +106,20 @@
  (cancel-function-timers . 2)
  (calc . 3)
  (org-insert-link . 2)
- (speedbar . 3)
+ (speedbar . 4)
  (comment-region . 2)
- (org-tags-view . 6)
+ (org-tags-view . 9)
  (refill-mode . 3)
  (org-refile . 2)
  (ibuffer . 2)
- (ispell . 8)
+ (ispell . 60)
  (company-files . 1)
  (occur . 2)
  (ivy-mode . 2)
  (multi-isearch-files . 1)
- (multi-occur . 2)
+ (multi-occur . 3)
  (ivy-wgrep-change-to-wgrep-mode . 2)
+ (diff-mode . 2)
+ (multi-occur-in-matching-buffers . 2)
+ (org-tags-sparse-tree . 2)
 )

@@ -18,37 +18,37 @@
   : t
 
 * OpenWith config 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (require 'openwith)
 (openwith-mode t)
 (setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-| \.pdf\' | okular | (file) |
+  #+RESULTS:
+  | \.pdf\' | okular | (file) |
 
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
 * Revert Buffer to F5 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
  (global-set-key (kbd "<f5>") 'revert-buffer)
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-: revert-buffer
+  #+RESULTS:
+  : revert-buffer
 
 * Emacs html export variables 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
 
 (setq org-html-html5-fancy t) 
 
 
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-: t
+  #+RESULTS:
+  : t
 
 * Changing Emacs Defaults
 ** Highlighting Parentheses
@@ -124,26 +124,26 @@
 
   #+END_SRC
 * Godot Support 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
-#+END_SRC
+  #+END_SRC
 * Preventing Lag When Scrolling 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
 (setq jit-lock-defer-time 0)
 (setq fast-but-imprecise-scrolling t)
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-: t
+  #+RESULTS:
+  : t
 
 * Abbrev 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
 (setq save-abbrevs 'silently)
 (setq-default abbrev-mode t)
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-: t
+  #+RESULTS:
+  : t
 
 * Small shortcuts and custom bindings
 ** Rebinding and Changing the Undo Key
@@ -206,16 +206,16 @@
  (winner-mode 1)
   #+END_SRC
 * Python Tabs
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (add-hook 'python-mode-hook
       (lambda ()
         (setq-default indent-tabs-mode nil)
         (setq-default tab-width 4)
         (setq-default python-indent 4)))
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-| (lambda nil (setq-default indent-tabs-mode nil) (setq-default tab-width 4) (setq-default python-indent 4)) | yasnippet-snippets--fixed-indent | electric-indent-mode | anaconda-mode | er/add-python-mode-expansions |
+  #+RESULTS:
+  | (lambda nil (setq-default indent-tabs-mode nil) (setq-default tab-width 4) (setq-default python-indent 4)) | yasnippet-snippets--fixed-indent | electric-indent-mode | anaconda-mode | er/add-python-mode-expansions |
 
 * Org Mode Configs
 ** Refiling Active Region
@@ -224,11 +224,11 @@
   (setq org-refile-use-outline-path t)
    #+END_SRC
 * Emacs Suspend Fram 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 (global-set-key (kbd "C-x C-z") 'nil)
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
+  #+RESULTS:
 
 * Electric Pairs Brackets
   #+BEGIN_SRC emacs-lisp
@@ -275,9 +275,17 @@
    #+END_SRC
 ** Emmet Mode
    #+BEGIN_SRC emacs-lisp
-  (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-  (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+  (add-hook 'sgml-mode-hook #'emmet-mode) ;; Auto-start on any markup modes
+  (add-hook 'css-mode-hook  #'emmet-mode) ;; enable Emmet's css abbreviation.
+  (add-hook 'html-mode-hook #'emmet-mode)
+  (add-hook 'js2-mode-hook  #'emmet-mode) 
+ (add-hook 'php-mode-hook   #'emmet-mode) 
+
    #+END_SRC
+
+   #+RESULTS:
+   | emmet-mode |
+
 * Speedbar 
   #+BEGIN_SRC emacs-lisp
  (global-set-key (kbd "<f8>") 'speedbar)
@@ -621,10 +629,10 @@
   (global-set-key (kbd "M-/") 'rgrep) 
   #+END_SRC
 * Org Agenda on Startup 
-#+BEGIN_SRC emacs-lisp
-#+END_SRC
+  #+BEGIN_SRC emacs-lisp
+  #+END_SRC
 
-#+RESULTS:
+  #+RESULTS:
 
 * Org refile 
   #+BEGIN_SRC emacs-lisp
@@ -685,12 +693,12 @@
   | t | Todo | entry | (file+headline /home/al/Dropbox/Sync/inbox.org Unorganized) | * TODO %? |
 
 ** Key bind 
-  #+BEGIN_SRC emacs-lisp
+   #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c c") 'org-capture)
-  #+END_SRC
+   #+END_SRC
 
 * Org Agenda Files 
-#+BEGIN_SRC emacs-lisp 
+  #+BEGIN_SRC emacs-lisp 
 	 (setq org-agenda-files '(
 "~/Dropbox/Sync/daily_todo.org" 
 "~/Dropbox/Sync/exercise.org" 
@@ -698,10 +706,10 @@
 "~/Dropbox/Sync/islam_research.org"   
 ))
 
-#+END_SRC
+  #+END_SRC
 
-#+RESULTS:
-| ~/Dropbox/Sync/daily_todo.org | ~/Dropbox/Sync/exercise.org | ~/Dropbox/Sync/priorities.org |
+  #+RESULTS:
+  | ~/Dropbox/Sync/daily_todo.org | ~/Dropbox/Sync/exercise.org | ~/Dropbox/Sync/priorities.org |
 
 * Begin emacs tags 
   #+BEGIN_SRC emacs_lisp
@@ -884,7 +892,7 @@
 
   #+END_SRC
 * C default comments 
-#+BEGIN_SRC emacs-lisp
+  #+BEGIN_SRC emacs-lisp
 	(add-hook 'c-mode-hook (lambda () (setq comment-start "//"
                                         comment-end   "")))
-#+END_SRC
+  #+END_SRC

@@ -170,8 +170,11 @@
  (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
   )
 
-(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
+(add-hook 'sgml-mode-hook #'emmet-mode) ;; Auto-start on any markup modes
+ (add-hook 'css-mode-hook  #'emmet-mode) ;; enable Emmet's css abbreviation.
+ (add-hook 'html-mode-hook #'emmet-mode)
+ (add-hook 'js2-mode-hook  #'emmet-mode) 
+(add-hook 'php-mode-hook   #'emmet-mode)
 
 (global-set-key (kbd "<f8>") 'speedbar)
 

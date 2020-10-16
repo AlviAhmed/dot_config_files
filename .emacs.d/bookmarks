@@ -178,9 +178,9 @@
  (position . 374))
 ("org-capture-last-stored"
  (filename . "~/Dropbox/Sync/inbox.org")
- (front-context-string . "** TODO A+ certi")
- (rear-context-string . "le god essence?\n")
- (position . 972))
+ (front-context-string . "** TODO At poine")
+ (rear-context-string . "\n\n* Unorganized\n")
+ (position . 156))
 ("herbstluft_config"
  (filename . "~/.config/herbstluftwm/autostart")
  (front-context-string . "#!/usr/bin/env b")

@@ -1,128 +1,128 @@
-git add -A
-git commit -m "so so"
-git push origin color_palette_13
-git checkout -b "color_palette_14"
-git add -A
-git commit -m "similair to original"
-git push origin color_palette_14
-mkdir color_palette2 color_palette3 color_palette4 color_palette5
-mkdir color_palette6 color_palette7 color_palette8 color_palette9 color_palette10 color_palette11 color_palette12 color_palette13 color_palette14
-cd color_palette1
-git https://github.com/AlviAhmed/website_actual.git
-git clone https://github.com/AlviAhmed/website_actual.git
-cd ../color_palette2
-git clone https://github.com/AlviAhmed/website_actual.git
-git clone --shared https://github.com/AlviAhmed/website_actual.git
-cd ../color_palette3
-git clone https://github.com/AlviAhmed/website_actual.git
-cd ../color_palette1
-git checkout color_palette1
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
 ls
-cd website_actual/
-git checkout color_palette1
-git branch -a
-git push origin subtotal_website
-ls
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
 git add -A
-git commit -m "preffered color scheme for now"
-git push origin subtotal_website
-git push origin color_palette_7
-git checkout subtotal_website
-git merge color_palette_7
-cd ..
-cd ..
-git status
-git pull 
-git pull origin subtotal_website
-git status 
-git merge color_palette_7
-git add -A
-git commit -m "added color scheme"
-git push origin subtotal_website
-cd ../../
-git add -A
-git commit -m "upgraded color scheme and css"
-git push origin subtotal_website
-git pull origin subtotal_website
-git add -A
-git commit -m "fixed css, positioning fonts and etc"
-git push origin subtotal_website
-git pull origin subtotal_website
-git add -A
-git commit -m "fixed css, positioning fonts and etc"
-git push origin subtotal_website
-git pull origin subtotal_website
-git pull origin subtotal_website
-service nginx reload
-git add -A
-git commit -m "fixed some size stuff for mobile"
-git push origin subtotal_website
+git commit -m "updated javascript and dom"
 git stash
+git checkout -b DOM
 git add -A
-git commit -m "fixed second navbar for project pages"
-git push origin subtotal_website
-cd ..
-cd ..
-git add -A
-git commit -m "fixed mobile and normal website css, fonts and etc"
-git push origin subtotal_website
-git pull origin subtotal_website
-git add -A
-git commit -m "updated some icons and pictures"
-git push origin subtotal_website
-git pull origin subtotal_website
-xk
-xk
-git status
-git add -A
-git commit -m "fixed css, fonts, image sizes and etc. for mobile and desktop"
-git push origin subtotal_website
-git push origin subtotal_website
-git pull 
-git push origin subtotal_website
-git pull origin subtotal_website
-git add -A
-git add -A
-git commit -m "fixed css, fonts, image sizes and etc. for mobile and desktop" 
-git push origin subtotal_website
-git pull origin subtotal_website
-git add -A
-git commit -m "navbar brand now goes to homepage page"
-git push origin subtotal_website
-git clone https://github.com/AlviAhmed/Bresenham_Sim_5axis.git
-cd Bresenham_Sim_5axis/
-git add -A
-git commit -m "first commit"
+git commit -m "updated javascript and dom"
 git push origin master
 git add -A
-git commit -m "first commit"
-git push origin master
+git commit -m "adding and toggling class"
+git push origin DOM
+git push origin DOM
+youtube-dl https://www.youtube.com/watch?v=3_omxGIL0kw
 git add -A
-git commit -m "added code and updated readme"
+git commit -m "added new folder"
 git push origin master
-git add -A
-git commit -m "updated"
-git push origin master
-git status
-git add -A
-git commit -m "update"
-git push origin subtotal_website
-git add -A
-git commit -m "fixed spelling mistakes"
-git push origin master
-cd ..
-git status
-git add -A 
-git commit -m "added edp proj page, fixed css and etc"
-git push origin subtotal_website
-git status
-git add -A
-git commit -m "updated readme"
-git push origin master
-git add -A
-git commit -m "updated readme"
-git push origin master
-git push origin master
-git add -A
+git pull origin master
+cd ../
 ls
-scp resume_bell.pdf root@alviahmed.com:/var/www/alweb
+git clone https://github.com/AlviAhmed/RC_Car_433Mhz_Module_AVR.git
+cd RC_Car_433Mhz_Module_AVR/
+git add -A
+git commit -m "updated readme and repo"
+git push origin master
+cd avr_usart/
+ls
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash
+make flash

@@ -10,6 +10,7 @@
         c-electric-semi&comma
         c-electric-star
         c-indent-line-or-region
+        comment-dwim
         dabbrev-expand
         dumb-jump-go
         electric-pair-delete-pair
