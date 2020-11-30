@@ -1,128 +1,128 @@
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-ls
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
+echo hello >> name_list
+dataVar="hello"
+dataVar=$(echo hello)
+grep "Projects" resume.tex
+cat resume.tex | grep Projects
+sed -n '/Skills Used:/p' projects_list.tex
+sed -n '/Skills Used:/p' projects_list.tex | cut -d'}' -f1
+sed -n '/Skills Used:/p' projects_list.tex | cut -d'}' -f2
+git status
+awk -v var="C++" 'index($0,"Skills Used:") && index($0,var)' RS="\n\n" ORS="\n\n" projects_list.tex
+awk -v var="C++" 'index($0,"Skills Used:") && index($0,var)' RS="\n\n" ORS="\n\n" projects_list.tex | sed -n '/Skills Used:/p' $data | cut -d'}' -f2
+./tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
 git add -A
-git commit -m "updated javascript and dom"
-git stash
-git checkout -b DOM
+git commit -m "testing, checking if user input is a valid skill from the extracted projects"
+git push origin Log3_5_debugging
+aplay bashFunc.sh 
+aplay bashFunc.sh 
 git add -A
-git commit -m "updated javascript and dom"
+git commit -m "updated readMe"
+git push origin Log3_5_debugging
+git checkout master
+git merge Log3_5_debugging
+git add -A
+git commit -m "merged with log3.5"
+git push origin master
+bash tester.sh~
+bash tester.sh
+bash tester.sh
+bash tester.sh
+bash tester.sh
+echo "hello" >> name_list
+git add -A
+bash mainScript.sh 
+clear
+git status
+git add -A
+git commit -m "Log4"
+git push origin master
+git checkout -b Log4
+git merge master
+git add -A
+git commit -m "merged"
+git push origin Log4
+git checkout master
+git status
+sed -n '/^\\textbf/p' placehold.tex | cut -d'{' -f2 | cut -d':' -f1
+sed -n '/^\\textbf/p' placehold.tex | cut -d'{' -f2 | cut -d':' -f1
+printf "\n Placeholder var: $placeholdVar \n"
+cat name_list
+cat name_list | grep "Game"
+cat name_list | grep "Game" | wc -l
+bash mainScript.sh
+clear
+git status
+git clone https://github.com/AlviAhmed/website_actual.git
+git status
+git commit -m "added RC car page"
 git push origin master
 git add -A
-git commit -m "adding and toggling class"
-git push origin DOM
-git push origin DOM
-youtube-dl https://www.youtube.com/watch?v=3_omxGIL0kw
-git add -A
-git commit -m "added new folder"
+git commit -m "added RC car page"
 git push origin master
 git pull origin master
-cd ../
-ls
-git clone https://github.com/AlviAhmed/RC_Car_433Mhz_Module_AVR.git
-cd RC_Car_433Mhz_Module_AVR/
-git add -A
-git commit -m "updated readme and repo"
+git status
+make
+clear
+make
+make 
+avr-gcc -c -mmcu=atmega328p mainrx.c -o mainrx.o
+avr-gcc -c -mmcu=atmega328p rx_header.c -o rx_header.o
+avr-gcc -mmcu=atmega328p mainrx.o rx_header.o -o main.elf
+git status
+git add -A 
+git commit -m "cleaned up some of the code"
 git push origin master
-cd avr_usart/
-ls
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
-make flash
+git add -A 
+git commit -m "added header files"
+git push origin master
+git clone https://github.com/AlviAhmed/Capstone.git
+git branch -a
+git checkout Alvi
+git clone https://github.com/AlviAhmed/Capstone.git
+git checkout Alvi
+git status
+git status
+git add -A
+git status
+git add -A
+git commit -m "added ATSAME70 code directory"
+git push origin master
+git rm --cached ATSAME70_code
+git add -A
+git commit -m "update"
+git push origin master
+bash mainScript.sh 
+git status
+gti add -A
+git commit -m "updated"
+git push origin master
+git add -A
+git commit -m "added result image of board"
+git push origin master
+bash mainScript.sh 
+bash mainScript.sh 
+clear

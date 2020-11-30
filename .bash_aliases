@@ -65,6 +65,7 @@ export XDG_CURRENT_DESKTOP=KDE
 
 
 
+
 #cpu commmands 
 alias cpuinfo='sudo cpufreq-info'
 alias perform='sudo bash bash_scripts/performance.sh' 

@@ -31,6 +31,14 @@
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
+* Global terminal keybinding 
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-c s") (kbd "M-! xfce4-terminal RET"))
+#+END_SRC
+
+#+RESULTS:
+: [134217761 120 102 99 101 52 45 116 101 114 109 105 110 97 108 13]
+
 * Revert Buffer to F5 
   #+BEGIN_SRC emacs-lisp 
  (global-set-key (kbd "<f5>") 'revert-buffer)
@@ -207,15 +215,14 @@
   #+END_SRC
 * Python Tabs
   #+BEGIN_SRC emacs-lisp
-(add-hook 'python-mode-hook
-      (lambda ()
-        (setq-default indent-tabs-mode nil)
-        (setq-default tab-width 4)
-        (setq-default python-indent 4)))
+    ;; (add-hook 'python-mode-hook
+    ;;       (lambda ()
+    ;;         (setq-default indent-tabs-mode nil)
+    ;;         (setq-default tab-width 4)
+    ;;         (setq-default python-indent 4)))
   #+END_SRC
 
   #+RESULTS:
-  | (lambda nil (setq-default indent-tabs-mode nil) (setq-default tab-width 4) (setq-default python-indent 4)) | yasnippet-snippets--fixed-indent | electric-indent-mode | anaconda-mode | er/add-python-mode-expansions |
 
 * Org Mode Configs
 ** Refiling Active Region
@@ -275,11 +282,11 @@
    #+END_SRC
 ** Emmet Mode
    #+BEGIN_SRC emacs-lisp
-  (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
-  (add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation.
-  (add-hook 'html-mode-hook 'emmet-mode)
-  (add-hook 'js2-mode-hook 'emmet-mode) 
-(add-hook 'php-mode-hook 'emmet-mode) 
+  (add-hook 'sgml-mode-hook #'emmet-mode) ;; Auto-start on any markup modes
+  (add-hook 'css-mode-hook  #'emmet-mode) ;; enable Emmet's css abbreviation.
+  (add-hook 'html-mode-hook #'emmet-mode)
+  (add-hook 'js2-mode-hook  #'emmet-mode) 
+ (add-hook 'php-mode-hook   #'emmet-mode) 
 
    #+END_SRC
 
@@ -508,8 +515,12 @@
    #+END_SRC
 * Python Shell Interpreter
   #+BEGIN_SRC emacs-lisp
-(setq python-shell-interpreter "/usr/bin/python3")
+(setq python-shell-interpreter "/usr/local/bin/python3.9")
   #+END_SRC
+
+  #+RESULTS:
+  : /usr/local/bin/python3.9
+
 * Electric indent mode hooks
   #+BEGIN_SRC emacs-lisp
  (add-hook 'c-mode-hook 'electric-indent-mode)
@@ -521,6 +532,31 @@
 
   #+RESULTS:
   | er/add-css-mode-expansions | electric-indent-mode | emmet-mode |
+
+* Meghanada Mode 
+#+BEGIN_SRC emacs-lisp
+(require 'meghanada)
+(add-hook 'java-mode-hook
+          (lambda ()
+            ;; meghanada-mode on
+            (meghanada-mode t)
+            (flycheck-mode +1)
+            (setq c-basic-offset 2)
+            ;; use code format
+            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+(cond
+   ((eq system-type 'windows-nt)
+    (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
+    (setq meghanada-maven-path "mvn.cmd"))
+   (t
+    (setq meghanada-java-path "java")
+    (setq meghanada-maven-path "mvn")))
+
+
+#+END_SRC
+
+#+RESULTS:
+: mvn
 
 * Custom Script (bgpape)
   #+BEGIN_SRC emacs-lisp
@@ -766,22 +802,29 @@
   #+END_SRC
 *  Indenting Tabs 
   #+BEGIN_SRC emacs-lisp
-  (setq-default indent-tabs-mode nil)
-  (setq-default tab-width 4) 
+    (setq-default indent-tabs-mode nil)
+    ;; (setq-default tab-width 8) 
   #+END_SRC
+
+  #+RESULTS:
+
 *  make tab key do indent first then completion.
   #+BEGIN_SRC emacs-lisp
-  (setq-default tab-always-indent 'complete) 
-  (defun my-insert-tab-char ()
-    "Insert a tab char. (ASCII 9, \t)"
-    (interactive)
-    (insert "\t"))(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
+    ;; (setq-default tab-always-indent 'complete) 
+    ;; (defun my-insert-tab-char ()
+    ;;   "Insert a tab char. (ASCII 9, \t)"
+    ;;   (interactive)
+    ;;   (insert "\t"))(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
 
-  (defun compile-key() 
-	  (local-set-key [(f5)] 'recompile)
-  ) 
-  (add-hook 'prog-mode-hook 'compile-key)
+    (defun compile-key() 
+            (local-set-key [(f5)] 'recompile)
+    ) 
+    (add-hook 'prog-mode-hook 'compile-key)
   #+END_SRC
+
+  #+RESULTS:
+  | compile-key | rainbow-delimiters-mode |
+
 *  Org Mode tasks 
   #+BEGIN_SRC emacs-lisp
   (setq org-todo-keywords

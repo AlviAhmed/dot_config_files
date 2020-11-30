@@ -17,6 +17,10 @@
 
 (add-hook 'focus-out-hook #'garbage-collect)
 
+(global-set-key (kbd "C-c s") (kbd "C-x k *eshell* RET  C-x 2 M-j M-x eshell RET"))
+
+(global-set-key (kbd "C-c t") (kbd "M-& xfce4-terminal RET "))
+
 (global-set-key (kbd "<f5>") 'revert-buffer)
 
 (setq org-html-html5-fancy t)
@@ -125,11 +129,11 @@
 
 (winner-mode 1)
 
-(add-hook 'python-mode-hook
-      (lambda ()
-        (setq-default indent-tabs-mode nil)
-        (setq-default tab-width 4)
-        (setq-default python-indent 4)))
+;; (add-hook 'python-mode-hook
+;;       (lambda ()
+;;         (setq-default indent-tabs-mode nil)
+;;         (setq-default tab-width 4)
+;;         (setq-default python-indent 4)))
 
 (setq org-refile-active-region-within-subtree t)
 (setq org-refile-use-outline-path t)
@@ -347,13 +351,30 @@
 (global-set-key (kbd "C-c b") 'bookmark-jump)  
 (global-set-key (kbd "C-c x") 'xah-open-in-external-app)
 
-(setq python-shell-interpreter "/usr/bin/python3")
+(setq python-shell-interpreter "/usr/local/bin/python3.9")
 
 (add-hook 'c-mode-hook 'electric-indent-mode)
 (add-hook 'c++-mode-hook 'electric-indent-mode)
 (add-hook 'java-mode-hook 'electric-indent-mode)
 (add-hook 'html-mode-hook 'electric-indent-mode)
 (add-hook 'css-mode-hook 'electric-indent-mode)
+
+(require 'meghanada)
+(add-hook 'java-mode-hook
+          (lambda ()
+            ;; meghanada-mode on
+            (meghanada-mode t)
+            (flycheck-mode +1)
+            (setq c-basic-offset 2)
+            ;; use code format
+            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+(cond
+   ((eq system-type 'windows-nt)
+    (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
+    (setq meghanada-maven-path "mvn.cmd"))
+   (t
+    (setq meghanada-java-path "java")
+    (setq meghanada-maven-path "mvn")))
 
 (defun bgpape ()
   "Starts the command to change desktop background"
@@ -506,16 +527,16 @@
 (setq kill-whole-line t)
 
 (setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
+;; (setq-default tab-width 8)
 
-(setq-default tab-always-indent 'complete) 
-(defun my-insert-tab-char ()
-  "Insert a tab char. (ASCII 9, \t)"
-  (interactive)
-  (insert "\t"))(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
+;; (setq-default tab-always-indent 'complete) 
+;; (defun my-insert-tab-char ()
+;;   "Insert a tab char. (ASCII 9, \t)"
+;;   (interactive)
+;;   (insert "\t"))(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
 
 (defun compile-key() 
-	(local-set-key [(f5)] 'recompile)
+        (local-set-key [(f5)] 'recompile)
 ) 
 (add-hook 'prog-mode-hook 'compile-key)
 

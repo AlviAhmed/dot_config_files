@@ -33,6 +33,7 @@
         org-delete-char
         org-forward-sentence
         org-self-insert-command
+        org-yank
         overwrite-mode
         set-fill-column
         slime-autodoc-space
@@ -47,4 +48,5 @@
         eshell-interrupt-process
         mouse-set-region
         smex
+        toggle-frame-fullscreen
         ))

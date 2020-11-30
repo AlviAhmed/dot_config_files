@@ -18,7 +18,7 @@
  '(custom-enabled-themes (quote (doom-acario-light)))
  '(custom-safe-themes
    (quote
-    ("730a87ed3dc2bf318f3ea3626ce21fb054cd3a1471dcd59c81a4071df02cb601" "6177ecbffb8f37756012c9ee9fd73fc043520836d254397566e37c6204118852" "3577ee091e1d318c49889574a31175970472f6f182a9789f1a3e9e4513641d86" "fe94e2e42ccaa9714dd0f83a5aa1efeef819e22c5774115a9984293af609fce7" "5a0eee1070a4fc64268f008a4c7abfda32d912118e080e18c3c865ef864d1bea" "9b01a258b57067426cc3c8155330b0381ae0d8dd41d5345b5eddac69f40d409b" default)))
+    ("e30e72b10b9c7887ff8adcd1a25b5c6eaa32665e0f8f40994e5b6d51069d3b2a" "2f1518e906a8b60fac943d02ad415f1d8b3933a5a7f75e307e6e9a26ef5bf570" "d71aabbbd692b54b6263bfe016607f93553ea214bc1435d17de98894a5c3a086" "730a87ed3dc2bf318f3ea3626ce21fb054cd3a1471dcd59c81a4071df02cb601" "6177ecbffb8f37756012c9ee9fd73fc043520836d254397566e37c6204118852" "3577ee091e1d318c49889574a31175970472f6f182a9789f1a3e9e4513641d86" "fe94e2e42ccaa9714dd0f83a5aa1efeef819e22c5774115a9984293af609fce7" "5a0eee1070a4fc64268f008a4c7abfda32d912118e080e18c3c865ef864d1bea" "9b01a258b57067426cc3c8155330b0381ae0d8dd41d5345b5eddac69f40d409b" default)))
  '(evil-emacs-state-cursor (quote ("#E57373" hbar)))
  '(evil-insert-state-cursor (quote ("#E57373" bar)))
  '(evil-normal-state-cursor (quote ("#FFEE58" box)))
@@ -46,7 +46,7 @@
      ("\\.pdf\\'" . "okular %s"))))
  '(package-selected-packages
    (quote
-    (wgrep openwith htmlize auctex flyspell-correct-ivy vlf cdlatex company-math latex-math-preview lsp-latex gdscript-mode highlight-indent-guides zeno-theme yasnippet-snippets yasnippet-classic-snippets xresources-theme which-key web-mode visual-regexp vimish-fold use-package tramp-auto-auth tide smex react-snippets rainbow-mode rainbow-delimiters projectile popup-kill-ring peep-dired org-babel-eval-in-repl org-ac multiple-cursors moody modus-vivendi-theme modus-operandi-theme keycast js-react-redux-yasnippets java-snippets ivy-yasnippet ido-vertical-mode hungry-delete hideshow-org hide-mode-line gruvbox-theme fzf fill-column-indicator expand-region emmet-mode elscreen-tab dumb-jump doom-themes dmenu django-snippets dired-subtree competitive-programming-snippets company-jedi company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex company-anaconda buster-snippets buffer-move beacon avy-menu apropospriate-theme angular-snippets ac-js2)))
+    (meghanada wgrep openwith htmlize auctex flyspell-correct-ivy vlf cdlatex company-math latex-math-preview lsp-latex gdscript-mode highlight-indent-guides zeno-theme yasnippet-snippets yasnippet-classic-snippets xresources-theme which-key web-mode visual-regexp vimish-fold use-package tramp-auto-auth tide smex react-snippets rainbow-mode rainbow-delimiters projectile popup-kill-ring peep-dired org-babel-eval-in-repl org-ac multiple-cursors moody modus-vivendi-theme modus-operandi-theme keycast js-react-redux-yasnippets java-snippets ivy-yasnippet ido-vertical-mode hungry-delete hideshow-org hide-mode-line gruvbox-theme fzf fill-column-indicator expand-region emmet-mode elscreen-tab dumb-jump doom-themes dmenu django-snippets dired-subtree competitive-programming-snippets company-jedi company-irony-c-headers company-irony company-c-headers company-bibtex company-auctex company-anaconda buster-snippets buffer-move beacon avy-menu apropospriate-theme angular-snippets ac-js2)))
  '(pdf-view-midnight-colors (cons "#FFFFFF" "#27212E"))
  '(pos-tip-background-color "#3a513a513a51")
  '(pos-tip-foreground-color "#9E9E9E")
