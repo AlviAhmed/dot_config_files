@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/al/Documents/resumes/Pathrise_Resume_edit/" . "cover_letter_viarail/")
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/" . "qwe_qwe/")
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/" . "resume_storage/")
  ("/home/al/.local/share/" . "applications/")
@@ -42,7 +43,7 @@
  ("/home/al/.emacs.d/" . "elpa/")
  ("/home/al/.cache/" . "wal/")
  ("/home/al/Pictures/" . "wallpapers/")
- ("/media/al/" . "Backup Plus/")
+ ("/media/al/" . "Seagate Backup Plus Drive/")
  ("/media/" . "al/")
  ("/" . "media/")
  ("/home/al/" . ".local/")
@@ -51,17 +52,47 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/Documents/Git_Projects/Web_UI_RC_Car_Controller/"
+ "/home/al/Dropbox/GuideWire_TD/"
+ "/home/al/Documents/Git_Projects/website/advanced_javascript/"
+ "/home/al/Documents/Git_Projects/website_actual/"
+ "/home/al/Documents/Git_Projects/website/css/"
+ "/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/"
+ "/home/al/Documents/Git_Projects/website/jquery/"
+ "/home/al/Documents/resumes/Pathrise_Resume_edit/"
+ "/home/al/Dropbox/Pathrise_Work/"
+ "/home/al/Documents/resumes/applying_to_bell_access_network_engineering/"
+ "/home/al/Documents/c_practice/binary_trees/"
+ "/home/al/Documents/c_practice/malloc/"
+ "/home/al/Dropbox/GuideWire_Job_Notes/"
+ "/home/al/Dropbox/Pathrise_Work/cover_letter_myant/"
+ "/home/al/Documents/resumes/"
+ "/home/al/Documents/resumes/Pathrise_Resume_edit/cover_letter_viarail/"
+ "/home/al/Documents/resumes/apply_to_evertz/cover_letter/"
+ "/home/al/Documents/resumes/applying_to_rmfdesign/cover_letter/"
+ "/home/al/Documents/Git_Projects/Digital_PID_Controller/"
+ "/home/al/Documents/resumes/applying_to_bell/"
+ "/home/al/Documents/resumes/resume_storage_and_scripts/resume_storage/Myant_Embedded_Software_Engineer/"
+ "/home/al/Documents/Git_Projects/Resume_Project_Adder/"
+ "/home/al/Documents/Git_Projects/Resume_Project_Adder/test_bench/"
+ "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Engineering/"
+ "/home/al/Documents/resumes/resume_scripts/"
+ "/home/al/Documents/SHAWN_HELP/Capstone/edited_code/final_code/"
+ "/home/al/Documents/SHAWN_HELP/Capstone/"
+ "/home/al/Documents/awk_practice/"
+ "/home/al/Documents/resumes/apply_to_cgx_medical/cover_letter/"
+ "/home/al/Documents/resumes/resume_scripts/resume_storage/Evertz_Software_Developer/"
+ "/home/al/Documents/resumes/resume_scripts/resume_storage/Myant_Embedded_Software_Engineer/"
+ "/home/al/Documents/resumes/resume_scripts/resume_storage/HIDI_Electrical_EIT/"
+ "/home/al/Documents/resumes/Tenstorrent_Software_Engineer/"
+ "/home/al/Documents/resumes/apply_hardware_embedded/"
+ "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Tenstorrent_Software_Engineer/"
  "/home/al/Documents/Git_Projects/Capstone/"
  "/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/"
  "/home/al/Documents/Git_Projects/website_actual/proj_pages/rc_avr_433/"
  "/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/"
- "/home/al/Documents/Git_Projects/website_actual/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Engineering/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/qwe_qwe/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Bell_Software_Engineer/"
- "/home/al/Dropbox/Pathrise_Work/"
- "/home/al/Documents/resumes/applying_to_bell/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Microsoft_Electrical_Engineer/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Intel_Embedded_Software_Developer/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Intel_Embedded_Systems_Developer/"
@@ -71,95 +102,123 @@
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Electrical_Engineer/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Bell_Software_Engineering/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/Intel_Embedded/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Google_Embedded/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Bell_Software_Eng/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Bell_Software_Engineering/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Bell_Pos/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Bell_Soft/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/Google_Software_Engineer/"
- "/home/al/Documents/Adam_Help/"
- "/home/al/"
- "/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/python_script_keyboard/"
- "/home/al/Documents/resumes/"
- "/home/al/Documents/c_practice/data_algorithm/"
- "/home/al/Documents/c_practice/pointer_prac/"
- "/home/al/Documents/c_practice/structures/"
- "/home/al/Dropbox/Sync/"
- "/home/al/Documents/resumes/applying_electricalicatdesigner/"
- "/home/al/Documents/c_practice/malloc/"
- "/home/al/Documents/c_practice/linked_list_pract/"
- "/home/al/.local/share/applications/"
- "/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/"
- "/home/al/Documents/Projects/avr_usart/"
- "/home/al/Documents/Git_Projects/website/DOM/"
- "/home/al/.emacs.d/elpa/yasnippet-classic-snippets-1.0.2/snippets/html-mode/header/"
- "/home/al/.emacs.d/"
- "/ssh:root@alviahmed.com:/var/www/alweb/"
- "/ssh:root@alviahmed.com:/var/www/alweb/css/"
- "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/sys_c_alu/"
- "/home/al/Documents/Git_Projects/Bank_Manager/"
- "/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/"
- "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/"
- "/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "tx_header_comp.h"
- "rx_header.h"
- "main_header.c"
- "Makefile"
- "buffer.tex"
- "placehold.tex"
- "name_list"
- "bashFunc.sh"
- "projects_list.tex"
- "README.org"
+ "Alvi_Ahmed_FDM_resume.pdf"
+ "index.html"
+ "styles.css"
+ "project_explain.org"
+ "intro.c"
+ "Alvi_Ahmed_Myant_cover_letter.pdf"
+ "Alvi_Ahmed_cover_letter_ViaRail.pdf"
+ "letter_evertz.tex"
+ "Alvi_Ahmed_Electrical_ViaRail.pdf"
+ "Alvi_Ahmed_Embedded_TriStar.pdf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/Documents/Git_Projects/Capstone/" (24514 13609 603024 684000) "Phase1_end/" "systickworking_example/" ".git/" "./" "phase2_end.zip" "together/" "Base_Stepper.X/" "#timer_RAMP_SUCCESS_UP_AND_DOWN.c#" "working_jan23/" "algorithm_code_files/" "timer_experiments/" "backup7_phase2end/" "PWM_basic/" "timer_RAMP_SUCCESS_UP_AND_DOWN.c" "kin_test.c" "../" "Timer_basic_with_5/" "README.md")
+ ("/home/al/Documents/Git_Projects/Web_UI_RC_Car_Controller/" (24527 58566 881673 901000) "index.js~" "index.js" ".git/" "./" "index.html~" ".#index.js" "index.html" "styles.css" "#index.js#" "styles.css~" "../")
 
- ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/" (24514 9985 657635 573000) "./" "maintx_debug.c" "mainrx.c" "Makefile" "rx_header.o" "mainrx.o" "rx_header.h" "maintx_comp.c" "../" "tx_header_debug.h" "tx_header_comp.h" "main.hex")
+ ("/home/al/Dropbox/GuideWire_TD/" (24527 51993 951376 902000) "./" "Alvi_Ahmed_FDM_resume.aux" "Alvi_Ahmed_FDM_resume.tex~" "Alvi_Ahmed_FDM_resume.log" "Alvi_Ahmed_FDM_resume.out" "Alvi_Ahmed_FDM_resume.tex" "Alvi_Ahmed_FDM_resume.pdf" "project_explain.org" "../" "projects_list.tex~" "projects_list.tex")
+
+ ("/home/al/Documents/Git_Projects/website_actual/" (24527 38752 234251 235000) "personal_website_notes.org" ".git/" "resume_alvi.pdf" "./" "css/" "index.html~" "proj_main.html~" "index.html" "proj_main.html" "contact.html~" "proj_pages/" "personal_website_notes.org~" "../" "contact.html" "images/")
+
+ ("/home/al/Documents/Git_Projects/website/css/" (24317 48440 729070 65000) ".projectile" "./" "styles.css" "../")
+
+ ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/" (24383 2237 184456 516000) "./" "css/" "index.html" ".DS_Store" "../" "images/")
+
+ ("/home/al/Documents/Git_Projects/website/advanced_javascript/" (24527 36082 254466 796000) "index.js~" "index.js" "./" "index.html~" "Drum Kit Starting Files/" "index.html" "Drum Kit Starting Files.zip" "styles.css" ".DS_Store" "#index.html#" "styles.css~" "__MACOSX/" "../" "sounds/" "images/" ".#index.html")
+
+ ("/home/al/Documents/Git_Projects/website/jquery/" (24463 19231 207738 514000) "index.js~" "index.js" "./" "index.html~" "index.html" "styles.css" "styles.css~" "../")
+
+ ("/home/al/Dropbox/Pathrise_Work/" (24526 18476 462456 342000) "Alvi_Ahmed_HIDI_Electrical_EIT.pdf" "./" "cover_letter_myant/" "Alvi_Ahmed_Fortinet.pdf" "tenstorrent_qualifications.txt" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "jobs_csv.csv" "Alvi_Ahmed_Quora.pdf" "myant_qualifications.txt" "letter_evertz.pdf" "Alvi_Ahmed_Tenstorrent_Software_Engineer.pdf" "interest_job_descrip.org~" "interest_job_descrip (1).org" "interest_job_descrip.org" "Alvi_Ahmed_Software_Developer_Embedded.pdf" "jobs.xlsx" "../" "quora_note.txt" "link.txt")
+
+ ("/home/al/Documents/resumes/applying_to_bell_access_network_engineering/" (24427 3698 803074 838000) "cover_letter/" "resume_bell_acc_network.out" "./" "resume_bell_acc_network.tex" "resume_bell_acc_network.pdf" "resume_bell_acc_network.log" "resume_bell_acc_network.tex~" "resume_bell_acc_network.aux" "../")
+
+ ("/home/al/Documents/c_practice/binary_trees/" (24526 59143 712365 512000) "./" "intro.c~" "intro.c" "intro" "../")
+
+ ("/home/al/Dropbox/GuideWire_Job_Notes/" (24526 57316 603897 498000) "./" "project_explain.org" "../")
+
+ ("/home/al/Dropbox/Pathrise_Work/cover_letter_myant/" (24526 19992 917278 283000) "./" "Alvi_Ahmed_Myant_cover_letter.out" "Alvi_Ahmed_Myant_cover_letter.pdf" "Alvi_Ahmed_Myant_cover_letter.aux" "Alvi_Ahmed_Myant_cover_letter.tex" "Alvi_Ahmed_Myant_cover_letter.tex~" "../" "Alvi_Ahmed_Myant_cover_letter.log")
+
+ ("/home/al/Documents/resumes/" (24521 34070 732434 359000) "applying_electricalicatdesigner/" "old_versions/" "fullswing_embeddedengineer/" "./" "applying_to_adamson/" "applying_to_revature/" "universal_resume/" "Pathrise_Resume_edit/" "apply_to_tenstorrent/" "eleceng_honeywell/" "applyingto_ABCdev_electricalengineertechnologist/" "applying_to_bell/" "applying_to_rmfdesign/" "resume_clinic_scan/" "resume_storage_and_scripts/" "apply_to_cgx_medical/" "applying_to_bell_access_network_engineering/" "profile_pic/" "current_versions/" "applying_to_spin_master/" "digitalengineer_pervicescorp/" "applying_cisco/" "Tenstorrent_Software_Engineer/" "../" "apply_to_evertz/" "apply_hardware_embedded/")
+
+ ("/home/al/Documents/resumes/Pathrise_Resume_edit/cover_letter_viarail/" (24526 17820 445333 319000) "./" "Alvi_Ahmed_cover_letter_ViaRail.aux" "Alvi_Ahmed_cover_letter_ViaRail.tex~" "Alvi_Ahmed_cover_letter_ViaRail.pdf" "Alvi_Ahmed_cover_letter_ViaRail.out" "Alvi_Ahmed_cover_letter_ViaRail.log" "Alvi_Ahmed_cover_letter_ViaRail.tex" "../")
+
+ ("/home/al/Documents/resumes/Pathrise_Resume_edit/" (24526 17672 658373 361000) "Alvi_Ahmed_Quora.tex" "Alvi_Ahmed_AMD_Firmware.pdf" "cover_letter_viarail/" "Alvi_Ahmed_Embedded_PerkinElmer.log" "Alvi_Ahmed_Embedded_PerkinElmer.aux" "Alvi_Ahmed_Electrical_ViaRail.tex" "Alvi_Ahmed_Embedded_TriStar.tex" "Alvi_Ahmed_Electrical_ViaRail.tex~" "Alvi_Ahmed_Quora.out" "Alvi_Ahmed_OtO.aux" "Alvi_Ahmed_cover_letter_Quora.log" "Alvi_Ahmed_Embedded_PerkinElmer.tex~" "Alvi_Ahmed_Fortinet.tex" "Alvi_Ahmed_Embedded_TriStar.tex~" "Alvi_Ahmed_Fortinet.aux" "Alvi_Ahmed_Embedded_TriStar.log" "Alvi_Ahmed_Fortinet.pdf" "Alvi_Ahmed_cover_letter_Quora.tex" "Alvi_Ahmed_Embedded_Firmware_Dev.out" "Alvi_Ahmed_cover_letter_Quora.out" "Alvi_Ahmed_resume_pathrise_edit.tex~" "Alvi_Ahmed_Electrical_ViaRail.log" "Alvi_Ahmed_OtO.out" "Alvi_Ahmed_resume_pathrise_edit.aux" "linked_connect_message_template.org" "Alvi_Ahmed_resume_pathrise_edit.out" "Alvi_Ahmed_resume_pathrise_edit.log" "Alvi_Ahmed_OtO.tex~" "Alvi_Ahmed_Embedded_Firmware_Dev.tex" "Alvi_Ahmed_Quora.aux" "Alvi_Ahmed_Embedded_TriStar.pdf" "Alvi_Ahmed_Embedded_Firmware_Dev.aux" "Alvi_Ahmed_Embedded_Firmware_Dev.pdf" "Alvi_Ahmed_Quora.pdf" "Alvi_Ahmed_AMD_Firmware.log" "Alvi_Ahmed_AMD_Firmware.out" "Alvi_Ahmed_Embedded_Firmware_Dev.tex~" "Alvi_Ahmed_cover_letter_Quora.pdf" "Alvi_Ahmed_Embedded_Firmware_Dev.log" "Alvi_Ahmed_AMD_Firmware.tex" "Alvi_Ahmed_Embedded_PerkinElmer.out" "Alvi_Ahmed_OtO.log" "Alvi_Ahmed_Electrical_ViaRail.out" "Alvi_Ahmed_Quora.tex~" "Alvi_Ahmed_Embedded_PerkinElmer.tex" "Alvi_Ahmed_cover_letter_Quora.aux" "Alvi_Ahmed_resume_pathrise_edit.tex" "Alvi_Ahmed_AMD_Firmware.aux" "Alvi_Ahmed_AMD_Firmware.tex~" "Alvi_Ahmed_Embedded_PerkinElmer.pdf" "Alvi_Ahmed_Fortinet.out" "Alvi_Ahmed_Electrical_ViaRail.aux" "Alvi_Ahmed_Embedded_TriStar.out" "Alvi_Ahmed_Quora.log" "Alvi_Ahmed_resume_pathrise_edit.pdf" "Alvi_Ahmed_OtO.pdf" "Alvi_Ahmed_Embedded_TriStar.aux" "Alvi_Ahmed_cover_letter_Quora.tex~" "Alvi_Ahmed_OtO.tex" "Alvi_Ahmed_Fortinet.tex~" "Alvi_Ahmed_Fortinet.log" "projects_list.tex~" "Alvi_Ahmed_Electrical_ViaRail.pdf" "projects_list.tex" "../" "./")
+
+ ("/home/al/Documents/resumes/applying_to_rmfdesign/cover_letter/" (24424 58174 744214 943000) "cover_letter_rmf.aux" "./" "cover_letter_rmf.tex~" "cover_letter_rmf.out" "cover_letter_rmf.pdf" "cover_letter_rmf.log" "cover_letter_rmf.tex" "../")
+
+ ("/home/al/Documents/resumes/applying_to_bell/" (24526 13500 517112 938000) "resume_bell.log" "resume_bell.pdf" "cover_letter_bell_sum_edit.tex" "recent_transcript.pdf" "resume_bell.tex~" "cover_letter_bell_sum_edit.out" "cover_letter_bell_sum_edit.pdf" "./" "cover_letter_bell.tex" "resume_bell.aux" "cover_letter_bell.log" "cover_letter_bell_sum_edit.aux" "cover_.pdf" "cover_.log" "cover_letter_bell_sum_edit.log" "cover_letter.tex~" "cover_letter_bell.aux" "resume_bell.out" "video_questionarre/" "cover_letter_bell.pdf" "cover_.out" "../" "cover_.tex" "cover_letter_bell.tex~" "resume_bell.tex" "cover_letter_bell.out" "link.txt")
+
+ ("/home/al/Documents/Git_Projects/Digital_PID_Controller/" (24522 41554 134968 882000) ".git/" "./" "Basic_PID_antiwindup/" "Proportional_Controller/" "README.org" "../" "Basic_PID/")
+
+ ("/media/al/Seagate Backup Plus Drive/" (24522 21140 718784 300000) "Media/" "[DesireCourse.Com] Udemy - Artificial Intelligence Reinforcement Learning in Python/" "Warranty.pdf" "VMware Workstation Pro 15.0.0 Build 10134415 (x64) + Crack [CracksNow]/" "UltraSlim.ico" "System Volume Information/" "Start_Here_Mac.app/" "Seagate/" "programming_and_tech_videos/" "Multisim 10.1/" "laptop_vids_backup/" ".Trash-1000/" ".#hello.tar.gz" "$RECYCLE.BIN/" "../" "./")
+
+ ("/media/al/" (24522 18450 266319 116000) "Seagate Backup Plus Drive/" "./" "../")
+
+ ("/media/" (24522 18150 272502 583000) "veracrypt1/" "./" "al/" "../")
+
+ ("/home/" (24224 2634 292327 157000) "./" ".ecryptfs/" "lost+found/" "al/" "../")
+
+ ("/home/al/" (24522 21377 668388 616000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "netbeans-8.2-javaee-linux.sh" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "Bell/" ".gvfs/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "new.txt" "new" "firebase.json" "extra.pdf" ".netbeans-derby/" "nbproject/" "newnewfile" "suhas_kd-master.zip" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "apache-tomcat-8.0.27/" "bootstrap-4.5.0-examples.zip" ".swp" "Python-3.9.0/" ".offlineimaprc" ".fzf.bash" "bb0bd0e0477fadc41393c7f64571e321.jpg" ".bash_aliases" ".thumbnails/" "emotion-form.png" "eagle-9.6.2/" "mpv-shot0003.jpg" "DHTsensorlibrary.zip" ".VeraCrypt-lock-al" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" "Lab2_FIR_Filtering_F2018.pdf" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".doom.d/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" "best-rc-radio-transmitters-1.jpg" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" "battery.svg" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "electronic documents/" ".minirc.dfl" "icecat-60.7.0-gnu1.tar.bz2" "th.html" "backup/" ".aspell.en.pws" ".xprofile" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" "old.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "glassfish-4.1.1/" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "frostwire-6.8.7.amd64.deb" "x2x-dbgsym_1.30-7_amd64.ddeb" "al@alviahmed.com" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "old" "AndroidStudioProjects/" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "DHT_sensor_library-1.4.0/" "bootstrap-4.5.0-dist.zip" "newfile" ".bash_aliases~" ".emacs.d/" "Anaconda3-2020.07-Linux-x86_64.sh" "minicom.log" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" "placehold.tex" ".selected_editor" ".mozilla/" "testing_wget/" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "netbeans-8.2rc/" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" "Python-3.9.0.tar.xz" ".gphoto/" "#160 - The Great Reset w_ Jay Dyer-BUPyofDRFMA.f137.mp4.part" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" "name_list" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" "EAGLE/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "pic/" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "lab_2_template.m" "suhas_kd-master/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" ".Xresources" "out.mkv" "resume_revature.pdf" "mpv-shot0004.jpg" ".ssh/" ".gnome/" ".offlineimaprc~" "Videos/" "battery_wallpaper/" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "newdir/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" "jdk-15.0.1_linux-x64_bin.deb" ".xsession-errors" "../" "./")
+
+ ("/home/al/Dropbox/" (24522 21390 988677 93000) "./" ".dropbox" "Sync/" "Pathrise_Work/" "_ Getting Started with Dropbox Paper.paper" ".dropbox.cache/" "../" "Alvi_Ahmed_Embedded_Software_Engineer.pdf")
+
+ ("/home/al/Dropbox/Sync/" (24522 21542 719946 329000) "useful_linux_commands.org~" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "programming_notes.org" "priorities.org" "useful_linux_commands.org" "useful_links_notes.org" "daily_todo.org" "extra_rem.org" "inbox.org~" "scratch.org" "getting_avrcode_work_arduino/" "job_search.org" "TODO.org" "islam_research.org" "game_ideas.org" "islam_research.org~" "resume_interview_ideas.org" "cooking.org" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "exercise_notes.org~" "other_notes/" "note_self.org" "g1_test.org" "religion.org" "exercise_notes.org" "sched_org.org" "TODO.org~" "note_self.org~" "laser_game_notes.org" ".#useful_linux_commands.org" "../" "./")
+
+ ("/home/al/Documents/resumes/resume_storage_and_scripts/resume_storage/Myant_Embedded_Software_Engineer/" (24514 25306 676528 581000) "./" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.aux" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.log" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.out" "../" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex~")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/" (24520 23481 353163 61000) "bashFunc.sh" "tester.txt" "mainScript.sh" "bufferA.tex" "bufferB.tex" ".git/" "./" "debug.sh~" "placeholder.tex" "extractor.awk" "note.tex" "buffer.tex" "test_bench/" "debug.sh" "resume.tex" "placeholder.tex~" "README.org" "#buffer.tex#" "skills" "tester.sh" "../" "bufferC.tex" "emp.data" "projects_list.tex")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/test_bench/" (24520 21145 741876 581000) "./" "placeholder_test.tex" "bash_test.sh" "buffer_test.tex~" "buffer_test.tex" "../" "placeholder_test.tex~" "bash_test.sh~")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Engineering/" (24520 22440 952195 142000) "./" "../" "Alvi_Ahmed_Google_Engineering.tex")
+
+ ("/home/al/Documents/resumes/Tenstorrent_Software_Engineer/" (24514 17940 272504 485000) "Alvi_Ahmed_Tenstorrent_Software_Engineer.out" "Alvi_Ahmed_Tenstorrent_Software_Engineer.aux" "./" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex~" "Alvi_Ahmed_Tenstorrent_Software_Engineer.log" "Alvi_Ahmed_Tenstorrent_Software_Engineer.pdf" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex" "../")
+
+ ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/" (24514 10017 926300 914000) "./" "maintx_debug.c" "mainrx.c" "Makefile" "rx_header.o" "mainrx.o" "rx_header.h" "maintx_comp.c" "../" "tx_header_debug.h" "tx_header_comp.h" "main.hex")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/" (24514 14956 821945 704000) "./" "sys_c_alu.html~" "#sys_c_alu.html#" "../" "images/" "sys_c_alu.html")
+
+ ("/home/al/Documents/SHAWN_HELP/Capstone/edited_code/final_code/" (24519 7342 579213 903000) "final_code.c" "./" "final_code.ino~" "#Sensors.c#" "Sensors.c" "final_code.c~" "../")
+
+ ("/home/al/Documents/SHAWN_HELP/Capstone/" (24519 3918 35271 710000) "MCR_Week8n9.docx" "DHT12/" "notes.org" "./" "final_code.ino" "edited_code/" "DHTlib/" "notes.org~" "final_code.c~" "../" "Servo/")
+
+ ("/home/al/Documents/awk_practice/" (24518 62349 706654 527000) "total_lines.awk" "squares.awk~" "./" "text2" "extractor.awk" "trick.awk" "trick.awk~" "awk" "extractor.awk~" "text.out" "textfile" "squares.awk" "total_lines.awk~" "../" "projects_list.tex~" "projects_list.tex")
+
+ ("/home/al/Documents/resumes/apply_to_evertz/cover_letter/" (24514 27335 503326 795000) "cover_letter_evertz.aux" "cover_letter_evertz.tex" "cover_letter_evertz.log" "./" "letter_evertz.log" "cover_letter_evertz.pdf" "cover_letter_evertz.tex~" "letter_evertz.pdf" "letter_evertz.tex~" "cover_letter_evertz.out" "letter_evertz.out" "letter_evertz.tex" "../" "letter_evertz.aux")
+
+ ("/home/al/Documents/resumes/apply_to_cgx_medical/cover_letter/" (24425 56481 883887 338000) "cover_letter_rmf.aux" "cover_letter_cgx.pdf" "./" "cover_letter_cgx.tex~" "cover_letter_rmf.tex~" "cover_letter_cgx.log" "cover_letter_cgx.out" "cover_letter_cgx.tex" "cover_letter_cgx.aux" "../")
+
+ ("/home/al/Documents/resumes/resume_scripts/resume_storage/Evertz_Software_Developer/" (24514 25355 49452 484000) "./" "Alvi_Ahmed_Evertz_Software_Developer.tex" "Alvi_Ahmed_Evertz_Software_Developer.aux" "Alvi_Ahmed_Evertz_Software_Developer.log" "Alvi_Ahmed_Evertz_Software_Developer.out" "Alvi_Ahmed_Evertz_Software_Developer.tex~" "../" "Alvi_Ahmed_Evertz_Software_Developer.pdf")
+
+ ("/home/al/Documents/resumes/resume_scripts/resume_storage/Myant_Embedded_Software_Engineer/" (24514 24278 1008 816000) "./" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.aux" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.log" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.out" "../" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex~")
+
+ ("/home/al/Documents/resumes/resume_scripts/resume_storage/HIDI_Electrical_EIT/" (24514 19825 717851 852000) "Alvi_Ahmed_HIDI_Electrical_EIT.pdf" "./" "Alvi_Ahmed_HIDI_Electrical_EIT.tex~" "Alvi_Ahmed_HIDI_Electrical_EIT.log" "Alvi_Ahmed_HIDI_Electrical_EIT.tex" "Alvi_Ahmed_HIDI_Electrical_EIT.aux" "../" "Alvi_Ahmed_HIDI_Electrical_EIT.out")
+
+ ("/home/al/Documents/resumes/resume_scripts/" (24514 19067 694781 18000) "bashFunc.sh" "resume.tex~" "resume_storage/" "mainScript.sh" "bufferA.tex" "bufferB.tex" "./" "file" "buffer.tex" "placehold.tex" "resume.tex" "name_list" "trial.tex" "README.org" "tester.sh~" "skills" "tester.sh" "../" "bufferC.tex" "projects_list.tex")
+
+ ("/home/al/Documents/Git_Projects/DE1_SoC/" (24514 17390 629726 811000) ".git/" "./" "main.c" "seg7.c" "#README.org#" ".#README.org" "README.org" "led.c" "LED_HEX_FPGA.vhd" "../" "hps_0.h" "README.org~" "images/")
+
+ ("/home/al/Documents/resumes/apply_hardware_embedded/" (24423 44473 999795 26000) "resume.tex~" "./" "resume.log" "resume.pdf" "resume.tex" "resume.aux" "../" "resume.out")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Tenstorrent_Software_Engineer/" (24514 15888 556345 909000) "./" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex~" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex" "../")
+
+ ("/home/al/Documents/Git_Projects/Capstone/" (24514 13609 603024 684000) "Phase1_end/" "systickworking_example/" ".git/" "./" "phase2_end.zip" "together/" "Base_Stepper.X/" "#timer_RAMP_SUCCESS_UP_AND_DOWN.c#" "working_jan23/" "algorithm_code_files/" "timer_experiments/" "backup7_phase2end/" "PWM_basic/" "timer_RAMP_SUCCESS_UP_AND_DOWN.c" "kin_test.c" "../" "Timer_basic_with_5/" "README.md")
 
  ("/home/al/.emacs.d/" (24514 9671 759162 175000) "image-dired/" "history" "elpa/" "ido.last" "myinit.el~" "%backup%~" "srecode-map.el" "myinit.org_archive" "myinit.org~" ".#myinit.org" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "smex-items" "meghanada/" "#myinit.el#" "#ido.last#" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "session.26ef5f436-c66d-4207-8422-4492ed833031" ".python-environments/" "init.el" "bookmarks" "myinit.el" "myinit.org" "emacs_backup.txt" "eshell/" "abbrev_defs" "auto-save-list/" ".mc-lists.el" "init.el~" "ido.last~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "irony/" "anaconda-mode/" "snippets/" "projectile-bookmarks.eld" "dmenu-items" "tramp" "projectile.cache" "#myinit.org#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" ".org-id-locations" "../" "./")
 
- ("/ssh:root@alviahmed.com:/var/www/alweb/" (ftp . 446266.47710476443) "images/" "personal_website_notes.org~" "proj_main.html" "../" "proj_pages/" "index.html" "index.html~" ".git/" "proj_main.html~" "personal_website_notes.org" "contact.html" "contact.html~" "resume_alvi.pdf" "./" "css/")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/css/" (ftp . 446266.4770723364) "own.txt" "../" "contact.css" "styles.css" "contact.css~" "styles_projindiv.css" ".projectile" "styles.css~" "#styles.css#" "./")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/sys_c_alu/" (ftp . 446266.47703197034) "images/" "../" "sys_c_alu.html~" ".#sys_c_alu.html" "sys_c_alu.html" "#sys_c_alu.html#" "./")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/" (ftp . 446266.4769850968) "avr_cnc/" "org_proj_template.html" "java_bank/" "waveform_generator/" "work_light/" "sys_c_alu/" "../" "cortexm3_media_center/" "sys_c_jpg_enc/" "audio_amp/" "proj_page_shared.css~" "led_sign/" "org_proj_template.org" "rc_avr_433/" "mouse_sen/" "sys_c_de1_soc/" "sys_c_multa/" "org_proj_template.html~" "laser_game/" "initial.org" ".projectile" "./" "org_proj_template.org~" "proj_page_shared.css" "edp_5axis/" "wall_change/")
-
- ("/ssh:root@alviahmed.com:/var/www/alweb/proj_pages/edp_5axis/" (ftp . 446266.47693505435) "images/" "../" "edp_5axis.html" "edp_5axis.html~" "./")
-
  ("/home/al/Documents/Git_Projects/website_actual/proj_pages/rc_avr_433/" (24514 3960 547861 932000) "./" "rc_avr_433.html" "rc_avr_433.html~" "../" "images/")
-
- ("/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/" (24513 61810 903097 252000) "./" "sys_c_alu.html~" "#sys_c_alu.html#" ".#sys_c_alu.html" "../" "images/" "sys_c_alu.html")
-
- ("/home/al/Documents/Git_Projects/website_actual/" (24513 60155 787738 460000) "personal_website_notes.org" ".git/" "resume_alvi.pdf" "./" "css/" "index.html~" "proj_main.html~" "index.html" "proj_main.html" "contact.html~" "proj_pages/" "personal_website_notes.org~" "../" "contact.html" "images/")
-
- ("/home/al/" (24513 58379 111203 38000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "netbeans-8.2-javaee-linux.sh" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "Bell/" ".gvfs/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "new.txt" "new" "firebase.json" "extra.pdf" ".netbeans-derby/" "nbproject/" "newnewfile" "suhas_kd-master.zip" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "apache-tomcat-8.0.27/" "bootstrap-4.5.0-examples.zip" ".swp" "Python-3.9.0/" ".offlineimaprc" ".fzf.bash" "bb0bd0e0477fadc41393c7f64571e321.jpg" ".bash_aliases" ".thumbnails/" "emotion-form.png" "eagle-9.6.2/" "mpv-shot0003.jpg" "DHTsensorlibrary.zip" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" "Lab2_FIR_Filtering_F2018.pdf" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".doom.d/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" "best-rc-radio-transmitters-1.jpg" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" "battery.svg" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" ".viminfo" "electronic documents/" ".minirc.dfl" "icecat-60.7.0-gnu1.tar.bz2" "th.html" "backup/" ".aspell.en.pws" ".xprofile" "website_improvments.org" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" "old.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "glassfish-4.1.1/" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "frostwire-6.8.7.amd64.deb" "x2x-dbgsym_1.30-7_amd64.ddeb" "al@alviahmed.com" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "old" "AndroidStudioProjects/" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "DHT_sensor_library-1.4.0/" "bootstrap-4.5.0-dist.zip" "newfile" ".bash_aliases~" ".emacs.d/" "Anaconda3-2020.07-Linux-x86_64.sh" "minicom.log" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" "placehold.tex" ".selected_editor" ".mozilla/" "testing_wget/" "sum_course.org" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "netbeans-8.2rc/" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" "Python-3.9.0.tar.xz" ".gphoto/" "#160 - The Great Reset w_ Jay Dyer-BUPyofDRFMA.f137.mp4.part" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" "name_list" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" "EAGLE/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "pic/" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "lab_2_template.m" "suhas_kd-master/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" ".Xresources" "out.mkv" "resume_revature.pdf" "mpv-shot0004.jpg" ".ssh/" ".gnome/" ".offlineimaprc~" "Videos/" "battery_wallpaper/" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "newdir/" "openspades/" "Android/" "src/" ".authinfo" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" "jdk-15.0.1_linux-x64_bin.deb" ".xsession-errors" "../" "./")
-
- ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Engineering/" (24513 14769 613259 174000) "./" "../" "Alvi_Ahmed_Google_Engineering.tex")
-
- ("/home/al/Documents/Git_Projects/Resume_Project_Adder/" (24513 14626 94442 646000) "bashFunc.sh" "resume_storage/" "mainScript.sh" "bufferA.tex" "bufferB.tex" ".git/" "./" "file" "buffer.tex" "placehold.tex" "resume.tex" "name_list" "trial.tex" "README.org" "tester.sh~" "skills" "tester.sh" "../" "bufferC.tex" "projects_list.tex")
-
- ("/home/al/Dropbox/Sync/" (24512 52655 434433 658000) "useful_linux_commands.org~" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "programming_notes.org" "priorities.org" "useful_linux_commands.org" "useful_links_notes.org" "daily_todo.org" "extra_rem.org" "inbox.org~" "scratch.org" "getting_avrcode_work_arduino/" "job_search.org" "TODO.org" "islam_research.org" "game_ideas.org" "islam_research.org~" "resume_interview_ideas.org" "cooking.org" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "exercise_notes.org~" "other_notes/" "note_self.org" "g1_test.org" "religion.org" "exercise_notes.org" "sched_org.org" "TODO.org~" "note_self.org~" "laser_game_notes.org" "../" "./")
-
- ("/home/al/Dropbox/Pathrise_Work/" (24511 2270 55939 799000) "./" "interest_job_descrip.org~" "interest_job_descrip (1).org" "interest_job_descrip.org" "../")
-
- ("/home/al/Documents/resumes/" (24509 31240 785231 682000) "applying_electricalicatdesigner/" "old_versions/" "fullswing_embeddedengineer/" "./" "applying_to_adamson/" "applying_to_revature/" "universal_resume/" "apply_to_tenstorrent/" "eleceng_honeywell/" "applyingto_ABCdev_electricalengineertechnologist/" "applying_to_bell/" "applying_to_rmfdesign/" "resume_clinic_scan/" "apply_to_cgx_medical/" "applying_to_bell_access_network_engineering/" "profile_pic/" "current_versions/" "applying_to_spin_master/" "digitalengineer_pervicescorp/" "applying_cisco/" "resume_scripts/" "../" "apply_to_evertz/" "apply_hardware_embedded/")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/qwe_qwe/" (24510 5006 924439 962000) "./" "../" "Alvi_Ahmed_qwe_qwe.tex")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/" (24510 4997 760268 601000) "qwe_qwe/" "./" "../")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Bell_Software_Engineer/" (24509 34736 10723 259000) "./" "Alvi_Ahmed_Bell_Software_Engineer.tex" "../")
-
- ("/home/al/Documents/resumes/applying_to_bell/" (24509 16794 547740 313000) "resume_bell.log" "resume_bell.pdf" "cover_letter_bell_sum_edit.tex" "recent_transcript.pdf" "resume_bell.tex~" "cover_letter_bell_sum_edit.out" "cover_letter_bell_sum_edit.pdf" "./" "cover_letter_bell.tex" "resume_bell.aux" "cover_letter_bell.log" "cover_letter_bell_sum_edit.aux" "cover_.pdf" "cover_.log" "cover_letter_bell_sum_edit.log" "cover_letter.tex~" "cover_letter_bell.aux" "resume_bell.out" "video_questionarre/" "cover_letter_bell.pdf" "cover_.out" "../" "cover_.tex" "cover_letter_bell.tex~" "resume_bell.tex" "cover_letter_bell.out" "link.txt")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Microsoft_Electrical_Engineer/" (24508 61292 446494 659000) "./" "Alvi_Ahmed_Microsoft_Electrical_Engineer.tex" "../")
 
@@ -260,64 +319,6 @@
  ("/home/al/Documents/" (24434 316 908045 936000) "ELE 504/" "Projects/" "godot_projects/" "PP01- EDP Report-1.docx" "islam_research/" "COE328/" "angular_practice/" "GDQuest_Godot_Demos/" "COE718/" "ELE724/" "other_tobeorg/" "#shawn_courses_table1_table2.org#" "COE838/" "json_practice/" "resumes/" "website_icons/" "COE608/" "nodejs_practice/" "Ahmed, Alvi.500696421.Graduation letter.pdf" "SHAWN_HELP/" "CCF_007563.jpg" "shawn_courses_table1_table2.org~" "godot_andriod_example/" "usb_backup/" "An Introduction to Programming in Emacs Lisp by Robert J. Chassell (z-lib.org).pdf" "dired_practice/" "latex_practice/" "default.Xdefaults.txt" "herb_examples/" "javascript_practice/" "os/" "python_davor/" "c++_practice/" "makita/" "lisp_practice/" "bengla_tafsir/" "ele639_shawn_help.zip" "COE 538 - BME 538/" "ele639_shawn_help/" "books/" "ELE792/" "html_practice/" "bills_and_docs.txt" "blockstack_prac/" "printer_drivers/" "shawn_courses_table1_table2.txt" "COE528/" "sql_practice/" "softeng-resume-example/" "NEED_to_extract_projects/" "COE428/" "react_practice/" "elisp_lisp_practice/" "ELE734/" "python_practice/" "dwm-6.2.tar.gz" "dwm-6.2/" "c_practice/" "ELE709/" "virtualbox-6.1_6.1.8-137981_Ubuntu_eoan_amd64.deb" "Git_Projects/" "shawn_courses_table1_table2.org" "sed_practice/" "Oracle_VM_VirtualBox_Extension_Pack-6.1.8.vbox-extpack" "asus_tuf_reciept/" "COE628/" "java_practice/" "../" "./")
 
  ("/home/al/Documents/Git_Projects/" (24439 13849 892022 29000) "website_colors/" "Bank_Manager/" "website/" "dot_config_files/" "./" "DE1_SoC/" "Integer_Arithmetic_ALU/" "Digital_PID_Controller/" "NotoColorEmoji.ttf" "Bresenham_Sim_5axis/" "hack_nerd_fonts/" "work_table_light/" "Shift-Register-Sign/" "bash_scripts/" "i3lock/" "source-code-pro/" "CortexM3_Media_Center/" "Intro_Signal_Processing/" "Multiplier_Accelerator/" "Laser_Game/" "NotoEmoji-Regular.ttf" "RC_tiny85/" "rgb_sign/" "JPEG_Encoder_Decoder_Unit/" "Designing-an-Audio-Amplifier/" "../" "Waveform_Generator/" "MediaAuth_ENF/")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/3axis/" (24439 23057 343045 971000) "./" "3axis_main.c~" "3axis_main.c" "3axis_main" "../")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/2axis/" (24439 22605 953757 973000) "2axis_main.c" "2axis_main" "./" "comp_main.c~" "output.txt" "comp_main" "../" "comp_main.c" "2axis_main.c~")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/ringbuffer_sim_march20/" (24224 43372 262110 661000) "./" "main.c" "main" "TAGS" "../" "main.c~")
-
- ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/al/" (24405 20944 0 0) "COE718/" "lighttable-0.8.1-linux/" "News/" "th_files/" "android_sumon_backup/" ".git-credentials" "test.txt" "website_improvments.org" "website_improvments.org~" ".newsrc-dribble" "MEGA-RECOVERYKEY.txt" "th.html" "#test.txt#" "ELE734/" "kissanime/" ".audacity-data/" "bootstrap-4.5.0-dist/" ".AndroidStudio4.0/" "rtl8812au/" "rtl88x2bu/" "dailytodo.ps" "dailytodo.pdf" "bootstrap-4.5.0-examples.zip" "bootstrap-4.5.0.zip" "bootstrap-4.5.0-dist.zip" ".imwheelrc" ".imwheelrc~" "ideaIC-2020.1.3.tar.gz" "mpv-shot0003.jpg" "mpv-shot0001.jpg" "extra.pdf" ".offlineimaprc" "mpv-shot0002.jpg" ".offlineimaprc~" ".runescape" "behaviour.png" ".gradle/" "AndroidStudioProjects/" "Android/" ".offlineimap/" ".Mail/" "flash_player/" ".idlerc/" "awk_practice/" "tabbed/" "Jagex/" "hello-react/" "sketchbook/" ".arduino/" "testing_wget/" "node-v12.16.3-linux-x64/" "cmake-3.17.2-Linux-x86_64/" "x2x-dbgsym_1.30-7_amd64.ddeb" "x2x/" "VeraCrypt/" "bills/" "back_init/" "bar/" ".vscode/" "enc/" ".slime/" "src/" "quicklisp/" "dist/" "dwmstatus/" "dwm/" "frostwire-6.8.4.amd64/" "fzf/" "hideshow-org/" "tor-browser_en-US/" "netbeans-11.3/" "openspades/" "new_dired/" "bash_scripts/" "FrostWire/" "siji/" ".viminfo.tmp" "en503_takehome_test.pdf" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "icecat-60.7.0-gnu1.tar.bz2" "code_1.45.1-1589445302_amd64.deb" "openspades-0.1.3.tar.gz" "node-v12.16.3-linux-x64 (1).tar.xz" ".steam/" "i3/" "LTspiceXVII/" "eagle-9.0.0/" "electronics/" "alvi.ahmed@ryerson.ca.ical/" "eagle libraries/" "latex_practice/" "test.el" "electronic documents/" "Git_Projects/" "osap/" "MATLAB/" "learning bengali/" ".Xresources" "11937930_984118698317194_6977058106448093759_o (2017_02_09 06_38_46 UTC).jpg" "amplify.yml" ".hplip/" "firebase.json" "webpack.config.js" "jdk-8u111-nb-8_2-linux-x64.sh" "colors.Xresources" "node-v12.16.3-linux-x64.tar.xz" "Apache-NetBeans-11.3-bin-linux-x64.sh" "biblatex-cheatsheet.pdf" "cookieclickersave.txt" "cookieclickersave.txt~" ".ICEauthority" ".spacemacs" "jdk-14.0.1_linux-x64_bin.deb" "google-chrome-stable_current_amd64.deb" "#.bash_history#" "bash_practice/" ".openarena/" ".scenebuilder/" "netbeans-8.2/" "jdk1.8.0_111/" "cmake-3.17.0/" "rtags/" "benchmarks/" "bin/" "docs/" "unittests/" "test/" "runtimes/" "utils/" "lib/" "cmake-3.17.0.tar.gz" "install_manifest.txt" "include/" "tools/" "CMakeFiles/" "en_date.png" "compile_commands.json" "cmake_install.cmake" "Makefile" "llvm.spec" "x2x_1.30-7_amd64.deb" "LLVMBuild.cmake" "CPackSourceConfig.cmake" "CPackConfig.cmake" "netlify.toml" "clang-10.0.0.src/" "llvm-project-10.0.0/" ".profile~" "scenebuilder-11.0.0.deb" "screenfetch.png" ".bash_aliases~" ".bash_aliases" "qTox-v1.16.3.x86_64.AppImage" "netbeans-8.1-linux.sh" "clang-10.0.0.src.tar.xz" "llvm-project-10.0.0.tar.xz" "scratch.org~" "scratch.org" "gcc.gnu.org/" "opt/" ".caches/" ".npm/" ".nvm/" "node-v12.13.0-linux-x64/" "polybar/" ".doom.d/" "ui/" "junk/" "files2/" ".ihsec/" "matlab2019b_zip/" "examples/" "etc/" "ihsec/" ".m2/" "NetBeansProjects/" ".mplab_ipe/" "coe718_final/" ".netbeans/" "polyspace/" "sys/" "java/" "interprocess/" "extern/" "orgmode.org/" "toolbox/" "help/" ".matlab/" "www.gatevidyalay.com/" "MPLABXProjects/" ".mplabcomm/" ".mchp_packs/" ".mplab_ide/" ".oracle_jre_usage/" ".fltk/" ".vnc/" ".gitignore" "www.ee.ryerson.ca/" "ghostscript-9.27-linux-x86_64/" ".rpmdb/" ".kde/" ".ssh/" "altera/" "snap/" "vendor/" "junit413/" "JUNIT_WORKSPACE/" "wine-4.0.1/" "vmware/" ".gimp-2.8/" ".vmware/" ".fonts/" "opencv-3.4.6/" "EAGLE/" "eagle_libraries_storage/" "org/" "emotion-form.png" "VirtualBox VMs/" ".conky/" "printer_drivers/" "trial/" ".sane/" ".FBReader/" ".emacs.d/" ".purple/" "eagle-9.4.2/" ".gconf/" ".waterfox/" ".pki/" ".dropbox-dist/" "emacs-26.3/" ".screenlayout/" ".aptitude/" "sum_course.org" "testing_systemc/" ".nbi/" ".dbus/" ".icons/" "Dropbox/" ".dropbox/" "systemc-2.3.3/" ".wine/" ".psensor/" ".macromedia/" ".adobe/" ".synaptic/" ".xprofile" ".frostwire5/" ".java/" ".zoom/" "from_sig_school/" "cross.png" "waterfox/" ".viminfo" ".lesshst" ".gtkrc-2.0~" "intelFPGA_lite/" ".altera.quartus/" "cedet-1.1/" "META-INF/" ".bash_history" "lynx_bookmarks.html" "composer.lock" ".putty/" "back_doom/" "composer.json" ".notes" "test.org" "LICENSE.txt" "plantuml.jar" ".xsession" "OpenSpades-0.1.3-Windows.zip" ".mplab_dv/" "shared_windows7/" "systemc-2.3.3.tar.gz" ".xinitrc" ".bashrc~" ".text.txt.swp" "mplab-data-visualizer-standalone(linux).1.0.675.run" ".gtktermrc" ".minirc.dfl" "id.txt~" "position(s).png" ".notes~" "hello.txt" "downlist-logo.png" "my-diagram.png" "output.txt" "myJars/" "jdee-server/" "#.selected_editor#" ".dmrc" "steno_practice.txt" "detail-btn-add-2.png" "elisp_practice.el" "magnet_link_udemy.txt" "GNUstep/" "pacakges_deleted.png" ".dmesg.txt.swp" "libxcb-1.13.1.tar.bz2" ".var/" "note.txt" "apache-maven-3.6.3/" ".swo" "Screenshot_2020-01-06_09-00-16.png" "llvm-project/" ".ratpoison_history" "Killswitch Engage - The Signal Fire-2N0ShfOOEq4.m4a" ".dec_chg.txt" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" ".gtkrc-2.0" "index.html.1" ".authinfo" "dmesg.txt" "testdisk.log" "MPLABX-v5.20-linux-installer.tar" "xc32-v2.30-full-install-linux-installer.run" "minicom.log" "Setup and demonstration of remote desktop connections (Linux to Windows 10)-Qb9lN3RCqVM.mkv" "MPLABX-v5.20-linux-installer.sh" ".Xauthority" "Screenshot_2019-10-25_18-18-46.png" "final_exam_time.org" "final_exam_sched.png" "kaktxt.c" ".wget-hsts" "drawing.svg" "cmake-3.17.2-Linux-x86_64.sh" "DIY Buck converter - TUTORIAL-SM5qPrOrDrc.mkv" "tutor" ".python_history" "index.html" "Getting Started with Atmel SAM V7-O12k93-D95E.mp4" "PID Balance+Ball _ full explanation & tuning-JFTJ2SS4xyA.mkv" "polybar-3.4.2.tar" "How to Decode a QR Code by Hand-KA8hDldvfv0.mp4" "opencv-3.4.6.zip" "extracted_schem.ps" ".dmrc~" "lab1_material2.zip" ".tg_priv" ".aspell.en.pws" ".aspell.en.prepl" "mozilla.pdf" "trail/" "gazebo.sh" "back_emacs/" "evilwm-1.1.1.tar.gz" "#.bash_aliases#" "package-lock.json" "package.json" ".fzf.bash" "L3resumenotes.org~" "hello~" ".slime-history.eld" "notes.txt~" "tmp_user/" ".gitconfig" "quicklisp.lisp" ".mplayer/" ".i3status.conf~" ".i3status.conf" ".fehbg" ".conkyrc" ".sbclrc" ".gvfs/" "lab3b_2.zip" ".texlive2017/" ".selected_editor" ".vimrc" ".vim/" ".xprofile~" ".plover-lock-al-0" ".xsession-errors" ".surf/" "Untitled Project.osp" "thumbnail/" ".openshot_qt/" "OpenShot-v2.4.4-x86_64.AppImage" "graph_extracted_schematic.png" "Screenshot_2019-09-06_18-37-42.png" "tigervnc-1.9.90.tar.gz" "priority_inv.pdf" "quicklisp.lisp.asc" "workout_home.jpg" "virtualbox-6.0_6.0.10-132072~Ubuntu~bionic_amd64.deb" "DIY CNC Router for Under $900 - Free Plans Available-jjdXpp77MdU.mp4" ".eaglerc" ".swp" "md5result.txt" "curtain_spec.txt~" "Videos/" "Screenshot_2019-09-10_06-07-17.png" "Pictures/" "fonts/" "Release.key" "winehq.key" ".thunderbird/" "LINUX - REMOTE DESKTOP ACCESS WITH VNC TUTORIAL-rFp6J7hWkCQ.webm" ".android/" "xampp-linux-x64-7.1.33-1-installer.run" ".sudo_as_admin_successful" ".bashrc" ".mozilla/" ".linuxmint/" ".gphoto/" ".thumbnails/" "frostwire-6.8.1.all.deb" ".local/" "node_modules/" "manga_trial/" "Music/" "Documents/" "Public/" "Templates/" "Downloads/" "Desktop/" ".cache/" ".gnupg/" ".profile" ".gtkrc-xfce" ".xsession-errors.old" ".config/" ".bash_logout" ".swt/" "eclipse-workspace/" "eclipse/" ".p2/" ".eclipse/" "../" "./")
-
- ("/media/al/Backup Plus/linux_experimental_backup_with_terminal/" (24180 10350 0 0) "al/" "../" "./")
-
- ("/media/al/" (24439 14505 637568 318000) "./" "Backup Plus/" "../")
-
- ("/media/" (24434 29854 883325 856000) "./" "al/" "../")
-
- ("/home/al/Documents/Git_Projects/website_actual/proj_pages/" (24406 19685 995940 635000) "./" "design_amp/" "org_proj_template.org~" "laser_game/" "org_proj_template.html" "org_proj_template.org" "proj_page_template.html" "initial.org" "sys_c_multa/" "sys_c_alu/" "proj_page_shared.css" "../" "org_proj_template.html~" "avr_cnc_page/")
-
- ("/home/al/Documents/html_practice/" (24406 18662 400068 884000) ".projectile" "initial.org~" "practice_with_git/" "./" "space_black.jpg" "light_off_on.jpg" "index.html~" "cont.css" "light_off.jpg" "light_on.jpg" "first_cont.html" "index.html" "first_style_sheet.css" "bspwm_rice.png" "note.txt" "index.org" "train_tracks.jpg" "index.org~" "first.html" "initial.org" "#first.html#" "proj_page_shared.css~" "secratary.jpg" "forms.html" "proj_page_shared.css" "../" "plan.webp" "rain_lorry.jpeg" "city.jpg")
-
- ("/home/al/Documents/c_practice/socket_programming/" (24395 51687 809645 678000) "./" "udemy_tut/" "../")
-
- ("/home/al/bin/" (24395 53404 565992 817000) "android_start.sh~" "godot_start.sh" "./" "mp" "glgb" "br" "tem" "herbstclient" "herbstluftwm" "bgpape" "godot_start.sh~" "db" "ms" "dfb" "term_emacs.sh~" "mon" "../" "android_start.sh" "tabc.sh")
-
- ("/home/al/Documents/godot_projects/laser_effect_demo/" (24401 20490 763751 196000) "mirror-sprite.gd" "combiner.tscn" "door.gd" "splitter_front.gd" "door.tscn" "default_env.tres" "combiner-sprite.gd" "laser_end.gd" "project.godot" "mirror-front.gd" "combiner_b_front.gd" "icon.png.import" "splitter-sprite.gd~" "#whole_mirror.gd#" "laser_beam.gd" "mirror-beam-support.tscn" "door_assets/" ".import/" "splitter_combiner_assets/" "icon.png" "path_splitter.tscn" "mirror_assets/" "combiner-sprite.gd~" "path_splitter.gd" "laser_beam.tscn" "whole_mirror.tscn" "splitter.tscn" "beam-starter.tscn" "path_splitter_sprite.gd~" "whole_splitter.gd" "mirror-beam.tscn" "laser_assets/" "splitter-sprite.gd" "path_splitter_sprite.gd" "World.tscn" "path_front.gd" "whole_mirror.gd" "combiner_a_front.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "combiner.gd" "splitter.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
-
- ("/home/al/Documents/godot_projects/laser_game/laser_effect_demo/" (24401 20419 214292 352000) "mirror-sprite.gd" "combiner.tscn" "door.gd" "splitter_front.gd" "door.tscn" "default_env.tres" "combiner-sprite.gd" "laser_end.gd" "project.godot" "mirror-front.gd" "combiner_b_front.gd" "icon.png.import" "splitter-sprite.gd~" "#whole_mirror.gd#" "laser_beam.gd" "mirror-beam-support.tscn" "door_assets/" ".import/" "splitter_combiner_assets/" "icon.png" "path_splitter.tscn" "mirror_assets/" "combiner-sprite.gd~" "path_splitter.gd" "laser_beam.tscn" "whole_mirror.tscn" "splitter.tscn" "beam-starter.tscn" "path_splitter_sprite.gd~" "whole_splitter.gd" "mirror-beam.tscn" "laser_assets/" "splitter-sprite.gd" "path_splitter_sprite.gd" "World.tscn" "path_front.gd" "whole_mirror.gd" "combiner_a_front.gd" "beam-starter.gd" "CollisionPolygon2D.gd" "CollisionPolygon2D2.gd" "combiner.gd" "splitter.gd" "door_collision.gd" "mirror-beam.gd" "../" "./")
-
- ("/home/al/Documents/godot_projects/" (24397 19157 499469 652000) "GodotIntro-Assets/" "./" "godot_first_complete/" "4ffdf06f3ec82cf403279d323bb99333.pdf" "instancing/" "rpg_godot_project/" "laser_effect_demo/" "instancing_practice/" "../" "instancing.zip" "godot-and-android/" "first_godot_project/")
-
- ("/home/al/Documents/c_practice/socket_programming/udemy_tut/TCPclient/" (24395 63205 34570 211000) "./" "tcp_client" "../" "tcp_client.c")
-
- ("/home/al/Documents/Git_Projects/laser_game/" (24397 24537 449203 41000) ".git/" "./" "README.org" "laser_effect_demo/" "../" "laser_cardinal.png")
-
- ("/home/al/Android/" (24358 34802 459607 344000) "./" "../" "Sdk/")
-
- ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/01 Pointer Basics/" (24264 54208 414703 181000) "007 Indirection-en.srt" "007 Indirection.mp4" "./" "008 Study Notes  Step One.html" "006 Pointer variables.mp4" "001 What is this course about.mp4" "008 C-Pointers-Study-Notes-Step-One.pdf" "004 POINTERS-SOURCE-CODE.zip" "002 How to use this course.mp4" "001 What is this course about-en.srt" "006 Pointer variables-en.srt" "005 What is a pointer-en.srt" "003 ReadMeAndFAQ.pdf" "004 Source Code Archive.html" "003 Course Notes and FAQ.html" "002 How to use this course-en.srt" "../" "005 What is a pointer.mp4")
-
- ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" (24264 47091 122829 228000) "./" "01 Pointer Basics/" "[FreeCourseSite.com].url" "[FreeCourseSite.com].txt" "03 Lists and data structures/" "[HaxTech.me].txt" "04 Common Pointer Problems/" "../" "02 Addresses and Indirection/" "[HaxTech.me].url")
-
- ("/home/al/Videos/[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" (24264 32058 365143 235000) "02 Socket Programming Basics/" "./" "04 Summary/" "FreeTutorials.Eu.html" "03 HTTP Protocol/" "Torrent Downloaded From GloDls.to.txt" "Discuss.FreeTutorials.Us.html" "[TGx]Downloaded from torrentgalaxy.org.txt" "How you can help Team-FTU.txt" "../" "01 Introduction/" "FreeCoursesOnline.Me.html")
-
- ("/home/al/FrostWire/Torrent Data/C-C++-Courses/[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/" (24264 32058 365143 235000) "02 Socket Programming Basics/" "./" "04 Summary/" "FreeTutorials.Eu.html" "03 HTTP Protocol/" "Torrent Downloaded From GloDls.to.txt" "Discuss.FreeTutorials.Us.html" "[TGx]Downloaded from torrentgalaxy.org.txt" "How you can help Team-FTU.txt" "../" "01 Introduction/" "FreeCoursesOnline.Me.html")
-
- ("/home/al/FrostWire/Torrent Data/C-C++-Courses/" (24297 1800 803844 40000) "[FreeCourseSite.com] Udemy - Advanced C Programming Pointers/" "./" "[DesireCourse.Com] Udemy - C++ From Beginner to Expert/" "[FreeAllCourse.Com] Udemy - Beginning C++ Programming - From Beginner to Beyond/" "Embedded Systems Programming on ARM Cortex-M3-M4 Processor/" "[FreeTutorials.Us] Udemy - C Programming For Beginners - Master the C Language/" "../" "[FreeTutorials.Eu] [UDEMY] Learn Socket Programming in C from Scratch - [FTU]/")
-
- ("/home/al/FrostWire/Torrent Data/" (24395 51546 66640 841000) "Taxi Driver (1976)/" "C-C++-Courses/" "[FreeTutorials.Eu] Udemy - Python for Data Science and Machine Learning Bootcamp/" "./" "Aoi Bungaku Series/" "[Golumpa] Dimension W [Dual Audio] [BDRip] [10-bit] [1080p]/" "[FreeTutorials.Us] Udemy - Discovering Godot Make Video Games in Python-like GDScript/" "Sicario.2015.720p.BRRip.x264-ETRG/" "The Complete Front-End Web Development Course!/" "Python and Django Full Stack Web Developer Bootcamp/" "[DesireCourse.Net] Udemy - The Complete SQL Bootcamp 2020 Go from Zero to Hero/" "Prisoners (2013) (1080p BluRay x265 HEVC 10bit AAC 5.1 afm72)/" "[ FreeCourseWeb.com ] Udemy - Absolute Introduction to Object Oriented Programming in Java.zip" "[ FreeCourseWeb.com ] Skillshare - How To Become A Game Developer Using Godot Game Engine 3.zip" "Ninja Scroll (1993) [BluRay] [1080p] [YTS.AM]/" "Sicario Day Of The Soldado (2018) [BluRay] [1080p] [YTS.AM]/" "Microsoft Office Professional Plus VL 2019 - 1809 (Build 10827.20181) + Activator [CracksMind]/" "[FFF] D-Frag! [BD][1080p-FLAC]/" "../" "Ansatsu Kyoushitsu 2nd Season [1080]/" "[FreeCourseLab.me] Udemy - The Complete 2020 Web Development Bootcamp/")
-
- ("/home/al/Documents/Git_Projects/website_actual/proj_pages/avr-cnc-page/" (24395 15803 718014 916000) "./" "avr-cnc.org~" "../" "#avr-cnc.org#" "avr-cnc.org" "images/")
-
- ("/home/al/Documents/resumes/new_current/Al/" (24395 15246 593982 215000) "synopsys2.pdf" "resume.tex~" "cover_letter/" "resume_edited.pdf" "./" "resume_edited3.pdf" "resume.log" "improved_freecodecamp/" "L3wescam/" "resume_Alvi.pdf" "pref.txt" "resume.pdf" "improved_clinic/" "GEOTAB/" "resume.aux" "../" "L3Wescam_2020_co_op/" "resume.out" "resume_edited2.pdf")
-
- ("/home/al/Documents/resumes/new_current/Al/improved_freecodecamp/" (24395 49871 490783 65000) "resume_aug30.pdf" "resume_aug30.aux" "./" "resume_aug30.tex" "resume_aug30.tex~" "resume_aug30.pdf~" "resume_aug30.out" "../" "resume_aug30.log")
-
- ("/home/al/Documents/c_practice/socket_programming/udemy_tut/" (24395 51687 777645 0) "./" "../")
-
- ("/home/al/Documents/resumes/new_current/Al/improved_resume_aug_30_2020/" (24395 15218 861382 551000) "resume_aug30.pdf" "resume_aug30.aux" "./" "resume_aug30.tex" "resume_aug30.tex~" "resume_aug30.out" "../" "resume_aug30.log")
-
- ("/home/al/Documents/softeng-resume-example/" (24395 4379 312817 875000) "./" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

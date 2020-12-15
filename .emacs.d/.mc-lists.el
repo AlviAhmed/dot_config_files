@@ -22,6 +22,7 @@
         handle-switch-frame
         hungry-delete-backward
         hungry-delete-forward
+        indent-for-tab-command
         keyboard-escape-quit
         kill-region
         kill-visual-line

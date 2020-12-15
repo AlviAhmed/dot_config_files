@@ -1,40 +1,40 @@
 
 ;; ----- smex-history -----
 (
- ispell
  eshell
- openwith-mode
- dmenu
- goto-line
- bookmark-save
+ ispell
+ emmet-mode
+ compile
  peep-dired
+ fill-region
+ revert-buffer
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 236)
- (compile . 67)
- (emmet-mode . 62)
- (peep-dired . 13)
+ (eshell . 252)
+ (compile . 68)
+ (emmet-mode . 63)
+ (peep-dired . 17)
  (hyperspec-lookup . 1)
  (customize-themes . 4)
  (highlight-phrase . 1)
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 3)
- (bookmark-save . 15)
+ (bookmark-save . 16)
  (irony-install-server . 14)
  (recompile . 1)
  (count-words . 7)
- (revert-buffer . 224)
+ (revert-buffer . 259)
  (dmenu . 33)
  (reindent-then-newline-and-indent . 2)
  (projectile-add-known-project . 4)
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 2)
- (list-packages . 15)
+ (list-packages . 17)
  (electric-indent-mode . 11)
  (benchmark . 1)
  (org-agenda . 160)
@@ -87,7 +87,7 @@
  (org-time-stamp-inactive . 1)
  (upcase-region . 1)
  (overwrite-mode . 2)
- (xah-open-in-external-app . 3)
+ (xah-open-in-external-app . 5)
  (clone-indirect-buffer . 2)
  (vimish-fold . 5)
  (vimish-fold-unfold-all . 2)
@@ -97,7 +97,7 @@
  (profiler-report . 2)
  (vlf-stop-follow . 1)
  (scroll-bar-mode . 1)
- (fill-region . 18)
+ (fill-region . 19)
  (flyspell-mode . 6)
  (flyspell-word . 1)
  (flyspell-correct-at-point . 1)
@@ -112,7 +112,7 @@
  (refill-mode . 3)
  (org-refile . 2)
  (ibuffer . 2)
- (ispell . 72)
+ (ispell . 83)
  (company-files . 1)
  (occur . 2)
  (ivy-mode . 2)
@@ -126,4 +126,7 @@
  (writeroom-mode . 4)
  (regexp-builder . 1)
  (openwith-mode . 2)
+ (arduino-menu . 1)
+ (arduino-mode . 1)
+ (global-auto-revert-mode . 1)
 )

@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Pathrise_Work"
+(("Resume_Project_Adder"
+ (filename . "~/Documents/Git_Projects/Resume_Project_Adder/")
+ (front-context-string . "bashFunc.sh\n  -r")
+ (rear-context-string . "37 Nov 27 12:33 ")
+ (position . 231))
+("Pathrise_Work"
  (filename . "~/Dropbox/Pathrise_Work/")
  (front-context-string . "interest_job_des")
  (rear-context-string . "95 Nov 24 16:41 ")

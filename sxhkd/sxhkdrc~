@@ -199,7 +199,6 @@ super + {1-9,0}
 super + shift + {1-9,0}
     D={1-9,0}; \
     bspc node -d "$(bspc query -D -m | sed -n "$D p")"
-    #&&     bspc desktop -f "$(bspc query -D -m | sed -n "$D p")";
 
 
 super + ctrl + alt + {1-9,0}    
@@ -305,15 +304,19 @@ super + shift + b
 
 ###---Adding Tabbed Functionality---### 
 
-# # Add focused window to a tabbed instance in given direction
-# super + c; {h,j,k,l}
-#     tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
+# Add focused window to a tabbed instance in given direction
+super + t; {h,j,k,l}
+    tabc.sh $(bspc query -N -n {west,south,north,east}) add $(bspc query -N -n focused)
 
-# # Remove one tab from tabbed
-# super + c; r
-#     tabbed=$(bspc query -N -n focused); \
-#     child=$(tabc.sh $tabbed list | head -n1); \
-#     tabc.sh $tabbed remove $child
+# Remove one tab from tabbed
+super + t; r
+    tabbed=$(bspc query -N -n focused); \
+    child=$(tabc.sh $tabbed list | head -n1); \
+    tabc.sh $tabbed remove $child
+
+
+
+
 ###---Adding Tabbed Functionality---### 
 
 

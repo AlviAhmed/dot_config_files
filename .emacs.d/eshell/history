@@ -1,85 +1,3 @@
-echo hello >> name_list
-dataVar="hello"
-dataVar=$(echo hello)
-grep "Projects" resume.tex
-cat resume.tex | grep Projects
-sed -n '/Skills Used:/p' projects_list.tex
-sed -n '/Skills Used:/p' projects_list.tex | cut -d'}' -f1
-sed -n '/Skills Used:/p' projects_list.tex | cut -d'}' -f2
-git status
-awk -v var="C++" 'index($0,"Skills Used:") && index($0,var)' RS="\n\n" ORS="\n\n" projects_list.tex
-awk -v var="C++" 'index($0,"Skills Used:") && index($0,var)' RS="\n\n" ORS="\n\n" projects_list.tex | sed -n '/Skills Used:/p' $data | cut -d'}' -f2
-./tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-git add -A
-git commit -m "testing, checking if user input is a valid skill from the extracted projects"
-git push origin Log3_5_debugging
-aplay bashFunc.sh 
-aplay bashFunc.sh 
-git add -A
-git commit -m "updated readMe"
-git push origin Log3_5_debugging
-git checkout master
-git merge Log3_5_debugging
-git add -A
-git commit -m "merged with log3.5"
-git push origin master
-bash tester.sh~
-bash tester.sh
-bash tester.sh
-bash tester.sh
-bash tester.sh
-echo "hello" >> name_list
-git add -A
-bash mainScript.sh 
-clear
-git status
-git add -A
-git commit -m "Log4"
-git push origin master
-git checkout -b Log4
-git merge master
-git add -A
-git commit -m "merged"
-git push origin Log4
-git checkout master
-git status
-sed -n '/^\\textbf/p' placehold.tex | cut -d'{' -f2 | cut -d':' -f1
-sed -n '/^\\textbf/p' placehold.tex | cut -d'{' -f2 | cut -d':' -f1
-printf "\n Placeholder var: $placeholdVar \n"
-cat name_list
-cat name_list | grep "Game"
-cat name_list | grep "Game" | wc -l
-bash mainScript.sh
-clear
-git status
-git clone https://github.com/AlviAhmed/website_actual.git
-git status
-git commit -m "added RC car page"
-git push origin master
 git add -A
 git commit -m "added RC car page"
 git push origin master
@@ -126,3 +44,85 @@ git push origin master
 bash mainScript.sh 
 bash mainScript.sh 
 clear
+git status
+dfb
+git add -A
+git status
+git commit -m "solution work in progress"
+git push origin log4_5_debugging
+git add -A
+git commit -m "changes and updates"
+git push origin log4_5_debugging
+youtube-dl 
+youtube-dl https://www.youtube.com/watch?v=M6sQPkTsO7c
+git status
+git add -A
+git commit -m "updated readme"
+git push origin master
+git status
+cd ..
+git clone https://github.com/NoMan2000/introToJavaScript.git
+ls
+gcc -o intro intro.c
+ls
+./intro
+git clone https://github.com/AlviAhmed/Web_UI_RC_Car_Controller.git
+cd website_actual/
+git checkout color_palette_14
+git checkout color_palette_13
+git checkout color_palette_12
+git checkout color_palette_11
+git checkout color_palette_10
+git checkout color_palette_9
+git checkout color_palette_8
+git checkout color_palette_7
+git checkout color_palette_17117
+git checkout color_palette_7642
+git checkout color_palette_2763
+git checkout color_palette_10
+git checkout color_palette_1
+git checkout color_palette_2
+git checkout color_palette_3
+git checkout master
+git add -A
+git commit -m "in developement"
+git push origin master
+git add -A
+git commit -m "output now changes with button press"
+git push origin master
+git push origin master
+git add -A
+git commit -m "continous fire of keyboard and updating now working"
+git push origin master
+git add -A
+git commit -m "button press animation"
+git push origin master
+javac helloworld
+javac helloworld.java
+java helloworld
+java Flight.java 
+java Flight.java 
+java Flight.java 
+java Flight.java 
+java Flight.java 
+java Flight.java 
+javac Flight
+javac Flight.java
+java Flight
+java Flight.java
+java Flight.java
+java Flight.java
+java Flight.java
+java Flight.java
+java Flight.java
+git pull origin master
+git clone https://github.com/AlviAhmed/Web_UI_RC_Car_Controller.git
+git add -A 
+git commit -m "fixed press animation for receiver buttons"
+git push origin master
+git add -A
+git commit -m "updated readme"
+git push origin master
+git add -A
+git commit -m "added image"
+git push origin master
