@@ -1,5 +1,6 @@
+#strt &
 sxhkd &
 wmname LG3D &
-# feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
-# tint2 &
+feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
+tint2 &
 # wal --vte -R &

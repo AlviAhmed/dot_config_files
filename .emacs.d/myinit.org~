@@ -31,13 +31,17 @@
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
   #+END_SRC
-* Global terminal keybinding 
+* Global eshell binding
 #+BEGIN_SRC emacs-lisp
-(global-set-key (kbd "C-c s") (kbd "M-! xfce4-terminal RET"))
+(global-set-key (kbd "C-c s") (kbd "C-x k *eshell* RET  C-x 2 M-j M-x eshell RET"))
+#+END_SRC
+* Global terminal launch binding 
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-c t") (kbd "M-& xfce4-terminal RET "))
 #+END_SRC
 
 #+RESULTS:
-: [134217761 120 102 99 101 52 45 116 101 114 109 105 110 97 108 13]
+: [134217766 120 102 99 101 52 45 116 101 114 109 105 110 97 108 13]
 
 * Revert Buffer to F5 
   #+BEGIN_SRC emacs-lisp 
@@ -131,6 +135,7 @@
 (global-set-key (kbd "M-k") 'windmove-up) 
 
   #+END_SRC
+
 * Godot Support 
   #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")

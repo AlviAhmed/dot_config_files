@@ -6,7 +6,7 @@
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode 1)
+(menu-bar-mode -1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -135,6 +135,7 @@
 (global-set-key (kbd "M-k") 'windmove-up) 
 
   #+END_SRC
+
 * Godot Support 
   #+BEGIN_SRC emacs-lisp 
 	(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")

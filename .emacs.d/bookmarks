@@ -48,7 +48,7 @@
  (rear-context-string)
  (position . 1))
 ("exercise_notes.org"
- (filename . "~/Dropbox/Sync/other_notes/exercise_notes.org")
+ (filename . "~/Dropbox/Sync/exercise_notes.org")
  (front-context-string . "* NOTE: with ang")
  (rear-context-string)
  (position . 1))

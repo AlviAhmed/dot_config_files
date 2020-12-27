@@ -31,16 +31,16 @@ bspc config pointer_modifier mod4
 bspc config pointer_action1 move
 bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner 
-bspc config click-to-focus none 
+bspc config click-to-focus none
 
 bspc config focus_follows_pointer true
 
 
-bspc config border_width         1
-bspc config window_gap 			 0
+bspc config border_width         3
+bspc config window_gap 		5
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
-bspc config gapless_monocle      true 
+bspc config gapless_monocle      true
 
 bspc config ignore_ewmh_focus true # prevents focus from being stolen 
 
@@ -70,7 +70,7 @@ bspc config presel_feedback_color "$color1"
 ###---Placement of Windows---###  
 bspc config top_padding 22      # adding top padding to allow for polybar to show
 bspc config automatic_scheme alternate
-bspc config initial_polarity second_child
+bspc config initial_polarity first_child
 ###---Placement of Windows---###
 
 

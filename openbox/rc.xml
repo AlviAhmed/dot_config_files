@@ -278,6 +278,9 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+
+
+    <!-- BEGIN Resizing to each side -->
     <keybind key="W-A-h">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -324,6 +327,50 @@
         <monitor>2</monitor>
       </action>
     </keybind>
+        <!-- END Resizing to each corner -->
+
+
+    <!-- BEGIN Resizing to each corner -->
+    <keybind key="W-C-h">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-C-l">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-C-k">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-C-j">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- END Resizing to each corner -->
+
+
+    
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
