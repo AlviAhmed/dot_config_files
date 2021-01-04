@@ -1,25 +1,3 @@
-git push origin master
-git pull origin master
-git status
-make
-clear
-make
-make 
-avr-gcc -c -mmcu=atmega328p mainrx.c -o mainrx.o
-avr-gcc -c -mmcu=atmega328p rx_header.c -o rx_header.o
-avr-gcc -mmcu=atmega328p mainrx.o rx_header.o -o main.elf
-git status
-git add -A 
-git commit -m "cleaned up some of the code"
-git push origin master
-git add -A 
-git commit -m "added header files"
-git push origin master
-git clone https://github.com/AlviAhmed/Capstone.git
-git branch -a
-git checkout Alvi
-git clone https://github.com/AlviAhmed/Capstone.git
-git checkout Alvi
 git status
 git status
 git add -A
@@ -126,3 +104,25 @@ git commit -m "added image"
 git push origin master
 sxhkd 
 pkill -u al
+git clone git@github.com:AlviAhmed/bash_scripts.git
+clear
+clear
+clear
+git clone git@github.com:AlviAhmed/bash_scripts.git
+emacs --version
+openbox --restart
+openbox --restart
+openbox --restart
+openbox --restart
+openbox --restart
+openbox --restart
+mv video-links.txt ../
+cd ..
+ls
+mkdir another && mv video-links.txt another
+cd another/
+ls
+youtube-dl -f 140 -a video-links.txt 
+youtube-dl -f 140 -a video-links.txt 
+mfc
+mfc

@@ -1,3 +1,12 @@
+* Eval last expression 
+  #+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-x C-e") 'eval-last-sexp)
+
+  #+END_SRC 
+
+  #+RESULTS:
+  : eval-last-sexp
+
 * Emacs Interface Tweaks
   #+BEGIN_SRC emacs-lisp
 (setq-default    
@@ -27,6 +36,10 @@
   #+RESULTS:
   | \.pdf\' | okular | (file) |
 
+* Symbolic Link Prompt 
+#+BEGIN_SRC emacs-lisp 
+(setq vc-follow-symlinks t)
+#+END_SRC
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)
@@ -171,11 +184,15 @@
  (global-set-key "\M-\\" 'dabbrev-expand)
    #+END_SRC
 * Slime (Config for Common lisp)
-  #+BEGIN_SRC emacs-lisp
- (load (expand-file-name "~/quicklisp/slime-helper.el"))
- ;; Replace "sbcl" with the path to your implementation
- (setq inferior-lisp-program "sbcl")
-  #+END_SRC
+ #  #+BEGIN_SRC emacs-lisp
+ # (load (expand-file-name "~/quicklisp/slime-helper.el"))
+ # ;; Replace "sbcl" with the path to your implementation
+ # (setq inferior-lisp-program "sbcl")
+ #  #+END_SRC
+
+ #  #+RESULTS:
+ #  : sbcl
+
 * Vimish Fold
   #+BEGIN_SRC emacs-lisp
  (use-package vimish-fold

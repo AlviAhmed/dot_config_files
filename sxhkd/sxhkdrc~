@@ -17,19 +17,27 @@ XF86MonBrightnessDown
 ##--If keyboard has no media keys 
 super + {x,c}
 	pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo {-5%,+5%} 
-
 super + z
 	pactl set-sink-mute alsa_output.pci-0000_00_1b.0.analog-stereo toggle # mute sound 
+
 ##--If keyboard has no media keys	
 
 # Restarting the background
 super + alt + b 
 	feh --bg-fill ~/Pictures/wallpapers/wallpaper.png 
 
-
 # emacs 
 super + m 
 	emacsclient -n -create-frame --alternate-editor=""
+
+# Launching Thunar 
+super + shift + f 
+	pcmanfm
+
+
+#Music Directory
+super + shift + m
+      pcmanfm ~/Music &
 
 # internet browser 
 super + i 
@@ -38,15 +46,13 @@ super + i
 # terminal emulator
 super + Return 
 	xfce4-terminal --hide-scrollbar --hide-menubar
+
 # xfce4-terminal --maximize --hide-menubar  --hide-borders --hide-scrollbar
 
 # Launching Dmenu
 super + d
  	dmenu_run	 
 
-# Launching Thunar 
-super + shift + f 
-	thunar 
 
 # Calling the Appfinder 
 super + shift + a 
@@ -65,9 +71,11 @@ super + Escape
 # ###---BSPWM BINDINGS---### 
 
 
-# allow tint2 to go over the window
-super + p
-	xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" $(xdo id -n tint2)
+
+
+# # allow tint2 to go over the window
+# super + p
+# 	xdo above -t "$(xdo id -N Bspwm -n root | sort | head -n 1)" $(xdo id -n tint2)
 
 
 # super + q
@@ -187,7 +195,7 @@ super + p
 # super + {1-9,0}
 #     D={1-9,10}; \
 #     bspc desktop -f "$(bspc query -D -m | sed -n "$D p")";
-	
+      
 # super + shift + {1-9,0}
 #     D={1-9,0}; \
 #     bspc node -d "$(bspc query -D -m | sed -n "$D p")"

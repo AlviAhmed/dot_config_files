@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- elfeed
- eshell
  list-packages
- ispell
- emmet-mode
+ yas-visit-snippet-file
+ eval-last-sexp
+ eshell
+ widen
+ org-narrow-to-subtree
  revert-buffer
- org-agenda
 )
 
 ;; ----- smex-data -----
 (
  (eval-buffer . 30)
- (eshell . 253)
+ (eshell . 256)
  (compile . 68)
  (emmet-mode . 63)
  (peep-dired . 17)
@@ -23,7 +23,7 @@
  (highlight-symbol-at-point . 2)
  (string-rectangle . 1)
  (ediff-buffers . 3)
- (bookmark-save . 16)
+ (bookmark-save . 17)
  (irony-install-server . 14)
  (recompile . 1)
  (count-words . 7)
@@ -34,13 +34,13 @@
  (company-css . 1)
  (company-capf . 1)
  (list-tags . 2)
- (list-packages . 18)
+ (list-packages . 20)
  (electric-indent-mode . 11)
  (benchmark . 1)
  (org-agenda . 160)
  (yas-load-snippet-buffer . 2)
  (yas-tryout-snippet . 1)
- (yas-visit-snippet-file . 6)
+ (yas-visit-snippet-file . 7)
  (count-lines-region . 1)
  (count-words-region . 1)
  (goto-line . 5)
@@ -132,4 +132,8 @@
  (elfeed . 6)
  (elfeed-add-feed . 1)
  (elfeed-show-next . 1)
+ (org-narrow-to-subtree . 1)
+ (widen . 1)
+ (eval-last-sexp . 1)
+ (slime . 1)
 )

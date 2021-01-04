@@ -1,8 +1,18 @@
-;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Resume_Project_Adder"
+(("Music"
+ (filename . "~/Music/")
+ (front-context-string . "temp_playlist\n  ")
+ (rear-context-string . "96 Dec 29 00:01 ")
+ (position . 943))
+("Desktop"
+ (filename . "~/Desktop/")
+ (front-context-string . "brave-browser.de")
+ (rear-context-string . "40 Dec 18 01:57 ")
+ (position . 198))
+("Resume_Project_Adder"
  (filename . "~/Documents/Git_Projects/Resume_Project_Adder/")
  (front-context-string . "bashFunc.sh\n  -r")
  (rear-context-string . "37 Nov 27 12:33 ")

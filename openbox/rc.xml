@@ -15,9 +15,9 @@
     <focusLast>no</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
        under the mouse pointer. when followMouse is enabled -->
-    <underMouse>yes</underMouse>
+    <underMouse>no</underMouse>
     <!-- move focus under the mouse, even when the mouse is not moving -->
-    <focusDelay>200</focusDelay>
+    <focusDelay>0</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
     <raiseOnFocus>no</raiseOnFocus>
@@ -34,7 +34,7 @@
        following: 'Mouse' - where the mouse is, or
                   'Active' - where the active window is --></placement>
   <theme>
-    <name>Nightmare-01</name>
+    <name>Bear2</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -156,7 +156,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>TopRight</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -175,6 +175,24 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
+
+    <!-- Keybindings for Reconfigure and Restart -->
+    <keybind key="W-F11">
+      <action name="Reconfigure"/>
+    </keybind>
+    <keybind key="W-F12">
+      <action name="Restart"/>
+    </keybind>
+
+    <!-- Toggle Always OnTop -->
+    <keybind key="W-A-space">
+      <action name="ToggleAlwaysOnTop"/>
+      <action name="Execute">
+        <command>notify-send "Toggling Always on Top Window"</command>
+      </action>
+    </keybind>
+
+    
     <!-- Keybindings for desktop switching -->
     <keybind key="W-Left">
       <action name="GoToDesktop">
@@ -278,99 +296,321 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+    <keybind key="W-S-0">
+      <action name="ToggleOmniPresent">
+      </action>
+    </keybind>
 
+    <!-- BEGIN Sending whole desktops -->
+    <keybind key="W-A-S-1">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>1</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
 
+    <keybind key="W-A-S-2">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>2</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+     <keybind key="W-A-S-3">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>3</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-4">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>4</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-5">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>5</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-6">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+                <to>6</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-7">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+               <to>7</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-8">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+               <to>8</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+    <keybind key="W-A-S-9">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="SendToDesktop">
+               <to>9</to>
+                <wrap>no</wrap>
+              <follow>no</follow>
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+    <!-- END Sending whole desktops -->
+    
     <!-- BEGIN Resizing to each side -->
-    <keybind key="W-A-h">
+    <keybind key="W-S-h">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>0</x>
         <y>0</y>
         <width>50%</width>
         <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="W-S-l">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="W-S-k">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-S-j">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- END Resizing to each Side -->
+    <!-- BEGIN Resizing to each corner -->
+    <keybind key="W-A-h">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <width>50%</width>
+        <height>50%</height>
       </action>
     </keybind>
     <keybind key="W-A-l">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>-0</x>
-        <y>0</y>
         <width>50%</width>
-        <height>100%</height>
+        <height>50%</height>
       </action>
     </keybind>
     <keybind key="W-A-k">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>0</x>
         <y>0</y>
-        <width>100%</width>
+        <width>50%</width>
         <height>50%</height>
       </action>
     </keybind>
     <keybind key="W-A-j">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>0</x>
-        <y>-0</y>
-        <width>100%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
-    <keybind key="W-A-1">
-      <action name="MoveResizeTo">
-        <monitor>1</monitor>
-      </action>
-    </keybind>
-    <keybind key="W-A-2">
-      <action name="MoveResizeTo">
-        <monitor>2</monitor>
-      </action>
-    </keybind>
-        <!-- END Resizing to each corner -->
-
-
-    <!-- BEGIN Resizing to each corner -->
-    <keybind key="W-C-h">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
-    <keybind key="W-C-l">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <x>-0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
-    <keybind key="W-C-k">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>50%</width>
-        <height>50%</height>
-      </action>
-    </keybind>
-    <keybind key="W-C-j">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
+        <!-- <x>-0</x> -->
         <y>-0</y>
         <width>50%</width>
         <height>50%</height>
       </action>
     </keybind>
     <!-- END Resizing to each corner -->
-
+    <!-- BEGIN Resizing Windows -->
+    <keybind key="W-C-l">
+      <action name="ResizeRelative">
+        <right>10</right>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-l">
+      <action name="ResizeRelative">
+        <right>-10</right>
+      </action>
+    </keybind>
+    <keybind key="W-C-h">
+      <action name="ResizeRelative">
+        <left>10</left>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-h">
+      <action name="ResizeRelative">
+        <left>-10</left>
+      </action>
+    </keybind>
+    <keybind key="W-C-j">
+      <action name="ResizeRelative">
+        <bottom>10</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-j">
+      <action name="ResizeRelative">
+        <bottom>-10</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-C-k">
+      <action name="ResizeRelative">
+        <up>10</up>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-k">
+      <action name="ResizeRelative">
+        <up>-10</up>
+      </action>
+    </keybind>
+    <!-- END Resizing Windows -->
 
     
+    <!-- Begin Moving Windows -->
+    <keybind key="W-C-A-l">
+      <action name="MoveRelative">
+        <x>10</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-h">
+      <action name="MoveRelative">
+        <x>-10</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-j">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>10</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-k">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>-10</y>
+      </action>
+    </keybind>
+    <!-- End Moving Window -->
+
+    
+    <!-- Send to Desktop #  -->
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -416,20 +656,70 @@
         <to>9</to>
       </action>
     </keybind>
+    <!-- END Send to Desktop # -->
+
+    <!-- BEGIN Sending Windows to Different Monitors -->
+    <keybind key="W-period">
+      <action name="MoveResizeTo">
+        <monitor>next</monitor>
+      </action>
+    </keybind>
+    <keybind key="W-comma">
+      <action name="MoveResizeTo">
+        <monitor>prev</monitor>
+      </action>
+    </keybind>
+    <!-- END Sending Windows to Different Monitors  -->
+
+    <!-- BEING Sending Current Desktop to Next Monitor  -->
+    <keybind key="W-S-period">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="If">
+                <monitor>current</monitor>
+                <then>
+                  <action name="MoveResizeTo">
+                    <monitor>next</monitor>
+                  </action>
+                </then> 
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+
+        <keybind key="W-S-comma">
+      <action name="ForEach">
+        <omnipresent>no</omnipresent>
+        <then>
+          <action name="If">
+            <desktop>current</desktop>
+            <then>
+              <action name="If">
+                <monitor>current</monitor>
+                <then>
+                  <action name="MoveResizeTo">
+                    <monitor>prev</monitor>
+                  </action>
+                </then> 
+              </action>
+            </then>
+          </action>          
+        </then>
+      </action>
+    </keybind>
+    <!-- END Sending Current Desktop to Next Monitor  -->
+    
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
     <keybind key="W-q">
       <action name="Close"/>
-    </keybind>
-    <!-- Keybindings for windows -->
-    <keybind key="A-F4">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
     </keybind>
     <keybind key="A-space">
       <action name="ShowMenu">
@@ -525,7 +815,7 @@
     <!-- number of pixels the mouse must move before a drag begins -->
     <doubleClickTime>500</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
-    <screenEdgeWarpTime>400</screenEdgeWarpTime>
+    <screenEdgeWarpTime>0</screenEdgeWarpTime>
     <!-- Time before changing desktops when the pointer touches the edge of the
        screen while moving a window, in milliseconds (1000 = 1 second).
        Set this to 0 to disable warping -->
@@ -779,7 +1069,7 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
+      <!--    <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -788,7 +1078,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind> -->
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
@@ -975,6 +1265,13 @@
   </application>
 
   # end of the example
--->
+    -->
+    <application class="*">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+
   </applications>
 </openbox_config>

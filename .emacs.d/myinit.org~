@@ -1,3 +1,12 @@
+* Eval last expression 
+  #+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-x C-e") 'eval-last-sexp)
+
+  #+END_SRC 
+
+  #+RESULTS:
+  : eval-last-sexp
+
 * Emacs Interface Tweaks
   #+BEGIN_SRC emacs-lisp
 (setq-default    
@@ -6,7 +15,7 @@
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode 1)
+(menu-bar-mode -1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -27,6 +36,10 @@
   #+RESULTS:
   | \.pdf\' | okular | (file) |
 
+* Symbolic Link Prompt 
+#+BEGIN_SRC emacs-lisp 
+(setq vc-follow-symlinks t)
+#+END_SRC
 * Emacs Optimizations 
   #+BEGIN_SRC emacs-lisp
 (add-hook 'focus-out-hook #'garbage-collect)

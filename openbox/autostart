@@ -14,4 +14,10 @@
 
 # If you want to use XFCE config tools...
 #
-#xfce-mcs-manager &
+# xfce-mcs-manager &
+
+sxhkd &
+feh --bg-fill ~/Pictures/wallpapers/wallpaper.png
+tint2 &
+nm-applet &
+volumeicon &

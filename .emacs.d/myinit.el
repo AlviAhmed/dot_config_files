@@ -1,10 +1,12 @@
+(global-set-key (kbd "C-x C-e") 'eval-last-sexp)
+
 (setq-default    
 	confirm-kill-emacs 'yes-or-no-p)
 (fset 'yes-or-no-p 'y-or-n-p)                     ; Replace yes/no prompts nwith y/n 
 ;;Disabling tool bar
 (tool-bar-mode -1)
 ;;Disabling menu bar
-(menu-bar-mode 1)
+(menu-bar-mode -1)
 ;;Disabling the scroll bar
 (scroll-bar-mode -1)
 ;;Lines and columns
@@ -14,6 +16,8 @@
 (require 'openwith)
 (openwith-mode t)
 (setq openwith-associations '(("\\.pdf\\'" "okular" (file))))
+
+(setq vc-follow-symlinks t)
 
 (add-hook 'focus-out-hook #'garbage-collect)
 
@@ -88,10 +92,6 @@
 (global-unset-key "\M-\\")
 (global-unset-key "\M-p")
 (global-set-key "\M-\\" 'dabbrev-expand)
-
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
-;; Replace "sbcl" with the path to your implementation
-(setq inferior-lisp-program "sbcl")
 
 (use-package vimish-fold
             :ensure t

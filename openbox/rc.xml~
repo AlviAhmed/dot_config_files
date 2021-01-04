@@ -15,9 +15,9 @@
     <focusLast>no</focusLast>
     <!-- focus the last used window when changing desktops, instead of the one
        under the mouse pointer. when followMouse is enabled -->
-    <underMouse>yes</underMouse>
+    <underMouse>no</underMouse>
     <!-- move focus under the mouse, even when the mouse is not moving -->
-    <focusDelay>200</focusDelay>
+    <focusDelay>0</focusDelay>
     <!-- when followMouse is enabled, the mouse must be inside the window for
        this many milliseconds (1000 = 1 sec) before moving focus to it -->
     <raiseOnFocus>no</raiseOnFocus>
@@ -34,7 +34,7 @@
        following: 'Mouse' - where the mouse is, or
                   'Active' - where the active window is --></placement>
   <theme>
-    <name>Nightmare-01</name>
+    <name>Bear2</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -156,7 +156,7 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>TopRight</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
@@ -278,6 +278,7 @@
         <wrap>no</wrap>
       </action>
     </keybind>
+    <!-- BEGIN Resizing to each side -->
     <keybind key="W-A-h">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -314,16 +315,111 @@
         <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-A-1">
+    <!-- END Resizing to each Side -->
+    <!-- BEGIN Resizing to each corner -->
+    <keybind key="W-A-S-h">
+      <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <monitor>1</monitor>
+        <x>0</x>
+        <width>50%</width>
+        <height>50%</height>
       </action>
     </keybind>
-    <keybind key="W-A-2">
+    <keybind key="W-A-S-l">
+      <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <monitor>2</monitor>
+        <x>-0</x>
+        <width>50%</width>
+        <height>50%</height>
       </action>
     </keybind>
+    <keybind key="W-A-S-k">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="W-A-S-j">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <!-- <x>-0</x> -->
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <!-- END Resizing to each corner -->
+    <!-- BEGIN Resizing Windows -->
+    <keybind key="W-C-l">
+      <action name="ResizeRelative">
+        <right>10</right>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-l">
+      <action name="ResizeRelative">
+        <right>-10</right>
+      </action>
+    </keybind>
+    <keybind key="W-C-h">
+      <action name="ResizeRelative">
+        <left>10</left>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-h">
+      <action name="ResizeRelative">
+        <left>-10</left>
+      </action>
+    </keybind>
+    <keybind key="W-C-j">
+      <action name="ResizeRelative">
+        <bottom>10</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-j">
+      <action name="ResizeRelative">
+        <bottom>-10</bottom>
+      </action>
+    </keybind>
+    <keybind key="W-C-k">
+      <action name="ResizeRelative">
+        <up>10</up>
+      </action>
+    </keybind>
+    <keybind key="W-S-C-k">
+      <action name="ResizeRelative">
+        <up>-10</up>
+      </action>
+    </keybind>
+    <!-- END Resizing Windows -->
+    <!-- Begin Moving Windows -->
+    <keybind key="W-C-A-l">
+      <action name="MoveRelative">
+        <x>10</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-h">
+      <action name="MoveRelative">
+        <x>-10</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-j">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>10</y>
+      </action>
+    </keybind>
+    <keybind key="W-C-A-k">
+      <action name="MoveRelative">
+        <x>0</x>
+        <y>-10</y>
+      </action>
+    </keybind>
+    <!-- End Moving Window -->
+    <!-- Send to Desktop #  -->
     <keybind key="W-1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -369,6 +465,7 @@
         <to>9</to>
       </action>
     </keybind>
+    <!-- END Send to Desktop # -->
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -376,14 +473,14 @@
       <action name="Close"/>
     </keybind>
     <!-- Keybindings for windows -->
-    <keybind key="A-F4">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
-    </keybind>
+    <!-- <keybind key="A-F4"> -->
+    <!--   <action name="Close"/> -->
+    <!-- </keybind> -->
+    <!-- <keybind key="A-Escape"> -->
+    <!--   <action name="Lower"/> -->
+    <!--   <action name="FocusToBottom"/> -->
+    <!--   <action name="Unfocus"/> -->
+    <!-- </keybind> -->
     <keybind key="A-space">
       <action name="ShowMenu">
         <menu>client-menu</menu>
@@ -478,7 +575,7 @@
     <!-- number of pixels the mouse must move before a drag begins -->
     <doubleClickTime>500</doubleClickTime>
     <!-- in milliseconds (1000 = 1 second) -->
-    <screenEdgeWarpTime>400</screenEdgeWarpTime>
+    <screenEdgeWarpTime>0</screenEdgeWarpTime>
     <!-- Time before changing desktops when the pointer touches the edge of the
        screen while moving a window, in milliseconds (1000 = 1 second).
        Set this to 0 to disable warping -->
@@ -732,7 +829,7 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
+      <!--    <mousebind button="Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
         </action>
@@ -741,7 +838,7 @@
         <action name="GoToDesktop">
           <to>next</to>
         </action>
-      </mousebind>
+      </mousebind> -->
       <mousebind button="A-Up" action="Click">
         <action name="GoToDesktop">
           <to>previous</to>
