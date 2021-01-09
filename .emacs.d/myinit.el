@@ -520,14 +520,9 @@
 
 (setq delete-by-moving-to-trash t)
 
-(global-visual-line-mode t )
-
 (delete-selection-mode t)
 
 (setq kill-whole-line t)
-
-(setq-default indent-tabs-mode nil)
-;; (setq-default tab-width 8)
 
 ;; (setq-default tab-always-indent 'complete) 
 ;; (defun my-insert-tab-char ()
@@ -633,3 +628,11 @@ Version 2019-11-04"
 
 (add-hook 'c-mode-hook (lambda () (setq comment-start "//"
                                 comment-end   "")))
+
+(setq next-line-add-newlines 1)
+
+(setq line-move-visual t)
+
+(setq visual-line-mode t)
+
+(global-visual-line-mode t )

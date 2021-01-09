@@ -2,7 +2,12 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Music"
+(("rc.xml"
+ (filename . "~/.config/openbox/rc.xml")
+ (front-context-string . "<?xml version=\"1")
+ (rear-context-string)
+ (position . 1))
+("Music"
  (filename . "~/Music/")
  (front-context-string . "temp_playlist\n  ")
  (rear-context-string . "96 Dec 29 00:01 ")

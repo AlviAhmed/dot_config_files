@@ -47,15 +47,18 @@
  ("/media/al/" . "Seagate Backup Plus Drive/")
  ("/media/" . "al/")
  ("/" . "media/")
- ("/home/al/" . ".local/")
+ ("/home/al/" . ".ssh/")
  ("/home/al/Documents/c_practice/cprogramming_in_linux/" . "tut10/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/bin/"
+ "/home/al/.emacs.d/"
+ "/home/al/.emacs.d/elpa/django-snippets-20131229.1611/snippets/text-mode/python-mode/django-mode/"
+ "/etc/apt/"
  "/home/al/.config/openbox/"
  "/home/al/Documents/elisp_lisp_practice/"
- "/home/al/.emacs.d/"
  "/home/al/.config/herbstluftwm/"
  "/home/al/Documents/Git_Projects/Web_UI_RC_Car_Controller/"
  "/home/al/Dropbox/GuideWire_TD/"
@@ -100,13 +103,12 @@
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Bell_Software_Engineer/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Microsoft_Electrical_Engineer/"
  "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Intel_Embedded_Software_Developer/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Intel_Embedded_Systems_Developer/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Software_Engineer/"
- "/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Keysight_Embedded_Software_Developer/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "br"
+ "sources.list"
  "panel.sh"
  "Alvi_Ahmed_FDM_resume.pdf"
  "index.html"
@@ -115,49 +117,73 @@
  "intro.c"
  "Alvi_Ahmed_Myant_cover_letter.pdf"
  "Alvi_Ahmed_cover_letter_ViaRail.pdf"
- "letter_evertz.tex"
- "Alvi_Ahmed_Electrical_ViaRail.pdf"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/al/.config/openbox/" (24554 59144 78117 888000) "autostart" "../" "autostart~" "rc.xml" "./" "rc.xml~" "menu.xml" "environment")
+ ("/home/al/bin/" (24568 45826 857968 530000) "br" "android_start.sh" "mon" "tem" "mf~" "dfb" "b" "mfc" "godot_start.sh" "mf" "bgpape" "b~" "../" "./")
 
- ("/home/al/Documents/elisp_lisp_practice/" (24554 47069 484117 824000) "first_prog.lisp~" "defparam.lisp" "../" "loop.lisp" "loop.lisp~" "interac_func.el" "num_with_com.lisp" "first_prog.lisp" "lists.lisp~" "./" "boolcase.el" "#case_state.lisp#" "if_statements.lisp" "#if_statements.lisp#" "case_state.lisp~" "defparam.lisp~" "#num_with_com.lisp#" "list_function.el" "if_statements.lisp~" "case_state.lisp" "lists.lisp")
+ ("/home/al/.config/openbox/" (24568 34294 961559 901000) "autostart" "../" "autostart~" "rc.xml" "./" "rc.xml~" "menu.xml" "environment")
 
- ("/home/al/.emacs.d/" (24554 19902 406518 296000) "testingthebackupssytem/" "projectile.cache" "dmenu-items" "#myinit.org#" "irony/" "myinit.org_archive" "request/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "nov-places" "abbrev_defs" "srecode-map.el" "ac-comphist.dat" "emacs_backup.txt" "ido.last" "url/" "tramp" "ido.last~" "smex-items" "recentf" "snippets/" "%backup%~" "myinit.org" "eshell/" "myinit.org~" ".python-environments/" "init.el~" ".cache/" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "#ido.last#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" "image-dired/" ".emacs.desktop" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "semanticdb/" "#myinit.el#" "myinit.el" ".mc-lists.el" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "games/" "meghanada/" "thumbs/" "anaconda-mode/" "bookmarks" "myinit.el~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "recentf~" ".org-id-locations" "places" "backup_init/" "history" "ede-projects.el" "elpa/" "org-gcal/" "tutorial/" "projectile-bookmarks.eld" "auto-save-list/" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "../" "./")
+ ("/home/al/.emacs.d/" (24556 62472 434273 189000) "testingthebackupssytem/" "projectile.cache" "dmenu-items" "#myinit.org#" "irony/" "myinit.org_archive" "request/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "nov-places" "abbrev_defs" "srecode-map.el" "ac-comphist.dat" "emacs_backup.txt" "ido.last" "url/" "tramp" "ido.last~" "smex-items" "recentf" "snippets/" "%backup%~" "myinit.org" "eshell/" "myinit.org~" ".python-environments/" "init.el~" ".cache/" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "#ido.last#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" "image-dired/" ".emacs.desktop" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "semanticdb/" "#myinit.el#" "myinit.el" ".mc-lists.el" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "games/" "meghanada/" "thumbs/" "anaconda-mode/" "bookmarks" "myinit.el~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "recentf~" ".org-id-locations" "places" "backup_init/" "history" "ede-projects.el" "elpa/" "org-gcal/" "tutorial/" "projectile-bookmarks.eld" "auto-save-list/" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "../" "./")
 
- ("/home/al/.config/herbstluftwm/" (24535 21554 707859 276000) "panel.sh" "./" "panel.sh~" "autostart~" "../" "autostart")
+ ("/home/al/.emacs.d/elpa/django-snippets-20131229.1611/snippets/text-mode/python-mode/django-mode/" (24553 29049 399158 486000) "asset" "sitemap" "../" "url" "here" "handler" "./" "manager" "view" "model" "feed" "namedurl" "modelform")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/" (24553 30572 997671 439000) "#sys_c_alu.html#" "../" "images/" "sys_c_alu.html" "./" "sys_c_alu.html~" "sys_c_alu.css~")
+
+ ("/home/al/Documents/Git_Projects/website_actual/proj_pages/rc_avr_433/" (24553 30574 969713 776000) "../" "images/" "rc_avr_433.html" "./" "rc_avr_433.html~")
+
+ ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/" (24553 30627 170825 852000) "main.hex" "rx_header.h" "tx_header_debug.h" "Makefile" "maintx_debug.c" "../" "tx_header_comp.h" "maintx_comp.c" "./" "mainrx.c" "rx_header.o" "mainrx.o")
+
+ ("/home/al/Documents/Git_Projects/Capstone/" (24553 30251 246364 528000) "timer_experiments/" "Timer_basic_with_5/" "systickworking_example/" "README.md" "README.org" "together/" "kin_test.c" "../" "Base_Stepper.X/" "backup7_phase2end/" "Phase1_end/" "Alvi_March12/" "./" "algorithm_code_files/" "custom_pins.h" "#timer_RAMP_SUCCESS_UP_AND_DOWN.c#" "timer_RAMP_SUCCESS_UP_AND_DOWN.c" "phase2_end.zip" "custom_pins.c" "PWM_basic/" "working_jan23/" ".git/" "fast_toggle_experiment/")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/test_bench/" (24553 30633 206953 417000) "../" "buffer_test.tex~" "./" "buffer_test.tex" "bash_test.sh~" "placeholder_test.tex" "placeholder_test.tex~" "bash_test.sh")
+
+ ("/home/al/Documents/Git_Projects/Resume_Project_Adder/" (24553 30633 250954 345000) "bufferA.tex" "resume.tex" "README.org" "../" "debug.sh" "emp.data" "bashFunc.sh" "placeholder.tex" "./" "tester.txt" "tester.sh" "mainScript.sh" "bufferB.tex" "note.tex" "buffer.tex" "#buffer.tex#" "placeholder.tex~" "debug.sh~" "test_bench/" "bufferC.tex" "projects_list.tex" "extractor.awk" ".git/" "skills")
+
+ ("/home/al/Documents/Git_Projects/Digital_PID_Controller/" (24553 30617 734626 18000) "README.org" "../" "Basic_PID_antiwindup/" "./" "Basic_PID/" "Proportional_Controller/" ".git/")
+
+ ("/home/al/Dropbox/Pathrise_Work/cover_letter_myant/" (24553 58271 964693 953000) "Alvi_Ahmed_Myant_cover_letter.log" "Alvi_Ahmed_Myant_cover_letter.pdf" "../" "Alvi_Ahmed_Myant_cover_letter.tex~" "./" "Alvi_Ahmed_Myant_cover_letter.tex" "Alvi_Ahmed_Myant_cover_letter.out" "Alvi_Ahmed_Myant_cover_letter.aux")
+
+ ("/home/al/Dropbox/Pathrise_Work/" (24553 58263 948548 865000) "link.txt" "jobs_csv.csv" "../" "jobs.xlsx" "interest_job_descrip.org~" "Alvi_Ahmed_Software_Developer_Embedded.pdf" "tenstorrent_qualifications.txt" "Alvi_Ahmed_HIDI_Electrical_EIT.pdf" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "interest_job_descrip.org" "./" "letter_evertz.pdf" "myant_qualifications.txt" "interest_job_descrip (1).org" "quora_note.txt" "Alvi_Ahmed_Quora.pdf" "Alvi_Ahmed_Tenstorrent_Software_Engineer.pdf" "Alvi_Ahmed_Fortinet.pdf" "cover_letter_myant/")
+
+ ("/home/al/Documents/Git_Projects/website/jquery/" (24553 30565 661513 728000) "../" "styles.css~" "styles.css" "index.html" "./" "index.js" "index.html~" "index.js~")
+
+ ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/" (24553 30564 521489 189000) "css/" "../" "images/" "index.html" "./" ".DS_Store")
+
+ ("/home/al/Documents/Git_Projects/website/css/" (24553 30564 249483 333000) "../" "styles.css" "./" ".projectile")
+
+ ("/home/al/Documents/Git_Projects/website_actual/" (24553 30584 233912 338000) "css/" "personal_website_notes.org~" "../" "images/" "proj_pages/" "resume_alvi.pdf" "audio-amp-projpg.org" "index.html" "contact.html~" "./" "proj_main.html" "audio-amp-projpg.html" "personal_website_notes.org" "index.html~" "proj_main.html~" ".git/" "contact.html")
+
+ ("/home/al/Documents/Git_Projects/website/advanced_javascript/" (24553 30565 605512 523000) "__MACOSX/" "sounds/" "../" "images/" "styles.css~" "#index.html#" "styles.css" "Drum Kit Starting Files/" "index.html" "./" "index.js" "index.html~" ".DS_Store" "Drum Kit Starting Files.zip" "index.js~")
+
+ ("/home/al/Dropbox/GuideWire_TD/" (24553 58263 948548 865000) "Alvi_Ahmed_FDM_resume.log" "project_explain.org" "Alvi_Ahmed_FDM_resume.out" "../" "Alvi_Ahmed_FDM_resume.tex~" "projects_list.tex~" "Alvi_Ahmed_FDM_resume.aux" "./" "Alvi_Ahmed_FDM_resume.pdf" "Alvi_Ahmed_FDM_resume.tex" "projects_list.tex")
+
+ ("/home/al/Documents/Git_Projects/Web_UI_RC_Car_Controller/" (24553 30692 28186 160000) "README.org" "../" "images/" "styles.css~" "styles.css" "index.html" "./" "index.js" "README.org~" "index.html~" ".git/" "index.js~")
+
+ ("/home/al/.config/herbstluftwm/" (24553 29425 646030 280000) "autostart" "../" "autostart~" "./" "panel.sh" "panel.sh~")
+
+ ("/home/al/Documents/elisp_lisp_practice/" (24554 47123 225084 156000) "first_prog.lisp~" "defparam.lisp" "../" "loop.lisp" "loop.lisp~" "interac_func.el" "num_with_com.lisp" "first_prog.lisp" "lists.lisp~" "./" "boolcase.el" "#case_state.lisp#" "if_statements.lisp" "#if_statements.lisp#" "case_state.lisp~" "defparam.lisp~" "#num_with_com.lisp#" "list_function.el" "if_statements.lisp~" "case_state.lisp" "lists.lisp")
+
+ ("/etc/apt/" (24555 50430 63358 114000) "trusted.gpg" "../" "auth.conf.d/" "sources.list.d/" "./" "apt.conf.d/" "preferences.d/" "trusted.gpg.d/" "sources.list")
+
+ ("/home/al/Dropbox/Sync/" (24555 51308 833701 238000) "useful_links_notes.org" "../" "useful_emacs_notes.org" "install_script_notes.org~" "./" "useful_linux_commands.org" "useful_linux_commands.org~" "getting_avrcode_work_arduino/" "sched_org.ics" "latex_shell_commands.org" "other_notes/" "install_script_notes.org")
+
+ ("/home/al/.ssh/" (24553 64729 820983 883000) "../" "authorized_keys" "known_hosts.old" "./" "known_hosts" "id_rsa.pub" "id_rsa")
+
+ ("/etc/" (24555 49566 785594 535000) "dictionaries-common/" "PackageKit/" "mpv/" "updatedb.conf" "newt/" "runit/" "rc2.d/" "cron.monthly/" "issue.net" "apache2/" "fwupd/" "compizconfig/" "magic" "gnome-app-install/" "pulse/" "mplayer/" "netplan/" "rc3.d/" "depmod.d/" "services" "sgml/" "locale.gen" "sudoers.d/" "init.d/" "hostname" "pm/" "timidity/" "thunderbird/" "modprobe.d/" "libao.conf" "samba/" "profile.d/" "iproute2/" "gnome/" "dhcp/" "modules" "firefox/" "subgid" "cifs-utils/" "brltty/" "deluser.conf" "gitweb.conf" "ld.so.conf.d/" "mtab" "brltty.conf" "grub.d/" "sensors.d/" "apg.conf" "login.defs" "networks" "subuid" "pcmcia/" "inxi.conf" "request-key.d/" "libblockdev/" "libaudit.conf" "vtrgb" "ltrace.conf" "profile" "gai.conf" "rmt" "gamemode.ini" "timeshift/" "UPower/" "avahi/" "environment.d/" "shadow-" "snmp/" "lvm/" "udisks2/" "logcheck/" "skel/" "X11/" "rc0.d/" "shells" "glvnd/" "rcS.d/" "localtime" "machine-id" "brlapi.key" "debian_version" "gshadow-" "libpaper.d/" "pki/" "update-motd.d/" "inputrc" ".pwd.lock" "appstream.conf" "rc1.d/" "lintianrc" "libnl-3/" "e2scrub.conf" "sv/" "perl/" "polkit-1/" "service/" "menu-methods/" "passwd-" "request-key.conf" "magic.mime" "doc-base/" "bluetooth/" "logrotate.d/" "host.conf" "cracklib/" "screenrc" "rsyslog.d/" "lsb-release" "speech-dispatcher/" "group-" "resolv.conf" "gtk-2.0/" "chatscripts/" "ufw/" "wpa_supplicant/" "ca-certificates.conf" "adduser.conf" "terminfo/" "ghostscript/" "dkms/" "rpc" "hosts.deny" "shadow" "apparmor/" "ldap/" "cron.daily/" "hosts" "casper.conf" "thermald/" "python3/" "security/" "hp/" "initramfs-tools/" "bash_completion.d/" "ethertypes" "subgid-" "mke2fs.conf" "cron.weekly/" "mysql/" "rc6.d/" "subuid-" "vulkan/" "networkd-dispatcher/" "usb_modeswitch.conf" "cups/" "timezone" "ucf.conf" "python2.7/" "vdpau_wrapper.cfg" "environment" "hddtemp.db" "protocols" "mime.types" "ssh/" "udev/" "gdb/" "kerneloops.conf" "ntp.conf" "libreoffice/" "apport/" "cron.d/" "adjtime" "chktexrc" "xfce4/" "papersize" "pam.d/" "openal/" "kernel-img.conf" "console-setup/" "fuse.conf" "nsswitch.conf" "ubuntu-advantage/" "gtk-3.0/" "LatexMk" "alternatives/" "mtools.conf" "openvpn/" "cupshelpers/" "dbus-1/" "fprintd.conf" "legal" "kernel/" "network/" "fonts/" "mailcap.order" "ppp/" "cryptsetup-initramfs/" "issue" "sane.d/" "apparmor.d/" "init/" "binfmt.d/" "printcap" "opt/" "alsa/" "dpkg/" "nanorc" "ld.so.conf" "fstab" "anacrontab" "gufw/" "xml/" "passwd" "wgetrc" "gss/" "bindresvport.blacklist" "calendar/" "xdg/" "gshadow" "pam.conf" "systemd/" "usb_modeswitch.d/" "ca-certificates.conf.dpkg-old" "modules-load.d/" "linuxmint/" "default/" "apm/" "locale.alias" "ca-certificates/" "ssl/" "selinux/" "groff/" "sysctl.conf" "cron.hourly/" "ld.so.cache" "upstream-release/" "acpi/" "emacs/" "hosts.allow" "bash_completion" "dconf/" "java-11-openjdk/" "sysctl.d/" "NetworkManager/" "rc4.d/" "hdparm.conf" "vim/" "geoclue/" "sudoers" "tmpfiles.d/" "rsyslog.conf" ".java/" "manpath.config" "pnm2ppa.conf" "signon-ui/" "rc5.d/" "sensors3.conf" "apt/" "crontab" "os-release" "group" "gnome-system-tools/" "ImageMagick-6/" "debconf.conf" "lightdm/" "lighttpd/" "bash.bashrc" "xattr.conf" "gimp/" "python3.8/" "ifplugd/" "guest-session/" "logrotate.conf" "texmf/" "mailcap" "../" "./")
+
+ ("/home/al/" (24555 49064 99242 127000) "Anaconda3-2020.11-Linux-x86_64.sh" ".emacs.d/" "An Introduction to Programming in Emacs Lisp by Robert J. Chassell (z-lib.org).pdf" ".xsession-errors" ".ssh/" "anaconda3/" ".xprofile" ".ecryptfs/" ".gtkrc-2.0" ".Xauthority" ".sane/" "bash_scripts/" "bin/" "emacs-27.1/" ".bash_aliases" ".linuxmint/" ".profile" ".bash_logout" "Python-3.9.1.tar.xz" "back_emacs/" ".gitconfig" ".xsession-errors.old" "Dropbox/" "printer_drivers/" ".cache/" ".ICEauthority" ".local/" ".dropbox-dist/" "emacs-27.1.tar.xz" ".gnupg/" ".mozilla/" "Templates/" "Music/" ".config/" ".Private/" "quicklisp/" ".dropbox/" "get-pip.py" "Pictures/" ".dmrc" ".sudo_as_admin_successful" ".xprofile~" ".thumbnails/" ".gtkrc-xfce" ".fehbg" "Videos/" "Downloads/" ".bashrc" ".lesshst" ".bash_history" "Public/" "Documents/" "Desktop/" ".pki/" "../" "./")
 
  ("/home/al/.config/" (24535 4246 968033 994000) "bspwm/" "Atom/" "xfce4/" "deluge/" "lxsession/" "celluloid/" "pcmanfm/" "Signal/" "caja/" "xreader/" "jstest-gtk/" "Kitware/" "wesnoth/" "QtProject.conf" "kdenliverc" "xarchiver/" "Autodesk/" "VeraCrypt/" "htop/" "gtk-3.0/" "VirtualBox/" "wal/" "polybar/" "pavucontrol.ini" "qt5ct/" "i3/" "compton/" "herbstluftwm/" "godot/" "Thunar/" "transmission/" "libreoffice/" "gedit/" "dconf/" "user-dirs.locale" "tint2/" "Trolltech.conf" "inkscape/" "openbox/" "sxhkd/" "gtk-2.0/" "enchant/" "xviewer/" "dwm_custom/" "Qtrac Ltd./" "lxpanel/" "nautilus/" "zathura/" "pix/" "google-chrome/" "BraveSoftware/" "xed/" "configstore/" "okularpartrc" "hexchat/" "teamviewer/" "neofetch/" "user-dirs.dirs" "mimeapps.list" "mpv/" "sublime-text-3/" "catfish/" "LightTable/" "Code/" "autostart/" "ranger/" "menus/" "pulse/" "qBittorrent/" "okularrc" "../" "./")
 
- ("/home/al/" (24535 42233 700140 925000) ".surf/" ".config/" "x2x_1.30-7_amd64.deb" ".dropbox-dist/" "Public/" "x2x/" ".gitignore" ".netbeans/" "Google Coding Interview With A High School Student-qz9tKlF431k.mp4" ".#.bash_history" "bootstrap-4.5.0.zip" "node_modules/" "behaviour.png" "jdk-8u111-nb-8_2-linux-x64.sh" ".newsrc-dribble" "tmp_user/" "cross.png" "sketchbook/" ".oracle_jre_usage/" "th_files/" "rtl88x2bu/" "tor-browser_en-US/" "detail-btn-add-2.png" "quicklisp/" "enc/" "netbeans-8.2-javaee-linux.sh" "package-lock.json" ".lesshst" "dwm/" ".sane/" ".android/" "Bell/" ".gvfs/" ".atom/" "dailytodo.ps" "Apache-NetBeans-11.3-bin-linux-x64.sh" "FrostWire/" ".npm/" ".frostwire5/" "new.txt" "new" "firebase.json" "extra.pdf" ".netbeans-derby/" "nbproject/" "newnewfile" "suhas_kd-master.zip" "code_1.45.1-1589445302_amd64.deb" ".thunderbird/" ".slime-history.eld" "apache-tomcat-8.0.27/" "bootstrap-4.5.0-examples.zip" ".swp" "Python-3.9.0/" ".offlineimaprc" ".fzf.bash" "bb0bd0e0477fadc41393c7f64571e321.jpg" ".bash_aliases" ".thumbnails/" "emotion-form.png" "eagle-9.6.2/" "mpv-shot0003.jpg" "DHTsensorlibrary.zip" ".arduino/" "back_emacs/" "VeraCrypt/" ".sudo_as_admin_successful" ".wget-hsts" "mpv-shot0002.jpg" ".local/" "Lab2_FIR_Filtering_F2018.pdf" ".dropbox/" "Desktop/" "node-v12.16.3-linux-x64 (1).tar.xz" "Pictures/" ".gnupg/" "Documents/" "polybar/" ".doom.d/" "cmake-3.17.2-Linux-x86_64/" "awk_practice/" "best-rc-radio-transmitters-1.jpg" ".openarena/" ".AndroidStudio4.0/" "google-chrome-stable_current_amd64.deb" ".pki/" "battery.svg" ".vscode/" "bootstrap-4.5.0-dist/" ".Xauthority" "test.el" ".tg_priv" "new_dired/" "hello-react/" "jdk1.8.0_111/" ".python_history" "News/" ".ecryptfs/" ".imwheelrc~" ".ICEauthority" "downlist-logo.png" ".Private/" "#.bash_history#" ".viminfo" "electronic documents/" ".minirc.dfl" ".#client" "icecat-60.7.0-gnu1.tar.bz2" "th.html" "backup/" ".aspell.en.pws" ".xprofile" "fonts/" ".imwheelrc" ".gradle/" "testdisk.log" ".dmrc" ".var/" "Link to Music/" "Downloads/" "tutor" "bash_scripts/" "old.txt" ".linuxmint/" ".vim/" "Templates/" ".xprofile~" "glassfish-4.1.1/" "snap/" "MEGA-RECOVERYKEY.txt" "IJCS_32_4_19.pdf" "dmesg.txt" "frostwire-6.8.7.amd64.deb" "x2x-dbgsym_1.30-7_amd64.ddeb" "al@alviahmed.com" ".xsession-errors.old" "frostwire-6.8.4.amd64/" "website_improvments.org~" "siji/" ".gconf/" "old" "AndroidStudioProjects/" "hideshow-org/" "tabbed/" "back_init/" ".gimp-2.8/" "DHT_sensor_library-1.4.0/" "bootstrap-4.5.0-dist.zip" "newfile" ".bash_aliases~" ".emacs.d/" "Anaconda3-2020.07-Linux-x86_64.sh" "minicom.log" ".gtkrc-2.0" "mpv-shot0001.jpg" "lighttable-0.8.1-linux/" ".profile~" "test.txt" ".audacity-data/" "ENG+503+final+exam+rubric+Alvi+Ahmed+.docx" "dwmstatus/" "placehold.tex" "netbeans-12.2/" ".selected_editor" ".mozilla/" "testing_wget/" ".FBReader/" ".mplayer/" "colors.Xresources" "dist/" ".git-credentials" "netbeans-8.2rc/" ".gtkrc-xfce" "node-v12.16.3-linux-x64.tar.xz" ".sbclrc" "Python-3.9.0.tar.xz" ".gphoto/" "#160 - The Great Reset w_ Jay Dyer-BUPyofDRFMA.f137.mp4.part" ".wine/" "cmake-3.17.2-Linux-x86_64.sh" ".dec_chg.txt" "name_list" ".dbus/" "dailytodo.pdf" "webpack.config.js" "Music/" ".runescape" "flash_player/" ".java/" "EAGLE/" ".idlerc/" ".dmesg.txt.swp" ".offlineimap/" "amplify.yml" "package.json" "quicklisp.lisp.asc" ".bash_logout" ".bash_history" "netlify.toml" "#test.txt#" "kaktxt.c" "openspades-0.1.3.tar.gz" "pic/" "netbeans-11.3/" ".putty/" ".aspell.en.prepl" "node-v12.16.3-linux-x64/" "en503_takehome_test.pdf" ".gitconfig" "asb/" "lab_2_template.m" "suhas_kd-master/" "bar/" "emacs-26.3/" "Jagex/" ".nbi/" ".bashrc" ".Xresources" "out.mkv" "resume_revature.pdf" "mpv-shot0004.jpg" ".ssh/" ".gnome/" ".offlineimaprc~" "Videos/" "battery_wallpaper/" ".fehbg" "ideaIC-2020.1.3.tar.gz" ".profile" "quicklisp.lisp" "VirtualBox VMs/" ".cache/" "Dropbox/" ".aptitude/" "bin/" "newdir/" "openspades/" "Android/" "src/" ".authinfo" ".xmonad/" "magnet_link_udemy.txt" "fzf/" ".slime/" "rtl8812au/" ".viminfo.tmp" ".Mail/" "jdk-15.0.1_linux-x64_bin.deb" ".xsession-errors" "../" "./")
-
  ("/home/al/bash_scripts/monitor_setting/" (24535 42196 235467 931000) ".projectile" "MON_SEL.sh" "./" "MON_SEL.sh~" "MON_NUM.sh" "VGA1.sh" "DUALL.sh" "MON_NUM.sh~" "DUALR.sh" "LVDS1.sh" "../")
-
- ("/home/al/Documents/Git_Projects/Web_UI_RC_Car_Controller/" (24527 58566 881673 901000) "index.js~" "index.js" ".git/" "./" "index.html~" ".#index.js" "index.html" "styles.css" "#index.js#" "styles.css~" "../")
-
- ("/home/al/Dropbox/GuideWire_TD/" (24527 51993 951376 902000) "./" "Alvi_Ahmed_FDM_resume.aux" "Alvi_Ahmed_FDM_resume.tex~" "Alvi_Ahmed_FDM_resume.log" "Alvi_Ahmed_FDM_resume.out" "Alvi_Ahmed_FDM_resume.tex" "Alvi_Ahmed_FDM_resume.pdf" "project_explain.org" "../" "projects_list.tex~" "projects_list.tex")
-
- ("/home/al/Documents/Git_Projects/website_actual/" (24527 38752 234251 235000) "personal_website_notes.org" ".git/" "resume_alvi.pdf" "./" "css/" "index.html~" "proj_main.html~" "index.html" "proj_main.html" "contact.html~" "proj_pages/" "personal_website_notes.org~" "../" "contact.html" "images/")
-
- ("/home/al/Documents/Git_Projects/website/css/" (24317 48440 729070 65000) ".projectile" "./" "styles.css" "../")
-
- ("/home/al/Documents/Git_Projects/website/Bootstrap-installation/TinDog Start Here/" (24383 2237 184456 516000) "./" "css/" "index.html" ".DS_Store" "../" "images/")
-
- ("/home/al/Documents/Git_Projects/website/advanced_javascript/" (24527 36082 254466 796000) "index.js~" "index.js" "./" "index.html~" "Drum Kit Starting Files/" "index.html" "Drum Kit Starting Files.zip" "styles.css" ".DS_Store" "#index.html#" "styles.css~" "__MACOSX/" "../" "sounds/" "images/" ".#index.html")
-
- ("/home/al/Documents/Git_Projects/website/jquery/" (24463 19231 207738 514000) "index.js~" "index.js" "./" "index.html~" "index.html" "styles.css" "styles.css~" "../")
-
- ("/home/al/Dropbox/Pathrise_Work/" (24526 18476 462456 342000) "Alvi_Ahmed_HIDI_Electrical_EIT.pdf" "./" "cover_letter_myant/" "Alvi_Ahmed_Fortinet.pdf" "tenstorrent_qualifications.txt" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "jobs_csv.csv" "Alvi_Ahmed_Quora.pdf" "myant_qualifications.txt" "letter_evertz.pdf" "Alvi_Ahmed_Tenstorrent_Software_Engineer.pdf" "interest_job_descrip.org~" "interest_job_descrip (1).org" "interest_job_descrip.org" "Alvi_Ahmed_Software_Developer_Embedded.pdf" "jobs.xlsx" "../" "quora_note.txt" "link.txt")
 
  ("/home/al/Documents/resumes/applying_to_bell_access_network_engineering/" (24427 3698 803074 838000) "cover_letter/" "resume_bell_acc_network.out" "./" "resume_bell_acc_network.tex" "resume_bell_acc_network.pdf" "resume_bell_acc_network.log" "resume_bell_acc_network.tex~" "resume_bell_acc_network.aux" "../")
 
  ("/home/al/Documents/c_practice/binary_trees/" (24526 59143 712365 512000) "./" "intro.c~" "intro.c" "intro" "../")
 
  ("/home/al/Dropbox/GuideWire_Job_Notes/" (24526 57316 603897 498000) "./" "project_explain.org" "../")
-
- ("/home/al/Dropbox/Pathrise_Work/cover_letter_myant/" (24526 19992 917278 283000) "./" "Alvi_Ahmed_Myant_cover_letter.out" "Alvi_Ahmed_Myant_cover_letter.pdf" "Alvi_Ahmed_Myant_cover_letter.aux" "Alvi_Ahmed_Myant_cover_letter.tex" "Alvi_Ahmed_Myant_cover_letter.tex~" "../" "Alvi_Ahmed_Myant_cover_letter.log")
 
  ("/home/al/Documents/resumes/" (24521 34070 732434 359000) "applying_electricalicatdesigner/" "old_versions/" "fullswing_embeddedengineer/" "./" "applying_to_adamson/" "applying_to_revature/" "universal_resume/" "Pathrise_Resume_edit/" "apply_to_tenstorrent/" "eleceng_honeywell/" "applyingto_ABCdev_electricalengineertechnologist/" "applying_to_bell/" "applying_to_rmfdesign/" "resume_clinic_scan/" "resume_storage_and_scripts/" "apply_to_cgx_medical/" "applying_to_bell_access_network_engineering/" "profile_pic/" "current_versions/" "applying_to_spin_master/" "digitalengineer_pervicescorp/" "applying_cisco/" "Tenstorrent_Software_Engineer/" "../" "apply_to_evertz/" "apply_hardware_embedded/")
 
@@ -169,8 +195,6 @@
 
  ("/home/al/Documents/resumes/applying_to_bell/" (24526 13500 517112 938000) "resume_bell.log" "resume_bell.pdf" "cover_letter_bell_sum_edit.tex" "recent_transcript.pdf" "resume_bell.tex~" "cover_letter_bell_sum_edit.out" "cover_letter_bell_sum_edit.pdf" "./" "cover_letter_bell.tex" "resume_bell.aux" "cover_letter_bell.log" "cover_letter_bell_sum_edit.aux" "cover_.pdf" "cover_.log" "cover_letter_bell_sum_edit.log" "cover_letter.tex~" "cover_letter_bell.aux" "resume_bell.out" "video_questionarre/" "cover_letter_bell.pdf" "cover_.out" "../" "cover_.tex" "cover_letter_bell.tex~" "resume_bell.tex" "cover_letter_bell.out" "link.txt")
 
- ("/home/al/Documents/Git_Projects/Digital_PID_Controller/" (24522 41554 134968 882000) ".git/" "./" "Basic_PID_antiwindup/" "Proportional_Controller/" "README.org" "../" "Basic_PID/")
-
  ("/media/al/Seagate Backup Plus Drive/" (24522 21140 718784 300000) "Media/" "[DesireCourse.Com] Udemy - Artificial Intelligence Reinforcement Learning in Python/" "Warranty.pdf" "VMware Workstation Pro 15.0.0 Build 10134415 (x64) + Crack [CracksNow]/" "UltraSlim.ico" "System Volume Information/" "Start_Here_Mac.app/" "Seagate/" "programming_and_tech_videos/" "Multisim 10.1/" "laptop_vids_backup/" ".Trash-1000/" ".#hello.tar.gz" "$RECYCLE.BIN/" "../" "./")
 
  ("/media/al/" (24522 18450 266319 116000) "Seagate Backup Plus Drive/" "./" "../")
@@ -181,21 +205,11 @@
 
  ("/home/al/Dropbox/" (24522 21390 988677 93000) "./" ".dropbox" "Sync/" "Pathrise_Work/" "_ Getting Started with Dropbox Paper.paper" ".dropbox.cache/" "../" "Alvi_Ahmed_Embedded_Software_Engineer.pdf")
 
- ("/home/al/Dropbox/Sync/" (24522 21542 719946 329000) "useful_linux_commands.org~" "personal_website_notes.org" "inbox.org" "latex_shell_commands.org" "programming_notes.org" "priorities.org" "useful_linux_commands.org" "useful_links_notes.org" "daily_todo.org" "extra_rem.org" "inbox.org~" "scratch.org" "getting_avrcode_work_arduino/" "job_search.org" "TODO.org" "islam_research.org" "game_ideas.org" "islam_research.org~" "resume_interview_ideas.org" "cooking.org" "useful_emacs_notes.org" "christ_research.org" "backburner.org" "exercise_notes.org~" "other_notes/" "note_self.org" "g1_test.org" "religion.org" "exercise_notes.org" "sched_org.org" "TODO.org~" "note_self.org~" "laser_game_notes.org" ".#useful_linux_commands.org" "../" "./")
-
  ("/home/al/Documents/resumes/resume_storage_and_scripts/resume_storage/Myant_Embedded_Software_Engineer/" (24514 25306 676528 581000) "./" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.pdf" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.aux" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.log" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.out" "../" "Alvi_Ahmed_Myant_Embedded_Software_Engineer.tex~")
-
- ("/home/al/Documents/Git_Projects/Resume_Project_Adder/" (24520 23481 353163 61000) "bashFunc.sh" "tester.txt" "mainScript.sh" "bufferA.tex" "bufferB.tex" ".git/" "./" "debug.sh~" "placeholder.tex" "extractor.awk" "note.tex" "buffer.tex" "test_bench/" "debug.sh" "resume.tex" "placeholder.tex~" "README.org" "#buffer.tex#" "skills" "tester.sh" "../" "bufferC.tex" "emp.data" "projects_list.tex")
-
- ("/home/al/Documents/Git_Projects/Resume_Project_Adder/test_bench/" (24520 21145 741876 581000) "./" "placeholder_test.tex" "bash_test.sh" "buffer_test.tex~" "buffer_test.tex" "../" "placeholder_test.tex~" "bash_test.sh~")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Google_Engineering/" (24520 22440 952195 142000) "./" "../" "Alvi_Ahmed_Google_Engineering.tex")
 
  ("/home/al/Documents/resumes/Tenstorrent_Software_Engineer/" (24514 17940 272504 485000) "Alvi_Ahmed_Tenstorrent_Software_Engineer.out" "Alvi_Ahmed_Tenstorrent_Software_Engineer.aux" "./" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex~" "Alvi_Ahmed_Tenstorrent_Software_Engineer.log" "Alvi_Ahmed_Tenstorrent_Software_Engineer.pdf" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex" "../")
-
- ("/home/al/Documents/Git_Projects/RC_Car_433Mhz_Module_AVR/avr_usart/" (24514 10017 926300 914000) "./" "maintx_debug.c" "mainrx.c" "Makefile" "rx_header.o" "mainrx.o" "rx_header.h" "maintx_comp.c" "../" "tx_header_debug.h" "tx_header_comp.h" "main.hex")
-
- ("/home/al/Documents/Git_Projects/website_actual/proj_pages/sys_c_alu/" (24514 14956 821945 704000) "./" "sys_c_alu.html~" "#sys_c_alu.html#" "../" "images/" "sys_c_alu.html")
 
  ("/home/al/Documents/SHAWN_HELP/Capstone/edited_code/final_code/" (24519 7342 579213 903000) "final_code.c" "./" "final_code.ino~" "#Sensors.c#" "Sensors.c" "final_code.c~" "../")
 
@@ -220,10 +234,6 @@
  ("/home/al/Documents/resumes/apply_hardware_embedded/" (24423 44473 999795 26000) "resume.tex~" "./" "resume.log" "resume.pdf" "resume.tex" "resume.aux" "../" "resume.out")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/Tenstorrent_Software_Engineer/" (24514 15888 556345 909000) "./" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex~" "Alvi_Ahmed_Tenstorrent_Software_Engineer.tex" "../")
-
- ("/home/al/Documents/Git_Projects/Capstone/" (24514 13609 603024 684000) "Phase1_end/" "systickworking_example/" ".git/" "./" "phase2_end.zip" "together/" "Base_Stepper.X/" "#timer_RAMP_SUCCESS_UP_AND_DOWN.c#" "working_jan23/" "algorithm_code_files/" "timer_experiments/" "backup7_phase2end/" "PWM_basic/" "timer_RAMP_SUCCESS_UP_AND_DOWN.c" "kin_test.c" "../" "Timer_basic_with_5/" "README.md")
-
- ("/home/al/Documents/Git_Projects/website_actual/proj_pages/rc_avr_433/" (24514 3960 547861 932000) "./" "rc_avr_433.html" "rc_avr_433.html~" "../" "images/")
 
  ("/home/al/Documents/Git_Projects/Resume_Project_Adder/resume_storage/qwe_qwe/" (24510 5006 924439 962000) "./" "../" "Alvi_Ahmed_qwe_qwe.tex")
 
@@ -310,16 +320,6 @@
  ("/home/al/Documents/Git_Projects/website/" (24437 39731 442498 59000) "Bootstrap-installation/" ".git/" "./" "css/" "index.html" ".vscode/" "projects.html~" "testingtesting123.txt" "projects.html" "README.org" "Javascript/" "CSS-My-Site/" "../" "contact.html" "images/")
 
  ("/home/al/Documents/Git_Projects/website/Javascript/" (24438 64326 469217 78000) "./" "test.js" "function_parameters.js" "../" "function_parameters.js~")
-
- ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/3axis/" (24439 23679 915865 406000) "./" "3axis_main.c~" "3axis_main.c" "output.txt" "output.txt~" "3axis_main" "../" "3axis_result.png")
-
- ("/home/al/Documents/Git_Projects/Bank_Manager/" (24440 11461 256481 309000) ".git/" "./" "Lab5_project/" "README.org" "../" "README.org~" "images/")
-
- ("/home/al/Documents/Git_Projects/Bank_Manager/Lab5_project/src/coe528/project/" (24411 44405 252221 875000) "ManagerController.java~" "MainController.java~" "Platinum.java" "Manager.java~" "./" "BankAppGui.java~" "State.java~" "State.java" "BankAppGui.java" "Gold.java" "out/" "Customer.java~" "Manager.java" "Customer.java" "Customer.fxml" "Silver.java~" "Gold.java~" "CustomerController.java~" "CustomerController.java" "MainController.java" "ManagerController.java" "Manager.fxml~" "../" "Main.fxml" "Platinum.java~" "Silver.java" "Manager.fxml")
-
- ("/home/al/Documents/Git_Projects/Bresenham_Sim_5axis/5axis_ISR/" (24439 34065 35230 876000) "./" "5axis_result.png" "main.c" "main" "output.txt" "../" "main.c~")
-
- ("/home/al/Documents/c_practice/bresenham_algorithm/bresenham_isr/bresenham_velocity_5axis/" (24439 32487 819484 467000) "./" "nbproject/" ".dep.inc" "main.c" "main" "build/" "Makefile" "dist/" "TAGS" "../" "main.c~")
 )
 
 ;; ----- ido-unc-hosts-cache -----

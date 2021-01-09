@@ -34,8 +34,6 @@ alias dancedead='cd ~/Music/Dance\ with\ the\ Dead'
 #Backups 
 ## Emacs backup to github and back_emacs folder
 
-
-
 #Opening correct version of emacs
 alias emk='killall emacs'
 alias ems='emacs --daemon'
@@ -44,12 +42,16 @@ alias emc='screen emacsclient -n -create-frame --alternate-editor=""'
 alias emnw='emacs -nw'
 alias em='emacsclient -nw -create-frame'
 
+# Playing Video with MPV
+alias mpyou='screen mpv'
+
 #Multiple monitor commands (user defined not default)
 
-alias mon='bash ~/bash_scripts/monitor_setting/MON_SEL.sh'
+#alias mon='bash ~/bash_scripts/monitor_setting/MON_SEL.sh'
 
-alias blank='xrandr --output LVDS-1 --off --output VGA-1 --off' 
-alias project='xrandr --output LVDS-1 --auto --output VGA-1 --mode 1600x768' 
+#alias blank='xrandr --output LVDS-1 --off --output VGA-1 --off'
+
+#alias project='xrandr --output LVDS-1 --auto --output VGA-1 --mode 1600x768' 
 
 alias xfce4-terminal='xfce4-terminal --maximize --hide-menubar  --hide-borders'
 
@@ -63,20 +65,12 @@ export NNN_FALLBACK_OPENER=xdg-open
 export NNN_DE_FILE_MANAGER=thunar
 export XDG_CURRENT_DESKTOP=KDE     
 
-
-
-
 #cpu commmands 
 alias cpuinfo='sudo cpufreq-info'
 alias perform='sudo bash bash_scripts/performance.sh' 
 alias save='sudo bash bash_scripts/powersave.sh'   
 
-#base fam 
-alias base='ssh -Y al@192.168.0.23'
-
 #reseting bspwm 
 alias bspr='bash ~/.config/bspwm/bspwmrc &'
-
-
 
 

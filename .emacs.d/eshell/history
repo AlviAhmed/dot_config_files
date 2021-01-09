@@ -1,11 +1,3 @@
-git status
-git status
-git add -A
-git status
-git add -A
-git commit -m "added ATSAME70 code directory"
-git push origin master
-git rm --cached ATSAME70_code
 git add -A
 git commit -m "update"
 git push origin master
@@ -126,3 +118,11 @@ youtube-dl -f 140 -a video-links.txt
 youtube-dl -f 140 -a video-links.txt 
 mfc
 mfc
+youtube-dl https://www.youtube.com/watch?v=63LOEAb0rxU 
+git remote -V
+git remote -v
+git remote set-url https://github.com/AlviAhmed/bash_scripts.git  
+clear
+git remote set-url origin https://github.com/AlviAhmed/bash_scripts.git  
+git remote -v
+cd ..

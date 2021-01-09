@@ -53,10 +53,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/al/bin/"
  "/home/al/.emacs.d/"
  "/home/al/.emacs.d/elpa/django-snippets-20131229.1611/snippets/text-mode/python-mode/django-mode/"
  "/etc/apt/"
- "/home/al/bin/"
  "/home/al/.config/openbox/"
  "/home/al/Documents/elisp_lisp_practice/"
  "/home/al/.config/herbstluftwm/"
@@ -121,6 +121,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/al/bin/" (24564 1660 287505 413000) "br" "android_start.sh" "mfc~" "mon" "tem" "android_start.sh~" "dfb" "mfc" "godot_start.sh" "bgpape" "../" "./")
+
  ("/home/al/.emacs.d/" (24556 62472 434273 189000) "testingthebackupssytem/" "projectile.cache" "dmenu-items" "#myinit.org#" "irony/" "myinit.org_archive" "request/" "session.227673525-6578-42b6-91d7-bf0b29f4a916" "nov-places" "abbrev_defs" "srecode-map.el" "ac-comphist.dat" "emacs_backup.txt" "ido.last" "url/" "tramp" "ido.last~" "smex-items" "recentf" "snippets/" "%backup%~" "myinit.org" "eshell/" "myinit.org~" ".python-environments/" "init.el~" ".cache/" "session.2482514d6-8a29-4639-bd88-7702f141ba0f" "#ido.last#" "session.2b42881de-86cf-4382-b1a1-5bcd9867a9d2" "image-dired/" ".emacs.desktop" "session.2112f98e1-0c52-4bc8-8dd1-266bf7adb566" "semanticdb/" "#myinit.el#" "myinit.el" ".mc-lists.el" "session.2b921ac2e-c82a-4175-abd7-503daa5c3e8f" "session.2813e52e6-5c59-48a3-940f-d0976b33e8ac" "games/" "meghanada/" "thumbs/" "anaconda-mode/" "bookmarks" "myinit.el~" "session.2ba7feac3-2322-4e97-adf3-ffa723801e14" "recentf~" ".org-id-locations" "places" "backup_init/" "history" "ede-projects.el" "elpa/" "org-gcal/" "tutorial/" "projectile-bookmarks.eld" "auto-save-list/" "session.26ef5f436-c66d-4207-8422-4492ed833031" "init.el" "../" "./")
 
  ("/home/al/.emacs.d/elpa/django-snippets-20131229.1611/snippets/text-mode/python-mode/django-mode/" (24553 29049 399158 486000) "asset" "sitemap" "../" "url" "here" "handler" "./" "manager" "view" "model" "feed" "namedurl" "modelform")
@@ -162,8 +164,6 @@
  ("/home/al/Documents/elisp_lisp_practice/" (24554 47123 225084 156000) "first_prog.lisp~" "defparam.lisp" "../" "loop.lisp" "loop.lisp~" "interac_func.el" "num_with_com.lisp" "first_prog.lisp" "lists.lisp~" "./" "boolcase.el" "#case_state.lisp#" "if_statements.lisp" "#if_statements.lisp#" "case_state.lisp~" "defparam.lisp~" "#num_with_com.lisp#" "list_function.el" "if_statements.lisp~" "case_state.lisp" "lists.lisp")
 
  ("/home/al/.config/openbox/" (24554 59144 78117 888000) "autostart" "../" "autostart~" "rc.xml" "./" "rc.xml~" "menu.xml" "environment")
-
- ("/home/al/bin/" (24555 36535 254857 987000) "llvm-elfabi" "llvm-cxxdump" "llvm-cov" "llvm-opt-report" "llvm-locstats" "not" "term_emacs.sh~" "count" "llvm-readobj" "android_start.sh" "tabc.sh~" "tabc_edit.sh~" "bgpape~" "llvm-profdata" "llvm-lit" "llvm-cat" "lli" "tem~" "sancov" "llvm-strings" "llvm-mca" "bkup~" "llvm-bcanalyzer" "llvm-microsoft-demangle-fuzzer" "llvm-lto2" "llvm-stress" "verify-uselistorder" "llvm-mc" "sanstats" "llvm-rc" "llvm-pdbutil" "bugpoint" "llvm-itanium-demangle-fuzzer" "llvm-as" "tem" "#bkup#" "opt" "llvm-diff" "llvm-nm" "llvm-config" "llvm-extract" "llvm-dwarfdump" "llvm-modextract" "llvm-rtdyld" "llvm-dwp" "llvm-undname" "android_start.sh~" "llvm-jitlink" "llvm-xray" "#tabc.sh#" "llvm-isel-fuzzer" "godot_start.sh~" "llvm-exegesis" "llvm-cvtres" "llvm-symbolizer" "lli-child-target" "llvm-dis" "llvm-mt" "llvm-ar" "llvm-objcopy" "llvm-lipo" "tabc.sh" "llvm-ifs" "llvm-reduce" "llvm-opt-fuzzer" "yaml-bench" "llvm-PerfectShuffle" "llvm-special-case-list-fuzzer" "dsymutil" "llvm-cxxfilt" "FileCheck" "godot_start.sh" "llvm-link" "llvm-yaml-numeric-parser-fuzzer" "llvm-objdump" "llvm-c-test" "obj2yaml" "yaml2obj" "tabc_edit.sh" "llvm-split" "llvm-cfi-verify" "llc" "llvm-cxxmap" "llvm-lto" "llvm-tblgen" "llvm-size" "bgpape" "../" "./")
 
  ("/etc/apt/" (24555 50430 63358 114000) "trusted.gpg" "../" "auth.conf.d/" "sources.list.d/" "./" "apt.conf.d/" "preferences.d/" "trusted.gpg.d/" "sources.list")
 
