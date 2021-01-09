@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "flyspell-correct-ivy" "20200513.708" "Correcting words with flyspell via ivy interface" '((flyspell-correct "0.6.1") (ivy "0.8.0") (emacs "24.3")) :commit "43607479485a9f4272847161d5a328f4b3a35d4d" :authors '(("Boris Buliga" . "boris@d12frosted.io")) :maintainer '("Boris Buliga" . "boris@d12frosted.io") :url "https://github.com/d12frosted/flyspell-correct")

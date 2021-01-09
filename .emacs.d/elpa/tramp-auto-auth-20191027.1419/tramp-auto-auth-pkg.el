@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "tramp-auto-auth" "20191027.1419" "TRAMP automatic authentication library" '((emacs "24.4") (tramp "0.0")) :commit "f15a12dfab651aff60f4a9d70f868030a12344ac" :keywords '("comm" "processes") :authors '(("Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org")) :maintainer '("Bruno Félix Rezende Ribeiro" . "oitofelix@gnu.org") :url "https://github.com/oitofelix/tramp-auto-auth")
