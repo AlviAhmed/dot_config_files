@@ -51,12 +51,16 @@ super + m
 
 # Launching Thunar 
 super + shift + f 
-	pcmanfm
+      thunar
 
 
 #Music Directory
 super + shift + m
-      pcmanfm ~/Music &
+      thunar ~/Music
+
+#Videos Directory
+super + shift + v
+      thunar ~/Videos
 
 # internet browser 
 super + i 

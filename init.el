@@ -31,6 +31,7 @@
    '("#FFEE58" "#C5E1A5" "#80DEEA" "#64B5F6" "#E1BEE7" "#FFCC80"))
  '(highlight-symbol-foreground-color "#E0E0E0")
  '(highlight-tail-colors '(("#eab4484b8035" . 0) ("#424242" . 100)))
+ '(image-dired-external-viewer "/usr/bin/xviewer")
  '(jdee-db-active-breakpoint-face-colors (cons "#222228" "#40B4C4"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#222228" "#74DFC4"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#222228" "#4E415C"))
