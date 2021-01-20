@@ -34,7 +34,7 @@ Copy the file to $HOME/.config/openbox/ instead. -->
   following: 'Mouse' - where the mouse is, or
   'Active' - where the active window is --></placement>
   <theme>
-    <name>Bear2</name>
+    <name>Natura</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
         available characters are NDSLIMC, each can occur at most once.
@@ -175,7 +175,6 @@ and back in -->
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-
     <!-- Keybindings for Reconfigure and Restart -->
     <keybind key="W-F11">
       <action name="Reconfigure"/>
@@ -183,7 +182,6 @@ and back in -->
     <keybind key="W-F12">
       <action name="Restart"/>
     </keybind>
-
     <!-- Toggle Always OnTop -->
     <keybind key="W-A-space">
       <action name="ToggleAlwaysOnTop"/>
@@ -191,10 +189,6 @@ and back in -->
         <command>notify-send "Toggling Always on Top Window"</command>
       </action>
     </keybind>
-
-    
-
-    
     <!-- Keybindings for desktop switching -->
     <keybind key="W-Left">
       <action name="GoToDesktop">
@@ -304,7 +298,6 @@ and back in -->
         <command>notify-send "Toggling Sticky Window"</command>
       </action>
     </keybind>
-
     <!-- BEGIN Sending whole desktops -->
     <keybind key="W-A-S-1">
       <action name="ForEach">
@@ -319,11 +312,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-2">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -337,11 +329,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-3">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -355,11 +346,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-4">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -373,11 +363,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-5">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -391,11 +380,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-6">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -409,11 +397,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-7">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -427,11 +414,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-8">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -445,11 +431,10 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-A-S-9">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -463,12 +448,11 @@ and back in -->
                 <follow>no</follow>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
     <!-- END Sending whole desktops -->
-    
     <!-- BEGIN Resizing to each side -->
     <keybind key="W-S-h">
       <action name="Unmaximize"/>
@@ -507,7 +491,6 @@ and back in -->
       </action>
     </keybind>
     <!-- END Resizing to each Side -->
-
     <!-- Bring to center of screen -->
     <keybind key="W-S-c">
       <action name="Unmaximize"/>
@@ -519,9 +502,6 @@ and back in -->
       </action>
     </keybind>
     <!-- Bring to center of screen -->
-
-
-    
     <!-- BEGIN Resizing to each corner -->
     <keybind key="W-A-h">
       <action name="Unmaximize"/>
@@ -556,7 +536,6 @@ and back in -->
         <height>50%</height>
       </action>
     </keybind>
-
     <keybind key="W-A-u">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -576,7 +555,6 @@ and back in -->
       </action>
     </keybind>
     <!-- END Resizing to each corner -->
-    
     <!-- BEGIN Resizing Windows -->
     <keybind key="W-C-l">
       <action name="ResizeRelative">
@@ -619,8 +597,6 @@ and back in -->
       </action>
     </keybind>
     <!-- END Resizing Windows -->
-
-    
     <!-- Begin Moving Windows -->
     <keybind key="W-C-A-l">
       <action name="MoveRelative">
@@ -647,8 +623,6 @@ and back in -->
       </action>
     </keybind>
     <!-- End Moving Window -->
-
-    
     <!-- Send to Desktop #  -->
     <keybind key="W-1">
       <action name="GoToDesktop">
@@ -696,7 +670,6 @@ and back in -->
       </action>
     </keybind>
     <!-- END Send to Desktop # -->
-
     <!-- BEGIN Sending Windows to Different Monitors -->
     <keybind key="W-period">
       <action name="MoveResizeTo">
@@ -709,7 +682,6 @@ and back in -->
       </action>
     </keybind>
     <!-- END Sending Windows to Different Monitors  -->
-
     <!-- BEING Sending Current Desktop to Next Monitor  -->
     <keybind key="W-S-period">
       <action name="ForEach">
@@ -724,14 +696,13 @@ and back in -->
                   <action name="MoveResizeTo">
                     <monitor>next</monitor>
                   </action>
-                </then> 
+                </then>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
-
     <keybind key="W-S-comma">
       <action name="ForEach">
         <omnipresent>no</omnipresent>
@@ -745,15 +716,14 @@ and back in -->
                   <action name="MoveResizeTo">
                     <monitor>prev</monitor>
                   </action>
-                </then> 
+                </then>
               </action>
             </then>
-          </action>          
+          </action>
         </then>
       </action>
     </keybind>
     <!-- END Sending Current Desktop to Next Monitor  -->
-    
     <keybind key="W-S-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -765,15 +735,12 @@ and back in -->
         <menu>client-menu</menu>
       </action>
     </keybind>
-
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
     <keybind key="A-Print">
       <action name="Execute">
         <command>scrot -s</command>
       </action>
     </keybind>
-
-
     <keybind key="W-Tab">
       <action name="NextWindow">
         <raise>yes</raise>
@@ -784,13 +751,11 @@ and back in -->
         </finalactions>
       </action>
     </keybind>
-
-    <keybind key="C-A-Tab">
+    <keybind key="C-Tab">
       <action name="ShowMenu">
         <menu>client-list-combined-menu</menu>
       </action>
     </keybind>
-    
     <keybind key="A-Tab">
       <action name="NextWindow">
         <allDesktops>yes</allDesktops>
@@ -802,9 +767,6 @@ and back in -->
         </finalactions>
       </action>
     </keybind>
-
-
-
     <keybind key="W-l">
       <action name="DirectionalCycleWindows">
         <direction>right</direction>
@@ -1310,6 +1272,5 @@ type="the window's _OB_APP_TYPE property (see obxprob)..
     <!--     <y>center</y> -->
     <!--   </position> -->
     <!-- </application> -->
-
   </applications>
 </openbox_config>

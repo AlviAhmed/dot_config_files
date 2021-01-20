@@ -1,4 +1,14 @@
-(global-set-key (kbd "C-x C-e") 'eval-last-sexp)
+(setq frame-title-format
+      '(buffer-file-name "%b - %f" ; File buffer
+        (dired-directory dired-directory ; Dired buffer
+         (revert-buffer-function "%b" ; Buffer Menu
+          ("%b - Dir: " default-directory))))) ; Plain buffer
+
+(setq frame-title-format
+      '(buffer-file-name "%b - %f" ; File buffer
+        (dired-directory dired-directory ; Dired buffer
+         (revert-buffer-function "%b" ; Buffer Menu
+          ("%b - Dir: " default-directory))))) ; Plain buffer
 
 (setq-default    
 	confirm-kill-emacs 'yes-or-no-p)
@@ -27,7 +37,100 @@
 
 (global-set-key (kbd "<f5>") 'revert-buffer)
 
+(global-set-key (kbd "M-h") 'windmove-left)
+(global-set-key (kbd "M-l") 'windmove-right)
+(global-unset-key (kbd "M-j"))
+(global-set-key (kbd "M-j") 'windmove-down)
+(global-set-key (kbd "M-k") 'windmove-up)
+
 (setq org-html-html5-fancy t)
+
+(setq jit-lock-defer-time 0)
+(setq fast-but-imprecise-scrolling t)
+
+(setq save-abbrevs 'silently)
+(setq-default abbrev-mode t)
+
+(use-package vimish-fold
+            :ensure t
+            :config
+            (global-set-key (kbd "C-c v f") #'vimish-fold)
+			(global-set-key (kbd "C-c v v") #'vimish-fold-delete))
+
+(global-unset-key "\C-z")
+(global-set-key "\C-z" 'undo)
+
+(global-unset-key "\M-\\")
+(global-unset-key "\M-p")
+(global-set-key "\M-\\" 'dabbrev-expand)
+
+(winner-mode 1)
+
+(global-set-key (kbd "C-x C-z") 'nil)
+
+(use-package beacon :ensure t :init (beacon-mode 1))
+
+(setq-default display-line-numbers 'relative)
+
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(use-package which-key
+ :ensure t
+ :init
+ (which-key-mode))
+
+(global-set-key (kbd "M-H") 'shrink-window-horizontally)
+(global-set-key (kbd "M-L") 'enlarge-window-horizontally)
+(global-set-key (kbd "M-J") 'shrink-window)
+(global-set-key (kbd "M-K") 'enlarge-window)
+
+(use-package fill-column-indicator
+  :ensure t
+  )
+
+(global-set-key (kbd "M-@") 'split-window-below)  
+(global-set-key (kbd "M-#") 'split-window-right)  
+(global-set-key (kbd "M-$") 'delete-window)
+
+(set-face-attribute 'default nil :height 120)
+
+(setq delete-by-moving-to-trash t)
+
+(global-visual-line-mode t )
+
+(delete-selection-mode t)
+
+(setq kill-whole-line t)
+
+(setq-default indent-tabs-mode nil)
+;; (setq-default tab-width 8)
+
+(defun compile-key() 
+        (local-set-key [(f5)] 'recompile)
+) 
+(add-hook 'prog-mode-hook 'compile-key)
+
+(global-hl-line-mode t)
+
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) 
+(setq mouse-wheel-progressive-speed nil)
+(setq mouse-wheel-follow-mouse 't)
+(setq scroll-step 1)
+(setq scroll-conservatively 101)
+
+(toggle-scroll-bar 1)
+
+(setq scroll-preserve-screen-position 1)
+
+(use-package visual-regexp 
+	:ensure t 
+	:config
+	(define-key global-map (kbd "C-c r") 'vr/replace)
+	(define-key global-map (kbd "C-c q") 'vr/query-replace)
+	;; if you use multiple-cursors, this is for you:
+	(define-key global-map (kbd "C-c m") 'vr/mc-mark))
 
 (show-paren-mode 1)
 
@@ -72,73 +175,89 @@
 
 (setq inhibit-startup-message t)
 
-(global-set-key (kbd "M-h") 'windmove-left)
-(global-set-key (kbd "M-l") 'windmove-right)
-(global-unset-key (kbd "M-j"))
-(global-set-key (kbd "M-j") 'windmove-down)
-(global-set-key (kbd "M-k") 'windmove-up)
+(setq-default indent-tabs-mode nil)
 
-(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
+(use-package popup 
+	:ensure t 
+	:config 
+	(require 'popup)   
+	(require 'pos-tip) 
+	(eval-when-compile
+	  (require 'cl-lib))
+	(define-key popup-menu-keymap (kbd "C-n") nil)
+	(define-key popup-menu-keymap (kbd "C-p") nil) 
+	(define-key popup-menu-keymap (kbd "M-n") #'popup-next)
+	(define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
+(global-set-key (kbd "C-x p") 'popup-kill-ring)
 
-(setq jit-lock-defer-time 0)
-(setq fast-but-imprecise-scrolling t)
+(use-package ibuffer 
+	     	:ensure t 
+		:config 
+		(global-set-key (kbd "C-x C-b") 'ibuffer))
 
-(setq save-abbrevs 'silently)
-(setq-default abbrev-mode t)
-
-(global-unset-key "\C-z")
-(global-set-key "\C-z" 'undo)
-
-(global-unset-key "\M-\\")
-(global-unset-key "\M-p")
-(global-set-key "\M-\\" 'dabbrev-expand)
-
-(use-package vimish-fold
-            :ensure t
-            :config
-            (global-set-key (kbd "C-c v f") #'vimish-fold)
-			(global-set-key (kbd "C-c v v") #'vimish-fold-delete))
-
-(defun setup-tide-mode ()
-  (interactive)
-  (tide-setup)
-  (flycheck-mode +1)
-  (setq flycheck-check-syntax-automatically '(save mode-enabled))
-  (eldoc-mode +1)
-  (tide-hl-identifier-mode +1)
-  ;; company is an optional dependency. You have to
-  ;; install it separately via package-install
-  ;; `M-x package-install [ret] company`
-  (company-mode +1))
-
-;; aligns annotation to the right hand side
-(setq company-tooltip-align-annotations t)
-
-;; formats the buffer before saving
-(add-hook 'before-save-hook 'tide-format-before-save)
-
-(add-hook 'typescript-mode-hook #'setup-tide-mode) 
-
-
-(use-package tide
+(use-package avy
   :ensure t
-  :after (typescript-mode company flycheck)
-  :hook ((typescript-mode . tide-setup)
-         (typescript-mode . tide-hl-identifier-mode)
-         (before-save . tide-format-before-save)))
+  :bind
+  ("M-z" . avy-goto-char))
 
-(winner-mode 1)
+(use-package hungry-delete
+  :ensure t
+)
 
-;; (add-hook 'python-mode-hook
-;;       (lambda ()
-;;         (setq-default indent-tabs-mode nil)
-;;         (setq-default tab-width 4)
-;;         (setq-default python-indent 4)))
+(global-set-key (kbd "M-/") 'rgrep)
 
-(setq org-refile-active-region-within-subtree t)
-(setq org-refile-use-outline-path t)
+(require 'lsp-java)
+(add-hook 'java-mode-hook #'lsp)
 
-(global-set-key (kbd "C-x C-z") 'nil)
+(condition-case nil
+    (require 'use-package)
+  (file-error
+   (require 'package)
+   (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+   (package-initialize)
+   (package-refresh-contents)
+   (package-install 'use-package)
+   (setq use-package-always-ensure t)
+   (require 'use-package)))
+
+(use-package projectile)
+(use-package flycheck)
+(use-package yasnippet :config (yas-global-mode))
+(use-package lsp-mode :hook ((lsp-mode . lsp-enable-which-key-integration))
+  :config (setq lsp-completion-enable-additional-text-edit nil))
+(use-package hydra)
+(use-package company)
+(use-package lsp-ui)
+(use-package which-key :config (which-key-mode))
+(use-package lsp-java :config (add-hook 'java-mode-hook 'lsp))
+(use-package dap-mode :after lsp-mode :config (dap-auto-configure-mode))
+(use-package dap-java :ensure nil)
+(use-package helm-lsp)
+(use-package helm
+  :config (helm-mode))
+(use-package lsp-treemacs)
+
+(require 'yasnippet)
+(yas-global-mode 1) 
+
+(defun yas-org-very-safe-expand ()
+  (let ((yas-fallback-behavior 'return-nil)) (yas-expand)))
+(add-hook 'org-mode-hook
+      (lambda ()
+        (add-to-list 'org-tab-first-hook 'yas-org-very-safe-expand)
+        (define-key yas-keymap [tab] 'yas-next-field)))
+
+(setq c-default-style "linux"
+      c-basic-offset 4)
+
+(add-hook 'c-mode-hook (lambda () (setq comment-start "//"
+                                comment-end   "")))
+
+(use-package rainbow-delimiters
+	:ensure t
+	:init
+	(rainbow-delimiters-mode))
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
 (setq electric-pair-pairs '(
 			    (?\( . ?\))
@@ -147,42 +266,9 @@
 			    (?\" . ?\"))) 
 (electric-pair-mode 1)
 
-(use-package rainbow-delimiters
-	:ensure t
-	:init
-	(rainbow-delimiters-mode))
-(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
-
-;; (use-package hideshow-org
-;;   :ensure t
-;;   :config
-;; (add-to-list 'load-path "~/hideshow-org/")
-
-;; (global-set-key "\C-ch" 'hs-org/minor-mode)
-;;   )
-
-(use-package web-mode
-  :ensure t
-  :config
- (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
- (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-  )
-
-(add-hook 'sgml-mode-hook #'emmet-mode) ;; Auto-start on any markup modes
- (add-hook 'css-mode-hook  #'emmet-mode) ;; enable Emmet's css abbreviation.
- (add-hook 'html-mode-hook #'emmet-mode)
- (add-hook 'js2-mode-hook  #'emmet-mode) 
-(add-hook 'php-mode-hook   #'emmet-mode)
+(setq gdscript-godot-executable "/home/al/Desktop/Godot_v3.2.2-stable_x11.64")
 
 (global-set-key (kbd "<f8>") 'speedbar)
-
-(dumb-jump-mode)
 
 (defun move-line-down ()
   (interactive)
@@ -209,76 +295,6 @@
 	:config 
 	(add-hook 'python-mode-hook 'anaconda-mode))
 
-(require 'cl)
-
-(use-package company 
-	:ensure t   
-	:init 
-	(add-hook 'after-init-hook 'global-company-mode)
-	:config 
-	(setq company-idle-delay 0.15)   
-	(setq company-minimum-prefix-length 2)
-	(setq company-selection-wrap-around t) 
-	(setq company-require-match 'never)  
-	(setq company-dabbrev-downcase nil)
-	(define-key company-active-map (kbd "C-n") nil) 
-	(define-key company-active-map (kbd "C-p") nil) 
-	(define-key company-active-map (kbd "M-n") #'company-select-next) 
-	(define-key company-active-map (kbd "M-p") #'company-select-previous) 
-	(add-to-list 'company-backends 'company-capf)
-	(add-to-list 'company-backends 'company-dabbrev)
-	(add-to-list 'company-backends 'company-nxml)
-	(add-to-list 'company-backends 'company-files) 
-	(add-to-list 'company-backends 'company-anaconda))
-
-(use-package company-irony
-	:ensure t 
-	:config  
-	(add-to-list 'company-backends 'company-irony))
-
-(use-package irony 
-	:ensure t 
-	:config  
-	(add-hook 'c++-mode-hook 'irony-mode)
-	(add-hook 'c-mode-hook 'irony-mode)
-	(add-hook 'objc-mode-hook 'irony-mode)
-	(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
-
-(use-package company-irony-c-headers
-  :config
- 	(eval-after-load 'company
- 	  '(add-to-list
- 	    'company-backends '(company-irony-c-headers company-irony)))
-  :ensure t
-  )
-
-(defun create-tags (dir-name)
-   "Create tags file."
-   (interactive "DDirectory: ")
-   (eshell-command))
-
-
-
-(use-package js2-mode
-  :ensure t
-  :config
- 	(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
- 	;; Better imenu
- 	(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
-
-  )
-(use-package ac-js2
-	:ensure t 
-	:config
-	(add-to-list 'company-backends 'ac-js2-company) 
-	(setq ac-js2-evaluate-calls t)
-)
-
-(use-package yasnippet
-  :ensure t
-  )
-(yas-global-mode 1)
-
 (use-package flycheck 
 	:ensure t 
 	:init (global-flycheck-mode t))
@@ -301,57 +317,41 @@
 	(define-key popup-kill-ring-keymap (kbd "M-n")     'popup-kill-ring-next)
 	(define-key popup-kill-ring-keymap (kbd "M-p")     'popup-kill-ring-previous))
 
-(use-package ido  
-	:ensure t
-	:config 
-	(ido-mode 1)  
-	(setq ido-enable-flex-matching t)
-	(setq ido-everywhere t)  
-	(setq ido-create-new-buffer nil) 
-	(setq ido-default-buffer-method 'selected-window) 
-	(setq ido-default-file-method 'selected-window)	 
-	)
+(use-package web-mode
+  :ensure t
+  :config
+ (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+ (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+  )
 
-(use-package ido-vertical-mode 
-	:ensure t 
-	:config 
-	(ido-vertical-mode 1)
-	(setq ido-vertical-define-keys 'C-n-and-C-p-only))
+(add-hook 'sgml-mode-hook #'emmet-mode) ;; Auto-start on any markup modes
+ (add-hook 'css-mode-hook  #'emmet-mode) ;; enable Emmet's css abbreviation.
+ (add-hook 'html-mode-hook #'emmet-mode)
+ (add-hook 'js2-mode-hook  #'emmet-mode) 
+(add-hook 'php-mode-hook   #'emmet-mode)
 
-(use-package smex 
-	:ensure t
-	:init (smex-initialize) 
-	:bind ("M-x" . smex))
-
-(use-package elscreen-tab 
-	:ensure t 
-	:config  
-	(global-set-key (kbd "M-p") 'elscreen-next)
-	(global-set-key (kbd "M-P") 'elscreen-previous)
-	(global-set-key (kbd "C-c n") 'elscreen-create) 
-	(global-set-key (kbd "C-c d") 'elscreen-kill))
-
-(setq projectile-enable-caching t)
-(use-package projectile 
-	:ensure t 
-	:config 
-	(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)  
-	(setq projectile-enable-caching t)
-	(projectile-mode +1 ))
-
-(use-package multiple-cursors
-	:ensure t 
-	:config 
-	(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines) 
-	(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-	(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-	(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
-	)
-
-(global-set-key (kbd "C-c b") 'bookmark-jump)  
-(global-set-key (kbd "C-c x") 'xah-open-in-external-app)
-
-(setq python-shell-interpreter "/usr/local/bin/python3.9")
+;; (require 'meghanada)
+;; (add-hook 'java-mode-hook
+;;           (lambda ()
+;;             ;; meghanada-mode on
+;;             (meghanada-mode t)
+;;             (flycheck-mode +1)
+;;             (setq c-basic-offset 2)
+;;             ;; use code format
+;;             (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+;; (cond
+;;    ((eq system-type 'windows-nt)
+;;     (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
+;;     (setq meghanada-maven-path "mvn.cmd"))
+;;    (t
+;;     (setq meghanada-java-path "java")
+;;     (setq meghanada-maven-path "mvn")))
 
 (add-hook 'c-mode-hook 'electric-indent-mode)
 (add-hook 'c++-mode-hook 'electric-indent-mode)
@@ -359,98 +359,16 @@
 (add-hook 'html-mode-hook 'electric-indent-mode)
 (add-hook 'css-mode-hook 'electric-indent-mode)
 
-(require 'meghanada)
-(add-hook 'java-mode-hook
-          (lambda ()
-            ;; meghanada-mode on
-            (meghanada-mode t)
-            (flycheck-mode +1)
-            (setq c-basic-offset 2)
-            ;; use code format
-            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
-(cond
-   ((eq system-type 'windows-nt)
-    (setq meghanada-java-path (expand-file-name "bin/java.exe" (getenv "JAVA_HOME")))
-    (setq meghanada-maven-path "mvn.cmd"))
-   (t
-    (setq meghanada-java-path "java")
-    (setq meghanada-maven-path "mvn")))
+(setq image-dired-external-viewer "/usr/bin/xviewer")
 
-(defun bgpape ()
-  "Starts the command to change desktop background"
-  (interactive)
-  (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) " > /dev/null 2>&1 &")))
-(add-hook 'dired-mode-hook '(lambda () 
-                              (local-set-key (kbd "b") 'bgpape)))
+(setq image-dired-thumb-margin 5)
 
-(use-package visual-regexp 
-	:ensure t 
-	:config
-	(define-key global-map (kbd "C-c r") 'vr/replace)
-	(define-key global-map (kbd "C-c q") 'vr/query-replace)
-	;; if you use multiple-cursors, this is for you:
-	(define-key global-map (kbd "C-c m") 'vr/mc-mark))
+(setq org-refile-active-region-within-subtree t)
+(setq org-refile-use-outline-path t)
 
-(setq-default display-line-numbers 'relative)
-
-(setq-default indent-tabs-mode nil)
-
-(use-package popup 
-	:ensure t 
-	:config 
-	(require 'popup)   
-	(require 'pos-tip) 
-	(eval-when-compile
-	  (require 'cl-lib))
-	(define-key popup-menu-keymap (kbd "C-n") nil)
-	(define-key popup-menu-keymap (kbd "C-p") nil) 
-	(define-key popup-menu-keymap (kbd "M-n") #'popup-next)
-	(define-key popup-menu-keymap (kbd "M-p") #'popup-previous))
-(global-set-key (kbd "C-x p") 'popup-kill-ring)
-
-(use-package ibuffer 
-	     	:ensure t 
-		:config 
-		(global-set-key (kbd "C-x C-b") 'ibuffer))
-
-(use-package beacon :ensure t :init (beacon-mode 1))
-
-(unless (package-installed-p 'use-package)
-  (package-refresh-contents)
-  (package-install 'use-package))
-
-(use-package avy
-  :ensure t
-  :bind
-  ("M-z" . avy-goto-char))
-
-(use-package hungry-delete
-  :ensure t
-)
-
-(use-package which-key
- :ensure t
- :init
- (which-key-mode))
-
-(global-set-key (kbd "M-H") 'shrink-window-horizontally)
-(global-set-key (kbd "M-L") 'enlarge-window-horizontally)
-(global-set-key (kbd "M-J") 'shrink-window)
-(global-set-key (kbd "M-K") 'enlarge-window)
-
-(defun disable-all-themes ()
-  "disable all active themes."
-  (dolist (i custom-enabled-themes)
-    (disable-theme i)))
-
-(defadvice load-theme (before disable-themes-first activate)
-  (disable-all-themes))
-
-(global-set-key (kbd "M-/") 'rgrep)
-
-
-
-(setq org-refile-targets '((org-agenda-files :maxlevel . 10)))
+(setq org-refile-targets '( 
+("~/.emacs.d/myinit.org" :maxlevel . 3)
+(org-agenda-files :maxlevel . 10)))
 
 (setq org-refile-allow-creating-parent-nodes 'confirm)
 
@@ -486,69 +404,30 @@
      (add-hook 'org-agenda-finalize-hook 'gg/entry-text-nix-empty-line)
 (setq org-use-fast-todo-selection t)
 
-(setq org-capture-templates
-      '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/inbox.org" "Unorganized")
-         "* TODO %?\n  %i\n  %a")
-        )  
-	)
-
-(global-set-key (kbd "C-c c") 'org-capture)
+;;/home/al/Dropbox/Sync/useful_linux_commands.org
+    (setq org-capture-templates
+          '(("t" "Todo" entry (file+headline "/home/al/Dropbox/Sync/inbox.org" "Unorganized")
+             "* TODO %?\n  %i\n  %a") 
+             ("l" "Notes for linux" entry(file "/home/al/Dropbox/Sync/useful_linux_commands.org"))
+             ("e" "Notes for emacs" entry(file "/home/al/Dropbox/Sync/useful_emacs_notes.org"))
+             ("i" "Notes for linux" entry(file "/home/al/Dropbox/Sync/useful_links_notes.org"))
+            )  
+	    ) 
+    (global-set-key (kbd "C-c c") 'org-capture)
 
 (setq org-agenda-files '(
 "~/Dropbox/Sync/daily_todo.org" 
 "~/Dropbox/Sync/exercise.org" 
 "~/Dropbox/Sync/priorities.org"   
-"~/Dropbox/Sync/islam_research.org"   
+"~/Dropbox/Sync/islam_research.org"    
 ))
-
-(setq c-default-style "linux"
-      c-basic-offset 4)
 
 (add-hook 'org-mode-hook 'auto-fill-mode)
 
 (setq org-agenda-default-appointment-duration 60)
 
-(set-face-attribute 'default nil :height 120)
-
-(global-set-key (kbd "M-@") 'split-window-below)  
-(global-set-key (kbd "M-#") 'split-window-right)  
-(global-set-key (kbd "M-$") 'delete-window)
-
-(use-package fill-column-indicator
-  :ensure t
-  )
-
-(setq delete-by-moving-to-trash t)
-
-(delete-selection-mode t)
-
-(setq kill-whole-line t)
-
-;; (setq-default tab-always-indent 'complete) 
-;; (defun my-insert-tab-char ()
-;;   "Insert a tab char. (ASCII 9, \t)"
-;;   (interactive)
-;;   (insert "\t"))(global-set-key (kbd "TAB") 'my-insert-tab-char) ; same as Ctrl+i
-
-(defun compile-key() 
-        (local-set-key [(f5)] 'recompile)
-) 
-(add-hook 'prog-mode-hook 'compile-key)
-
 (setq org-todo-keywords
       '((sequence "TODO(t)" "NEXT(n)" "INPROG(p)" "|" "CANCELLED(c!)" "DONE(d!)" )))
-
-(global-hl-line-mode t)
-
-(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) 
-(setq mouse-wheel-progressive-speed nil)
-(setq mouse-wheel-follow-mouse 't)
-(setq scroll-step 1)
-(setq scroll-conservatively 101)
-
-(toggle-scroll-bar 1)
-
-(setq scroll-preserve-screen-position 1)
 
 (with-eval-after-load 'ox-latex
 (add-to-list 'org-latex-classes
@@ -626,13 +505,103 @@ Version 2019-11-04"
          (lambda ($fpath) (let ((process-connection-type nil))
                             (start-process "" nil "xdg-open" $fpath))) $file-list))))))
 
-(add-hook 'c-mode-hook (lambda () (setq comment-start "//"
-                                comment-end   "")))
+(require 'cl)
+(use-package company 
+	:ensure t   
+	:init 
+	(add-hook 'after-init-hook 'global-company-mode)
+	:config 
+	(setq company-idle-delay 0.15)   
+	(setq company-minimum-prefix-length 2)
+	(setq company-selection-wrap-around t) 
+	(setq company-require-match 'never)  
+	(setq company-dabbrev-downcase nil)
+	(define-key company-active-map (kbd "C-n") nil) 
+	(define-key company-active-map (kbd "C-p") nil) 
+	(define-key company-active-map (kbd "M-n") #'company-select-next) 
+	(define-key company-active-map (kbd "M-p") #'company-select-previous) 
+	(add-to-list 'company-backends 'company-capf)
+	(add-to-list 'company-backends 'company-dabbrev)
+	(add-to-list 'company-backends 'company-nxml)
+	(add-to-list 'company-backends 'company-files) 
+	(add-to-list 'company-backends 'company-anaconda)) 
 
-(setq next-line-add-newlines 1)
+ (use-package company-irony
+	 :ensure t 
+	 :config  
+	 (add-to-list 'company-backends 'company-irony))
 
-(setq line-move-visual t)
+ (use-package irony 
+	 :ensure t 
+	 :config  
+	 (add-hook 'c++-mode-hook 'irony-mode)
+	 (add-hook 'c-mode-hook 'irony-mode)
+	 (add-hook 'objc-mode-hook 'irony-mode)
+	 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options))
 
-(setq visual-line-mode t)
+(use-package ido  
+	:ensure t
+	:config 
+	(ido-mode 1)  
+	(setq ido-enable-flex-matching t)
+	(setq ido-everywhere t)  
+	(setq ido-create-new-buffer nil) 
+	(setq ido-default-buffer-method 'selected-window) 
+	(setq ido-default-file-method 'selected-window)	 
+	)
 
-(global-visual-line-mode t )
+(use-package ido-vertical-mode 
+	:ensure t 
+	:config 
+	(ido-vertical-mode 1)
+	(setq ido-vertical-define-keys 'C-n-and-C-p-only))
+
+(use-package smex 
+	:ensure t
+	:init (smex-initialize) 
+	:bind ("M-x" . smex))
+
+(use-package elscreen-tab 
+	:ensure t 
+	:config  
+	(global-set-key (kbd "M-p") 'elscreen-next)
+	(global-set-key (kbd "M-P") 'elscreen-previous)
+	(global-set-key (kbd "C-c n") 'elscreen-create) 
+	(global-set-key (kbd "C-c d") 'elscreen-kill))
+
+(setq projectile-enable-caching t)
+(use-package projectile 
+	:ensure t 
+	:config 
+	(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)  
+	(setq projectile-enable-caching t)
+	(projectile-mode +1 ))
+
+(use-package multiple-cursors
+	:ensure t 
+	:config 
+	(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines) 
+	(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+	(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+	(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+	)
+
+(global-set-key (kbd "C-c b") 'bookmark-jump)  
+(global-set-key (kbd "C-c x") 'xah-open-in-external-app)
+
+(setq python-shell-interpreter "/usr/local/bin/python3.9")
+
+(defun bgpape ()
+  "Starts the command to change desktop background"
+  (interactive)
+  (shell-command (concat (concat "bgpape  " (dired-file-name-at-point)) " > /dev/null 2>&1 &")))
+(add-hook 'dired-mode-hook '(lambda () 
+                              (local-set-key (kbd "b") 'bgpape)))
+
+(defun disable-all-themes ()
+  "disable all active themes."
+  (dolist (i custom-enabled-themes)
+    (disable-theme i)))
+
+(defadvice load-theme (before disable-themes-first activate)
+  (disable-all-themes))

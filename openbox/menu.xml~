@@ -39,9 +39,6 @@
     <item label="Documents">
     <action name="Execute"><execute>thunar ~/Documents</execute></action>
     </item>
-    <item label="Dropbox">
-    <action name="Execute"><execute>thunar ~/Dropbox</execute></action>
-    </item>
     <item label="Git Projects">
     <action name="Execute"><execute>thunar ~/Documents/Git_Projects</execute></action>
     </item>

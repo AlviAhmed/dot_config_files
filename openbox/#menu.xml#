@@ -20,38 +20,18 @@
   <item label="Brave Browser">
     <action name="Execute"><execute>brave-browser</execute></action>
   </item>
-    <item label="Emacs Client">
-    <action name="Execute"><execute>emacsclient -n -create-frame --alternate-editor=""</execute></action>
-  </item>
   <item label="Thunar">
     <action name="Execute"><execute>thunar</execute></action>
   </item>
   <item label="Signal Desktop">
     <action name="Execute"><execute>signal-desktop</execute></action>
   </item>
-    <item label="Application Finder">
-    <action name="Execute"><execute>xfce4-appfinder</execute></action>
-    </item>
-    <item label="Printer Settings">
-    <action name="Execute"><execute>system-config-printer</execute></action>
-    </item>
+    <item label="">
+    <action name="Execute"><execute></execute></action>
+  </item>
   <separator />
-    <item label="Documents">
-    <action name="Execute"><execute>thunar ~/Documents</execute></action>
-    </item>
-    <item label="Dropbox">
-    <action name="Execute"><execute>thunar ~/Dropbox</execute></action>
-    </item>
-    <item label="Git Projects">
-    <action name="Execute"><execute>thunar ~/Documents/Git_Projects</execute></action>
-    </item>
-    <item label="Videos">
-    <action name="Execute"><execute>thunar ~/Videos</execute></action>
-    </item>
-    <item label="Music">
-    <action name="Execute"><execute>thunar ~/Music</execute></action>
-    </item>
-  <separator />
+
+
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
